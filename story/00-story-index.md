@@ -8,6 +8,7 @@
 |---|---|---|
 | `story/00-series-outline.md` | 六篇、36 集城市事件、人物选择、代价和片尾变化 | FOUNDATION-DRAFT |
 | `story/08-ensemble-finale-echo-matrix.md` | 普通职业能力在终局的回响与旧账规则 | FOUNDATION-DRAFT |
+| `story/01-causal-mystery-and-pacing-revision-v2.md` | 欧美式因果推进、韩剧式关系回报、六层悬疑梯与 36 集翻转矩阵 | FOUNDATION-DRAFT |
 | `story/drafts/01-microchapter-648-beatmap-v7-draft.md` | 648 个唯一微章 ID 与节拍位置草图 | SCAFFOLD-DRAFT |
 
 ## 微短章审核结论
