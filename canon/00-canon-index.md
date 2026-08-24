@@ -2,7 +2,7 @@
 
 > 顶层权威：`docs/superpowers/specs/2026-08-22-linan-spring-letter-master-design.md`
 >
-> 当前状态：`FOUNDATION-DRAFT`。本目录内容来自已审阅的 v7 扩展包，尚未通过 Canon Gate；不得反向覆盖顶层规格。
+> 当前状态：`FOUNDATION-REVIEW-READY`。本目录内容已通过确定性校验并生成 Canon Gate 输入清单，正式锁定仍需两位独立审读者签署；不得反向覆盖顶层规格。
 
 ## 已纳入的基础源
 
