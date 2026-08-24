@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "gate": "canon",
+  "scope": "canon",
+  "created_at": "2026-08-24T04:51:59.310711+00:00",
+  "items": [
+    {
+      "id": "CANON-001",
+      "path": "canon/00-canon-index.md",
+      "mode": "whole_file",
+      "projection_sha256": "4b207083d64c9532dd2f003e757178d2560c8d6f3fc4ac9364dcfd38a75e3162"
+    },
+    {
+      "id": "CANON-002",
+      "path": "canon/00-id-and-terms-registry.md",
+      "mode": "whole_file",
+      "projection_sha256": "52ef06effcdab68586581af3c3cd86386c00ca62f98a8b3e2c7ca8bdd3fb65b3"
+    },
+    {
+      "id": "CANON-003",
+      "path": "canon/01-world-bible.md",
+      "mode": "whole_file",
+      "projection_sha256": "dcb19f1071c3e1b41f39099d85499f5dc88095586ffefffba7ec23b2911aa633"
+    },
+    {
+      "id": "CANON-004",
+      "path": "canon/02-linan-city-atlas.md",
+      "mode": "whole_file",
+      "projection_sha256": "7e1b61b8b6c3f1966c8b6639406f616c83a0e0f6d5ccb830900cec1bec855965"
+    },
+    {
+      "id": "CANON-005",
+      "path": "canon/03-spring-letter-system.md",
+      "mode": "whole_file",
+      "projection_sha256": "5ea8834a9e25fc94d0102aa7fab85efc32ed4bdab5aa6c2853f2fcde63f2927a"
+    },
+    {
+      "id": "CANON-006",
+      "path": "canon/04-history-and-timeline.md",
+      "mode": "whole_file",
+      "projection_sha256": "129b98bbd9c06820baedc48fc3624e59c0093515f501858f5958c5a0d7c16957"
+    },
+    {
+      "id": "CANON-007",
+      "path": "canon/05-government-economy-and-daily-life.md",
+      "mode": "whole_file",
+      "projection_sha256": "40896c867ce56bfb94358e3b43136dc5411c2078d42d594f4618e97b6df6f4f2"
+    },
+    {
+      "id": "CANON-008",
+      "path": "canon/06-language-and-material-culture.md",
+      "mode": "whole_file",
+      "projection_sha256": "c51c8b960b2ad91ba2777f6379a104f156d8f0e9dc088b4cc24c8463f0178077"
+    },
+    {
+      "id": "CANON-009",
+      "path": "canon/city/00-city-index.md",
+      "mode": "whole_file",
+      "projection_sha256": "a5be944ffbf0aba78f10864e9198be183f4ecb949e7ec20cb54bd2c8faa799ed"
+    },
+    {
+      "id": "CANON-010",
+      "path": "canon/city/01-macro-geography-and-access.md",
+      "mode": "whole_file",
+      "projection_sha256": "890ff8c75730700ba5a8d8e1d04c04cdec81d974a896622e51461dacfad7e2b6"
+    },
+    {
+      "id": "CANON-011",
+      "path": "canon/city/02-waterways-drainage-and-floodworks.md",
+      "mode": "whole_file",
+      "projection_sha256": "ae3738d4bdd0bc849c237eb7013ba22e944c8cd43ae5650f7718b0d3528efd6b"
+    },
+    {
+      "id": "CANON-012",
+      "path": "canon/city/03-he-ming-lane-and-shen-shop.md",
+      "mode": "whole_file",
+      "projection_sha256": "9b2a282ce01205242c589b1d0726d159971f5186038a7b62ba19999c3bc3475c"
+    },
+    {
+      "id": "CANON-013",
+      "path": "canon/city/04-imperial-street-night-market-and-spring-stage.md",
+      "mode": "whole_file",
+      "projection_sha256": "7cedc842dba38af711bf4ebb6e9a6a6f9745a472c8144ab6f1313fb2f717f57c"
+    },
+    {
+      "id": "CANON-014",
+      "path": "canon/city/05-west-lake-and-xiling-circle.md",
+      "mode": "whole_file",
+      "projection_sha256": "bb2357051f0b662833873ddb2b5a9303dd298adf89977cc9ba6a05ac9128fd7f"
+    },
+    {
+      "id": "CANON-015",
+      "path": "canon/city/06-qiantang-docks-and-qingyao-routes.md",
+      "mode": "whole_file",
+      "projection_sha256": "fb580d52cf60a162cdfc15430d466c9458559fead63d022b6bae9a262c76f8a6"
+    },
+    {
+      "id": "CANON-016",
+      "path": "canon/city/07-government-granaries-gates-and-three-warehouses.md",
+      "mode": "whole_file",
+      "projection_sha256": "f9cb8657c58669f55c06fdb91a454c776fb257d14a99b41bb7e73f1e99feb9c3"
+    },
+    {
+      "id": "CANON-017",
+      "path": "canon/city/08-clinic-temple-guesthouse-and-refugee-camp.md",
+      "mode": "whole_file",
+      "projection_sha256": "e12fd7a288b87d66e61719eddb7392877bf48ef0bc244301a343c40a04c7d774"
+    },
+    {
+      "id": "CANON-018",
+      "path": "canon/city/09-travel-time-matrix.md",
+      "mode": "whole_file",
+      "projection_sha256": "5dcb600495433c8e2bf69669335726f38cdcdffccdc0b2f609691f96a5b798ce"
+    },
+    {
+      "id": "CANON-019",
+      "path": "canon/city/10-seasonal-location-state.md",
+      "mode": "whole_file",
+      "projection_sha256": "c40006737ab788dda5e974ea8b801caf342e653bf9361cbd221e52e1fabce2b9"
+    },
+    {
+      "id": "CANON-020",
+      "path": "canon/city/11-reusable-location-cards.md",
+      "mode": "whole_file",
+      "projection_sha256": "4f416c1a9dc6900b9986177227f863f09f6ba5dc3c7960cb6ee413f544c9cb84"
+    },
+    {
+      "id": "CANON-021",
+      "path": "canon/system/01-five-channel-observation.md",
+      "mode": "whole_file",
+      "projection_sha256": "5257e8668c69bf8caf56154a9ceb8f3234faebbdf4bc171cc09a07c77a375d38"
+    },
+    {
+      "id": "CANON-022",
+      "path": "canon/system/02-evidence-levels-no-spring-and-correction.md",
+      "mode": "whole_file",
+      "projection_sha256": "611df9e4886a5ba15a3aded0af86ea9b5d9accddfc143f49eb742fb70008b2f3"
+    },
+    {
+      "id": "CANON-023",
+      "path": "canon/system/03-transmission-privacy-and-access.md",
+      "mode": "whole_file",
+      "projection_sha256": "e030d62ed407e536688b76c949340fdd7eeae5ead5090ea5f8cf2a7e2ea8ed94"
+    },
+    {
+      "id": "CANON-024",
+      "path": "canon/system/04-lantern-signals-and-emergency-protocol.md",
+      "mode": "whole_file",
+      "projection_sha256": "9f810a32c7c239e37428488df5b65acf3b52aa42886effd6487bacf5836aad04"
+    },
+    {
+      "id": "CANON-025",
+      "path": "canon/system/05-y13-failure-and-y0-redesign.md",
+      "mode": "whole_file",
+      "projection_sha256": "c47444a46f26b9b08b9ad32f60ef4dd6d74e9cb33829929e8dd9416f9e74845d"
+    },
+    {
+      "id": "CANON-026",
+      "path": "canon/institutions/01-government-authority-matrix.md",
+      "mode": "whole_file",
+      "projection_sha256": "a24c0b21896f4f40531f8a23fd5ac37846c963682aca91484b2e3d7718fa61c2"
+    },
+    {
+      "id": "CANON-027",
+      "path": "canon/institutions/02-extraordinary-order-and-signatures.md",
+      "mode": "whole_file",
+      "projection_sha256": "93deeb2f1ac7548bd582d3ae40d5efe515ed01a2b215997e65ad6da05fa73383"
+    },
+    {
+      "id": "CANON-028",
+      "path": "canon/institutions/03-food-medicine-trade-and-storage.md",
+      "mode": "whole_file",
+      "projection_sha256": "2f2c001b2ad12718bad59970001a289b5b5d5c12afb7972021e06de0bd35de59"
+    },
+    {
+      "id": "CANON-029",
+      "path": "canon/institutions/04-water-sanitation-health-and-relief.md",
+      "mode": "whole_file",
+      "projection_sha256": "df04b2d0fc71b30ce1e5a477465b1137dd136a8ae822dd0e38689a9aa01ff14f"
+    },
+    {
+      "id": "CANON-030",
+      "path": "canon/institutions/05-y0-crisis-causal-chain.md",
+      "mode": "whole_file",
+      "projection_sha256": "4fbd07bfdaff2e96dfc8d1603b4bca8e14b5186879c50291bd5d98fdd5e08933"
+    },
+    {
+      "id": "CANON-031",
+      "path": "canon/institutions/06-postcrisis-public-information-charter.md",
+      "mode": "whole_file",
+      "projection_sha256": "3d15ae915063dada0c6428686ae896433ee985867b1ae731af5b194c9e124a66"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "spec": "docs/superpowers/specs/2026-08-22-linan-spring-letter-master-design.md",
+  "baseline_commit": "58b8385",
+  "character_counts": {
+    "L1": 5,
+    "L2": 4,
+    "L3": 3,
+    "A1": 8,
+    "A2": 8,
+    "A3": 8,
+    "B": 48,
+    "U": 120
+  },
+  "background_archetypes_minimum": 300,
+  "pov_quotas": {
+    "L1": 230,
+    "L2": 108,
+    "L3": 72,
+    "A1": 80,
+    "A2": 48,
+    "A3": 16,
+    "B": 72,
+    "U": 22
+  },
+  "story_counts": {
+    "arcs": 6,
+    "episodes": 36,
+    "microchapters_per_episode": 18,
+    "microchapters": 648,
+    "extension_cards": 120
+  },
+  "primary_function_quotas": {
+    "main_plot": 312,
+    "character_relationship": 204,
+    "daily_life": 132
+  },
+  "required_paths": {
+    "canon": [
+      "canon/00-canon-index.md",
+      "canon/00-id-and-terms-registry.md",
+      "canon/01-world-bible.md",
+      "canon/02-linan-city-atlas.md",
+      "canon/03-spring-letter-system.md",
+      "canon/04-history-and-timeline.md",
+      "canon/05-government-economy-and-daily-life.md",
+      "canon/06-language-and-material-culture.md",
+      "canon/city/00-city-index.md",
+      "canon/city/01-macro-geography-and-access.md",
+      "canon/city/02-waterways-drainage-and-floodworks.md",
+      "canon/city/03-he-ming-lane-and-shen-shop.md",
+      "canon/city/04-imperial-street-night-market-and-spring-stage.md",
+      "canon/city/05-west-lake-and-xiling-circle.md",
+      "canon/city/06-qiantang-docks-and-qingyao-routes.md",
+      "canon/city/07-government-granaries-gates-and-three-warehouses.md",
+      "canon/city/08-clinic-temple-guesthouse-and-refugee-camp.md",
+      "canon/city/09-travel-time-matrix.md",
+      "canon/city/10-seasonal-location-state.md",
+      "canon/city/11-reusable-location-cards.md",
+      "canon/system/01-five-channel-observation.md",
+      "canon/system/02-evidence-levels-no-spring-and-correction.md",
+      "canon/system/03-transmission-privacy-and-access.md",
+      "canon/system/04-lantern-signals-and-emergency-protocol.md",
+      "canon/system/05-y13-failure-and-y0-redesign.md",
+      "canon/institutions/01-government-authority-matrix.md",
+      "canon/institutions/02-extraordinary-order-and-signatures.md",
+      "canon/institutions/03-food-medicine-trade-and-storage.md",
+      "canon/institutions/04-water-sanitation-health-and-relief.md",
+      "canon/institutions/05-y0-crisis-causal-chain.md",
+      "canon/institutions/06-postcrisis-public-information-charter.md"
+    ]
+  }
+}

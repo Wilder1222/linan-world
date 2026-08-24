@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "timeline_order": [
+    "PRE-Y13", "Y-13", "Y0-OPEN", "ARC1-END", "ARC2-END", "ARC3-END",
+    "ARC4-END", "ARC5-END", "ARC6-END", "ENDING", "Y+1"
+  ],
+  "facts": [
+    {
+      "fact_id": "FORMAT.ARC_COUNT",
+      "value": 6,
+      "authority_path": "project-approved-spec.md",
+      "authority_anchor": "叙事交付",
+      "priority": 0,
+      "effective_from": "Y0-OPEN",
+      "effective_until": null,
+      "status": "ACTIVE",
+      "change_id": "CR-001"
+    },
+    {
+      "fact_id": "FORMAT.EPISODE_COUNT",
+      "value": 36,
+      "authority_path": "project-approved-spec.md",
+      "authority_anchor": "叙事交付",
+      "priority": 0,
+      "effective_from": "Y0-OPEN",
+      "effective_until": null,
+      "status": "ACTIVE",
+      "change_id": "CR-001"
+    },
+    {
+      "fact_id": "FORMAT.MICROCHAPTER_COUNT",
+      "value": 648,
+      "authority_path": "project-approved-spec.md",
+      "authority_anchor": "叙事交付",
+      "priority": 0,
+      "effective_from": "Y0-OPEN",
+      "effective_until": null,
+      "status": "ACTIVE",
+      "change_id": "CR-001"
+    },
+    {
+      "fact_id": "WORLD.SPRING_LETTER_IS_DISTRIBUTED",
+      "value": true,
+      "authority_path": "canon/00-canon-index.md",
+      "authority_anchor": "C0权威顺序",
+      "priority": 0,
+      "effective_from": "PRE-Y13",
+      "effective_until": null,
+      "status": "ACTIVE",
+      "change_id": "CR-002"
+    },
+    {
+      "fact_id": "TIMELINE.Y0_START",
+      "value": "惊蛰",
+      "authority_path": "canon/04-history-and-timeline.md",
+      "authority_anchor": "Y0-OPEN",
+      "priority": 1,
+      "effective_from": "Y0-OPEN",
+      "effective_until": null,
+      "status": "ACTIVE",
+      "change_id": "CR-002"
+    },
+    {
+      "fact_id": "TIMELINE.SEASON_END",
+      "value": "Y+1春分",
+      "authority_path": "canon/04-history-and-timeline.md",
+      "authority_anchor": "ENDING",
+      "priority": 1,
+      "effective_from": "ENDING",
+      "effective_until": null,
+      "status": "ACTIVE",
+      "change_id": "CR-002"
+    }
+  ]
+}
