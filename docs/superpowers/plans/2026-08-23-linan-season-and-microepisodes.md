@@ -1632,7 +1632,7 @@ git commit -m "story: lock season one causal matrix"
 | 8 | `story/03-arc-qiantang-undercurrent.md` | E13–E18 | 梅雨—大暑 | 粮水药合流、旧信被截、三仓与假船、钱塘夜战；裴九娘救人失账匣与青鹞 | `story: outline arc three Qiantang Undercurrent` |
 | 9 | `story/04-arc-osmanthus-human-world.md` | E19–E24 | 立秋—霜降 | 相亲、买簪、今日无事、桂花夜、北客与完整旧稿；陆清和公开丈夫错误 | `story: outline arc four Osmanthus Human World` |
 | 10 | `story/05-arc-linan-lockdown.md` | E25–E30 | 立冬—大寒 | 北战、流民、疫病、非常令、五人决裂、截粮与烧账；顾以疫图换医棚 | `story: outline arc five Linan Lockdown` |
-| 11 | `story/06-arc-ten-thousand-lanterns.md` | E31–E36 | 立春—春分 | 洪水、仓火、疫病、横向互助、四次纠错、制度转向与余生；所有牺牲兑现 | `story: outline arc six Ten Thousand Lanterns` |
+| 11 | `story/06-arc-ten-thousand-lanterns.md` | E31–E36 | 立春—春分 | 洪水、仓火、疫病、横向互助、含 E33“错灯”在内的四次纠错、制度转向与余生；所有牺牲兑现 | `story: outline arc six Ten Thousand Lanterns` |
 
 每篇固定步骤：
 
@@ -1659,7 +1659,7 @@ Expected: 每篇 `outline_episodes=6`、`allocated_card_slots=108`、档位与�
 - Create: `qa/reviews/season-causality-review.md`
 
 - [ ] **Step 1: 验证 36 个母集均有独立闭环和不可逆变化**
-- [ ] **Step 2: 验证 72 责任格、36 情感锚点、六篇牺牲、十步危机链、终局四次纠错，以及 120 名 U 的唯一姓名与实际事件身份**
+- [ ] **Step 2: 验证 72 责任格、36 情感锚点、六篇牺牲、十步危机链、终局四次纠错（其中至少一次为 E33“错灯”级联错配后由普通人发现并更正），以及 120 名 U 的唯一姓名与实际事件身份**
 - [ ] **Step 2A: 在 `qa/gates/scope-definitions/season.json` 冻结六篇季纲、36 集因果、POV/功能向量、责任与情感绑定及 120 名 U 的故事身份；648 个正文卡槽只冻结 ID/预算投影，正文状态仍为 `RESERVED`**
 - [ ] **Step 3: 运行 `python scripts/lock_gate.py --gate season --scope season --prepare`，生成本轮输入清单哈希**
 - [ ] **Step 4: Canon、人物、因果三名不同审读者分别在 TOML 头签署同一哈希；修正任何问题后重新准备并重新签署**
