@@ -83,7 +83,9 @@
       "qa/relationship-evidence.json",
       "qa/emotional-spines.json",
       "qa/reviews/character-foundation-review.md",
-      "qa/reviews/character-foundation-audit.json"
+      "qa/reviews/character-foundation-audit.json",
+      "qa/reviews/recurring-demographic-audit.json",
+      "qa/reviews/profile-state-chain-audit.json"
     ]
   }
 }

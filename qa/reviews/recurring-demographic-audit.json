@@ -1,0 +1,10 @@
+{
+  "status": "OPEN",
+  "scope": "P1 recurring demographic and occupation audit",
+  "reviewed": 48,
+  "findings": [],
+  "manual_review_required": [
+    "逐人确认年龄、家庭结构与职业阶段的南宋生活常识",
+    "确认生活圈地址可支持首次日常、职业动作和回访连续性"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "OPEN",
+  "scope": "P1 L/A observable state-chain audit",
+  "profile_total": 36,
+  "state_total": 360,
+  "findings": [],
+  "manual_review_required": [
+    "逐人确认每个状态的动作、空间、信息状态和关系变化能在镜头中执行",
+    "Season Gate 绑定状态到最终 episode/microchapter ID"
+  ]
+}

@@ -7,19 +7,46 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "characters/03-recurring-citizens-48.md"
 
-AGE_OVERRIDES = {"B004": 10, "B025": 15, "B034": 14, "B042": 13, "B047": 22}
+AGE_OVERRIDES = {
+    "B004": 10,  # source explicitly says 10 岁
+    "B006": 57,  # “锁叔”，听力衰退且有长期门户经验
+    "B007": 68,  # “独居煎饼老妇”
+    "B019": 25,  # “年轻船工”，仍在攒半条自己的船
+    "B025": 15,  # source explicitly says 15 岁
+    "B032": 58,  # “仓场老吏”，已接近退役经验段
+    "B034": 14,  # “递铺少年”
+    "B041": 70,  # “蒋阿婆”，北来失乡老人
+    "B042": 13,  # source explicitly says 13 岁
+    "B047": 22,  # “激进青年”
+    "B048": 62,  # “常伯”，前骡队赶车人、失乡老人
+}
 
 
 def parse_rows() -> dict[str, dict[str, str]]:
     rows: dict[str, dict[str, str]] = {}
+    section_residence = "临安市井生活圈"
+    section_map = {
+        "A": "鹤鸣巷与香药街",
+        "B": "春台瓦舍与夜市",
+        "C": "西泠书坊街",
+        "D": "钱塘码头与漕运",
+        "E": "停云酒肆、客舍与商旅",
+        "F": "城务司、临安府与军伍",
+        "G": "医馆、寺院与流民救济",
+        "H": "汇川行、北归社与城外仓运",
+    }
     for line in SOURCE.read_text(encoding="utf-8").splitlines():
+        heading = re.match(r"^##\s+([A-H])\.", line)
+        if heading:
+            section_residence = section_map[heading.group(1)]
+            continue
         match = re.match(r"^\|\s*(B\d{3})\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|$", line)
         if not match:
             continue
         short_id, name, occupation, wish_pressure, relations, echo = match.groups()
         rows[short_id] = {
             "name": name, "occupation": occupation, "wish_pressure": wish_pressure,
-            "relations": relations, "echo": echo,
+            "relations": relations, "echo": echo, "ecosystem": section_residence,
         }
     return rows
 
@@ -28,6 +55,12 @@ def age_for(short_id: str) -> int:
     if short_id in AGE_OVERRIDES:
         return AGE_OVERRIDES[short_id]
     return 22 + ((int(short_id[1:]) * 7) % 31)
+
+
+def age_basis(short_id: str) -> str:
+    if short_id in AGE_OVERRIDES:
+        return "基于名册称谓、明示年龄或职业/家庭阶段的生产推定；Character Foundation 人工审读确认。"
+    return "按生活圈职业与家庭阶段生成的生产推定；Character Foundation 人工审读确认。"
 
 
 def render(short_id: str, data: dict[str, str], roster_record: dict) -> str:
@@ -44,6 +77,7 @@ def render(short_id: str, data: dict[str, str], roster_record: dict) -> str:
     )
     if len(relations) < 2:
         relation_lines += "\n- REL-B-{0}-02：跨生活圈邻里关系，具体事件由 Season Gate 绑定。".format(short_id[1:])
+    residence = f"{data['ecosystem']}工作圈；具体摊位、住处与班次由 Season Gate 绑定"
     return f'''+++
 id = "{stable_id}"
 tier = "B"
@@ -51,7 +85,7 @@ name = "{name}"
 aliases = {alias_text}
 age_y0 = {age_for(short_id)}
 occupation = "{data["occupation"]}"
-residence = "由所在生活圈与工作时辰决定；Season Gate 绑定具体地点"
+residence = "{residence}"
 economic_source = "{data["occupation"]}的日常收入与临时活计"
 pov_budget = {roster_record["pov_budget"]}
 minimum_episode_coverage = 2
@@ -65,8 +99,10 @@ status = "FOUNDATION-DRAFT"
 ## 基础状态
 
 - 职业 / 身份：{data["occupation"]}。
+- 年龄依据：{age_basis(short_id)}
 - 小愿望与现实压力：{data["wish_pressure"]}。
 - 关系底稿：{data["relations"]}。
+- 生活圈：{data["ecosystem"]}；首次日常应在该生活圈内完成一个完整劳动流程，不能只以主线信息开场。
 - 常态行为：先完成眼前的劳动、交易、清洁、等待或照料，再决定是否介入别人的事；错误来自时间压力、信息缺口或生计压力，不来自愚蠢。
 - 行为资产：危机中的能力必须由此前展示的工具、身体记忆或职业流程产生；不突然获得主角权限。
 
