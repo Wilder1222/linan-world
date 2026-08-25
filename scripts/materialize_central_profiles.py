@@ -34,6 +34,24 @@ def source_sections() -> dict[str, str]:
     return result
 
 
+def section_text(source: str, heading: str) -> str:
+    match = re.search(rf"(?m)^###\s+{re.escape(heading)}\s*$\n(.*?)(?=^###\s+|\Z)", source, re.S)
+    if not match:
+        return ""
+    text = " ".join(line.strip() for line in match.group(1).splitlines()).strip()
+    # Source canon sections often already end with punctuation; generated cards
+    # add their own sentence boundary, so normalize only trailing separators.
+    return re.sub(r"[。；;\s]+$", "", text)
+
+
+def arc_texts(source: str, fallback_name: str) -> list[str]:
+    raw = section_text(source, "六篇成长弧")
+    parts = [re.sub(r"[。；;\s]+$", "", part.strip()) for part in re.split(r"[；;]", raw) if part.strip()]
+    if len(parts) >= 6:
+        return parts[:6]
+    return [f"{fallback_name}在第{index}篇完成一次目标、误判、选择、代价与状态移交。" for index in range(1, 7)]
+
+
 def render(person: tuple, source: str) -> str:
     stable_id, name, alias, age, occupation, residence, income, pov, coverage, slug, relation_people, spine = person
     aliases = f'["{alias}"]' if alias else "[]"
@@ -41,17 +59,18 @@ def render(person: tuple, source: str) -> str:
         f"- REL-NC-{stable_id[-2:]}-{index:02d} `{other}`：跨生活圈关系，首要证据待 Season Gate 绑定具体母集。"
         for index, other in enumerate(relation_people, start=1)
     )
+    arcs = arc_texts(source, name)
     states = [
-        ("Y-13", f"{name}在十三年前的生活位置已形成当前职业与债务；源稿记录为：{spine[0]}。"),
-        ("Y0-OPEN", f"面对春信重新出现，{name}的当季目标是：{spine[0]}。"),
-        ("ARC1-END", f"{name}第一次把个人经验转成可被他人复核的行为，仍保留错误可能。"),
-        ("ARC2-END", f"{name}在秩序、收入或关系压力下作出一次不完美选择，并承担可见损失。"),
-        ("ARC3-END", f"{name}承认原有判断不足，开始让另一个生活圈纠正自己。"),
-        ("ARC4-END", f"{name}短暂看见可以回到普通生活，但不再把安稳当作免除责任的理由。"),
-        ("ARC5-END", f"{name}失去一件具体的珍贵之物，且没有用一次道歉或胜利恢复原状。"),
-        ("ARC6-END", f"{name}在终局选择：{spine[1]}；职业能力产生公共回响，但旧账仍保留。"),
-        ("ENDING", f"结局画面：{name}回到自己的工作场所，用一个日常动作承认损失仍在，并继续做能做的事。"),
-        ("Y+1", f"一年后，{name}仍保留这次选择带来的新边界；关系可以改善，但不被写成自动和解。"),
+        ("Y-13", f"{section_text(source, '为什么形成这种坚守') or f'{name}在十三年前形成当前职业与债务。'}"),
+        ("Y0-OPEN", f"当季目标与所守之物：{section_text(source, '所守之物') or spine[0]}"),
+        ("ARC1-END", f"目标—误判—选择—代价—状态移交：{arcs[0]}"),
+        ("ARC2-END", f"目标—误判—选择—代价—状态移交：{arcs[1]}"),
+        ("ARC3-END", f"目标—误判—选择—代价—状态移交：{arcs[2]}"),
+        ("ARC4-END", f"目标—误判—选择—代价—状态移交：{arcs[3]}"),
+        ("ARC5-END", f"目标—误判—选择—代价—状态移交：{arcs[4]}"),
+        ("ARC6-END", f"目标—误判—选择—代价—状态移交：{arcs[5]}；终局职业回响为：{spine[1]}。"),
+        ("ENDING", f"{section_text(source, '结局') or f'{name}回到自己的工作场所，用一个日常动作承认损失仍在。'}"),
+        ("Y+1", f"一年后，{name}仍保留终局选择带来的新边界；关系改善必须有行为证据，不自动和解。"),
     ]
     state_text = "\n\n".join(f"### {state}\n{detail}" for state, detail in states)
     return f'''+++
@@ -85,8 +104,8 @@ status = "FOUNDATION-DRAFT"
 
 ## 内在与行为
 
-- 公开面具：源稿已记录的社会形象；镜头中不以单一情绪标签替代行为。
-- 隐藏经历与矛盾：{spine[0]}与“害怕失去掌控/被误解”的现实恐惧同时成立。
+- 公开面具：{section_text(source, '外在性格与公共面具') or '源稿已记录的社会形象；镜头中不以单一情绪标签替代行为。'}
+- 隐藏经历与矛盾：{section_text(source, '未承认的自己') or f'{spine[0]}与害怕失去掌控/被误解的现实恐惧同时成立。'}
 - 行为指纹：先看与职业相关的物件，再看人；压力升高时保留一个重复的职业动作；亲近并不自动等于同意。
 - 能力边界：只能使用档案中已展示的职业知识；不能突然获得血统、神秘力量、全知信息或未经训练的武力。
 - 不依赖台词的关心动作：在对方不知道时完成一次具体照料，但把选择权留回对方。
@@ -104,13 +123,13 @@ status = "FOUNDATION-DRAFT"
 
 ## 坚守七问
 
-1. 最想保护什么：{spine[0]}。
-2. 这种坚守为什么形成：来自职业训练、家庭经历和 Y-13 的具体后果，而非抽象口号。
-3. 在保护它时伤害过谁：最亲近或最依赖自己的人会先承担代价。
-4. 两件都正确的事冲突时选择什么：先公开风险与代价，再作可复核、可撤回的选择。
-5. 为此具体放弃什么：{spine[1]}以外的一项收入、名声、关系安全或政治机会。
-6. 谁会因此误解、怨恨或离开：至少一名亲近者和一名非中央关系对象保留异议。
-7. 即使没有回报，是否仍承认这个选择属于自己：是；结局不将正确选择兑换成奖励。
+1. 最想保护什么：{section_text(source, '所守之物') or spine[0]}。
+2. 这种坚守为什么形成：{section_text(source, '为什么形成这种坚守') or '来自职业训练、家庭经历和 Y-13 的具体后果，而非抽象口号。'}
+3. 在保护它时伤害过谁：{section_text(source, '为了坚守曾伤害谁') or '最亲近或最依赖自己的人会先承担代价。'}
+4. 两件都正确的事冲突时选择什么：{section_text(source, '两种正确冲突时的选择') or '先公开风险与代价，再作可复核、可撤回的选择。'}
+5. 为此具体放弃什么：{section_text(source, '必须舍弃') or spine[1]}。
+6. 谁会因此误解、怨恨或离开：{section_text(source, '谁会因此误解他 / 她') or '至少一名亲近者和一名非中央关系对象保留异议。'}
+7. 即使没有回报，是否仍承认这个选择属于自己：{section_text(source, '即使没有回报，是否仍承认这是自己的选择') or '是；结局不将正确选择兑换成奖励。'}
 
 ## 状态与选择链
 
