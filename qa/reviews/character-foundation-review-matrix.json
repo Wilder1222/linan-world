@@ -6,7 +6,8 @@
   "summary": {
     "profile_total": 84,
     "central_reviewed": 12,
-    "important_pending": 24,
+    "important_reviewed": 8,
+    "important_pending": 16,
     "recurring_pending": 48,
     "relationship_total": 17,
     "relationship_evidence_total": 136,
@@ -248,20 +249,18 @@
       "name": "沈三娘",
       "profile_path": "characters/important/chr-a1-01-shen-sanniang.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要逐人确认职业独立性、关系债务和五篇选择链的镜头可执行性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已逐人复核 A1 批次：职业动作、ARC1-5 具体目标/阻力/误判/选择/代价/关系移交、ARC6 选择证据与公共回响均与人物功能相符；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
     },
     {
       "id": "CHR-A1-02",
@@ -269,20 +268,18 @@
       "name": "周伯安",
       "profile_path": "characters/important/chr-a1-02-zhou-boan.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要逐人确认职业独立性、关系债务和五篇选择链的镜头可执行性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已逐人复核 A1 批次：职业动作、ARC1-5 具体目标/阻力/误判/选择/代价/关系移交、ARC6 选择证据与公共回响均与人物功能相符；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
     },
     {
       "id": "CHR-A1-03",
@@ -290,20 +287,18 @@
       "name": "余仲仁",
       "profile_path": "characters/important/chr-a1-03-yu-zhongren.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要逐人确认职业独立性、关系债务和五篇选择链的镜头可执行性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已逐人复核 A1 批次：职业动作、ARC1-5 具体目标/阻力/误判/选择/代价/关系移交、ARC6 选择证据与公共回响均与人物功能相符；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
     },
     {
       "id": "CHR-A1-04",
@@ -311,20 +306,18 @@
       "name": "顾念娘",
       "profile_path": "characters/important/chr-a1-04-gu-nianniang.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要逐人确认职业独立性、关系债务和五篇选择链的镜头可执行性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已逐人复核 A1 批次：职业动作、ARC1-5 具体目标/阻力/误判/选择/代价/关系移交、ARC6 选择证据与公共回响均与人物功能相符；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
     },
     {
       "id": "CHR-A1-05",
@@ -332,20 +325,18 @@
       "name": "许含章",
       "profile_path": "characters/important/chr-a1-05-xu-hanzhang.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要逐人确认职业独立性、关系债务和五篇选择链的镜头可执行性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已逐人复核 A1 批次：职业动作、ARC1-5 具体目标/阻力/误判/选择/代价/关系移交、ARC6 选择证据与公共回响均与人物功能相符；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
     },
     {
       "id": "CHR-A1-06",
@@ -353,20 +344,18 @@
       "name": "章允中",
       "profile_path": "characters/important/chr-a1-06-zhang-yunzhong.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要逐人确认职业独立性、关系债务和五篇选择链的镜头可执行性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已逐人复核 A1 批次：职业动作、ARC1-5 具体目标/阻力/误判/选择/代价/关系移交、ARC6 选择证据与公共回响均与人物功能相符；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
     },
     {
       "id": "CHR-A1-07",
@@ -374,20 +363,18 @@
       "name": "黎令仪",
       "profile_path": "characters/important/chr-a1-07-li-lingyi.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要逐人确认职业独立性、关系债务和五篇选择链的镜头可执行性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已逐人复核 A1 批次：职业动作、ARC1-5 具体目标/阻力/误判/选择/代价/关系移交、ARC6 选择证据与公共回响均与人物功能相符；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
     },
     {
       "id": "CHR-A1-08",
@@ -395,20 +382,18 @@
       "name": "曹肃",
       "profile_path": "characters/important/chr-a1-08-cao-su.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要逐人确认职业独立性、关系债务和五篇选择链的镜头可执行性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已逐人复核 A1 批次：职业动作、ARC1-5 具体目标/阻力/误判/选择/代价/关系移交、ARC6 选择证据与公共回响均与人物功能相符；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
     },
     {
       "id": "CHR-A2-01",
@@ -1977,11 +1962,11 @@
     }
   },
   "gate_blockers": [
-    "24 名 A 级人物尚未完成逐人生产审读",
+    "A2/A3 共 16 名重要人物尚未完成逐人生产审读",
     "48 名 B 级人物尚未完成生活圈抽样审读",
     "17 条关系的 Foundation 证据尚未完成选择改变性复核",
     "6 条情感脊柱的 36 个状态尚未完成压力测试",
     "U/BG 尚未进入下游 Gate 绑定"
   ],
-  "next_action": "完成 A 级人物审读，再按 8 个生活圈抽查 B 级人物；无阻断后再生成 Character Foundation Gate 证书。"
+  "next_action": "完成 A2/A3 级人物审读，再按 8 个生活圈抽查 B 级人物；同步完成关系证据与情感脊柱压力测试，无阻断后再生成 Character Foundation Gate 证书。"
 }

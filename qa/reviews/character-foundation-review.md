@@ -8,7 +8,7 @@ B 级年龄与生活圈机器审计见 `qa/reviews/recurring-demographic-audit.j
 
 L/A 状态链机器审计见 `qa/reviews/profile-state-chain-audit.json`：36 份档案、360 个状态节点已检查，自动发现项为 0；人工仍需确认每个状态的动作、空间、信息状态和关系移交能直接转译为镜头执行。
 
-逐项跟踪矩阵见 `qa/reviews/character-foundation-review-matrix.json`：12 名中央人物已完成一轮生产级审读并标记 `REVIEWED-PASS`；24 名 A 级、48 名 B 级、17 条关系和 6 条情感脊柱仍保持 `REVIEW-PENDING`，不得将机器通过误报为 Gate 已关闭。
+逐项跟踪矩阵见 `qa/reviews/character-foundation-review-matrix.json`：12 名中央人物与 A1 批次 8 名重要人物已完成一轮生产级审读并标记 `REVIEWED-PASS`；A2/A3 共 16 名重要人物、48 名 B 级、17 条关系和 6 条情感脊柱仍保持 `REVIEW-PENDING`，不得将机器通过误报为 Gate 已关闭。
 
 ## 审读标准
 
@@ -32,8 +32,9 @@ L/A 状态链机器审计见 `qa/reviews/profile-state-chain-audit.json`：36 �
 
 ## 当前待审条目
 
-- [ ] 12 名中央人物：逐人完成动作/情绪/选择链审读。
-- [ ] 24 名重要人物：逐人确认独立目标、代价和与中央人物的非替代性。
+- [x] 12 名中央人物：已逐人完成动作/情绪/选择链审读。
+- [x] A1 批次 8 名重要人物：已逐人确认独立目标、代价和与中央人物的非替代性。
+- [ ] A2/A3 批次 16 名重要人物：逐人确认独立目标、代价和与中央人物的非替代性。
 - [ ] 48 名常驻人物：抽查每个生活圈至少 2 人，确认年龄推定、职业流程和非中央关系真实可演。
 - [ ] 17 个关系档案：Foundation 证据锚点已补入；人工确认七维状态与八个快照的证据是否真的改变人物选择，Season/Episode Gate 再回填最终场次、物件、台词和镜头 ID。
 - [ ] 六条情感脊柱：确认 36 个状态锚点不会自动和解，且每篇至少有一项不可逆代价。

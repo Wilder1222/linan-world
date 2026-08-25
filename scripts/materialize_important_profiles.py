@@ -2,6 +2,8 @@ from __future__ import annotations
 
 from pathlib import Path
 
+from important_state_details import IMPORTANT_STATE_ARCS
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -65,6 +67,7 @@ DETAILS = {
 
 def state_detail(name: str, focus: str, choice: str, residence: str, relation_people: list[str], detail: dict, state: str) -> str:
     relation = relation_people[0] if relation_people else "非中央关系对象"
+    arc_details = IMPORTANT_STATE_ARCS.get(detail.get("stable_id", ""), [])
     if state == "Y-13":
         return (
             f"基线：{name}在{residence}以{detail['daily']}维持生活；{detail['shadow']}。"
@@ -74,6 +77,13 @@ def state_detail(name: str, focus: str, choice: str, residence: str, relation_pe
         return (
             f"目标：守住{focus}；阻力：{detail['trigger']}；误判：把自己的职业经验当成唯一可靠的顺序。"
             f"起始动作：{detail['sequence']}；关系位置：先向{relation}保留一部分事实。"
+        )
+    if state in {"ARC1-END", "ARC2-END", "ARC3-END", "ARC4-END", "ARC5-END"} and arc_details:
+        index = int(state[3]) - 1
+        target, obstacle, misjudgment, selected, cost, transfer = arc_details[index]
+        return (
+            f"目标：{target}；阻力：{obstacle}；误判：{misjudgment}；选择：{selected}；"
+            f"代价：{cost}；关系移交：{transfer}。"
         )
     if state == "ARC1-END":
         return (
@@ -123,6 +133,7 @@ def render(person: tuple) -> str:
     stable_id, name, age, occupation, residence, income, slug, relation_people, focus, choice = person
     tier = stable_id.split("-")[1]
     detail = DETAILS[stable_id]
+    detail = {**detail, "stable_id": stable_id}
     pov = {"A1": 10, "A2": 6, "A3": 2}[tier]
     coverage = {"A1": 12, "A2": 8, "A3": 4}[tier]
     relations = "\n".join(f"- REL-NC-{stable_id[-2:]}-{index:02d} `{other}`：{focus}的非中央关系证据，具体母集由 Season Gate 绑定。" for index, other in enumerate(relation_people, 1))
