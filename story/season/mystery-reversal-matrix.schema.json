@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Linan Spring Letter Mystery Reversal Matrix",
+  "type": "object",
+  "required": ["schema_version", "status", "scope", "entries", "episode_bindings", "next_gate"],
+  "properties": {
+    "schema_version": {"type": "integer", "const": 1},
+    "status": {"type": "string", "enum": ["SAMPLE-DRAFT", "REVIEWED-PASS", "LOCKED"]},
+    "scope": {"type": "string", "const": "P2 Season mystery and reversal matrix"},
+    "entries": {"type": "array", "minItems": 18, "items": {"$ref": "#/$defs/mystery"}},
+    "episode_bindings": {"type": "array", "minItems": 36, "maxItems": 36, "items": {"$ref": "#/$defs/binding"}},
+    "next_gate": {"type": "string", "minLength": 1}
+  },
+  "$defs": {
+    "mystery": {
+      "type": "object",
+      "required": ["mystery_id", "arc_id", "question", "planted_episode", "apparent_answer", "recheck_episode", "true_reframe", "cost_of_knowing", "information_owner", "audience_knowledge", "character_misread", "reframe_type", "reframe_episode", "arc_end_reveal_episode", "irreversible_reveal", "episode_refs"],
+      "properties": {
+        "mystery_id": {"type": "string", "pattern": "^MYS-[0-9]{3}$"},
+        "arc_id": {"type": "string", "pattern": "^ARC-[0-9]{2}$"},
+        "question": {"type": "string", "minLength": 1},
+        "planted_episode": {"type": "string", "pattern": "^S1-E[0-9]{2}$"},
+        "apparent_answer": {"type": "string", "minLength": 1},
+        "recheck_episode": {"type": "string", "pattern": "^S1-E[0-9]{2}$"},
+        "true_reframe": {"type": "string", "minLength": 1},
+        "cost_of_knowing": {"type": "string", "minLength": 1},
+        "information_owner": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "audience_knowledge": {"type": "string", "minLength": 1},
+        "character_misread": {"type": "string", "minLength": 1},
+        "reframe_type": {"type": "string", "minLength": 1},
+        "reframe_episode": {"type": "string", "pattern": "^S1-E[0-9]{2}$"},
+        "arc_end_reveal_episode": {"type": "string", "pattern": "^S1-E[0-9]{2}$"},
+        "irreversible_reveal": {"type": "string", "minLength": 1},
+        "episode_refs": {"type": "array", "minItems": 2, "items": {"type": "string", "pattern": "^S1-E[0-9]{2}$"}}
+      }
+    },
+    "binding": {
+      "type": "object",
+      "required": ["episode_id", "arc_id", "ids", "reversal_type"],
+      "properties": {
+        "episode_id": {"type": "string", "pattern": "^S1-E[0-9]{2}$"},
+        "arc_id": {"type": "string", "pattern": "^ARC-[0-9]{2}$"},
+        "ids": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^MYS-[0-9]{3}$"}},
+        "reversal_type": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}

@@ -1,0 +1,1590 @@
+{
+  "schema_version": 1,
+  "status": "SAMPLE-DRAFT",
+  "scope": "P2 Song-life activity matrix",
+  "entries": [
+    {
+      "binding_id": "ACT-BIND-01",
+      "activity_id": "EVT-018",
+      "episode_id": "S1-E01",
+      "arc_id": "ARC-01",
+      "activity": "修匣与补伞的旧物修复",
+      "historical_anchor": "沿用扩展库 EVT-018 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E01"
+        ],
+        "location_ids": [
+          "LOC-001",
+          "LOC-002"
+        ]
+      },
+      "modern_emotional_entry": "修复而非丢弃、手艺尊严与旧物承载的关系记忆",
+      "lead_characters": [
+        "CHR-A1-02",
+        "CHR-B-006",
+        "CHR-B-003"
+      ],
+      "relationship_ids": [
+        "REL-005",
+        "REL-001"
+      ],
+      "surface_goal": "修匣与补伞的旧物修复",
+      "obstacle": "修匣匠只愿说手艺、不愿卷入亡父旧案",
+      "relationship_delta": "沈蘅把修补痕迹从家务细节升级为时间证据",
+      "clue_delta": "修匣匠要求先写‘见过’而不是‘知道’",
+      "choice": "‘这是旧东西，补丁却是新的。’",
+      "state_transfer": "沈蘅不再把后仓当纯粹家内空间",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "补匣动作让母女都看见‘保存’并不等于‘不改变’",
+      "ending_button": "修补痕迹进入未核记录"
+    },
+    {
+      "binding_id": "ACT-BIND-02",
+      "activity_id": "EVT-002",
+      "episode_id": "S1-E02",
+      "arc_id": "ARC-01",
+      "activity": "夜市食担与小吃接力",
+      "historical_anchor": "沿用扩展库 EVT-002 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E02"
+        ],
+        "location_ids": [
+          "LOC-001",
+          "LOC-005"
+        ]
+      },
+      "modern_emotional_entry": "食品价格、服务劳动、探店欲望与看不见的供应链",
+      "lead_characters": [
+        "CHR-L2-02",
+        "CHR-L1-01",
+        "CHR-B-007"
+      ],
+      "relationship_ids": [
+        "REL-005"
+      ],
+      "surface_goal": "夜市食担与小吃接力",
+      "obstacle": "摊主怕说少一碗会被当成涨价或偷工",
+      "relationship_delta": "阿沅的生活观察获得沈蘅的待核标记",
+      "clue_delta": "阿沅先记录四日再把话说满",
+      "choice": "三处摊子的同样食材都少了一点",
+      "state_transfer": "阿沅开始坚持亲自回访而非只报纸面",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "沈蘅把‘少吃’与供应链连接，但不把人变成数字",
+      "ending_button": "生活基线成为下一次合报的入口"
+    },
+    {
+      "binding_id": "ACT-BIND-03",
+      "activity_id": "EVT-003",
+      "episode_id": "S1-E03",
+      "arc_id": "ARC-01",
+      "activity": "瓦舍说书与曲词改写",
+      "historical_anchor": "沿用扩展库 EVT-003 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E03"
+        ],
+        "location_ids": [
+          "LOC-006",
+          "LOC-009"
+        ]
+      },
+      "modern_emotional_entry": "内容创作、粉丝扩散、舆论节奏与作品归属",
+      "lead_characters": [
+        "CHR-L1-02",
+        "CHR-A1-04",
+        "CHR-L1-03"
+      ],
+      "relationship_ids": [
+        "REL-003",
+        "REL-002"
+      ],
+      "surface_goal": "瓦舍说书与曲词改写",
+      "obstacle": "班主要求柳十四照旧词唱，贵客的赏钱绑在安抚效果上",
+      "relationship_delta": "柳十四改曲，传播链第一次被人为打断",
+      "clue_delta": "柳把后台改词交给沈蘅，承认舞台动作也是证据",
+      "choice": "同一句还未唱出的词先被三桌客人说出",
+      "state_transfer": "顾念娘将当晚损失记入春台账而不抹掉柳的署名",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "柳十四失去贵客契约但保留听众判断空间",
+      "ending_button": "传播异常从耳语变成可追踪行为"
+    },
+    {
+      "binding_id": "ACT-BIND-04",
+      "activity_id": "EVT-017",
+      "episode_id": "S1-E04",
+      "arc_id": "ARC-01",
+      "activity": "书坊刻版与地图复核",
+      "historical_anchor": "沿用扩展库 EVT-017 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E04"
+        ],
+        "location_ids": [
+          "LOC-008",
+          "LOC-013"
+        ]
+      },
+      "modern_emotional_entry": "内容版权、转载署名与断章取义",
+      "lead_characters": [
+        "CHR-L1-03",
+        "CHR-A2-07",
+        "CHR-A2-08"
+      ],
+      "relationship_ids": [
+        "REL-002",
+        "REL-011"
+      ],
+      "surface_goal": "书坊刻版与地图复核",
+      "obstacle": "书坊只想交付可卖的整齐版本，工匠不愿承担地图错误",
+      "relationship_delta": "周砚之保留错误线并允许方书娘改图",
+      "clue_delta": "周先说比例不确定，再让工匠指出渠壁接缝",
+      "choice": "新版地图少了一条真实存在的支渠",
+      "state_transfer": "后来所有地图必须保留版本与更正痕迹",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "周失去一次独署机会，但地图获得可修正性",
+      "ending_button": "空间异常指向城外仓区排水"
+    },
+    {
+      "binding_id": "ACT-BIND-05",
+      "activity_id": "EVT-020",
+      "episode_id": "S1-E05",
+      "arc_id": "ARC-01",
+      "activity": "水上茶摊与船户交易",
+      "historical_anchor": "沿用扩展库 EVT-020 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E05"
+        ],
+        "location_ids": [
+          "LOC-010",
+          "LOC-011",
+          "LOC-012"
+        ]
+      },
+      "modern_emotional_entry": "物流中间人、现金流、熟人交易与合同风险",
+      "lead_characters": [
+        "CHR-L1-04",
+        "CHR-B-019",
+        "CHR-L1-05"
+      ],
+      "relationship_ids": [
+        "REL-004",
+        "REL-001"
+      ],
+      "surface_goal": "水上茶摊与船户交易",
+      "obstacle": "船帮旧人把所有异常归因于裴九娘旧失信",
+      "relationship_delta": "裴九娘先交水路记录，阻止顾行舟替她辩护",
+      "clue_delta": "她让脚夫先说身体记忆，再补自己的旧账",
+      "choice": "船户把‘到达’改成‘看见船’",
+      "state_transfer": "青鹞被列入后续查验名单",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "裴选择证据先行而不是先洗清名声",
+      "ending_button": "水信与香信第一次闭合"
+    },
+    {
+      "binding_id": "ACT-BIND-06",
+      "activity_id": "EVT-023",
+      "episode_id": "S1-E06",
+      "arc_id": "ARC-01",
+      "activity": "儿童纸鸢与街巷游戏",
+      "historical_anchor": "沿用扩展库 EVT-023 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E06"
+        ],
+        "location_ids": [
+          "LOC-001",
+          "LOC-015"
+        ]
+      },
+      "modern_emotional_entry": "儿童视角、家庭陪伴与被忽略的小观察",
+      "lead_characters": [
+        "CHR-B-004",
+        "CHR-B-019",
+        "CHR-L1-01"
+      ],
+      "relationship_ids": [
+        "REL-G01"
+      ],
+      "surface_goal": "儿童纸鸢与街巷游戏",
+      "obstacle": "大人认为孩子的空间记忆只是游戏，不愿写入记录",
+      "relationship_delta": "沈蘅把孩子说的地点标作亲见、而非笑话",
+      "clue_delta": "阿七先想替孩子解释，孩子反过来纠正他",
+      "choice": "纸鸢一直飞向地图上不存在的渠",
+      "state_transfer": "沈蘅接受未来会被普通人纠正",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "五信汇总多了一个不带解释的普通节点",
+      "ending_button": "民间观察不再只由五位核心人物提供"
+    },
+    {
+      "binding_id": "ACT-BIND-07",
+      "activity_id": "EVT-022",
+      "episode_id": "S1-E07",
+      "arc_id": "ARC-02",
+      "activity": "画舫雅集与棋局",
+      "historical_anchor": "沿用扩展库 EVT-022 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E07"
+        ],
+        "location_ids": [
+          "LOC-007",
+          "LOC-009"
+        ]
+      },
+      "modern_emotional_entry": "圈层社交、职场饭局与输赢背后的权力交换",
+      "lead_characters": [
+        "CHR-L3-01",
+        "CHR-L1-01",
+        "CHR-L2-04"
+      ],
+      "relationship_ids": [
+        "REL-001",
+        "REL-012"
+      ],
+      "surface_goal": "画舫雅集与棋局",
+      "obstacle": "棋局主人把物流难题当成胜负，不愿让外行插话",
+      "relationship_delta": "宋用一局棋和一批储备同时证明集中决策的速度",
+      "clue_delta": "沈蘅承认有效，却追问输棋后谁能改局",
+      "choice": "少一枚棋子却没人承认拿走",
+      "state_transfer": "沈蘅下一次不能把宋简单写成反派",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "能力上的敬意上升，制度上的警惕也上升",
+      "ending_button": "E07的局部救援获得可见正回报"
+    },
+    {
+      "binding_id": "ACT-BIND-08",
+      "activity_id": "EVT-005",
+      "episode_id": "S1-E08",
+      "arc_id": "ARC-02",
+      "activity": "西湖画舫夜游",
+      "historical_anchor": "沿用扩展库 EVT-005 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E08"
+        ],
+        "location_ids": [
+          "LOC-007",
+          "LOC-010"
+        ]
+      },
+      "modern_emotional_entry": "旅行约会、私人空间边界与城市夜景下的孤独",
+      "lead_characters": [
+        "CHR-L1-03",
+        "CHR-L1-02",
+        "CHR-L1-04"
+      ],
+      "relationship_ids": [
+        "REL-002"
+      ],
+      "surface_goal": "西湖画舫夜游",
+      "obstacle": "三条船同时熄灯，船夫只承认自己看见方向不承认意图",
+      "relationship_delta": "柳十四用席位和曲目补足周砚之的图证",
+      "clue_delta": "周先允许柳解释买画人的社交位置",
+      "choice": "一条船驶向不该去的桥下",
+      "state_transfer": "旧水图的版本差异被列为后续核验点",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "二人关系从欣赏转为允许对方解释自己的专业",
+      "ending_button": "失画局部证明地下水道可接仓区"
+    },
+    {
+      "binding_id": "ACT-BIND-09",
+      "activity_id": "EVT-016",
+      "episode_id": "S1-E09",
+      "arc_id": "ARC-02",
+      "activity": "香铺合香与药材辨认",
+      "historical_anchor": "沿用扩展库 EVT-016 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E09"
+        ],
+        "location_ids": [
+          "LOC-016",
+          "LOC-003"
+        ]
+      },
+      "modern_emotional_entry": "美妆香水、个人形象、女性劳动与别人如何定义我",
+      "lead_characters": [
+        "CHR-L2-03",
+        "CHR-L2-02",
+        "CHR-A1-03"
+      ],
+      "relationship_ids": [
+        "REL-010"
+      ],
+      "surface_goal": "香铺合香与药材辨认",
+      "obstacle": "余仲仁要求青禾先别把少量样本说成疫，阿沅不愿被当成闲话",
+      "relationship_delta": "青禾把阿沅记录标为生活观察并保留来源",
+      "clue_delta": "她先写‘谁没来’，再写‘可能为何没来’",
+      "choice": "同一味白芷在贵宅和小济堂被不同方式囤起",
+      "state_transfer": "病例簿增加‘生活观察’栏",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "青禾承认生活数据的价值，同时保留医证边界",
+      "ending_button": "匿名囤药疑报进入下一集"
+    },
+    {
+      "binding_id": "ACT-BIND-10",
+      "activity_id": "EVT-019",
+      "episode_id": "S1-E10",
+      "arc_id": "ARC-02",
+      "activity": "客舍落脚与行李寄存",
+      "historical_anchor": "沿用扩展库 EVT-019 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E10"
+        ],
+        "location_ids": [
+          "LOC-017",
+          "LOC-018"
+        ]
+      },
+      "modern_emotional_entry": "租住、迁徙、临时身份与异乡人的安全感",
+      "lead_characters": [
+        "CHR-L1-05",
+        "CHR-A1-05",
+        "CHR-L1-01"
+      ],
+      "relationship_ids": [
+        "REL-001"
+      ],
+      "surface_goal": "客舍落脚与行李寄存",
+      "obstacle": "顾行舟只给半卷，许含章要求不把幸存者床位写成公开名单",
+      "relationship_delta": "沈蘅发现知情权与隐私保护必须同时存在",
+      "clue_delta": "顾先说明风险，再把是否继续看的决定交回沈蘅",
+      "choice": "一间空房每天有人交钱却无人睡",
+      "state_transfer": "后续旧案记录需标隐私等级",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "沈与顾的信任下降但边界第一次说清",
+      "ending_button": "残页里的水信成为下一追问"
+    },
+    {
+      "binding_id": "ACT-BIND-11",
+      "activity_id": "EVT-004",
+      "episode_id": "S1-E11",
+      "arc_id": "ARC-02",
+      "activity": "茶坊点茶与斗茶",
+      "historical_anchor": "沿用扩展库 EVT-004 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E11"
+        ],
+        "location_ids": [
+          "LOC-009",
+          "LOC-013"
+        ]
+      },
+      "modern_emotional_entry": "圈层品味、专业技能被消费与第一次约会的沉默",
+      "lead_characters": [
+        "CHR-L3-01",
+        "CHR-L1-01",
+        "CHR-L2-04"
+      ],
+      "relationship_ids": [
+        "REL-012",
+        "REL-014"
+      ],
+      "surface_goal": "茶坊点茶与斗茶",
+      "obstacle": "茶博士只讲水，不愿回答官署是否换过水路",
+      "relationship_delta": "沈蘅承认集中调度确实救下局部饮水",
+      "clue_delta": "她不争‘谁对’，只追问‘谁能改’",
+      "choice": "最好的茶汤先在一盏中沉底",
+      "state_transfer": "宋惟敬开始把纠错问题视作权威挑战",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "能力敬意增加，沈对最终判断者的警惕增加",
+      "ending_button": "摘要差异进入章允中的文书线"
+    },
+    {
+      "binding_id": "ACT-BIND-12",
+      "activity_id": "EVT-020",
+      "episode_id": "S1-E12",
+      "arc_id": "ARC-02",
+      "activity": "旧船帮水上交易",
+      "historical_anchor": "沿用扩展库 EVT-020 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E12"
+        ],
+        "location_ids": [
+          "LOC-010",
+          "LOC-011"
+        ]
+      },
+      "modern_emotional_entry": "物流中间人、现金流、熟人交易与合同风险",
+      "lead_characters": [
+        "CHR-L1-04",
+        "CHR-L1-05",
+        "CHR-A1-08"
+      ],
+      "relationship_ids": [
+        "REL-004",
+        "REL-001"
+      ],
+      "surface_goal": "旧船帮水上交易",
+      "obstacle": "旧船帮要求裴一次性公开全部，顾担心伤到仍活着的人",
+      "relationship_delta": "裴九娘只公开截信事实，不公开幸存者身份",
+      "clue_delta": "她把信暂存受保护处并接受继续背负污名",
+      "choice": "旧船记号连接城务司前身",
+      "state_transfer": "后续任何来源公开都要标注隐私代价",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "裴保留保护权，沈理解证据有隐私边界",
+      "ending_button": "截信进入制度史而非个人洗冤"
+    },
+    {
+      "binding_id": "ACT-BIND-13",
+      "activity_id": "EVT-007",
+      "episode_id": "S1-E13",
+      "arc_id": "ARC-03",
+      "activity": "钱塘观潮与堤岸看客",
+      "historical_anchor": "沿用扩展库 EVT-007 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E13"
+        ],
+        "location_ids": [
+          "LOC-010",
+          "LOC-012"
+        ]
+      },
+      "modern_emotional_entry": "危险打卡、公共安全与知道风险仍想靠近",
+      "lead_characters": [
+        "CHR-A2-05",
+        "CHR-A2-06",
+        "CHR-L1-03"
+      ],
+      "relationship_ids": [
+        "REL-011"
+      ],
+      "surface_goal": "钱塘观潮与堤岸看客",
+      "obstacle": "堤岸看客只想看潮，官吏认为劳动者经验不可证",
+      "relationship_delta": "周砚之把鱼种、渡船耗时和水位画到一张图上",
+      "clue_delta": "他保留每条经验的原话而不替它们下结论",
+      "choice": "所有人等潮，只有一只空船逆潮回来",
+      "state_transfer": "后续地图必须允许无文字证据进入",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "职业身体经验进入疑报，周的图从作品变成共同记录",
+      "ending_button": "错潮连接城南排水"
+    },
+    {
+      "binding_id": "ACT-BIND-14",
+      "activity_id": "EVT-020",
+      "episode_id": "S1-E14",
+      "arc_id": "ARC-03",
+      "activity": "船户交易与三仓交接",
+      "historical_anchor": "沿用扩展库 EVT-020 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E14"
+        ],
+        "location_ids": [
+          "LOC-010",
+          "LOC-014"
+        ]
+      },
+      "modern_emotional_entry": "物流中间人、现金流、熟人交易与合同风险",
+      "lead_characters": [
+        "CHR-L1-04",
+        "CHR-A2-05",
+        "CHR-A1-07"
+      ],
+      "relationship_ids": [
+        "REL-009"
+      ],
+      "surface_goal": "船户交易与三仓交接",
+      "obstacle": "黎令仪先为养父寻找集中储备的合理解释",
+      "relationship_delta": "她复制一页内部账却暂不交出",
+      "clue_delta": "先保存原件位置和页码，再决定是否背叛",
+      "choice": "满船粮的肩膀记忆比账轻",
+      "state_transfer": "内部账复制行为留下时间与风险",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "黎令仪在爱仍完整时完成第一次背叛",
+      "ending_button": "第三仓空白成为下一集追问"
+    },
+    {
+      "binding_id": "ACT-BIND-15",
+      "activity_id": "EVT-024",
+      "episode_id": "S1-E15",
+      "arc_id": "ARC-03",
+      "activity": "食铺家庭餐与谁少吃了一碗",
+      "historical_anchor": "沿用扩展库 EVT-024 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E15"
+        ],
+        "location_ids": [
+          "LOC-001",
+          "LOC-016",
+          "LOC-018"
+        ]
+      },
+      "modern_emotional_entry": "照护劳动、食欲压力与用饭量表达情绪",
+      "lead_characters": [
+        "CHR-L2-02",
+        "CHR-L2-03",
+        "CHR-A1-03"
+      ],
+      "relationship_ids": [
+        "REL-010"
+      ],
+      "surface_goal": "食铺家庭餐与谁少吃了一碗",
+      "obstacle": "阿沅先说‘井水有毒’引发恐慌，青禾也缺乏因果证据",
+      "relationship_delta": "两人沿原路线逐户更正并留下前判有误",
+      "clue_delta": "阿沅把热汤带到门口而不是继续喊结论",
+      "choice": "每天三副碗却只有两个人吃",
+      "state_transfer": "饭量记录增加亲见/转闻/推断三栏",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "生活基线与病例形成合报，羞耻成为纠错能力",
+      "ending_button": "井水问题从传闻升级为可复核区域异常"
+    },
+    {
+      "binding_id": "ACT-BIND-16",
+      "activity_id": "EVT-020",
+      "episode_id": "S1-E16",
+      "arc_id": "ARC-03",
+      "activity": "青鹞过水与船户救援",
+      "historical_anchor": "沿用扩展库 EVT-020 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E16"
+        ],
+        "location_ids": [
+          "LOC-011",
+          "LOC-012"
+        ]
+      },
+      "modern_emotional_entry": "物流中间人、现金流、熟人交易与合同风险",
+      "lead_characters": [
+        "CHR-L1-04",
+        "CHR-B-019",
+        "CHR-L1-05"
+      ],
+      "relationship_ids": [
+        "REL-004",
+        "REL-001"
+      ],
+      "surface_goal": "青鹞过水与船户救援",
+      "obstacle": "一名乘客落水，账匣与救人只能先选一个",
+      "relationship_delta": "裴九娘先救人，青鹞受损，证据形态改变",
+      "clue_delta": "顾行舟不安慰，只陪她修一段绳",
+      "choice": "沉下去的账匣封签被落水者记住",
+      "state_transfer": "青鹞破损状态持续到后续集",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "裴承担证据链中断和船损，关系以共同劳动而非劝慰推进",
+      "ending_button": "封签记忆指向汇川行内仓号"
+    },
+    {
+      "binding_id": "ACT-BIND-17",
+      "activity_id": "EVT-018",
+      "episode_id": "S1-E17",
+      "arc_id": "ARC-03",
+      "activity": "装裱与旧账修复",
+      "historical_anchor": "沿用扩展库 EVT-018 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E17"
+        ],
+        "location_ids": [
+          "LOC-014",
+          "LOC-013"
+        ]
+      },
+      "modern_emotional_entry": "修复而非丢弃、手艺尊严与旧物承载的关系记忆",
+      "lead_characters": [
+        "CHR-A2-05",
+        "CHR-A1-03",
+        "CHR-A1-07"
+      ],
+      "relationship_ids": [
+        "REL-015",
+        "REL-009"
+      ],
+      "surface_goal": "装裱与旧账修复",
+      "obstacle": "石六怕失去行会，许九章怕丢吏籍",
+      "relationship_delta": "两人保留原始材料而不替账本重抄",
+      "clue_delta": "先让最不敢说的人说出第一句",
+      "choice": "账上足额、肩上不足",
+      "state_transfer": "原件保留成为E28可追责依据",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "民间身体证据与官署原件互证",
+      "ending_button": "黎令仪确认账不是写错而是被制造"
+    },
+    {
+      "binding_id": "ACT-BIND-18",
+      "activity_id": "EVT-008",
+      "episode_id": "S1-E18",
+      "arc_id": "ARC-03",
+      "activity": "寺院施粥与合报队列",
+      "historical_anchor": "沿用扩展库 EVT-008 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E18"
+        ],
+        "location_ids": [
+          "LOC-016",
+          "LOC-018"
+        ]
+      },
+      "modern_emotional_entry": "公益分流、排队公平与慈善是否制造新的羞辱",
+      "lead_characters": [
+        "CHR-L1-01",
+        "CHR-L2-02",
+        "CHR-L2-03",
+        "CHR-A3-08"
+      ],
+      "relationship_ids": [
+        "REL-G01"
+      ],
+      "surface_goal": "寺院施粥与合报队列",
+      "obstacle": "排队者需要今天的粥，记录者需要不把人简化成数量",
+      "relationship_delta": "沈蘅写‘合报’而不写‘无春’",
+      "clue_delta": "她先安排分流，再听每一列谁没有来",
+      "choice": "最后一列没有人却有人每天替领",
+      "state_transfer": "合报文档保留反例与未知项",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "团队从共同兴奋转为价值分裂",
+      "ending_button": "宋惟敬收到独立合报并加速集中控制"
+    },
+    {
+      "binding_id": "ACT-BIND-19",
+      "activity_id": "EVT-011",
+      "episode_id": "S1-E19",
+      "arc_id": "ARC-04",
+      "activity": "桂花秋市与赏桂",
+      "historical_anchor": "沿用扩展库 EVT-011 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E19"
+        ],
+        "location_ids": [
+          "LOC-005",
+          "LOC-002"
+        ]
+      },
+      "modern_emotional_entry": "节日消费、短暂幸福与想停下来却停不下来的工作",
+      "lead_characters": [
+        "CHR-L1-01",
+        "CHR-L1-05",
+        "CHR-L2-02"
+      ],
+      "relationship_ids": [
+        "REL-001"
+      ],
+      "surface_goal": "桂花秋市与赏桂",
+      "obstacle": "秋市的香、粮和药路线仍在重叠，谁都不愿先开口",
+      "relationship_delta": "阿沅拒绝相看，沈蘅收下一味不合季的药香",
+      "clue_delta": "顾行舟问今晚能否不查，沈只把香囊收进袖中",
+      "choice": "满城桂香里混进不属于秋季的药材",
+      "state_transfer": "人物各自带着未说出口问题进入E20",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "普通生活变成有代价的选择，不是阴谋暂停键",
+      "ending_button": "新粮入城表象制造危机过去的误读"
+    },
+    {
+      "binding_id": "ACT-BIND-20",
+      "activity_id": "EVT-019",
+      "episode_id": "S1-E20",
+      "arc_id": "ARC-04",
+      "activity": "客舍登记与流民愿望",
+      "historical_anchor": "沿用扩展库 EVT-019 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E20"
+        ],
+        "location_ids": [
+          "LOC-017",
+          "LOC-018"
+        ]
+      },
+      "modern_emotional_entry": "租住、迁徙、临时身份与异乡人的安全感",
+      "lead_characters": [
+        "CHR-L3-03",
+        "CHR-A1-05",
+        "CHR-B-014",
+        "CHR-B-015"
+      ],
+      "relationship_ids": [
+        "REL-016"
+      ],
+      "surface_goal": "客舍登记与流民愿望",
+      "obstacle": "贺兰度想记住共同北方，许含章坚持记录每个不同的人",
+      "relationship_delta": "贺兰度被具体流民当面拒绝，许含章不替他解围",
+      "clue_delta": "先问‘你想去哪’，再记政治口号",
+      "choice": "一张名单上有人不肯写故乡",
+      "state_transfer": "后续名单不得把流民愿望合并为单一类别",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "关系从保护变成政治裂痕，身份被重新定义",
+      "ending_button": "激进青年提出截粮计划"
+    },
+    {
+      "binding_id": "ACT-BIND-21",
+      "activity_id": "EVT-017",
+      "episode_id": "S1-E21",
+      "arc_id": "ARC-04",
+      "activity": "书坊刻版与画院帖",
+      "historical_anchor": "沿用扩展库 EVT-017 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E21"
+        ],
+        "location_ids": [
+          "LOC-008",
+          "LOC-013"
+        ]
+      },
+      "modern_emotional_entry": "内容版权、转载署名与断章取义",
+      "lead_characters": [
+        "CHR-L1-03",
+        "CHR-A2-07",
+        "CHR-L1-02"
+      ],
+      "relationship_ids": [
+        "REL-011"
+      ],
+      "surface_goal": "书坊刻版与画院帖",
+      "obstacle": "周砚之想兼得名位与民用图，程野老逼他承认野心",
+      "relationship_delta": "周接受招录但保留道路图版本",
+      "clue_delta": "他不把‘以后还能改’当成现在无需选择的借口",
+      "choice": "新刻本删掉一个落款字",
+      "state_transfer": "画院版本与民间版本并行记录",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "周的野心被允许存在，柳的敬意与不安同时上升",
+      "ending_button": "官署要求更完整的民间道路图"
+    },
+    {
+      "binding_id": "ACT-BIND-22",
+      "activity_id": "EVT-003",
+      "episode_id": "S1-E22",
+      "arc_id": "ARC-04",
+      "activity": "瓦舍新曲与本名署名",
+      "historical_anchor": "沿用扩展库 EVT-003 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E22"
+        ],
+        "location_ids": [
+          "LOC-006",
+          "LOC-008"
+        ]
+      },
+      "modern_emotional_entry": "内容创作、粉丝扩散、舆论节奏与作品归属",
+      "lead_characters": [
+        "CHR-L1-02",
+        "CHR-A1-04",
+        "CHR-L1-03"
+      ],
+      "relationship_ids": [
+        "REL-002"
+      ],
+      "surface_goal": "瓦舍新曲与本名署名",
+      "obstacle": "顾念娘担心戏班生计，掌声又确实是柳的收入",
+      "relationship_delta": "柳用本名署新曲，失去头牌位置",
+      "clue_delta": "她承认喜欢掌声但不让掌声决定说什么",
+      "choice": "私抄版本先于官方版本传开",
+      "state_transfer": "后续传播要区分作者、转抄者与改写者",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "关系从舞台控制转向作品所有权与共同承担",
+      "ending_button": "信息脱离春台控制"
+    },
+    {
+      "binding_id": "ACT-BIND-23",
+      "activity_id": "EVT-012",
+      "episode_id": "S1-E23",
+      "arc_id": "ARC-04",
+      "activity": "中秋家宴与旧稿分食",
+      "historical_anchor": "沿用扩展库 EVT-012 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E23"
+        ],
+        "location_ids": [
+          "LOC-002",
+          "LOC-009"
+        ]
+      },
+      "modern_emotional_entry": "异地家庭、饭桌沉默、团聚与谁有资格缺席",
+      "lead_characters": [
+        "CHR-L1-01",
+        "CHR-L2-01",
+        "CHR-A2-03"
+      ],
+      "relationship_ids": [
+        "REL-005",
+        "REL-006"
+      ],
+      "surface_goal": "中秋家宴与旧稿分食",
+      "obstacle": "母女都想说父亲，却先要决定谁可以缺席",
+      "relationship_delta": "沈蘅不再找翻案证据，陆清和交出完整手稿",
+      "clue_delta": "两人先分一块月饼，再给旧稿贴标签",
+      "choice": "缺席者的月饼被带走，留下半张地址",
+      "state_transfer": "手稿标签状态持续到终局",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "母女没有和好但获得共同工作方法",
+      "ending_button": "旧稿提到周伯安反对过早升级"
+    },
+    {
+      "binding_id": "ACT-BIND-24",
+      "activity_id": "EVT-022",
+      "episode_id": "S1-E24",
+      "arc_id": "ARC-04",
+      "activity": "画舫雅集与桂夜别席",
+      "historical_anchor": "沿用扩展库 EVT-022 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E24"
+        ],
+        "location_ids": [
+          "LOC-007",
+          "LOC-009"
+        ]
+      },
+      "modern_emotional_entry": "圈层社交、职场饭局与输赢背后的权力交换",
+      "lead_characters": [
+        "CHR-L3-01",
+        "CHR-L1-01",
+        "CHR-L3-03",
+        "CHR-A1-05"
+      ],
+      "relationship_ids": [
+        "REL-001",
+        "REL-009",
+        "REL-016"
+      ],
+      "surface_goal": "画舫雅集与桂夜别席",
+      "obstacle": "每个人都有退路，没人愿意先承诺未来",
+      "relationship_delta": "宋只给部分档案，黎令仪继续隐瞒复制账，顾不求答案",
+      "clue_delta": "把未说完的话留在席位和空杯里",
+      "choice": "一张席上有一把没人坐的椅子",
+      "state_transfer": "席宴座次成为人物关系状态记录",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "关系不靠和解推进，而靠带着未说完继续行动",
+      "ending_button": "城南病例开始明显增加"
+    },
+    {
+      "binding_id": "ACT-BIND-25",
+      "activity_id": "EVT-014",
+      "episode_id": "S1-E25",
+      "arc_id": "ARC-05",
+      "activity": "冬至分食与邻里互济",
+      "historical_anchor": "沿用扩展库 EVT-014 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E25"
+        ],
+        "location_ids": [
+          "LOC-016",
+          "LOC-018"
+        ]
+      },
+      "modern_emotional_entry": "独居照护、社区互助与家庭劳动的不平等",
+      "lead_characters": [
+        "CHR-L2-03",
+        "CHR-A1-03",
+        "CHR-L2-01"
+      ],
+      "relationship_ids": [
+        "REL-010"
+      ],
+      "surface_goal": "冬至分食与邻里互济",
+      "obstacle": "余仲仁担心公开聚集性疾病，青禾知道担心有道理",
+      "relationship_delta": "青禾公开病例簿并写关联未证实",
+      "clue_delta": "她留下原始病例页，不用重抄掩盖前判",
+      "choice": "一户摆三副碗却只有两个人吃",
+      "state_transfer": "病例簿保留原始误判与更正日期",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "失去荐书与师徒关系，但公开纠错链启动",
+      "ending_button": "病例地图与堵支渠重合"
+    },
+    {
+      "binding_id": "ACT-BIND-26",
+      "activity_id": "EVT-020",
+      "episode_id": "S1-E26",
+      "arc_id": "ARC-05",
+      "activity": "封水前的船户交易",
+      "historical_anchor": "沿用扩展库 EVT-020 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E26"
+        ],
+        "location_ids": [
+          "LOC-010",
+          "LOC-015"
+        ]
+      },
+      "modern_emotional_entry": "物流中间人、现金流、熟人交易与合同风险",
+      "lead_characters": [
+        "CHR-L1-04",
+        "CHR-A2-06",
+        "CHR-L2-04"
+      ],
+      "relationship_ids": [
+        "REL-004",
+        "REL-012"
+      ],
+      "surface_goal": "封水前的船户交易",
+      "obstacle": "全面封水会切断医药与救援，完全不封又会扩大风险",
+      "relationship_delta": "裴支持停高风险段、反对一刀切，失去商号合约",
+      "clue_delta": "她让每一段水路都写清风险和可更正时刻",
+      "choice": "船按时到达却来自昨天封掉的码头",
+      "state_transfer": "青鹞航线进入封控版本记录",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "限制与压迫被分开，裴的商业代价真实落地",
+      "ending_button": "青鹞被列入重点监控"
+    },
+    {
+      "binding_id": "ACT-BIND-27",
+      "activity_id": "EVT-021",
+      "episode_id": "S1-E27",
+      "arc_id": "ARC-05",
+      "activity": "夜巡、更鼓与非常令",
+      "historical_anchor": "沿用扩展库 EVT-021 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E27"
+        ],
+        "location_ids": [
+          "LOC-015",
+          "LOC-013"
+        ]
+      },
+      "modern_emotional_entry": "夜间安全、城市照明与谁有权在夜里行动",
+      "lead_characters": [
+        "CHR-L2-04",
+        "CHR-A1-06",
+        "CHR-A1-08"
+      ],
+      "relationship_ids": [
+        "REL-012",
+        "REL-014"
+      ],
+      "surface_goal": "夜巡、更鼓与非常令",
+      "obstacle": "高问要按令行事，章允中发现摘要被层层删改",
+      "relationship_delta": "宋继续隐瞒截信史，高问开始迟疑但仍执行",
+      "clue_delta": "更夫只记录听见的两次更鼓，不替制度改时间",
+      "choice": "同一夜两处更鼓相差一更",
+      "state_transfer": "所有非常令记录增加摘要版本号",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "程序忠诚变成可见代价，制度不再是抽象反派",
+      "ending_button": "城门和水路同时收紧"
+    },
+    {
+      "binding_id": "ACT-BIND-28",
+      "activity_id": "EVT-018",
+      "episode_id": "S1-E28",
+      "arc_id": "ARC-05",
+      "activity": "仓储修复与粮仓火后清点",
+      "historical_anchor": "沿用扩展库 EVT-018 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E28"
+        ],
+        "location_ids": [
+          "LOC-014",
+          "LOC-013"
+        ]
+      },
+      "modern_emotional_entry": "修复而非丢弃、手艺尊严与旧物承载的关系记忆",
+      "lead_characters": [
+        "CHR-L3-02",
+        "CHR-A1-07",
+        "CHR-A2-05"
+      ],
+      "relationship_ids": [
+        "REL-009"
+      ],
+      "surface_goal": "仓储修复与粮仓火后清点",
+      "obstacle": "账册和被困账房不能同时先救，黎见山仍想先保供应链",
+      "relationship_delta": "黎令仪先救账房并保留残页，黎见山见到手段失控",
+      "clue_delta": "不把烧毁的账重写成完整版本",
+      "choice": "残页上的油灯痕和仓位仍可辨",
+      "state_transfer": "粮仓火后所有库存数字进入冻结状态",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "黎令仪选择证据，黎见山正确救人却坐实罪责",
+      "ending_button": "人为短缺变成真实短缺"
+    },
+    {
+      "binding_id": "ACT-BIND-29",
+      "activity_id": "EVT-014",
+      "episode_id": "S1-E29",
+      "arc_id": "ARC-05",
+      "activity": "封城医棚与邻里互济",
+      "historical_anchor": "沿用扩展库 EVT-014 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E29"
+        ],
+        "location_ids": [
+          "LOC-016",
+          "LOC-018"
+        ]
+      },
+      "modern_emotional_entry": "独居照护、社区互助与家庭劳动的不平等",
+      "lead_characters": [
+        "CHR-L1-05",
+        "CHR-L1-01",
+        "CHR-L2-03"
+      ],
+      "relationship_ids": [
+        "REL-001"
+      ],
+      "surface_goal": "封城医棚与邻里互济",
+      "obstacle": "顾的详细图能救人也能让封控更精准，沈会反对但时间紧",
+      "relationship_delta": "顾交图，沈知道后与他决裂",
+      "clue_delta": "顾承认知道沈会反对，却仍替所有人决定",
+      "choice": "西门第一起因封锁耽误转运的死亡",
+      "state_transfer": "医棚和封控区版本要保留谁提供了何种数据",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "爱情线由保护冲突断裂，救助数量不能抵消选择权伤害",
+      "ending_button": "闭门与断信进入下一集"
+    },
+    {
+      "binding_id": "ACT-BIND-30",
+      "activity_id": "EVT-015",
+      "episode_id": "S1-E30",
+      "arc_id": "ARC-05",
+      "activity": "雪夜守岁与旧物整理",
+      "historical_anchor": "沿用扩展库 EVT-015 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E30"
+        ],
+        "location_ids": [
+          "LOC-009",
+          "LOC-017"
+        ]
+      },
+      "modern_emotional_entry": "年末清理、旧物创伤与家人对未来的不同想象",
+      "lead_characters": [
+        "CHR-L3-03",
+        "CHR-A1-05",
+        "CHR-L1-02",
+        "CHR-L1-04"
+      ],
+      "relationship_ids": [
+        "REL-G01",
+        "REL-016"
+      ],
+      "surface_goal": "雪夜守岁与旧物整理",
+      "obstacle": "贺兰度默许截粮，许含章离开；柳的同伴也分裂",
+      "relationship_delta": "沈蘅承认系统若依赖五人同在仍是中心",
+      "clue_delta": "把旧案烧掉的冲动改成分类、复制和分散保存",
+      "choice": "旧匣里同时有三种互相矛盾记录",
+      "state_transfer": "分散记录成为灯号协议的先决条件",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "团队不再完整，春信必须开始脱离创始人",
+      "ending_button": "立春前连续雨势开始"
+    },
+    {
+      "binding_id": "ACT-BIND-31",
+      "activity_id": "EVT-024",
+      "episode_id": "S1-E31",
+      "arc_id": "ARC-06",
+      "activity": "食铺失联表与开放灶台",
+      "historical_anchor": "沿用扩展库 EVT-024 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E31"
+        ],
+        "location_ids": [
+          "LOC-001",
+          "LOC-018"
+        ]
+      },
+      "modern_emotional_entry": "照护劳动、食欲压力与用饭量表达情绪",
+      "lead_characters": [
+        "CHR-L2-02",
+        "CHR-A1-01",
+        "CHR-L1-01"
+      ],
+      "relationship_ids": [
+        "REL-005"
+      ],
+      "surface_goal": "食铺失联表与开放灶台",
+      "obstacle": "旧图显示可通，实际桥已断；沈三娘担心开门让人把店吃空",
+      "relationship_delta": "阿沅先做表，沈三娘开放馄饨铺",
+      "clue_delta": "先敲门确认再把名字写进表",
+      "choice": "照常来吃饭的人连续三天只点空碗",
+      "state_transfer": "失联表每日有新增、确认、撤销状态",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "民间节点在没有命令时行动，主角不再是唯一发令者",
+      "ending_button": "城南桥断且官方图仍写可通"
+    },
+    {
+      "binding_id": "ACT-BIND-32",
+      "activity_id": "EVT-018",
+      "episode_id": "S1-E32",
+      "arc_id": "ARC-06",
+      "activity": "修伞、灯笼与触感布条",
+      "historical_anchor": "沿用扩展库 EVT-018 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E32"
+        ],
+        "location_ids": [
+          "LOC-001",
+          "LOC-004"
+        ]
+      },
+      "modern_emotional_entry": "修复而非丢弃、手艺尊严与旧物承载的关系记忆",
+      "lead_characters": [
+        "CHR-A1-02",
+        "CHR-A3-03",
+        "CHR-A2-08",
+        "CHR-B-003"
+      ],
+      "relationship_ids": [
+        "REL-G01"
+      ],
+      "surface_goal": "修伞、灯笼与触感布条",
+      "obstacle": "颜色在雨里看不清，统一形式会让不同材料的街区失效",
+      "relationship_delta": "沈蘅只锁语义、时刻和更正规则",
+      "clue_delta": "先问使用者能否辨认，再决定是否保留样式",
+      "choice": "一把修好的伞里面藏着另一把伞骨架",
+      "state_transfer": "灯号版本必须标材料、时刻和更正方式",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "形式不被垄断，系统扩大但承担短期混乱风险",
+      "ending_button": "第一批灯号开始扩散"
+    },
+    {
+      "binding_id": "ACT-BIND-33",
+      "activity_id": "EVT-023",
+      "episode_id": "S1-E33",
+      "arc_id": "ARC-06",
+      "activity": "儿童纸鸢与错灯回传",
+      "historical_anchor": "沿用扩展库 EVT-023 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E33"
+        ],
+        "location_ids": [
+          "LOC-015",
+          "LOC-018"
+        ]
+      },
+      "modern_emotional_entry": "儿童视角、家庭陪伴与被忽略的小观察",
+      "lead_characters": [
+        "CHR-B-019",
+        "CHR-A3-02",
+        "CHR-A3-03",
+        "CHR-L1-01"
+      ],
+      "relationship_ids": [
+        "REL-G01"
+      ],
+      "surface_goal": "儿童纸鸢与错灯回传",
+      "obstacle": "阿七误判水势，旧版地图仍流传，没人想承认新系统也会错",
+      "relationship_delta": "阿七公开回传误判，沈蘅接受普通节点互相纠正",
+      "clue_delta": "先标错、再撤灯、再补发新口令",
+      "choice": "纸鸢飞向地图上不存在的渠",
+      "state_transfer": "错灯事件保留为培训案例",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "系统没有崩溃但错误留下可见代价，纠错权下沉",
+      "ending_button": "宋收到民间更正快于城务司的证据"
+    },
+    {
+      "binding_id": "ACT-BIND-34",
+      "activity_id": "EVT-021",
+      "episode_id": "S1-E34",
+      "arc_id": "ARC-06",
+      "activity": "夜巡、更鼓与开城签押",
+      "historical_anchor": "沿用扩展库 EVT-021 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E34"
+        ],
+        "location_ids": [
+          "LOC-013",
+          "LOC-015"
+        ]
+      },
+      "modern_emotional_entry": "夜间安全、城市照明与谁有权在夜里行动",
+      "lead_characters": [
+        "CHR-L2-04",
+        "CHR-A1-06",
+        "CHR-A1-08",
+        "CHR-L3-01"
+      ],
+      "relationship_ids": [
+        "REL-012",
+        "REL-014"
+      ],
+      "surface_goal": "夜巡、更鼓与开城签押",
+      "obstacle": "外城门仍闭，谣言比正式更正快，内部人必须共同承担",
+      "relationship_delta": "高问反签开路，章允中公开摘要差异，宋撤回封锁建议",
+      "clue_delta": "每一次开门都先念出时刻、令号和签名",
+      "choice": "同一夜更鼓相差一更却都有人听见",
+      "state_transfer": "开城文件保留原令、改令和执行时刻",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "制度内部共同留下责任链，英雄闯门被拒绝",
+      "ending_button": "水逼近第三仓"
+    },
+    {
+      "binding_id": "ACT-BIND-35",
+      "activity_id": "EVT-008",
+      "episode_id": "S1-E35",
+      "arc_id": "ARC-06",
+      "activity": "施粥、分流与万家互济",
+      "historical_anchor": "沿用扩展库 EVT-008 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E35"
+        ],
+        "location_ids": [
+          "LOC-014",
+          "LOC-016",
+          "LOC-018"
+        ]
+      },
+      "modern_emotional_entry": "公益分流、排队公平与慈善是否制造新的羞辱",
+      "lead_characters": [
+        "CHR-L3-02",
+        "CHR-L3-03",
+        "CHR-L1-04",
+        "CHR-L2-02"
+      ],
+      "relationship_ids": [
+        "REL-009",
+        "REL-016"
+      ],
+      "surface_goal": "施粥、分流与万家互济",
+      "obstacle": "有人拒救、插队、抢粮，协作不能假装人人善良",
+      "relationship_delta": "黎见山公开真账，贺兰度终止截粮并交出路线",
+      "clue_delta": "先把队列分流，再谈谁值得被原谅",
+      "choice": "粥未开锅队伍已按病症分成三列",
+      "state_transfer": "互济名单要保留未到、已到、拒救和误记",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "正确选择与罪责同时落地，政治时机和产业都被放弃",
+      "ending_button": "最后一处失联名单仍有名字"
+    },
+    {
+      "binding_id": "ACT-BIND-36",
+      "activity_id": "EVT-015",
+      "episode_id": "S1-E36",
+      "arc_id": "ARC-06",
+      "activity": "除夕旧物整理与灾后清点",
+      "historical_anchor": "沿用扩展库 EVT-015 的宋代城市生活形态；具体人物冲突为本剧解释。",
+      "interpretation_note": "活动形态取自既有宋代生活活动库，人物选择、具体摊位与冲突属于本剧虚构，不改动 Canon 城市骨架。",
+      "season_and_location": {
+        "episode_window": [
+          "S1-E36"
+        ],
+        "location_ids": [
+          "LOC-002",
+          "LOC-004"
+        ]
+      },
+      "modern_emotional_entry": "年末清理、旧物创伤与家人对未来的不同想象",
+      "lead_characters": [
+        "CHR-L1-01",
+        "CHR-L2-01",
+        "CHR-L3-01",
+        "CHR-L3-02"
+      ],
+      "relationship_ids": [
+        "REL-005",
+        "REL-001",
+        "REL-G01"
+      ],
+      "surface_goal": "除夕旧物整理与灾后清点",
+      "obstacle": "所有人都想尽快恢复日常，却不能用庆功覆盖旧账",
+      "relationship_delta": "沈蘅公开父亲错误并拒绝成为春信之主",
+      "clue_delta": "陆清和把香匣交出但不替女儿保证不会后悔",
+      "choice": "孩子递来‘西桥边，今日柳绿’并要求记录时刻地点",
+      "state_transfer": "终局清单保留旧账、修正、赔偿和未决问题",
+      "continuity_cost": "活动结束后保留人物关系余波、物件或记录状态，不能回到活动前。",
+      "opening_hook": "关系不完全修复，制度开始可复制，城市带伤恢复呼吸",
+      "ending_button": "春信从解释春天转为记录人间"
+    }
+  ],
+  "episode_bindings": [
+    {
+      "episode_id": "S1-E01",
+      "arc_id": "ARC-01",
+      "activity_ids": [
+        "EVT-018"
+      ]
+    },
+    {
+      "episode_id": "S1-E02",
+      "arc_id": "ARC-01",
+      "activity_ids": [
+        "EVT-002"
+      ]
+    },
+    {
+      "episode_id": "S1-E03",
+      "arc_id": "ARC-01",
+      "activity_ids": [
+        "EVT-003"
+      ]
+    },
+    {
+      "episode_id": "S1-E04",
+      "arc_id": "ARC-01",
+      "activity_ids": [
+        "EVT-017"
+      ]
+    },
+    {
+      "episode_id": "S1-E05",
+      "arc_id": "ARC-01",
+      "activity_ids": [
+        "EVT-020"
+      ]
+    },
+    {
+      "episode_id": "S1-E06",
+      "arc_id": "ARC-01",
+      "activity_ids": [
+        "EVT-023"
+      ]
+    },
+    {
+      "episode_id": "S1-E07",
+      "arc_id": "ARC-02",
+      "activity_ids": [
+        "EVT-022"
+      ]
+    },
+    {
+      "episode_id": "S1-E08",
+      "arc_id": "ARC-02",
+      "activity_ids": [
+        "EVT-005"
+      ]
+    },
+    {
+      "episode_id": "S1-E09",
+      "arc_id": "ARC-02",
+      "activity_ids": [
+        "EVT-016"
+      ]
+    },
+    {
+      "episode_id": "S1-E10",
+      "arc_id": "ARC-02",
+      "activity_ids": [
+        "EVT-019"
+      ]
+    },
+    {
+      "episode_id": "S1-E11",
+      "arc_id": "ARC-02",
+      "activity_ids": [
+        "EVT-004"
+      ]
+    },
+    {
+      "episode_id": "S1-E12",
+      "arc_id": "ARC-02",
+      "activity_ids": [
+        "EVT-020"
+      ]
+    },
+    {
+      "episode_id": "S1-E13",
+      "arc_id": "ARC-03",
+      "activity_ids": [
+        "EVT-007"
+      ]
+    },
+    {
+      "episode_id": "S1-E14",
+      "arc_id": "ARC-03",
+      "activity_ids": [
+        "EVT-020"
+      ]
+    },
+    {
+      "episode_id": "S1-E15",
+      "arc_id": "ARC-03",
+      "activity_ids": [
+        "EVT-024"
+      ]
+    },
+    {
+      "episode_id": "S1-E16",
+      "arc_id": "ARC-03",
+      "activity_ids": [
+        "EVT-020"
+      ]
+    },
+    {
+      "episode_id": "S1-E17",
+      "arc_id": "ARC-03",
+      "activity_ids": [
+        "EVT-018"
+      ]
+    },
+    {
+      "episode_id": "S1-E18",
+      "arc_id": "ARC-03",
+      "activity_ids": [
+        "EVT-008"
+      ]
+    },
+    {
+      "episode_id": "S1-E19",
+      "arc_id": "ARC-04",
+      "activity_ids": [
+        "EVT-011"
+      ]
+    },
+    {
+      "episode_id": "S1-E20",
+      "arc_id": "ARC-04",
+      "activity_ids": [
+        "EVT-019"
+      ]
+    },
+    {
+      "episode_id": "S1-E21",
+      "arc_id": "ARC-04",
+      "activity_ids": [
+        "EVT-017"
+      ]
+    },
+    {
+      "episode_id": "S1-E22",
+      "arc_id": "ARC-04",
+      "activity_ids": [
+        "EVT-003"
+      ]
+    },
+    {
+      "episode_id": "S1-E23",
+      "arc_id": "ARC-04",
+      "activity_ids": [
+        "EVT-012"
+      ]
+    },
+    {
+      "episode_id": "S1-E24",
+      "arc_id": "ARC-04",
+      "activity_ids": [
+        "EVT-022"
+      ]
+    },
+    {
+      "episode_id": "S1-E25",
+      "arc_id": "ARC-05",
+      "activity_ids": [
+        "EVT-014"
+      ]
+    },
+    {
+      "episode_id": "S1-E26",
+      "arc_id": "ARC-05",
+      "activity_ids": [
+        "EVT-020"
+      ]
+    },
+    {
+      "episode_id": "S1-E27",
+      "arc_id": "ARC-05",
+      "activity_ids": [
+        "EVT-021"
+      ]
+    },
+    {
+      "episode_id": "S1-E28",
+      "arc_id": "ARC-05",
+      "activity_ids": [
+        "EVT-018"
+      ]
+    },
+    {
+      "episode_id": "S1-E29",
+      "arc_id": "ARC-05",
+      "activity_ids": [
+        "EVT-014"
+      ]
+    },
+    {
+      "episode_id": "S1-E30",
+      "arc_id": "ARC-05",
+      "activity_ids": [
+        "EVT-015"
+      ]
+    },
+    {
+      "episode_id": "S1-E31",
+      "arc_id": "ARC-06",
+      "activity_ids": [
+        "EVT-024"
+      ]
+    },
+    {
+      "episode_id": "S1-E32",
+      "arc_id": "ARC-06",
+      "activity_ids": [
+        "EVT-018"
+      ]
+    },
+    {
+      "episode_id": "S1-E33",
+      "arc_id": "ARC-06",
+      "activity_ids": [
+        "EVT-023"
+      ]
+    },
+    {
+      "episode_id": "S1-E34",
+      "arc_id": "ARC-06",
+      "activity_ids": [
+        "EVT-021"
+      ]
+    },
+    {
+      "episode_id": "S1-E35",
+      "arc_id": "ARC-06",
+      "activity_ids": [
+        "EVT-008"
+      ]
+    },
+    {
+      "episode_id": "S1-E36",
+      "arc_id": "ARC-06",
+      "activity_ids": [
+        "EVT-015"
+      ]
+    }
+  ],
+  "source": "extensions/00-song-life-and-modern-emotion-entry-library-v1.md",
+  "next_gate": "S2-C 把活动绑定到短章目标、阻力、选择和连续性事件后，再升级为 REVIEWED-PASS。"
+}

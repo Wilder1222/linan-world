@@ -1,0 +1,834 @@
+{
+  "schema_version": 1,
+  "status": "SAMPLE-DRAFT",
+  "scope": "P2 Season mystery and reversal matrix",
+  "entries": [
+    {
+      "mystery_id": "MYS-001",
+      "arc_id": "ARC-01",
+      "question": "旧香匣里的‘今岁无春’究竟是亡父遗言还是当代投递？",
+      "planted_episode": "S1-E01",
+      "apparent_answer": "沈怀川十三年前留下了预言，沈蘅正在为父亲翻案。",
+      "recheck_episode": "S1-E02",
+      "true_reframe": "新黏合物与箱底粮尘证明旧匣只是被重新利用的载体，消息发生在当代。",
+      "cost_of_knowing": "沈蘅失去陆清和的默认信任，家中后仓从生活空间变成证据空间。",
+      "information_owner": [
+        "CHR-L1-01",
+        "CHR-L2-01",
+        "CHR-A1-02"
+      ],
+      "audience_knowledge": "观众先看到香灰和修补痕迹，再在E01尾部知道‘十三年前’的时间解释不成立。",
+      "character_misread": "沈蘅把个人愿望误当成核验目标；陆清和把留证看成亡夫重新占据家庭。",
+      "reframe_type": "事实翻转",
+      "reframe_episode": "S1-E02",
+      "arc_end_reveal_episode": "S1-E06",
+      "irreversible_reveal": "周伯安承认自己把新香丸放进旧匣，民间五信由此进入可追踪记录。",
+      "episode_refs": [
+        "S1-E01",
+        "S1-E02",
+        "S1-E06"
+      ]
+    },
+    {
+      "mystery_id": "MYS-002",
+      "arc_id": "ARC-01",
+      "question": "香箱为何同时承担香材运输与陈粮转移？",
+      "planted_episode": "S1-E02",
+      "apparent_answer": "某个私商偷粮，退货就能止损。",
+      "recheck_episode": "S1-E04",
+      "true_reframe": "合法签押与被删去的水路共同显示，集中储备授权被用来遮蔽仓储转移。",
+      "cost_of_knowing": "沈家失去全年最大货契，吴巧娘工坊停工，调查从私家退货升级为公共公信案。",
+      "information_owner": [
+        "CHR-L1-01",
+        "CHR-L2-01",
+        "CHR-B-001",
+        "CHR-A1-07"
+      ],
+      "audience_knowledge": "观众在E02看到粮尘与仓秤冲突，在E04才知道地图删除让这条货路更难被发现。",
+      "character_misread": "沈蘅先把问题压缩成私盗；陆清和先把止损当成唯一责任；工人只看见今日工钱。",
+      "reframe_type": "责任翻转",
+      "reframe_episode": "S1-E04",
+      "arc_end_reveal_episode": "S1-E06",
+      "irreversible_reveal": "五信初合后，香箱不再是单一货案，而是系统性疑报的一条来源。",
+      "episode_refs": [
+        "S1-E02",
+        "S1-E03",
+        "S1-E04",
+        "S1-E05",
+        "S1-E06"
+      ]
+    },
+    {
+      "mystery_id": "MYS-003",
+      "arc_id": "ARC-01",
+      "question": "五条职业观察何时足以从‘疑报’升级为‘合报’？",
+      "planted_episode": "S1-E03",
+      "apparent_answer": "只要异常数量足够多，就可以直接宣布无春。",
+      "recheck_episode": "S1-E06",
+      "true_reframe": "数量叠加不等于共同因果；必须保留来源、反例和纠正入口。",
+      "cost_of_knowing": "沈蘅放弃快速命名带来的权威和团队一致感，接受被认为迟疑。",
+      "information_owner": [
+        "CHR-L1-01",
+        "CHR-L1-02",
+        "CHR-L1-03",
+        "CHR-L1-04",
+        "CHR-L1-05"
+      ],
+      "audience_knowledge": "观众已经看见五种异质线索，却还不知道它们是否可由同一机制解释。",
+      "character_misread": "柳十四担心等待让流言先赢，裴九娘担心过早升级会重演旧案，周砚之把完成图纸误认为完成判断。",
+      "reframe_type": "价值翻转",
+      "reframe_episode": "S1-E06",
+      "arc_end_reveal_episode": "S1-E06",
+      "irreversible_reveal": "‘疑报’成为公共记录，宋惟敬也因此看到民间汇总，制度冲突正式启动。",
+      "episode_refs": [
+        "S1-E03",
+        "S1-E04",
+        "S1-E05",
+        "S1-E06"
+      ]
+    },
+    {
+      "mystery_id": "MYS-004",
+      "arc_id": "ARC-02",
+      "question": "集中调度是否真的比民间横向核验更快、更少伤人？",
+      "planted_episode": "S1-E07",
+      "apparent_answer": "宋惟敬能迅速稳价，所以一个最终判断者就是最优解。",
+      "recheck_episode": "S1-E11",
+      "true_reframe": "集中调度在局部抢购中有效，但摘要差异和纠错权限决定了它可能放大单点误判。",
+      "cost_of_knowing": "沈蘅承认对手的有效性，之后不能再用‘他只是坏官’逃避制度问题。",
+      "information_owner": [
+        "CHR-L3-01",
+        "CHR-L1-01",
+        "CHR-L2-04",
+        "CHR-A1-06"
+      ],
+      "audience_knowledge": "观众亲眼看到价格回落，因此会短暂相信集中机制；E11才出现不同部门看到不同摘要。",
+      "character_misread": "沈蘅把横向核验的慢误认为唯一优点；高问把执行顺畅误认为信息完整。",
+      "reframe_type": "价值翻转",
+      "reframe_episode": "S1-E11",
+      "arc_end_reveal_episode": "S1-E12",
+      "irreversible_reveal": "制度效率与可纠错性被拆成两个问题，宋惟敬不再只是个人对手。",
+      "episode_refs": [
+        "S1-E07",
+        "S1-E09",
+        "S1-E11",
+        "S1-E12"
+      ]
+    },
+    {
+      "mystery_id": "MYS-005",
+      "arc_id": "ARC-02",
+      "question": "被盗的西湖旧水图究竟通向粮仓、排水口还是截信出口？",
+      "planted_episode": "S1-E08",
+      "apparent_answer": "偷图者只是想偷粮，地下水道是仓区捷径。",
+      "recheck_episode": "S1-E10",
+      "true_reframe": "图的价值在于把水路、席位和旧案连接起来，真正被争夺的是谁能决定路线。",
+      "cost_of_knowing": "周砚之第一次允许别人改写自己的图，柳十四也必须承认表演现场可以是证据。",
+      "information_owner": [
+        "CHR-L1-03",
+        "CHR-L1-02",
+        "CHR-A2-07",
+        "CHR-A2-08"
+      ],
+      "audience_knowledge": "观众能看到图缺失的局部，但只有在后台曲目与旧案残页并置后才理解其政治价值。",
+      "character_misread": "周砚之把人当图例，柳十四把证据软视为不可靠，二人都低估对方的职业观察。",
+      "reframe_type": "动机翻转",
+      "reframe_episode": "S1-E10",
+      "arc_end_reveal_episode": "S1-E12",
+      "irreversible_reveal": "旧水图与十三年前截信签押连接，水路不再是单纯空间谜题。",
+      "episode_refs": [
+        "S1-E08",
+        "S1-E10",
+        "S1-E12"
+      ]
+    },
+    {
+      "mystery_id": "MYS-006",
+      "arc_id": "ARC-02",
+      "question": "十三年前的水信为何没有进入正式档案？",
+      "planted_episode": "S1-E10",
+      "apparent_answer": "裴九娘当年失信，水信本来就不可靠。",
+      "recheck_episode": "S1-E12",
+      "true_reframe": "关键水信被截下属实，但幸存者身份与秘密路线不能被公开消费。",
+      "cost_of_knowing": "裴九娘放弃最快洗清污名，继续背负‘失信者’称呼以保护仍活着的人。",
+      "information_owner": [
+        "CHR-L1-04",
+        "CHR-L1-05",
+        "CHR-A1-08",
+        "CHR-L2-04"
+      ],
+      "audience_knowledge": "观众先听到顾行舟手里的半卷旧案，再和裴的幸存者证词拼出被截事实。",
+      "character_misread": "沈蘅想公开全部来源，顾行舟把保护等同于替她决定，旧船帮把名声当作事实。",
+      "reframe_type": "责任翻转",
+      "reframe_episode": "S1-E12",
+      "arc_end_reveal_episode": "S1-E12",
+      "irreversible_reveal": "截信记录与城务司前身签押相连，旧案从个人污名进入制度史。",
+      "episode_refs": [
+        "S1-E10",
+        "S1-E12"
+      ]
+    },
+    {
+      "mystery_id": "MYS-007",
+      "arc_id": "ARC-03",
+      "question": "水色、潮序与官报谁更可信？",
+      "planted_episode": "S1-E13",
+      "apparent_answer": "没有文字记录的鱼贩和渡工只是凭经验抱怨。",
+      "recheck_episode": "S1-E15",
+      "true_reframe": "职业身体经验与病例、井水和排水工单可以互相校验；自然异常和工程改动同时存在。",
+      "cost_of_knowing": "沈蘅把没有文字证明的职业经验列入疑报，承担被专业官署质疑的风险。",
+      "information_owner": [
+        "CHR-L1-01",
+        "CHR-A2-05",
+        "CHR-A2-06",
+        "CHR-L1-03"
+      ],
+      "audience_knowledge": "观众先看到水色异常和鞋底泥色，再看到官报仍写航道正常。",
+      "character_misread": "官吏把劳动经验看成噪声，周砚之想用图纸替所有人发言。",
+      "reframe_type": "事实翻转",
+      "reframe_episode": "S1-E15",
+      "arc_end_reveal_episode": "S1-E18",
+      "irreversible_reveal": "合报正式包含非文字职业信道，春信的来源范围被扩大。",
+      "episode_refs": [
+        "S1-E13",
+        "S1-E15",
+        "S1-E18"
+      ]
+    },
+    {
+      "mystery_id": "MYS-008",
+      "arc_id": "ARC-03",
+      "question": "三仓少掉的粮究竟是账错、私盗还是授权调运？",
+      "planted_episode": "S1-E14",
+      "apparent_answer": "黎见山只是为了稳定价格而做集中储备，空白属于文书误差。",
+      "recheck_episode": "S1-E17",
+      "true_reframe": "货确实入过仓，但有人利用正式授权移动风险，数字被制造而非写错。",
+      "cost_of_knowing": "黎令仪在爱仍完整时复制内部账，第一次背叛养父也失去继续相信童年叙事的安全感。",
+      "information_owner": [
+        "CHR-A1-07",
+        "CHR-L3-02",
+        "CHR-A2-05",
+        "CHR-A1-03"
+      ],
+      "audience_knowledge": "观众先相信集中储备的必要性，再从石六肩膀和许九章原件看到数量矛盾。",
+      "character_misread": "黎令仪替养父寻找合理解释，石六怕行会工作，许九章怕吏籍。",
+      "reframe_type": "责任翻转",
+      "reframe_episode": "S1-E17",
+      "arc_end_reveal_episode": "S1-E18",
+      "irreversible_reveal": "账册制造数字让‘自然短缺’的解释失效，供应危机进入授权责任层。",
+      "episode_refs": [
+        "S1-E14",
+        "S1-E16",
+        "S1-E17",
+        "S1-E18"
+      ]
+    },
+    {
+      "mystery_id": "MYS-009",
+      "arc_id": "ARC-03",
+      "question": "什么时候足以从五信疑报升级为‘合报’？",
+      "planted_episode": "S1-E15",
+      "apparent_answer": "症状、井水和粮价一起出现就可以写无春。",
+      "recheck_episode": "S1-E18",
+      "true_reframe": "合报只能确认系统性风险，不能替代反向核验，也不能授权一人解释所有来源。",
+      "cost_of_knowing": "沈蘅拒绝抢先命名，团队因各自合理的风险判断第一次真实分裂。",
+      "information_owner": [
+        "CHR-L1-01",
+        "CHR-L2-02",
+        "CHR-L2-03",
+        "CHR-L1-04",
+        "CHR-L1-02"
+      ],
+      "audience_knowledge": "观众知道线索越来越密，但还不知道谁有权将相关性写成因果。",
+      "character_misread": "柳十四认为迟疑会让恐慌先扩散，裴九娘认为没有阻断证据就不能升级。",
+      "reframe_type": "价值翻转",
+      "reframe_episode": "S1-E18",
+      "arc_end_reveal_episode": "S1-E18",
+      "irreversible_reveal": "宋惟敬收到独立合报并选择加速集中控制，民间与制度两条路径正式相撞。",
+      "episode_refs": [
+        "S1-E15",
+        "S1-E16",
+        "S1-E17",
+        "S1-E18"
+      ]
+    },
+    {
+      "mystery_id": "MYS-010",
+      "arc_id": "ARC-04",
+      "question": "秋市繁华是否证明危机已经过去？",
+      "planted_episode": "S1-E19",
+      "apparent_answer": "新粮入城、桂花开和婚嫁恢复意味着城市已经安全。",
+      "recheck_episode": "S1-E24",
+      "true_reframe": "释放库存只能制造短暂平稳，病例与未完成的水路修复仍在累积。",
+      "cost_of_knowing": "人物必须承认自己确实想过普通生活，继续调查不再只是道德姿态。",
+      "information_owner": [
+        "CHR-L1-01",
+        "CHR-L2-02",
+        "CHR-L2-03",
+        "CHR-B-011"
+      ],
+      "audience_knowledge": "观众在节庆的安稳里看见未解决的缺席、药材和水路细节。",
+      "character_misread": "所有人都把短暂的消费和团聚当成恢复，把停下来误认为放下。",
+      "reframe_type": "价值翻转",
+      "reframe_episode": "S1-E24",
+      "arc_end_reveal_episode": "S1-E24",
+      "irreversible_reveal": "城南病例上升，第四篇的普通生活被现实强行收回。",
+      "episode_refs": [
+        "S1-E19",
+        "S1-E21",
+        "S1-E23",
+        "S1-E24"
+      ]
+    },
+    {
+      "mystery_id": "MYS-011",
+      "arc_id": "ARC-04",
+      "question": "‘北客’是否都想回到北方？",
+      "planted_episode": "S1-E20",
+      "apparent_answer": "贺兰度替所有北来者说出北归愿望，政治压力越大越能保护他们。",
+      "recheck_episode": "S1-E22",
+      "true_reframe": "每个人的家、墓、工作和选择不同；代表性口号也可能抹掉具体的人。",
+      "cost_of_knowing": "贺兰度失去‘替人说话’的道德确定性，许含章不再替他缓冲冲突。",
+      "information_owner": [
+        "CHR-L3-03",
+        "CHR-A1-05",
+        "CHR-B-014",
+        "CHR-B-015"
+      ],
+      "audience_knowledge": "观众同时听见老人、母亲、少年和女孩四种不同愿望。",
+      "character_misread": "贺兰度把共同创伤当成共同目的，许含章原本也以为登记就等于保护。",
+      "reframe_type": "关系翻转",
+      "reframe_episode": "S1-E22",
+      "arc_end_reveal_episode": "S1-E24",
+      "irreversible_reveal": "激进青年提出截粮计划，身份政治从救助语言转为行动风险。",
+      "episode_refs": [
+        "S1-E20",
+        "S1-E22",
+        "S1-E24"
+      ]
+    },
+    {
+      "mystery_id": "MYS-012",
+      "arc_id": "ARC-04",
+      "question": "沈怀川是被误解的先见者，还是一个会伤人的好人？",
+      "planted_episode": "S1-E21",
+      "apparent_answer": "只要找到足够证据，就能证明父亲始终正确。",
+      "recheck_episode": "S1-E23",
+      "true_reframe": "父亲确实看见风险，也确实在证据不足时主张过早定性。",
+      "cost_of_knowing": "沈蘅放弃完美父亲的私人需求，母女暂不和好但开始共同标注旧稿。",
+      "information_owner": [
+        "CHR-L1-01",
+        "CHR-L2-01",
+        "CHR-A2-03",
+        "CHR-A1-02"
+      ],
+      "audience_knowledge": "观众先从顾行舟半卷旧案看到父亲的准确判断，再在完整手稿看到错误。",
+      "character_misread": "沈蘅把调查当成替父亲翻案，陆清和把沉默当成唯一保护。",
+      "reframe_type": "动机翻转",
+      "reframe_episode": "S1-E23",
+      "arc_end_reveal_episode": "S1-E24",
+      "irreversible_reveal": "旧稿提到周伯安曾反对过早升级，过去的英雄叙事不再能单独支撑现在的制度选择。",
+      "episode_refs": [
+        "S1-E21",
+        "S1-E23",
+        "S1-E24"
+      ]
+    },
+    {
+      "mystery_id": "MYS-013",
+      "arc_id": "ARC-05",
+      "question": "冬疫是自然聚集、工程污染，还是被压住的报告？",
+      "planted_episode": "S1-E25",
+      "apparent_answer": "病例还不够确定，暂缓上报是为了避免恐慌。",
+      "recheck_episode": "S1-E26",
+      "true_reframe": "病例地图、支渠阻塞和基层自我审查同时存在；不确定性不能成为沉默理由。",
+      "cost_of_knowing": "余青禾公开‘关联未证实’，失去荐书并与余仲仁决裂。",
+      "information_owner": [
+        "CHR-L2-03",
+        "CHR-A1-03",
+        "CHR-L2-02",
+        "CHR-L2-04"
+      ],
+      "audience_knowledge": "观众看到病例地图和缺水路线重合，知道‘未证’不是‘不存在’。",
+      "character_misread": "余仲仁把谨慎等同于延迟，余青禾一度把公开等同于勇敢。",
+      "reframe_type": "制度翻转",
+      "reframe_episode": "S1-E26",
+      "arc_end_reveal_episode": "S1-E30",
+      "irreversible_reveal": "封锁扩大后，暂缓上报成为基层自我审查链的一环，责任不再只在一个命令者。",
+      "episode_refs": [
+        "S1-E25",
+        "S1-E26",
+        "S1-E27",
+        "S1-E30"
+      ]
+    },
+    {
+      "mystery_id": "MYS-014",
+      "arc_id": "ARC-05",
+      "question": "封水究竟是在救人还是在制造更大的断供？",
+      "planted_episode": "S1-E26",
+      "apparent_answer": "只要全部封停危险水路，就能避免疫病扩散。",
+      "recheck_episode": "S1-E29",
+      "true_reframe": "部分限制有必要，但一刀切切断药物、救援和转运，关键在谁能及时更正。",
+      "cost_of_knowing": "裴九娘同时支持停高风险段、反对全封，失去商号合约，青鹞被列为重点监控船。",
+      "information_owner": [
+        "CHR-L1-04",
+        "CHR-L2-04",
+        "CHR-L2-03",
+        "CHR-L1-05"
+      ],
+      "audience_knowledge": "观众知道某些水段确实危险，也知道医药运输需要它们。",
+      "character_misread": "裴九娘把限制视为压迫，高问把执行顺利视为方案正确。",
+      "reframe_type": "价值翻转",
+      "reframe_episode": "S1-E29",
+      "arc_end_reveal_episode": "S1-E30",
+      "irreversible_reveal": "封锁造成第一起延误死亡，限制的必要性不能抵消错误纠正缺位的伤害。",
+      "episode_refs": [
+        "S1-E26",
+        "S1-E27",
+        "S1-E29",
+        "S1-E30"
+      ]
+    },
+    {
+      "mystery_id": "MYS-015",
+      "arc_id": "ARC-05",
+      "question": "非常令是宋惟敬一个人的决定，还是一条人人都参与的摘要链？",
+      "planted_episode": "S1-E27",
+      "apparent_answer": "只要找到宋惟敬，所有责任就能归位。",
+      "recheck_episode": "S1-E30",
+      "true_reframe": "宋主动隐瞒截信史，但章允中、高问、曹肃等人的程序动作也共同塑造了后果。",
+      "cost_of_knowing": "宋惟敬从创伤驱动的可靠者跨成主动责任人，制度内的人必须承担各自留下的签押。",
+      "information_owner": [
+        "CHR-L3-01",
+        "CHR-L2-04",
+        "CHR-A1-06",
+        "CHR-A1-08"
+      ],
+      "audience_knowledge": "观众从不同摘要差异看见权力不是单点，而是层层删减。",
+      "character_misread": "高问把服从当清白，章允中把签字当中性，宋把负责当拥有全部判断权。",
+      "reframe_type": "责任翻转",
+      "reframe_episode": "S1-E30",
+      "arc_end_reveal_episode": "S1-E30",
+      "irreversible_reveal": "五信通道被切断，团队无法再依赖中心人物协作，春信必须能脱离创始人运行。",
+      "episode_refs": [
+        "S1-E27",
+        "S1-E28",
+        "S1-E29",
+        "S1-E30"
+      ]
+    },
+    {
+      "mystery_id": "MYS-016",
+      "arc_id": "ARC-06",
+      "question": "官方图与真实城市的差距会不会让救援走向错误方向？",
+      "planted_episode": "S1-E31",
+      "apparent_answer": "只要沿着旧图和官方通道走，救援就不会失控。",
+      "recheck_episode": "S1-E33",
+      "true_reframe": "桥断、淤渠和私堤改变了城市；错误必须由现场节点互相发现和更正。",
+      "cost_of_knowing": "沈蘅放弃做唯一解释者，阿沅、阿七、韩墨儿等普通人获得纠正权。",
+      "information_owner": [
+        "CHR-L1-01",
+        "CHR-L2-02",
+        "CHR-B-019",
+        "CHR-A3-02"
+      ],
+      "audience_knowledge": "观众同时看到旧图和真实积水，知道地图不是城市本身。",
+      "character_misread": "宋惟敬认为开放水情会制造逃散，沈蘅也一度想先统一所有记录。",
+      "reframe_type": "事实翻转",
+      "reframe_episode": "S1-E33",
+      "arc_end_reveal_episode": "S1-E36",
+      "irreversible_reveal": "普通节点互相纠正成为系统能力，春信不再依赖沈蘅个人权威。",
+      "episode_refs": [
+        "S1-E31",
+        "S1-E32",
+        "S1-E33",
+        "S1-E36"
+      ]
+    },
+    {
+      "mystery_id": "MYS-017",
+      "arc_id": "ARC-06",
+      "question": "万家春灯需要统一颜色，还是只需统一语义与更正规则？",
+      "planted_episode": "S1-E32",
+      "apparent_answer": "所有街区挂同一种灯、用同一颜色就能避免混乱。",
+      "recheck_episode": "S1-E33",
+      "true_reframe": "雨、距离、视力和街区材料不同，唯一形式会制造新的误读；语义、时刻与更正入口更可靠。",
+      "cost_of_knowing": "沈蘅选择不垄断形式，承担系统短期出错和公开被纠正的风险。",
+      "information_owner": [
+        "CHR-L1-01",
+        "CHR-A2-08",
+        "CHR-A3-03",
+        "CHR-B-003"
+      ],
+      "audience_knowledge": "观众从颜色被雨打散、声音和触感加入，理解形式与意义必须分离。",
+      "character_misread": "周伯安想把旧经验做成固定规矩，普通节点则把第一次成功误认为最终标准。",
+      "reframe_type": "价值翻转",
+      "reframe_episode": "S1-E33",
+      "arc_end_reveal_episode": "S1-E36",
+      "irreversible_reveal": "系统成功的标志不是无错，而是错误能被标出、回传、修正并留下记录。",
+      "episode_refs": [
+        "S1-E32",
+        "S1-E33",
+        "S1-E34",
+        "S1-E36"
+      ]
+    },
+    {
+      "mystery_id": "MYS-018",
+      "arc_id": "ARC-06",
+      "question": "谁愿意为开城、放粮和纠错留下自己的名字？",
+      "planted_episode": "S1-E34",
+      "apparent_answer": "危机时只要英雄站出来，旧账和责任会自然清零。",
+      "recheck_episode": "S1-E35",
+      "true_reframe": "宋、黎见山、贺兰度、高问和普通节点都要在救人同时留下可追责记录。",
+      "cost_of_knowing": "正确选择不兑换清白：有人受审、失官、失去政治时机，协作仍不抹去旧账。",
+      "information_owner": [
+        "CHR-L3-01",
+        "CHR-L3-02",
+        "CHR-L3-03",
+        "CHR-L2-04",
+        "CHR-L1-01"
+      ],
+      "audience_knowledge": "观众知道开城不是终点，第三仓、失联名单和旧案仍在等待清点。",
+      "character_misread": "人物和观众都可能把协作误读为和解，把救城误读为免责。",
+      "reframe_type": "责任翻转",
+      "reframe_episode": "S1-E35",
+      "arc_end_reveal_episode": "S1-E36",
+      "irreversible_reveal": "沈蘅公开父亲错误、宋惟敬受审、黎见山拆分产业，春信屋以公信案而非个人领袖落地。",
+      "episode_refs": [
+        "S1-E34",
+        "S1-E35",
+        "S1-E36"
+      ]
+    }
+  ],
+  "episode_bindings": [
+    {
+      "episode_id": "S1-E01",
+      "arc_id": "ARC-01",
+      "ids": [
+        "MYS-001"
+      ],
+      "reversal_type": "事实翻转"
+    },
+    {
+      "episode_id": "S1-E02",
+      "arc_id": "ARC-01",
+      "ids": [
+        "MYS-001",
+        "MYS-002"
+      ],
+      "reversal_type": "责任翻转"
+    },
+    {
+      "episode_id": "S1-E03",
+      "arc_id": "ARC-01",
+      "ids": [
+        "MYS-002",
+        "MYS-003"
+      ],
+      "reversal_type": "事实翻转"
+    },
+    {
+      "episode_id": "S1-E04",
+      "arc_id": "ARC-01",
+      "ids": [
+        "MYS-002",
+        "MYS-003"
+      ],
+      "reversal_type": "制度翻转"
+    },
+    {
+      "episode_id": "S1-E05",
+      "arc_id": "ARC-01",
+      "ids": [
+        "MYS-002",
+        "MYS-003"
+      ],
+      "reversal_type": "责任翻转"
+    },
+    {
+      "episode_id": "S1-E06",
+      "arc_id": "ARC-01",
+      "ids": [
+        "MYS-001",
+        "MYS-002",
+        "MYS-003"
+      ],
+      "reversal_type": "价值翻转"
+    },
+    {
+      "episode_id": "S1-E07",
+      "arc_id": "ARC-02",
+      "ids": [
+        "MYS-004"
+      ],
+      "reversal_type": "动机翻转"
+    },
+    {
+      "episode_id": "S1-E08",
+      "arc_id": "ARC-02",
+      "ids": [
+        "MYS-005"
+      ],
+      "reversal_type": "事实翻转"
+    },
+    {
+      "episode_id": "S1-E09",
+      "arc_id": "ARC-02",
+      "ids": [
+        "MYS-004"
+      ],
+      "reversal_type": "动机翻转"
+    },
+    {
+      "episode_id": "S1-E10",
+      "arc_id": "ARC-02",
+      "ids": [
+        "MYS-005",
+        "MYS-006"
+      ],
+      "reversal_type": "关系翻转"
+    },
+    {
+      "episode_id": "S1-E11",
+      "arc_id": "ARC-02",
+      "ids": [
+        "MYS-004"
+      ],
+      "reversal_type": "价值翻转"
+    },
+    {
+      "episode_id": "S1-E12",
+      "arc_id": "ARC-02",
+      "ids": [
+        "MYS-004",
+        "MYS-005",
+        "MYS-006"
+      ],
+      "reversal_type": "责任翻转"
+    },
+    {
+      "episode_id": "S1-E13",
+      "arc_id": "ARC-03",
+      "ids": [
+        "MYS-007"
+      ],
+      "reversal_type": "事实翻转"
+    },
+    {
+      "episode_id": "S1-E14",
+      "arc_id": "ARC-03",
+      "ids": [
+        "MYS-008"
+      ],
+      "reversal_type": "责任翻转"
+    },
+    {
+      "episode_id": "S1-E15",
+      "arc_id": "ARC-03",
+      "ids": [
+        "MYS-007",
+        "MYS-009"
+      ],
+      "reversal_type": "价值翻转"
+    },
+    {
+      "episode_id": "S1-E16",
+      "arc_id": "ARC-03",
+      "ids": [
+        "MYS-008",
+        "MYS-009"
+      ],
+      "reversal_type": "关系翻转"
+    },
+    {
+      "episode_id": "S1-E17",
+      "arc_id": "ARC-03",
+      "ids": [
+        "MYS-008",
+        "MYS-009"
+      ],
+      "reversal_type": "责任翻转"
+    },
+    {
+      "episode_id": "S1-E18",
+      "arc_id": "ARC-03",
+      "ids": [
+        "MYS-007",
+        "MYS-008",
+        "MYS-009"
+      ],
+      "reversal_type": "价值翻转"
+    },
+    {
+      "episode_id": "S1-E19",
+      "arc_id": "ARC-04",
+      "ids": [
+        "MYS-010"
+      ],
+      "reversal_type": "事实翻转"
+    },
+    {
+      "episode_id": "S1-E20",
+      "arc_id": "ARC-04",
+      "ids": [
+        "MYS-011"
+      ],
+      "reversal_type": "关系翻转"
+    },
+    {
+      "episode_id": "S1-E21",
+      "arc_id": "ARC-04",
+      "ids": [
+        "MYS-010",
+        "MYS-012"
+      ],
+      "reversal_type": "动机翻转"
+    },
+    {
+      "episode_id": "S1-E22",
+      "arc_id": "ARC-04",
+      "ids": [
+        "MYS-011"
+      ],
+      "reversal_type": "关系翻转"
+    },
+    {
+      "episode_id": "S1-E23",
+      "arc_id": "ARC-04",
+      "ids": [
+        "MYS-010",
+        "MYS-012"
+      ],
+      "reversal_type": "事实翻转"
+    },
+    {
+      "episode_id": "S1-E24",
+      "arc_id": "ARC-04",
+      "ids": [
+        "MYS-010",
+        "MYS-011",
+        "MYS-012"
+      ],
+      "reversal_type": "价值翻转"
+    },
+    {
+      "episode_id": "S1-E25",
+      "arc_id": "ARC-05",
+      "ids": [
+        "MYS-013"
+      ],
+      "reversal_type": "制度翻转"
+    },
+    {
+      "episode_id": "S1-E26",
+      "arc_id": "ARC-05",
+      "ids": [
+        "MYS-013",
+        "MYS-014"
+      ],
+      "reversal_type": "价值翻转"
+    },
+    {
+      "episode_id": "S1-E27",
+      "arc_id": "ARC-05",
+      "ids": [
+        "MYS-013",
+        "MYS-014",
+        "MYS-015"
+      ],
+      "reversal_type": "责任翻转"
+    },
+    {
+      "episode_id": "S1-E28",
+      "arc_id": "ARC-05",
+      "ids": [
+        "MYS-015"
+      ],
+      "reversal_type": "事实翻转"
+    },
+    {
+      "episode_id": "S1-E29",
+      "arc_id": "ARC-05",
+      "ids": [
+        "MYS-014",
+        "MYS-015"
+      ],
+      "reversal_type": "关系翻转"
+    },
+    {
+      "episode_id": "S1-E30",
+      "arc_id": "ARC-05",
+      "ids": [
+        "MYS-013",
+        "MYS-014",
+        "MYS-015"
+      ],
+      "reversal_type": "价值翻转"
+    },
+    {
+      "episode_id": "S1-E31",
+      "arc_id": "ARC-06",
+      "ids": [
+        "MYS-016"
+      ],
+      "reversal_type": "事实翻转"
+    },
+    {
+      "episode_id": "S1-E32",
+      "arc_id": "ARC-06",
+      "ids": [
+        "MYS-016",
+        "MYS-017"
+      ],
+      "reversal_type": "价值翻转"
+    },
+    {
+      "episode_id": "S1-E33",
+      "arc_id": "ARC-06",
+      "ids": [
+        "MYS-016",
+        "MYS-017"
+      ],
+      "reversal_type": "事实翻转"
+    },
+    {
+      "episode_id": "S1-E34",
+      "arc_id": "ARC-06",
+      "ids": [
+        "MYS-017",
+        "MYS-018"
+      ],
+      "reversal_type": "责任翻转"
+    },
+    {
+      "episode_id": "S1-E35",
+      "arc_id": "ARC-06",
+      "ids": [
+        "MYS-018"
+      ],
+      "reversal_type": "价值翻转"
+    },
+    {
+      "episode_id": "S1-E36",
+      "arc_id": "ARC-06",
+      "ids": [
+        "MYS-016",
+        "MYS-017",
+        "MYS-018"
+      ],
+      "reversal_type": "关系翻转"
+    }
+  ],
+  "reversal_types": [
+    "事实翻转",
+    "责任翻转",
+    "关系翻转",
+    "价值翻转",
+    "动机翻转",
+    "制度翻转"
+  ],
+  "next_gate": "S2-C 完成 E07–E36 因果账本与 648 短章钩子后，再升级为 REVIEWED-PASS。"
+}

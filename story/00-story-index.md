@@ -13,6 +13,12 @@
 | `story/season/season-causal-ledger.schema.json` | P2 Season Gate 因果账本字段、状态边界与引用结构 | LOCKED-SCHEMA |
 | `story/season/season-causal-ledger.json` | 36 集结构化账本；E01–E06 完整样本、E07–E36 脚手架 | SAMPLE-DRAFT |
 | `qa/reviews/season-causal-ledger-review.json` | S2-A 样本审阅：因果链、引用、尾钩差异与脚手架边界 | REVIEWED-SAMPLE-PASS |
+| `story/season/mystery-reversal-matrix.json` | 18 条季级悬疑，覆盖 36 集，含播种/误读/复核/重义/代价/篇末揭示 | SAMPLE-DRAFT |
+| `story/season/song-life-activity-matrix.json` | 36 个活动绑定，宋代生活、现代情绪入口、关系/线索状态转移 | SAMPLE-DRAFT |
+| `story/season/humor-register-matrix.json` | 36 个角色化笑点，语域转译、反应顺序、情绪回收与禁用目标 | SAMPLE-DRAFT |
+| `qa/reviews/season-mystery-review.json` | S2-B 悬疑/翻转矩阵审阅 | REVIEWED-SAMPLE-PASS |
+| `qa/reviews/season-activity-review.json` | S2-B 宋代生活活动矩阵审阅 | REVIEWED-SAMPLE-PASS |
+| `qa/reviews/season-humor-review.json` | S2-B 幽默/语域矩阵审阅 | REVIEWED-SAMPLE-PASS |
 | `story/drafts/01-microchapter-648-beatmap-v7-draft.md` | 648 个唯一微章 ID 与节拍位置草图 | SCAFFOLD-DRAFT |
 | `extensions/00-song-life-and-modern-emotion-entry-library-v1.md` | 24 张宋代生活活动卡、现代情绪入口与主线候选插槽 | FOUNDATION-DRAFT |
 

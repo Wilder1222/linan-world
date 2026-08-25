@@ -106,8 +106,12 @@
         "CHR-L2-02",
         "CHR-L1-05"
       ],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-018"
+      ],
+      "humor_ids": [
+        "HUM-物件-01"
+      ]
     },
     {
       "episode_id": "S1-E02",
@@ -197,8 +201,12 @@
         "CHR-B-001",
         "CHR-A1-03"
       ],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-002"
+      ],
+      "humor_ids": [
+        "HUM-饭量-01"
+      ]
     },
     {
       "episode_id": "S1-E03",
@@ -287,8 +295,12 @@
         "CHR-A1-04",
         "CHR-L1-01"
       ],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-003"
+      ],
+      "humor_ids": [
+        "HUM-舞台-01"
+      ]
     },
     {
       "episode_id": "S1-E04",
@@ -385,8 +397,12 @@
         "CHR-A3-03",
         "CHR-L1-02"
       ],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-017"
+      ],
+      "humor_ids": [
+        "HUM-地图-01"
+      ]
     },
     {
       "episode_id": "S1-E05",
@@ -480,8 +496,12 @@
         "CHR-B-019",
         "CHR-L1-01"
       ],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-020"
+      ],
+      "humor_ids": [
+        "HUM-船户-01"
+      ]
     },
     {
       "episode_id": "S1-E06",
@@ -603,8 +623,12 @@
         "CHR-L1-04",
         "CHR-L1-05"
       ],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-023"
+      ],
+      "humor_ids": [
+        "HUM-纸鸢-01"
+      ]
     },
     {
       "episode_id": "S1-E07",
@@ -628,8 +652,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-022"
+      ],
+      "humor_ids": [
+        "HUM-棋局-01"
+      ]
     },
     {
       "episode_id": "S1-E08",
@@ -653,8 +681,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-005"
+      ],
+      "humor_ids": [
+        "HUM-画舫-01"
+      ]
     },
     {
       "episode_id": "S1-E09",
@@ -678,8 +710,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-016"
+      ],
+      "humor_ids": [
+        "HUM-药铺-01"
+      ]
     },
     {
       "episode_id": "S1-E10",
@@ -703,8 +739,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-019"
+      ],
+      "humor_ids": [
+        "HUM-客舍-01"
+      ]
     },
     {
       "episode_id": "S1-E11",
@@ -728,8 +768,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-004"
+      ],
+      "humor_ids": [
+        "HUM-官样-01"
+      ]
     },
     {
       "episode_id": "S1-E12",
@@ -753,8 +797,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-020"
+      ],
+      "humor_ids": [
+        "HUM-船帮-01"
+      ]
     },
     {
       "episode_id": "S1-E13",
@@ -778,8 +826,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-007"
+      ],
+      "humor_ids": [
+        "HUM-潮汐-01"
+      ]
     },
     {
       "episode_id": "S1-E14",
@@ -803,8 +855,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-020"
+      ],
+      "humor_ids": [
+        "HUM-仓账-01"
+      ]
     },
     {
       "episode_id": "S1-E15",
@@ -828,8 +884,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-024"
+      ],
+      "humor_ids": [
+        "HUM-空碗-01"
+      ]
     },
     {
       "episode_id": "S1-E16",
@@ -853,8 +913,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-020"
+      ],
+      "humor_ids": [
+        "HUM-修绳-01"
+      ]
     },
     {
       "episode_id": "S1-E17",
@@ -878,8 +942,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-018"
+      ],
+      "humor_ids": [
+        "HUM-原件-01"
+      ]
     },
     {
       "episode_id": "S1-E18",
@@ -903,8 +971,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-008"
+      ],
+      "humor_ids": [
+        "HUM-排队-01"
+      ]
     },
     {
       "episode_id": "S1-E19",
@@ -928,8 +1000,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-011"
+      ],
+      "humor_ids": [
+        "HUM-桂香-01"
+      ]
     },
     {
       "episode_id": "S1-E20",
@@ -953,8 +1029,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-019"
+      ],
+      "humor_ids": [
+        "HUM-登记-01"
+      ]
     },
     {
       "episode_id": "S1-E21",
@@ -978,8 +1058,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-017"
+      ],
+      "humor_ids": [
+        "HUM-画院-01"
+      ]
     },
     {
       "episode_id": "S1-E22",
@@ -1003,8 +1087,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-003"
+      ],
+      "humor_ids": [
+        "HUM-本名-01"
+      ]
     },
     {
       "episode_id": "S1-E23",
@@ -1028,8 +1116,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-012"
+      ],
+      "humor_ids": [
+        "HUM-家宴-01"
+      ]
     },
     {
       "episode_id": "S1-E24",
@@ -1053,8 +1145,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-022"
+      ],
+      "humor_ids": [
+        "HUM-席位-01"
+      ]
     },
     {
       "episode_id": "S1-E25",
@@ -1078,8 +1174,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-014"
+      ],
+      "humor_ids": [
+        "HUM-药簿-01"
+      ]
     },
     {
       "episode_id": "S1-E26",
@@ -1103,8 +1203,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-020"
+      ],
+      "humor_ids": [
+        "HUM-封水-01"
+      ]
     },
     {
       "episode_id": "S1-E27",
@@ -1128,8 +1232,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-021"
+      ],
+      "humor_ids": [
+        "HUM-文书-01"
+      ]
     },
     {
       "episode_id": "S1-E28",
@@ -1153,8 +1261,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-018"
+      ],
+      "humor_ids": [
+        "HUM-残页-01"
+      ]
     },
     {
       "episode_id": "S1-E29",
@@ -1178,8 +1290,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-014"
+      ],
+      "humor_ids": [
+        "HUM-闭门-01"
+      ]
     },
     {
       "episode_id": "S1-E30",
@@ -1203,8 +1319,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-015"
+      ],
+      "humor_ids": [
+        "HUM-雪夜-01"
+      ]
     },
     {
       "episode_id": "S1-E31",
@@ -1228,8 +1348,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-024"
+      ],
+      "humor_ids": [
+        "HUM-空碗-02"
+      ]
     },
     {
       "episode_id": "S1-E32",
@@ -1253,8 +1377,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-018"
+      ],
+      "humor_ids": [
+        "HUM-灯号-01"
+      ]
     },
     {
       "episode_id": "S1-E33",
@@ -1278,8 +1406,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-023"
+      ],
+      "humor_ids": [
+        "HUM-错灯-01"
+      ]
     },
     {
       "episode_id": "S1-E34",
@@ -1303,8 +1435,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-021"
+      ],
+      "humor_ids": [
+        "HUM-签押-01"
+      ]
     },
     {
       "episode_id": "S1-E35",
@@ -1328,8 +1464,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-008"
+      ],
+      "humor_ids": [
+        "HUM-施粥-01"
+      ]
     },
     {
       "episode_id": "S1-E36",
@@ -1353,8 +1493,12 @@
       "causal_chain": null,
       "continuity_refs": [],
       "pov_ids": [],
-      "activity_ids": [],
-      "humor_ids": []
+      "activity_ids": [
+        "EVT-015"
+      ],
+      "humor_ids": [
+        "HUM-柳绿-01"
+      ]
     }
   ],
   "next_gate": "Season Gate 前仅允许补全因果账本，不写正式对白、最终 U 身份或 BG 微章绑定。"

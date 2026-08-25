@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "status": "REVIEWED-SAMPLE-PASS",
+  "scope": "P2 Season mystery and reversal matrix review",
+  "entry_total": 18,
+  "episode_binding_total": 36,
+  "arc_total": 6,
+  "checks": {
+    "all_episode_bindings": true,
+    "fair_clue_fields": true,
+    "mid_reframe_per_arc": true,
+    "arc_end_reveal_per_arc": true,
+    "adjacent_reversal_types_distinct": true,
+    "references_traceable": true
+  },
+  "findings": [],
+  "deferred_followup": [
+    "S2-C 将把矩阵映射到 E07–E36 完整因果账本和 648 个 2–3 分钟短章。",
+    "Season Gate 前不绑定最终对白、shot ID、U 唯一身份或 BG 微章 ID。"
+  ]
+}

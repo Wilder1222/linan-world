@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Linan Spring Letter Humor Register Matrix",
+  "type": "object",
+  "required": ["schema_version", "status", "scope", "entries", "episode_bindings", "source", "next_gate"],
+  "properties": {
+    "schema_version": {"type": "integer", "const": 1},
+    "status": {"type": "string", "enum": ["SAMPLE-DRAFT", "REVIEWED-PASS", "LOCKED"]},
+    "scope": {"type": "string", "const": "P2 Humor and register matrix"},
+    "entries": {"type": "array", "minItems": 36, "maxItems": 36, "items": {"$ref": "#/$defs/humor"}},
+    "episode_bindings": {"type": "array", "minItems": 36, "maxItems": 36, "items": {"$ref": "#/$defs/binding"}},
+    "source": {"type": "string", "minLength": 1},
+    "next_gate": {"type": "string", "minLength": 1}
+  },
+  "$defs": {
+    "humor": {
+      "type": "object",
+      "required": ["humor_id", "episode_id", "arc_id", "speaker", "relationship_ids", "humor_type", "scene_context", "surface_line", "speaker_intent", "subtext", "listener_reaction", "reaction_order", "laugh_release", "emotional_recovery", "forbidden_target", "tonal_safety", "era_translation", "no_modern_terms"],
+      "properties": {
+        "humor_id": {"type": "string", "pattern": "^HUM-.+$"},
+        "episode_id": {"type": "string", "pattern": "^S1-E[0-9]{2}$"},
+        "arc_id": {"type": "string", "pattern": "^ARC-[0-9]{2}$"},
+        "speaker": {"type": "string"},
+        "relationship_ids": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^REL-(?:[0-9]{3}|G[0-9]{2})$"}},
+        "humor_type": {"type": "string", "minLength": 1},
+        "scene_context": {"type": "string", "minLength": 1},
+        "surface_line": {"type": "string", "minLength": 1},
+        "speaker_intent": {"type": "string", "minLength": 1},
+        "subtext": {"type": "string", "minLength": 1},
+        "listener_reaction": {"type": "string", "minLength": 1},
+        "reaction_order": {"type": "array", "minItems": 2, "items": {"type": "string"}},
+        "laugh_release": {"type": "string", "minLength": 1},
+        "emotional_recovery": {"type": "string", "minLength": 1},
+        "forbidden_target": {"type": "string", "minLength": 1},
+        "tonal_safety": {"type": "string", "minLength": 1},
+        "era_translation": {"type": "string", "minLength": 1},
+        "no_modern_terms": {"type": "string", "minLength": 1}
+      }
+    },
+    "binding": {
+      "type": "object",
+      "required": ["episode_id", "arc_id", "humor_ids"],
+      "properties": {
+        "episode_id": {"type": "string", "pattern": "^S1-E[0-9]{2}$"},
+        "arc_id": {"type": "string", "pattern": "^ARC-[0-9]{2}$"},
+        "humor_ids": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^HUM-.+$"}}
+      }
+    }
+  }
+}

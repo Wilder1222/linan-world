@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Linan Spring Letter Song Life Activity Matrix",
+  "type": "object",
+  "required": ["schema_version", "status", "scope", "entries", "episode_bindings", "source", "next_gate"],
+  "properties": {
+    "schema_version": {"type": "integer", "const": 1},
+    "status": {"type": "string", "enum": ["SAMPLE-DRAFT", "REVIEWED-PASS", "LOCKED"]},
+    "scope": {"type": "string", "const": "P2 Song-life activity matrix"},
+    "entries": {"type": "array", "minItems": 36, "maxItems": 36, "items": {"$ref": "#/$defs/activity"}},
+    "episode_bindings": {"type": "array", "minItems": 36, "maxItems": 36, "items": {"$ref": "#/$defs/binding"}},
+    "source": {"type": "string", "minLength": 1},
+    "next_gate": {"type": "string", "minLength": 1}
+  },
+  "$defs": {
+    "activity": {
+      "type": "object",
+      "required": ["binding_id", "activity_id", "episode_id", "arc_id", "activity", "historical_anchor", "interpretation_note", "season_and_location", "modern_emotional_entry", "lead_characters", "relationship_ids", "surface_goal", "obstacle", "relationship_delta", "clue_delta", "choice", "state_transfer", "continuity_cost", "opening_hook", "ending_button"],
+      "properties": {
+        "binding_id": {"type": "string", "pattern": "^ACT-BIND-[0-9]{2}$"},
+        "activity_id": {"type": "string", "pattern": "^EVT-[0-9]{3}$"},
+        "episode_id": {"type": "string", "pattern": "^S1-E[0-9]{2}$"},
+        "arc_id": {"type": "string", "pattern": "^ARC-[0-9]{2}$"},
+        "activity": {"type": "string", "minLength": 1},
+        "historical_anchor": {"type": "string", "minLength": 1},
+        "interpretation_note": {"type": "string", "minLength": 1},
+        "season_and_location": {"type": "object", "required": ["episode_window", "location_ids"]},
+        "modern_emotional_entry": {"type": "string", "minLength": 1},
+        "lead_characters": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "relationship_ids": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^REL-(?:[0-9]{3}|G[0-9]{2})$"}},
+        "surface_goal": {"type": "string", "minLength": 1},
+        "obstacle": {"type": "string", "minLength": 1},
+        "relationship_delta": {"type": "string", "minLength": 1},
+        "clue_delta": {"type": "string", "minLength": 1},
+        "choice": {"type": "string", "minLength": 1},
+        "state_transfer": {"type": "string", "minLength": 1},
+        "continuity_cost": {"type": "string", "minLength": 1},
+        "opening_hook": {"type": "string", "minLength": 1},
+        "ending_button": {"type": "string", "minLength": 1}
+      }
+    },
+    "binding": {
+      "type": "object",
+      "required": ["episode_id", "arc_id", "activity_ids"],
+      "properties": {
+        "episode_id": {"type": "string", "pattern": "^S1-E[0-9]{2}$"},
+        "arc_id": {"type": "string", "pattern": "^ARC-[0-9]{2}$"},
+        "activity_ids": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^EVT-[0-9]{3}$"}}
+      }
+    }
+  }
+}

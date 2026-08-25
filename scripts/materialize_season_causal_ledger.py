@@ -10,6 +10,17 @@ OUT = ROOT / "story/season/season-causal-ledger.json"
 OUT.parent.mkdir(parents=True, exist_ok=True)
 
 
+def load_episode_bindings(filename: str, field: str) -> dict[str, list[str]]:
+    path = ROOT / "story/season" / filename
+    if not path.exists():
+        return {}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    bindings = {}
+    for item in data.get("episode_bindings", []):
+        bindings[item["episode_id"]] = list(item.get(field, []))
+    return bindings
+
+
 def draft_episode(episode_id: str, arc_id: str, title: str) -> dict:
     return {
         "episode_id": episode_id,
@@ -171,6 +182,8 @@ def main() -> int:
     titles = load_titles()
     if len(titles) != 36:
         raise SystemExit(f"expected 36 episode titles, found {len(titles)}")
+    activity_bindings = load_episode_bindings("song-life-activity-matrix.json", "activity_ids")
+    humor_bindings = load_episode_bindings("humor-register-matrix.json", "humor_ids")
     for episode_id, title in titles:
         episode_number = int(episode_id[-2:])
         arc_id = f"ARC-{((episode_number - 1) // 6) + 1:02d}"
@@ -179,6 +192,8 @@ def main() -> int:
             record.update(SAMPLES[episode_id])
             record["status"] = "SAMPLE-DRAFT"
             record["duration_minutes"] = 45
+        record["activity_ids"] = activity_bindings.get(episode_id, record["activity_ids"])
+        record["humor_ids"] = humor_bindings.get(episode_id, record["humor_ids"])
         episodes.append(record)
     ledger = {
         "schema_version": 1,

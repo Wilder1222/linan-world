@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "status": "REVIEWED-SAMPLE-PASS",
+  "scope": "P2 Song-life activity matrix review",
+  "entry_total": 36,
+  "episode_binding_total": 36,
+  "checks": {
+    "all_episode_bindings": true,
+    "historical_anchor_and_interpretation_present": true,
+    "activity_changes_relationship_or_clue": true,
+    "location_references_traceable": true,
+    "participants_traceable": true,
+    "relationship_references_traceable": true,
+    "repeat_activity_state_transfer_differs": true
+  },
+  "findings": [],
+  "deferred_followup": [
+    "S2-C 将把矩阵映射到 E07–E36 完整因果账本和 648 个 2–3 分钟短章。",
+    "Season Gate 前不绑定最终对白、shot ID、U 唯一身份或 BG 微章 ID。"
+  ]
+}

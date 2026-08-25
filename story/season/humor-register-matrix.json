@@ -1,0 +1,1200 @@
+{
+  "schema_version": 1,
+  "status": "SAMPLE-DRAFT",
+  "scope": "P2 Humor and register matrix",
+  "entries": [
+    {
+      "humor_id": "HUM-物件-01",
+      "episode_id": "S1-E01",
+      "arc_id": "ARC-01",
+      "speaker": "CHR-L1-01",
+      "speaker_name": "沈蘅",
+      "relationship_ids": [
+        "REL-005"
+      ],
+      "humor_type": "物件笑点",
+      "scene_context": "沈蘅把香丸、灰样和旧匣摆成三列时，陆清和想把它们全收走",
+      "surface_line": "陆清和把第四只碗也摆进来，说‘这只算谁的证据’",
+      "speaker_intent": "先让物件按证据等级站好",
+      "subtext": "她借整理物件回避母亲的眼神",
+      "listener_reaction": "笑意只停在手上，母女冲突更清楚",
+      "reaction_order": [
+        "CHR-L1-01",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑意只停在手上，母女冲突更清楚；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "关系边界更具体，尾钩仍落在新胶痕",
+      "forbidden_target": "不拿亡父死亡或母女伤口做笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-饭量-01",
+      "episode_id": "S1-E02",
+      "arc_id": "ARC-01",
+      "speaker": "CHR-L2-02",
+      "speaker_name": "林阿沅",
+      "relationship_ids": [
+        "REL-005"
+      ],
+      "humor_type": "反问",
+      "scene_context": "阿沅端来三只空碗，说一只不能证明、两只也不能，三只总该算没白煮",
+      "surface_line": "沈蘅问第四只碗是否也要编号，阿沅立刻护住碗",
+      "speaker_intent": "把生活观察变成可重复记录",
+      "subtext": "她想证明自己不是只会热心",
+      "listener_reaction": "轻笑后进入饭量时间序列",
+      "reaction_order": [
+        "CHR-L2-02",
+        "listener_or_group"
+      ],
+      "laugh_release": "轻笑后进入饭量时间序列；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "阿沅的职业自尊上升",
+      "forbidden_target": "不消费饥饿者",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-舞台-01",
+      "episode_id": "S1-E03",
+      "arc_id": "ARC-01",
+      "speaker": "CHR-L1-02",
+      "speaker_name": "柳十四",
+      "relationship_ids": [
+        "REL-003"
+      ],
+      "humor_type": "错位",
+      "scene_context": "柳十四夸班主记性好，再指出班主把最想留的曲稿夹进了自己的账本",
+      "surface_line": "班主摸账本却不敢翻，顾念娘在旁边咳了一声",
+      "speaker_intent": "用礼数拿回作品",
+      "subtext": "她用笑把失控的契约抢回主动权",
+      "listener_reaction": "笑点让柳的控场更危险而非减轻损失",
+      "reaction_order": [
+        "CHR-L1-02",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑点让柳的控场更危险而非减轻损失；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "柳拿回曲稿但失去头牌位置",
+      "forbidden_target": "不把艺人的生计羞辱化",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-地图-01",
+      "episode_id": "S1-E04",
+      "arc_id": "ARC-01",
+      "speaker": "CHR-L1-03",
+      "speaker_name": "周砚之",
+      "relationship_ids": [
+        "REL-011"
+      ],
+      "humor_type": "一本正经的荒谬",
+      "scene_context": "周说三张图若再各自坚持，最后只能画出一座没人住的城",
+      "surface_line": "程野老回一句：没人住的城倒省颜料",
+      "speaker_intent": "承认地图需要被改",
+      "subtext": "他把职业羞耻说成制图问题",
+      "listener_reaction": "笑后周留下错误线",
+      "reaction_order": [
+        "CHR-L1-03",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后周留下错误线；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "专业自尊转为可修正性",
+      "forbidden_target": "不拿受灾居民做笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-船户-01",
+      "episode_id": "S1-E05",
+      "arc_id": "ARC-01",
+      "speaker": "CHR-L1-04",
+      "speaker_name": "裴九娘",
+      "relationship_ids": [
+        "REL-004"
+      ],
+      "humor_type": "抢先一步",
+      "scene_context": "裴先报船的价格，再问顾行舟要不要替她吵架",
+      "surface_line": "顾说自己只会挡刀，裴回‘刀先记在账上’",
+      "speaker_intent": "把旧同袍冲突拉回货运任务",
+      "subtext": "她用账本挡住被旧名声刺到的羞意",
+      "listener_reaction": "笑点让保护欲显得笨拙",
+      "reaction_order": [
+        "CHR-L1-04",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑点让保护欲显得笨拙；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "顾不能替裴发言",
+      "forbidden_target": "不把旧案受害者当笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-纸鸢-01",
+      "episode_id": "S1-E06",
+      "arc_id": "ARC-01",
+      "speaker": "CHR-L2-02",
+      "speaker_name": "林阿沅",
+      "relationship_ids": [
+        "REL-G01"
+      ],
+      "humor_type": "反差",
+      "scene_context": "阿沅说孩子的纸鸢比五位大人更守时，沈蘅立即问纸鸢是否有来源标记",
+      "surface_line": "孩子说纸鸢只认风，沈蘅沉默片刻说风也要记时辰",
+      "speaker_intent": "把普通观察纳入核验",
+      "subtext": "她认真过头又怕自己说错",
+      "listener_reaction": "笑后普通节点获得尊重",
+      "reaction_order": [
+        "CHR-L2-02",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后普通节点获得尊重；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "沈接受被非专业者提醒",
+      "forbidden_target": "不拿儿童危险处境做笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-棋局-01",
+      "episode_id": "S1-E07",
+      "arc_id": "ARC-02",
+      "speaker": "CHR-L3-01",
+      "speaker_name": "宋惟敬",
+      "relationship_ids": [
+        "REL-012"
+      ],
+      "humor_type": "物件笑点",
+      "scene_context": "宋惟敬把棋子排成船期，众人以为他在下棋，他说棋子至少不会临时改口",
+      "surface_line": "沈蘅问那被吃掉的棋子是否也算延误，宋第一次没接上",
+      "speaker_intent": "展示调度的可见效率",
+      "subtext": "他把对人的不信任藏在效率玩笑里",
+      "listener_reaction": "笑意暴露制度盲点",
+      "reaction_order": [
+        "CHR-L3-01",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑意暴露制度盲点；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "能力敬意与制度警惕同时上升",
+      "forbidden_target": "不拿饥荒后果开玩笑",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-画舫-01",
+      "episode_id": "S1-E08",
+      "arc_id": "ARC-02",
+      "speaker": "CHR-L1-02",
+      "speaker_name": "柳十四",
+      "relationship_ids": [
+        "REL-002"
+      ],
+      "humor_type": "反问",
+      "scene_context": "柳看着周的水图说：画得这样清楚，连迷路都像有了规矩",
+      "surface_line": "周问迷路是否也要留比例尺，柳笑不出来了",
+      "speaker_intent": "提醒周别把人当图例",
+      "subtext": "她既欣赏又嫌他太认真",
+      "listener_reaction": "笑后关系转入被看见与被拥有",
+      "reaction_order": [
+        "CHR-L1-02",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后关系转入被看见与被拥有；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "柳要求画她前先问",
+      "forbidden_target": "不以被盗受害者为笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-药铺-01",
+      "episode_id": "S1-E09",
+      "arc_id": "ARC-02",
+      "speaker": "CHR-L2-03",
+      "speaker_name": "余青禾",
+      "relationship_ids": [
+        "REL-010"
+      ],
+      "humor_type": "冷笑话",
+      "scene_context": "余青禾说白芷涨价得比她的脉案还快，病人问她脉案能不能也涨一涨",
+      "surface_line": "阿沅把药包收好说先别给脉案加价",
+      "speaker_intent": "让专业判断落到生活压力",
+      "subtext": "她意识到自己说得太像账房",
+      "listener_reaction": "笑后保留白芷短缺的现实重量",
+      "reaction_order": [
+        "CHR-L2-03",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后保留白芷短缺的现实重量；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "青禾承认普通人先感到价格再感到病名",
+      "forbidden_target": "不拿病痛本身做笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-客舍-01",
+      "episode_id": "S1-E10",
+      "arc_id": "ARC-02",
+      "speaker": "CHR-L1-05",
+      "speaker_name": "顾行舟",
+      "relationship_ids": [
+        "REL-001"
+      ],
+      "humor_type": "笨拙保护",
+      "scene_context": "顾说半卷旧案已经够沈蘅看一夜，沈问他是不是连灯油也替她算过",
+      "surface_line": "顾看向门闩，沈把灯芯拨长一寸",
+      "speaker_intent": "暴露保护过度",
+      "subtext": "他想把风险切成可管理的小份",
+      "listener_reaction": "笑后知情权冲突更尖锐",
+      "reaction_order": [
+        "CHR-L1-05",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后知情权冲突更尖锐；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "顾承认自己没有替她决定的资格",
+      "forbidden_target": "不拿幸存者经历做笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-官样-01",
+      "episode_id": "S1-E11",
+      "arc_id": "ARC-02",
+      "speaker": "CHR-L2-04",
+      "speaker_name": "高问",
+      "relationship_ids": [
+        "REL-014"
+      ],
+      "humor_type": "字面执行",
+      "scene_context": "高问反复确认还差几刻，章允中问他是不是连叹气也要盖印",
+      "surface_line": "高问拿起印泥又放下，说叹气不入卷",
+      "speaker_intent": "让官样认真暴露人的疲惫",
+      "subtext": "他用程序掩饰自己也不确定",
+      "listener_reaction": "笑后摘要差异进入文书线",
+      "reaction_order": [
+        "CHR-L2-04",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后摘要差异进入文书线；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "高问的可笑和可怜同时成立",
+      "forbidden_target": "不拿封锁对象做笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-船帮-01",
+      "episode_id": "S1-E12",
+      "arc_id": "ARC-02",
+      "speaker": "CHR-L1-04",
+      "speaker_name": "裴九娘",
+      "relationship_ids": [
+        "REL-004"
+      ],
+      "humor_type": "讨价",
+      "scene_context": "船帮要她一次说完十三年前旧案，裴说先把今日船费说完，旧账不会替大家划船",
+      "surface_line": "顾行舟想插话，裴把账本递给他让他算",
+      "speaker_intent": "把旧案拉回当下责任",
+      "subtext": "她拒绝被名声逼着表演清白",
+      "listener_reaction": "笑后隐私边界被明确",
+      "reaction_order": [
+        "CHR-L1-04",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后隐私边界被明确；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "裴保留保护权",
+      "forbidden_target": "不拿幸存者做笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-潮汐-01",
+      "episode_id": "S1-E13",
+      "arc_id": "ARC-03",
+      "speaker": "CHR-L1-03",
+      "speaker_name": "周砚之",
+      "relationship_ids": [
+        "REL-011"
+      ],
+      "humor_type": "一本正经的比喻",
+      "scene_context": "周说潮水每次都按时来，只有人喜欢把迟到写成天意",
+      "surface_line": "贺九问他能否把鱼也画准，周当场收笔",
+      "speaker_intent": "鼓励把经验写成可核验记录",
+      "subtext": "他借水说官报与人",
+      "listener_reaction": "笑后职业经验进入疑报",
+      "reaction_order": [
+        "CHR-L1-03",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后职业经验进入疑报；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "周更愿意保留不确定",
+      "forbidden_target": "不拿危险潮汐做玩笑对象",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-仓账-01",
+      "episode_id": "S1-E14",
+      "arc_id": "ARC-03",
+      "speaker": "CHR-A1-07",
+      "speaker_name": "黎令仪",
+      "relationship_ids": [
+        "REL-009"
+      ],
+      "humor_type": "物件笑点",
+      "scene_context": "黎令仪说这页账若再空一格，连纸都要替人脸红",
+      "surface_line": "黎见山从旁边递来新纸，问要不要连纸一起换掉",
+      "speaker_intent": "把账目异常说成可见羞耻",
+      "subtext": "她已经知道自己在越界",
+      "listener_reaction": "笑点让养父女的温情更复杂",
+      "reaction_order": [
+        "CHR-A1-07",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑点让养父女的温情更复杂；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "黎令仪保留原页不重抄",
+      "forbidden_target": "不拿饥饿者或火灾做笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-空碗-01",
+      "episode_id": "S1-E15",
+      "arc_id": "ARC-03",
+      "speaker": "CHR-L2-02",
+      "speaker_name": "林阿沅",
+      "relationship_ids": [
+        "REL-010"
+      ],
+      "humor_type": "黑色边缘但安全",
+      "scene_context": "阿沅端汤时说空碗今日很忙，跑了三家门还没吃上一口",
+      "surface_line": "沈三娘接过汤说碗不用证明，人会自己开门",
+      "speaker_intent": "把照料行动从口号变成敲门",
+      "subtext": "她用轻话掩饰自己害怕敲错门",
+      "listener_reaction": "笑后立刻回到逐户更正",
+      "reaction_order": [
+        "CHR-L2-02",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后立刻回到逐户更正；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "阿沅学会先确认再上报",
+      "forbidden_target": "不把病人或饥饿本身当笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-修绳-01",
+      "episode_id": "S1-E16",
+      "arc_id": "ARC-03",
+      "speaker": "CHR-L1-05",
+      "speaker_name": "顾行舟",
+      "relationship_ids": [
+        "REL-004"
+      ],
+      "humor_type": "身体行动",
+      "scene_context": "顾陪裴修绳，裴问他会不会安慰人；顾说会打结，裴说这算另一门手艺",
+      "surface_line": "他把绳结打得太紧，裴让他松一寸",
+      "speaker_intent": "用共同劳动替代空泛安慰",
+      "subtext": "顾承认自己不知如何面对她的崩溃",
+      "listener_reaction": "笑后两人继续修船不说教",
+      "reaction_order": [
+        "CHR-L1-05",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后两人继续修船不说教；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "关系靠允许沉默推进",
+      "forbidden_target": "不拿落水者做笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-原件-01",
+      "episode_id": "S1-E17",
+      "arc_id": "ARC-03",
+      "speaker": "CHR-A3-04",
+      "speaker_name": "许九章",
+      "relationship_ids": [
+        "REL-015"
+      ],
+      "humor_type": "物件笑点",
+      "scene_context": "许九章抱着原件说纸比他胆子硬，石六问纸要不要也去作证",
+      "surface_line": "石六把肩膀往前一挺，说纸先放我这儿",
+      "speaker_intent": "让普通人互相托底",
+      "subtext": "许怕失去吏籍又不想毁掉原件",
+      "listener_reaction": "笑后两人真的留下证据",
+      "reaction_order": [
+        "CHR-A3-04",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后两人真的留下证据；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "基层互信上升",
+      "forbidden_target": "不拿失业和饥荒开笑",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-排队-01",
+      "episode_id": "S1-E18",
+      "arc_id": "ARC-03",
+      "speaker": "CHR-L2-02",
+      "speaker_name": "林阿沅",
+      "relationship_ids": [
+        "REL-G01"
+      ],
+      "humor_type": "错位",
+      "scene_context": "阿沅把三列施粥队叫作‘一列饿、一列怕、一列还没来’，余青禾问能不能再加一列先别吓人",
+      "surface_line": "沈蘅要求把列名写成事实，阿沅说那就叫‘今日所见’",
+      "speaker_intent": "让记录不抹掉人的状态",
+      "subtext": "她想快速分流又怕把人贴标签",
+      "listener_reaction": "笑后合报保留未知",
+      "reaction_order": [
+        "CHR-L2-02",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后合报保留未知；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "生活数据进入公共记录但不取代人",
+      "forbidden_target": "不拿病患排队做笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-桂香-01",
+      "episode_id": "S1-E19",
+      "arc_id": "ARC-04",
+      "speaker": "CHR-L1-01",
+      "speaker_name": "沈蘅",
+      "relationship_ids": [
+        "REL-001"
+      ],
+      "humor_type": "过度精确",
+      "scene_context": "沈蘅说这桂香里混了不合季的药材，顾问她能不能先把桂花吃完再查",
+      "surface_line": "沈把花糕分成可查和不可查两块",
+      "speaker_intent": "给普通生活留一点时间",
+      "subtext": "她想休息却无法忽略嗅觉",
+      "listener_reaction": "笑后她仍收下香囊而不立刻调查",
+      "reaction_order": [
+        "CHR-L1-01",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后她仍收下香囊而不立刻调查；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "顾与沈获得短暂普通人生",
+      "forbidden_target": "不拿灾情或病人做笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-登记-01",
+      "episode_id": "S1-E20",
+      "arc_id": "ARC-04",
+      "speaker": "CHR-A1-05",
+      "speaker_name": "许含章",
+      "relationship_ids": [
+        "REL-016"
+      ],
+      "humor_type": "冷笑话",
+      "scene_context": "许含章问贺兰度要登记‘北人’还是登记‘会不会嫌你说得太多的人’",
+      "surface_line": "贺兰度第一次没接‘我们北人’",
+      "speaker_intent": "把身份分类拉回具体愿望",
+      "subtext": "她用轻话顶住爱护与政治冲突",
+      "listener_reaction": "笑后记录表新增‘不愿被代表’",
+      "reaction_order": [
+        "CHR-A1-05",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后记录表新增‘不愿被代表’；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "关系裂缝清晰化",
+      "forbidden_target": "不嘲笑流民或乡土记忆",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-画院-01",
+      "episode_id": "S1-E21",
+      "arc_id": "ARC-04",
+      "speaker": "CHR-A2-07",
+      "speaker_name": "程野老",
+      "relationship_ids": [
+        "REL-011"
+      ],
+      "humor_type": "反问",
+      "scene_context": "程野老问周砚之进画院后是不是连泥点也要先请示",
+      "surface_line": "周说泥点不识官印，程回‘那就先别替它盖章’",
+      "speaker_intent": "逼周承认野心不是中性",
+      "subtext": "他以打趣保护对徒弟的骄傲",
+      "listener_reaction": "笑后周保留两套版本",
+      "reaction_order": [
+        "CHR-A2-07",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后周保留两套版本；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "师徒关系从冷淡转为成全",
+      "forbidden_target": "不拿画院制度受害者做笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-本名-01",
+      "episode_id": "S1-E22",
+      "arc_id": "ARC-04",
+      "speaker": "CHR-L1-02",
+      "speaker_name": "柳十四",
+      "relationship_ids": [
+        "REL-002"
+      ],
+      "humor_type": "舞台机锋",
+      "scene_context": "班主叫她唱最受欢迎的柳十四，她说那位今日不在，柳望舒来收自己的名字",
+      "surface_line": "顾念娘把头牌牌子翻面，背面还是旧名",
+      "speaker_intent": "让署名成为行动",
+      "subtext": "她害怕失去掌声但不愿失去本名",
+      "listener_reaction": "笑后头牌位置真的失去",
+      "reaction_order": [
+        "CHR-L1-02",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后头牌位置真的失去；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "笑点变成身份代价",
+      "forbidden_target": "不把艺人劳动贬成玩笑",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-家宴-01",
+      "episode_id": "S1-E23",
+      "arc_id": "ARC-04",
+      "speaker": "CHR-L2-01",
+      "speaker_name": "陆清和",
+      "relationship_ids": [
+        "REL-005"
+      ],
+      "humor_type": "家务反问",
+      "scene_context": "陆清和问沈蘅先分月饼还是先分事实、推断、未证",
+      "surface_line": "沈蘅把月饼切成三块，陆说这回总算知道怎么分",
+      "speaker_intent": "把共同工作放回饭桌",
+      "subtext": "她想靠家务语气避开父亲伤口",
+      "listener_reaction": "笑后母女共同标旧稿",
+      "reaction_order": [
+        "CHR-L2-01",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后母女共同标旧稿；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "关系没有和好但有新协作方式",
+      "forbidden_target": "不拿亡者或家庭创伤做笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-席位-01",
+      "episode_id": "S1-E24",
+      "arc_id": "ARC-04",
+      "speaker": "CHR-L3-01",
+      "speaker_name": "宋惟敬",
+      "relationship_ids": [
+        "REL-012"
+      ],
+      "humor_type": "物件笑点",
+      "scene_context": "宋惟敬看着空椅说这位客人最守时，从来不迟到也不反驳",
+      "surface_line": "沈蘅没有笑，只把空杯往前推半寸",
+      "speaker_intent": "让缺席和控制欲变得可见",
+      "subtext": "他不愿直说妻儿之死",
+      "listener_reaction": "笑意被沈收住，情绪回到沉默",
+      "reaction_order": [
+        "CHR-L3-01",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑意被沈收住，情绪回到沉默；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "宋与沈共享一瞬未解释的痛",
+      "forbidden_target": "不以死者本身取笑",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-药簿-01",
+      "episode_id": "S1-E25",
+      "arc_id": "ARC-05",
+      "speaker": "CHR-L2-03",
+      "speaker_name": "余青禾",
+      "relationship_ids": [
+        "REL-010"
+      ],
+      "humor_type": "自嘲",
+      "scene_context": "余青禾说这页病例若再加一行，先病的是她的手腕",
+      "surface_line": "余仲仁想替她重抄，她把原页压住",
+      "speaker_intent": "在公开前判有误时保留人的疲惫",
+      "subtext": "她知道自己会失去荐书",
+      "listener_reaction": "笑后留下原始误判和更正",
+      "reaction_order": [
+        "CHR-L2-03",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后留下原始误判和更正；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "师徒决裂但纠错伦理成立",
+      "forbidden_target": "不以疾病或患者为笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-封水-01",
+      "episode_id": "S1-E26",
+      "arc_id": "ARC-05",
+      "speaker": "CHR-L1-04",
+      "speaker_name": "裴九娘",
+      "relationship_ids": [
+        "REL-004"
+      ],
+      "humor_type": "反问",
+      "scene_context": "裴说若把所有水都封了，鱼也要先递状纸",
+      "surface_line": "罗见潮回她鱼没有状纸，只有死路",
+      "speaker_intent": "让一刀切的荒谬显形",
+      "subtext": "她知道部分封水确有必要",
+      "listener_reaction": "笑后明确划分高风险段",
+      "reaction_order": [
+        "CHR-L1-04",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后明确划分高风险段；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "商号关系受损但原则更清楚",
+      "forbidden_target": "不拿溺水或死亡做笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-文书-01",
+      "episode_id": "S1-E27",
+      "arc_id": "ARC-05",
+      "speaker": "CHR-L2-04",
+      "speaker_name": "高问",
+      "relationship_ids": [
+        "REL-014"
+      ],
+      "humor_type": "字面执行",
+      "scene_context": "高问问非常令有没有‘非常之外的令’，章允中说那要另起一卷",
+      "surface_line": "高问把新卷纸压在旧令上，没有立即盖印",
+      "speaker_intent": "把制度层叠的荒谬写出来",
+      "subtext": "他已经不敢只靠服从安慰自己",
+      "listener_reaction": "笑后迟疑变成行动停顿",
+      "reaction_order": [
+        "CHR-L2-04",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后迟疑变成行动停顿；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "高问开始拥有纠错前的犹豫",
+      "forbidden_target": "不拿封锁对象做笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-残页-01",
+      "episode_id": "S1-E28",
+      "arc_id": "ARC-05",
+      "speaker": "CHR-A1-07",
+      "speaker_name": "黎令仪",
+      "relationship_ids": [
+        "REL-009"
+      ],
+      "humor_type": "物件笑点",
+      "scene_context": "黎令仪说残页比整账更会说话，至少没学会替自己圆场",
+      "surface_line": "黎见山看着灰说纸倒是比人诚实",
+      "speaker_intent": "让残证保存成为行动",
+      "subtext": "她已经不再相信养父的解释",
+      "listener_reaction": "笑后火灾责任更沉",
+      "reaction_order": [
+        "CHR-A1-07",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后火灾责任更沉；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "父女关系不被笑点修复",
+      "forbidden_target": "不拿被困者或火灾伤亡做笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-闭门-01",
+      "episode_id": "S1-E29",
+      "arc_id": "ARC-05",
+      "speaker": "CHR-L2-02",
+      "speaker_name": "林阿沅",
+      "relationship_ids": [
+        "REL-001"
+      ],
+      "humor_type": "生活反差",
+      "scene_context": "阿沅说医棚门开了，街坊的碗却还在门外排队",
+      "surface_line": "沈蘅没有纠正她，只把名单往前推",
+      "speaker_intent": "让封锁影响落到食物与照料",
+      "subtext": "她用饭碗说出对制度的困惑",
+      "listener_reaction": "笑后立即转入转运死亡的重量",
+      "reaction_order": [
+        "CHR-L2-02",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后立即转入转运死亡的重量；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "关系更近但不消解决裂",
+      "forbidden_target": "不以死亡本身开笑",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-雪夜-01",
+      "episode_id": "S1-E30",
+      "arc_id": "ARC-05",
+      "speaker": "CHR-L1-02",
+      "speaker_name": "柳十四",
+      "relationship_ids": [
+        "REL-G01"
+      ],
+      "humor_type": "冷笑话",
+      "scene_context": "柳说五个人若都不在同一处，至少不用争谁坐主位",
+      "surface_line": "周砚之把自己的座位也推开半寸",
+      "speaker_intent": "承认中心依赖已经失效",
+      "subtext": "她其实害怕团队散掉",
+      "listener_reaction": "笑后分散保存成为选择",
+      "reaction_order": [
+        "CHR-L1-02",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后分散保存成为选择；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "友情从同席转向可独立行动",
+      "forbidden_target": "不拿截粮或饥荒受害者做笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-空碗-02",
+      "episode_id": "S1-E31",
+      "arc_id": "ARC-06",
+      "speaker": "CHR-L2-02",
+      "speaker_name": "林阿沅",
+      "relationship_ids": [
+        "REL-005"
+      ],
+      "humor_type": "物件笑点",
+      "scene_context": "阿沅说空碗比人守约，每日都来却不肯说主人去哪",
+      "surface_line": "沈三娘把热汤递给她，说先问门里的人",
+      "speaker_intent": "引出失联表而非解释失联",
+      "subtext": "她用轻话压住敲门前的害怕",
+      "listener_reaction": "笑后敲门行动发生",
+      "reaction_order": [
+        "CHR-L2-02",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后敲门行动发生；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "民间节点开始自主行动",
+      "forbidden_target": "不拿失联者做笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-灯号-01",
+      "episode_id": "S1-E32",
+      "arc_id": "ARC-06",
+      "speaker": "CHR-B-003",
+      "speaker_name": "魏绣娘",
+      "relationship_ids": [
+        "REL-G01"
+      ],
+      "humor_type": "物件笑点",
+      "scene_context": "魏绣娘说这块布摸起来像灯，至少比灯还懂雨",
+      "surface_line": "方书娘摸过后承认自己看不清却能认出方向",
+      "speaker_intent": "让触感辅助进入协议",
+      "subtext": "她不想让自己的手艺只做装饰",
+      "listener_reaction": "笑后触感布条成为实用方案",
+      "reaction_order": [
+        "CHR-B-003",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后触感布条成为实用方案；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "普通职业能力改变协议",
+      "forbidden_target": "不拿灾民视力或伤残做笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-错灯-01",
+      "episode_id": "S1-E33",
+      "arc_id": "ARC-06",
+      "speaker": "CHR-B-019",
+      "speaker_name": "孟小川",
+      "relationship_ids": [
+        "REL-G01"
+      ],
+      "humor_type": "自嘲",
+      "scene_context": "孟小川说这次水势看错，至少错得很及时，没让下一船照着走",
+      "surface_line": "何豆儿说那就把‘看错’写在最前面",
+      "speaker_intent": "把公开纠错从羞耻变成保护动作",
+      "subtext": "他害怕被当成不可靠船工",
+      "listener_reaction": "笑后更正口令被回传",
+      "reaction_order": [
+        "CHR-B-019",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后更正口令被回传；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "普通人互相纠错成为能力",
+      "forbidden_target": "不拿被误导的人群做笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-签押-01",
+      "episode_id": "S1-E34",
+      "arc_id": "ARC-06",
+      "speaker": "CHR-A1-06",
+      "speaker_name": "章允中",
+      "relationship_ids": [
+        "REL-014"
+      ],
+      "humor_type": "字面执行",
+      "scene_context": "章允中说今日每扇门都要有名字，免得门开了又没人认账",
+      "surface_line": "高问把自己的名字写在最前面",
+      "speaker_intent": "把责任链写进开城动作",
+      "subtext": "他害怕自己曾签过不完整摘要",
+      "listener_reaction": "笑后制度责任公开",
+      "reaction_order": [
+        "CHR-A1-06",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后制度责任公开；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "高问与章允中共同承担",
+      "forbidden_target": "不拿灾害受困者做笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-施粥-01",
+      "episode_id": "S1-E35",
+      "arc_id": "ARC-06",
+      "speaker": "CHR-L2-02",
+      "speaker_name": "林阿沅",
+      "relationship_ids": [
+        "REL-009"
+      ],
+      "humor_type": "错位",
+      "scene_context": "阿沅说今日三列终于都有人了，最难分的是谁先承认自己插了队",
+      "surface_line": "余青禾把插队者改记为‘已到但需再分流’",
+      "speaker_intent": "让协作不等于全员善良",
+      "subtext": "她想维持秩序又不愿羞辱人",
+      "listener_reaction": "笑后队列规则更细",
+      "reaction_order": [
+        "CHR-L2-02",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑后队列规则更细；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "普通劳动能力成为高潮主体",
+      "forbidden_target": "不以饥饿者或抢粮受害者为笑点",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    },
+    {
+      "humor_id": "HUM-柳绿-01",
+      "episode_id": "S1-E36",
+      "arc_id": "ARC-06",
+      "speaker": "CHR-L1-01",
+      "speaker_name": "沈蘅",
+      "relationship_ids": [
+        "REL-005",
+        "REL-001"
+      ],
+      "humor_type": "轻微出戏感",
+      "scene_context": "孩子递来‘今日柳绿’，沈蘅问他是亲见、转闻还是听谁说的；孩子说柳树不会写字",
+      "surface_line": "沈蘅第一次笑了一下，仍写下时刻与地点",
+      "speaker_intent": "让春信回到记录而非解释",
+      "subtext": "她已经学会把幽默让给普通人",
+      "listener_reaction": "笑意成为终局呼吸而非胜利口号",
+      "reaction_order": [
+        "CHR-L1-01",
+        "listener_or_group"
+      ],
+      "laugh_release": "笑意成为终局呼吸而非胜利口号；笑点在此收回，不延长为段子。",
+      "emotional_recovery": "系统可复制，人物不成为圣人",
+      "forbidden_target": "不拿灾后死亡、审判或旧创伤开笑",
+      "tonal_safety": "笑点只属于说话者的防御、职业习惯或物件错位；重大伤害与受害者不作为笑点。",
+      "era_translation": "现代观众识别情绪结构，人物使用宋代称谓、行当和生活物件表达。",
+      "no_modern_terms": "不使用现代词"
+    }
+  ],
+  "episode_bindings": [
+    {
+      "episode_id": "S1-E01",
+      "arc_id": "ARC-01",
+      "humor_ids": [
+        "HUM-物件-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E02",
+      "arc_id": "ARC-01",
+      "humor_ids": [
+        "HUM-饭量-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E03",
+      "arc_id": "ARC-01",
+      "humor_ids": [
+        "HUM-舞台-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E04",
+      "arc_id": "ARC-01",
+      "humor_ids": [
+        "HUM-地图-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E05",
+      "arc_id": "ARC-01",
+      "humor_ids": [
+        "HUM-船户-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E06",
+      "arc_id": "ARC-01",
+      "humor_ids": [
+        "HUM-纸鸢-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E07",
+      "arc_id": "ARC-02",
+      "humor_ids": [
+        "HUM-棋局-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E08",
+      "arc_id": "ARC-02",
+      "humor_ids": [
+        "HUM-画舫-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E09",
+      "arc_id": "ARC-02",
+      "humor_ids": [
+        "HUM-药铺-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E10",
+      "arc_id": "ARC-02",
+      "humor_ids": [
+        "HUM-客舍-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E11",
+      "arc_id": "ARC-02",
+      "humor_ids": [
+        "HUM-官样-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E12",
+      "arc_id": "ARC-02",
+      "humor_ids": [
+        "HUM-船帮-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E13",
+      "arc_id": "ARC-03",
+      "humor_ids": [
+        "HUM-潮汐-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E14",
+      "arc_id": "ARC-03",
+      "humor_ids": [
+        "HUM-仓账-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E15",
+      "arc_id": "ARC-03",
+      "humor_ids": [
+        "HUM-空碗-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E16",
+      "arc_id": "ARC-03",
+      "humor_ids": [
+        "HUM-修绳-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E17",
+      "arc_id": "ARC-03",
+      "humor_ids": [
+        "HUM-原件-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E18",
+      "arc_id": "ARC-03",
+      "humor_ids": [
+        "HUM-排队-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E19",
+      "arc_id": "ARC-04",
+      "humor_ids": [
+        "HUM-桂香-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E20",
+      "arc_id": "ARC-04",
+      "humor_ids": [
+        "HUM-登记-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E21",
+      "arc_id": "ARC-04",
+      "humor_ids": [
+        "HUM-画院-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E22",
+      "arc_id": "ARC-04",
+      "humor_ids": [
+        "HUM-本名-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E23",
+      "arc_id": "ARC-04",
+      "humor_ids": [
+        "HUM-家宴-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E24",
+      "arc_id": "ARC-04",
+      "humor_ids": [
+        "HUM-席位-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E25",
+      "arc_id": "ARC-05",
+      "humor_ids": [
+        "HUM-药簿-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E26",
+      "arc_id": "ARC-05",
+      "humor_ids": [
+        "HUM-封水-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E27",
+      "arc_id": "ARC-05",
+      "humor_ids": [
+        "HUM-文书-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E28",
+      "arc_id": "ARC-05",
+      "humor_ids": [
+        "HUM-残页-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E29",
+      "arc_id": "ARC-05",
+      "humor_ids": [
+        "HUM-闭门-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E30",
+      "arc_id": "ARC-05",
+      "humor_ids": [
+        "HUM-雪夜-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E31",
+      "arc_id": "ARC-06",
+      "humor_ids": [
+        "HUM-空碗-02"
+      ]
+    },
+    {
+      "episode_id": "S1-E32",
+      "arc_id": "ARC-06",
+      "humor_ids": [
+        "HUM-灯号-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E33",
+      "arc_id": "ARC-06",
+      "humor_ids": [
+        "HUM-错灯-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E34",
+      "arc_id": "ARC-06",
+      "humor_ids": [
+        "HUM-签押-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E35",
+      "arc_id": "ARC-06",
+      "humor_ids": [
+        "HUM-施粥-01"
+      ]
+    },
+    {
+      "episode_id": "S1-E36",
+      "arc_id": "ARC-06",
+      "humor_ids": [
+        "HUM-柳绿-01"
+      ]
+    }
+  ],
+  "source": "story/03-humor-and-register-standard-v1.md",
+  "next_gate": "S2-C 将笑点绑定到具体短章的情绪恢复与表演顺序后，再升级为 REVIEWED-PASS。"
+}

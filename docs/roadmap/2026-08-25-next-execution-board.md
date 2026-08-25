@@ -30,6 +30,14 @@
 - `scripts/audit_season_causal_ledger.py` 已通过：结构完整、样本引用可追溯、相邻样本尾钩类型不重复；审阅报告为 `REVIEWED-SAMPLE-PASS`。
 - Season Gate 仍保持 `OPEN`。本样本只证明因果账本格式与第一篇局部链条可执行，不代表 E07–E36、活动矩阵、幽默矩阵或 648 短章已完成。
 
+## S2-B 样本结果（2026-08-25）
+
+- `mystery-reversal-matrix.json`：18 条季级悬疑覆盖 36 集；每篇至少有中段重义与篇末不可逆揭示，连续集尾钩翻转类型不重复。
+- `song-life-activity-matrix.json`：36 个活动绑定；每项都有史实形态锚点、创作解释边界、关系变化或线索变化、选择和连续性代价。
+- `humor-register-matrix.json`：36 个角色化幽默绑定；逐条标注意图、潜台词、听者反应、笑点回收、时代转译与禁用目标，未使用现代网络词。
+- 三份审阅报告均为 `REVIEWED-SAMPLE-PASS`；季因果账本已回写每集 `activity_ids` 与 `humor_ids`。
+- 这些矩阵仍是 Season 层样本草案：S2-C 还需把它们绑定到 E07–E36 的完整因果账本和 648 个 2–3 分钟短章，Season Gate 继续保持 `OPEN`。
+
 ## 执行顺序
 
 ### S2-01｜36 集因果账本（第一优先级）
