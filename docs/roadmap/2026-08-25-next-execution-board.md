@@ -69,6 +69,20 @@
 - 120 个 U 槽位仍保持可替换边界，300 个 BG 原型继续 `RESERVED`，没有写入具体微章或扩展绑定。
 - SG-03 未完成前 Season Gate 继续保持 `OPEN`。
 
+## SG-03 差异合并与例外账本结果（2026-08-26）
+
+- 新增 `scripts/audit_season_gate_exceptions.py` 与 `tests/test_season_gate_exceptions.py`，报告 `qa/reviews/season-gate-exception-ledger.json` 为 `REVIEWED-SEASON-PASS`。
+- 两份独立审读均为 `REVIEWED-SEASON-PASS`；阻断、重大和轻微未决项均为 0。
+- 5 条延期项均有来源、责任人、处理结论、下一个 Gate 与保留边界，统一延期到 Episode Gate；没有静默覆盖冲突。
+- SG-04 之前继续保持 U 可替换、BG `RESERVED` 且不写入 `microchapter_ids`/`extension_ids`。
+
+## SG-04 Season Gate 决议结果（2026-08-26）
+
+- 新增 `scripts/lock_season_gate.py` 与 `tests/test_season_gate_lock.py`；`qa/gates/season-gate.json`、季级 input manifest 和 scope definition 已生成并通过重建审计。
+- 27 个输入文件（Season Canon、36 集账本、18 条悬疑链、活动/幽默矩阵、648 章钩子、U/BG 边界、两份独立报告与例外账本）哈希一致；`qa/production-status.json` 的 `season_gate` 为 `LOCKED`。
+- Season Gate 现在锁定 Season Canon 与短章节拍，不锁定最终对白、镜头、U 唯一身份或 BG 微章绑定；Episode Gate 继续为 `OPEN`。
+- 下一阶段进入 P3-01 输入冻结与 E01–E03 试点，不得把延期项静默视为已完成。
+
 ## 执行顺序
 
 ### S2-01｜36 集因果账本（第一优先级）

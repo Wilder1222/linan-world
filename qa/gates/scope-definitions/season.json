@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "gate": "season",
+  "scope": "season",
+  "prerequisites": [
+    "canon",
+    "character-foundation"
+  ],
+  "declared_frozen_items": [
+    "SEASON-01",
+    "SEASON-02",
+    "SEASON-03",
+    "SEASON-04",
+    "SEASON-05",
+    "SEASON-06",
+    "SEASON-07",
+    "SEASON-08",
+    "SEASON-09",
+    "SEASON-10",
+    "SEASON-11",
+    "SEASON-12",
+    "SEASON-13",
+    "SEASON-14",
+    "SEASON-15",
+    "SEASON-16",
+    "SEASON-17",
+    "SEASON-18",
+    "SEASON-19",
+    "SEASON-20",
+    "SEASON-21",
+    "SEASON-22",
+    "SEASON-23",
+    "SEASON-24",
+    "SEASON-25",
+    "SEASON-26",
+    "SEASON-27"
+  ],
+  "items": [
+    {
+      "id": "SEASON-01",
+      "path": "story/season/season-causal-ledger.schema.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-02",
+      "path": "story/season/season-causal-ledger.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-03",
+      "path": "story/season/mystery-reversal-matrix.schema.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-04",
+      "path": "story/season/mystery-reversal-matrix.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-05",
+      "path": "story/season/song-life-activity-matrix.schema.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-06",
+      "path": "story/season/song-life-activity-matrix.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-07",
+      "path": "story/season/humor-register-matrix.schema.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-08",
+      "path": "story/season/humor-register-matrix.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-09",
+      "path": "story/season/short-chapter-hook-map.schema.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-10",
+      "path": "story/season/short-chapter-hook-map.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-11",
+      "path": "story/season/u-candidate-selection.schema.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-12",
+      "path": "story/season/u-candidate-selection.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-13",
+      "path": "qa/relationship-slots.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-14",
+      "path": "qa/relationship-evidence.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-15",
+      "path": "qa/emotional-spines.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-16",
+      "path": "qa/unit-slots.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-17",
+      "path": "qa/background-usage.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-18",
+      "path": "qa/reviews/season-causal-ledger-review.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-19",
+      "path": "qa/reviews/season-s2c-review.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-20",
+      "path": "qa/reviews/season-hook-review.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-21",
+      "path": "qa/reviews/season-u-boundary-review.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-22",
+      "path": "qa/reviews/season-mystery-review.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-23",
+      "path": "qa/reviews/season-activity-review.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-24",
+      "path": "qa/reviews/season-humor-review.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-25",
+      "path": "qa/reviews/season-gate-causal-mystery-review.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-26",
+      "path": "qa/reviews/season-gate-relationship-life-humor-review.json",
+      "mode": "whole_file"
+    },
+    {
+      "id": "SEASON-27",
+      "path": "qa/reviews/season-gate-exception-ledger.json",
+      "mode": "whole_file"
+    }
+  ]
+}

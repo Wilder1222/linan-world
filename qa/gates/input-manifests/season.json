@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "gate": "season",
+  "scope": "season",
+  "created_at": "2026-08-25T16:45:17.561568+00:00",
+  "items": [
+    {
+      "id": "SEASON-01",
+      "path": "story/season/season-causal-ledger.schema.json",
+      "mode": "whole_file",
+      "projection_sha256": "5d06464a248e0300b0ba5ee6c508eae50694313253a41eba8484ae86f65033d5"
+    },
+    {
+      "id": "SEASON-02",
+      "path": "story/season/season-causal-ledger.json",
+      "mode": "whole_file",
+      "projection_sha256": "fd22f74e96013f9c36c4c35b1ba406367f104f5f151dba2941616d66595fd919"
+    },
+    {
+      "id": "SEASON-03",
+      "path": "story/season/mystery-reversal-matrix.schema.json",
+      "mode": "whole_file",
+      "projection_sha256": "9849123a4ad536281d8eb27734ca798f4f4f3e7f2a87f81392ebb7e8e204a025"
+    },
+    {
+      "id": "SEASON-04",
+      "path": "story/season/mystery-reversal-matrix.json",
+      "mode": "whole_file",
+      "projection_sha256": "8fa2d9e6b89ebec335d8184858de44f7963392f02100b6c33da44b863027a856"
+    },
+    {
+      "id": "SEASON-05",
+      "path": "story/season/song-life-activity-matrix.schema.json",
+      "mode": "whole_file",
+      "projection_sha256": "0d9fe21021e6aee181d4375d69fb7a2c2f7466becb31004f90e47f8267ab4a19"
+    },
+    {
+      "id": "SEASON-06",
+      "path": "story/season/song-life-activity-matrix.json",
+      "mode": "whole_file",
+      "projection_sha256": "108730f1f193435f861fe52f38fbde18404684b4edd6ac0e4aa8c96ee9537a84"
+    },
+    {
+      "id": "SEASON-07",
+      "path": "story/season/humor-register-matrix.schema.json",
+      "mode": "whole_file",
+      "projection_sha256": "470e1888c1a149d9d081dc58a9d40f1cb9f915ab71bae17187c061ed051686eb"
+    },
+    {
+      "id": "SEASON-08",
+      "path": "story/season/humor-register-matrix.json",
+      "mode": "whole_file",
+      "projection_sha256": "dd8fef596e76296b5a4649312900a3c04b820111d2a4add1059766b921c376c9"
+    },
+    {
+      "id": "SEASON-09",
+      "path": "story/season/short-chapter-hook-map.schema.json",
+      "mode": "whole_file",
+      "projection_sha256": "1346ceccd6288955bb1df345c113468a07f735ebf36a56b394e7b1dc357f3036"
+    },
+    {
+      "id": "SEASON-10",
+      "path": "story/season/short-chapter-hook-map.json",
+      "mode": "whole_file",
+      "projection_sha256": "972b451b5d92e7a07e16daf0fc272c6c693b8bf8fe551aabcb40178596db34be"
+    },
+    {
+      "id": "SEASON-11",
+      "path": "story/season/u-candidate-selection.schema.json",
+      "mode": "whole_file",
+      "projection_sha256": "6a783e9ecc7ece26494d14e2979b01833f5033763368af7e93566872dbe9829d"
+    },
+    {
+      "id": "SEASON-12",
+      "path": "story/season/u-candidate-selection.json",
+      "mode": "whole_file",
+      "projection_sha256": "66ee95297ec117a04e4d5727e45872cece84e55dc0274247643cc129c8c8f753"
+    },
+    {
+      "id": "SEASON-13",
+      "path": "qa/relationship-slots.json",
+      "mode": "whole_file",
+      "projection_sha256": "62404b02ce91d6a4da34a4fccd9d044b3941894a655b3f9153fce910c8152d57"
+    },
+    {
+      "id": "SEASON-14",
+      "path": "qa/relationship-evidence.json",
+      "mode": "whole_file",
+      "projection_sha256": "0c7df12cd90699bcd54475bc134ef4169a5c10ade5cf80a7ab0c75833b2dcd71"
+    },
+    {
+      "id": "SEASON-15",
+      "path": "qa/emotional-spines.json",
+      "mode": "whole_file",
+      "projection_sha256": "38077fc9355329d4e2d42c80873f47deffdc66eac3a79751ff4fa5eab0e63330"
+    },
+    {
+      "id": "SEASON-16",
+      "path": "qa/unit-slots.json",
+      "mode": "whole_file",
+      "projection_sha256": "428191c6fcf3c0fa3d3bde53a6039f27b92a7701d64fe262bcc55ed3cd852a53"
+    },
+    {
+      "id": "SEASON-17",
+      "path": "qa/background-usage.json",
+      "mode": "whole_file",
+      "projection_sha256": "5c208e13d21f5b3eac71b4c6f43a31b280b7f5aaff2d3f046e0b2e3b8c767da4"
+    },
+    {
+      "id": "SEASON-18",
+      "path": "qa/reviews/season-causal-ledger-review.json",
+      "mode": "whole_file",
+      "projection_sha256": "3782b075bf9bcea0d088b93b16727935fb32bb325dee264e8e070115a68406fb"
+    },
+    {
+      "id": "SEASON-19",
+      "path": "qa/reviews/season-s2c-review.json",
+      "mode": "whole_file",
+      "projection_sha256": "f78de90b966d065b683e6bda31adfeb4e8c0c01b5db3bd05bfb2a7f1b68929f7"
+    },
+    {
+      "id": "SEASON-20",
+      "path": "qa/reviews/season-hook-review.json",
+      "mode": "whole_file",
+      "projection_sha256": "f78de90b966d065b683e6bda31adfeb4e8c0c01b5db3bd05bfb2a7f1b68929f7"
+    },
+    {
+      "id": "SEASON-21",
+      "path": "qa/reviews/season-u-boundary-review.json",
+      "mode": "whole_file",
+      "projection_sha256": "1953ef39d2e1822dec480438ee9abd32eba84c063d748919bd9afdb39f111c79"
+    },
+    {
+      "id": "SEASON-22",
+      "path": "qa/reviews/season-mystery-review.json",
+      "mode": "whole_file",
+      "projection_sha256": "834d55a9ec5194c6149e9975618ed2d22cc9324a4c4e14e89812d345008b5553"
+    },
+    {
+      "id": "SEASON-23",
+      "path": "qa/reviews/season-activity-review.json",
+      "mode": "whole_file",
+      "projection_sha256": "f4c2c16f00fe59f8abb3e7eebf917d0a387aeb4274d4bd39225a71c2ad089670"
+    },
+    {
+      "id": "SEASON-24",
+      "path": "qa/reviews/season-humor-review.json",
+      "mode": "whole_file",
+      "projection_sha256": "4472de6f11630f219b9d759493fd4fc4f6686f601c542f09ddd1602f22b808da"
+    },
+    {
+      "id": "SEASON-25",
+      "path": "qa/reviews/season-gate-causal-mystery-review.json",
+      "mode": "whole_file",
+      "projection_sha256": "2a6ad151b1cbbbe33652c3053691d1f5b1b45d8fee6c9496dff3626de33e8db5"
+    },
+    {
+      "id": "SEASON-26",
+      "path": "qa/reviews/season-gate-relationship-life-humor-review.json",
+      "mode": "whole_file",
+      "projection_sha256": "48c0f6c86b5bebd471d26b4fdc867a473a9cd95761548c13f51f67ee2e94c88b"
+    },
+    {
+      "id": "SEASON-27",
+      "path": "qa/reviews/season-gate-exception-ledger.json",
+      "mode": "whole_file",
+      "projection_sha256": "cdf2875c1b039453f13954f57ff03de3e720f5d47366c0c662521b8fe4c2698c"
+    }
+  ]
+}

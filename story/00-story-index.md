@@ -1,6 +1,6 @@
 # 《临安春信》故事内容索引
 
-> 当前状态：36 集已进入 P2 `SEASON-DRAFT`；E01–E36 因果账本、18 条悬疑/翻转链、648 个 2–3 分钟短章钩子与 S2-06 U 候选边界均通过机器审阅；SG-01 因果/悬疑独立审读已通过；Season Gate 仍保持 `OPEN`，尚未绑定最终对白、分镜、U 唯一身份或 BG 微章 ID。
+> 当前状态：Season Gate 已于 2026-08-26 锁定；36 集仍为 P2 `SEASON-DRAFT`，E01–E36 因果账本、18 条悬疑/翻转链、648 个 2–3 分钟短章钩子、关系/活动/幽默输入与 S2-06 U 候选边界均通过机器审阅。最终对白、分镜、U 唯一身份与 BG 微章 ID 仍等待 Episode Gate。
 
 ## 已纳入
 
@@ -25,6 +25,10 @@
 | `qa/reviews/season-hook-review.json` | 648 短章逐章字段、18 章/集、尾钩轮换与回接审阅 | REVIEWED-SEASON-PASS |
 | `qa/reviews/season-gate-causal-mystery-review.json` | SG-01 独立审读：36 集因果、18 条悬疑/翻转链、648 章钩子与前置证据回接 | REVIEWED-SEASON-PASS |
 | `qa/reviews/season-gate-relationship-life-humor-review.json` | SG-02 独立审读：关系、宋代活动、幽默、U 可替换性与 BG 边界 | REVIEWED-SEASON-PASS |
+| `qa/reviews/season-gate-exception-ledger.json` | SG-03 差异合并、责任人、延期结论与下一个 Gate | REVIEWED-SEASON-PASS |
+| `qa/gates/season-gate.json` | SG-04 Season Gate 决议与 27 个输入哈希绑定 | LOCKED |
+| `qa/gates/input-manifests/season.json` | Season Gate 可重建输入 manifest | LOCKED-MANIFEST |
+| `qa/gates/scope-definitions/season.json` | Season Gate 冻结输入范围与前置 Gate | LOCKED-SCOPE |
 | `story/season/u-candidate-selection.schema.json` | U 槽位候选、POV 映射、自然回访与 Gate 边界字段规范 | LOCKED-SCHEMA |
 | `story/season/u-candidate-selection.json` | 22 个 POV 候选、40 个自然回访候选及 120 槽位保留状态 | SEASON-DRAFT |
 | `qa/reviews/season-u-boundary-review.json` | S2-06 候选可追溯性、可替换性、U/BG 边界审阅 | REVIEWED-SEASON-PASS |
@@ -50,3 +54,11 @@ S2-06 从 `qa/unit-slots.json` 的 120 个 RESERVED 槽位中选出 22 个 POV �
 ## SG-02 关系、生活活动与幽默独立审读结论
 
 `qa/reviews/season-gate-relationship-life-humor-review.json` 已完成重建并为 `REVIEWED-SEASON-PASS`：17 条关系的 136 条阶段证据、36 个活动、36 个幽默绑定、120 个 U 槽位与 300 个 BG 原型均通过边界审读。关系、活动与笑点都具备状态变化或情绪回收；U 仍可替换，BG 未提前绑定。SG-03 仍待建立例外账本，Season Gate 保持 `OPEN`。
+
+## SG-03 例外账本结论
+
+`qa/reviews/season-gate-exception-ledger.json` 已完成重建并为 `REVIEWED-SEASON-PASS`：两份独立报告没有未决 BLOCKING/MAJOR/MINOR 项，5 条边界项均明确延期到 Episode Gate，且保留 U/BG 与 Season/Episode 的边界。下一步是 SG-04 Season Gate 决议，当前仍保持 `OPEN`。
+
+## SG-04 Season Gate 决议结论
+
+`qa/gates/season-gate.json` 已生成并锁定，input manifest 与 scope definition 可重建 27 个季级输入。锁定范围是 Season Canon 与短章节拍；5 条 `DEFERRED-UNTIL-EPISODE-GATE` 边界仍保留，Episode Gate 继续开放，下一阶段进入 P3-01。

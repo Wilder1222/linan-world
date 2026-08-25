@@ -108,6 +108,8 @@
 **产物**：`qa/reviews/season-gate-exception-ledger.json`。
 **规则**：不得静默覆盖冲突；每条发现必须有来源、责任人、处理结论和下一个 Gate。
 
+**当前结果（2026-08-26）**：SG-03 已完成，例外账本为 `REVIEWED-SEASON-PASS`。两份独立报告均为 `REVIEWED-SEASON-PASS`，没有 BLOCKING/MAJOR/MINOR 未决项；5 条边界项全部明确标记为 `DEFERRED-UNTIL-EPISODE-GATE`，并保留 U 可替换、BG 未绑定和 Season/ Episode 层级边界。下一步进入 SG-04 Season Gate 决议。
+
 ### SG-04｜Season Gate 决议
 
 只有在 SG-00、SG-01、SG-02、SG-03 全部满足通过条件后，才生成：
@@ -117,6 +119,8 @@
 - `qa/gates/scope-definitions/season.json`（如现有 Gate 工具需要）。
 
 Season Gate 关闭时锁定的是 **Season Canon 与短章节拍**，不是最终对白、分镜或成片；U 只允许进入经审读的候选/替换边界，BG 继续等待 Episode Gate。
+
+**当前结果（2026-08-26）**：SG-04 已完成。`qa/gates/season-gate.json`、`qa/gates/input-manifests/season.json` 与 `qa/gates/scope-definitions/season.json` 已由 `scripts/lock_season_gate.py` 重建并校验；27 个季级输入的哈希一致，`qa/production-status.json` 的 `season_gate` 已锁定为 `LOCKED`。5 条 `DEFERRED-UNTIL-EPISODE-GATE` 边界仍被明确保留，Episode Gate 仍为 `OPEN`。
 
 ## 四、Season Gate 之后的 P3 E01–E03 试点
 

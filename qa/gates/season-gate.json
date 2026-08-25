@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "gate": "season",
+  "scope": "season",
+  "status": "LOCKED",
+  "input_manifest_sha256": "52ef3573e95e342bef3a9bdcf6a0783ce3fdc57d88be46944d951f521ae46341",
+  "reviews": [
+    "qa/reviews/season-causal-ledger-review.json",
+    "qa/reviews/season-s2c-review.json",
+    "qa/reviews/season-hook-review.json",
+    "qa/reviews/season-u-boundary-review.json",
+    "qa/reviews/season-mystery-review.json",
+    "qa/reviews/season-activity-review.json",
+    "qa/reviews/season-humor-review.json",
+    "qa/reviews/season-gate-causal-mystery-review.json",
+    "qa/reviews/season-gate-relationship-life-humor-review.json",
+    "qa/reviews/season-gate-exception-ledger.json"
+  ],
+  "exception_ledger": "qa/reviews/season-gate-exception-ledger.json",
+  "locked_at": "2026-08-25T16:45:17.607889+00:00",
+  "deferred_boundary": "DEFERRED-UNTIL-EPISODE-GATE"
+}
