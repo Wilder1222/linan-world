@@ -2,6 +2,8 @@
 
 > 状态：`OPEN`。机器校验已通过，但 Gate 尚未锁定。以下审读必须在进入 Season Gate 前完成。
 
+当前自动内容审计见 `qa/reviews/character-foundation-audit.json`：84 份人物档案、17 份关系档案与 36 个情感状态锚点均已覆盖，自动发现项为 0；年龄推定、关系场次证据与 U/BG 下游绑定仍需人工/后续 Gate 确认。
+
 ## 审读标准
 
 每名 L/A 人物逐项确认：

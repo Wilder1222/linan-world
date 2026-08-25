@@ -1,0 +1,27 @@
+{
+  "status": "OPEN",
+  "scope": "P1 Character Foundation content audit",
+  "profile_counts": {
+    "L1": 5,
+    "L2": 4,
+    "L3": 3,
+    "A1": 8,
+    "A2": 8,
+    "A3": 8,
+    "B": 48
+  },
+  "named_profile_total": 84,
+  "unique_observable_fingerprints": 25,
+  "unique_arc6_choice_markers": 36,
+  "relationship_profile_total": 17,
+  "relationship_missing_layers": [],
+  "emotional_spine_total": 6,
+  "emotional_spine_state_total": 36,
+  "findings": [],
+  "manual_review_required": [
+    "确认年龄推定与职业状态，尤其 B 级人物的年龄与家庭结构",
+    "将关系七维与八快照绑定到具体场次、物件、台词和连续性账本",
+    "为 U 槽位在 Season Gate 后分配唯一故事身份，不提前写入主线",
+    "为 BG 原型在 Episode Gate 后写入具体 microchapter_ids 与 extension_ids"
+  ]
+}
