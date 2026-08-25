@@ -70,13 +70,16 @@ def state_detail(name: str, focus: str, choice: str, residence: str, relation_pe
     arc_details = IMPORTANT_STATE_ARCS.get(detail.get("stable_id", ""), [])
     if state == "Y-13":
         return (
-            f"基线：{name}在{residence}以{detail['daily']}维持生活；{detail['shadow']}。"
-            "这一段只锁定形成条件，不把后来的危机倒灌成先知信息。"
+            f"目标：在Y-13的{residence}守住{focus}；阻力：{detail['daily']}与现实生计同时消耗时间。"
+            f"误判：把{detail['shadow']}当成只能独自承担的理由；选择：按当时可见的职业经验执行{detail['sequence']}。"
+            f"代价：{relation}只能看到选择的结果，无法分担当时未被说出的恐惧；关系移交：Y0开始时，{relation}有权要求解释而不必接受单向安排。"
+            "本段只锁定形成条件，不把后来的危机倒灌成先知信息。"
         )
     if state == "Y0-OPEN":
         return (
             f"目标：守住{focus}；阻力：{detail['trigger']}；误判：把自己的职业经验当成唯一可靠的顺序。"
-            f"起始动作：{detail['sequence']}；关系位置：先向{relation}保留一部分事实。"
+            f"选择：先执行{detail['sequence']}并保留未核栏；代价：把{detail['trigger']}带来的现实风险暴露给{relation}。"
+            f"关系移交：先向{relation}保留一部分事实，下一状态必须处理知情权与信任的变化。"
         )
     if state in {"ARC1-END", "ARC2-END", "ARC3-END", "ARC4-END", "ARC5-END"} and arc_details:
         index = int(state[3]) - 1
@@ -118,15 +121,21 @@ def state_detail(name: str, focus: str, choice: str, residence: str, relation_pe
     if state == "ARC6-END":
         return (
             f"目标：完成不可替代选择：{choice}；阻力：没有表彰、复职或亲密关系自动修复作为回报。"
-            f"选择证据：{detail['sequence']}；代价回收：承认{detail['shadow']}仍存在。"
-            f"公共回响：把{detail['fingerprint']}转为可被他人复核的协作能力；状态移交：结局保留异议与旧账。"
+            f"误判：以为自己承担代价就有权替所有人决定；选择：{detail['sequence']}；代价：承认{detail['shadow']}仍存在。"
+            f"关系移交：把{detail['fingerprint']}转为可被他人复核的协作能力；状态移交：结局保留异议与旧账。"
         )
     if state == "ENDING":
         return (
-            f"结局画面：回到{residence}，先完成{detail['daily'].split('；')[0]}，再处理尚未解决的问题。"
-            "镜头不把人物封成英雄；动作只证明选择仍属于自己。"
+            f"目标：让终局选择在日常中继续可见；误判：把危机结束误当成代价消失；选择：回到{residence}，先完成{detail['daily'].split('；')[0]}，再处理尚未解决的问题。"
+            f"代价：为‘{choice}’持续承担收入、名声、关系或安全中的不可逆损失；关系移交：{focus}由个人判断移交为可被{relation}复核的生活边界。"
+            "镜头不把人物封成英雄，只证明选择仍属于自己。"
         )
-    return "一年后，人物仍按新的边界工作；关系改善须有行为证据，不自动写成和解。"
+    return (
+        f"目标：在一年后的新边界中继续守住{focus}；误判：把关系恢复等同于旧账清零；"
+        f"选择：沿用‘{choice}’的可复核规则并允许{relation}提出反例；"
+        f"代价：为‘{choice}’持续承担收入、名声、关系或安全中的不可逆损失；"
+        f"关系移交：{focus}由个人判断移交为可被{relation}复核的生活边界。"
+    )
 
 
 def render(person: tuple) -> str:
@@ -137,7 +146,8 @@ def render(person: tuple) -> str:
     pov = {"A1": 10, "A2": 6, "A3": 2}[tier]
     coverage = {"A1": 12, "A2": 8, "A3": 4}[tier]
     relations = "\n".join(f"- REL-NC-{stable_id[-2:]}-{index:02d} `{other}`：{focus}的非中央关系证据，具体母集由 Season Gate 绑定。" for index, other in enumerate(relation_people, 1))
-    states = [(state, state_detail(name, focus, choice, residence, relation_people, detail, state)) for state in (
+    ending_state = state_detail(name, focus, choice, residence, relation_people, detail, "ENDING")
+    states = [(state, ending_state if state == "ENDING" else state_detail(name, focus, choice, residence, relation_people, detail, state)) for state in (
         "Y-13", "Y0-OPEN", "ARC1-END", "ARC2-END", "ARC3-END", "ARC4-END", "ARC5-END", "ARC6-END", "ENDING", "Y+1"
     )]
     state_text = "\n\n".join(f"### {state}\n{state_body}" for state, state_body in states)

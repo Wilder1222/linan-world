@@ -31,18 +31,14 @@ def audit() -> dict:
             if not block:
                 findings.append({"id": record["id"], "state": state, "code": "missing_state_block"})
                 continue
-            if state in {"ARC1-END", "ARC2-END", "ARC3-END", "ARC4-END", "ARC5-END"}:
-                required = ("目标", "误判", "选择", "代价", "移交")
-                for field in required:
-                    if field not in block:
-                        findings.append({"id": record["id"], "state": state, "code": f"missing_{field}"})
-                # Generators use either “关系移交” or the shorter “状态移交”
-                # label. Both are valid so long as the state explicitly hands
-                # a changed relationship position to the next state.
-                if not any(marker in block for marker in ("关系", "状态移交")):
-                    findings.append({"id": record["id"], "state": state, "code": "missing_relationship_transfer"})
-            elif state == "ARC6-END" and not any(marker in block for marker in ("目标", "选择", "完成不可替代选择")):
-                findings.append({"id": record["id"], "state": state, "code": "missing_final_choice"})
+            required = ("目标", "误判", "选择", "代价", "移交")
+            for field in required:
+                if field not in block:
+                    findings.append({"id": record["id"], "state": state, "code": f"missing_{field}"})
+            # Every checkpoint must hand off a changed relationship or state
+            # position; a bare status paragraph is not production-executable.
+            if not any(marker in block for marker in ("关系移交", "状态移交")):
+                findings.append({"id": record["id"], "state": state, "code": "missing_relationship_transfer"})
     status = "REVIEWED-PASS" if not findings and profile_count == 36 else "OPEN"
     return {
         "status": status,
@@ -52,7 +48,7 @@ def audit() -> dict:
         "findings": findings,
         "foundation_checks": {
             "observable_state_blocks": profile_count * len(LA_STATES),
-            "choice_cost_transfer_states": profile_count * 5,
+            "choice_cost_transfer_states": profile_count * len(LA_STATES),
         },
         "deferred_followup": [
             "Season Gate 将状态链绑定到最终 episode/microchapter ID",

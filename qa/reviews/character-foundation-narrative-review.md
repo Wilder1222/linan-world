@@ -1,7 +1,7 @@
 +++
 reviewer_id = "character-foundation-narrative-audit"
 status = "PASS"
-reviewed_input_manifest_sha256 = "28e5e075edad7d58eb8948a447aa9ab6a1d4c1914ef44c3bd5dafda81eecdc83"
+reviewed_input_manifest_sha256 = "4bebcd5f10a68ba26390be354122e07039221e8f384c30eff9bd56f54be1ed34"
 +++
 
 # Character Foundation Narrative 审读

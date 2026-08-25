@@ -65,6 +65,10 @@ def render(person: tuple, source: str) -> str:
     focus = section_text(source, "所守之物") or spine[0]
     detail = dict(CENTRAL_DETAILS[stable_id])
     detail["shadow"] = section_text(source, "未承认的自己") or f"{name}害怕失去对自己选择的解释权"
+    ending_note = section_text(source, "结局")
+    ending_state = state_detail(name, focus, spine[1], residence, relation_people, "结局", detail, "ENDING")
+    if ending_note:
+        ending_state += f" 结局画面补充：{ending_note}。"
     states = [
         ("Y-13", state_detail(name, focus, spine[1], residence, relation_people, "形成条件", detail, "Y-13")),
         ("Y0-OPEN", state_detail(name, focus, spine[1], residence, relation_people, "当季起点", detail, "Y0-OPEN")),
@@ -74,8 +78,8 @@ def render(person: tuple, source: str) -> str:
         ("ARC4-END", state_detail(name, focus, spine[1], residence, relation_people, arcs[3], detail, "ARC4-END")),
         ("ARC5-END", state_detail(name, focus, spine[1], residence, relation_people, arcs[4], detail, "ARC5-END")),
         ("ARC6-END", state_detail(name, focus, spine[1], residence, relation_people, arcs[5], detail, "ARC6-END")),
-        ("ENDING", f"{section_text(source, '结局') or state_detail(name, spine[0], spine[1], residence, relation_people, '结局', detail, 'ENDING')}"),
-        ("Y+1", f"一年后，{name}仍保留终局选择带来的新边界；关系改善必须有行为证据，不自动和解。"),
+        ("ENDING", ending_state),
+        ("Y+1", state_detail(name, focus, spine[1], residence, relation_people, "一年后", detail, "Y+1")),
     ]
     state_text = "\n\n".join(f"### {state}\n{detail}" for state, detail in states)
     return f'''+++

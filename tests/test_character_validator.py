@@ -14,6 +14,7 @@ from scripts.validate_characters import (
     validate_unit_slots,
     validate_final,
 )
+from scripts.audit_profile_state_chains import audit as audit_profile_state_chain
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -127,6 +128,13 @@ class CharacterValidatorTests(unittest.TestCase):
         path = write_profile(self.root, malformed=True)
         _, errors = parse_profile_toml(path)
         self.assertTrue(any("malformed_front_matter" in item for item in errors))
+
+    def test_committed_l_a_state_chain_has_semantic_fields_at_every_checkpoint(self):
+        report = audit_profile_state_chain()
+        self.assertEqual("REVIEWED-PASS", report["status"])
+        self.assertEqual(36, report["profile_total"])
+        self.assertEqual(360, report["foundation_checks"]["choice_cost_transfer_states"])
+        self.assertEqual([], report["findings"])
 
 
 if __name__ == "__main__":

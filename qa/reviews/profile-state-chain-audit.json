@@ -6,7 +6,7 @@
   "findings": [],
   "foundation_checks": {
     "observable_state_blocks": 360,
-    "choice_cost_transfer_states": 180
+    "choice_cost_transfer_states": 360
   },
   "deferred_followup": [
     "Season Gate 将状态链绑定到最终 episode/microchapter ID",

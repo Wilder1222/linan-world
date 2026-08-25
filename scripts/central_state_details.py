@@ -234,13 +234,16 @@ def state_detail(name: str, focus: str, choice: str, residence: str, relation_pe
     relation = relation_people[0] if relation_people else "相关关系对象"
     if state == "Y-13":
         return (
-            f"基线：{name}在{residence}以{detail['daily']}维持生活；{detail['shadow']}。"
-            "这一段只锁定形成条件，不把后来的危机倒灌成先知信息。"
+            f"目标：在Y-13的{residence}守住{focus}；阻力：{detail['daily']}与现实生计同时消耗时间。"
+            f"误判：把{detail['shadow']}当成只能独自承担的理由；选择：按当时可见的职业经验执行{detail['sequence']}。"
+            f"代价：{relation}只能看到选择的结果，无法分担当时未被说出的恐惧；关系移交：Y0开始时，{relation}有权要求解释而不必接受单向安排。"
+            "本段只锁定形成条件，不把后来的危机倒灌成先知信息。"
         )
     if state == "Y0-OPEN":
         return (
             f"目标：守住{focus}；阻力：{detail['trigger']}；误判：把自己的职业经验当成唯一可靠的顺序。"
-            f"起始动作：{detail['sequence']}；关系位置：先向{relation}保留一部分事实。"
+            f"选择：先执行{detail['sequence']}并保留未核栏；代价：把{detail['trigger']}带来的现实风险暴露给{relation}。"
+            f"关系移交：先向{relation}保留一部分事实，下一状态必须处理知情权与信任的变化。"
         )
     if state == "ARC6-END":
         final_sequence = detail.get("final_sequence", detail["sequence"])
@@ -248,8 +251,8 @@ def state_detail(name: str, focus: str, choice: str, residence: str, relation_pe
         final_transfer = detail.get("final_transfer", "结局保留异议与旧账")
         return (
             f"目标：完成不可替代选择：{choice}；阻力：没有表彰、复职或亲密关系自动修复作为回报。"
-            f"选择证据：{final_sequence}；代价回收：{final_cost}。"
-            f"公共回响：把{detail['fingerprint']}转为可被他人复核的协作能力；状态移交：{final_transfer}。"
+            f"误判：以为自己承担代价就有权替所有人决定；选择：{final_sequence}；代价：{final_cost}。"
+            f"关系移交：把{detail['fingerprint']}转为可被他人复核的协作能力；状态移交：{final_transfer}。"
         )
     if state in {"ARC1-END", "ARC2-END", "ARC3-END", "ARC4-END", "ARC5-END"}:
         index = int(state[3]) - 1
@@ -260,8 +263,15 @@ def state_detail(name: str, focus: str, choice: str, residence: str, relation_pe
             f"本篇弧线依据：{source_arc}"
         )
     if state == "ENDING":
+        final_cost = detail.get("final_cost", f"为‘{choice}’持续承担收入、名声、关系或安全中的不可逆损失")
+        final_transfer = detail.get("final_transfer", f"{focus}由个人判断移交为可被{relation}复核的生活边界")
         return (
-            f"结局画面：回到{residence}，先完成{detail['daily'].split('；')[0]}，再处理尚未解决的问题。"
-            "镜头不把人物封成英雄；动作只证明选择仍属于自己。"
+            f"目标：让终局选择在日常中继续可见；误判：把危机结束误当成代价消失；选择：回到{residence}，先完成{detail['daily'].split('；')[0]}，再处理尚未解决的问题。"
+            f"代价：{final_cost}；关系移交：{final_transfer}。镜头不把人物封成英雄，只证明选择仍属于自己。"
         )
-    return "一年后，人物仍按新的边界工作；关系改善须有行为证据，不自动写成和解。"
+    return (
+        f"目标：在一年后的新边界中继续守住{focus}；误判：把关系恢复等同于旧账清零；"
+        f"选择：沿用‘{choice}’的可复核规则并允许{relation}提出反例；"
+        f"代价：{detail.get('final_cost', '收入、名声、关系或安全仍有一项不可逆损失')}；"
+        f"关系移交：{detail.get('final_transfer', '关系改善须有行为证据，不自动写成和解')}。"
+    )

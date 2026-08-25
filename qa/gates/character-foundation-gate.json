@@ -3,10 +3,10 @@
   "gate": "character-foundation",
   "scope": "character-foundation",
   "status": "LOCKED",
-  "input_manifest_sha256": "28e5e075edad7d58eb8948a447aa9ab6a1d4c1914ef44c3bd5dafda81eecdc83",
+  "input_manifest_sha256": "4bebcd5f10a68ba26390be354122e07039221e8f384c30eff9bd56f54be1ed34",
   "reviews": [
     "qa/reviews/character-foundation-canon-review.md",
     "qa/reviews/character-foundation-narrative-review.md"
   ],
-  "locked_at": "2026-08-25T12:06:26.396113+00:00"
+  "locked_at": "2026-08-25T12:16:51.406191+00:00"
 }

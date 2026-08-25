@@ -2,7 +2,7 @@
   "schema_version": 1,
   "gate": "character-foundation",
   "scope": "character-foundation",
-  "created_at": "2026-08-25T12:05:54.593748+00:00",
+  "created_at": "2026-08-25T12:15:54.321554+00:00",
   "items": [
     {
       "id": "CHARFOUND-001",
@@ -104,7 +104,7 @@
       "id": "CHARFOUND-017",
       "path": "qa/reviews/profile-state-chain-audit.json",
       "mode": "whole_file",
-      "projection_sha256": "d314910ec1a25aa68f6e3e5c373bb3da912e3813d15a8ceadad0f0b5082bad49"
+      "projection_sha256": "d8e1e0e18fa5714dbf6296e3b83a7ca33425652e3b4fc5e0148051f699abec91"
     },
     {
       "id": "CHARFOUND-018",
@@ -116,217 +116,217 @@
       "id": "CHARFOUND-019",
       "path": "characters/central/chr-l1-01-shen-heng.md",
       "mode": "whole_file",
-      "projection_sha256": "17bbdb75a232bf14b7fe0c4300fbaf0f9d2c055c3055521c839abb1f2cd62b67"
+      "projection_sha256": "d97fec672fb1a4ea6fb0494140abf21f28cdec3c85c3ca268c2bc5f7b68f0f73"
     },
     {
       "id": "CHARFOUND-020",
       "path": "characters/central/chr-l1-02-liu-shisi-liu-wangshu.md",
       "mode": "whole_file",
-      "projection_sha256": "a6a312d2eecf0b1beddfd77d207e9b598e67f65e1d227c1c275f1592c868b390"
+      "projection_sha256": "33cc66a16cc4675501d5e43c721cab5d54d5b2a35939ad8f001bec49464b9b09"
     },
     {
       "id": "CHARFOUND-021",
       "path": "characters/central/chr-l1-03-zhou-yanzhi.md",
       "mode": "whole_file",
-      "projection_sha256": "994110832ef766631c2ff8921e51be9d91535de7558a37b33767e44ea985f19f"
+      "projection_sha256": "faea474593015cd8181dadf44b64dc8a3da838b7c60207c917bb1d82bccdb3c3"
     },
     {
       "id": "CHARFOUND-022",
       "path": "characters/central/chr-l1-04-pei-jiuniang.md",
       "mode": "whole_file",
-      "projection_sha256": "207b98aadcc2ce302255752a9d23332a436fc25b29b8e5c4744dcf2c3dbd2677"
+      "projection_sha256": "47d81160323b32d12abb721f71ae5ddfb6b7797893e3abc542663665576bbd16"
     },
     {
       "id": "CHARFOUND-023",
       "path": "characters/central/chr-l1-05-gu-xingzhou.md",
       "mode": "whole_file",
-      "projection_sha256": "a2629242e25ac0de41aad902e24a0f4e2df2976d2df0cbf578386ccb0b39a91e"
+      "projection_sha256": "2ed61a9d4ff0bc2e96eb5d45926bcd75ddbf1081bdcb88d874a374174c1a1f6a"
     },
     {
       "id": "CHARFOUND-024",
       "path": "characters/central/chr-l2-01-lu-qinghe.md",
       "mode": "whole_file",
-      "projection_sha256": "40055428d37387b9dcd3eb61307330cf3b0ebd7a43899ed2b13ed29b647220ac"
+      "projection_sha256": "c5a0a0aed9f5bfd1d81e8fd72cc1cf034c88ecef40fcd3b2fc6c9601317e3709"
     },
     {
       "id": "CHARFOUND-025",
       "path": "characters/central/chr-l2-02-lin-ayuan.md",
       "mode": "whole_file",
-      "projection_sha256": "e81007c771835a4118eb321213b59a46f3107a8a02717d0e9e2e886ec6d6ed39"
+      "projection_sha256": "f007baee71c357d56e35ae553dd5ee76046eeda2f756ffd9b197fc8a5cf3e962"
     },
     {
       "id": "CHARFOUND-026",
       "path": "characters/central/chr-l2-03-yu-qinghe.md",
       "mode": "whole_file",
-      "projection_sha256": "30bc418a35b6b68590100ae5fb53f50dbe96c578b4a044ab8d34ef07ec0c65cf"
+      "projection_sha256": "661a9a4bbede374e79136d768bd2d52257fce21968a0de77aa3cfedbe5921067"
     },
     {
       "id": "CHARFOUND-027",
       "path": "characters/central/chr-l2-04-gao-wen.md",
       "mode": "whole_file",
-      "projection_sha256": "1cb05ebdee71e2ac861560303c7be6b4e88b073e7915777259699961fda7d2e6"
+      "projection_sha256": "533e21d310f4ae13b2b01b856385df65aa42880c60b92bcb492fd0b7c4f71392"
     },
     {
       "id": "CHARFOUND-028",
       "path": "characters/central/chr-l3-01-song-weijing.md",
       "mode": "whole_file",
-      "projection_sha256": "2e45639945a4400a85133692520025e4d35b26a4c116a845ed4481a5c071c952"
+      "projection_sha256": "d628b16abfc8649bb8e738695bc8cc5714a630659ae3116e3fcaa916c48377e6"
     },
     {
       "id": "CHARFOUND-029",
       "path": "characters/central/chr-l3-02-li-jianshan.md",
       "mode": "whole_file",
-      "projection_sha256": "e471c959f0b32a1497211ac65b952523f52c59d6259c32b0e29e02fad4c8477d"
+      "projection_sha256": "f131fe7e1b12d5736245eb2320533203f572fc85e223cd98650d185729cdba15"
     },
     {
       "id": "CHARFOUND-030",
       "path": "characters/central/chr-l3-03-helan-du.md",
       "mode": "whole_file",
-      "projection_sha256": "6e03d58acc123c5e2af769d22c37da2e26296c12d4b2aa59ff4f962ad2d8e55a"
+      "projection_sha256": "553969388911a62ea53500ac9c884a0d615713a3a4f1efc023db5f24e3228dbf"
     },
     {
       "id": "CHARFOUND-031",
       "path": "characters/important/chr-a1-01-shen-sanniang.md",
       "mode": "whole_file",
-      "projection_sha256": "9e7732e87579e199232a714ecc47fed3e1ca1bae6fccf24a5dbeefa9dcbdbcf3"
+      "projection_sha256": "ea9aaec760852b31e8c4d2ca972883986346ff1b359897a3a81fe90868976e50"
     },
     {
       "id": "CHARFOUND-032",
       "path": "characters/important/chr-a1-02-zhou-boan.md",
       "mode": "whole_file",
-      "projection_sha256": "bda41c7f1191c1996d66f2e37751187d9fbdf263d1aecf966d02aca85b48f165"
+      "projection_sha256": "9270095093cdaf2d516fe4ea31b813ee518dfa466c283598f4ea223a8b1c6d60"
     },
     {
       "id": "CHARFOUND-033",
       "path": "characters/important/chr-a1-03-yu-zhongren.md",
       "mode": "whole_file",
-      "projection_sha256": "5f12b9b51d5552a882d5c3d2b837dd4727c9269bc3b76a193c804964f727b676"
+      "projection_sha256": "bf1ca0615eda93322a57a38ec7f1650cde21114b692981d32561b47232e0b022"
     },
     {
       "id": "CHARFOUND-034",
       "path": "characters/important/chr-a1-04-gu-nianniang.md",
       "mode": "whole_file",
-      "projection_sha256": "5bf3a45e41ab29476091428471e6e3421990cfda87842b227f70e9d6b71f89f1"
+      "projection_sha256": "0a413a586f50000cc7e513a2c123fbb7cb32876cd99f007a9caf2b53aeda387d"
     },
     {
       "id": "CHARFOUND-035",
       "path": "characters/important/chr-a1-05-xu-hanzhang.md",
       "mode": "whole_file",
-      "projection_sha256": "0d3f76a551c21beb78de0b133a2d9fbeecbf95574370e9dfce0703972746fb4f"
+      "projection_sha256": "6f51659f15a589fa8489dc9684cefb54ccd4a40f38f62d41e08449acb12c8f88"
     },
     {
       "id": "CHARFOUND-036",
       "path": "characters/important/chr-a1-06-zhang-yunzhong.md",
       "mode": "whole_file",
-      "projection_sha256": "a16c7110265c5d338de049e50e90a959d0de1399c36b5ef4a9be1e6e4780daba"
+      "projection_sha256": "cc0a1c0c8bd651f192f2b30f4d0d680fe089a57be926d874970b1c958c7290bd"
     },
     {
       "id": "CHARFOUND-037",
       "path": "characters/important/chr-a1-07-li-lingyi.md",
       "mode": "whole_file",
-      "projection_sha256": "d13c1bbea0bd7629823f6bc894b0ee012b87a76852f510faf4753ee3d9521ec1"
+      "projection_sha256": "629ea9caf050d8cabc4b0e7f9b5e7e36434127ebd7b76aa0aa0b9c1bb41ca4e0"
     },
     {
       "id": "CHARFOUND-038",
       "path": "characters/important/chr-a1-08-cao-su.md",
       "mode": "whole_file",
-      "projection_sha256": "cf885362a1e10c85a16ee6c23cfb2f2f9d20ab976baad53f0a5bc0a193e7f866"
+      "projection_sha256": "1f5398944dfc0f802a46dd11175c0863da7c5c9ad8c7cf85a2813f1a2fe69439"
     },
     {
       "id": "CHARFOUND-039",
       "path": "characters/important/chr-a2-01-chen-guipo.md",
       "mode": "whole_file",
-      "projection_sha256": "d6461f8acedc41c6e947dad184c00c001aa2a282124c10d783b3ce4acdebc11a"
+      "projection_sha256": "afbd1f0926278086707eaec896b0c4165ded835b1acb896b349da86b82a029af"
     },
     {
       "id": "CHARFOUND-040",
       "path": "characters/important/chr-a2-02-song-shijiu.md",
       "mode": "whole_file",
-      "projection_sha256": "241a275b8bcb44edf9a7b0b8433e10601bb3784415197a2b984349edfd2d37a0"
+      "projection_sha256": "14576cc4d48421ac5c9d4319caddbcf62587e3cd232f8659102b1bc50e10c05e"
     },
     {
       "id": "CHARFOUND-041",
       "path": "characters/important/chr-a2-03-shen-huaichuan.md",
       "mode": "whole_file",
-      "projection_sha256": "ed7c19141c54db0224eb1fead8da645737b359223c4a9188e4b38dbc943df2a8"
+      "projection_sha256": "53db7db856458562c03687e504f926388c494665990674f97363ff535339eec9"
     },
     {
       "id": "CHARFOUND-042",
       "path": "characters/important/chr-a2-04-he-jiu.md",
       "mode": "whole_file",
-      "projection_sha256": "a5472393e82ff8c32c1cb6e163552009fd21dba553b9339cbfbe11051cd4cf7f"
+      "projection_sha256": "65ae4d895c443b8c42196f1cbab07353335045f9f05f7175ec1789f91c10b4c4"
     },
     {
       "id": "CHARFOUND-043",
       "path": "characters/important/chr-a2-05-shi-liu.md",
       "mode": "whole_file",
-      "projection_sha256": "bbabe0c56411c248a59e89d239a114d2953503759fe8c77852aaff719967b7f1"
+      "projection_sha256": "d3a6af89a852b46e870c906ced5b869a5710d56fac07e0993be33f8c1d0242b6"
     },
     {
       "id": "CHARFOUND-044",
       "path": "characters/important/chr-a2-06-luo-jianchao.md",
       "mode": "whole_file",
-      "projection_sha256": "fd8bca409be159d35d3ccb48c13fb35e257055b92179d6abe838fc93864bfa72"
+      "projection_sha256": "3eccbab4080c30085dcb84374277b19d35f84e01413d82ec8165acbedebc403e"
     },
     {
       "id": "CHARFOUND-045",
       "path": "characters/important/chr-a2-07-cheng-yelao.md",
       "mode": "whole_file",
-      "projection_sha256": "96c89688aa25c05c05363b1deb7677364c13ee783974eadd5dd20e849cf4f155"
+      "projection_sha256": "61a28bcc14e5b780c7941525d3affa49031a320e13b71f43fbcc2bed936aa9cb"
     },
     {
       "id": "CHARFOUND-046",
       "path": "characters/important/chr-a2-08-fang-shuniang.md",
       "mode": "whole_file",
-      "projection_sha256": "9b1c55d5d2e270303927461b738a095e142fff70938e02d281458fbb58056e89"
+      "projection_sha256": "4e4244a2975bfec69bd0bd307fff049dba351bba1d073373f48c1425e2037137"
     },
     {
       "id": "CHARFOUND-047",
       "path": "characters/important/chr-a3-01-zhu-xiaoman.md",
       "mode": "whole_file",
-      "projection_sha256": "4dc31f947c1a0ca53e7ba6ce1883793391fa4012d4f7a22de09574eb7285a3d0"
+      "projection_sha256": "7ee83bb6abc4169eb90107133563ab2086eed55efeca0767fb77f1c94dcdbf97"
     },
     {
       "id": "CHARFOUND-048",
       "path": "characters/important/chr-a3-02-li-guanlan.md",
       "mode": "whole_file",
-      "projection_sha256": "e2901184c7bf35695dc7b9fd14c94b54ed8b6b3e55a66dc83597ec8c8392373a"
+      "projection_sha256": "18e342167152987ef46c7aa4fdea6bd6b7f09fb376456c0f7899efd90cd0e77f"
     },
     {
       "id": "CHARFOUND-049",
       "path": "characters/important/chr-a3-03-jiang-zhuoyue.md",
       "mode": "whole_file",
-      "projection_sha256": "152a52422485a52d04082931c27dca10d4558da4af884cc0c9701c572c902784"
+      "projection_sha256": "ecaaeeec9d1cdaa7f448170e618952f7ae455e613d6344987c918b7750f440c3"
     },
     {
       "id": "CHARFOUND-050",
       "path": "characters/important/chr-a3-04-tang-qi.md",
       "mode": "whole_file",
-      "projection_sha256": "e98a4a02dadbc78af5c94e110bf5462f57064e416a9fce4262807d18d9a76b6e"
+      "projection_sha256": "2f0796e98e8748ffaa7fd54f1a35011446d2f3c24c7b6141795b89c377088814"
     },
     {
       "id": "CHARFOUND-051",
       "path": "characters/important/chr-a3-05-duan-xinghe.md",
       "mode": "whole_file",
-      "projection_sha256": "acdf9d47df3a985643a189ba2579644787d530365ad20c98f689d688e95174da"
+      "projection_sha256": "0b874bf353c07faed1bfa1fc5849ab3f049775350da706e46e823601058a6291"
     },
     {
       "id": "CHARFOUND-052",
       "path": "characters/important/chr-a3-06-ding-xiaoqi.md",
       "mode": "whole_file",
-      "projection_sha256": "b24834cef70af3094da84fe6b9b2532acbb4225f98113d99b99b2dffd019103c"
+      "projection_sha256": "2e776f44ca4b05c5be084168217bde8716b6bcc6cc193297a2991c3955477cb8"
     },
     {
       "id": "CHARFOUND-053",
       "path": "characters/important/chr-a3-07-zhao-shiyiniang.md",
       "mode": "whole_file",
-      "projection_sha256": "1c85afc4cec1fecb762abd24f12f19ee820af841fb90bcb38b8ad41a447f251e"
+      "projection_sha256": "d085e1c0ae824a1007cb588fd30154c71ace8184c467ffabb188e518ec68c0cd"
     },
     {
       "id": "CHARFOUND-054",
       "path": "characters/important/chr-a3-08-huiming.md",
       "mode": "whole_file",
-      "projection_sha256": "7361faed023092be1200f8c67d26fb083a3880c8f837390a3e940f644f06b1bf"
+      "projection_sha256": "811518220dff9e314e3af98ab06e7f3fa63f1ff01ef6769f202e973587ad69f4"
     },
     {
       "id": "CHARFOUND-055",
