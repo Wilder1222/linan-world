@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "status": "REVIEWED-P3-INPUT-PASS",
+  "scope": "P3-01 E01-E03 input freeze",
+  "pilot_episodes": [
+    "S1-E01",
+    "S1-E02",
+    "S1-E03"
+  ],
+  "chapter_total": 54,
+  "input_total": 21,
+  "scope_definition": "qa/gates/scope-definitions/p3-pilot-e01-e03.json",
+  "input_manifest": "qa/gates/input-manifests/p3-pilot-e01-e03.json",
+  "findings": [],
+  "deferred_boundary": {
+    "final_dialogue": "DEFERRED-UNTIL-EPISODE-GATE",
+    "shot_ids": "DEFERRED-UNTIL-EPISODE-GATE",
+    "u_unique_identity": "DEFERRED-UNTIL-EPISODE-GATE",
+    "bg_microchapter_and_extension_bindings": "DEFERRED-UNTIL-EPISODE-GATE"
+  },
+  "deferred_followup": [
+    "P3-02 才开始 E01 逐章剧本、Character State、Relationship Delta 与连续性账本。",
+    "E01–E03 试点仍需 Episode Gate 九项 QA；未通过不得扩展 E04–E36。"
+  ]
+}

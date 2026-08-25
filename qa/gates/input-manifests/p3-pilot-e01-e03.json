@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "gate": "p3-pilot-e01-e03",
+  "scope": "p3-pilot-e01-e03",
+  "status": "P3-PILOT-DRAFT",
+  "created_at": "2026-08-25T16:48:51.695510+00:00",
+  "pilot_episodes": [
+    "S1-E01",
+    "S1-E02",
+    "S1-E03"
+  ],
+  "chapter_total": 54,
+  "items": [
+    {
+      "id": "P3-PILOT-01",
+      "path": "qa/gates/season-gate.json",
+      "mode": "whole_file",
+      "sha256": "d3dccba8a4eeee0e926204c7341c61ce8d90ace9809a2fd71e90c789e8683d30"
+    },
+    {
+      "id": "P3-PILOT-02",
+      "path": "qa/gates/input-manifests/season.json",
+      "mode": "whole_file",
+      "sha256": "52ef3573e95e342bef3a9bdcf6a0783ce3fdc57d88be46944d951f521ae46341"
+    },
+    {
+      "id": "P3-PILOT-03",
+      "path": "story/season/season-causal-ledger.json",
+      "mode": "whole_file",
+      "sha256": "fd22f74e96013f9c36c4c35b1ba406367f104f5f151dba2941616d66595fd919"
+    },
+    {
+      "id": "P3-PILOT-04",
+      "path": "story/season/mystery-reversal-matrix.json",
+      "mode": "whole_file",
+      "sha256": "8fa2d9e6b89ebec335d8184858de44f7963392f02100b6c33da44b863027a856"
+    },
+    {
+      "id": "P3-PILOT-05",
+      "path": "story/season/song-life-activity-matrix.json",
+      "mode": "whole_file",
+      "sha256": "108730f1f193435f861fe52f38fbde18404684b4edd6ac0e4aa8c96ee9537a84"
+    },
+    {
+      "id": "P3-PILOT-06",
+      "path": "story/season/humor-register-matrix.json",
+      "mode": "whole_file",
+      "sha256": "dd8fef596e76296b5a4649312900a3c04b820111d2a4add1059766b921c376c9"
+    },
+    {
+      "id": "P3-PILOT-07",
+      "path": "story/season/short-chapter-hook-map.json",
+      "mode": "whole_file",
+      "sha256": "972b451b5d92e7a07e16daf0fc272c6c693b8bf8fe551aabcb40178596db34be"
+    },
+    {
+      "id": "P3-PILOT-08",
+      "path": "story/season/u-candidate-selection.json",
+      "mode": "whole_file",
+      "sha256": "66ee95297ec117a04e4d5727e45872cece84e55dc0274247643cc129c8c8f753"
+    },
+    {
+      "id": "P3-PILOT-09",
+      "path": "qa/reviews/season-gate-exception-ledger.json",
+      "mode": "whole_file",
+      "sha256": "cdf2875c1b039453f13954f57ff03de3e720f5d47366c0c662521b8fe4c2698c"
+    },
+    {
+      "id": "P3-PILOT-10",
+      "path": "production/ai/v6-character-asset-bible/README.md",
+      "mode": "whole_file",
+      "sha256": "eaa5f98ebdc9b256f20d95faabb8aa8de09036e4373389bce72fbfa82393dff5"
+    },
+    {
+      "id": "P3-PILOT-11",
+      "path": "production/ai/v6-character-asset-bible/00-system/01-character-asset-bible-master-standard.md",
+      "mode": "whole_file",
+      "sha256": "4e80dfd2c7841746c184c662f802a18806e22dcdd92ca9278b3a909f3de02806"
+    },
+    {
+      "id": "P3-PILOT-12",
+      "path": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md",
+      "mode": "whole_file",
+      "sha256": "1c1bc11dc00abd14ccd3815ca397b044d3dd2328d31cc861a4c1b334f494d49a"
+    },
+    {
+      "id": "P3-PILOT-13",
+      "path": "production/ai/v6-character-asset-bible/02-expression/expression-asset-standard.md",
+      "mode": "whole_file",
+      "sha256": "732bcc70a8a373f3694fde0f028e6dd16d4caba7afeae832bad12cdc846d6450"
+    },
+    {
+      "id": "P3-PILOT-14",
+      "path": "production/ai/v6-character-asset-bible/03-pose-motion/pose-motion-asset-standard.md",
+      "mode": "whole_file",
+      "sha256": "26cb7af58255d4339f4b893396aeaa6f4be48a481f309be36908f9c0dc74fdf5"
+    },
+    {
+      "id": "P3-PILOT-15",
+      "path": "production/ai/v6-character-asset-bible/04-costume/costume-system-standard.md",
+      "mode": "whole_file",
+      "sha256": "1a9f6978876f3f0c2387a4b77a03887dba2fa8bbe8f25e4ba5e115107791ac49"
+    },
+    {
+      "id": "P3-PILOT-16",
+      "path": "production/ai/v6-character-asset-bible/05-voice/voice-dialogue-standard.md",
+      "mode": "whole_file",
+      "sha256": "0da2edce06ef48cf111c7a2257f8912a3036057884b8f384a0ebfaff6951f418"
+    },
+    {
+      "id": "P3-PILOT-17",
+      "path": "production/ai/v6-character-asset-bible/06-relationship/relationship-state-standard.md",
+      "mode": "whole_file",
+      "sha256": "90da9dfd118d55aa6c38987a03ee71dc9d7a98224f937581f26659ff5009b853"
+    },
+    {
+      "id": "P3-PILOT-18",
+      "path": "production/ai/v6-character-asset-bible/07-continuity/continuity-ledger-standard.md",
+      "mode": "whole_file",
+      "sha256": "92a8b26af2d967d0ee0553a6c5267dc23e14ba874e1dd402c5346bb1b4a29df6"
+    },
+    {
+      "id": "P3-PILOT-19",
+      "path": "production/ai/v6-character-asset-bible/08-prompt-templates/aigc-character-prompt-system.md",
+      "mode": "whole_file",
+      "sha256": "b0908022abe662d37d0d030c58b035a64e8c62b1b84cce1f7e679f89a28c9a8a"
+    },
+    {
+      "id": "P3-PILOT-20",
+      "path": "production/ai/v6-character-asset-bible/09-production-workflow/linan-standard-sop.md",
+      "mode": "whole_file",
+      "sha256": "f268c6e5388d59974017b217189609b6c260a167528ccc9f4052688f34869953"
+    },
+    {
+      "id": "P3-PILOT-21",
+      "path": "production/ai/v6-character-asset-bible/10-episode-gate/episode-delivery-gate.md",
+      "mode": "whole_file",
+      "sha256": "1222b448c918d48bc10e747b6a4eab720148eebbf200fd504ffa6c11471a14fb"
+    }
+  ],
+  "boundaries": {
+    "final_dialogue": "DEFERRED-UNTIL-EPISODE-GATE",
+    "shot_ids": "DEFERRED-UNTIL-EPISODE-GATE",
+    "u_unique_identity": "DEFERRED-UNTIL-EPISODE-GATE",
+    "bg_microchapter_and_extension_bindings": "DEFERRED-UNTIL-EPISODE-GATE"
+  }
+}

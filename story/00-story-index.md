@@ -29,6 +29,8 @@
 | `qa/gates/season-gate.json` | SG-04 Season Gate 决议与 27 个输入哈希绑定 | LOCKED |
 | `qa/gates/input-manifests/season.json` | Season Gate 可重建输入 manifest | LOCKED-MANIFEST |
 | `qa/gates/scope-definitions/season.json` | Season Gate 冻结输入范围与前置 Gate | LOCKED-SCOPE |
+| `qa/reviews/p3-pilot-input-freeze-review.json` | P3-01 E01–E03、54 章与 v6 角色资产输入冻结审阅 | REVIEWED-P3-INPUT-PASS |
+| `qa/gates/input-manifests/p3-pilot-e01-e03.json` | P3-01 试点输入哈希与边界 | P3-PILOT-DRAFT |
 | `story/season/u-candidate-selection.schema.json` | U 槽位候选、POV 映射、自然回访与 Gate 边界字段规范 | LOCKED-SCHEMA |
 | `story/season/u-candidate-selection.json` | 22 个 POV 候选、40 个自然回访候选及 120 槽位保留状态 | SEASON-DRAFT |
 | `qa/reviews/season-u-boundary-review.json` | S2-06 候选可追溯性、可替换性、U/BG 边界审阅 | REVIEWED-SEASON-PASS |
@@ -62,3 +64,7 @@ S2-06 从 `qa/unit-slots.json` 的 120 个 RESERVED 槽位中选出 22 个 POV �
 ## SG-04 Season Gate 决议结论
 
 `qa/gates/season-gate.json` 已生成并锁定，input manifest 与 scope definition 可重建 27 个季级输入。锁定范围是 Season Canon 与短章节拍；5 条 `DEFERRED-UNTIL-EPISODE-GATE` 边界仍保留，Episode Gate 继续开放，下一阶段进入 P3-01。
+
+## P3-01 试点输入冻结结论
+
+`qa/reviews/p3-pilot-input-freeze-review.json` 已通过：E01–E03 共 54 个短章与 21 个输入文件可重建，v6 角色资产规范已纳入，用户本地 `production/assets/` 与 `raw/` 未纳入提交；下一步是 E01 逐章生产，不提前写入最终镜头或 U/BG 绑定。

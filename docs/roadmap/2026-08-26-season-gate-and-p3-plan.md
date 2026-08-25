@@ -122,6 +122,8 @@ Season Gate 关闭时锁定的是 **Season Canon 与短章节拍**，不是最�
 
 **当前结果（2026-08-26）**：SG-04 已完成。`qa/gates/season-gate.json`、`qa/gates/input-manifests/season.json` 与 `qa/gates/scope-definitions/season.json` 已由 `scripts/lock_season_gate.py` 重建并校验；27 个季级输入的哈希一致，`qa/production-status.json` 的 `season_gate` 已锁定为 `LOCKED`。5 条 `DEFERRED-UNTIL-EPISODE-GATE` 边界仍被明确保留，Episode Gate 仍为 `OPEN`。
 
+**P3-01 当前结果（2026-08-26）**：`scripts/prepare_p3_pilot_inputs.py` 已冻结 E01–E03 的 54 个短章与 21 个输入文件，报告 `qa/reviews/p3-pilot-input-freeze-review.json` 为 `REVIEWED-P3-INPUT-PASS`；已纳入 v6 角色资产规范，明确排除用户本地 `production/assets/` 与 `raw/`。最终对白、shot ID、U 唯一身份和 BG 绑定继续延期到 Episode Gate。下一步进入 P3-02 E01 逐章生产。
+
 ## 四、Season Gate 之后的 P3 E01–E03 试点
 
 ### P3-01｜试点输入冻结

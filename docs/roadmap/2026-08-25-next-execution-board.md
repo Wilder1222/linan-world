@@ -83,6 +83,13 @@
 - Season Gate 现在锁定 Season Canon 与短章节拍，不锁定最终对白、镜头、U 唯一身份或 BG 微章绑定；Episode Gate 继续为 `OPEN`。
 - 下一阶段进入 P3-01 输入冻结与 E01–E03 试点，不得把延期项静默视为已完成。
 
+## P3-01 E01–E03 输入冻结结果（2026-08-26）
+
+- 新增 `scripts/prepare_p3_pilot_inputs.py` 与 `tests/test_p3_pilot_inputs.py`；`qa/reviews/p3-pilot-input-freeze-review.json` 为 `REVIEWED-P3-INPUT-PASS`。
+- 试点范围锁定为 E01–E03、54 个短章、21 个输入文件，包含 Season Gate 输入与 v6 AI 角色资产规范。
+- `production/assets/` 与 `raw/` 明确排除在提交和冻结范围之外；最终对白、镜头、U 唯一身份和 BG 绑定仍延期到 Episode Gate。
+- 下一步进入 P3-02：先完成 E01 的逐章生产与九项 Episode Gate QA。
+
 ## 执行顺序
 
 ### S2-01｜36 集因果账本（第一优先级）
