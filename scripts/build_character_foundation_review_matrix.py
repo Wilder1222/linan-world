@@ -17,7 +17,7 @@ REPORT = ROOT / "qa/reviews/character-foundation-review-matrix.json"
 # REVIEWED-PASS only after the generated cards have been read as a set and the
 # source state chains have been checked for profession-specific choices,
 # mixed emotion, relationship transfer, and irreversible cost.
-REVIEWED_IMPORTANT_TIERS = {"A1"}
+REVIEWED_IMPORTANT_TIERS = {"A1", "A2", "A3"}
 
 
 def read_json(path: Path) -> dict:
@@ -86,7 +86,7 @@ def important_review(record: dict) -> dict:
             "continuity_and_asset_hooks": "PASS",
         },
         "blocking_items": [],
-        "notes": "已逐人复核 A1 批次：职业动作、ARC1-5 具体目标/阻力/误判/选择/代价/关系移交、ARC6 选择证据与公共回响均与人物功能相符；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。",
+        "notes": "已逐人复核 A1-A3 批次：职业动作、ARC1-5 具体目标/阻力/误判/选择/代价/关系移交、ARC6 选择证据与公共回响均与人物功能相符；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。",
     }
 
 
@@ -159,13 +159,12 @@ def build() -> dict:
             "BG": {"status": "PENDING-EPISODE-GATE", "rule": "具体 microchapter_ids 与 extension_ids 只能由 Episode Gate 写入"},
         },
         "gate_blockers": [
-            "A2/A3 共 16 名重要人物尚未完成逐人生产审读",
             "48 名 B 级人物尚未完成生活圈抽样审读",
             "17 条关系的 Foundation 证据尚未完成选择改变性复核",
             "6 条情感脊柱的 36 个状态尚未完成压力测试",
             "U/BG 尚未进入下游 Gate 绑定",
         ],
-        "next_action": "完成 A2/A3 级人物审读，再按 8 个生活圈抽查 B 级人物；同步完成关系证据与情感脊柱压力测试，无阻断后再生成 Character Foundation Gate 证书。",
+        "next_action": "按 8 个生活圈抽查 B 级人物；同步完成关系证据与情感脊柱压力测试，无阻断后再生成 Character Foundation Gate 证书。",
     }
 
 
