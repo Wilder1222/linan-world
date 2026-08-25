@@ -4,6 +4,8 @@
 >
 > 目标：把 36 集母版变成可机器审计、可拆成 648 个 AI 短章、可承接后续逐场制作的 Season Canon。P2 不写成片台词，不提前锁死 U 身份，也不把 BG 绑定到具体微章。
 
+具体执行顺序、产物路径与本轮立即开工项见 `docs/roadmap/2026-08-25-next-execution-board.md`。
+
 ## 0. 当前基线
 
 - P0 Canon：`LOCKED`
