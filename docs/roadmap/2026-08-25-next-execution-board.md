@@ -13,6 +13,16 @@
 | P2 Season | `OPEN` | 建立 36 集因果、悬疑翻转、活动与幽默登记 | 直接写正式对白、最终 U 身份或 BG 微章绑定 |
 | P3 Episode/AIGC | `OPEN` | 仅在 Season Gate 后制作 E01–E03 试点 | 在 Season Gate 前批量生产成片资产 |
 
+## 审计后确认（2026-08-25）
+
+本轮对 P0/P1 的机器报告、Gate 证书、输入哈希和跨文件边界进行复核，结论如下：
+
+- P0 Canon：`LOCKED`，生产质量审计 `REVIEWED-PASS`。
+- P1 Character Foundation：`LOCKED`，中央/重要/常驻人物、关系证据、情感脊柱、L/A 状态链和 B 级生活细节审计均为 `REVIEWED-PASS`。
+- U/BG 的 `scene/dialogue/shot` 以及具体微章绑定仍为 `RESERVED`，这是下游 Gate 依赖，不是 P1 缺陷。
+- `production/assets/` 与 `raw/` 是本地用户资产，不纳入本轮 Gate、提交或完成度统计；视觉资产生产属于 P3 Episode/AIGC。
+- 当前没有需要回写 P0/P1 的阻断项；下一轮重点从“人物基础锁定”转向“36 集 Season 因果可执行化”。
+
 ## 执行顺序
 
 ### S2-01｜36 集因果账本（第一优先级）
@@ -82,6 +92,42 @@
 1. 建立 `story/season/season-causal-ledger.json` 的 schema 与 36 集空白记录；
 2. 从 E01–E06 开始填写第一篇，先验证“香灰见字→五信初合”的线索回溯和尾钩轮换；
 3. 用第一篇样本反向校验关系选择、职业动作、宋代活动和幽默是否都能产生不可逆代价，再批量扩展 E07–E36。
+
+## 下一次执行批次（建议按一个短冲刺完成）
+
+### Sprint S2-A｜因果账本骨架与 E01–E06 样本
+
+1. 建立 `story/season/season-causal-ledger.schema.json` 与 `story/season/season-causal-ledger.json`，先生成 36 条 `DRAFT` 记录；
+2. 完成 E01–E06 的全部字段，逐条回指 Canon 事实、人物关系 ID、职业能力和地点 ID；
+3. 为每集补齐“播种 → 误读 → 复核 → 重义 → 代价 → 尾钩 → 下一集追问”；
+4. 建立 `scripts/audit_season_causal_ledger.py`，至少检查 36/36 字段完整、ID 可回溯、尾钩有下一集追问、代价非空；
+5. 输出 `qa/reviews/season-causal-ledger-review.json`，先允许 `REVIEWED-SAMPLE-PASS`，不提前关闭 Season Gate。
+
+**S2-A 通过条件**：E01–E06 六集完整、机器审计无结构性发现、人工抽读能解释每个翻转的前置证据与关系代价。
+
+### Sprint S2-B｜悬疑、活动、幽默并行登记
+
+在 S2-A 样本通过后，再并行登记：
+
+- `story/season/mystery-reversal-matrix.json`：事实/责任/关系三类翻转轮换；
+- `story/season/song-life-activity-matrix.json`：活动必须改变关系或线索；
+- `story/season/humor-register-matrix.json`：笑点必须有语域、反应和情绪回收；
+- 对应三份 `qa/reviews/*-review.json`，统一使用 `REVIEWED-SAMPLE-PASS` → `REVIEWED-PASS` 的升级路径。
+
+**S2-B 通过条件**：没有连续同型尾钩；活动不再是静态风俗展示；幽默不消费灾难与受害者，且笑后能回到真实情绪。
+
+### Sprint S2-C｜扩展 E07–E36 与 648 章钩子图
+
+1. 用通过的 E01–E06 模板扩展 E07–E36 因果账本；
+2. 再生成 `story/season/short-chapter-hook-map.json`，每集 18 章、每章一个 POV/功能/状态变化；
+3. 运行连续三章尾钩轮换、状态转移、关系与职业动作覆盖审计；
+4. 最后才做 U 候选和自然回访分配，未选 U 继续保持 `RESERVED`。
+
+**S2-C 通过条件**：36/36 集与 648/648 章齐全，尾钩均能产生下一追问；U 可替换，BG 未提前绑定具体微章。
+
+### Season Gate 之后的 P3 入口
+
+Season Gate 关闭后只启动 E01–E03 试点。每个短章必须同时有正式稿、人物状态、关系 Delta、连续性账本、Blocking/Storyboard、静帧/视频/配音 Prompt 和九项 QA；任何单项低于 90 分都不扩展到下一集。
 
 ## 禁止跨 Gate
 
