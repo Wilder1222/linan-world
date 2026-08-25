@@ -9,7 +9,7 @@ residence = "西泠书坊街客舍"
 economic_source = "抄写、代笔与短期教书"
 pov_budget = 2
 minimum_episode_coverage = 4
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-A3-05｜段星河

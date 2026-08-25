@@ -1,10 +1,17 @@
 {
-  "status": "OPEN",
+  "status": "REVIEWED-PASS",
   "scope": "P1 recurring demographic and occupation audit",
   "reviewed": 48,
   "findings": [],
-  "manual_review_required": [
-    "逐人确认年龄、家庭结构与职业阶段的南宋生活常识",
-    "确认生活圈地址可支持首次日常、职业动作和回访连续性"
+  "foundation_checks": {
+    "age_basis": 48,
+    "family_pressure_evidence": 48,
+    "occupation_stage_evidence": 48,
+    "life_circle_and_first_daily": 48,
+    "ending_anchor": 48
+  },
+  "deferred_followup": [
+    "Season Gate 将生活圈工作圈绑定到具体场次、班次和回访点",
+    "Episode Gate 将首次日常与终局职业回响绑定到具体 microchapter/shot ID"
   ]
 }

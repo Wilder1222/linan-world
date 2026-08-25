@@ -9,7 +9,7 @@ residence = "西泠书坊街书坊"
 economic_source = "刻印、校勘与纸墨买卖"
 pov_budget = 6
 minimum_episode_coverage = 8
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-A2-08｜方书娘

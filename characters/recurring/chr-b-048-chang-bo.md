@@ -9,7 +9,7 @@ residence = "汇川行、北归社与城外仓运工作圈；具体摊位、住�
 economic_source = "北地失乡老人、前骡队赶车人的日常收入与临时活计"
 pov_budget = 1
 minimum_episode_coverage = 2
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-B-048｜常伯

@@ -9,7 +9,7 @@ residence = "春台后台院"
 economic_source = "演出经营、契约与艺人分成"
 pov_budget = 10
 minimum_episode_coverage = 12
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-A1-04｜顾念娘

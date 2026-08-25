@@ -9,7 +9,7 @@ residence = "鹤鸣巷沈家香铺"
 economic_source = "香铺经营、账目与货品周转"
 pov_budget = 30
 minimum_episode_coverage = 16
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-L2-01｜陆清和

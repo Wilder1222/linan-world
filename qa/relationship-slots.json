@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "FOUNDATION-DRAFT",
+  "status": "FOUNDATION-LOCKED",
   "dimensions": ["亲近", "信任", "亏欠", "依赖", "敬意", "怨恨", "共同秘密"],
   "snapshots": ["Y0-OPEN", "ARC1-END", "ARC2-END", "ARC3-END", "ARC4-END", "ARC5-END", "ARC6-END", "Y+1"],
   "relationships": [

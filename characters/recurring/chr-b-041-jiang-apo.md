@@ -9,7 +9,7 @@ residence = "医馆、寺院与流民救济工作圈；具体摊位、住处与�
 economic_source = "北来失乡老人、编草席的日常收入与临时活计"
 pov_budget = 1
 minimum_episode_coverage = 2
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-B-041｜蒋阿婆

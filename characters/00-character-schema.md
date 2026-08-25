@@ -18,7 +18,7 @@ residence = "鹤鸣巷沈家香铺后院"
 economic_source = "香铺调香、辨货与家业分成"
 pov_budget = 52
 minimum_episode_coverage = 24
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 ```
 

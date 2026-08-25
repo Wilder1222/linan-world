@@ -9,7 +9,7 @@ residence = "沈三娘馄饨铺后院"
 economic_source = "餐食、赊账记录与街坊照料"
 pov_budget = 28
 minimum_episode_coverage = 16
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-L2-02｜林阿沅

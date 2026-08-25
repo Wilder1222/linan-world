@@ -9,7 +9,7 @@ residence = "北归社学舍"
 economic_source = "抄名册、赈济募捐与教书"
 pov_budget = 10
 minimum_episode_coverage = 12
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-A1-05｜许含章

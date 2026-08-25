@@ -9,7 +9,7 @@ residence = "春台瓦舍与夜市工作圈；具体摊位、住处与班次由 
 economic_source = "夜粥摊主的日常收入与临时活计"
 pov_budget = 2
 minimum_episode_coverage = 2
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-B-010｜葛三娘

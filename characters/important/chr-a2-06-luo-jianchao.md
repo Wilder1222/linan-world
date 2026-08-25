@@ -9,7 +9,7 @@ residence = "钱塘码头船户院"
 economic_source = "船行调度、修船借贷与佣金"
 pov_budget = 6
 minimum_episode_coverage = 8
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-A2-06｜罗见潮

@@ -9,7 +9,7 @@ residence = "临安府署值房"
 economic_source = "俸禄、签押与程序信用"
 pov_budget = 10
 minimum_episode_coverage = 12
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-A1-06｜章允中

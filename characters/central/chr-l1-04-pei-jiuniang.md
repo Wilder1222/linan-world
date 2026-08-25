@@ -9,7 +9,7 @@ residence = "青鹞与钱塘码头船户院落"
 economic_source = "水路信使、护送与船运"
 pov_budget = 46
 minimum_episode_coverage = 24
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-L1-04｜裴九娘

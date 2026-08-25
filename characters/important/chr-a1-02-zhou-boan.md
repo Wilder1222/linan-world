@@ -9,7 +9,7 @@ residence = "鹤鸣巷修伞摊"
 economic_source = "修伞、旧信件与手工灯架"
 pov_budget = 10
 minimum_episode_coverage = 12
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-A1-02｜周伯安

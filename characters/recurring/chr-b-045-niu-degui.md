@@ -9,7 +9,7 @@ residence = "汇川行、北归社与城外仓运工作圈；具体摊位、住�
 economic_source = "城外佃农兼债户的日常收入与临时活计"
 pov_budget = 2
 minimum_episode_coverage = 2
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-B-045｜牛得贵

@@ -9,7 +9,7 @@ residence = "Y-13时沈家香铺"
 economic_source = "调香、药材辨认与春信记录"
 pov_budget = 6
 minimum_episode_coverage = 8
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-A2-03｜沈怀川

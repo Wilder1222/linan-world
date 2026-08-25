@@ -9,7 +9,7 @@ residence = "停云酒肆、客舍与商旅工作圈；具体摊位、住处与�
 economic_source = "停云后厨管事的日常收入与临时活计"
 pov_budget = 2
 minimum_episode_coverage = 2
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-B-026｜乔听雨

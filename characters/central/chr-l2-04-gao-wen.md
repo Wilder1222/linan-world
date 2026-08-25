@@ -9,7 +9,7 @@ residence = "城务司值房"
 economic_source = "官俸、差役与程序执行"
 pov_budget = 24
 minimum_episode_coverage = 16
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-L2-04｜高问

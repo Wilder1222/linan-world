@@ -161,7 +161,7 @@ residence = "{residence}"
 economic_source = "{income}"
 pov_budget = {pov}
 minimum_episode_coverage = {coverage}
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # {stable_id}｜{name}

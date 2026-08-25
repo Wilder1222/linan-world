@@ -9,7 +9,7 @@ residence = "西泠书坊街工作圈；具体摊位、住处与班次由 Season
 economic_source = "装裱匠的日常收入与临时活计"
 pov_budget = 1
 minimum_episode_coverage = 2
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-B-016｜季素娘

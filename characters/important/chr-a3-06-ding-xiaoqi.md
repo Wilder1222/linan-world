@@ -9,7 +9,7 @@ residence = "停云酒肆后院"
 economic_source = "跑堂、热水与客人照料"
 pov_budget = 2
 minimum_episode_coverage = 4
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-A3-06｜丁小七

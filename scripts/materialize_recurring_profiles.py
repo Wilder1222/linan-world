@@ -148,7 +148,7 @@ residence = "{residence}"
 economic_source = "{data["occupation"]}的日常收入与临时活计"
 pov_budget = {roster_record["pov_budget"]}
 minimum_episode_coverage = 2
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # {stable_id}｜{name}

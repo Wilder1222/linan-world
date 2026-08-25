@@ -9,7 +9,7 @@ residence = "钱塘码头脚夫棚"
 economic_source = "装卸、计数与货物交接"
 pov_budget = 6
 minimum_episode_coverage = 8
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-A2-05｜石六

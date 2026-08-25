@@ -9,7 +9,7 @@ residence = "寺院库房"
 economic_source = "香火、粮食、床位与施粥分配"
 pov_budget = 2
 minimum_episode_coverage = 4
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-A3-08｜慧明

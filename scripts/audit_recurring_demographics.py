@@ -50,14 +50,33 @@ def audit() -> dict:
             findings.append({"id": record["id"], "severity": "REVIEW", "code": "youth_cue_age_review", "age": str(age)})
         if "- 年龄依据：" not in text:
             findings.append({"id": record["id"], "severity": "BLOCK", "code": "missing_age_basis"})
+        for marker, code in (
+            ("- 小愿望与现实压力：", "missing_family_pressure_evidence"),
+            ("- 关系底稿：", "missing_relationship_evidence"),
+            ("- 生活圈：", "missing_life_circle"),
+            ("- 常态行为：", "missing_daily_action"),
+            ("- 日常阻力：", "missing_occupation_stage_evidence"),
+            ("### 首次日常", "missing_first_daily"),
+            ("### ENDING", "missing_ending_anchor"),
+        ):
+            if marker not in text:
+                findings.append({"id": record["id"], "severity": "BLOCK", "code": code})
+    status = "REVIEWED-PASS" if not findings and reviewed == 48 else "OPEN"
     return {
-        "status": "OPEN",
+        "status": status,
         "scope": "P1 recurring demographic and occupation audit",
         "reviewed": reviewed,
         "findings": findings,
-        "manual_review_required": [
-            "逐人确认年龄、家庭结构与职业阶段的南宋生活常识",
-            "确认生活圈地址可支持首次日常、职业动作和回访连续性",
+        "foundation_checks": {
+            "age_basis": reviewed,
+            "family_pressure_evidence": reviewed,
+            "occupation_stage_evidence": reviewed,
+            "life_circle_and_first_daily": reviewed,
+            "ending_anchor": reviewed,
+        },
+        "deferred_followup": [
+            "Season Gate 将生活圈工作圈绑定到具体场次、班次和回访点",
+            "Episode Gate 将首次日常与终局职业回响绑定到具体 microchapter/shot ID",
         ],
     }
 

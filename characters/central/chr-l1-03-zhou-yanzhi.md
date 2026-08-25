@@ -9,7 +9,7 @@ residence = "西泠书坊街一间狭小楼上"
 economic_source = "抄图、装裱与委托测绘"
 pov_budget = 42
 minimum_episode_coverage = 24
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-L1-03｜周砚之

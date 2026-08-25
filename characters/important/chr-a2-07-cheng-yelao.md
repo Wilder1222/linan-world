@@ -9,7 +9,7 @@ residence = "西泠书坊街"
 economic_source = "画稿、授徒与委托地图"
 pov_budget = 6
 minimum_episode_coverage = 8
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-A2-07｜程野老

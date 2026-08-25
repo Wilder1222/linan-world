@@ -9,7 +9,7 @@ residence = "鹤鸣巷馄饨铺"
 economic_source = "餐食、赊账与公共灶"
 pov_budget = 10
 minimum_episode_coverage = 12
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-A1-01｜沈三娘

@@ -9,7 +9,7 @@ residence = "御街花市"
 economic_source = "花材、花牌与季节摊位"
 pov_budget = 2
 minimum_episode_coverage = 4
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-A3-01｜祝小满

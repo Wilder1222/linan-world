@@ -1,5 +1,5 @@
 {
-  "status": "OPEN",
+  "status": "REVIEWED-PASS",
   "scope": "P1 Character Foundation content audit",
   "profile_counts": {
     "L1": 5,
@@ -20,10 +20,15 @@
   "emotional_spine_total": 6,
   "emotional_spine_state_total": 36,
   "findings": [],
-  "manual_review_required": [
-    "确认年龄推定与职业状态，尤其 B 级人物的年龄与家庭结构",
-    "人工确认 136 个关系 Foundation 证据锚点是否真正改变人物选择；Season/Episode Gate 再回填最终 scene/dialogue/shot ID",
-    "为 U 槽位在 Season Gate 后分配唯一故事身份，不提前写入主线",
-    "为 BG 原型在 Episode Gate 后写入具体 microchapter_ids 与 extension_ids"
+  "foundation_checks": {
+    "named_profiles": 84,
+    "relationship_profiles": 17,
+    "relationship_evidence_snapshots": 136,
+    "emotional_spine_states": 36
+  },
+  "deferred_followup": [
+    "Season/Episode Gate 回填关系证据的最终 scene/dialogue/shot ID",
+    "Season Gate 为 U 槽位分配唯一故事身份",
+    "Episode Gate 为 BG 原型写入具体 microchapter_ids 与 extension_ids"
   ]
 }

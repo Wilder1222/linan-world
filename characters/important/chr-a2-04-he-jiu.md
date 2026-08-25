@@ -9,7 +9,7 @@ residence = "钱塘码头鱼棚"
 economic_source = "腌鱼、晒鱼与水上买卖"
 pov_budget = 6
 minimum_episode_coverage = 8
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-A2-04｜贺九

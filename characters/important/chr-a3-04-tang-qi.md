@@ -9,7 +9,7 @@ residence = "春台后台"
 economic_source = "妆造、清洁与艺人照料"
 pov_budget = 2
 minimum_episode_coverage = 4
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-A3-04｜唐绮

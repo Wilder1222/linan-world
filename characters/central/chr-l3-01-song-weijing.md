@@ -9,7 +9,7 @@ residence = "临安府署后宅"
 economic_source = "官俸、调度权与制度信用"
 pov_budget = 28
 minimum_episode_coverage = 12
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-L3-01｜宋惟敬

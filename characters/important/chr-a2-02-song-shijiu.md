@@ -9,7 +9,7 @@ residence = "递铺后巷"
 economic_source = "跑腿、递信与熟人信用"
 pov_budget = 6
 minimum_episode_coverage = 8
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-A2-02｜宋十九

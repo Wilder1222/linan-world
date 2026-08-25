@@ -9,7 +9,7 @@ residence = "汇川行内宅"
 economic_source = "粮运、借贷与商号利润"
 pov_budget = 24
 minimum_episode_coverage = 12
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-L3-02｜黎见山

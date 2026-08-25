@@ -9,7 +9,7 @@ residence = "春台后台"
 economic_source = "演奏、伴奏与艺人合约"
 pov_budget = 2
 minimum_episode_coverage = 4
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-A3-03｜江酌月

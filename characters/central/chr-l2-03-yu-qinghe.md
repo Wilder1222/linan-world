@@ -9,7 +9,7 @@ residence = "小济堂后院"
 economic_source = "医馆抄方、诊疗协助与药材整理"
 pov_budget = 26
 minimum_episode_coverage = 16
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-L2-03｜余青禾

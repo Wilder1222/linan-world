@@ -9,7 +9,7 @@ residence = "鹤鸣巷赁屋"
 economic_source = "浆洗、补衣与街坊小活"
 pov_budget = 6
 minimum_episode_coverage = 8
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-A2-01｜陈桂婆

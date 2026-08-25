@@ -9,7 +9,7 @@ residence = "城务司、临安府与军伍工作圈；具体摊位、住处与�
 economic_source = "城门军士的日常收入与临时活计"
 pov_budget = 1
 minimum_episode_coverage = 2
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-B-035｜梁成武

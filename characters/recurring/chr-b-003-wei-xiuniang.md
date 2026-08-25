@@ -9,7 +9,7 @@ residence = "鹤鸣巷与香药街工作圈；具体摊位、住处与班次由 
 economic_source = "赁屋针线妇的日常收入与临时活计"
 pov_budget = 2
 minimum_episode_coverage = 2
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-B-003｜魏绣娘

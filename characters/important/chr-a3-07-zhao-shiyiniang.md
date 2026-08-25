@@ -9,7 +9,7 @@ residence = "城南客舍"
 economic_source = "客房、房钱与住客名册"
 pov_budget = 2
 minimum_episode_coverage = 4
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-A3-07｜赵十一娘

@@ -9,7 +9,7 @@ residence = "小济堂后院"
 economic_source = "诊疗、药材与医馆分成"
 pov_budget = 10
 minimum_episode_coverage = 12
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-A1-03｜余仲仁

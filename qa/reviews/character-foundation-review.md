@@ -2,11 +2,11 @@
 
 > 状态：`LOCKED`。Character Foundation Gate 已锁定；后续只允许在 Season/Episode Gate 中写入预留的 U/BG 下游绑定。
 
-当前自动内容审计见 `qa/reviews/character-foundation-audit.json`：84 份人物档案、17 份关系档案与 36 个情感状态锚点均已覆盖，自动发现项为 0。关系 Foundation 证据已登记于 `qa/relationship-evidence.json`（17 组 × 8 个快照 = 136 个锚点），但最终 scene/dialogue/shot ID 仍需 Season/Episode Gate 回填；U/BG 的下游绑定仍明确保留给后续 Gate。
+当前自动内容审计见 `qa/reviews/character-foundation-audit.json`：84 份人物档案、17 份关系档案与 36 个情感状态锚点均已覆盖，状态为 `REVIEWED-PASS`，自动发现项为 0。关系 Foundation 证据已登记于 `qa/relationship-evidence.json`（17 组 × 8 个快照 = 136 个锚点），但最终 scene/dialogue/shot ID 仍需 Season/Episode Gate 回填；U/BG 的下游绑定仍明确保留给后续 Gate。
 
-B 级年龄与生活圈机器审计见 `qa/reviews/recurring-demographic-audit.json`：48/48 已检查，自动发现项为 0；职业化生产细节审读见 `qa/reviews/recurring-production-quality.json`：48/48 具备独立日常动作、阻力、盲点、选择、代价、关系余波和结局动作；8 个生活圈各抽 2 人的现场样本审读见 `qa/reviews/recurring-sample-review.json`，16/16 通过。
+B 级年龄与生活圈机器审计见 `qa/reviews/recurring-demographic-audit.json`：状态为 `REVIEWED-PASS`，48/48 具备年龄依据、家庭/关系压力、职业阶段、生活圈、首次日常和结局锚点；职业化生产细节审读见 `qa/reviews/recurring-production-quality.json`：48/48 具备独立日常动作、阻力、盲点、选择、代价、关系余波和结局动作；8 个生活圈各抽 2 人的现场样本审读见 `qa/reviews/recurring-sample-review.json`，16/16 通过。
 
-L/A 状态链机器审计见 `qa/reviews/profile-state-chain-audit.json`：36 份档案、360 个状态节点已检查，自动发现项为 0；人工仍需确认每个状态的动作、空间、信息状态和关系移交能直接转译为镜头执行。
+L/A 状态链机器审计见 `qa/reviews/profile-state-chain-audit.json`：状态为 `REVIEWED-PASS`，36 份档案、360 个状态节点已检查，自动发现项为 0；Season/Episode Gate 只需继续绑定具体集、章、blocking、shot 与 AIGC continuity ID。
 
 逐项跟踪矩阵见 `qa/reviews/character-foundation-review-matrix.json`：12 名中央人物、24 名 A 级重要人物、48 名 B 级常驻、17 条关系证据、6 条情感脊柱与 U/BG 边界均已完成一轮生产级审读并标记 `REVIEWED-PASS`；B 级样本继续作为 8/8 生活圈的现场抽查，而不是全量审读的替代。
 

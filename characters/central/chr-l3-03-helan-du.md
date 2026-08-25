@@ -9,7 +9,7 @@ residence = "北归社学舍与流民安置点之间"
 economic_source = "演说、组织与旧族人脉"
 pov_budget = 20
 minimum_episode_coverage = 12
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-L3-03｜贺兰度

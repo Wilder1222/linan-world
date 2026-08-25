@@ -9,7 +9,7 @@ residence = "御街夜市说书棚"
 economic_source = "说书、唱段与听众赏钱"
 pov_budget = 2
 minimum_episode_coverage = 4
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-A3-02｜李观澜

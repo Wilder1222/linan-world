@@ -9,7 +9,7 @@ residence = "汇川行内宅"
 economic_source = "账房薪酬、货路提成与养父家业"
 pov_budget = 10
 minimum_episode_coverage = 12
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-A1-07｜黎令仪

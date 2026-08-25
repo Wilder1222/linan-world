@@ -9,7 +9,7 @@ residence = "停云酒肆二楼"
 economic_source = "酒肆经营、护送旧债与信息交换"
 pov_budget = 46
 minimum_episode_coverage = 24
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-L1-05｜顾行舟

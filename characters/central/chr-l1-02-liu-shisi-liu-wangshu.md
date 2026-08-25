@@ -9,7 +9,7 @@ residence = "春台后巷艺人合住院"
 economic_source = "演出、作曲与艺人分成"
 pov_budget = 44
 minimum_episode_coverage = 24
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-L1-02｜柳十四

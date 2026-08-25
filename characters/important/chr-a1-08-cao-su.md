@@ -9,7 +9,7 @@ residence = "城门军营"
 economic_source = "军俸、军籍与部下责任"
 pov_budget = 10
 minimum_episode_coverage = 12
-status = "FOUNDATION-DRAFT"
+status = "FOUNDATION-LOCKED"
 +++
 
 # CHR-A1-08｜曹肃
