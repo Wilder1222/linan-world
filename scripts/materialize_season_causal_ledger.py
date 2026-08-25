@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import json
 import re
+import subprocess
+import sys
 from pathlib import Path
 
 
@@ -205,7 +207,14 @@ def main() -> int:
         "next_gate": "Season Gate 前仅允许补全因果账本，不写正式对白、最终 U 身份或 BG 微章绑定。",
     }
     OUT.write_text(json.dumps(ledger, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"materialized {OUT} episodes={len(episodes)} sample={len(SAMPLES)}")
+    # Once S2-C exists, a plain ledger materialization must not silently roll
+    # the repository back to the six-episode scaffold. Reapply the season
+    # upgrade (and the 648-chapter map) after rebuilding the stable skeleton.
+    s2c = ROOT / "scripts/materialize_season_s2c.py"
+    if s2c.exists():
+        subprocess.run([sys.executable, str(s2c)], check=True)
+    else:
+        print(f"materialized {OUT} episodes={len(episodes)} sample={len(SAMPLES)}")
     return 0
 
 

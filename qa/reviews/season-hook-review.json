@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "status": "REVIEWED-SEASON-PASS",
+  "scope": "P2 S2-C causal ledger and 648 short chapter hook review",
+  "episode_total": 36,
+  "chapter_total": 648,
+  "checks": {
+    "ledger_complete": true,
+    "chapter_rows": true,
+    "ordered_ids": true,
+    "eighteen_per_episode": true,
+    "playable_fields": true,
+    "pov_refs_traceable": true,
+    "adjacent_hooks_distinct": true,
+    "episode_tail_hooks_bound": true
+  },
+  "findings": [],
+  "deferred_followup": [
+    "Episode Gate 将把每章 objective/obstacle/choice/state_delta 与逐场剧本、关系快照和资产账本绑定。",
+    "在完成 Episode Gate 前不锁定最终对白、shot ID、U 唯一身份或 BG 微章 ID。"
+  ]
+}

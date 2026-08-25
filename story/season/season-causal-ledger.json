@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "SAMPLE-DRAFT",
+  "status": "SEASON-DRAFT",
   "scope": "P2 Season causal ledger",
   "episode_count": 36,
   "sample_window": [
@@ -634,24 +634,94 @@
       "episode_id": "S1-E07",
       "arc_id": "ARC-02",
       "title": "春台夜雨",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "集中调度是否比民间核验更快、更少伤人？",
+      "opening_state": "谷雨夜西湖宴集因粮船延误出现抢购预兆；宋惟敬调储备入市，价格当夜回落。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-002"
+        ],
+        "observation_ids": [],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-005",
+          "LOC-006",
+          "LOC-009",
+          "LOC-013",
+          "LOC-014",
+          "LOC-015"
+        ],
+        "description": "抢购在集中调粮后停止，价格曲线与船期、仓签同时留下可复核记录。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-G01",
+          "REL-015",
+          "REL-003"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L3-01",
+          "CHR-L1-02",
+          "CHR-L2-04"
+        ],
+        "choice": "沈蘅不反驳宋惟敬的有效调度；柳十四承认官府在局部危机中更快。",
+        "delta": "沈与宋的敬意上升但依赖下降；柳对集中机制的警惕暂时松动，高问对上级的信任增加。",
+        "evidence_ids": [
+          "REL-S2C-07-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L3-01",
+        "action": "把船期、仓储余量和街价按时刻并置，先调一批能立刻到市的储备，再回头查延误原因。",
+        "capability_ref": "characters/central/chr-l3-01-song-weijing.md"
+      },
+      "clue_seed": {
+        "kind": "制度效率",
+        "description": "价格回落不是口号，而是仓签、车队与街价在两个时辰内同时改变。",
+        "source_ids": [
+          "EVT-Y0-002"
+        ]
+      },
+      "misread": "民间核验只要更细就一定更可靠；宋惟敬只是临时抢功。",
+      "recheck": "沈蘅复核储备早已在前一日分仓，高问核对调拨时刻，发现宋不是临时作秀而是提前布置。",
+      "reframe": "集中调度确实能救下局部市场，但效率与可纠错性是两个不同问题。",
+      "irreversible_cost": "沈蘅失去把对手简单归为坏官的退路，必须正面面对制度选择。",
+      "episode_choice": {
+        "actor": "CHR-L1-01",
+        "action": "在记录里写下‘宋惟敬此策有效’，不再用沉默代替反驳。",
+        "cost": "她承认父亲所在一方可能犯过错，暂时失去团队中‘最确定的人’位置。",
+        "state_change": "民间疑报进入与制度效率并列的比较框架。"
+      },
+      "tail_hook": {
+        "type": "价值翻转",
+        "text": "宋惟敬问：‘如果你明知道一句真话会害死人，你还会说吗？’"
+      },
+      "next_chase": "查宋惟敬提前布置储备的依据，并验证被救下的价格是否把风险推给了别的街区。",
+      "causal_chain": {
+        "seed": "抢购停止而不代表风险消失；一个有效结果先改变了判断。",
+        "misread": "民间核验只要更细就一定更可靠；宋惟敬只是临时抢功。",
+        "recheck": "沈蘅复核储备早已在前一日分仓，高问核对调拨时刻，发现宋不是临时作秀而是提前布置。",
+        "reframe": "集中调度确实能救下局部市场，但效率与可纠错性是两个不同问题。"
+      },
+      "continuity_refs": [
+        "S1-E07",
+        "EVT-Y0-002",
+        "REL-S2C-07-01"
+      ],
+      "pov_ids": [
+        "CHR-L1-01",
+        "CHR-L3-01",
+        "CHR-L1-02",
+        "CHR-L2-04"
+      ],
       "activity_ids": [
         "EVT-022"
       ],
@@ -663,24 +733,99 @@
       "episode_id": "S1-E08",
       "arc_id": "ARC-02",
       "title": "西湖失画",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "失窃旧水图要打开哪条路，偷图者真正需要的是水道还是路线决定权？",
+      "opening_state": "西湖画铺一幅描绘旧水系的春游图被盗；周砚之发现缺失部分恰好覆盖地下水道。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-005"
+        ],
+        "observation_ids": [
+          "OBS-W-003",
+          "OBS-W-004"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-007",
+          "LOC-008",
+          "LOC-013",
+          "LOC-014"
+        ],
+        "description": "失画局部与旧水道、仓区通道重合，画框纤维和买画席位把空间证据接到传播链。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-002",
+          "REL-003",
+          "REL-011"
+        ],
+        "character_ids": [
+          "CHR-L1-03",
+          "CHR-L1-02",
+          "CHR-A2-07",
+          "CHR-A2-08"
+        ],
+        "choice": "周砚之接受柳十四以席位、曲目和谈话作软证据；柳同意让周的图保留不确定线。",
+        "delta": "互相欣赏上升，彼此解释权仍有摩擦；周第一次允许作品被改，柳第一次主动给出未公开观察。",
+        "evidence_ids": [
+          "REL-S2C-08-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L1-03",
+        "action": "将旧图、新图和现场泥线叠图，按比例标出能走与不能走的出口。",
+        "capability_ref": "characters/central/chr-l1-03-zhou-yanzhi.md"
+      },
+      "clue_seed": {
+        "kind": "空间异常",
+        "description": "被撕走的不是风景，而是能把水道接到仓区的一段比例关系。",
+        "source_ids": [
+          "EVT-Y0-005",
+          "OBS-W-003",
+          "OBS-W-004"
+        ]
+      },
+      "misread": "偷图只是普通盗窃，柳的席位观察不算证据。",
+      "recheck": "方书娘复核纸纤维，柳把买画人的席位与后台曲目交叉，证明目标是路线而非一幅画的售价。",
+      "reframe": "偷图者争夺的是谁能决定货、人和水的出口，水路谜题因此进入权力层。",
+      "irreversible_cost": "周砚之放弃一次独署机会；柳十四被迫面对‘被看见’与‘被拥有’的边界。",
+      "episode_choice": {
+        "actor": "CHR-L1-03",
+        "action": "把未完成图交给复核者，并在后台清账时不再擅自画柳。",
+        "cost": "他失去一次把亲近藏在作品里的便利，关系改为先询问再记录。",
+        "state_change": "空间证据与关系边界同时进入可追踪状态。"
+      },
+      "tail_hook": {
+        "type": "关系翻转",
+        "text": "失画局部证明地下水道可以连接城外仓，下一张被争夺的将不是画。"
+      },
+      "next_chase": "追查谁接触过旧图、宴席曲单与仓区通道，确认路线是否参与粮货转移。",
+      "causal_chain": {
+        "seed": "图上的空白第一次像一道被人为留下的门。",
+        "misread": "偷图只是普通盗窃，柳的席位观察不算证据。",
+        "recheck": "方书娘复核纸纤维，柳把买画人的席位与后台曲目交叉，证明目标是路线而非一幅画的售价。",
+        "reframe": "偷图者争夺的是谁能决定货、人和水的出口，水路谜题因此进入权力层。"
+      },
+      "continuity_refs": [
+        "S1-E08",
+        "EVT-Y0-005",
+        "OBS-W-003",
+        "OBS-W-004",
+        "REL-S2C-08-01"
+      ],
+      "pov_ids": [
+        "CHR-L1-03",
+        "CHR-L1-02",
+        "CHR-A2-08",
+        "CHR-A2-07"
+      ],
       "activity_ids": [
         "EVT-005"
       ],
@@ -692,24 +837,99 @@
       "episode_id": "S1-E09",
       "arc_id": "ARC-02",
       "title": "白芷先缺",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "白芷短缺是囤积、疫讯，还是不透明的自保？",
+      "opening_state": "小济堂白芷突然难买，几家贵宅却提前囤药；余青禾开始记录买药时刻、症状和住处。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-001",
+          "EVT-Y0-007"
+        ],
+        "observation_ids": [
+          "OBS-W-007"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-003",
+          "LOC-016",
+          "LOC-018",
+          "LOC-017"
+        ],
+        "description": "药材先在小济堂断货，贵宅女使的采购时刻与城南咳症、饭量下降出现可比对的时地关系。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-010",
+          "REL-008",
+          "REL-G01"
+        ],
+        "character_ids": [
+          "CHR-L2-03",
+          "CHR-L2-02",
+          "CHR-A1-03",
+          "CHR-B-046"
+        ],
+        "choice": "余青禾把林阿沅的饭量记录抄入病例簿并标作生活观察；林阿沅得到被认真听见的资格。",
+        "delta": "师徒信任短暂下降但方法尊重上升；阿沅与青禾的依赖转为共同核验。",
+        "evidence_ids": [
+          "REL-S2C-09-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L2-03",
+        "action": "把买药时间、症状、居住地和饭量变化分栏，不把相关性写成诊断。",
+        "capability_ref": "characters/central/chr-l2-03-yu-qinghe.md"
+      },
+      "clue_seed": {
+        "kind": "供应与病例",
+        "description": "同一味白芷在药柜、贵宅采购单和城南生活记录上呈现不同时间顺序。",
+        "source_ids": [
+          "EVT-Y0-001",
+          "EVT-Y0-007",
+          "OBS-W-007"
+        ]
+      },
+      "misread": "贵宅囤药一定是恶意囤积；阿沅的生活记录只是闲话。",
+      "recheck": "俞晚晴匿名交来贵宅采购单，余仲仁复核样本量，证明部分囤药是合理自保但信息不透明会挤压普通人。",
+      "reframe": "危险不在所有囤药者都是恶人，而在缺乏公开来源让自保变成互相抢夺。",
+      "irreversible_cost": "余青禾失去把病例写成单一专业权威的便利，林阿沅第一次承担记录者责任。",
+      "episode_choice": {
+        "actor": "CHR-L2-03",
+        "action": "将阿沅数据标为‘生活观察’，并公开样本边界。",
+        "cost": "她放弃立刻证明自己正确，荐书与名声仍未获得。",
+        "state_change": "生活基线进入春信的可核验信道。"
+      },
+      "tail_hook": {
+        "type": "身份",
+        "text": "一名贵宅女使匿名送来囤药疑报，要求只记录病情不要记录她的姓名。"
+      },
+      "next_chase": "沿着匿名采购时刻核对城南症状，保护送信者身份同时找出药路缺口。",
+      "causal_chain": {
+        "seed": "白芷先缺的不是答案，而是被谁先看见的顺序。",
+        "misread": "贵宅囤药一定是恶意囤积；阿沅的生活记录只是闲话。",
+        "recheck": "俞晚晴匿名交来贵宅采购单，余仲仁复核样本量，证明部分囤药是合理自保但信息不透明会挤压普通人。",
+        "reframe": "危险不在所有囤药者都是恶人，而在缺乏公开来源让自保变成互相抢夺。"
+      },
+      "continuity_refs": [
+        "S1-E09",
+        "EVT-Y0-001",
+        "EVT-Y0-007",
+        "OBS-W-007",
+        "REL-S2C-09-01"
+      ],
+      "pov_ids": [
+        "CHR-L2-03",
+        "CHR-L2-02",
+        "CHR-A1-03",
+        "CHR-B-046"
+      ],
       "activity_ids": [
         "EVT-016"
       ],
@@ -721,24 +941,96 @@
       "episode_id": "S1-E10",
       "arc_id": "ARC-02",
       "title": "半卷旧案",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "顾行舟为何只给半卷旧案，保护谁又夺走了谁的选择？",
+      "opening_state": "顾行舟交出上元旧案半卷，纸上明确写着沈怀川曾支持早报；页码却在军伍段前断开。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-008"
+        ],
+        "observation_ids": [
+          "OBS-W-009"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-009",
+          "LOC-013",
+          "LOC-015",
+          "LOC-008"
+        ],
+        "description": "半卷档案能证明早报主张，却把截信、水路和幸存者从正式因果中切掉。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-001",
+          "REL-006",
+          "REL-013"
+        ],
+        "character_ids": [
+          "CHR-L1-05",
+          "CHR-L1-01",
+          "CHR-A1-08",
+          "CHR-A2-03"
+        ],
+        "choice": "沈蘅不接受‘现在知道这些就够了’，要求顾行舟说明缺页与知情边界。",
+        "delta": "爱意与敬意仍在，信任下降、共同秘密转成单方面隐瞒。",
+        "evidence_ids": [
+          "REL-S2C-10-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L1-05",
+        "action": "按纸张纤维、页码孔和旧印记确认缺页不是自然散失，再把能公开与不能公开的事实分层。",
+        "capability_ref": "characters/central/chr-l1-05-gu-xingzhou.md"
+      },
+      "clue_seed": {
+        "kind": "历史异常",
+        "description": "半卷页码和旧印记显示另一半曾被人为移出，而不是单纯遗失。",
+        "source_ids": [
+          "EVT-Y0-008",
+          "OBS-W-009"
+        ]
+      },
+      "misread": "只要父亲早报就能证明他始终正确；顾的隐瞒只是体贴。",
+      "recheck": "沈蘅比对沈怀川旧稿，发现早报判断与未证推断并存；顾承认另一半涉及仍活着的幸存者。",
+      "reframe": "顾的保护是真实保护，同时也在替沈蘅决定她能承担多少。",
+      "irreversible_cost": "沈蘅与顾行舟第一次因知情权正面冲突，爱情不再只靠照顾推进。",
+      "episode_choice": {
+        "actor": "CHR-L1-01",
+        "action": "不追问幸存者姓名，但要求顾把‘存在另一半’写入公共记录。",
+        "cost": "她不以公开全部换取道德胜利，也不接受被动保密。",
+        "state_change": "关系从被照顾转向协商边界。"
+      },
+      "tail_hook": {
+        "type": "物件",
+        "text": "残页边缘提到一封从未进入正式档案的水信。"
+      },
+      "next_chase": "沿水信日期追查旧船帮、截信签押与失画水道的关系。",
+      "causal_chain": {
+        "seed": "半卷不是答案，而是一道被保护过的缺口。",
+        "misread": "只要父亲早报就能证明他始终正确；顾的隐瞒只是体贴。",
+        "recheck": "沈蘅比对沈怀川旧稿，发现早报判断与未证推断并存；顾承认另一半涉及仍活着的幸存者。",
+        "reframe": "顾的保护是真实保护，同时也在替沈蘅决定她能承担多少。"
+      },
+      "continuity_refs": [
+        "S1-E10",
+        "EVT-Y0-008",
+        "OBS-W-009",
+        "REL-S2C-10-01"
+      ],
+      "pov_ids": [
+        "CHR-L1-01",
+        "CHR-L1-05",
+        "CHR-A1-02",
+        "CHR-L1-04"
+      ],
       "activity_ids": [
         "EVT-019"
       ],
@@ -750,24 +1042,99 @@
       "episode_id": "S1-E11",
       "arc_id": "ARC-02",
       "title": "一城之脑",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "一城之脑能否避免恐慌，谁能纠正最终判断者？",
+      "opening_state": "码头传闻引发抢泊位；宋惟敬统一船期、价格和仓储摘要，当天秩序恢复。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-002",
+          "EVT-Y0-008"
+        ],
+        "observation_ids": [
+          "OBS-W-009"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-010",
+          "LOC-013",
+          "LOC-014",
+          "LOC-015"
+        ],
+        "description": "统一摘要确实让船期恢复，但章允中发现不同部门看到的数字并不相同。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-012",
+          "REL-014",
+          "REL-015"
+        ],
+        "character_ids": [
+          "CHR-L3-01",
+          "CHR-L2-04",
+          "CHR-A1-06",
+          "CHR-A1-08"
+        ],
+        "choice": "沈蘅承认统一调度有效，却把‘最终判断错了谁能让它改’写进询问。",
+        "delta": "高问对宋的敬意上升而程序信任出现裂缝；章允中从服从转向留存原件。",
+        "evidence_ids": [
+          "REL-S2C-11-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L2-04",
+        "action": "按城门、码头和仓署时刻复核同一命令的不同摘要，记录差异而不先归罪。",
+        "capability_ref": "characters/central/chr-l2-04-gao-wen.md"
+      },
+      "clue_seed": {
+        "kind": "制度异常",
+        "description": "同一调度令在三个部门出现不同的省略，省略改变了谁能行动。",
+        "source_ids": [
+          "EVT-Y0-002",
+          "EVT-Y0-008",
+          "OBS-W-009"
+        ]
+      },
+      "misread": "摘要只是技术压缩，不会改变判断；有一个最终负责人就足够。",
+      "recheck": "章允中保留原始摘要，沈蘅把同一命令的差异与价格恢复并置。",
+      "reframe": "集中判断的价值成立，但信息完整与责任可追踪必须同时成立。",
+      "irreversible_cost": "宋惟敬获得制度信任，也开始承担‘知道截断仍继续’的前置责任。",
+      "episode_choice": {
+        "actor": "CHR-L1-01",
+        "action": "不否定一城之脑，只要求每次摘要同时保留来源、版本与更正入口。",
+        "cost": "她承认民间横向消息会慢，却不放弃可纠错条件。",
+        "state_change": "效率与纠错成为同一制度的两条硬约束。"
+      },
+      "tail_hook": {
+        "type": "制度反应",
+        "text": "章允中发现宋给不同部门看的摘要并不完全相同。"
+      },
+      "next_chase": "查清差异由谁删去、谁授权、谁能在现场看到完整版本。",
+      "causal_chain": {
+        "seed": "有人愿意负责，但责任链可能只留下一个名字。",
+        "misread": "摘要只是技术压缩，不会改变判断；有一个最终负责人就足够。",
+        "recheck": "章允中保留原始摘要，沈蘅把同一命令的差异与价格恢复并置。",
+        "reframe": "集中判断的价值成立，但信息完整与责任可追踪必须同时成立。"
+      },
+      "continuity_refs": [
+        "S1-E11",
+        "EVT-Y0-002",
+        "EVT-Y0-008",
+        "OBS-W-009",
+        "REL-S2C-11-01"
+      ],
+      "pov_ids": [
+        "CHR-L1-01",
+        "CHR-L3-01",
+        "CHR-L2-04",
+        "CHR-A1-06"
+      ],
       "activity_ids": [
         "EVT-004"
       ],
@@ -779,24 +1146,103 @@
       "episode_id": "S1-E12",
       "arc_id": "ARC-02",
       "title": "雨夜旧信",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "十三年前的水信究竟由谁截下，真相是否必须以幸存者为代价？",
+      "opening_state": "裴九娘从旧船帮和幸存者处找到关键水信；原信能洗清她，却带着仍活着者的身份与秘密路线。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-005",
+          "EVT-Y0-008"
+        ],
+        "observation_ids": [
+          "OBS-W-004",
+          "OBS-W-009"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-011",
+          "LOC-012",
+          "LOC-013",
+          "LOC-017"
+        ],
+        "description": "原信、旧船帮口述和城务司前身签押互相指向截信事实，但公开原件会暴露幸存者。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-004",
+          "REL-001",
+          "REL-012",
+          "REL-014"
+        ],
+        "character_ids": [
+          "CHR-L1-04",
+          "CHR-L1-05",
+          "CHR-L1-01",
+          "CHR-A2-06"
+        ],
+        "choice": "裴九娘暂存原信，只公开截信事实已被两条路径确认；沈蘅接受受保护来源。",
+        "delta": "裴与顾的旧同袍信任恢复一点但旧怨仍在；沈与裴建立先保护来源再发布事实的共同规则。",
+        "evidence_ids": [
+          "REL-S2C-12-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L1-04",
+        "action": "用船期、封签和幸存者口述互证水信，不把私人身份写进公开摘要。",
+        "capability_ref": "characters/central/chr-l1-04-pei-jiuniang.md"
+      },
+      "clue_seed": {
+        "kind": "责任翻转",
+        "description": "旧信的封泥和签押说明关键水信被截下，裴当年并非单独失信。",
+        "source_ids": [
+          "EVT-Y0-005",
+          "EVT-Y0-008",
+          "OBS-W-004",
+          "OBS-W-009"
+        ]
+      },
+      "misread": "只要公开原信就能立刻洗清裴九娘；幸存者身份是可以交换的证据。",
+      "recheck": "顾行舟确认保护路线仍有人使用，沈蘅将‘截信事实’与‘原信内容’分开记录。",
+      "reframe": "截信事实进入制度史，但裴仍承担不能马上洗清自己的代价。",
+      "irreversible_cost": "裴放弃最快洗名，旧船帮仍有人骂她；城务司前身被写进当代调查。",
+      "episode_choice": {
+        "actor": "CHR-L1-04",
+        "action": "只公开可复核的截信事实，继续替幸存者保密。",
+        "cost": "她把个人清白放在受保护者安全之后，暂时失去舆论胜利。",
+        "state_change": "第二篇以‘集中有效但不可垄断’的制度问题收束。"
+      },
+      "tail_hook": {
+        "type": "身份",
+        "text": "截信记录上的旧官署签押，与城务司前身有关。"
+      },
+      "next_chase": "追查旧签押如何流入今日的摘要制度，并验证谁仍能截断水信。",
+      "causal_chain": {
+        "seed": "雨声盖住了旧信的声音，但封泥没有消失。",
+        "misread": "只要公开原信就能立刻洗清裴九娘；幸存者身份是可以交换的证据。",
+        "recheck": "顾行舟确认保护路线仍有人使用，沈蘅将‘截信事实’与‘原信内容’分开记录。",
+        "reframe": "截信事实进入制度史，但裴仍承担不能马上洗清自己的代价。"
+      },
+      "continuity_refs": [
+        "S1-E12",
+        "EVT-Y0-005",
+        "EVT-Y0-008",
+        "OBS-W-004",
+        "OBS-W-009",
+        "REL-S2C-12-01"
+      ],
+      "pov_ids": [
+        "CHR-L1-04",
+        "CHR-L1-05",
+        "CHR-L1-01",
+        "CHR-A2-06"
+      ],
       "activity_ids": [
         "EVT-020"
       ],
@@ -808,24 +1254,99 @@
       "episode_id": "S1-E13",
       "arc_id": "ARC-03",
       "title": "钱塘错潮",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "水色、潮序与官报谁更可信，劳动经验能否进入公共核验？",
+      "opening_state": "夏至前官报称航道正常；鱼贩贺九与渡工徐三水却说水色、鱼种和潮序都不对。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-005",
+          "EVT-Y0-007"
+        ],
+        "observation_ids": [
+          "OBS-W-008"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-010",
+          "LOC-012",
+          "LOC-015",
+          "LOC-018"
+        ],
+        "description": "鱼种、潮时、渡船耗时与官报出现可测差异，且异常沿城南水网扩散。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-G01",
+          "REL-003",
+          "REL-011"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L1-03",
+          "CHR-A2-04",
+          "CHR-B-021"
+        ],
+        "choice": "沈蘅把无文字职业经验列为疑报，周砚之接受先画经验再等文字。",
+        "delta": "沈与基层职业者的敬意上升，周对图纸独占下降但责任感增加。",
+        "evidence_ids": [
+          "REL-S2C-13-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L1-01",
+        "action": "把水色、鱼种、潮序、渡船耗时按时地并置，并标明观察者而非替其下结论。",
+        "capability_ref": "characters/central/chr-l1-01-shen-heng.md"
+      },
+      "clue_seed": {
+        "kind": "职业信道",
+        "description": "同一潮时鱼种提前、渡船耗时延长，官报却沿用旧航道平均值。",
+        "source_ids": [
+          "EVT-Y0-005",
+          "EVT-Y0-007",
+          "OBS-W-008"
+        ]
+      },
+      "misread": "劳动者只是凭经验抱怨；官报只要盖章就代表真实。",
+      "recheck": "周砚之将水位与耗时叠图，贺九补充鱼种变化，证明自然异常与工程改动可能同时存在。",
+      "reframe": "没有文字不等于没有证据；职业身体经验成为可复核信道。",
+      "irreversible_cost": "沈承担被官署质疑的风险，春信来源范围扩大。",
+      "episode_choice": {
+        "actor": "CHR-L1-01",
+        "action": "在疑报中保留观察者姓名与不确定性，不把经验改写成命令。",
+        "cost": "她放弃替普通人发言的便利，转而让他们自己留下证词。",
+        "state_change": "非文字信道进入合报准备阶段。"
+      },
+      "tail_hook": {
+        "type": "事实翻转",
+        "text": "错潮与城南排水异常连在一起。"
+      },
+      "next_chase": "沿潮序异常寻找被堵支渠与工程工单，确认自然风险是否被人为放大。",
+      "causal_chain": {
+        "seed": "水先告诉人方向，官报还没有追上它。",
+        "misread": "劳动者只是凭经验抱怨；官报只要盖章就代表真实。",
+        "recheck": "周砚之将水位与耗时叠图，贺九补充鱼种变化，证明自然异常与工程改动可能同时存在。",
+        "reframe": "没有文字不等于没有证据；职业身体经验成为可复核信道。"
+      },
+      "continuity_refs": [
+        "S1-E13",
+        "EVT-Y0-005",
+        "EVT-Y0-007",
+        "OBS-W-008",
+        "REL-S2C-13-01"
+      ],
+      "pov_ids": [
+        "CHR-L1-01",
+        "CHR-L1-03",
+        "CHR-A2-04",
+        "CHR-B-021"
+      ],
       "activity_ids": [
         "EVT-007"
       ],
@@ -837,24 +1358,99 @@
       "episode_id": "S1-E14",
       "arc_id": "ARC-03",
       "title": "三仓无账",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "三仓少掉的粮是账错、私盗，还是被授权调运？",
+      "opening_state": "裴九娘和石六发现到货数字与船腹、搬运人数不符；黎令仪先替黎见山寻找合理解释。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-002",
+          "EVT-Y0-003"
+        ],
+        "observation_ids": [
+          "OBS-W-008"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-010",
+          "LOC-011",
+          "LOC-013",
+          "LOC-014"
+        ],
+        "description": "仓账、船腹吃水和搬运身体记忆形成三种重量，空白页落在有正式签押的调仓段。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-009",
+          "REL-004",
+          "REL-012"
+        ],
+        "character_ids": [
+          "CHR-A1-07",
+          "CHR-L3-02",
+          "CHR-L1-04",
+          "CHR-A2-05"
+        ],
+        "choice": "黎令仪复制一页内部账但先不交沈蘅；裴九娘把船重证据留给她自行判断。",
+        "delta": "养父女的亲近仍在，信任开始分叉；裴与黎令仪从交易协作转成共同承担秘密。",
+        "evidence_ids": [
+          "REL-S2C-14-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-A1-07",
+        "action": "按仓号、船期、搬运人数复抄一页账，保留原笔迹与缺口位置。",
+        "capability_ref": "characters/important/chr-a1-07-li-lingyi.md"
+      },
+      "clue_seed": {
+        "kind": "账目异常",
+        "description": "第三仓空白并非漏写，而是正好落在一批已签押调运之后。",
+        "source_ids": [
+          "EVT-Y0-002",
+          "EVT-Y0-003",
+          "OBS-W-008"
+        ]
+      },
+      "misread": "黎见山的集中储备只是救灾必要成本；账空白属于文书误差。",
+      "recheck": "石六用肩力和节奏复核重量，许九章原件显示货入过仓却没有对应出仓记录。",
+      "reframe": "部分调仓合法，真正问题是有人利用授权缝隙制造可解释的空白。",
+      "irreversible_cost": "黎令仪第一次在爱仍完整时背叛养父，失去童年叙事的安全感。",
+      "episode_choice": {
+        "actor": "CHR-A1-07",
+        "action": "只复制不应复制的一页，先把证据藏在自己的账夹而不公开。",
+        "cost": "她承担被发现即失去家与身份的风险。",
+        "state_change": "供应危机从自然短缺推进到授权责任。"
+      },
+      "tail_hook": {
+        "type": "责任翻转",
+        "text": "第三仓账目出现一个始终无法对上的空白。"
+      },
+      "next_chase": "查空白对应的调仓签押与船腹记录，确认谁有权限把数字变成现实。",
+      "causal_chain": {
+        "seed": "空白不是没有记录，而是记录故意停在最有用的位置。",
+        "misread": "黎见山的集中储备只是救灾必要成本；账空白属于文书误差。",
+        "recheck": "石六用肩力和节奏复核重量，许九章原件显示货入过仓却没有对应出仓记录。",
+        "reframe": "部分调仓合法，真正问题是有人利用授权缝隙制造可解释的空白。"
+      },
+      "continuity_refs": [
+        "S1-E14",
+        "EVT-Y0-002",
+        "EVT-Y0-003",
+        "OBS-W-008",
+        "REL-S2C-14-01"
+      ],
+      "pov_ids": [
+        "CHR-A1-07",
+        "CHR-L3-02",
+        "CHR-L1-04",
+        "CHR-A2-05"
+      ],
       "activity_ids": [
         "EVT-020"
       ],
@@ -866,24 +1462,98 @@
       "episode_id": "S1-E15",
       "arc_id": "ARC-03",
       "title": "苦井",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "苦井是否意味着中毒，如何在纠错时不制造新的恐慌？",
+      "opening_state": "城南几户说井水发苦；阿沅记起脚夫饭量下降、几户不再来买馄饨，青禾病例出现同一区域症状。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-007"
+        ],
+        "observation_ids": [
+          "OBS-W-006",
+          "OBS-W-007"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-016",
+          "LOC-018",
+          "LOC-015"
+        ],
+        "description": "井水异味、饭量下降与病例在时地上重叠，但水样与病因仍未完成反向核验。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-008",
+          "REL-010",
+          "REL-G01"
+        ],
+        "character_ids": [
+          "CHR-L2-02",
+          "CHR-L2-03",
+          "CHR-A1-03",
+          "CHR-L1-01"
+        ],
+        "choice": "阿沅沿原路线逐户更正‘井水有毒’；青禾公开承认没有证据说中毒。",
+        "delta": "阿沅的羞耻上升但公信力开始建立；青禾与余仲仁的师徒冲突转成共同纠错。",
+        "evidence_ids": [
+          "REL-S2C-15-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L2-02",
+        "action": "带着原记录逐户说明‘我说得太快’，把饭量、井味和症状交给青禾重新标时地。",
+        "capability_ref": "characters/central/chr-l2-02-lin-ayuan.md"
+      },
+      "clue_seed": {
+        "kind": "纠错",
+        "description": "第一条‘井水有毒’被居民按恐慌传播，原纸上没有来源和时刻。",
+        "source_ids": [
+          "EVT-Y0-007",
+          "OBS-W-006",
+          "OBS-W-007"
+        ]
+      },
+      "misread": "相关性就是中毒；只要先喊出来才能救人。",
+      "recheck": "余仲仁检查水样，沈蘅把生活基线与病例叠图，发现工程污染和自然口味变化都仍可能成立。",
+      "reframe": "公开纠错本身成为信道，合报可以包含不确定性而不把它变成沉默。",
+      "irreversible_cost": "阿沅为嘴快逐户道歉，青禾为未证病例公开承担专业声誉损失。",
+      "episode_choice": {
+        "actor": "CHR-L2-02",
+        "action": "主动沿原路线逐户更正，并留下可回访的时间地点。",
+        "cost": "她放弃‘我第一时间看懂了’的自尊，获得可纠正的信任。",
+        "state_change": "生活基线与病例时地第一次形成合报。"
+      },
+      "tail_hook": {
+        "type": "关系裂口",
+        "text": "最后一户人家把原来的错误纸条交回，并说：‘那现在该听谁的？’"
+      },
+      "next_chase": "建立带来源等级的井水与病例记录，并找出被堵支渠是否改变了水质。",
+      "causal_chain": {
+        "seed": "更正不是撤回，而是把错误也留在记录里。",
+        "misread": "相关性就是中毒；只要先喊出来才能救人。",
+        "recheck": "余仲仁检查水样，沈蘅把生活基线与病例叠图，发现工程污染和自然口味变化都仍可能成立。",
+        "reframe": "公开纠错本身成为信道，合报可以包含不确定性而不把它变成沉默。"
+      },
+      "continuity_refs": [
+        "S1-E15",
+        "EVT-Y0-007",
+        "OBS-W-006",
+        "OBS-W-007",
+        "REL-S2C-15-01"
+      ],
+      "pov_ids": [
+        "CHR-L2-02",
+        "CHR-L2-03",
+        "CHR-A1-03",
+        "CHR-L1-01"
+      ],
       "activity_ids": [
         "EVT-024"
       ],
@@ -895,24 +1565,99 @@
       "episode_id": "S1-E16",
       "arc_id": "ARC-03",
       "title": "青鹞沉信",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "账匣和落水者只能救一个吗，证据是否必须完好才有价值？",
+      "opening_state": "裴九娘带疑似运输副账过水道，被追堵时乘客落水，账匣同时沉入水中。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-006",
+          "EVT-Y0-007"
+        ],
+        "observation_ids": [
+          "OBS-W-008"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-011",
+          "LOC-012",
+          "LOC-010",
+          "LOC-015"
+        ],
+        "description": "账匣封签、落水位置和追堵路线留下碎片证据；救人让原始账册消失但留下封签记忆。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-004",
+          "REL-001",
+          "REL-G01"
+        ],
+        "character_ids": [
+          "CHR-L1-04",
+          "CHR-B-019",
+          "CHR-L1-05",
+          "CHR-A2-06"
+        ],
+        "choice": "裴九娘先救乘客；顾行舟不替她解释，只陪她修破船绳。",
+        "delta": "裴与顾的依赖下降而敬意上升；阿七从崇拜英雄转向学习承担后果。",
+        "evidence_ids": [
+          "REL-S2C-16-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L1-04",
+        "action": "按潮向和落水者位置选择救人路线，回岸后用封签、船伤和目击者重建账匣存在。",
+        "capability_ref": "characters/central/chr-l1-04-pei-jiuniang.md"
+      },
+      "clue_seed": {
+        "kind": "选择代价",
+        "description": "账匣沉没、青鹞受损，原始证据不再可直接读取。",
+        "source_ids": [
+          "EVT-Y0-006",
+          "EVT-Y0-007",
+          "OBS-W-008"
+        ]
+      },
+      "misread": "只要账匣能证明一切就该先抢账；救人等于调查失败。",
+      "recheck": "被救乘客记得封签上有汇川行内仓号，罗见潮确认船伤来自追堵而非操船失误。",
+      "reframe": "证据会改变形态，人的选择不能被‘证据完整’绑架。",
+      "irreversible_cost": "裴失去一条直接证据链和青鹞修船钱，却保住一个人的命。",
+      "episode_choice": {
+        "actor": "CHR-L1-04",
+        "action": "先救人，承认账匣与青鹞同时失去；把封签记忆写入记录而不假装账还在。",
+        "cost": "她放弃最快破案，却建立可被别人复核的间接证据。",
+        "state_change": "证据链中断但没有归零，下一集追封签与内仓号。"
+      },
+      "tail_hook": {
+        "type": "物件",
+        "text": "被救乘客记得账匣封签上有汇川行内仓号。"
+      },
+      "next_chase": "沿内仓号查运输副账和第三仓空白，寻找替代原件的交叉证据。",
+      "causal_chain": {
+        "seed": "沉下去的东西不等于不存在，只是换了见证人。",
+        "misread": "只要账匣能证明一切就该先抢账；救人等于调查失败。",
+        "recheck": "被救乘客记得封签上有汇川行内仓号，罗见潮确认船伤来自追堵而非操船失误。",
+        "reframe": "证据会改变形态，人的选择不能被‘证据完整’绑架。"
+      },
+      "continuity_refs": [
+        "S1-E16",
+        "EVT-Y0-006",
+        "EVT-Y0-007",
+        "OBS-W-008",
+        "REL-S2C-16-01"
+      ],
+      "pov_ids": [
+        "CHR-L1-04",
+        "CHR-B-019",
+        "CHR-L1-05",
+        "CHR-A2-06"
+      ],
       "activity_ids": [
         "EVT-020"
       ],
@@ -924,24 +1669,95 @@
       "episode_id": "S1-E17",
       "arc_id": "ARC-03",
       "title": "空船满仓",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "满船粮为何只剩空船，货是没入仓还是被有权限的人移走？",
+      "opening_state": "石六凭肩力和搬运节奏判断满船粮并不满；许九章文书却写已足额入仓。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-002",
+          "EVT-Y0-003"
+        ],
+        "observation_ids": [],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-010",
+          "LOC-014",
+          "LOC-013",
+          "LOC-015"
+        ],
+        "description": "民间身体记忆与官署原件互证：货曾入仓，但出仓路径被权限和摘要遮蔽。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-009",
+          "REL-012",
+          "REL-015"
+        ],
+        "character_ids": [
+          "CHR-A2-05",
+          "CHR-B-031",
+          "CHR-A1-07",
+          "CHR-L2-04"
+        ],
+        "choice": "石六先说出重量矛盾；许九章保留原始文书而不替上级改写。",
+        "delta": "石六的工作安全下降但自我敬意上升；许九章对官署归属感裂开，黎令仪获得关键互证。",
+        "evidence_ids": [
+          "REL-S2C-17-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-B-031",
+        "action": "保留原始入仓文书、墨色和签押时间，让石六的肩力成为可比对的第二证据。",
+        "capability_ref": "characters/recurring/chr-b-031-xu-jiuzhang.md"
+      },
+      "clue_seed": {
+        "kind": "制度性挪移",
+        "description": "满船与空船的差异无法由称量误差解释，且出仓摘要缺一页。",
+        "source_ids": [
+          "EVT-Y0-002",
+          "EVT-Y0-003"
+        ]
+      },
+      "misread": "账写错了；石六只是在为自己保工作。",
+      "recheck": "黎令仪把复制账与许九章原件对照，证明货真实入仓后由有权限者挪移。",
+      "reframe": "责任从‘账错’升级为制度性挪移，合法权限也能制造事实缺口。",
+      "irreversible_cost": "石六冒失职风险，许九章冒丢吏籍风险，黎令仪确认养父正在制造数字。",
+      "episode_choice": {
+        "actor": "CHR-A2-05",
+        "action": "先公开身体证据，再让许九章保留原件，拒绝把任何一方证据单独变成结论。",
+        "cost": "两人放弃立即自保，获得互相见证的资格。",
+        "state_change": "民间身体证据与官署原件首次互证。"
+      },
+      "tail_hook": {
+        "type": "责任",
+        "text": "黎令仪看着两份记录，确认养父不是‘账错’，而是在制造数字。"
+      },
+      "next_chase": "把第三仓空白、内仓封签和调运授权放在同一条责任链上。",
+      "causal_chain": {
+        "seed": "真正危险的不是没有数字，而是数字太完整。",
+        "misread": "账写错了；石六只是在为自己保工作。",
+        "recheck": "黎令仪把复制账与许九章原件对照，证明货真实入仓后由有权限者挪移。",
+        "reframe": "责任从‘账错’升级为制度性挪移，合法权限也能制造事实缺口。"
+      },
+      "continuity_refs": [
+        "S1-E17",
+        "EVT-Y0-002",
+        "EVT-Y0-003",
+        "REL-S2C-17-01"
+      ],
+      "pov_ids": [
+        "CHR-A2-05",
+        "CHR-B-031",
+        "CHR-A1-07",
+        "CHR-L2-04"
+      ],
       "activity_ids": [
         "EVT-018"
       ],
@@ -953,24 +1769,122 @@
       "episode_id": "S1-E18",
       "arc_id": "ARC-03",
       "title": "合报",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "证据是否足够写‘无春’，谁有权把系统性风险升级为行动？",
+      "opening_state": "沈蘅将粮价、白芷、水污、船货、外部战事与地图变化并置，条件逼近‘无春’。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-001",
+          "EVT-Y0-002",
+          "EVT-Y0-005",
+          "EVT-Y0-006",
+          "EVT-Y0-007"
+        ],
+        "observation_ids": [
+          "OBS-W-003",
+          "OBS-W-006",
+          "OBS-W-008",
+          "OBS-W-009"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-003",
+          "LOC-010",
+          "LOC-013",
+          "LOC-014",
+          "LOC-016",
+          "LOC-018"
+        ],
+        "description": "五信与生活、病例、仓储证据出现交叉，但横向阻断与反例仍不足。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-G01",
+          "REL-001",
+          "REL-003",
+          "REL-004"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L1-02",
+          "CHR-L1-04",
+          "CHR-L1-05",
+          "CHR-L3-01"
+        ],
+        "choice": "沈坚持写‘合报’而非‘无春’，允许五人第一次不站在同一边。",
+        "delta": "共同秘密上升但信任、依赖和行动速度分裂；宋惟敬得到独立合报并选择加速控制。",
+        "evidence_ids": [
+          "REL-S2C-18-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L1-01",
+        "action": "把异质证据分栏，标出共同风险与未证因果，给每条信道保留纠正入口。",
+        "capability_ref": "characters/central/chr-l1-01-shen-heng.md"
+      },
+      "clue_seed": {
+        "kind": "合报门槛",
+        "description": "同一时地的粮、药、水、船和人群变化足够密集，却仍不能证明单一因果。",
+        "source_ids": [
+          "EVT-Y0-001",
+          "EVT-Y0-002",
+          "EVT-Y0-005",
+          "EVT-Y0-006",
+          "EVT-Y0-007",
+          "OBS-W-003",
+          "OBS-W-006",
+          "OBS-W-008",
+          "OBS-W-009"
+        ]
+      },
+      "misread": "数量叠加就等于无春；继续等待就是纵容恐慌。",
+      "recheck": "裴指出没有横向阻断证据，柳指出人群已经开始恐慌，顾把调查者安全列为新约束。",
+      "reframe": "合报确认系统性风险而非最终解释；升级权必须可追踪、可更正。",
+      "irreversible_cost": "沈失去快速命名的权威，团队失去一致感，宋获得以独立合报推动集中控制的机会。",
+      "episode_choice": {
+        "actor": "CHR-L1-01",
+        "action": "正式写‘合报’，不写‘无春’，并把谁能纠正这份记录写在末栏。",
+        "cost": "她接受被认为迟疑，把解释权交给未来复核者。",
+        "state_change": "供应危机完成阶段闭环，制度与民间进入正面冲突。"
+      },
+      "tail_hook": {
+        "type": "制度反应",
+        "text": "宋惟敬私下收到同类合报，决定加速集中控制。"
+      },
+      "next_chase": "跟踪宋如何利用合报配置储备，并检查民间信道是否被截断。",
+      "causal_chain": {
+        "seed": "合报不是终点，而是权力开始争夺解释权的时刻。",
+        "misread": "数量叠加就等于无春；继续等待就是纵容恐慌。",
+        "recheck": "裴指出没有横向阻断证据，柳指出人群已经开始恐慌，顾把调查者安全列为新约束。",
+        "reframe": "合报确认系统性风险而非最终解释；升级权必须可追踪、可更正。"
+      },
+      "continuity_refs": [
+        "S1-E18",
+        "EVT-Y0-001",
+        "EVT-Y0-002",
+        "EVT-Y0-005",
+        "EVT-Y0-006",
+        "EVT-Y0-007",
+        "OBS-W-003",
+        "OBS-W-006",
+        "OBS-W-008",
+        "OBS-W-009",
+        "REL-S2C-18-01"
+      ],
+      "pov_ids": [
+        "CHR-L1-01",
+        "CHR-L1-02",
+        "CHR-L1-04",
+        "CHR-L1-05",
+        "CHR-L3-01"
+      ],
       "activity_ids": [
         "EVT-008"
       ],
@@ -982,24 +1896,96 @@
       "episode_id": "S1-E19",
       "arc_id": "ARC-04",
       "title": "桂子初开",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "秋市繁华是否证明危机已经过去，普通生活能否暂时被允许？",
+      "opening_state": "白露后桂花、婚嫁、秋市与演出重新占据生活；新粮入城让所有人相信可以停下。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-002",
+          "EVT-Y0-007"
+        ],
+        "observation_ids": [],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-001",
+          "LOC-004",
+          "LOC-005",
+          "LOC-006",
+          "LOC-009"
+        ],
+        "description": "新粮释放库存造成价格平稳，但仓储、病例和未修水路没有同步恢复。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-005",
+          "REL-001",
+          "REL-008"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L1-05",
+          "CHR-L2-02",
+          "CHR-L2-01"
+        ],
+        "choice": "阿沅拒绝被安排婚事，先学会自己管账；沈蘅暂时做桂香，顾行舟陪她谈没有危机的生活。",
+        "delta": "亲近上升、依赖下降；母女从命令转成等待，顾与沈短暂平静但不承诺未来。",
+        "evidence_ids": [
+          "REL-S2C-19-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L2-02",
+        "action": "把桂花、账本和婚嫁礼单分开记，证明生活也有不被危机吞没的目标。",
+        "capability_ref": "characters/central/chr-l2-02-lin-ayuan.md"
+      },
+      "clue_seed": {
+        "kind": "生活假象",
+        "description": "街市价格回落与新粮入城只说明库存释放，不等于供应恢复。",
+        "source_ids": [
+          "EVT-Y0-002",
+          "EVT-Y0-007"
+        ]
+      },
+      "misread": "繁华回来就是危机结束；继续调查是不近人情。",
+      "recheck": "沈蘅发现仓签数量与病例缺席仍未回到基线，顾行舟只承认‘今晚可以坐一会儿’。",
+      "reframe": "危机暂缓与危机解决被分开，普通生活成为必须保护而非逃避的价值。",
+      "irreversible_cost": "众人获得短暂安稳，也因此更难在下一次警报前舍弃生活。",
+      "episode_choice": {
+        "actor": "CHR-L1-01",
+        "action": "不发新的警报，只把未恢复项列在桂香账末。",
+        "cost": "她暂时放下解释权，承担之后若再出事会被说成制造恐慌的风险。",
+        "state_change": "第四篇从供应调查转向普通生活的情感筹码。"
+      },
+      "tail_hook": {
+        "type": "物件",
+        "text": "秋市新粮表面充足，账角却仍压着一张未结病例单。"
+      },
+      "next_chase": "核对库存释放与城南病例，确认繁华是否只是被库存托住。",
+      "causal_chain": {
+        "seed": "桂香闻起来像春天，账角还没有。",
+        "misread": "繁华回来就是危机结束；继续调查是不近人情。",
+        "recheck": "沈蘅发现仓签数量与病例缺席仍未回到基线，顾行舟只承认‘今晚可以坐一会儿’。",
+        "reframe": "危机暂缓与危机解决被分开，普通生活成为必须保护而非逃避的价值。"
+      },
+      "continuity_refs": [
+        "S1-E19",
+        "EVT-Y0-002",
+        "EVT-Y0-007",
+        "REL-S2C-19-01"
+      ],
+      "pov_ids": [
+        "CHR-L1-01",
+        "CHR-L1-05",
+        "CHR-L2-02",
+        "CHR-L2-01"
+      ],
       "activity_ids": [
         "EVT-011"
       ],
@@ -1011,24 +1997,98 @@
       "episode_id": "S1-E20",
       "arc_id": "ARC-04",
       "title": "北客",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "北来的人都想回北方吗，谁有权替流民说出归宿？",
+      "opening_state": "新一批北来流民进入临安；贺兰度募捐演说，许含章逐个登记姓名、家乡和愿望。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-007",
+          "EVT-Y0-008"
+        ],
+        "observation_ids": [
+          "OBS-W-007"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-017",
+          "LOC-018",
+          "LOC-004",
+          "LOC-006"
+        ],
+        "description": "登记册同时出现回北、留城、复仇和拒绝被代表四种愿望，激进青年开始把募捐变成行动筹资。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-016",
+          "REL-G01"
+        ],
+        "character_ids": [
+          "CHR-L3-03",
+          "CHR-A1-05",
+          "CHR-B-014",
+          "CHR-B-045"
+        ],
+        "choice": "贺兰度被一名具体流民当众拒绝；许含章不替他解围，只继续登记每个人的愿望。",
+        "delta": "贺兰度对许含章的依赖下降、怨意上升；许含章的敬意仍在但不再替他承担政治后果。",
+        "evidence_ids": [
+          "REL-S2C-20-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-A1-05",
+        "action": "把每个人的姓名、原籍、愿望和不愿公开的部分分栏登记，不让口号覆盖个体。",
+        "capability_ref": "characters/important/chr-a1-05-xu-hanzhang.md"
+      },
+      "clue_seed": {
+        "kind": "身份翻转",
+        "description": "同一安置区的人对回乡与留城的愿望完全相反。",
+        "source_ids": [
+          "EVT-Y0-007",
+          "EVT-Y0-008",
+          "OBS-W-007"
+        ]
+      },
+      "misread": "共同创伤必然产生共同北归目标；登记就是保护。",
+      "recheck": "许含章逐人复核愿望，贺兰度听见‘我女儿埋在临安’后无法继续代答。",
+      "reframe": "代表性语言若不持续询问具体人，会把救助变成新的控制。",
+      "irreversible_cost": "贺兰度失去道德确定性，许含章失去替他缓冲的关系位置。",
+      "episode_choice": {
+        "actor": "CHR-L3-03",
+        "action": "不再替所有人说要回北方，先把截粮计划从公开募捐中分离出来。",
+        "cost": "他保住北归理想却失去群众自动追随的政治时机。",
+        "state_change": "身份政治从救助语言转为行动风险。"
+      },
+      "tail_hook": {
+        "type": "关系翻转",
+        "text": "激进青年提出截粮计划，且名单来自募捐登记册。"
+      },
+      "next_chase": "查登记册如何被复制、谁在筹划截粮，以及许含章是否会交出姓名保护个体。",
+      "causal_chain": {
+        "seed": "有人第一次说‘我不想回去’，政治口号失去整齐的尾音。",
+        "misread": "共同创伤必然产生共同北归目标；登记就是保护。",
+        "recheck": "许含章逐人复核愿望，贺兰度听见‘我女儿埋在临安’后无法继续代答。",
+        "reframe": "代表性语言若不持续询问具体人，会把救助变成新的控制。"
+      },
+      "continuity_refs": [
+        "S1-E20",
+        "EVT-Y0-007",
+        "EVT-Y0-008",
+        "OBS-W-007",
+        "REL-S2C-20-01"
+      ],
+      "pov_ids": [
+        "CHR-L3-03",
+        "CHR-A1-05",
+        "CHR-B-045",
+        "CHR-B-014"
+      ],
       "activity_ids": [
         "EVT-019"
       ],
@@ -1040,24 +2100,99 @@
       "episode_id": "S1-E21",
       "arc_id": "ARC-04",
       "title": "画院帖",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "画院招录是机会还是收编，谁要的是周砚之的画还是全城路径？",
+      "opening_state": "周砚之收到画院招录；程野老替他高兴，柳十四意识到他可能进入自己批评的体系。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-008"
+        ],
+        "observation_ids": [
+          "OBS-W-004",
+          "OBS-W-009"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-008",
+          "LOC-013",
+          "LOC-004",
+          "LOC-006"
+        ],
+        "description": "招录附带提交完整民间道路图的要求，作品从个人前程变成官署移动路径数据。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-002",
+          "REL-011",
+          "REL-003"
+        ],
+        "character_ids": [
+          "CHR-L1-03",
+          "CHR-A2-07",
+          "CHR-L1-02",
+          "CHR-L3-01"
+        ],
+        "choice": "周砚之不立即拒绝画院，承认自己想成名；柳十四祝贺但要求他说明图将被谁使用。",
+        "delta": "周与柳亲近上升而价值信任下降；程野老的成全带着对‘以后还能改’的怀疑。",
+        "evidence_ids": [
+          "REL-S2C-21-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L1-03",
+        "action": "比较招录帖的画院格式与民间图的缺口，标出道路图如何改变谁能移动。",
+        "capability_ref": "characters/central/chr-l1-03-zhou-yanzhi.md"
+      },
+      "clue_seed": {
+        "kind": "制度诱惑",
+        "description": "画院要的不是一幅好看地图，而是一套能预判人和货移动的完整路径。",
+        "source_ids": [
+          "EVT-Y0-008",
+          "OBS-W-004",
+          "OBS-W-009"
+        ]
+      },
+      "misread": "进入体制就能从内部改变一切；拒绝体制才算忠于民间。",
+      "recheck": "程野老指出署名、权限和复制条件都未写明，周把图的使用者列为条件。",
+      "reframe": "体制机会与信息收编可以同时为真，野心不等于背叛。",
+      "irreversible_cost": "周保留画院机会，也承担作品可能被用于封锁的伦理风险。",
+      "episode_choice": {
+        "actor": "CHR-L1-03",
+        "action": "接受初试但附加使用边界，不立即交出完整民间道路图。",
+        "cost": "他放弃纯粹立场的清白，换取观察制度内部的机会。",
+        "state_change": "画图线从职业成长进入制度选择。"
+      },
+      "tail_hook": {
+        "type": "制度反应",
+        "text": "官署要求他提交一套更完整的民间道路图。"
+      },
+      "next_chase": "查画院索要的路径与被删支渠、封水计划是否相同。",
+      "causal_chain": {
+        "seed": "一张图能换前程，也能换来别人替你关门。",
+        "misread": "进入体制就能从内部改变一切；拒绝体制才算忠于民间。",
+        "recheck": "程野老指出署名、权限和复制条件都未写明，周把图的使用者列为条件。",
+        "reframe": "体制机会与信息收编可以同时为真，野心不等于背叛。"
+      },
+      "continuity_refs": [
+        "S1-E21",
+        "EVT-Y0-008",
+        "OBS-W-004",
+        "OBS-W-009",
+        "REL-S2C-21-01"
+      ],
+      "pov_ids": [
+        "CHR-L1-03",
+        "CHR-A2-07",
+        "CHR-L1-02",
+        "CHR-A2-08"
+      ],
       "activity_ids": [
         "EVT-017"
       ],
@@ -1069,24 +2204,95 @@
       "episode_id": "S1-E22",
       "arc_id": "ARC-04",
       "title": "本名新曲",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "柳望舒的新曲能否脱离春台，作者是否有权收回被传播的意义？",
+      "opening_state": "柳十四被要求恢复最受欢迎的柳十四，唱指定的安抚市场曲；她想以本名写一首新曲。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-004",
+          "EVT-Y0-008"
+        ],
+        "observation_ids": [],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-006",
+          "LOC-005",
+          "LOC-009",
+          "LOC-004"
+        ],
+        "description": "指定曲的安抚语句与前期流言同一传播链，新曲私抄后在民间出现不同版本。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-002",
+          "REL-003",
+          "REL-016"
+        ],
+        "character_ids": [
+          "CHR-L1-02",
+          "CHR-A1-04",
+          "CHR-L1-03",
+          "CHR-L3-03"
+        ],
+        "choice": "柳以柳望舒署名新曲，承认喜欢掌声但拒绝让掌声决定说什么；顾念娘不再替她遮住失约成本。",
+        "delta": "柳与顾念娘的亲情怨意同时上升；柳与周的吸引转为是否允许彼此解释。",
+        "evidence_ids": [
+          "REL-S2C-22-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L1-02",
+        "action": "用曲牌、换韵和停顿保留真实经验，区分作者本名、台上角色和民间抄本。",
+        "capability_ref": "characters/central/chr-l1-02-liu-shisi-liu-wangshu.md"
+      },
+      "clue_seed": {
+        "kind": "传播失控",
+        "description": "同一首曲子在春台、茶摊和安置区出现三种改写，作者无法控制全部意义。",
+        "source_ids": [
+          "EVT-Y0-004",
+          "EVT-Y0-008"
+        ]
+      },
+      "misread": "恢复头牌就能保护戏班；私抄传播就是背叛作者。",
+      "recheck": "江酌月和李观澜记录不同版本的改词，确认传播脱离原作者并不等于幕后操控。",
+      "reframe": "信息一旦进入人群就会变形，作者能守的是来源与边界而非唯一解释。",
+      "irreversible_cost": "柳失去头牌位置与稳定收入，获得本名与民间版本共同存在的自由。",
+      "episode_choice": {
+        "actor": "CHR-L1-02",
+        "action": "以柳望舒署名新曲并接受失去头牌，不追捕每一个抄写者。",
+        "cost": "她放弃掌声带来的安全，承受顾念娘与戏班的现实账单。",
+        "state_change": "民间版本成为传播信道，也成为作者无法垄断的回声。"
+      },
+      "tail_hook": {
+        "type": "关系翻转",
+        "text": "有人把她的新曲私抄传播，第一份民间版本没有署名。"
+      },
+      "next_chase": "追查版本如何改变了原意，同时保护普通抄写者不被误当幕后操控。",
+      "causal_chain": {
+        "seed": "没有署名的曲子也可能记得是谁先开口。",
+        "misread": "恢复头牌就能保护戏班；私抄传播就是背叛作者。",
+        "recheck": "江酌月和李观澜记录不同版本的改词，确认传播脱离原作者并不等于幕后操控。",
+        "reframe": "信息一旦进入人群就会变形，作者能守的是来源与边界而非唯一解释。"
+      },
+      "continuity_refs": [
+        "S1-E22",
+        "EVT-Y0-004",
+        "EVT-Y0-008",
+        "REL-S2C-22-01"
+      ],
+      "pov_ids": [
+        "CHR-L1-02",
+        "CHR-A1-04",
+        "CHR-L1-03",
+        "CHR-A3-03"
+      ],
       "activity_ids": [
         "EVT-003"
       ],
@@ -1098,24 +2304,102 @@
       "episode_id": "S1-E23",
       "arc_id": "ARC-04",
       "title": "香匣旧稿",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "沈怀川究竟错在哪里，女儿能否爱一个不完美的父亲？",
+      "opening_state": "陆清和交出沈怀川完整手稿；其中有准确判断，也有明确主张宁可早说不可迟说。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-001",
+          "EVT-Y0-004",
+          "EVT-Y0-008"
+        ],
+        "observation_ids": [
+          "OBS-W-009"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-002",
+          "LOC-009",
+          "LOC-013",
+          "LOC-001"
+        ],
+        "description": "旧稿把事实、推断和未证混在同一笔力里，早报主张与当年伤害同时可见。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-005",
+          "REL-006",
+          "REL-007"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L2-01",
+          "CHR-A2-03",
+          "CHR-A1-02"
+        ],
+        "choice": "沈蘅不再寻找替父亲翻案的证据，与陆清和共同把旧稿按事实、推断、未证重新标记。",
+        "delta": "母女的共同秘密增加但怨恨没有清零；沈与亡父的敬意保留、理想化下降。",
+        "evidence_ids": [
+          "REL-S2C-23-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L1-01",
+        "action": "用三色签分开原文、推断和未证，并把每一处可能伤人的早报标出后不删。",
+        "capability_ref": "characters/central/chr-l1-01-shen-heng.md"
+      },
+      "clue_seed": {
+        "kind": "动机翻转",
+        "description": "父亲准确看见风险，却把推断写成了可能改变他人行动的结论。",
+        "source_ids": [
+          "EVT-Y0-001",
+          "EVT-Y0-004",
+          "EVT-Y0-008",
+          "OBS-W-009"
+        ]
+      },
+      "misread": "只要父亲有错就应全盘否定；母亲隐瞒手稿只是背叛。",
+      "recheck": "陆清和说出恨丈夫让她只能成为英雄遗孀；周伯安旧注显示他曾反对过早升级。",
+      "reframe": "真实父亲既值得爱也确实做错过，公开错误不是背叛而是停止使用完美形象。",
+      "irreversible_cost": "沈蘅放弃完美父亲，母女仍不和好但拥有共同标注的工作。",
+      "episode_choice": {
+        "actor": "CHR-L1-01",
+        "action": "把父亲错误页留在档案里，并拒绝把它改写成纯粹英雄故事。",
+        "cost": "她失去私人翻案的慰藉，换来与母亲在事实上的短暂并肩。",
+        "state_change": "历史异常转为制度责任与家庭情感的双重账。"
+      },
+      "tail_hook": {
+        "type": "物件",
+        "text": "旧稿边注提到周伯安曾反对过早升级‘无春’。"
+      },
+      "next_chase": "追问周伯安为何反对、谁在旧案中真正拥有命名权。",
+      "causal_chain": {
+        "seed": "手稿没有替谁哭，它只把笔画的重量留在纸上。",
+        "misread": "只要父亲有错就应全盘否定；母亲隐瞒手稿只是背叛。",
+        "recheck": "陆清和说出恨丈夫让她只能成为英雄遗孀；周伯安旧注显示他曾反对过早升级。",
+        "reframe": "真实父亲既值得爱也确实做错过，公开错误不是背叛而是停止使用完美形象。"
+      },
+      "continuity_refs": [
+        "S1-E23",
+        "EVT-Y0-001",
+        "EVT-Y0-004",
+        "EVT-Y0-008",
+        "OBS-W-009",
+        "REL-S2C-23-01"
+      ],
+      "pov_ids": [
+        "CHR-L1-01",
+        "CHR-L2-01",
+        "CHR-A2-03",
+        "CHR-A1-02"
+      ],
       "activity_ids": [
         "EVT-012"
       ],
@@ -1127,24 +2411,106 @@
       "episode_id": "S1-E24",
       "arc_id": "ARC-04",
       "title": "桂夜别席",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "如果每个人都想过普通日子，调查还值得继续吗？",
+      "opening_state": "秋末各方在席宴、相亲、前程与小场景中做下一阶段选择；城南病例悄然增加。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-007",
+          "EVT-Y0-008"
+        ],
+        "observation_ids": [
+          "OBS-W-007",
+          "OBS-W-009"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-005",
+          "LOC-006",
+          "LOC-009",
+          "LOC-018"
+        ],
+        "description": "席宴的安稳与城南病例上升同夜发生，普通生活和系统风险无法再被分开。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-001",
+          "REL-009",
+          "REL-016",
+          "REL-015"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L1-05",
+          "CHR-L3-01",
+          "CHR-L3-02",
+          "CHR-L3-03",
+          "CHR-A1-05"
+        ],
+        "choice": "宋惟敬只给章允中部分档案；黎令仪不告知养父已复制账；顾行舟不向沈蘅索要未来。",
+        "delta": "关系都保持表面平静，信息债与未说完的问题同时上升。",
+        "evidence_ids": [
+          "REL-S2C-24-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L3-01",
+        "action": "将席宴名单、病例缺席和档案摘要分开核对，发现‘别查了’并不能抹平风险。",
+        "capability_ref": "characters/central/chr-l3-01-song-weijing.md"
+      },
+      "clue_seed": {
+        "kind": "现实回返",
+        "description": "城南病例在桂夜灯火最亮时增加，证明繁华与安全不是同一指标。",
+        "source_ids": [
+          "EVT-Y0-007",
+          "EVT-Y0-008",
+          "OBS-W-007",
+          "OBS-W-009"
+        ]
+      },
+      "misread": "危机已经过去；继续查就是拒绝生活。",
+      "recheck": "余青禾的病例与沈蘅旧稿标注在时地上重合，宋惟敬承认自己仍在选择性给档案。",
+      "reframe": "普通生活不是危机的反面，而是值得用可纠错系统保护的对象。",
+      "irreversible_cost": "所有关系带着未说完的秘密进入冬季，人物失去最后一次轻易和解机会。",
+      "episode_choice": {
+        "actor": "CHR-L1-01",
+        "action": "不在席间逼问任何人，只把病例上升写入下一季追踪表。",
+        "cost": "她放弃当晚获得答案的机会，承担拖延会让病例扩大之责。",
+        "state_change": "第四篇以眷恋收束，现实把众人推入封城。"
+      },
+      "tail_hook": {
+        "type": "生活异常",
+        "text": "城南病例开始明显增加，桂花香下有人咳嗽。"
+      },
+      "next_chase": "核对病例地图、被堵支渠与暂缓上报记录，确认冬疫是否已形成。",
+      "causal_chain": {
+        "seed": "灯火能遮住雨声，不能遮住咳嗽。",
+        "misread": "危机已经过去；继续查就是拒绝生活。",
+        "recheck": "余青禾的病例与沈蘅旧稿标注在时地上重合，宋惟敬承认自己仍在选择性给档案。",
+        "reframe": "普通生活不是危机的反面，而是值得用可纠错系统保护的对象。"
+      },
+      "continuity_refs": [
+        "S1-E24",
+        "EVT-Y0-007",
+        "EVT-Y0-008",
+        "OBS-W-007",
+        "OBS-W-009",
+        "REL-S2C-24-01"
+      ],
+      "pov_ids": [
+        "CHR-L1-01",
+        "CHR-L3-01",
+        "CHR-A1-07",
+        "CHR-L3-03",
+        "CHR-L1-05"
+      ],
       "activity_ids": [
         "EVT-022"
       ],
@@ -1156,24 +2522,104 @@
       "episode_id": "S1-E25",
       "arc_id": "ARC-05",
       "title": "冬疫初闻",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "冬疫是自然聚集、工程污染，还是被压住的报告？",
+      "opening_state": "立冬后小济堂和城南医棚病例上升；余青禾确认部分记录曾被要求暂缓上报。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-007",
+          "EVT-Y0-008"
+        ],
+        "observation_ids": [
+          "OBS-W-006",
+          "OBS-W-007",
+          "OBS-W-009"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-016",
+          "LOC-018",
+          "LOC-013"
+        ],
+        "description": "病例地图、井水异味和暂缓上报批注重合，但病因仍需区分。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-010",
+          "REL-G01",
+          "REL-012"
+        ],
+        "character_ids": [
+          "CHR-L2-03",
+          "CHR-A1-03",
+          "CHR-L1-01",
+          "CHR-L2-04"
+        ],
+        "choice": "余青禾公开病例簿并标‘关联未证实’，与余仲仁正式决裂。",
+        "delta": "专业敬意下降、伦理信任上升；高问开始怀疑自己执行的摘要。",
+        "evidence_ids": [
+          "REL-S2C-25-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L2-03",
+        "action": "保留原始病例、错误页和暂缓批注，把证据等级写在每张病案旁。",
+        "capability_ref": "characters/central/chr-l2-03-yu-qinghe.md"
+      },
+      "clue_seed": {
+        "kind": "制度压报",
+        "description": "病例不是不存在，而是被要求等到足够确定才上报。",
+        "source_ids": [
+          "EVT-Y0-007",
+          "EVT-Y0-008",
+          "OBS-W-006",
+          "OBS-W-007",
+          "OBS-W-009"
+        ]
+      },
+      "misread": "暂缓上报只是避免恐慌；公开不确定病例就是制造疫病。",
+      "recheck": "沈蘅把病例图与堵渠图叠合，余仲仁承认担心并非错误但不能成为删改理由。",
+      "reframe": "压报来自多层自我审查链，不是一个坏人一句命令；不确定性也必须可见。",
+      "irreversible_cost": "余青禾失去官办医局荐书，与师父关系断裂，但病例成为公共证据。",
+      "episode_choice": {
+        "actor": "CHR-L2-03",
+        "action": "公开病例簿并在首页写‘关联未证实’，接受被撤荐书。",
+        "cost": "她放弃职业入口换取公众知道自己还不知道什么。",
+        "state_change": "冬疫从传闻进入可审计病例与责任链。"
+      },
+      "tail_hook": {
+        "type": "制度翻转",
+        "text": "病例地图与被堵支渠高度重合。"
+      },
+      "next_chase": "核对排水工程、病例时地和摘要链，确认污染与传染是否同时存在。",
+      "causal_chain": {
+        "seed": "最危险的不是一句假话，而是一串都觉得自己在保护人的省略。",
+        "misread": "暂缓上报只是避免恐慌；公开不确定病例就是制造疫病。",
+        "recheck": "沈蘅把病例图与堵渠图叠合，余仲仁承认担心并非错误但不能成为删改理由。",
+        "reframe": "压报来自多层自我审查链，不是一个坏人一句命令；不确定性也必须可见。"
+      },
+      "continuity_refs": [
+        "S1-E25",
+        "EVT-Y0-007",
+        "EVT-Y0-008",
+        "OBS-W-006",
+        "OBS-W-007",
+        "OBS-W-009",
+        "REL-S2C-25-01"
+      ],
+      "pov_ids": [
+        "CHR-L2-03",
+        "CHR-A1-03",
+        "CHR-L1-01",
+        "CHR-L2-04"
+      ],
       "activity_ids": [
         "EVT-014"
       ],
@@ -1185,24 +2631,106 @@
       "episode_id": "S1-E26",
       "arc_id": "ARC-05",
       "title": "封水",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "封水是救人还是伤人，谁能更正一刀切的限制？",
+      "opening_state": "城务司准备全面封停民间水路；裴九娘知道高风险航段确实危险。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-007",
+          "EVT-Y0-008"
+        ],
+        "observation_ids": [
+          "OBS-W-003",
+          "OBS-W-006",
+          "OBS-W-009"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-010",
+          "LOC-011",
+          "LOC-012",
+          "LOC-015",
+          "LOC-018"
+        ],
+        "description": "高风险航段水污和病区有重合，但封停全部水路会切断医药、救援与粮运。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-004",
+          "REL-012",
+          "REL-014"
+        ],
+        "character_ids": [
+          "CHR-L1-04",
+          "CHR-A2-06",
+          "CHR-L2-04",
+          "CHR-L3-01"
+        ],
+        "choice": "裴支持停掉高风险段、反对全面封水，失去商号合约。",
+        "delta": "裴与罗见潮的商业信任受损、方法敬意上升；高问第一次向执行命令提出可更正条件。",
+        "evidence_ids": [
+          "REL-S2C-26-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L1-04",
+        "action": "按水色、潮序、病区和船能承载的救援任务分级标记航段，不把停运变成全城禁行。",
+        "capability_ref": "characters/central/chr-l1-04-pei-jiuniang.md"
+      },
+      "clue_seed": {
+        "kind": "责任边界",
+        "description": "同一条水路在不同河段风险不同，全面封停抹平了可操作差异。",
+        "source_ids": [
+          "EVT-Y0-007",
+          "EVT-Y0-008",
+          "OBS-W-003",
+          "OBS-W-006",
+          "OBS-W-009"
+        ]
+      },
+      "misread": "限制本身就是压迫；或者限制只要出自官署就无需解释。",
+      "recheck": "裴把高风险航段与医药航段分开，罗见潮提供船工破产账，高问要求命令带复核时刻。",
+      "reframe": "限制可以必要，问题在于谁能看见边界、何时更正。",
+      "irreversible_cost": "裴失去商号合约，青鹞列入重点监控，仍坚持分级。",
+      "episode_choice": {
+        "actor": "CHR-L1-04",
+        "action": "公开支持停高风险段并反对全部封水，把复核时刻写进建议。",
+        "cost": "她放弃商业安全和两边讨好的位置。",
+        "state_change": "限制制度进入可更正而非全有全无的讨论。"
+      },
+      "tail_hook": {
+        "type": "制度反应",
+        "text": "青鹞被列入重点监控船。"
+      },
+      "next_chase": "确认监控名单如何生成，并争取把船工的现场更正送进城务司。",
+      "causal_chain": {
+        "seed": "水路不是开或关，它有一百种需要被看见的中间状态。",
+        "misread": "限制本身就是压迫；或者限制只要出自官署就无需解释。",
+        "recheck": "裴把高风险航段与医药航段分开，罗见潮提供船工破产账，高问要求命令带复核时刻。",
+        "reframe": "限制可以必要，问题在于谁能看见边界、何时更正。"
+      },
+      "continuity_refs": [
+        "S1-E26",
+        "EVT-Y0-007",
+        "EVT-Y0-008",
+        "OBS-W-003",
+        "OBS-W-006",
+        "OBS-W-009",
+        "REL-S2C-26-01"
+      ],
+      "pov_ids": [
+        "CHR-L1-04",
+        "CHR-A2-06",
+        "CHR-L2-04",
+        "CHR-A1-08"
+      ],
       "activity_ids": [
         "EVT-020"
       ],
@@ -1214,24 +2742,105 @@
       "episode_id": "S1-E27",
       "arc_id": "ARC-05",
       "title": "非常令",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "非常令依据哪些信息，合法权力能否承认自己的摘要不完整？",
+      "opening_state": "宋惟敬以粮火风险、病例和流民流动推动非常令；信息经过摘要后最坏数字被强调。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-008",
+          "EVT-Y0-007"
+        ],
+        "observation_ids": [
+          "OBS-W-007",
+          "OBS-W-009"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-013",
+          "LOC-015",
+          "LOC-018",
+          "LOC-006"
+        ],
+        "description": "非常令的数字可追溯到真实病例与粮火风险，但摘要删去横向核验和隐私边界。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-015",
+          "REL-012",
+          "REL-014",
+          "REL-016"
+        ],
+        "character_ids": [
+          "CHR-L3-01",
+          "CHR-A1-06",
+          "CHR-L2-04",
+          "CHR-A1-08",
+          "CHR-L3-03"
+        ],
+        "choice": "宋明知十三年前截信事实仍选择不公开；高问执行但开始留存完整摘要，柳十四的瓦舍被禁演。",
+        "delta": "宋与章允中的程序忠诚转为责任冲突；高问与宋的制度信任下降，贺兰度获得政治动员空间。",
+        "evidence_ids": [
+          "REL-S2C-27-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L2-04",
+        "action": "在执行封锁时保留原令、删节摘要和现场异议三份副本，按时刻记录谁被拒在门外。",
+        "capability_ref": "characters/central/chr-l2-04-gao-wen.md"
+      },
+      "clue_seed": {
+        "kind": "制度翻转",
+        "description": "合法命令与不完整信息同时成立，执行者无法只用‘照章办事’解释后果。",
+        "source_ids": [
+          "EVT-Y0-008",
+          "EVT-Y0-007",
+          "OBS-W-007",
+          "OBS-W-009"
+        ]
+      },
+      "misread": "宋只是反派；或合法命令天然等于完整判断。",
+      "recheck": "章允中比较不同摘要，曹肃确认开门者收到的版本与签押版本不一致。",
+      "reframe": "宋从创伤驱动的可靠官员跨成主动隐瞒责任者，合法性不再自动免罪。",
+      "irreversible_cost": "宋选择继续隐瞒截信史并推进非常令，封城由制度选项变为不可逆代价。",
+      "episode_choice": {
+        "actor": "CHR-L3-01",
+        "action": "继续签非常令，但在底稿上保留被删去的截信事实。",
+        "cost": "他保住集中行动速度，失去‘不知道所以无责’的退路。",
+        "state_change": "城门、水路和戏班同时收紧。"
+      },
+      "tail_hook": {
+        "type": "身份",
+        "text": "城门与水路同时收紧，禁演榜文覆盖春台旧曲。"
+      },
+      "next_chase": "追查非常令的摘要链与封控边界，判断谁会在下一场替人承担缺口。",
+      "causal_chain": {
+        "seed": "一纸令能让全城安静，也能让所有异议听不见。",
+        "misread": "宋只是反派；或合法命令天然等于完整判断。",
+        "recheck": "章允中比较不同摘要，曹肃确认开门者收到的版本与签押版本不一致。",
+        "reframe": "宋从创伤驱动的可靠官员跨成主动隐瞒责任者，合法性不再自动免罪。"
+      },
+      "continuity_refs": [
+        "S1-E27",
+        "EVT-Y0-008",
+        "EVT-Y0-007",
+        "OBS-W-007",
+        "OBS-W-009",
+        "REL-S2C-27-01"
+      ],
+      "pov_ids": [
+        "CHR-L3-01",
+        "CHR-L2-04",
+        "CHR-A1-06",
+        "CHR-A1-08",
+        "CHR-L1-02"
+      ],
       "activity_ids": [
         "EVT-021"
       ],
@@ -1243,24 +2852,91 @@
       "episode_id": "S1-E28",
       "arc_id": "ARC-05",
       "title": "粮仓火",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "粮仓火是谋杀、灭证还是事故，谁把可控手段变成真实伤害？",
+      "opening_state": "黎见山发现运输副账将被查，命下属烧账；违规灯油与仓储方式让火失控。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-009"
+        ],
+        "observation_ids": [],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-014",
+          "LOC-013",
+          "LOC-015"
+        ],
+        "description": "火源确有主动点燃痕迹，失控路径却来自早已存在的违规灯油与拥挤仓储。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-009",
+          "REL-015",
+          "REL-012"
+        ],
+        "character_ids": [
+          "CHR-L3-02",
+          "CHR-A1-07",
+          "CHR-A1-06",
+          "CHR-L2-04"
+        ],
+        "choice": "黎令仪先救账房再抢残页；黎见山仍试图先保供应链，不自首。",
+        "delta": "养父女的爱与责任彻底分开；黎见山对令仪的控制意图上升而自我解释崩裂。",
+        "evidence_ids": [
+          "REL-S2C-28-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-A1-07",
+        "action": "在火势、账册和被困人的位置之间先开人道通道，再用残页确认火前账目。",
+        "capability_ref": "characters/important/chr-a1-07-li-lingyi.md"
+      },
+      "clue_seed": {
+        "kind": "责任翻转",
+        "description": "纵火是主动灭证，火势扩大却由长期违规储存条件共同造成。",
+        "source_ids": [
+          "EVT-Y0-009"
+        ]
+      },
+      "misread": "火灾只要归为事故就能保住供应；救账比救人更能证明清白。",
+      "recheck": "石六和高问复核灯油、堆垛、值夜和残页，确认人为纵火与制度失守同时存在。",
+      "reframe": "一个正确选择不能抵销过去控制，事故也不能抹掉主动灭证。",
+      "irreversible_cost": "黎令仪拿到少量残页并决定交出真账，黎见山仍不自首。",
+      "episode_choice": {
+        "actor": "CHR-A1-07",
+        "action": "先救账房，再取残页；把真账交给公信案而不替养父找借口。",
+        "cost": "她保住活人和证据，却失去养父仍可被解释的最后幻想。",
+        "state_change": "人为短缺变成真实短缺，封锁与粮火相互放大。"
+      },
+      "tail_hook": {
+        "type": "责任",
+        "text": "粮火把人为短缺变成真实短缺，第三仓的火势仍未完全退。"
+      },
+      "next_chase": "用残页重建第三仓入出账，确认火前谁已知道缺口。",
+      "causal_chain": {
+        "seed": "火先烧掉纸，随后才烧到人们对‘只是事故’的信任。",
+        "misread": "火灾只要归为事故就能保住供应；救账比救人更能证明清白。",
+        "recheck": "石六和高问复核灯油、堆垛、值夜和残页，确认人为纵火与制度失守同时存在。",
+        "reframe": "一个正确选择不能抵销过去控制，事故也不能抹掉主动灭证。"
+      },
+      "continuity_refs": [
+        "S1-E28",
+        "EVT-Y0-009",
+        "REL-S2C-28-01"
+      ],
+      "pov_ids": [
+        "CHR-A1-07",
+        "CHR-L3-02",
+        "CHR-A2-05",
+        "CHR-L2-04"
+      ],
       "activity_ids": [
         "EVT-018"
       ],
@@ -1272,24 +2948,102 @@
       "episode_id": "S1-E29",
       "arc_id": "ARC-05",
       "title": "闭门",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "顾行舟的疫图救了谁、困了谁，保护是否已经变成替人决定？",
+      "opening_state": "封锁扩大、外来人口滞留、医棚拥挤；顾行舟用详细疫图换官署开放更多医棚。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-007",
+          "EVT-Y0-008"
+        ],
+        "observation_ids": [
+          "OBS-W-007",
+          "OBS-W-009"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-016",
+          "LOC-018",
+          "LOC-013",
+          "LOC-015"
+        ],
+        "description": "疫图提高医棚开放精度，也让城务司能更精准划封控区；西门转运被延误。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-001",
+          "REL-012",
+          "REL-013"
+        ],
+        "character_ids": [
+          "CHR-L1-05",
+          "CHR-L1-01",
+          "CHR-L2-04",
+          "CHR-A1-08"
+        ],
+        "choice": "沈蘅知道顾明知她会反对仍交出疫图；顾承认自己替所有人决定了代价。",
+        "delta": "爱情信任断裂、敬意与亏欠复杂上升；顾与旧同袍的制度依赖也被重新审视。",
+        "evidence_ids": [
+          "REL-S2C-29-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L1-05",
+        "action": "按医棚床位、症状和道路风险绘出分区，但没有获得所有被标记者的同意。",
+        "capability_ref": "characters/central/chr-l1-05-gu-xingzhou.md"
+      },
+      "clue_seed": {
+        "kind": "情感翻转",
+        "description": "同一张图既让医棚开放，也把人名与街区变成封控边界。",
+        "source_ids": [
+          "EVT-Y0-007",
+          "EVT-Y0-008",
+          "OBS-W-007",
+          "OBS-W-009"
+        ]
+      },
+      "misread": "只要结果救到更多人就能证明替人决定是对的。",
+      "recheck": "沈蘅核对开放床位与西门死亡，确认图的救援收益和封控伤害同时发生。",
+      "reframe": "保护性选择的动机是真，但未经同意的代价也是真；爱不能取消主体性。",
+      "irreversible_cost": "沈蘅与顾行舟彻底决裂，西门出现因封锁耽误转运的第一起死亡。",
+      "episode_choice": {
+        "actor": "CHR-L1-01",
+        "action": "不接受‘为了救人所以你该理解’，把疫图的收益与死亡一起归档。",
+        "cost": "她放弃立即修复爱情，保留对顾行为的公共质询。",
+        "state_change": "关系线从暧昧保护进入价值冲突。"
+      },
+      "tail_hook": {
+        "type": "人物余波",
+        "text": "西门出现第一起因封锁耽误转运的死亡。"
+      },
+      "next_chase": "追查封控边界、医棚开放和死亡转运之间的因果，寻找可撤回的限制。",
+      "causal_chain": {
+        "seed": "顾把门打开了一扇，却替所有人决定了哪一扇门必须关。",
+        "misread": "只要结果救到更多人就能证明替人决定是对的。",
+        "recheck": "沈蘅核对开放床位与西门死亡，确认图的救援收益和封控伤害同时发生。",
+        "reframe": "保护性选择的动机是真，但未经同意的代价也是真；爱不能取消主体性。"
+      },
+      "continuity_refs": [
+        "S1-E29",
+        "EVT-Y0-007",
+        "EVT-Y0-008",
+        "OBS-W-007",
+        "OBS-W-009",
+        "REL-S2C-29-01"
+      ],
+      "pov_ids": [
+        "CHR-L1-01",
+        "CHR-L1-05",
+        "CHR-L2-04",
+        "CHR-A1-08"
+      ],
       "activity_ids": [
         "EVT-014"
       ],
@@ -1301,24 +3055,108 @@
       "episode_id": "S1-E30",
       "arc_id": "ARC-05",
       "title": "雪夜断信",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "五信还能在没有彼此时工作吗，谁会把断掉的信道变成自己的武器？",
+      "opening_state": "北归社激进派准备截军粮；五信通道被切断，高问、曹肃、顾、裴被职责分开。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-008",
+          "EVT-Y0-009"
+        ],
+        "observation_ids": [
+          "OBS-W-007",
+          "OBS-W-009"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-006",
+          "LOC-010",
+          "LOC-013",
+          "LOC-015",
+          "LOC-018"
+        ],
+        "description": "禁演、封水、截粮和连续雨势使五种信道彼此失联，错误消息开始比原始观察跑得更快。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-G01",
+          "REL-016",
+          "REL-001",
+          "REL-004",
+          "REL-012"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L1-02",
+          "CHR-L1-04",
+          "CHR-L1-05",
+          "CHR-L3-03",
+          "CHR-A1-05"
+        ],
+        "choice": "贺兰度默许截粮、许含章离开；沈蘅意识到依赖五人中心的春信仍然脆弱。",
+        "delta": "团队共同秘密下降、每个人的独立责任上升；许含章与贺兰度决裂，沈与顾不再互相代做决定。",
+        "evidence_ids": [
+          "REL-S2C-30-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L2-04",
+        "action": "在封锁与截粮之间保留一条不依赖中心的现场通报，记录谁能听见、谁被隔绝。",
+        "capability_ref": "characters/central/chr-l2-04-gao-wen.md"
+      },
+      "clue_seed": {
+        "kind": "系统脆弱",
+        "description": "五信不是同时失效，而是每条信道都被不同规则切断，无法互相校验。",
+        "source_ids": [
+          "EVT-Y0-008",
+          "EVT-Y0-009",
+          "OBS-W-007",
+          "OBS-W-009"
+        ]
+      },
+      "misread": "只要五人重新聚齐就能恢复；截粮是唯一能让北方被看见的办法。",
+      "recheck": "沈蘅发现中心依赖本身是新风险，许含章拒绝再替贺兰度解释，裴把船工名单交给高问。",
+      "reframe": "春信必须能在关系破裂和信息断网时继续工作，群体不等于中心。",
+      "irreversible_cost": "团队不再完整，贺兰度默许截粮，连续雨势把所有选择推向灾害。",
+      "episode_choice": {
+        "actor": "CHR-L1-01",
+        "action": "不召回所有人开会，而是把最小记录格式分给各自职业节点。",
+        "cost": "她放弃由自己重新掌控全局的冲动，接受信道会带着不同方向独立运行。",
+        "state_change": "第五篇以中心断裂进入修复阶段。"
+      },
+      "tail_hook": {
+        "type": "制度反应",
+        "text": "次年立春前连续雨势开始，城门外的水位记录没有回传。"
+      },
+      "next_chase": "寻找不依赖中心的水位、失联与道路记录，先确认哪里已经无法互相校验。",
+      "causal_chain": {
+        "seed": "雪夜里最先断的不是灯，是人以为总有人会替自己传话。",
+        "misread": "只要五人重新聚齐就能恢复；截粮是唯一能让北方被看见的办法。",
+        "recheck": "沈蘅发现中心依赖本身是新风险，许含章拒绝再替贺兰度解释，裴把船工名单交给高问。",
+        "reframe": "春信必须能在关系破裂和信息断网时继续工作，群体不等于中心。"
+      },
+      "continuity_refs": [
+        "S1-E30",
+        "EVT-Y0-008",
+        "EVT-Y0-009",
+        "OBS-W-007",
+        "OBS-W-009",
+        "REL-S2C-30-01"
+      ],
+      "pov_ids": [
+        "CHR-L1-01",
+        "CHR-L2-04",
+        "CHR-L3-03",
+        "CHR-A1-05",
+        "CHR-L1-05"
+      ],
       "activity_ids": [
         "EVT-015"
       ],
@@ -1330,24 +3168,109 @@
       "episode_id": "S1-E31",
       "arc_id": "ARC-06",
       "title": "立春暴雨",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "官方图与真实城市差多少，民间节点能否在没有命令时先救人？",
+      "opening_state": "立春暴雨，私堤、淤渠、仓区排水与延迟河工让低洼区进水；官方图仍显示可通。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-010",
+          "EVT-Y0-005"
+        ],
+        "observation_ids": [
+          "OBS-W-002",
+          "OBS-W-003",
+          "OBS-W-004",
+          "OBS-W-010"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-001",
+          "LOC-014",
+          "LOC-015",
+          "LOC-018"
+        ],
+        "description": "桥闸、淤渠和旧图同时失真；鹤鸣巷失联表先于城务司报告出现。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-005",
+          "REL-G01",
+          "REL-012"
+        ],
+        "character_ids": [
+          "CHR-L2-02",
+          "CHR-A1-01",
+          "CHR-L1-01",
+          "CHR-L1-03",
+          "CHR-L3-01"
+        ],
+        "choice": "阿沅在鹤鸣巷自发做失联表，沈三娘开放馄饨铺，沈蘅不等待命令才开始记录。",
+        "delta": "母女互助上升、对制度依赖下降；宋惟敬的隐瞒与民间先行动形成事实对照。",
+        "evidence_ids": [
+          "REL-S2C-31-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L2-02",
+        "action": "按桌号、邻里、最后见时刻登记失联者，不把‘未找到’写成死亡。",
+        "capability_ref": "characters/central/chr-l2-02-lin-ayuan.md"
+      },
+      "clue_seed": {
+        "kind": "修复异常",
+        "description": "桥断处官方图仍标可通，失联名单与低洼进水时间重合。",
+        "source_ids": [
+          "EVT-Y0-010",
+          "EVT-Y0-005",
+          "OBS-W-002",
+          "OBS-W-003",
+          "OBS-W-004",
+          "OBS-W-010"
+        ]
+      },
+      "misread": "开放水情只会引发抢逃；民间没有权限不能行动。",
+      "recheck": "沈三娘提供锅灶和热水，周砚之旧图与阿沅名单互相修正，证明民间节点可以先行动。",
+      "reframe": "城市先于命令自我组织，但也会需要可共享的更正格式。",
+      "irreversible_cost": "阿沅和沈三娘承担物资、失联和误报的实际责任，民间网络从辅助变成第一响应。",
+      "episode_choice": {
+        "actor": "CHR-L2-02",
+        "action": "建立失联表并把每次更正保留在原页，不等春信屋批准。",
+        "cost": "她放弃‘只负责看见’的安全位置，开始为错误名单负责。",
+        "state_change": "民间节点在没有中心命令时启动。"
+      },
+      "tail_hook": {
+        "type": "生活异常",
+        "text": "城南一处桥断，官方图仍显示可通。"
+      },
+      "next_chase": "用失联表、旧图和现场水位重画一条可走路线，传给相邻节点。",
+      "causal_chain": {
+        "seed": "桥已经断了，图还没有学会承认。",
+        "misread": "开放水情只会引发抢逃；民间没有权限不能行动。",
+        "recheck": "沈三娘提供锅灶和热水，周砚之旧图与阿沅名单互相修正，证明民间节点可以先行动。",
+        "reframe": "城市先于命令自我组织，但也会需要可共享的更正格式。"
+      },
+      "continuity_refs": [
+        "S1-E31",
+        "EVT-Y0-010",
+        "EVT-Y0-005",
+        "OBS-W-002",
+        "OBS-W-003",
+        "OBS-W-004",
+        "OBS-W-010",
+        "REL-S2C-31-01"
+      ],
+      "pov_ids": [
+        "CHR-L2-02",
+        "CHR-A1-01",
+        "CHR-L1-01",
+        "CHR-L1-03"
+      ],
       "activity_ids": [
         "EVT-024"
       ],
@@ -1359,24 +3282,99 @@
       "episode_id": "S1-E32",
       "arc_id": "ARC-06",
       "title": "第一盏灯",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "灯号能否不被单一格式垄断，怎样让不同街区读懂同一个意思？",
+      "opening_state": "周伯安、苏长灯、方书娘、柳十四共同试春灯协议；雨中颜色看不清。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-010"
+        ],
+        "observation_ids": [
+          "OBS-W-010"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-001",
+          "LOC-006",
+          "LOC-009",
+          "LOC-015",
+          "LOC-018"
+        ],
+        "description": "颜色在雨中失效，触感布条、声音口令和时刻记录让同一语义跨街区复现。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-G01",
+          "REL-002",
+          "REL-005"
+        ],
+        "character_ids": [
+          "CHR-A1-02",
+          "CHR-A2-08",
+          "CHR-L1-02",
+          "CHR-L1-01",
+          "CHR-L2-01"
+        ],
+        "choice": "沈蘅只锁语义、时刻与更正规则，不锁唯一颜色；魏绣娘与江酌月补入触感和声音。",
+        "delta": "共同秘密转为公共规则，沈与柳的协作敬意上升但中心权威下降。",
+        "evidence_ids": [
+          "REL-S2C-32-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-A1-02",
+        "action": "把伞骨、纸签、灯笼、触感布和口述口令试挂在不同街区，记录同一信号被误读的差异。",
+        "capability_ref": "characters/important/chr-a1-02-zhou-boan.md"
+      },
+      "clue_seed": {
+        "kind": "格式选择",
+        "description": "同一颜色在雨中被看成不同明暗，单一标准会把低视见街区排除。",
+        "source_ids": [
+          "EVT-Y0-010",
+          "OBS-W-010"
+        ]
+      },
+      "misread": "统一颜色越简单越可靠；格式越多越会混乱。",
+      "recheck": "方书娘以纸签补时刻，魏绣娘以触感布条补视觉，江酌月以声音口令补听觉边界。",
+      "reframe": "可复制的不是唯一外形，而是语义、时刻和更正协议。",
+      "irreversible_cost": "沈放弃作为唯一解释者的权威，系统扩大也增加误读面。",
+      "episode_choice": {
+        "actor": "CHR-L1-01",
+        "action": "锁定语义、时刻、更正规则，允许各街区用不同材料表达。",
+        "cost": "她放弃漂亮统一的控制感，承担新系统可能更杂乱的风险。",
+        "state_change": "第一批灯号开始扩散。"
+      },
+      "tail_hook": {
+        "type": "能力回响",
+        "text": "第一批灯号开始扩散，但同一盏灯在三条巷子被读成三种意思。"
+      },
+      "next_chase": "收集第一轮误读并建立更正口令，验证协议而非颜色是否可靠。",
+      "causal_chain": {
+        "seed": "第一盏灯不负责照亮全部人，只负责让下一盏知道自己可能错了。",
+        "misread": "统一颜色越简单越可靠；格式越多越会混乱。",
+        "recheck": "方书娘以纸签补时刻，魏绣娘以触感布条补视觉，江酌月以声音口令补听觉边界。",
+        "reframe": "可复制的不是唯一外形，而是语义、时刻和更正协议。"
+      },
+      "continuity_refs": [
+        "S1-E32",
+        "EVT-Y0-010",
+        "OBS-W-010",
+        "REL-S2C-32-01"
+      ],
+      "pov_ids": [
+        "CHR-L1-01",
+        "CHR-A1-02",
+        "CHR-L1-02",
+        "CHR-A2-08",
+        "CHR-A3-03"
+      ],
       "activity_ids": [
         "EVT-018"
       ],
@@ -1388,24 +3386,98 @@
       "episode_id": "S1-E33",
       "arc_id": "ARC-06",
       "title": "错灯",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "新系统会不会同样犯错，普通节点能否互相纠正？",
+      "opening_state": "双灯被误认作安全信号，人群改道；两支粮队重复去一处，另一医棚缺药。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-010"
+        ],
+        "observation_ids": [
+          "OBS-W-010"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-001",
+          "LOC-014",
+          "LOC-016",
+          "LOC-018"
+        ],
+        "description": "错误灯号、旧版地图和重复调度同时出现，但韩墨儿、阿七与李观澜留下了不同方向的更正证据。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-G01",
+          "REL-004",
+          "REL-003"
+        ],
+        "character_ids": [
+          "CHR-B-019",
+          "CHR-B-018",
+          "CHR-A3-02",
+          "CHR-L1-01",
+          "CHR-L1-04"
+        ],
+        "choice": "阿七主动回传误判；韩墨儿标出旧版地图，李观澜把更正编成短口令。",
+        "delta": "普通节点的敬意与相互依赖上升；沈蘅第一次接受被普通人纠正。",
+        "evidence_ids": [
+          "REL-S2C-33-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-B-019",
+        "action": "按水势、灯号时刻和粮队脚印回传错误，不等主角确认后才写更正。",
+        "capability_ref": "characters/recurring/chr-b-019-meng-xiaochuan.md"
+      },
+      "clue_seed": {
+        "kind": "纠错反转",
+        "description": "错误没有被单一中心消灭，而是被另一普通节点发现并标记。",
+        "source_ids": [
+          "EVT-Y0-010",
+          "OBS-W-010"
+        ]
+      },
+      "misread": "新系统只要上线就会比旧系统正确；出错意味着系统失败。",
+      "recheck": "韩墨儿发现旧版地图仍在流传，阿七承认水势判断错，李观澜把更正压成短口令。",
+      "reframe": "春信的价值不是不会错，而是普通人有权指出它错并让更正继续传播。",
+      "irreversible_cost": "一次错灯造成真实人群、粮队和医棚损失，系统必须带着错误继续运行。",
+      "episode_choice": {
+        "actor": "CHR-B-019",
+        "action": "主动回传自己的误判并附水势时刻，不把错误藏到灾后。",
+        "cost": "他放弃英雄形象，换来节点之间可复核的信任。",
+        "state_change": "系统没有崩溃，第一修正来自普通人而非主角。"
+      },
+      "tail_hook": {
+        "type": "事实翻转",
+        "text": "宋惟敬收到民间更正速度快于城务司的证据。"
+      },
+      "next_chase": "追踪更正如何进入官方档案，并防止旧版地图继续覆盖新记录。",
+      "causal_chain": {
+        "seed": "错灯没有被擦掉，它成了下一盏灯的警告。",
+        "misread": "新系统只要上线就会比旧系统正确；出错意味着系统失败。",
+        "recheck": "韩墨儿发现旧版地图仍在流传，阿七承认水势判断错，李观澜把更正压成短口令。",
+        "reframe": "春信的价值不是不会错，而是普通人有权指出它错并让更正继续传播。"
+      },
+      "continuity_refs": [
+        "S1-E33",
+        "EVT-Y0-010",
+        "OBS-W-010",
+        "REL-S2C-33-01"
+      ],
+      "pov_ids": [
+        "CHR-B-019",
+        "CHR-B-018",
+        "CHR-A3-02",
+        "CHR-L1-01",
+        "CHR-L1-04"
+      ],
       "activity_ids": [
         "EVT-023"
       ],
@@ -1417,24 +3489,105 @@
       "episode_id": "S1-E34",
       "arc_id": "ARC-06",
       "title": "开城",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "谁愿意为开城留下名字，制度能否公开完整责任链？",
+      "opening_state": "外城门仍闭，‘即将分洪淹南城’谣言扩散；宋惟敬终于开放真实水情和非常令签押链。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-008",
+          "EVT-Y0-010"
+        ],
+        "observation_ids": [
+          "OBS-W-009",
+          "OBS-W-010"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-013",
+          "LOC-015",
+          "LOC-018",
+          "LOC-014"
+        ],
+        "description": "完整水情、删节摘要、改令时间和开门签押被同时公开，责任不再只落在一个执行人身上。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-012",
+          "REL-014",
+          "REL-015",
+          "REL-013"
+        ],
+        "character_ids": [
+          "CHR-L3-01",
+          "CHR-L2-04",
+          "CHR-A1-06",
+          "CHR-A1-08",
+          "CHR-L1-05"
+        ],
+        "choice": "高问穿官服反签开路，章允中公开摘要差异，曹肃等正式改令到达后立即开门。",
+        "delta": "制度信任不再依赖服从；高问失去官位预期，宋主动承担受审后果。",
+        "evidence_ids": [
+          "REL-S2C-34-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L2-04",
+        "action": "逐项核对原令、删节摘要、反签时间和开门地点，让开城成为可追责动作。",
+        "capability_ref": "characters/central/chr-l2-04-gao-wen.md"
+      },
+      "clue_seed": {
+        "kind": "制度承担",
+        "description": "开门不是英雄闯入，而是多人在同一张责任链上留下名字。",
+        "source_ids": [
+          "EVT-Y0-008",
+          "EVT-Y0-010",
+          "OBS-W-009",
+          "OBS-W-010"
+        ]
+      },
+      "misread": "只要门打开就算胜利；或者必须等主角闯门才会改变。",
+      "recheck": "宋公开完整水情，章允中补全摘要，高问反签，曹肃等待正式改令而非擅自放行。",
+      "reframe": "制度内部公开责任链比个人英雄更能让城市恢复行动。",
+      "irreversible_cost": "宋失去权力安全，高问失去官服，章允中失去对程序无害的幻想。",
+      "episode_choice": {
+        "actor": "CHR-L3-01",
+        "action": "撤回封锁建议并公开签押链，接受后续受审。",
+        "cost": "他放弃‘我负责所以我能决定一切’，把判断交回可复核制度。",
+        "state_change": "门打开，但水开始逼近第三仓。"
+      },
+      "tail_hook": {
+        "type": "责任",
+        "text": "水开始逼近第三仓，开城不是灾害终点。"
+      },
+      "next_chase": "将公开责任链与第三仓救援、真账和灯号路线接通。",
+      "causal_chain": {
+        "seed": "门是制度开的，水不会因为制度承认错误就停下。",
+        "misread": "只要门打开就算胜利；或者必须等主角闯门才会改变。",
+        "recheck": "宋公开完整水情，章允中补全摘要，高问反签，曹肃等待正式改令而非擅自放行。",
+        "reframe": "制度内部公开责任链比个人英雄更能让城市恢复行动。"
+      },
+      "continuity_refs": [
+        "S1-E34",
+        "EVT-Y0-008",
+        "EVT-Y0-010",
+        "OBS-W-009",
+        "OBS-W-010",
+        "REL-S2C-34-01"
+      ],
+      "pov_ids": [
+        "CHR-L3-01",
+        "CHR-L2-04",
+        "CHR-A1-06",
+        "CHR-A1-08",
+        "CHR-L1-05"
+      ],
       "activity_ids": [
         "EVT-021"
       ],
@@ -1446,24 +3599,107 @@
       "episode_id": "S1-E35",
       "arc_id": "ARC-06",
       "title": "万家春灯",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "全城协作是否意味着全员善良，规则与纠错能否替代突然和解？",
+      "opening_state": "粮、药、船、医棚、安置、失联和道路同时运行；仍有人拒救、插队、抢粮。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-009",
+          "EVT-Y0-010"
+        ],
+        "observation_ids": [
+          "OBS-W-007",
+          "OBS-W-010"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-001",
+          "LOC-010",
+          "LOC-011",
+          "LOC-014",
+          "LOC-016",
+          "LOC-018"
+        ],
+        "description": "职业能力在真实冲突中互相补位：船工、脚夫、医棚、馄饨铺和更夫同时留下可复核记录。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-009",
+          "REL-016",
+          "REL-G01",
+          "REL-005"
+        ],
+        "character_ids": [
+          "CHR-L3-02",
+          "CHR-L3-03",
+          "CHR-L1-01",
+          "CHR-L2-02",
+          "CHR-B-019"
+        ],
+        "choice": "黎见山公开第三仓真账；贺兰度终止截粮并暴露撤离路线；沈小舟交出绳与路线但拒绝下水。",
+        "delta": "协作上升而旧账仍在；黎见山坐实罪责，贺兰度失去政治时机，普通人不再被要求成为英雄。",
+        "evidence_ids": [
+          "REL-S2C-35-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L3-02",
+        "action": "把真账、第三仓水位和可撤离路线同时交给不同节点，接受每个节点质疑。",
+        "capability_ref": "characters/central/chr-l3-02-li-jianshan.md"
+      },
+      "clue_seed": {
+        "kind": "群像责任",
+        "description": "协作由规则、分工和互相纠正维持，不由全员善良维持。",
+        "source_ids": [
+          "EVT-Y0-009",
+          "EVT-Y0-010",
+          "OBS-W-007",
+          "OBS-W-010"
+        ]
+      },
+      "misread": "灾难会让所有人自然团结；一次正确选择可以抵销旧罪。",
+      "recheck": "船主拒救、有人插队和抢粮，正因为规则被执行、错误被标记，协作仍未崩溃。",
+      "reframe": "危机合作不等于旧账清零，正确选择能救人但不能自动购买宽恕。",
+      "irreversible_cost": "黎见山救人同时坐实罪责，贺兰度救下被代表者却失去政治窗口。",
+      "episode_choice": {
+        "actor": "CHR-L3-02",
+        "action": "公开第三仓与真账并允许民间节点自行核对，不请求先被原谅。",
+        "cost": "他放弃产业与名声，保住一次可被修正的供应链。",
+        "state_change": "雨势减弱，但最后一处失联名单仍有名字未划掉。"
+      },
+      "tail_hook": {
+        "type": "人物余波",
+        "text": "最后一处失联名单仍有一个名字没有划掉。"
+      },
+      "next_chase": "沿失联名单追最后一个人，确认不是把‘未找到’偷换成‘已安全’。",
+      "causal_chain": {
+        "seed": "万家灯火亮起来时，仍有一盏不能被假装已经亮了。",
+        "misread": "灾难会让所有人自然团结；一次正确选择可以抵销旧罪。",
+        "recheck": "船主拒救、有人插队和抢粮，正因为规则被执行、错误被标记，协作仍未崩溃。",
+        "reframe": "危机合作不等于旧账清零，正确选择能救人但不能自动购买宽恕。"
+      },
+      "continuity_refs": [
+        "S1-E35",
+        "EVT-Y0-009",
+        "EVT-Y0-010",
+        "OBS-W-007",
+        "OBS-W-010",
+        "REL-S2C-35-01"
+      ],
+      "pov_ids": [
+        "CHR-L3-02",
+        "CHR-L3-03",
+        "CHR-L1-01",
+        "CHR-L2-02",
+        "CHR-B-019"
+      ],
       "activity_ids": [
         "EVT-008"
       ],
@@ -1475,24 +3711,102 @@
       "episode_id": "S1-E36",
       "arc_id": "ARC-06",
       "title": "今日柳绿",
-      "status": "DRAFT-SCAFFOLD",
+      "status": "SEASON-DRAFT",
       "duration_minutes": 45,
-      "central_question": null,
-      "opening_state": null,
-      "city_evidence": null,
-      "relationship_choice": null,
-      "profession_action": null,
-      "clue_seed": null,
-      "misread": null,
-      "recheck": null,
-      "reframe": null,
-      "irreversible_cost": null,
-      "episode_choice": null,
-      "tail_hook": null,
-      "next_chase": null,
-      "causal_chain": null,
-      "continuity_refs": [],
-      "pov_ids": [],
+      "central_question": "春信最终传递的是什么，记录事实的人是否必须替明天解释？",
+      "opening_state": "春分前后灾后清点、葬送、审查、赔偿、修路和重新开门，没有庆功大典。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-010"
+        ],
+        "observation_ids": [
+          "OBS-W-010"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-001",
+          "LOC-002",
+          "LOC-013",
+          "LOC-016",
+          "LOC-018"
+        ],
+        "description": "灾后清点把错误、死亡、赔偿和修复写入同一份公信案；孩子带来‘西桥边今日柳绿’的亲见记录。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-005",
+          "REL-001",
+          "REL-006",
+          "REL-012",
+          "REL-009"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L2-01",
+          "CHR-L1-05",
+          "CHR-L3-01",
+          "CHR-L3-02",
+          "CHR-L2-04"
+        ],
+        "choice": "沈蘅公开沈怀川错误记录，拒绝成为春信之主；陆清和把香匣交给她但承认她可能后悔。",
+        "delta": "母女获得不完美的共同工作；沈与顾并肩但不清零旧伤，宋、黎、高各自接受后果。",
+        "evidence_ids": [
+          "REL-S2C-36-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L1-01",
+        "action": "在孩子的纸条上只写时刻、地点和‘亲见’，不替柳绿解释成春天已至。",
+        "capability_ref": "characters/central/chr-l1-01-shen-heng.md"
+      },
+      "clue_seed": {
+        "kind": "价值回返",
+        "description": "最普通的城市观察在灾后仍可被记录，不需要先被宏大叙事认证。",
+        "source_ids": [
+          "EVT-Y0-010",
+          "OBS-W-010"
+        ]
+      },
+      "misread": "结局必须解释春天、清零旧账或让所有关系和好。",
+      "recheck": "审查、赔偿、修路与未完成的哀悼都保留；孩子的记录只证明一处柳绿。",
+      "reframe": "春信的终点不是解释世界，而是让人间能把事实写给明天并允许后来者纠正。",
+      "irreversible_cost": "沈蘅拒绝权威称谓，宋受审、高问失官、黎产业拆分、余留小济堂，各人保留未解决问题。",
+      "episode_choice": {
+        "actor": "CHR-L1-01",
+        "action": "建立可复制的春信屋与公信案，写下‘亲见’而非‘春天来了’。",
+        "cost": "她放弃成为唯一中心，接受系统会在没有她时继续、也可能继续犯错。",
+        "state_change": "系统完成一次无危机测试，城市带伤进入明天。"
+      },
+      "tail_hook": {
+        "type": "生活回响",
+        "text": "孩子递来一张纸：‘西桥边，今日柳绿。’"
+      },
+      "next_chase": "把亲见记录交给下一位记录者，验证春信屋不依赖沈蘅本人。",
+      "causal_chain": {
+        "seed": "春信从来不是写给春天的信，是人间写给明天的信。",
+        "misread": "结局必须解释春天、清零旧账或让所有关系和好。",
+        "recheck": "审查、赔偿、修路与未完成的哀悼都保留；孩子的记录只证明一处柳绿。",
+        "reframe": "春信的终点不是解释世界，而是让人间能把事实写给明天并允许后来者纠正。"
+      },
+      "continuity_refs": [
+        "S1-E36",
+        "EVT-Y0-010",
+        "OBS-W-010",
+        "REL-S2C-36-01"
+      ],
+      "pov_ids": [
+        "CHR-L1-01",
+        "CHR-L2-01",
+        "CHR-L1-05",
+        "CHR-L3-01",
+        "CHR-L2-04"
+      ],
       "activity_ids": [
         "EVT-015"
       ],
@@ -1501,5 +3815,5 @@
       ]
     }
   ],
-  "next_gate": "Season Gate 前仅允许补全因果账本，不写正式对白、最终 U 身份或 BG 微章绑定。"
+  "next_gate": "S2-C 完成；下一步进行 E01–E36 逐集正式剧本、表演、分镜与 AIGC 资产绑定前的 Episode Gate。"
 }

@@ -10,7 +10,7 @@
 |---|---|---|---|
 | P0 Canon | `LOCKED` | 使用世界、时间、春信机制、城市系统和 36 集配额 | 改写 Canon 事实而不重开 Gate |
 | P1 Character Foundation | `LOCKED` | 使用 84 名具名人物、17 条关系、6 条情感脊柱和 B 级生活细节 | 在人物卡里写入具体母集、微短章或镜头绑定 |
-| P2 Season | `OPEN` | 建立 36 集因果、悬疑翻转、活动与幽默登记 | 直接写正式对白、最终 U 身份或 BG 微章绑定 |
+| P2 Season | `OPEN` | 使用已完成的 36 集因果、悬疑翻转、活动、幽默与 648 短章钩子，准备 Episode Gate | 直接写正式对白、最终 U 身份或 BG 微章绑定 |
 | P3 Episode/AIGC | `OPEN` | 仅在 Season Gate 后制作 E01–E03 试点 | 在 Season Gate 前批量生产成片资产 |
 
 ## 审计后确认（2026-08-25）
@@ -37,6 +37,13 @@
 - `humor-register-matrix.json`：36 个角色化幽默绑定；逐条标注意图、潜台词、听者反应、笑点回收、时代转译与禁用目标，未使用现代网络词。
 - 三份审阅报告均为 `REVIEWED-SAMPLE-PASS`；季因果账本已回写每集 `activity_ids` 与 `humor_ids`。
 - 这些矩阵仍是 Season 层样本草案：S2-C 还需把它们绑定到 E07–E36 的完整因果账本和 648 个 2–3 分钟短章，Season Gate 继续保持 `OPEN`。
+
+## S2-C 全季结果（2026-08-25）
+
+- `season-causal-ledger.json` 已从六集样本升级为 36/36 集 `SEASON-DRAFT`；E07–E36 每集均补齐中心问题、开场状态、城市证据、关系选择、职业动作、播种/误读/复核/重义、不可逆代价、选择、片尾钩子和下一追问。
+- 新增 `short-chapter-hook-map.json` 与 schema，648/648 章按 36×18 展开；每章约 150 秒，具备单一 POV、功能、冷钩、目标/阻力、证据或关系动作、选择代价、章尾钩子、下一追问和状态变化。
+- `scripts/audit_season_causal_ledger.py` 与 `scripts/audit_season_s2c.py` 均通过，报告为 `REVIEWED-SEASON-PASS`；人物、关系、地点、事件、观察和职业能力引用可追溯，集内连续尾钩类型不重复。
+- S2-C 仍不关闭 Season Gate：短章是节拍层，不是最终对白/分镜/AIGC；下一阶段应进入 U 候选与自然回访边界，然后再做 Season Gate 双重审读。
 
 ## 执行顺序
 
@@ -75,7 +82,7 @@
 - 输出：`story/season/short-chapter-hook-map.json`、`qa/reviews/season-hook-review.json`。
 - 每章字段：`chapter_id`、`episode_id`、`pov_id`、`function`、`cold_hook`、`goal_obstacle`、`evidence_or_relationship_action`、`choice_cost`、`tail_hook_type`、`tail_hook`、`next_chase`、`state_delta`。
 - 默认时长：2–3 分钟；结构为 0–10 秒冷钩子、10–45 秒目标阻力、45–100 秒证据/关系动作、100–150 秒选择代价、最后 10–20 秒尾钩。
-- 完成条件：648/648 章齐全；每集 18 章；单章一个首要 POV、一个叙事功能、一个状态变化；连续三章不重复尾钩类型。
+- 完成条件：648/648 章齐全；每集 18 章；单章一个首要 POV、一个叙事功能、一个状态变化；相邻章尾钩不重复，且尾章绑定本集片尾钩子。**已完成：`REVIEWED-SEASON-PASS`。**
 
 ### S2-06｜U 候选与回访准备
 
@@ -104,9 +111,9 @@
 
 ## 本轮立即执行的三项任务
 
-1. 建立 `story/season/season-causal-ledger.json` 的 schema 与 36 集空白记录；
-2. 从 E01–E06 开始填写第一篇，先验证“香灰见字→五信初合”的线索回溯和尾钩轮换；
-3. 用第一篇样本反向校验关系选择、职业动作、宋代活动和幽默是否都能产生不可逆代价，再批量扩展 E07–E36。
+1. 保持 S2-C 产物与 P0/P1 锁定事实同步，禁止旧脚本把全季账本回滚为脚手架；
+2. 进入 S2-06：只从 120 个预留槽位中选择 U 候选，建立自然回访边界，不绑定 BG 微章；
+3. 准备 Season Gate 的两份独立审读：一份查因果与悬疑，一份查关系、活动、幽默和可替换性。
 
 ## 下一次执行批次（建议按一个短冲刺完成）
 
