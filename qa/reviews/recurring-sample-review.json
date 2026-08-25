@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "status": "REVIEWED-SAMPLE-PASS",
+  "scope": "P1 B-level recurring life-circle sample review",
+  "sample_count": 16,
+  "circle_count": 8,
+  "coverage_rule": "8 个生活圈各抽 2 人",
+  "findings": [],
+  "samples": [
+    {
+      "id": "CHR-B-001",
+      "name": "吴巧娘",
+      "circle_id": "A",
+      "circle": "鹤鸣巷与香药街",
+      "profile_path": "characters/recurring/chr-b-001-wu-qiaoniang.md",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "age_and_occupation_stage": "PASS",
+        "family_and_economic_pressure": "PASS",
+        "first_daily_and_life_circle": "PASS",
+        "profession_echo_and_return": "PASS"
+      },
+      "notes": "已按生活圈抽样阅读：年龄/职业阶段、家庭与经济压力、首次日常、非中央关系和终局职业回响均可支持后续镜头设计；最终场次与 microchapter ID 仍由下游 Gate 绑定。"
+    },
+    {
+      "id": "CHR-B-006",
+      "name": "孙锁叔",
+      "circle_id": "A",
+      "circle": "鹤鸣巷与香药街",
+      "profile_path": "characters/recurring/chr-b-006-sun-suozhu.md",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "age_and_occupation_stage": "PASS",
+        "family_and_economic_pressure": "PASS",
+        "first_daily_and_life_circle": "PASS",
+        "profession_echo_and_return": "PASS"
+      },
+      "notes": "已按生活圈抽样阅读：年龄/职业阶段、家庭与经济压力、首次日常、非中央关系和终局职业回响均可支持后续镜头设计；最终场次与 microchapter ID 仍由下游 Gate 绑定。"
+    },
+    {
+      "id": "CHR-B-009",
+      "name": "霍小青",
+      "circle_id": "B",
+      "circle": "春台瓦舍与夜市",
+      "profile_path": "characters/recurring/chr-b-009-huo-xiaoqing.md",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "age_and_occupation_stage": "PASS",
+        "family_and_economic_pressure": "PASS",
+        "first_daily_and_life_circle": "PASS",
+        "profession_echo_and_return": "PASS"
+      },
+      "notes": "已按生活圈抽样阅读：年龄/职业阶段、家庭与经济压力、首次日常、非中央关系和终局职业回响均可支持后续镜头设计；最终场次与 microchapter ID 仍由下游 Gate 绑定。"
+    },
+    {
+      "id": "CHR-B-010",
+      "name": "葛三娘",
+      "circle_id": "B",
+      "circle": "春台瓦舍与夜市",
+      "profile_path": "characters/recurring/chr-b-010-ge-sanniang.md",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "age_and_occupation_stage": "PASS",
+        "family_and_economic_pressure": "PASS",
+        "first_daily_and_life_circle": "PASS",
+        "profession_echo_and_return": "PASS"
+      },
+      "notes": "已按生活圈抽样阅读：年龄/职业阶段、家庭与经济压力、首次日常、非中央关系和终局职业回响均可支持后续镜头设计；最终场次与 microchapter ID 仍由下游 Gate 绑定。"
+    },
+    {
+      "id": "CHR-B-015",
+      "name": "梁茂生",
+      "circle_id": "C",
+      "circle": "西泠书坊街",
+      "profile_path": "characters/recurring/chr-b-015-liang-maosheng.md",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "age_and_occupation_stage": "PASS",
+        "family_and_economic_pressure": "PASS",
+        "first_daily_and_life_circle": "PASS",
+        "profession_echo_and_return": "PASS"
+      },
+      "notes": "已按生活圈抽样阅读：年龄/职业阶段、家庭与经济压力、首次日常、非中央关系和终局职业回响均可支持后续镜头设计；最终场次与 microchapter ID 仍由下游 Gate 绑定。"
+    },
+    {
+      "id": "CHR-B-017",
+      "name": "魏东篱",
+      "circle_id": "C",
+      "circle": "西泠书坊街",
+      "profile_path": "characters/recurring/chr-b-017-wei-dongli.md",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "age_and_occupation_stage": "PASS",
+        "family_and_economic_pressure": "PASS",
+        "first_daily_and_life_circle": "PASS",
+        "profession_echo_and_return": "PASS"
+      },
+      "notes": "已按生活圈抽样阅读：年龄/职业阶段、家庭与经济压力、首次日常、非中央关系和终局职业回响均可支持后续镜头设计；最终场次与 microchapter ID 仍由下游 Gate 绑定。"
+    },
+    {
+      "id": "CHR-B-019",
+      "name": "孟小川",
+      "circle_id": "D",
+      "circle": "钱塘码头与漕运",
+      "profile_path": "characters/recurring/chr-b-019-meng-xiaochuan.md",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "age_and_occupation_stage": "PASS",
+        "family_and_economic_pressure": "PASS",
+        "first_daily_and_life_circle": "PASS",
+        "profession_echo_and_return": "PASS"
+      },
+      "notes": "已按生活圈抽样阅读：年龄/职业阶段、家庭与经济压力、首次日常、非中央关系和终局职业回响均可支持后续镜头设计；最终场次与 microchapter ID 仍由下游 Gate 绑定。"
+    },
+    {
+      "id": "CHR-B-023",
+      "name": "包二胜",
+      "circle_id": "D",
+      "circle": "钱塘码头与漕运",
+      "profile_path": "characters/recurring/chr-b-023-bao-ersheng.md",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "age_and_occupation_stage": "PASS",
+        "family_and_economic_pressure": "PASS",
+        "first_daily_and_life_circle": "PASS",
+        "profession_echo_and_return": "PASS"
+      },
+      "notes": "已按生活圈抽样阅读：年龄/职业阶段、家庭与经济压力、首次日常、非中央关系和终局职业回响均可支持后续镜头设计；最终场次与 microchapter ID 仍由下游 Gate 绑定。"
+    },
+    {
+      "id": "CHR-B-026",
+      "name": "乔听雨",
+      "circle_id": "E",
+      "circle": "停云酒肆、客舍与商旅",
+      "profile_path": "characters/recurring/chr-b-026-qiao-tingyu.md",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "age_and_occupation_stage": "PASS",
+        "family_and_economic_pressure": "PASS",
+        "first_daily_and_life_circle": "PASS",
+        "profession_echo_and_return": "PASS"
+      },
+      "notes": "已按生活圈抽样阅读：年龄/职业阶段、家庭与经济压力、首次日常、非中央关系和终局职业回响均可支持后续镜头设计；最终场次与 microchapter ID 仍由下游 Gate 绑定。"
+    },
+    {
+      "id": "CHR-B-029",
+      "name": "朱杏娘",
+      "circle_id": "E",
+      "circle": "停云酒肆、客舍与商旅",
+      "profile_path": "characters/recurring/chr-b-029-zhu-xingniang.md",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "age_and_occupation_stage": "PASS",
+        "family_and_economic_pressure": "PASS",
+        "first_daily_and_life_circle": "PASS",
+        "profession_echo_and_return": "PASS"
+      },
+      "notes": "已按生活圈抽样阅读：年龄/职业阶段、家庭与经济压力、首次日常、非中央关系和终局职业回响均可支持后续镜头设计；最终场次与 microchapter ID 仍由下游 Gate 绑定。"
+    },
+    {
+      "id": "CHR-B-031",
+      "name": "许九章",
+      "circle_id": "F",
+      "circle": "城务司、临安府与军伍",
+      "profile_path": "characters/recurring/chr-b-031-xu-jiuzhang.md",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "age_and_occupation_stage": "PASS",
+        "family_and_economic_pressure": "PASS",
+        "first_daily_and_life_circle": "PASS",
+        "profession_echo_and_return": "PASS"
+      },
+      "notes": "已按生活圈抽样阅读：年龄/职业阶段、家庭与经济压力、首次日常、非中央关系和终局职业回响均可支持后续镜头设计；最终场次与 microchapter ID 仍由下游 Gate 绑定。"
+    },
+    {
+      "id": "CHR-B-035",
+      "name": "梁成武",
+      "circle_id": "F",
+      "circle": "城务司、临安府与军伍",
+      "profile_path": "characters/recurring/chr-b-035-liang-chengwu.md",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "age_and_occupation_stage": "PASS",
+        "family_and_economic_pressure": "PASS",
+        "first_daily_and_life_circle": "PASS",
+        "profession_echo_and_return": "PASS"
+      },
+      "notes": "已按生活圈抽样阅读：年龄/职业阶段、家庭与经济压力、首次日常、非中央关系和终局职业回响均可支持后续镜头设计；最终场次与 microchapter ID 仍由下游 Gate 绑定。"
+    },
+    {
+      "id": "CHR-B-037",
+      "name": "冯药儿",
+      "circle_id": "G",
+      "circle": "医馆、寺院与流民救济",
+      "profile_path": "characters/recurring/chr-b-037-feng-yaoer.md",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "age_and_occupation_stage": "PASS",
+        "family_and_economic_pressure": "PASS",
+        "first_daily_and_life_circle": "PASS",
+        "profession_echo_and_return": "PASS"
+      },
+      "notes": "已按生活圈抽样阅读：年龄/职业阶段、家庭与经济压力、首次日常、非中央关系和终局职业回响均可支持后续镜头设计；最终场次与 microchapter ID 仍由下游 Gate 绑定。"
+    },
+    {
+      "id": "CHR-B-039",
+      "name": "净圆",
+      "circle_id": "G",
+      "circle": "医馆、寺院与流民救济",
+      "profile_path": "characters/recurring/chr-b-039-jingyuan.md",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "age_and_occupation_stage": "PASS",
+        "family_and_economic_pressure": "PASS",
+        "first_daily_and_life_circle": "PASS",
+        "profession_echo_and_return": "PASS"
+      },
+      "notes": "已按生活圈抽样阅读：年龄/职业阶段、家庭与经济压力、首次日常、非中央关系和终局职业回响均可支持后续镜头设计；最终场次与 microchapter ID 仍由下游 Gate 绑定。"
+    },
+    {
+      "id": "CHR-B-043",
+      "name": "魏开元",
+      "circle_id": "H",
+      "circle": "汇川行、北归社与城外仓运",
+      "profile_path": "characters/recurring/chr-b-043-wei-kaiyuan.md",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "age_and_occupation_stage": "PASS",
+        "family_and_economic_pressure": "PASS",
+        "first_daily_and_life_circle": "PASS",
+        "profession_echo_and_return": "PASS"
+      },
+      "notes": "已按生活圈抽样阅读：年龄/职业阶段、家庭与经济压力、首次日常、非中央关系和终局职业回响均可支持后续镜头设计；最终场次与 microchapter ID 仍由下游 Gate 绑定。"
+    },
+    {
+      "id": "CHR-B-047",
+      "name": "郑北鸿",
+      "circle_id": "H",
+      "circle": "汇川行、北归社与城外仓运",
+      "profile_path": "characters/recurring/chr-b-047-zheng-beihong.md",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "age_and_occupation_stage": "PASS",
+        "family_and_economic_pressure": "PASS",
+        "first_daily_and_life_circle": "PASS",
+        "profession_echo_and_return": "PASS"
+      },
+      "notes": "已按生活圈抽样阅读：年龄/职业阶段、家庭与经济压力、首次日常、非中央关系和终局职业回响均可支持后续镜头设计；最终场次与 microchapter ID 仍由下游 Gate 绑定。"
+    }
+  ],
+  "manual_followup": [
+    "样本通过不等于 48 名 B 级人物全部通过；其余 32 名保留为扩展审读对象。",
+    "Season Gate 绑定前不写入具体集号、母集或 microchapter ID。"
+  ]
+}

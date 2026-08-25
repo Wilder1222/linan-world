@@ -9,6 +9,7 @@ ROSTER = ROOT / "qa/character-roster.json"
 CONTENT_AUDIT = ROOT / "qa/reviews/character-foundation-audit.json"
 STATE_AUDIT = ROOT / "qa/reviews/profile-state-chain-audit.json"
 DEMOGRAPHIC_AUDIT = ROOT / "qa/reviews/recurring-demographic-audit.json"
+RECURRING_SAMPLE_REVIEW = ROOT / "qa/reviews/recurring-sample-review.json"
 RELATION_EVIDENCE = ROOT / "qa/relationship-evidence.json"
 SPINES = ROOT / "qa/emotional-spines.json"
 REPORT = ROOT / "qa/reviews/character-foundation-review-matrix.json"
@@ -95,6 +96,7 @@ def build() -> dict:
     content_audit = read_json(CONTENT_AUDIT)
     state_audit = read_json(STATE_AUDIT)
     demographic_audit = read_json(DEMOGRAPHIC_AUDIT)
+    recurring_sample_review = read_json(RECURRING_SAMPLE_REVIEW)
     evidence = read_json(RELATION_EVIDENCE)
     spines = read_json(SPINES)
 
@@ -146,6 +148,8 @@ def build() -> dict:
             "important_reviewed": important_reviewed,
             "important_pending": important_pending,
             "recurring_pending": sum(1 for item in profiles if item["tier"] == "B"),
+            "recurring_sample_reviewed": recurring_sample_review.get("sample_count", 0),
+            "recurring_sample_circles": recurring_sample_review.get("circle_count", 0),
             "relationship_total": len(relationships),
             "relationship_evidence_total": sum(item["foundation_evidence_count"] for item in relationships),
             "emotional_spine_total": len(spine_reviews),
@@ -154,17 +158,22 @@ def build() -> dict:
         "profiles": profiles,
         "relationships": relationships,
         "emotional_spines": spine_reviews,
+        "recurring_sample_review": {
+            "status": recurring_sample_review.get("status"),
+            "sample_count": recurring_sample_review.get("sample_count", 0),
+            "circle_count": recurring_sample_review.get("circle_count", 0),
+            "report_path": "qa/reviews/recurring-sample-review.json",
+        },
         "u_bg_boundary": {
             "U": {"status": "PENDING-SEASON-GATE", "rule": "保持可替换候选，不提前分配唯一主线身份"},
             "BG": {"status": "PENDING-EPISODE-GATE", "rule": "具体 microchapter_ids 与 extension_ids 只能由 Episode Gate 写入"},
         },
         "gate_blockers": [
-            "48 名 B 级人物尚未完成生活圈抽样审读",
             "17 条关系的 Foundation 证据尚未完成选择改变性复核",
             "6 条情感脊柱的 36 个状态尚未完成压力测试",
             "U/BG 尚未进入下游 Gate 绑定",
         ],
-        "next_action": "按 8 个生活圈抽查 B 级人物；同步完成关系证据与情感脊柱压力测试，无阻断后再生成 Character Foundation Gate 证书。",
+        "next_action": "完成 17 条关系证据与 6 条情感脊柱压力测试；保留 32 名非样本 B 级人物作扩展审读，无阻断后再生成 Character Foundation Gate 证书。",
     }
 
 

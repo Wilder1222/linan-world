@@ -9,6 +9,8 @@
     "important_reviewed": 24,
     "important_pending": 0,
     "recurring_pending": 48,
+    "recurring_sample_reviewed": 16,
+    "recurring_sample_circles": 8,
     "relationship_total": 17,
     "relationship_evidence_total": 136,
     "emotional_spine_total": 6,
@@ -1919,6 +1921,12 @@
       ]
     }
   ],
+  "recurring_sample_review": {
+    "status": "REVIEWED-SAMPLE-PASS",
+    "sample_count": 16,
+    "circle_count": 8,
+    "report_path": "qa/reviews/recurring-sample-review.json"
+  },
   "u_bg_boundary": {
     "U": {
       "status": "PENDING-SEASON-GATE",
@@ -1930,10 +1938,9 @@
     }
   },
   "gate_blockers": [
-    "48 名 B 级人物尚未完成生活圈抽样审读",
     "17 条关系的 Foundation 证据尚未完成选择改变性复核",
     "6 条情感脊柱的 36 个状态尚未完成压力测试",
     "U/BG 尚未进入下游 Gate 绑定"
   ],
-  "next_action": "按 8 个生活圈抽查 B 级人物；同步完成关系证据与情感脊柱压力测试，无阻断后再生成 Character Foundation Gate 证书。"
+  "next_action": "完成 17 条关系证据与 6 条情感脊柱压力测试；保留 32 名非样本 B 级人物作扩展审读，无阻断后再生成 Character Foundation Gate 证书。"
 }
