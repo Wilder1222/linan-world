@@ -24,6 +24,7 @@
 | `qa/reviews/season-s2c-review.json` | S2-C 全季账本与短章钩子审阅 | REVIEWED-SEASON-PASS |
 | `qa/reviews/season-hook-review.json` | 648 短章逐章字段、18 章/集、尾钩轮换与回接审阅 | REVIEWED-SEASON-PASS |
 | `qa/reviews/season-gate-causal-mystery-review.json` | SG-01 独立审读：36 集因果、18 条悬疑/翻转链、648 章钩子与前置证据回接 | REVIEWED-SEASON-PASS |
+| `qa/reviews/season-gate-relationship-life-humor-review.json` | SG-02 独立审读：关系、宋代活动、幽默、U 可替换性与 BG 边界 | REVIEWED-SEASON-PASS |
 | `story/season/u-candidate-selection.schema.json` | U 槽位候选、POV 映射、自然回访与 Gate 边界字段规范 | LOCKED-SCHEMA |
 | `story/season/u-candidate-selection.json` | 22 个 POV 候选、40 个自然回访候选及 120 槽位保留状态 | SEASON-DRAFT |
 | `qa/reviews/season-u-boundary-review.json` | S2-06 候选可追溯性、可替换性、U/BG 边界审阅 | REVIEWED-SEASON-PASS |
@@ -45,3 +46,7 @@ S2-06 从 `qa/unit-slots.json` 的 120 个 RESERVED 槽位中选出 22 个 POV �
 ## SG-01 因果与悬疑独立审读结论
 
 `qa/reviews/season-gate-causal-mystery-review.json` 已完成重建并为 `REVIEWED-SEASON-PASS`：36/36 集中心问题、城市证据、职业动作、关系选择、不可逆代价和片尾回接完整；18/18 条悬疑链均可沿“播种 → 误读 → 复核 → 重义 → 代价”追溯；648/648 章具备可执行钩子，且每集尾章与季账本尾钩类型、下一追问一致。SG-02 仍待独立审读，Season Gate 保持 `OPEN`。
+
+## SG-02 关系、生活活动与幽默独立审读结论
+
+`qa/reviews/season-gate-relationship-life-humor-review.json` 已完成重建并为 `REVIEWED-SEASON-PASS`：17 条关系的 136 条阶段证据、36 个活动、36 个幽默绑定、120 个 U 槽位与 300 个 BG 原型均通过边界审读。关系、活动与笑点都具备状态变化或情绪回收；U 仍可替换，BG 未提前绑定。SG-03 仍待建立例外账本，Season Gate 保持 `OPEN`。
