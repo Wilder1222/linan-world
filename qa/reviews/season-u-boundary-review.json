@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "status": "REVIEWED-SEASON-PASS",
+  "scope": "P2 S2-06 U candidate and natural return boundary review",
+  "slot_total": 120,
+  "pov_slot_total": 22,
+  "natural_return_candidate_total": 40,
+  "selected_slot_total": 40,
+  "alternate_pov_total": 22,
+  "reserved_unselected_total": 80,
+  "checks": {
+    "all_120_slots_preserve_reserved_source": true,
+    "22_pov_slots_selected_and_traceable": true,
+    "40_natural_returns_selected_and_traceable": true,
+    "unselected_u_reserved": true,
+    "no_named_identity_assigned": true,
+    "bg_not_bound": true,
+    "replacement_rules_present": true
+  },
+  "findings": [],
+  "deferred_followup": [
+    "Season Gate 通过后才可把候选 U 槽位写入唯一姓名与最终关系/场次。",
+    "Episode Gate 通过后才可为 BG 原型写入具体 microchapter_ids 与 extension_ids。"
+  ]
+}

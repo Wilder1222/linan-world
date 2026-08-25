@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Linan Spring Letter Season U Candidate Selection",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "status",
+    "scope",
+    "source_refs",
+    "slot_total",
+    "pov_slot_count",
+    "pov_candidate_count",
+    "natural_return_candidate_count",
+    "selected_pov_count",
+    "selected_natural_return_count",
+    "pov_selections",
+    "natural_return_selections",
+    "slots",
+    "boundary_rules",
+    "next_gate"
+  ],
+  "properties": {
+    "schema_version": {"type": "integer", "const": 1},
+    "status": {"type": "string", "const": "SEASON-DRAFT"},
+    "scope": {"type": "string"},
+    "source_refs": {"type": "array", "minItems": 4, "items": {"type": "string"}},
+    "slot_total": {"type": "integer", "const": 120},
+    "pov_slot_count": {"type": "integer", "const": 22},
+    "pov_candidate_count": {"type": "integer", "const": 44},
+    "natural_return_candidate_count": {"type": "integer", "const": 40},
+    "selected_pov_count": {"type": "integer", "const": 22},
+    "selected_natural_return_count": {"type": "integer", "minimum": 40},
+    "pov_selections": {"type": "array", "minItems": 22, "maxItems": 22},
+    "natural_return_selections": {"type": "array", "minItems": 40},
+    "slots": {"type": "array", "minItems": 120, "maxItems": 120},
+    "boundary_rules": {"type": "object"},
+    "next_gate": {"type": "string"}
+  },
+  "additionalProperties": true
+}

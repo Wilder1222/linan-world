@@ -45,6 +45,13 @@
 - `scripts/audit_season_causal_ledger.py` 与 `scripts/audit_season_s2c.py` 均通过，报告为 `REVIEWED-SEASON-PASS`；人物、关系、地点、事件、观察和职业能力引用可追溯，集内连续尾钩类型不重复。
 - S2-C 仍不关闭 Season Gate：短章是节拍层，不是最终对白/分镜/AIGC；下一阶段应进入 U 候选与自然回访边界，然后再做 Season Gate 双重审读。
 
+## S2-06 U 候选结果（2026-08-25）
+
+- `story/season/u-candidate-selection.json` 已从 120 个 RESERVED 槽位中选择 22 个 POV 候选与 40 个自然回访候选；22/22 POV 均回溯到集/章上下文，40/40 回访候选均有首次出现与回场原因。
+- `scripts/audit_season_u_candidates.py` 已通过，报告为 `REVIEWED-SEASON-PASS`；40 个选中槽位仍可替换，另有 22 个 POV 候选保留为替换池，80 个未选槽位继续保持 RESERVED。
+- S2-06 不写入唯一姓名、最终 scene/dialogue/shot ID，也不修改 `qa/unit-slots.json`；BG 300 个原型仍保持 RESERVED，`microchapter_ids` 与 `extension_ids` 继续为空。
+- Season Gate 仍保持 `OPEN`，下一步是两份独立 Season Gate 审读：因果/悬疑一份，关系/活动/幽默/可替换性一份。
+
 ## 执行顺序
 
 ### S2-01｜36 集因果账本（第一优先级）
@@ -90,6 +97,8 @@
 - 输出：`story/season/u-candidate-selection.json`、`qa/reviews/season-u-boundary-review.json`。
 - 完成条件：只从 120 个预留槽位中选择候选；22 个 POV 槽位、至少 40 个自然回访候选均可回溯到集/章；未选 U 继续保持 `RESERVED`；不在此阶段给 BG 写入具体微章 ID。
 
+**已完成：`REVIEWED-SEASON-PASS`。**
+
 ### S2-07｜Season Gate
 
 - 输入：S2-01 至 S2-06 的正式产物、两份独立审读、严格校验报告。
@@ -111,9 +120,9 @@
 
 ## 本轮立即执行的三项任务
 
-1. 保持 S2-C 产物与 P0/P1 锁定事实同步，禁止旧脚本把全季账本回滚为脚手架；
-2. 进入 S2-06：只从 120 个预留槽位中选择 U 候选，建立自然回访边界，不绑定 BG 微章；
-3. 准备 Season Gate 的两份独立审读：一份查因果与悬疑，一份查关系、活动、幽默和可替换性。
+1. 保持 S2-C 与 S2-06 产物和 P0/P1 锁定事实同步，禁止旧脚本把全季账本回滚为脚手架；
+2. 准备 Season Gate 的两份独立审读：一份查因果与悬疑，一份查关系、活动、幽默和可替换性；
+3. Season Gate 通过后再进入 E01–E03 Episode/AIGC 试点，不提前绑定 U 唯一身份或 BG 微章。
 
 ## 下一次执行批次（建议按一个短冲刺完成）
 

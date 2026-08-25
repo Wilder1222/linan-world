@@ -86,6 +86,8 @@
 - 至少 40 个自然回访候选要有首次出现与回场原因；
 - 非候选 U 仍保持 `RESERVED`，不得在季纲中被写成既成身份。
 
+当前结果：`story/season/u-candidate-selection.json` 已完成 22/22 POV 候选与 40/40 自然回访候选映射；`qa/reviews/season-u-boundary-review.json` 为 `REVIEWED-SEASON-PASS`。候选仅锁定可替换的功能位置，未写入唯一身份、最终 scene/dialogue/shot；BG 仍保持 Episode Gate 前不绑定具体微章。
+
 ### P2-07｜Season Gate
 
 Gate 输入必须包括：36 集因果账本、季级悬疑/翻转矩阵、活动矩阵、幽默矩阵、U 候选分配与审读记录。通过条件：
