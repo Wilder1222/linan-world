@@ -1,0 +1,2598 @@
+{
+  "schema_version": 1,
+  "status": "P3-03-DRAFT",
+  "episode_id": "S1-E01",
+  "scenes": [
+    {
+      "scene_id": "SCN-S1-E01-M01",
+      "chapter_id": "S1-E01-M01",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-001",
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "柜台—后仓门槛轴",
+        "zones": [
+          "前堂柜台",
+          "后仓门槛"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M01-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "前堂柜台",
+              "后仓门槛"
+            ],
+            "movement": "沈蘅由柜台到后仓；陆清和停在门槛内侧。",
+            "contact": "无新触碰；陆清和伸手取匣后收回。",
+            "prop_handling": "旧匣由沈蘅双手托住，香丸不脱离匣底。",
+            "axis": "柜台—后仓门槛轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "前堂柜台",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "雨后檐下天光",
+              "前堂一盏未完全拨亮的油灯"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M01-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-01",
+            "action_path": "沈蘅由柜台到后仓；陆清和停在门槛内侧。",
+            "contact": "无新触碰；陆清和伸手取匣后收回。",
+            "prop_handling": "旧匣由沈蘅双手托住，香丸不脱离匣底。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "前堂柜台",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "雨后檐下天光",
+              "前堂一盏未完全拨亮的油灯"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M01-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-01",
+            "end_position": "后仓门槛",
+            "contact": "无新触碰；陆清和伸手取匣后收回。",
+            "prop_handling": "旧匣由沈蘅双手托住，香丸不脱离匣底。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "后仓门槛",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "雨后檐下天光",
+              "前堂一盏未完全拨亮的油灯"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "母女从共同开铺转为各自守着一件东西；后仓第一次成为需要记录的空间。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M02",
+      "chapter_id": "S1-E01-M02",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "案桌—门闩轴",
+        "zones": [
+          "后仓案桌",
+          "门闩"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M02-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "后仓案桌",
+              "门闩"
+            ],
+            "movement": "孙锁叔靠近案桌后退回门边；陆清和负责门闩。",
+            "contact": "沈蘅与孙锁叔不碰手；陆清和只碰门闩。",
+            "prop_handling": "胶丝落在白纸中央，竹片与镊子分置两侧。",
+            "axis": "案桌—门闩轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "后仓案桌",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "后仓窄窗散射天光",
+              "案桌小油灯"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M02-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-01",
+            "action_path": "孙锁叔靠近案桌后退回门边；陆清和负责门闩。",
+            "contact": "沈蘅与孙锁叔不碰手；陆清和只碰门闩。",
+            "prop_handling": "胶丝落在白纸中央，竹片与镊子分置两侧。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "后仓案桌",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "后仓窄窗散射天光",
+              "案桌小油灯"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M02-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-01",
+            "end_position": "门闩",
+            "contact": "沈蘅与孙锁叔不碰手；陆清和只碰门闩。",
+            "prop_handling": "胶丝落在白纸中央，竹片与镊子分置两侧。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "门闩",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "后仓窄窗散射天光",
+              "案桌小油灯"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "胶痕成为第一条当代证据；陆清和将后仓门纳入日常锁闭。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M03",
+      "chapter_id": "S1-E01-M03",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-001",
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "碗架—后仓门外轴",
+        "zones": [
+          "前堂碗架",
+          "后仓门外"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M03-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "前堂碗架",
+              "后仓门外"
+            ],
+            "movement": "阿沅从门口到碗架，再停在后仓门外；沈蘅不让路也不挡路。",
+            "contact": "沈蘅递纸，不触碰阿沅手。",
+            "prop_handling": "油纸记录夹在碗篮下，不遮住碗数。",
+            "axis": "碗架—后仓门外轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "前堂碗架",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "巷口雨后天光",
+              "前堂反射光"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M03-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-02",
+            "action_path": "阿沅从门口到碗架，再停在后仓门外；沈蘅不让路也不挡路。",
+            "contact": "沈蘅递纸，不触碰阿沅手。",
+            "prop_handling": "油纸记录夹在碗篮下，不遮住碗数。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "前堂碗架",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "巷口雨后天光",
+              "前堂反射光"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M03-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-02",
+            "end_position": "后仓门外",
+            "contact": "沈蘅递纸，不触碰阿沅手。",
+            "prop_handling": "油纸记录夹在碗篮下，不遮住碗数。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "后仓门外",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "巷口雨后天光",
+              "前堂反射光"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "阿沅获得临时记录权；沈蘅的调查开始离开香铺内部。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M04",
+      "chapter_id": "S1-E01-M04",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/05-west-lake-and-xiling-circle.md",
+        "location_ids": [
+          "LOC-009"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "柜台—门口轴",
+        "zones": [
+          "酒肆柜台",
+          "临窗桌"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M04-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "酒肆柜台",
+              "临窗桌"
+            ],
+            "movement": "顾行舟始终可见门口；沈蘅站在柜台外侧，不进入他的安全位。",
+            "contact": "无触碰；顾行舟只移动刀与纸。",
+            "prop_handling": "酒账与空白纸平行放置，刀尖朝内。",
+            "axis": "柜台—门口轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "酒肆柜台",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "酒肆门口阴天光",
+              "柜台暖油灯"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M04-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-05",
+            "action_path": "顾行舟始终可见门口；沈蘅站在柜台外侧，不进入他的安全位。",
+            "contact": "无触碰；顾行舟只移动刀与纸。",
+            "prop_handling": "酒账与空白纸平行放置，刀尖朝内。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "酒肆柜台",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "酒肆门口阴天光",
+              "柜台暖油灯"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M04-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-05",
+            "end_position": "临窗桌",
+            "contact": "无触碰；顾行舟只移动刀与纸。",
+            "prop_handling": "酒账与空白纸平行放置，刀尖朝内。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "临窗桌",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "酒肆门口阴天光",
+              "柜台暖油灯"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "两人建立‘提供事实但不代选’的初始边界；白芷价格进入并列疑报。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M05",
+      "chapter_id": "S1-E01-M05",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "案桌—炉边轴",
+        "zones": [
+          "案桌",
+          "炉边"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M05-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "案桌",
+              "炉边"
+            ],
+            "movement": "沈蘅围案桌半圈；陆清和保持炉边位置，只用听觉参与。",
+            "contact": "无人物触碰。",
+            "prop_handling": "切样、灰样、原匣三点分置，纸签朝外。",
+            "axis": "案桌—炉边轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "案桌",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯",
+              "炉火低光"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M05-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-01",
+            "action_path": "沈蘅围案桌半圈；陆清和保持炉边位置，只用听觉参与。",
+            "contact": "无人物触碰。",
+            "prop_handling": "切样、灰样、原匣三点分置，纸签朝外。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "案桌",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯",
+              "炉火低光"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M05-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-01",
+            "end_position": "炉边",
+            "contact": "无人物触碰。",
+            "prop_handling": "切样、灰样、原匣三点分置，纸签朝外。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "炉边",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯",
+              "炉火低光"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "香丸从一件遗物变成两份可追踪样本；‘未核’成为本集的工作规则。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M06",
+      "chapter_id": "S1-E01-M06",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "账桌—门边轴",
+        "zones": [
+          "账桌",
+          "门边",
+          "炉边"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M06-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "账桌",
+              "门边",
+              "炉边"
+            ],
+            "movement": "陆清和在桌与炉之间；顾行舟留门边；阿沅靠近纸但不拿走。",
+            "contact": "无触碰；纸张由陆清和推动。",
+            "prop_handling": "饭量纸与酒账不重叠，中央留‘疑报’空位。",
+            "axis": "账桌—门边轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "账桌",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "桌面油灯",
+              "门外雨后冷光"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M06-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-01",
+            "action_path": "陆清和在桌与炉之间；顾行舟留门边；阿沅靠近纸但不拿走。",
+            "contact": "无触碰；纸张由陆清和推动。",
+            "prop_handling": "饭量纸与酒账不重叠，中央留‘疑报’空位。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "账桌",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "桌面油灯",
+              "门外雨后冷光"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M06-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-01",
+            "end_position": "炉边",
+            "contact": "无触碰；纸张由陆清和推动。",
+            "prop_handling": "饭量纸与酒账不重叠，中央留‘疑报’空位。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "炉边",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "桌面油灯",
+              "门外雨后冷光"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "调查获得横向核验的方向；时限从‘以后’变成‘今晚与明早’。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M07",
+      "chapter_id": "S1-E01-M07",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-001"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "案板—街口轴",
+        "zones": [
+          "馄饨摊案板",
+          "街口座位"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M07-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "馄饨摊案板",
+              "街口座位"
+            ],
+            "movement": "阿沅边添汤边记，最后从摊位走向街口。",
+            "contact": "只与碗、勺、油纸接触。",
+            "prop_handling": "油纸折角标记待回访，不写诊断词。",
+            "axis": "案板—街口轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "馄饨摊案板",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "街巷雨后散射光",
+              "食担小灯"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M07-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-02",
+            "action_path": "阿沅边添汤边记，最后从摊位走向街口。",
+            "contact": "只与碗、勺、油纸接触。",
+            "prop_handling": "油纸折角标记待回访，不写诊断词。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "馄饨摊案板",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "街巷雨后散射光",
+              "食担小灯"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M07-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-02",
+            "end_position": "街口座位",
+            "contact": "只与碗、勺、油纸接触。",
+            "prop_handling": "油纸折角标记待回访，不写诊断词。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "街口座位",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "街巷雨后散射光",
+              "食担小灯"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "阿沅从‘会看见’进入‘会回访’，生活基线不再只是闲话。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M08",
+      "chapter_id": "S1-E01-M08",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/05-west-lake-and-xiling-circle.md",
+        "location_ids": [
+          "LOC-009"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "灯钩—门侧轴",
+        "zones": [
+          "酒肆后门",
+          "灯钩",
+          "门侧阴影"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M08-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "酒肆后门",
+              "灯钩",
+              "门侧阴影"
+            ],
+            "movement": "顾行舟挂灯后退到门侧；沈蘅靠近灯钩但不跨出门。",
+            "contact": "无人物触碰；灯钩由顾行舟操作。",
+            "prop_handling": "防风灯固定后不得在本集再换位置。",
+            "axis": "灯钩—门侧轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "酒肆后门",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "防风灯（主光源）",
+              "酒肆后门冷雨光"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M08-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-05",
+            "action_path": "顾行舟挂灯后退到门侧；沈蘅靠近灯钩但不跨出门。",
+            "contact": "无人物触碰；灯钩由顾行舟操作。",
+            "prop_handling": "防风灯固定后不得在本集再换位置。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "酒肆后门",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "防风灯（主光源）",
+              "酒肆后门冷雨光"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M08-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-05",
+            "end_position": "门侧阴影",
+            "contact": "无人物触碰；灯钩由顾行舟操作。",
+            "prop_handling": "防风灯固定后不得在本集再换位置。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "门侧阴影",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "防风灯（主光源）",
+              "酒肆后门冷雨光"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "关系靠近一寸，选择权也被明确写回各自手中。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M09",
+      "chapter_id": "S1-E01-M09",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "案桌中线轴",
+        "zones": [
+          "案桌两侧"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M09-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "案桌两侧"
+            ],
+            "movement": "沈蘅绕桌取纸；陆清和只移动匣盖，不跨过桌中线。",
+            "contact": "无人物触碰。",
+            "prop_handling": "旧灰与新胶痕并置，匣盖合上但铜扣保持打开。",
+            "axis": "案桌中线轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "案桌两侧",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯",
+              "后仓窄窗微光"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M09-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-01",
+            "action_path": "沈蘅绕桌取纸；陆清和只移动匣盖，不跨过桌中线。",
+            "contact": "无人物触碰。",
+            "prop_handling": "旧灰与新胶痕并置，匣盖合上但铜扣保持打开。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "案桌两侧",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯",
+              "后仓窄窗微光"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M09-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-01",
+            "end_position": "案桌两侧",
+            "contact": "无人物触碰。",
+            "prop_handling": "旧灰与新胶痕并置，匣盖合上但铜扣保持打开。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "案桌两侧",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯",
+              "后仓窄窗微光"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "核心问题从‘父亲预言’改为‘谁投递、为何让她发现’。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M10",
+      "chapter_id": "S1-E01-M10",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "钱匣—门闩轴",
+        "zones": [
+          "钱匣",
+          "后仓门"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M10-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "钱匣",
+              "后仓门"
+            ],
+            "movement": "陆清和完成一条锁匣—锁门的生活路线；沈蘅停在门外。",
+            "contact": "无人物触碰。",
+            "prop_handling": "钥匙在陆清和右手；后仓门锁闭。",
+            "axis": "钱匣—门闩轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "钱匣",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "门内油灯",
+              "门外雨光被门缝切断"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M10-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-01",
+            "action_path": "陆清和完成一条锁匣—锁门的生活路线；沈蘅停在门外。",
+            "contact": "无人物触碰。",
+            "prop_handling": "钥匙在陆清和右手；后仓门锁闭。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "钱匣",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "门内油灯",
+              "门外雨光被门缝切断"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M10-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-01",
+            "end_position": "后仓门",
+            "contact": "无人物触碰。",
+            "prop_handling": "钥匙在陆清和右手；后仓门锁闭。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "后仓门",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "门内油灯",
+              "门外雨光被门缝切断"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "调查获得制度化边界；母女从争论意图转向争论谁承担后果。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M11",
+      "chapter_id": "S1-E01-M11",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-001"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "门槛—巷口轴",
+        "zones": [
+          "门槛",
+          "巷口"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M11-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "门槛",
+              "巷口"
+            ],
+            "movement": "阿沅从门槛退到巷口，回头一次，不再敲第二次。",
+            "contact": "只接触门槛和油纸。",
+            "prop_handling": "油纸留在门内侧可见位置。",
+            "axis": "门槛—巷口轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "门槛",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "巷口阴天光",
+              "门内未点灯的暗部"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M11-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-02",
+            "action_path": "阿沅从门槛退到巷口，回头一次，不再敲第二次。",
+            "contact": "只接触门槛和油纸。",
+            "prop_handling": "油纸留在门内侧可见位置。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "门槛",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "巷口阴天光",
+              "门内未点灯的暗部"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M11-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-02",
+            "end_position": "巷口",
+            "contact": "只接触门槛和油纸。",
+            "prop_handling": "油纸留在门内侧可见位置。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "巷口",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "巷口阴天光",
+              "门内未点灯的暗部"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "失联风险第一次落到一扇具体的门；阿沅获得下一章关系回报的行动依据。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M12",
+      "chapter_id": "S1-E01-M12",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/05-west-lake-and-xiling-circle.md",
+        "location_ids": [
+          "LOC-009",
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "门边—案桌轴",
+        "zones": [
+          "酒肆后门",
+          "香铺案桌"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M12-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "酒肆后门",
+              "香铺案桌"
+            ],
+            "movement": "顾行舟将纸放在门边；沈蘅取纸回到案桌，两人不并肩。",
+            "contact": "无人物触碰。",
+            "prop_handling": "纸张折角标记来源保护等级。",
+            "axis": "门边—案桌轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "酒肆后门",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "酒肆门口雨光",
+              "香铺案桌油灯"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M12-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-05",
+            "action_path": "顾行舟将纸放在门边；沈蘅取纸回到案桌，两人不并肩。",
+            "contact": "无人物触碰。",
+            "prop_handling": "纸张折角标记来源保护等级。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "酒肆后门",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "酒肆门口雨光",
+              "香铺案桌油灯"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M12-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-05",
+            "end_position": "香铺案桌",
+            "contact": "无人物触碰。",
+            "prop_handling": "纸张折角标记来源保护等级。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "香铺案桌",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "酒肆门口雨光",
+              "香铺案桌油灯"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "两人的关系从被照顾转向共同制定记录规则；母女裂缝仍未解决。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M13",
+      "chapter_id": "S1-E01-M13",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "案桌横向轴",
+        "zones": [
+          "案桌三列"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M13-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "案桌三列"
+            ],
+            "movement": "沈蘅从左至右摆放三列；陆清和站在桌尾，不动手。",
+            "contact": "无人物触碰。",
+            "prop_handling": "香丸居中、灰样左、胶痕纸右；空白栏必须可见。",
+            "axis": "案桌横向轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "案桌三列",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯主光",
+              "炉火边缘光"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M13-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-01",
+            "action_path": "沈蘅从左至右摆放三列；陆清和站在桌尾，不动手。",
+            "contact": "无人物触碰。",
+            "prop_handling": "香丸居中、灰样左、胶痕纸右；空白栏必须可见。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "案桌三列",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯主光",
+              "炉火边缘光"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M13-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-01",
+            "end_position": "案桌三列",
+            "contact": "无人物触碰。",
+            "prop_handling": "香丸居中、灰样左、胶痕纸右；空白栏必须可见。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "案桌三列",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯主光",
+              "炉火边缘光"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "调查从家事转为公共责任；但母女裂缝正式成立。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M14",
+      "chapter_id": "S1-E01-M14",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "账箱—案桌轴",
+        "zones": [
+          "旧账箱",
+          "案桌三列"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M14-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "旧账箱",
+              "案桌三列"
+            ],
+            "movement": "陆清和沿桌边放账；沈蘅保持一臂距离，只移动空白纸。",
+            "contact": "无人物触碰；账单不交到对方手里。",
+            "prop_handling": "账单按月份排列，鞋钱最后落下。",
+            "axis": "账箱—案桌轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "旧账箱",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "旧账箱旁低油灯",
+              "案桌冷暖混合光"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M14-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-01",
+            "action_path": "陆清和沿桌边放账；沈蘅保持一臂距离，只移动空白纸。",
+            "contact": "无人物触碰；账单不交到对方手里。",
+            "prop_handling": "账单按月份排列，鞋钱最后落下。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "旧账箱",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "旧账箱旁低油灯",
+              "案桌冷暖混合光"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M14-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-01",
+            "end_position": "案桌三列",
+            "contact": "无人物触碰；账单不交到对方手里。",
+            "prop_handling": "账单按月份排列，鞋钱最后落下。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "案桌三列",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "旧账箱旁低油灯",
+              "案桌冷暖混合光"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "母女仍有裂缝，但争执从‘查不查’转为‘谁付账’。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M15",
+      "chapter_id": "S1-E01-M15",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-001",
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "纸架—案桌轴",
+        "zones": [
+          "案桌",
+          "门边纸架"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M15-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "案桌",
+              "门边纸架"
+            ],
+            "movement": "阿沅从桌左写到桌右；沈蘅站在对面；陆清和在后方整理纸。",
+            "contact": "沈蘅不拿笔，只推纸；陆清和只补纸。",
+            "prop_handling": "三栏纸张固定在木夹板上。",
+            "axis": "纸架—案桌轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "案桌",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯",
+              "门边天光"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M15-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-02",
+            "action_path": "阿沅从桌左写到桌右；沈蘅站在对面；陆清和在后方整理纸。",
+            "contact": "沈蘅不拿笔，只推纸；陆清和只补纸。",
+            "prop_handling": "三栏纸张固定在木夹板上。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "案桌",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯",
+              "门边天光"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M15-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-02",
+            "end_position": "门边纸架",
+            "contact": "沈蘅不拿笔，只推纸；陆清和只补纸。",
+            "prop_handling": "三栏纸张固定在木夹板上。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "门边纸架",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯",
+              "门边天光"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "春信的最小记录格式出现：亲见、转闻、未核；信息可以被后来者纠正。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M16",
+      "chapter_id": "S1-E01-M16",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "案桌横向轴",
+        "zones": [
+          "案桌两侧"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M16-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "案桌两侧"
+            ],
+            "movement": "顾行舟靠近桌边后停下；沈蘅压平纸角。",
+            "contact": "禁止顾行舟触碰沈蘅手；只允许物件接触。",
+            "prop_handling": "纸角由沈蘅压住，顾行舟的手停在纸外。",
+            "axis": "案桌横向轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "案桌两侧",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯主光",
+              "门缝冷光"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M16-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-05",
+            "action_path": "顾行舟靠近桌边后停下；沈蘅压平纸角。",
+            "contact": "禁止顾行舟触碰沈蘅手；只允许物件接触。",
+            "prop_handling": "纸角由沈蘅压住，顾行舟的手停在纸外。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "案桌两侧",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯主光",
+              "门缝冷光"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M16-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-05",
+            "end_position": "案桌两侧",
+            "contact": "禁止顾行舟触碰沈蘅手；只允许物件接触。",
+            "prop_handling": "纸角由沈蘅压住，顾行舟的手停在纸外。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "案桌两侧",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯主光",
+              "门缝冷光"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "调查对象从‘亡父遗言’转为‘懂得沈蘅方法的人’；关系协作更具体。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M17",
+      "chapter_id": "S1-E01-M17",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "案桌正面轴",
+        "zones": [
+          "案桌正面",
+          "陆清和身后"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M17-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "案桌正面",
+              "陆清和身后"
+            ],
+            "movement": "沈蘅坐定写字；陆清和在她身后停住，不越过肩线。",
+            "contact": "无触碰。",
+            "prop_handling": "墨迹自然晾干，纸不折叠。",
+            "axis": "案桌正面轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "案桌正面",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯稳定主光"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M17-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-01",
+            "action_path": "沈蘅坐定写字；陆清和在她身后停住，不越过肩线。",
+            "contact": "无触碰。",
+            "prop_handling": "墨迹自然晾干，纸不折叠。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "案桌正面",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯稳定主光"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M17-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-01",
+            "end_position": "陆清和身后",
+            "contact": "无触碰。",
+            "prop_handling": "墨迹自然晾干，纸不折叠。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "陆清和身后",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯稳定主光"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "第一集的价值选择完成：春信先记录事实，再等待合报。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M18",
+      "chapter_id": "S1-E01-M18",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "案桌—后仓门轴",
+        "zones": [
+          "案桌",
+          "后仓门"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M18-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "案桌",
+              "后仓门"
+            ],
+            "movement": "陆清和从灯下到门边扣匣；沈蘅留在案桌完成补记。",
+            "contact": "无人物触碰。",
+            "prop_handling": "铜扣扣上但不加锁；未核纸留在案桌中央。",
+            "axis": "案桌—后仓门轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "案桌",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯",
+              "灯下局部反光"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M18-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-01",
+            "action_path": "陆清和从灯下到门边扣匣；沈蘅留在案桌完成补记。",
+            "contact": "无人物触碰。",
+            "prop_handling": "铜扣扣上但不加锁；未核纸留在案桌中央。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "案桌",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯",
+              "灯下局部反光"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M18-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-01",
+            "end_position": "后仓门",
+            "contact": "无人物触碰。",
+            "prop_handling": "铜扣扣上但不加锁；未核纸留在案桌中央。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "后仓门",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯",
+              "灯下局部反光"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "E01 在生活动作中闭环；下一集由入匣者、香材与粮运异常接续。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    }
+  ]
+}

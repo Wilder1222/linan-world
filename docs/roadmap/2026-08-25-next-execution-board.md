@@ -102,6 +102,13 @@
 - `production/episodes/S1-E01/episode-production-cards.json` 已生成 18/18 张确定性生产卡，统一包含四张核心表、Episode Gate 十项 QA 占位及 CineWeave 的 hard/soft/advisory 控制、证据、版权和能力门槛。
 - `qa/reviews/p3-e01-production-scaffold-review.json` 为 `REVIEWED-P3-SCAFFOLD-PASS`；外部 provider 调用为 0，执行保持阻断，最终对白/shot ID/活动与幽默具体场次/U/BG 绑定继续延期。
 
+## P3-03 E01 正式交付预审结果（2026-08-26）
+
+- 新增 `scripts/materialize_p3_e01_formal_delivery.py`、`scripts/audit_p3_e01_formal_delivery.py` 与 `tests/test_p3_e01_formal_delivery.py`。
+- E01 已生成 18 个正式剧本场景、54 个草案镜头、18 条连续性记录；脚本、Storyboard 与 Continuity 通过精确 ID、地点、参与者、轴线、物理光源、时间事件和尾钩交接绑定。
+- `qa/reviews/p3-e01-formal-preflight-review.json` 为 `REVIEWED-P3-PREFLIGHT-PASS`；无 provider 调用、无最终 U/BG 绑定，Episode Gate 仍为 `OPEN`。
+- 十项 QA 仍为 `PENDING-EPISODE-GATE`，阈值 90；下一任务是 E01 人工 Episode Gate 评分与修订，之后才推进 E02/E03 递进试点。
+
 ## 执行顺序
 
 ### S2-01｜36 集因果账本（第一优先级）

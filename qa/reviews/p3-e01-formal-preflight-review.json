@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "status": "REVIEWED-P3-PREFLIGHT-PASS",
+  "scope": "P3-03 S1-E01 formal script, storyboard and continuity preflight review",
+  "episode_id": "S1-E01",
+  "script_scene_total": 18,
+  "storyboard_scene_total": 18,
+  "draft_shot_total": 54,
+  "continuity_scene_total": 18,
+  "checks": {
+    "formal_script_complete_and_playable": true,
+    "storyboard_bound_to_script": true,
+    "continuity_bound_to_script": true,
+    "source_manifest_current": true,
+    "no_provider_execution": true,
+    "ten_dimension_qa_pending": true,
+    "final_u_bg_deferred": true
+  },
+  "findings": [],
+  "deferred_followup": [
+    "Episode Gate 仍需由人工逐章审阅对白、Blocking、Storyboard 与表演边界。",
+    "十项 QA（人物、表情、动作、行为、关系、服装、道具、镜头、AIGC 稳定性、故事）仍为 PENDING，阈值 90。",
+    "当前仅为设计稿预审；未调用外部生成器，U/BG 绑定与最终成片继续冻结。"
+  ]
+}

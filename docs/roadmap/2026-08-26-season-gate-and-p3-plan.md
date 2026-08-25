@@ -126,6 +126,8 @@ Season Gate 关闭时锁定的是 **Season Canon 与短章节拍**，不是最�
 
 **P3-02 当前结果（2026-08-26）**：新增 `production/episodes/S1-E01/episode-production-cards.json` 与 `scripts/materialize_p3_e01_production.py`，已将 E01 的 18 个微短章编译为确定性生产卡；每卡包含 Character State、Emotion/Action、Relationship Delta、Continuity Ledger、CineWeave 生产控制、证据/版权/能力门槛和十项 Episode Gate QA 占位。`qa/reviews/p3-e01-production-scaffold-review.json` 为 `REVIEWED-P3-SCAFFOLD-PASS`；未调用外部生成服务，最终对白、镜头、活动/幽默具体场次、U/BG 绑定仍保持 `DEFERRED-UNTIL-EPISODE-GATE`。下一步是正式逐章剧本、Blocking/Storyboard 与资产绑定。
 
+**P3-03 当前结果（2026-08-26）**：新增 `scripts/materialize_p3_e01_formal_delivery.py`、`scripts/audit_p3_e01_formal_delivery.py` 与 `tests/test_p3_e01_formal_delivery.py`，已将 E01 18 个微短章推进为正式剧本第一版、逐章 Blocking/Storyboard 草案与连续性账本：18 个场景、54 个草案镜头、18 条连续性记录。`qa/reviews/p3-e01-formal-preflight-review.json` 为 `REVIEWED-P3-PREFLIGHT-PASS`；脚本无镜头指令泄漏，镜头轴/物理光源/时间事件/稳定结束态均有绑定，来源哈希一致，provider calls 为 0。Episode Gate 仍为 `OPEN`，十项 QA（阈值 90）保持 `PENDING`，U/BG 与最终生成继续延期。
+
 ## 四、Season Gate 之后的 P3 E01–E03 试点
 
 ### P3-01｜试点输入冻结
@@ -159,6 +161,8 @@ E01 先验证：
 当前已完成的是生产卡脚手架，不等同于逐句对白或成片；十项 QA 仍为 `PENDING`，须在 Episode Gate 逐章评分。
 
 ### P3-03｜E02、E03 递进试点
+
+> 注：E01 的 P3-03 正式交付预审已完成；本节的 E02/E03 递进试点顺延为后续编号，须先完成 E01 Episode Gate 人工评分。
 
 - E02 验证“正确选择由谁付账”、生活活动与经济压力的可拍性；
 - E03 验证消息传播、群体误读、幽默回收和多关系并行；

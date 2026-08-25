@@ -33,6 +33,11 @@
 | `production/episodes/S1-E01/episode-production-cards.json` | P3-02 E01 18 章确定性生产卡：人物状态、情绪动作、关系、连续性与生产控制 | P3-02-SCAFFOLD-DRAFT |
 | `production/episodes/S1-E01/README.md` | E01 生产卡使用边界与下一 Gate | PRODUCTION-SCAFFOLD |
 | `qa/reviews/p3-e01-production-scaffold-review.json` | P3-02 E01 生产卡脚手架字段、身份、边界与 CineWeave 控制审阅 | REVIEWED-P3-SCAFFOLD-PASS |
+| `production/episodes/S1-E01/episode-formal-delivery.json` | P3-03 E01 正式剧本、Storyboard 与 Continuity 汇总包（设计稿） | P3-03-DRAFT |
+| `production/episodes/S1-E01/script-scenes.json` | E01 18 个逐章正式剧本场景与对白第一版 | P3-03-DRAFT |
+| `production/episodes/S1-E01/storyboard.json` | E01 18 场×3 镜草案 Blocking/Storyboard | P3-03-DRAFT |
+| `production/episodes/S1-E01/continuity-ledger.json` | E01 18 条人物知识、道具、空间与关系连续性记录 | P3-03-DRAFT |
+| `qa/reviews/p3-e01-formal-preflight-review.json` | P3-03 正式交付预审：脚本可演、镜头绑定、连续性与执行边界 | REVIEWED-P3-PREFLIGHT-PASS |
 | `qa/gates/input-manifests/p3-pilot-e01-e03.json` | P3-01 试点输入哈希与边界 | P3-PILOT-DRAFT |
 | `story/season/u-candidate-selection.schema.json` | U 槽位候选、POV 映射、自然回访与 Gate 边界字段规范 | LOCKED-SCHEMA |
 | `story/season/u-candidate-selection.json` | 22 个 POV 候选、40 个自然回访候选及 120 槽位保留状态 | SEASON-DRAFT |

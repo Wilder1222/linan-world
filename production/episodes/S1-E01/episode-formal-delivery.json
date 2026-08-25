@@ -1,0 +1,4828 @@
+{
+  "schema_version": 1,
+  "status": "P3-03-DRAFT",
+  "scope": "P3-03 S1-E01 formal script, storyboard and continuity preflight",
+  "episode_id": "S1-E01",
+  "episode_gate_status": "OPEN",
+  "source_manifest": [
+    {
+      "path": "production/episodes/S1-E01/episode-production-cards.json",
+      "sha256": "75e53b69717adece94576303af35920f04205be8eddee051e305c450ecce6f3e"
+    },
+    {
+      "path": "story/season/short-chapter-hook-map.json",
+      "sha256": "599a0dce84ffc41ea9f18a0f20cdd6f46009c8a9fe8ad7e190ba84b8f2934882"
+    },
+    {
+      "path": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md",
+      "sha256": "1c1bc11dc00abd14ccd3815ca397b044d3dd2328d31cc861a4c1b334f494d49a"
+    },
+    {
+      "path": "production/ai/v6-character-asset-bible/10-episode-gate/episode-delivery-gate.md",
+      "sha256": "1222b448c918d48bc10e747b6a4eab720148eebbf200fd504ffa6c11471a14fb"
+    }
+  ],
+  "script_scene_total": 18,
+  "storyboard_scene_total": 18,
+  "continuity_scene_total": 18,
+  "script_scenes": [
+    {
+      "scene_id": "SCN-S1-E01-M01",
+      "chapter_id": "S1-E01-M01",
+      "episode_id": "S1-E01",
+      "format": "2-3 minute microchapter scene",
+      "status": "DRAFT-EPISODE-GATE",
+      "duration_seconds": 150,
+      "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+      "location_ids": [
+        "LOC-001",
+        "LOC-002"
+      ],
+      "participants": [
+        "CHR-L1-01",
+        "CHR-L2-01"
+      ],
+      "dramatic_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？",
+      "objective": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+      "obstacle": "日常节奏要求先把事情做完，异常只能从一个小动作露出来。",
+      "entry_state": "调香铺工作状态；先看物，再看手，最后看人；呼吸稳定。",
+      "beats": [
+        {
+          "action": "沈蘅擦去旧匣上的雨水；陆清和把香铺前堂的湿帕叠成四角。",
+          "subtext": "两个人都在做开门的事，谁也不先碰亡父留下的名字。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L2-01",
+              "speaker": "陆清和",
+              "text": "先把门槛擦干。客人要进来。",
+              "intent": "把日常放在调查之前",
+              "pace": "中慢"
+            },
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "匣子里进了水。铜扣却是干的。",
+              "intent": "把异常藏进生活观察",
+              "pace": "慢"
+            }
+          ]
+        },
+        {
+          "action": "沈蘅打开旧匣，香丸与内壁黏住；陆清和伸手要拿走。",
+          "subtext": "陆清和害怕的不是香丸，而是女儿又把死者带回家。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L2-01",
+              "speaker": "陆清和",
+              "text": "这东西，烧了。",
+              "intent": "下结论以终止风险",
+              "pace": "低"
+            },
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "你还没看它是什么。",
+              "intent": "要求保留核验权",
+              "pace": "中慢"
+            },
+            {
+              "speaker_id": "CHR-L2-01",
+              "speaker": "陆清和",
+              "text": "我看过你爹留下的东西。看得够多了。",
+              "intent": "把十三年前的代价压回现在",
+              "pace": "低"
+            }
+          ]
+        }
+      ],
+      "choice": "沈蘅不烧香丸，先把它连同旧匣移到后仓并记下出入。",
+      "exit_state": "母女从共同开铺转为各自守着一件东西；后仓第一次成为需要记录的空间。",
+      "causes_next": "旧匣铜扣内侧与香丸黏合处留下近半年才会出现的胶痕。",
+      "continuity_refs": [
+        "S1-E01-M01",
+        "LOC-001",
+        "LOC-002"
+      ],
+      "dialogue_boundary": "对白为正式剧本第一版；不改写 Character DNA，不引入镜头指令或未锁定事实。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M02",
+      "chapter_id": "S1-E01-M02",
+      "episode_id": "S1-E01",
+      "format": "2-3 minute microchapter scene",
+      "status": "DRAFT-EPISODE-GATE",
+      "duration_seconds": 150,
+      "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+      "location_ids": [
+        "LOC-002"
+      ],
+      "participants": [
+        "CHR-L1-01",
+        "CHR-L2-01",
+        "CHR-B-006"
+      ],
+      "dramatic_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？",
+      "objective": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+      "obstacle": "普通解释仍然成立，角色不能凭感觉宣布结论。",
+      "entry_state": "香铺掌柜工作状态；一边做事一边听，手上保持生活动作。",
+      "beats": [
+        {
+          "action": "陆清和拿竹片刮铜扣内侧，动作比平日更整齐；孙锁叔只看锁，不碰香丸。",
+          "subtext": "她先确认门和钱匣，再允许自己听女儿说完。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-B-006",
+              "speaker": "孙锁叔",
+              "text": "铜扣换过。换扣的人，没动里面。",
+              "intent": "限定自己的证词范围",
+              "pace": "中慢"
+            },
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "什么时候换的？",
+              "intent": "把时间钉进物件",
+              "pace": "慢"
+            },
+            {
+              "speaker_id": "CHR-B-006",
+              "speaker": "孙锁叔",
+              "text": "我只记得雨前。年月，不敢替它说。",
+              "intent": "拒绝把模糊记忆说满",
+              "pace": "中慢"
+            }
+          ]
+        },
+        {
+          "action": "沈蘅用镊尖挑出半透明胶丝；陆清和把后仓门再合上一寸。",
+          "subtext": "胶痕让‘亡父遗物’变成‘近半年有人进过匣子’。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "胶还软过。不是十三年前。",
+              "intent": "提出可复核的局部事实",
+              "pace": "中慢"
+            },
+            {
+              "speaker_id": "CHR-L2-01",
+              "speaker": "陆清和",
+              "text": "你要查，先查进门的人。别先查死人。",
+              "intent": "把调查对象拉回活人",
+              "pace": "低"
+            },
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "我只查东西。",
+              "intent": "保护自己不被情绪带走",
+              "pace": "中慢"
+            },
+            {
+              "speaker_id": "CHR-L2-01",
+              "speaker": "陆清和",
+              "text": "东西最后，都要落到活人身上。",
+              "intent": "提醒代价",
+              "pace": "低"
+            }
+          ]
+        }
+      ],
+      "choice": "沈蘅把胶痕留在纸上，不把孙锁叔的模糊时间写成确定日期。",
+      "exit_state": "胶痕成为第一条当代证据；陆清和将后仓门纳入日常锁闭。",
+      "causes_next": "林阿沅主动介入：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。",
+      "continuity_refs": [
+        "S1-E01-M02",
+        "LOC-002"
+      ],
+      "dialogue_boundary": "对白为正式剧本第一版；不改写 Character DNA，不引入镜头指令或未锁定事实。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M03",
+      "chapter_id": "S1-E01-M03",
+      "episode_id": "S1-E01",
+      "format": "2-3 minute microchapter scene",
+      "status": "DRAFT-EPISODE-GATE",
+      "duration_seconds": 150,
+      "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+      "location_ids": [
+        "LOC-001",
+        "LOC-002"
+      ],
+      "participants": [
+        "CHR-L2-02",
+        "CHR-L1-01",
+        "CHR-L2-01"
+      ],
+      "dramatic_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？",
+      "objective": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+      "obstacle": "介入会让角色失去时间、收入、名声或安全。",
+      "entry_state": "馄饨铺忙碌状态；边做事边说，眼睛追踪客人的饭量和来去。",
+      "beats": [
+        {
+          "action": "林阿沅端来一篮刚收的碗，先把碗口朝同一方向，再看后仓门。",
+          "subtext": "她想帮忙，却怕自己又被当作说得太快。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L2-02",
+              "speaker": "林阿沅",
+              "text": "我不是来偷听的。我是来还碗——顺便看一眼。",
+              "intent": "用轻话试探是否被接纳",
+              "pace": "中慢"
+            },
+            {
+              "speaker_id": "CHR-L2-01",
+              "speaker": "陆清和",
+              "text": "看一眼也要说清楚，看见什么。",
+              "intent": "给她进入记录的门槛",
+              "pace": "低"
+            },
+            {
+              "speaker_id": "CHR-L2-02",
+              "speaker": "林阿沅",
+              "text": "我看见门最近总是早关一刻。人没变，门先变了。",
+              "intent": "提供生活观察",
+              "pace": "中慢"
+            }
+          ]
+        },
+        {
+          "action": "沈蘅把纸推到阿沅面前，问她近半年谁来过后仓。",
+          "subtext": "沈蘅第一次把市井观察当作可用信道，而不是热闹。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "别猜是谁。先写你亲眼见过的。",
+              "intent": "设定证据边界",
+              "pace": "中慢"
+            },
+            {
+              "speaker_id": "CHR-L2-02",
+              "speaker": "林阿沅",
+              "text": "那我先写‘亲见’。不知道的，留空。",
+              "intent": "接受方法并承担记录责任",
+              "pace": "中慢"
+            }
+          ]
+        }
+      ],
+      "choice": "林阿沅主动回访街坊与修匣者，不把传闻直接递成结论。",
+      "exit_state": "阿沅获得临时记录权；沈蘅的调查开始离开香铺内部。",
+      "causes_next": "先切样留灰，再问来源和时刻，最后落笔标证据等级。",
+      "continuity_refs": [
+        "S1-E01-M03",
+        "LOC-001",
+        "LOC-002"
+      ],
+      "dialogue_boundary": "对白为正式剧本第一版；不改写 Character DNA，不引入镜头指令或未锁定事实。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M04",
+      "chapter_id": "S1-E01-M04",
+      "episode_id": "S1-E01",
+      "format": "2-3 minute microchapter scene",
+      "status": "DRAFT-EPISODE-GATE",
+      "duration_seconds": 150,
+      "scene_spec_ref": "canon/city/05-west-lake-and-xiling-circle.md",
+      "location_ids": [
+        "LOC-009"
+      ],
+      "participants": [
+        "CHR-L1-05",
+        "CHR-L1-01"
+      ],
+      "dramatic_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？",
+      "objective": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+      "obstacle": "职业工具能确认一部分，却不能替代其他信道。",
+      "entry_state": "酒肆掌柜与路线熟手；站位能看出口，先观察再动作。",
+      "beats": [
+        {
+          "action": "顾行舟先把客人桌边的短刀推回桌内，再把两张酒账分开。",
+          "subtext": "他的关心先表现为减少危险；他不解释自己为什么注意到。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L1-05",
+              "speaker": "顾行舟",
+              "text": "两条路来的客人，都说白芷贵了。",
+              "intent": "交付可核验的第二信道",
+              "pace": "低"
+            },
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "你信他们？",
+              "intent": "测试信息来源",
+              "pace": "慢"
+            },
+            {
+              "speaker_id": "CHR-L1-05",
+              "speaker": "顾行舟",
+              "text": "我信他们都说过。信不信原因，得再问。",
+              "intent": "区分听见与判断",
+              "pace": "中慢"
+            }
+          ]
+        },
+        {
+          "action": "沈蘅看向他手边的酒账；顾行舟把一张空白纸放到她够得到的位置。",
+          "subtext": "他提供工具而不是答案。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L1-05",
+              "speaker": "顾行舟",
+              "text": "我只把路告诉你。走哪条，你自己定。",
+              "intent": "明确不代替选择",
+              "pace": "中慢"
+            },
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "那就别替我把门关上。",
+              "intent": "建立边界",
+              "pace": "低"
+            }
+          ]
+        }
+      ],
+      "choice": "顾行舟提供北客药价信息，不替沈蘅决定是否继续查。",
+      "exit_state": "两人建立‘提供事实但不代选’的初始边界；白芷价格进入并列疑报。",
+      "causes_next": "把异常放进日常账单：香丸灰中的新黏合物、矿粉与刀痕和十三年前不相容；沈蘅切样留灰并标记未核。",
+      "continuity_refs": [
+        "S1-E01-M04",
+        "LOC-009"
+      ],
+      "dialogue_boundary": "对白为正式剧本第一版；不改写 Character DNA，不引入镜头指令或未锁定事实。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M05",
+      "chapter_id": "S1-E01-M05",
+      "episode_id": "S1-E01",
+      "format": "2-3 minute microchapter scene",
+      "status": "DRAFT-EPISODE-GATE",
+      "duration_seconds": 150,
+      "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+      "location_ids": [
+        "LOC-002"
+      ],
+      "participants": [
+        "CHR-L1-01",
+        "CHR-L2-01"
+      ],
+      "dramatic_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？",
+      "objective": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+      "obstacle": "宏观问题必须落到一个具体人的生活账单。",
+      "entry_state": "调香铺工作状态；先看物，再看手，最后看人；呼吸稳定。",
+      "beats": [
+        {
+          "action": "沈蘅把香丸切成两半，一半放入灰纸，一半留在匣底；陆清和站在炉边不看她。",
+          "subtext": "物件被分开，母女却都不愿先承认这意味着什么。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "灰里有新黏合物，矿粉也不对。",
+              "intent": "报告局部事实",
+              "pace": "中慢"
+            },
+            {
+              "speaker_id": "CHR-L2-01",
+              "speaker": "陆清和",
+              "text": "不对到什么程度？",
+              "intent": "逼她把专业话说清楚",
+              "pace": "低"
+            },
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "只够写‘不相容’，还不够写‘是谁’。",
+              "intent": "主动限制结论",
+              "pace": "慢"
+            }
+          ]
+        },
+        {
+          "action": "她在纸角写下‘未核’，把笔停在最后一横。",
+          "subtext": "沈蘅第一次用职业规则保护自己不去证明父亲。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L2-01",
+              "speaker": "陆清和",
+              "text": "这两个字，能护住谁？",
+              "intent": "追问记录的现实后果",
+              "pace": "中慢"
+            },
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "至少不让它先伤到别人。",
+              "intent": "把谨慎变成选择",
+              "pace": "中慢"
+            }
+          ]
+        }
+      ],
+      "choice": "沈蘅保留切样与灰样，并把判断标为‘未核’。",
+      "exit_state": "香丸从一件遗物变成两份可追踪样本；‘未核’成为本集的工作规则。",
+      "causes_next": "先回答局部问题，再把下一层疑问交给陆清和：林阿沅记录熟客饭量与赊账变化，顾行舟在停云酒肆记录北来客说白芷涨价；两条生活与客路信息尚不足以升级，只能并列为疑报。",
+      "continuity_refs": [
+        "S1-E01-M05",
+        "LOC-002"
+      ],
+      "dialogue_boundary": "对白为正式剧本第一版；不改写 Character DNA，不引入镜头指令或未锁定事实。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M06",
+      "chapter_id": "S1-E01-M06",
+      "episode_id": "S1-E01",
+      "format": "2-3 minute microchapter scene",
+      "status": "DRAFT-EPISODE-GATE",
+      "duration_seconds": 150,
+      "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+      "location_ids": [
+        "LOC-002"
+      ],
+      "participants": [
+        "CHR-L2-01",
+        "CHR-L1-01",
+        "CHR-L2-02",
+        "CHR-L1-05"
+      ],
+      "dramatic_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？",
+      "objective": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+      "obstacle": "本章只能解决局部问题，答案会把更大问题推近。",
+      "entry_state": "香铺掌柜工作状态；一边做事一边听，手上保持生活动作。",
+      "beats": [
+        {
+          "action": "陆清和把阿沅的饭量纸与顾行舟的酒账并排压在账本下。",
+          "subtext": "她把家庭账本变成临时的城市账本，却拒绝替它命名。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L2-01",
+              "speaker": "陆清和",
+              "text": "一家的饭少了，是家事。两路客都说药贵，还是不是？",
+              "intent": "让信息保持分栏",
+              "pace": "中慢"
+            },
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "现在只够写两条疑报。",
+              "intent": "不合并未核信息",
+              "pace": "慢"
+            },
+            {
+              "speaker_id": "CHR-L2-02",
+              "speaker": "林阿沅",
+              "text": "那我再去问三家。问到他们自己愿意说。",
+              "intent": "主动承担回访",
+              "pace": "中慢"
+            }
+          ]
+        },
+        {
+          "action": "顾行舟站在门边，听见‘疑报’后没有靠近案桌。",
+          "subtext": "他理解她的规则，也理解自己被留在门边。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L1-05",
+              "speaker": "顾行舟",
+              "text": "两条路的客人，明早还会走。要问，得趁今晚。",
+              "intent": "提出时间压力",
+              "pace": "中慢"
+            },
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "先问，不先信。",
+              "intent": "给行动定边界",
+              "pace": "中慢"
+            }
+          ]
+        }
+      ],
+      "choice": "四人把生活观察并列为疑报，不升级为预言或疫讯。",
+      "exit_state": "调查获得横向核验的方向；时限从‘以后’变成‘今晚与明早’。",
+      "causes_next": "沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。",
+      "continuity_refs": [
+        "S1-E01-M06",
+        "LOC-002"
+      ],
+      "dialogue_boundary": "对白为正式剧本第一版；不改写 Character DNA，不引入镜头指令或未锁定事实。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M07",
+      "chapter_id": "S1-E01-M07",
+      "episode_id": "S1-E01",
+      "format": "2-3 minute microchapter scene",
+      "status": "DRAFT-EPISODE-GATE",
+      "duration_seconds": 150,
+      "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+      "location_ids": [
+        "LOC-001"
+      ],
+      "participants": [
+        "CHR-L2-02",
+        "CHR-B-007"
+      ],
+      "dramatic_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？",
+      "objective": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+      "obstacle": "另一阶层的观察会改变原解释，而不是重复它。",
+      "entry_state": "馄饨铺忙碌状态；边做事边说，眼睛追踪客人的饭量和来去。",
+      "beats": [
+        {
+          "action": "阿沅给熟客添汤，发现张家连续四日只要半碗；她没有马上问病。",
+          "subtext": "她第一次忍住把观察说成答案。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L2-02",
+              "speaker": "林阿沅",
+              "text": "今日还是半碗？",
+              "intent": "用生活问题替代诊断",
+              "pace": "快后放慢"
+            },
+            {
+              "speaker_id": "CHR-B-007",
+              "speaker": "胡六婆",
+              "text": "半碗也能暖肚子。你别把碗看得比人还懂。",
+              "intent": "保护尊严并回避解释",
+              "pace": "低"
+            },
+            {
+              "speaker_id": "CHR-L2-02",
+              "speaker": "林阿沅",
+              "text": "我不是看碗。我是怕有人没来。",
+              "intent": "承认真正担心的是失联",
+              "pace": "中慢"
+            }
+          ]
+        },
+        {
+          "action": "她把‘四日半碗、未问病因’写在油纸背面，抬头看门口。",
+          "subtext": "生活记录第一次产生了等待与责任。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L2-02",
+              "speaker": "林阿沅",
+              "text": "我先去问下一家。问到你愿意说为止。",
+              "intent": "把观察变成回访行动",
+              "pace": "中慢"
+            }
+          ]
+        }
+      ],
+      "choice": "阿沅记录饭量和赊账变化，并把未确认部分留空。",
+      "exit_state": "阿沅从‘会看见’进入‘会回访’，生活基线不再只是闲话。",
+      "causes_next": "沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。",
+      "continuity_refs": [
+        "S1-E01-M07",
+        "LOC-001"
+      ],
+      "dialogue_boundary": "对白为正式剧本第一版；不改写 Character DNA，不引入镜头指令或未锁定事实。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M08",
+      "chapter_id": "S1-E01-M08",
+      "episode_id": "S1-E01",
+      "format": "2-3 minute microchapter scene",
+      "status": "DRAFT-EPISODE-GATE",
+      "duration_seconds": 150,
+      "scene_spec_ref": "canon/city/05-west-lake-and-xiling-circle.md",
+      "location_ids": [
+        "LOC-009"
+      ],
+      "participants": [
+        "CHR-L1-05",
+        "CHR-L1-01"
+      ],
+      "dramatic_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？",
+      "objective": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+      "obstacle": "两个人目标相近但方法不同，任何一句话都会留下关系后果。",
+      "entry_state": "酒肆掌柜与路线熟手；站位能看出口，先观察再动作。",
+      "beats": [
+        {
+          "action": "顾行舟把防风灯挂到门钩上，先试灯钩，再把路线纸放下。",
+          "subtext": "照顾先于表白；他差一点把安全安排变成命令。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L1-05",
+              "speaker": "顾行舟",
+              "text": "灯借你。明早还我。",
+              "intent": "用借口隐藏关心",
+              "pace": "低"
+            },
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "我没说要走这条路。",
+              "intent": "指出被安排的感觉",
+              "pace": "低"
+            },
+            {
+              "speaker_id": "CHR-L1-05",
+              "speaker": "顾行舟",
+              "text": "所以我把路放这儿，没把你带过去。",
+              "intent": "退回选择权",
+              "pace": "中慢"
+            }
+          ]
+        },
+        {
+          "action": "沈蘅把灯往里挪一寸，仍不取下；顾行舟退到门侧。",
+          "subtext": "第一次接受善意，同时保留边界。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "灯我留着。决定我自己做。",
+              "intent": "明确接受与拒绝的边界",
+              "pace": "慢"
+            },
+            {
+              "speaker_id": "CHR-L1-05",
+              "speaker": "顾行舟",
+              "text": "好。",
+              "intent": "不追加解释，练习站开",
+              "pace": "中慢"
+            }
+          ]
+        }
+      ],
+      "choice": "顾行舟只提供灯与路线，不替沈蘅决定；沈蘅接受灯但不接受安排。",
+      "exit_state": "关系靠近一寸，选择权也被明确写回各自手中。",
+      "causes_next": "香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。",
+      "continuity_refs": [
+        "S1-E01-M08",
+        "LOC-009"
+      ],
+      "dialogue_boundary": "对白为正式剧本第一版；不改写 Character DNA，不引入镜头指令或未锁定事实。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M09",
+      "chapter_id": "S1-E01-M09",
+      "episode_id": "S1-E01",
+      "format": "2-3 minute microchapter scene",
+      "status": "DRAFT-EPISODE-GATE",
+      "duration_seconds": 150,
+      "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+      "location_ids": [
+        "LOC-002"
+      ],
+      "participants": [
+        "CHR-L1-01",
+        "CHR-L2-01"
+      ],
+      "dramatic_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？",
+      "objective": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+      "obstacle": "已有事实被重新解释，新增信息不能凭空跳出。",
+      "entry_state": "调香铺工作状态；先看物，再看手，最后看人；呼吸稳定。",
+      "beats": [
+        {
+          "action": "沈蘅把十三年前旧灰与新胶痕放在同一张纸上，先看物再看母亲。",
+          "subtext": "她不愿承认自己最想要的是父亲仍然正确。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "它不是十三年前留下来的。",
+              "intent": "用职业事实切断预言解释",
+              "pace": "慢"
+            },
+            {
+              "speaker_id": "CHR-L2-01",
+              "speaker": "陆清和",
+              "text": "那你高兴了吗？",
+              "intent": "刺中女儿的私愿",
+              "pace": "低"
+            },
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "我只知道有人刚把它放进去。",
+              "intent": "拒绝把事实变成情绪答案",
+              "pace": "中慢"
+            }
+          ]
+        },
+        {
+          "action": "陆清和把旧匣盖回，却没有扣上铜扣。",
+          "subtext": "盖住不等于结束；母亲开始允许问题留在家里。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L2-01",
+              "speaker": "陆清和",
+              "text": "你爹若错过，怎么办？",
+              "intent": "提前提出父亲不完美的可能",
+              "pace": "中慢"
+            },
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "那就把错的地方也记下来。",
+              "intent": "第一次说出与父亲不同的原则",
+              "pace": "中慢"
+            }
+          ]
+        }
+      ],
+      "choice": "沈蘅把香丸改写为当代疑报，不把亡父当作答案来源。",
+      "exit_state": "核心问题从‘父亲预言’改为‘谁投递、为何让她发现’。",
+      "causes_next": "规则、资源或名声开始反应：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。",
+      "continuity_refs": [
+        "S1-E01-M09",
+        "LOC-002"
+      ],
+      "dialogue_boundary": "对白为正式剧本第一版；不改写 Character DNA，不引入镜头指令或未锁定事实。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M10",
+      "chapter_id": "S1-E01-M10",
+      "episode_id": "S1-E01",
+      "format": "2-3 minute microchapter scene",
+      "status": "DRAFT-EPISODE-GATE",
+      "duration_seconds": 150,
+      "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+      "location_ids": [
+        "LOC-002"
+      ],
+      "participants": [
+        "CHR-L2-01",
+        "CHR-L1-01"
+      ],
+      "dramatic_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？",
+      "objective": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+      "obstacle": "规则或资源拥有者会为自己的秩序付出代价，也会制造阻力。",
+      "entry_state": "香铺掌柜工作状态；一边做事一边听，手上保持生活动作。",
+      "beats": [
+        {
+          "action": "陆清和锁钱匣、封后仓门、把钥匙放在自己掌心；沈蘅没有伸手要。",
+          "subtext": "生活秩序开始承担证据保护的功能，也制造母女的不信任。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L2-01",
+              "speaker": "陆清和",
+              "text": "后仓今晚我锁。",
+              "intent": "先控制可见风险",
+              "pace": "低"
+            },
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "你不信我？",
+              "intent": "把制度动作听成关系判断",
+              "pace": "中慢"
+            },
+            {
+              "speaker_id": "CHR-L2-01",
+              "speaker": "陆清和",
+              "text": "我信你会做对的事。",
+              "intent": "承认女儿的坚持",
+              "pace": "低"
+            },
+            {
+              "speaker_id": "CHR-L2-01",
+              "speaker": "陆清和",
+              "text": "我不信做对的事，不会伤人。",
+              "intent": "把生活代价说出来",
+              "pace": "低"
+            }
+          ]
+        }
+      ],
+      "choice": "陆清和把后仓钥匙收回，沈蘅接受出入记录而不抢回权限。",
+      "exit_state": "调查获得制度化边界；母女从争论意图转向争论谁承担后果。",
+      "causes_next": "让一个具体人支付账单：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。",
+      "continuity_refs": [
+        "S1-E01-M10",
+        "LOC-002"
+      ],
+      "dialogue_boundary": "对白为正式剧本第一版；不改写 Character DNA，不引入镜头指令或未锁定事实。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M11",
+      "chapter_id": "S1-E01-M11",
+      "episode_id": "S1-E01",
+      "format": "2-3 minute microchapter scene",
+      "status": "DRAFT-EPISODE-GATE",
+      "duration_seconds": 150,
+      "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+      "location_ids": [
+        "LOC-001"
+      ],
+      "participants": [
+        "CHR-L2-02",
+        "CHR-B-007"
+      ],
+      "dramatic_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？",
+      "objective": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+      "obstacle": "一个具体人的损失不能被‘大局’抹平。",
+      "entry_state": "馄饨铺忙碌状态；边做事边说，眼睛追踪客人的饭量和来去。",
+      "beats": [
+        {
+          "action": "阿沅到胡六婆门口，不敲门，先把油纸塞在门槛下。",
+          "subtext": "她尊重不愿说话的人，却也不允许‘没来’被写成‘没事’。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L2-02",
+              "speaker": "林阿沅",
+              "text": "胡婆婆，我把半碗记上了。你不想说，就摇一下门。",
+              "intent": "给对方选择回应方式",
+              "pace": "中慢"
+            },
+            {
+              "speaker_id": "CHR-B-007",
+              "speaker": "胡六婆",
+              "text": "记饭就记饭，别记人。",
+              "intent": "保护隐私",
+              "pace": "低"
+            },
+            {
+              "speaker_id": "CHR-L2-02",
+              "speaker": "林阿沅",
+              "text": "那我记‘有人在门里’。别的，留空。",
+              "intent": "在隐私与失联之间留证",
+              "pace": "慢"
+            }
+          ]
+        }
+      ],
+      "choice": "阿沅记录具体生活变化，同时不把未回应的人写成已安全。",
+      "exit_state": "失联风险第一次落到一扇具体的门；阿沅获得下一章关系回报的行动依据。",
+      "causes_next": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+      "continuity_refs": [
+        "S1-E01-M11",
+        "LOC-001"
+      ],
+      "dialogue_boundary": "对白为正式剧本第一版；不改写 Character DNA，不引入镜头指令或未锁定事实。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M12",
+      "chapter_id": "S1-E01-M12",
+      "episode_id": "S1-E01",
+      "format": "2-3 minute microchapter scene",
+      "status": "DRAFT-EPISODE-GATE",
+      "duration_seconds": 150,
+      "scene_spec_ref": "canon/city/05-west-lake-and-xiling-circle.md",
+      "location_ids": [
+        "LOC-009",
+        "LOC-002"
+      ],
+      "participants": [
+        "CHR-L1-05",
+        "CHR-L1-01"
+      ],
+      "dramatic_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？",
+      "objective": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+      "obstacle": "亲近上升的同时，信任、依赖或边界至少一项下降。",
+      "entry_state": "酒肆掌柜与路线熟手；站位能看出口，先观察再动作。",
+      "beats": [
+        {
+          "action": "顾行舟把两名北客的原话和时刻写在纸上，纸边不写姓名；沈蘅检查他是否替人下结论。",
+          "subtext": "顾行舟主动把保护对象的隐私写进方法，沈蘅仍在防备被代替。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L1-05",
+              "speaker": "顾行舟",
+              "text": "他们说白芷贵，不等于他们知道为什么。",
+              "intent": "把事实和推断分开",
+              "pace": "中慢"
+            },
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "你这次没替他们说完。",
+              "intent": "确认边界被尊重",
+              "pace": "慢"
+            },
+            {
+              "speaker_id": "CHR-L1-05",
+              "speaker": "顾行舟",
+              "text": "我学得慢。你可以再提醒。",
+              "intent": "承认关系中的亏欠",
+              "pace": "中慢"
+            }
+          ]
+        },
+        {
+          "action": "沈蘅把纸推回给他，让他自己决定是否保留姓名空栏。",
+          "subtext": "边界不靠宣言，而靠谁把纸推回谁面前。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "名字空着。时刻留下。",
+              "intent": "建立共同记录规则",
+              "pace": "中慢"
+            },
+            {
+              "speaker_id": "CHR-L1-05",
+              "speaker": "顾行舟",
+              "text": "好。",
+              "intent": "接受协商后的限制",
+              "pace": "中慢"
+            }
+          ]
+        }
+      ],
+      "choice": "顾行舟提供可核验原话而不代替判断；沈蘅保留隐私边界。",
+      "exit_state": "两人的关系从被照顾转向共同制定记录规则；母女裂缝仍未解决。",
+      "causes_next": "沈蘅第一次违背母亲，留下香丸做证；陆清和把她的行为理解为重新把父亲带回家。",
+      "continuity_refs": [
+        "S1-E01-M12",
+        "LOC-009",
+        "LOC-002"
+      ],
+      "dialogue_boundary": "对白为正式剧本第一版；不改写 Character DNA，不引入镜头指令或未锁定事实。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M13",
+      "chapter_id": "S1-E01-M13",
+      "episode_id": "S1-E01",
+      "format": "2-3 minute microchapter scene",
+      "status": "DRAFT-EPISODE-GATE",
+      "duration_seconds": 150,
+      "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+      "location_ids": [
+        "LOC-002"
+      ],
+      "participants": [
+        "CHR-L1-01",
+        "CHR-L2-01"
+      ],
+      "dramatic_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？",
+      "objective": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+      "obstacle": "方案必须可执行，并直接通向本集已锁定选择。",
+      "entry_state": "调香铺工作状态；先看物，再看手，最后看人；呼吸稳定。",
+      "beats": [
+        {
+          "action": "沈蘅把香丸、灰样、胶痕纸分成三列，给每列留出空白。",
+          "subtext": "她提出方案，不是为了证明父亲，而是为了让错误有回头路。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "香丸留下，灰样分开，所有纸都写‘未核’。",
+              "intent": "提出可执行方案",
+              "pace": "慢"
+            },
+            {
+              "speaker_id": "CHR-L2-01",
+              "speaker": "陆清和",
+              "text": "你要把它留在家里？",
+              "intent": "确认生活风险",
+              "pace": "低"
+            },
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "留在可看见的地方。不是供起来。",
+              "intent": "拒绝把遗物神圣化",
+              "pace": "中慢"
+            }
+          ]
+        }
+      ],
+      "choice": "沈蘅保留香丸并公开写下‘未核’，不借亡父名义给城里下结论。",
+      "exit_state": "调查从家事转为公共责任；但母女裂缝正式成立。",
+      "causes_next": "母女裂缝成立，调查从家事变成公共责任。",
+      "continuity_refs": [
+        "S1-E01-M13",
+        "LOC-002"
+      ],
+      "dialogue_boundary": "对白为正式剧本第一版；不改写 Character DNA，不引入镜头指令或未锁定事实。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M14",
+      "chapter_id": "S1-E01-M14",
+      "episode_id": "S1-E01",
+      "format": "2-3 minute microchapter scene",
+      "status": "DRAFT-EPISODE-GATE",
+      "duration_seconds": 150,
+      "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+      "location_ids": [
+        "LOC-002"
+      ],
+      "participants": [
+        "CHR-L2-01",
+        "CHR-L1-01"
+      ],
+      "dramatic_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？",
+      "objective": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+      "obstacle": "角色必须看见谁替这个方案支付生活账单。",
+      "entry_state": "香铺掌柜工作状态；一边做事一边听，手上保持生活动作。",
+      "beats": [
+        {
+          "action": "陆清和打开旧账箱，一张张放下停业单、罚银、药费和鞋钱；每放一张就把箱盖推远一点。",
+          "subtext": "她不是控诉亡夫，而是让女儿看见正确选择由谁付账。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L2-01",
+              "speaker": "陆清和",
+              "text": "你爹死后，第一个月，铺子关了十九日。",
+              "intent": "把抽象代价变成日期",
+              "pace": "低"
+            },
+            {
+              "speaker_id": "CHR-L2-01",
+              "speaker": "陆清和",
+              "text": "第二个月，门口每天有人骂。",
+              "intent": "把名声代价放到门口",
+              "pace": "低"
+            },
+            {
+              "speaker_id": "CHR-L2-01",
+              "speaker": "陆清和",
+              "text": "第三个月，你夜里发热。我没有钱同时买药和交货款。",
+              "intent": "把母女生活放入选择账单",
+              "pace": "低"
+            },
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "我不知道。",
+              "intent": "承认自己只看见父亲一边",
+              "pace": "极慢"
+            }
+          ]
+        },
+        {
+          "action": "沈蘅没有去碰账单，只把香丸旁边的空白纸推给母亲。",
+          "subtext": "她不求母亲批准，只承认母亲一直在支付。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "这次我先把会付账的人写下来。",
+              "intent": "把方法改成共同承担",
+              "pace": "慢"
+            },
+            {
+              "speaker_id": "CHR-L2-01",
+              "speaker": "陆清和",
+              "text": "写。写全。",
+              "intent": "不阻止，但不替她承担",
+              "pace": "低"
+            }
+          ]
+        }
+      ],
+      "choice": "陆清和让沈蘅先看清代价；沈蘅放弃‘只要正确就够了’的轻易判断。",
+      "exit_state": "母女仍有裂缝，但争执从‘查不查’转为‘谁付账’。",
+      "causes_next": "保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。",
+      "continuity_refs": [
+        "S1-E01-M14",
+        "LOC-002"
+      ],
+      "dialogue_boundary": "对白为正式剧本第一版；不改写 Character DNA，不引入镜头指令或未锁定事实。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M15",
+      "chapter_id": "S1-E01-M15",
+      "episode_id": "S1-E01",
+      "format": "2-3 minute microchapter scene",
+      "status": "DRAFT-EPISODE-GATE",
+      "duration_seconds": 150,
+      "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+      "location_ids": [
+        "LOC-001",
+        "LOC-002"
+      ],
+      "participants": [
+        "CHR-L2-02",
+        "CHR-L1-01",
+        "CHR-L2-01"
+      ],
+      "dramatic_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？",
+      "objective": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+      "obstacle": "动作只能使用前文建立的职业能力、地形与关系权限。",
+      "entry_state": "馄饨铺忙碌状态；边做事边说，眼睛追踪客人的饭量和来去。",
+      "beats": [
+        {
+          "action": "阿沅把油纸上的饭量、门声和空位抄成三栏；沈蘅不替她改词。",
+          "subtext": "普通人的记录被允许保留粗糙，而不是被专业语言吞掉。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L2-02",
+              "speaker": "林阿沅",
+              "text": "这栏写‘亲见’，这栏写‘听说’，中间这栏……",
+              "intent": "寻找可以诚实表达的不确定词",
+              "pace": "中慢"
+            },
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "写‘未核’。不知道，不丢人。",
+              "intent": "把不确定性制度化",
+              "pace": "低"
+            },
+            {
+              "speaker_id": "CHR-L2-01",
+              "speaker": "陆清和",
+              "text": "纸够不够？",
+              "intent": "用生活动作表达支持但不表态",
+              "pace": "低"
+            },
+            {
+              "speaker_id": "CHR-L2-02",
+              "speaker": "林阿沅",
+              "text": "够。只要别把空白也算成答案。",
+              "intent": "把方法变成自己的坚持",
+              "pace": "中慢"
+            }
+          ]
+        }
+      ],
+      "choice": "阿沅按来源等级记录，沈蘅公开‘未核’规则。",
+      "exit_state": "春信的最小记录格式出现：亲见、转闻、未核；信息可以被后来者纠正。",
+      "causes_next": "香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。",
+      "continuity_refs": [
+        "S1-E01-M15",
+        "LOC-001",
+        "LOC-002"
+      ],
+      "dialogue_boundary": "对白为正式剧本第一版；不改写 Character DNA，不引入镜头指令或未锁定事实。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M16",
+      "chapter_id": "S1-E01-M16",
+      "episode_id": "S1-E01",
+      "format": "2-3 minute microchapter scene",
+      "status": "DRAFT-EPISODE-GATE",
+      "duration_seconds": 150,
+      "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+      "location_ids": [
+        "LOC-002"
+      ],
+      "participants": [
+        "CHR-L1-05",
+        "CHR-L1-01"
+      ],
+      "dramatic_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？",
+      "objective": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+      "obstacle": "真相不能撤销已经发生的伤害，只能重新分配责任。",
+      "entry_state": "酒肆掌柜与路线熟手；站位能看出口，先观察再动作。",
+      "beats": [
+        {
+          "action": "顾行舟用纸纤维、胶痕软硬和刀口方向复核香丸曾被重新封入；沈蘅在纸上补时刻。",
+          "subtext": "真相不是‘谁’，而是投递者知道她会按职业方法拆穿伪装。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L1-05",
+              "speaker": "顾行舟",
+              "text": "这不是藏得好。是故意让你发现。",
+              "intent": "提出行为层重义",
+              "pace": "低"
+            },
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "如果故意让我发现，他就知道我会拆。",
+              "intent": "把对手能力写进问题",
+              "pace": "慢"
+            },
+            {
+              "speaker_id": "CHR-L1-05",
+              "speaker": "顾行舟",
+              "text": "也可能只知道你不会烧。",
+              "intent": "保留替代解释",
+              "pace": "低"
+            }
+          ]
+        },
+        {
+          "action": "顾行舟伸手想按住纸角，停住；沈蘅自己压平纸边。",
+          "subtext": "他学会不替她固定证据，也不替她固定结论。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "别替我压。纸会记住手。",
+              "intent": "把物证与边界同时说清",
+              "pace": "低"
+            },
+            {
+              "speaker_id": "CHR-L1-05",
+              "speaker": "顾行舟",
+              "text": "那我记在旁边。",
+              "intent": "接受协作方式",
+              "pace": "低"
+            }
+          ]
+        }
+      ],
+      "choice": "顾行舟确认投递者利用职业核验习惯，沈蘅记录为疑点而非身份判断。",
+      "exit_state": "调查对象从‘亡父遗言’转为‘懂得沈蘅方法的人’；关系协作更具体。",
+      "causes_next": "保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。",
+      "continuity_refs": [
+        "S1-E01-M16",
+        "LOC-002"
+      ],
+      "dialogue_boundary": "对白为正式剧本第一版；不改写 Character DNA，不引入镜头指令或未锁定事实。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M17",
+      "chapter_id": "S1-E01-M17",
+      "episode_id": "S1-E01",
+      "format": "2-3 minute microchapter scene",
+      "status": "DRAFT-EPISODE-GATE",
+      "duration_seconds": 150,
+      "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+      "location_ids": [
+        "LOC-002"
+      ],
+      "participants": [
+        "CHR-L1-01",
+        "CHR-L2-01"
+      ],
+      "dramatic_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？",
+      "objective": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+      "obstacle": "角色要选择愿意成为什么样的人，而不是选择无代价的正确。",
+      "entry_state": "调香铺工作状态；先看物，再看手，最后看人；呼吸稳定。",
+      "beats": [
+        {
+          "action": "沈蘅提笔，先写下地点、时刻、来源，再停在‘结论’一栏。",
+          "subtext": "她可以用父亲的名义让一座城紧张，却选择不这样做。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "今岁无春，不能写。",
+              "intent": "拒绝把一句话扩大成城市判断",
+              "pace": "慢"
+            },
+            {
+              "speaker_id": "CHR-L2-01",
+              "speaker": "陆清和",
+              "text": "那你写什么？",
+              "intent": "逼她完成而不是只克制",
+              "pace": "低"
+            },
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "香丸新封，来源未核。",
+              "intent": "用事实替代解释",
+              "pace": "低"
+            }
+          ]
+        },
+        {
+          "action": "她把笔放下，等墨干；陆清和没有替她盖纸。",
+          "subtext": "选择没有掌声，只有一张不够漂亮但可纠正的纸。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L2-01",
+              "speaker": "陆清和",
+              "text": "做对的事，常常看起来不像做了什么。",
+              "intent": "承认她的选择但不美化代价",
+              "pace": "低"
+            },
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "那就让它先不像答案。",
+              "intent": "接受不确定的孤独",
+              "pace": "低"
+            }
+          ]
+        }
+      ],
+      "choice": "沈蘅公开写下‘未核’，不使用‘无春’替城市下结论。",
+      "exit_state": "第一集的价值选择完成：春信先记录事实，再等待合报。",
+      "causes_next": "修匣黏合物来自近半年，说明有人刚把香丸放进旧匣，而且知道沈蘅会发现。",
+      "continuity_refs": [
+        "S1-E01-M17",
+        "LOC-002"
+      ],
+      "dialogue_boundary": "对白为正式剧本第一版；不改写 Character DNA，不引入镜头指令或未锁定事实。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M18",
+      "chapter_id": "S1-E01-M18",
+      "episode_id": "S1-E01",
+      "format": "2-3 minute microchapter scene",
+      "status": "DRAFT-EPISODE-GATE",
+      "duration_seconds": 150,
+      "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+      "location_ids": [
+        "LOC-002"
+      ],
+      "participants": [
+        "CHR-L2-01",
+        "CHR-L1-01"
+      ],
+      "dramatic_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？",
+      "objective": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+      "obstacle": "局部问题收束，但片尾只能打开相邻的下一层追问。",
+      "entry_state": "香铺掌柜工作状态；一边做事一边听，手上保持生活动作。",
+      "beats": [
+        {
+          "action": "陆清和重新检查铜扣，把一小片近半年才会变色的胶留在灯下；沈蘅没有立即拿笔。",
+          "subtext": "母亲先发现：这不是藏匿失败，而是投递者留下的邀请。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L2-01",
+              "speaker": "陆清和",
+              "text": "这胶痕，故意留在你看得见的地方。",
+              "intent": "把尾钩从物件推到人",
+              "pace": "低"
+            },
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "他知道我会拆。",
+              "intent": "承认对手已经预判她",
+              "pace": "慢"
+            },
+            {
+              "speaker_id": "CHR-L2-01",
+              "speaker": "陆清和",
+              "text": "那他也知道，你会记。",
+              "intent": "把女儿的选择推向明天",
+              "pace": "低"
+            }
+          ]
+        },
+        {
+          "action": "沈蘅在‘未核’下面补写‘待查：近半年入匣者’，陆清和把铜扣扣上。",
+          "subtext": "匣子终于合上，但问题从家内移向城市。",
+          "dialogue": [
+            {
+              "speaker_id": "CHR-L1-01",
+              "speaker": "沈蘅",
+              "text": "明早先查进门的人。",
+              "intent": "把尾钩转成下一集行动",
+              "pace": "慢"
+            },
+            {
+              "speaker_id": "CHR-L2-01",
+              "speaker": "陆清和",
+              "text": "明早先吃饭。",
+              "intent": "用生活把英雄拉回人间",
+              "pace": "低"
+            }
+          ]
+        }
+      ],
+      "choice": "母女共同留下‘近半年入匣者’这一追问，香丸状态与未核记录保持连续。",
+      "exit_state": "E01 在生活动作中闭环；下一集由入匣者、香材与粮运异常接续。",
+      "causes_next": "追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。",
+      "continuity_refs": [
+        "S1-E01-M18",
+        "LOC-002"
+      ],
+      "dialogue_boundary": "对白为正式剧本第一版；不改写 Character DNA，不引入镜头指令或未锁定事实。"
+    }
+  ],
+  "storyboard": [
+    {
+      "scene_id": "SCN-S1-E01-M01",
+      "chapter_id": "S1-E01-M01",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-001",
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "柜台—后仓门槛轴",
+        "zones": [
+          "前堂柜台",
+          "后仓门槛"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M01-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "前堂柜台",
+              "后仓门槛"
+            ],
+            "movement": "沈蘅由柜台到后仓；陆清和停在门槛内侧。",
+            "contact": "无新触碰；陆清和伸手取匣后收回。",
+            "prop_handling": "旧匣由沈蘅双手托住，香丸不脱离匣底。",
+            "axis": "柜台—后仓门槛轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "前堂柜台",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "雨后檐下天光",
+              "前堂一盏未完全拨亮的油灯"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M01-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-01",
+            "action_path": "沈蘅由柜台到后仓；陆清和停在门槛内侧。",
+            "contact": "无新触碰；陆清和伸手取匣后收回。",
+            "prop_handling": "旧匣由沈蘅双手托住，香丸不脱离匣底。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "前堂柜台",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "雨后檐下天光",
+              "前堂一盏未完全拨亮的油灯"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M01-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-01",
+            "end_position": "后仓门槛",
+            "contact": "无新触碰；陆清和伸手取匣后收回。",
+            "prop_handling": "旧匣由沈蘅双手托住，香丸不脱离匣底。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "后仓门槛",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "雨后檐下天光",
+              "前堂一盏未完全拨亮的油灯"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "母女从共同开铺转为各自守着一件东西；后仓第一次成为需要记录的空间。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M02",
+      "chapter_id": "S1-E01-M02",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "案桌—门闩轴",
+        "zones": [
+          "后仓案桌",
+          "门闩"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M02-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "后仓案桌",
+              "门闩"
+            ],
+            "movement": "孙锁叔靠近案桌后退回门边；陆清和负责门闩。",
+            "contact": "沈蘅与孙锁叔不碰手；陆清和只碰门闩。",
+            "prop_handling": "胶丝落在白纸中央，竹片与镊子分置两侧。",
+            "axis": "案桌—门闩轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "后仓案桌",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "后仓窄窗散射天光",
+              "案桌小油灯"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M02-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-01",
+            "action_path": "孙锁叔靠近案桌后退回门边；陆清和负责门闩。",
+            "contact": "沈蘅与孙锁叔不碰手；陆清和只碰门闩。",
+            "prop_handling": "胶丝落在白纸中央，竹片与镊子分置两侧。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "后仓案桌",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "后仓窄窗散射天光",
+              "案桌小油灯"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M02-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-01",
+            "end_position": "门闩",
+            "contact": "沈蘅与孙锁叔不碰手；陆清和只碰门闩。",
+            "prop_handling": "胶丝落在白纸中央，竹片与镊子分置两侧。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "门闩",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "后仓窄窗散射天光",
+              "案桌小油灯"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "胶痕成为第一条当代证据；陆清和将后仓门纳入日常锁闭。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M03",
+      "chapter_id": "S1-E01-M03",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-001",
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "碗架—后仓门外轴",
+        "zones": [
+          "前堂碗架",
+          "后仓门外"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M03-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "前堂碗架",
+              "后仓门外"
+            ],
+            "movement": "阿沅从门口到碗架，再停在后仓门外；沈蘅不让路也不挡路。",
+            "contact": "沈蘅递纸，不触碰阿沅手。",
+            "prop_handling": "油纸记录夹在碗篮下，不遮住碗数。",
+            "axis": "碗架—后仓门外轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "前堂碗架",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "巷口雨后天光",
+              "前堂反射光"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M03-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-02",
+            "action_path": "阿沅从门口到碗架，再停在后仓门外；沈蘅不让路也不挡路。",
+            "contact": "沈蘅递纸，不触碰阿沅手。",
+            "prop_handling": "油纸记录夹在碗篮下，不遮住碗数。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "前堂碗架",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "巷口雨后天光",
+              "前堂反射光"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M03-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-02",
+            "end_position": "后仓门外",
+            "contact": "沈蘅递纸，不触碰阿沅手。",
+            "prop_handling": "油纸记录夹在碗篮下，不遮住碗数。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "后仓门外",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "巷口雨后天光",
+              "前堂反射光"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "阿沅获得临时记录权；沈蘅的调查开始离开香铺内部。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M04",
+      "chapter_id": "S1-E01-M04",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/05-west-lake-and-xiling-circle.md",
+        "location_ids": [
+          "LOC-009"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "柜台—门口轴",
+        "zones": [
+          "酒肆柜台",
+          "临窗桌"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M04-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "酒肆柜台",
+              "临窗桌"
+            ],
+            "movement": "顾行舟始终可见门口；沈蘅站在柜台外侧，不进入他的安全位。",
+            "contact": "无触碰；顾行舟只移动刀与纸。",
+            "prop_handling": "酒账与空白纸平行放置，刀尖朝内。",
+            "axis": "柜台—门口轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "酒肆柜台",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "酒肆门口阴天光",
+              "柜台暖油灯"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M04-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-05",
+            "action_path": "顾行舟始终可见门口；沈蘅站在柜台外侧，不进入他的安全位。",
+            "contact": "无触碰；顾行舟只移动刀与纸。",
+            "prop_handling": "酒账与空白纸平行放置，刀尖朝内。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "酒肆柜台",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "酒肆门口阴天光",
+              "柜台暖油灯"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M04-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-05",
+            "end_position": "临窗桌",
+            "contact": "无触碰；顾行舟只移动刀与纸。",
+            "prop_handling": "酒账与空白纸平行放置，刀尖朝内。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "临窗桌",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "酒肆门口阴天光",
+              "柜台暖油灯"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "两人建立‘提供事实但不代选’的初始边界；白芷价格进入并列疑报。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M05",
+      "chapter_id": "S1-E01-M05",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "案桌—炉边轴",
+        "zones": [
+          "案桌",
+          "炉边"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M05-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "案桌",
+              "炉边"
+            ],
+            "movement": "沈蘅围案桌半圈；陆清和保持炉边位置，只用听觉参与。",
+            "contact": "无人物触碰。",
+            "prop_handling": "切样、灰样、原匣三点分置，纸签朝外。",
+            "axis": "案桌—炉边轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "案桌",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯",
+              "炉火低光"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M05-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-01",
+            "action_path": "沈蘅围案桌半圈；陆清和保持炉边位置，只用听觉参与。",
+            "contact": "无人物触碰。",
+            "prop_handling": "切样、灰样、原匣三点分置，纸签朝外。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "案桌",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯",
+              "炉火低光"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M05-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-01",
+            "end_position": "炉边",
+            "contact": "无人物触碰。",
+            "prop_handling": "切样、灰样、原匣三点分置，纸签朝外。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "炉边",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯",
+              "炉火低光"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "香丸从一件遗物变成两份可追踪样本；‘未核’成为本集的工作规则。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M06",
+      "chapter_id": "S1-E01-M06",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "账桌—门边轴",
+        "zones": [
+          "账桌",
+          "门边",
+          "炉边"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M06-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "账桌",
+              "门边",
+              "炉边"
+            ],
+            "movement": "陆清和在桌与炉之间；顾行舟留门边；阿沅靠近纸但不拿走。",
+            "contact": "无触碰；纸张由陆清和推动。",
+            "prop_handling": "饭量纸与酒账不重叠，中央留‘疑报’空位。",
+            "axis": "账桌—门边轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "账桌",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "桌面油灯",
+              "门外雨后冷光"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M06-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-01",
+            "action_path": "陆清和在桌与炉之间；顾行舟留门边；阿沅靠近纸但不拿走。",
+            "contact": "无触碰；纸张由陆清和推动。",
+            "prop_handling": "饭量纸与酒账不重叠，中央留‘疑报’空位。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "账桌",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "桌面油灯",
+              "门外雨后冷光"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M06-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-01",
+            "end_position": "炉边",
+            "contact": "无触碰；纸张由陆清和推动。",
+            "prop_handling": "饭量纸与酒账不重叠，中央留‘疑报’空位。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "炉边",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "桌面油灯",
+              "门外雨后冷光"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "调查获得横向核验的方向；时限从‘以后’变成‘今晚与明早’。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M07",
+      "chapter_id": "S1-E01-M07",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-001"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "案板—街口轴",
+        "zones": [
+          "馄饨摊案板",
+          "街口座位"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M07-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "馄饨摊案板",
+              "街口座位"
+            ],
+            "movement": "阿沅边添汤边记，最后从摊位走向街口。",
+            "contact": "只与碗、勺、油纸接触。",
+            "prop_handling": "油纸折角标记待回访，不写诊断词。",
+            "axis": "案板—街口轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "馄饨摊案板",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "街巷雨后散射光",
+              "食担小灯"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M07-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-02",
+            "action_path": "阿沅边添汤边记，最后从摊位走向街口。",
+            "contact": "只与碗、勺、油纸接触。",
+            "prop_handling": "油纸折角标记待回访，不写诊断词。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "馄饨摊案板",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "街巷雨后散射光",
+              "食担小灯"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M07-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-02",
+            "end_position": "街口座位",
+            "contact": "只与碗、勺、油纸接触。",
+            "prop_handling": "油纸折角标记待回访，不写诊断词。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "街口座位",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "街巷雨后散射光",
+              "食担小灯"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "阿沅从‘会看见’进入‘会回访’，生活基线不再只是闲话。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M08",
+      "chapter_id": "S1-E01-M08",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/05-west-lake-and-xiling-circle.md",
+        "location_ids": [
+          "LOC-009"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "灯钩—门侧轴",
+        "zones": [
+          "酒肆后门",
+          "灯钩",
+          "门侧阴影"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M08-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "酒肆后门",
+              "灯钩",
+              "门侧阴影"
+            ],
+            "movement": "顾行舟挂灯后退到门侧；沈蘅靠近灯钩但不跨出门。",
+            "contact": "无人物触碰；灯钩由顾行舟操作。",
+            "prop_handling": "防风灯固定后不得在本集再换位置。",
+            "axis": "灯钩—门侧轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "酒肆后门",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "防风灯（主光源）",
+              "酒肆后门冷雨光"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M08-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-05",
+            "action_path": "顾行舟挂灯后退到门侧；沈蘅靠近灯钩但不跨出门。",
+            "contact": "无人物触碰；灯钩由顾行舟操作。",
+            "prop_handling": "防风灯固定后不得在本集再换位置。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "酒肆后门",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "防风灯（主光源）",
+              "酒肆后门冷雨光"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M08-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-05",
+            "end_position": "门侧阴影",
+            "contact": "无人物触碰；灯钩由顾行舟操作。",
+            "prop_handling": "防风灯固定后不得在本集再换位置。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "门侧阴影",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "防风灯（主光源）",
+              "酒肆后门冷雨光"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "关系靠近一寸，选择权也被明确写回各自手中。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M09",
+      "chapter_id": "S1-E01-M09",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "案桌中线轴",
+        "zones": [
+          "案桌两侧"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M09-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "案桌两侧"
+            ],
+            "movement": "沈蘅绕桌取纸；陆清和只移动匣盖，不跨过桌中线。",
+            "contact": "无人物触碰。",
+            "prop_handling": "旧灰与新胶痕并置，匣盖合上但铜扣保持打开。",
+            "axis": "案桌中线轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "案桌两侧",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯",
+              "后仓窄窗微光"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M09-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-01",
+            "action_path": "沈蘅绕桌取纸；陆清和只移动匣盖，不跨过桌中线。",
+            "contact": "无人物触碰。",
+            "prop_handling": "旧灰与新胶痕并置，匣盖合上但铜扣保持打开。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "案桌两侧",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯",
+              "后仓窄窗微光"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M09-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-01",
+            "end_position": "案桌两侧",
+            "contact": "无人物触碰。",
+            "prop_handling": "旧灰与新胶痕并置，匣盖合上但铜扣保持打开。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "案桌两侧",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯",
+              "后仓窄窗微光"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "核心问题从‘父亲预言’改为‘谁投递、为何让她发现’。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M10",
+      "chapter_id": "S1-E01-M10",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "钱匣—门闩轴",
+        "zones": [
+          "钱匣",
+          "后仓门"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M10-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "钱匣",
+              "后仓门"
+            ],
+            "movement": "陆清和完成一条锁匣—锁门的生活路线；沈蘅停在门外。",
+            "contact": "无人物触碰。",
+            "prop_handling": "钥匙在陆清和右手；后仓门锁闭。",
+            "axis": "钱匣—门闩轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "钱匣",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "门内油灯",
+              "门外雨光被门缝切断"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M10-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-01",
+            "action_path": "陆清和完成一条锁匣—锁门的生活路线；沈蘅停在门外。",
+            "contact": "无人物触碰。",
+            "prop_handling": "钥匙在陆清和右手；后仓门锁闭。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "钱匣",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "门内油灯",
+              "门外雨光被门缝切断"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M10-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-01",
+            "end_position": "后仓门",
+            "contact": "无人物触碰。",
+            "prop_handling": "钥匙在陆清和右手；后仓门锁闭。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "后仓门",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "门内油灯",
+              "门外雨光被门缝切断"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "调查获得制度化边界；母女从争论意图转向争论谁承担后果。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M11",
+      "chapter_id": "S1-E01-M11",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-001"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "门槛—巷口轴",
+        "zones": [
+          "门槛",
+          "巷口"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M11-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "门槛",
+              "巷口"
+            ],
+            "movement": "阿沅从门槛退到巷口，回头一次，不再敲第二次。",
+            "contact": "只接触门槛和油纸。",
+            "prop_handling": "油纸留在门内侧可见位置。",
+            "axis": "门槛—巷口轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "门槛",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "巷口阴天光",
+              "门内未点灯的暗部"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M11-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-02",
+            "action_path": "阿沅从门槛退到巷口，回头一次，不再敲第二次。",
+            "contact": "只接触门槛和油纸。",
+            "prop_handling": "油纸留在门内侧可见位置。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "门槛",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "巷口阴天光",
+              "门内未点灯的暗部"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M11-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-02",
+            "end_position": "巷口",
+            "contact": "只接触门槛和油纸。",
+            "prop_handling": "油纸留在门内侧可见位置。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "巷口",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "巷口阴天光",
+              "门内未点灯的暗部"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "失联风险第一次落到一扇具体的门；阿沅获得下一章关系回报的行动依据。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M12",
+      "chapter_id": "S1-E01-M12",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/05-west-lake-and-xiling-circle.md",
+        "location_ids": [
+          "LOC-009",
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "门边—案桌轴",
+        "zones": [
+          "酒肆后门",
+          "香铺案桌"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M12-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "酒肆后门",
+              "香铺案桌"
+            ],
+            "movement": "顾行舟将纸放在门边；沈蘅取纸回到案桌，两人不并肩。",
+            "contact": "无人物触碰。",
+            "prop_handling": "纸张折角标记来源保护等级。",
+            "axis": "门边—案桌轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "酒肆后门",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "酒肆门口雨光",
+              "香铺案桌油灯"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M12-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-05",
+            "action_path": "顾行舟将纸放在门边；沈蘅取纸回到案桌，两人不并肩。",
+            "contact": "无人物触碰。",
+            "prop_handling": "纸张折角标记来源保护等级。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "酒肆后门",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "酒肆门口雨光",
+              "香铺案桌油灯"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M12-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-05",
+            "end_position": "香铺案桌",
+            "contact": "无人物触碰。",
+            "prop_handling": "纸张折角标记来源保护等级。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "香铺案桌",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "酒肆门口雨光",
+              "香铺案桌油灯"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "两人的关系从被照顾转向共同制定记录规则；母女裂缝仍未解决。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M13",
+      "chapter_id": "S1-E01-M13",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "案桌横向轴",
+        "zones": [
+          "案桌三列"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M13-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "案桌三列"
+            ],
+            "movement": "沈蘅从左至右摆放三列；陆清和站在桌尾，不动手。",
+            "contact": "无人物触碰。",
+            "prop_handling": "香丸居中、灰样左、胶痕纸右；空白栏必须可见。",
+            "axis": "案桌横向轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "案桌三列",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯主光",
+              "炉火边缘光"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M13-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-01",
+            "action_path": "沈蘅从左至右摆放三列；陆清和站在桌尾，不动手。",
+            "contact": "无人物触碰。",
+            "prop_handling": "香丸居中、灰样左、胶痕纸右；空白栏必须可见。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "案桌三列",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯主光",
+              "炉火边缘光"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M13-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-01",
+            "end_position": "案桌三列",
+            "contact": "无人物触碰。",
+            "prop_handling": "香丸居中、灰样左、胶痕纸右；空白栏必须可见。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "案桌三列",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯主光",
+              "炉火边缘光"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "调查从家事转为公共责任；但母女裂缝正式成立。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M14",
+      "chapter_id": "S1-E01-M14",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "账箱—案桌轴",
+        "zones": [
+          "旧账箱",
+          "案桌三列"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M14-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "旧账箱",
+              "案桌三列"
+            ],
+            "movement": "陆清和沿桌边放账；沈蘅保持一臂距离，只移动空白纸。",
+            "contact": "无人物触碰；账单不交到对方手里。",
+            "prop_handling": "账单按月份排列，鞋钱最后落下。",
+            "axis": "账箱—案桌轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "旧账箱",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "旧账箱旁低油灯",
+              "案桌冷暖混合光"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M14-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-01",
+            "action_path": "陆清和沿桌边放账；沈蘅保持一臂距离，只移动空白纸。",
+            "contact": "无人物触碰；账单不交到对方手里。",
+            "prop_handling": "账单按月份排列，鞋钱最后落下。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "旧账箱",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "旧账箱旁低油灯",
+              "案桌冷暖混合光"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M14-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-01",
+            "end_position": "案桌三列",
+            "contact": "无人物触碰；账单不交到对方手里。",
+            "prop_handling": "账单按月份排列，鞋钱最后落下。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "案桌三列",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "旧账箱旁低油灯",
+              "案桌冷暖混合光"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "母女仍有裂缝，但争执从‘查不查’转为‘谁付账’。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M15",
+      "chapter_id": "S1-E01-M15",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-001",
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "纸架—案桌轴",
+        "zones": [
+          "案桌",
+          "门边纸架"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M15-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "案桌",
+              "门边纸架"
+            ],
+            "movement": "阿沅从桌左写到桌右；沈蘅站在对面；陆清和在后方整理纸。",
+            "contact": "沈蘅不拿笔，只推纸；陆清和只补纸。",
+            "prop_handling": "三栏纸张固定在木夹板上。",
+            "axis": "纸架—案桌轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "案桌",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯",
+              "门边天光"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M15-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-02",
+            "action_path": "阿沅从桌左写到桌右；沈蘅站在对面；陆清和在后方整理纸。",
+            "contact": "沈蘅不拿笔，只推纸；陆清和只补纸。",
+            "prop_handling": "三栏纸张固定在木夹板上。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "案桌",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯",
+              "门边天光"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M15-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-02",
+            "end_position": "门边纸架",
+            "contact": "沈蘅不拿笔，只推纸；陆清和只补纸。",
+            "prop_handling": "三栏纸张固定在木夹板上。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "门边纸架",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯",
+              "门边天光"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "春信的最小记录格式出现：亲见、转闻、未核；信息可以被后来者纠正。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M16",
+      "chapter_id": "S1-E01-M16",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "案桌横向轴",
+        "zones": [
+          "案桌两侧"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M16-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "案桌两侧"
+            ],
+            "movement": "顾行舟靠近桌边后停下；沈蘅压平纸角。",
+            "contact": "禁止顾行舟触碰沈蘅手；只允许物件接触。",
+            "prop_handling": "纸角由沈蘅压住，顾行舟的手停在纸外。",
+            "axis": "案桌横向轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "案桌两侧",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯主光",
+              "门缝冷光"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M16-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-05",
+            "action_path": "顾行舟靠近桌边后停下；沈蘅压平纸角。",
+            "contact": "禁止顾行舟触碰沈蘅手；只允许物件接触。",
+            "prop_handling": "纸角由沈蘅压住，顾行舟的手停在纸外。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "案桌两侧",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯主光",
+              "门缝冷光"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M16-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-05",
+            "end_position": "案桌两侧",
+            "contact": "禁止顾行舟触碰沈蘅手；只允许物件接触。",
+            "prop_handling": "纸角由沈蘅压住，顾行舟的手停在纸外。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "案桌两侧",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯主光",
+              "门缝冷光"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "调查对象从‘亡父遗言’转为‘懂得沈蘅方法的人’；关系协作更具体。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M17",
+      "chapter_id": "S1-E01-M17",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "案桌正面轴",
+        "zones": [
+          "案桌正面",
+          "陆清和身后"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M17-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "案桌正面",
+              "陆清和身后"
+            ],
+            "movement": "沈蘅坐定写字；陆清和在她身后停住，不越过肩线。",
+            "contact": "无触碰。",
+            "prop_handling": "墨迹自然晾干，纸不折叠。",
+            "axis": "案桌正面轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "案桌正面",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯稳定主光"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M17-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-01",
+            "action_path": "沈蘅坐定写字；陆清和在她身后停住，不越过肩线。",
+            "contact": "无触碰。",
+            "prop_handling": "墨迹自然晾干，纸不折叠。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "案桌正面",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯稳定主光"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M17-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L1-01",
+            "end_position": "陆清和身后",
+            "contact": "无触碰。",
+            "prop_handling": "墨迹自然晾干，纸不折叠。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "陆清和身后",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯稳定主光"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "第一集的价值选择完成：春信先记录事实，再等待合报。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    },
+    {
+      "scene_id": "SCN-S1-E01-M18",
+      "chapter_id": "S1-E01-M18",
+      "status": "DRAFT-EPISODE-GATE",
+      "scene_binding": {
+        "scene_spec_ref": "canon/city/03-he-ming-lane-and-shen-shop.md",
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather_state": "惊蛰雷雨后；保持与 Season Ledger 一致",
+        "axis": "案桌—后仓门轴",
+        "zones": [
+          "案桌",
+          "后仓门"
+        ]
+      },
+      "shots": [
+        {
+          "shot_id": "S1-E01-M18-S01",
+          "purpose": "建立空间与当章生活压力",
+          "attention_order": [
+            "location",
+            "focus_character",
+            "unresolved_object_or_action"
+          ],
+          "blocking": {
+            "zones": [
+              "案桌",
+              "后仓门"
+            ],
+            "movement": "陆清和从灯下到门边扣匣；沈蘅留在案桌完成补记。",
+            "contact": "无人物触碰。",
+            "prop_handling": "铜扣扣上但不加锁；未核纸留在案桌中央。",
+            "axis": "案桌—后仓门轴"
+          },
+          "camera": {
+            "scale": "wide-to-medium",
+            "anchor": "案桌",
+            "movement": "slow observational drift",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "章内生活物件",
+            "midground": "人物工作路径",
+            "background": "入口或出口",
+            "negative_space": "为尾钩对象留出可见位置"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯",
+              "灯下局部反光"
+            ],
+            "treatment": "不改变地理光源，仅保持雨后湿材质反应"
+          },
+          "temporal": {
+            "start": "人物进入日常动作",
+            "event": "生活动作露出异常",
+            "end": "观众知道要追什么"
+          },
+          "stable_end_state": "空间轴、人物相对位置与关键物件位置可复用"
+        },
+        {
+          "shot_id": "S1-E01-M18-S02",
+          "purpose": "让目标与阻力通过动作而非旁白可见",
+          "attention_order": [
+            "focus_character",
+            "counteraction",
+            "prop_or_record"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-01",
+            "action_path": "陆清和从灯下到门边扣匣；沈蘅留在案桌完成补记。",
+            "contact": "无人物触碰。",
+            "prop_handling": "铜扣扣上但不加锁；未核纸留在案桌中央。"
+          },
+          "camera": {
+            "scale": "medium two-shot or medium single",
+            "anchor": "案桌",
+            "movement": "locked with one motivated pan",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "hands and working surface",
+            "midground": "performer",
+            "background": "relationship counter-position",
+            "negative_space": "retain eyeline toward next chase"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯",
+              "灯下局部反光"
+            ],
+            "treatment": "让手部、纸面和材质读清，不用风格光替代动机"
+          },
+          "temporal": {
+            "start": "目标被提出",
+            "event": "对方或环境施加阻力",
+            "end": "角色作出一项局部选择"
+          },
+          "stable_end_state": "动作完成后保留关系距离与道具握持状态"
+        },
+        {
+          "shot_id": "S1-E01-M18-S03",
+          "purpose": "落尾钩并把问题交给下一章",
+          "attention_order": [
+            "evidence_or_relationship_delta",
+            "reaction",
+            "tail_hook"
+          ],
+          "blocking": {
+            "primary_actor": "CHR-L2-01",
+            "end_position": "后仓门",
+            "contact": "无人物触碰。",
+            "prop_handling": "铜扣扣上但不加锁；未核纸留在案桌中央。"
+          },
+          "camera": {
+            "scale": "close detail to restrained reaction",
+            "anchor": "后仓门",
+            "movement": "no decorative move; end on observable hold",
+            "axis_side": "preserve"
+          },
+          "composition": {
+            "foreground": "evidence or hand",
+            "midground": "reaction",
+            "background": "unresolved exit",
+            "negative_space": "tail hook direction"
+          },
+          "light": {
+            "physical_sources": [
+              "案桌油灯",
+              "灯下局部反光"
+            ],
+            "treatment": "保持光线连续，尾钩不靠闪白或突发风格变化"
+          },
+          "temporal": {
+            "start": "局部选择已完成",
+            "event": "反应或新事实出现",
+            "end": "下一追问可直接接入"
+          },
+          "stable_end_state": "E01 在生活动作中闭环；下一集由入匣者、香材与粮运异常接续。"
+        }
+      ],
+      "director_boundary": "镜头设计只实现已锁定戏剧目的；不新增对白、角色知识或城市地理。"
+    }
+  ],
+  "continuity_ledger": [
+    {
+      "chapter_id": "S1-E01-M01",
+      "scene_id": "SCN-S1-E01-M01",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "母女从共同开铺转为各自守着一件东西；后仓第一次成为需要记录的空间。",
+          "knowledge_added": "新增可见事实：惊蛰雷雨后鹤鸣巷重新开市；沈蘅清理父亲旧香匣，陆清和要求把香丸毁掉。；下一步只追问：旧匣铜扣内侧与香丸黏合处留下近半年才会出现的胶痕。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L2-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "母女从共同开铺转为各自守着一件东西；后仓第一次成为需要记录的空间。",
+          "knowledge_added": "新增可见事实：惊蛰雷雨后鹤鸣巷重新开市；沈蘅清理父亲旧香匣，陆清和要求把香丸毁掉。；下一步只追问：旧匣铜扣内侧与香丸黏合处留下近半年才会出现的胶痕。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "沈蘅不烧香丸，先把它连同旧匣移到后仓并记下出入。",
+        "must_remain": "旧匣由沈蘅双手托住，香丸不脱离匣底。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-001",
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "柜台—后仓门槛轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "旧匣铜扣内侧与香丸黏合处留下近半年才会出现的胶痕。"
+    },
+    {
+      "chapter_id": "S1-E01-M02",
+      "scene_id": "SCN-S1-E01-M02",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "胶痕成为第一条当代证据；陆清和将后仓门纳入日常锁闭。",
+          "knowledge_added": "新增可见事实：旧匣铜扣内侧与香丸黏合处留下近半年才会出现的胶痕。；下一步只追问：林阿沅主动介入：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L2-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "胶痕成为第一条当代证据；陆清和将后仓门纳入日常锁闭。",
+          "knowledge_added": "新增可见事实：旧匣铜扣内侧与香丸黏合处留下近半年才会出现的胶痕。；下一步只追问：林阿沅主动介入：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-B-006": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "胶痕成为第一条当代证据；陆清和将后仓门纳入日常锁闭。",
+          "knowledge_added": "新增可见事实：旧匣铜扣内侧与香丸黏合处留下近半年才会出现的胶痕。；下一步只追问：林阿沅主动介入：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "沈蘅把胶痕留在纸上，不把孙锁叔的模糊时间写成确定日期。",
+        "must_remain": "胶丝落在白纸中央，竹片与镊子分置两侧。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "案桌—门闩轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "林阿沅主动介入：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。"
+    },
+    {
+      "chapter_id": "S1-E01-M03",
+      "scene_id": "SCN-S1-E01-M03",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L2-02": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "阿沅获得临时记录权；沈蘅的调查开始离开香铺内部。",
+          "knowledge_added": "新增可见事实：林阿沅主动介入：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。；下一步只追问：先切样留灰，再问来源和时刻，最后落笔标证据等级。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "阿沅获得临时记录权；沈蘅的调查开始离开香铺内部。",
+          "knowledge_added": "新增可见事实：林阿沅主动介入：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。；下一步只追问：先切样留灰，再问来源和时刻，最后落笔标证据等级。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L2-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "阿沅获得临时记录权；沈蘅的调查开始离开香铺内部。",
+          "knowledge_added": "新增可见事实：林阿沅主动介入：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。；下一步只追问：先切样留灰，再问来源和时刻，最后落笔标证据等级。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "林阿沅主动回访街坊与修匣者，不把传闻直接递成结论。",
+        "must_remain": "油纸记录夹在碗篮下，不遮住碗数。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-001",
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "碗架—后仓门外轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "先切样留灰，再问来源和时刻，最后落笔标证据等级。"
+    },
+    {
+      "chapter_id": "S1-E01-M04",
+      "scene_id": "SCN-S1-E01-M04",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L1-05": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "两人建立‘提供事实但不代选’的初始边界；白芷价格进入并列疑报。",
+          "knowledge_added": "新增可见事实：先切样留灰，再问来源和时刻，最后落笔标证据等级。；下一步只追问：把异常放进日常账单：香丸灰中的新黏合物、矿粉与刀痕和十三年前不相容；沈蘅切样留灰并标记未核。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "两人建立‘提供事实但不代选’的初始边界；白芷价格进入并列疑报。",
+          "knowledge_added": "新增可见事实：先切样留灰，再问来源和时刻，最后落笔标证据等级。；下一步只追问：把异常放进日常账单：香丸灰中的新黏合物、矿粉与刀痕和十三年前不相容；沈蘅切样留灰并标记未核。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "顾行舟提供北客药价信息，不替沈蘅决定是否继续查。",
+        "must_remain": "酒账与空白纸平行放置，刀尖朝内。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-009"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "柜台—门口轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "把异常放进日常账单：香丸灰中的新黏合物、矿粉与刀痕和十三年前不相容；沈蘅切样留灰并标记未核。"
+    },
+    {
+      "chapter_id": "S1-E01-M05",
+      "scene_id": "SCN-S1-E01-M05",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "香丸从一件遗物变成两份可追踪样本；‘未核’成为本集的工作规则。",
+          "knowledge_added": "新增可见事实：把异常放进日常账单：香丸灰中的新黏合物、矿粉与刀痕和十三年前不相容；沈蘅切样留灰并标记未核。；下一步只追问：先回答局部问题，再把下一层疑问交给陆清和：林阿沅记录熟客饭量与赊账变化，顾行舟在停云酒肆记录北来客说白芷涨价；两条生活与客路信息尚不足以升级，只能并列为疑报。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L2-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "香丸从一件遗物变成两份可追踪样本；‘未核’成为本集的工作规则。",
+          "knowledge_added": "新增可见事实：把异常放进日常账单：香丸灰中的新黏合物、矿粉与刀痕和十三年前不相容；沈蘅切样留灰并标记未核。；下一步只追问：先回答局部问题，再把下一层疑问交给陆清和：林阿沅记录熟客饭量与赊账变化，顾行舟在停云酒肆记录北来客说白芷涨价；两条生活与客路信息尚不足以升级，只能并列为疑报。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "沈蘅保留切样与灰样，并把判断标为‘未核’。",
+        "must_remain": "切样、灰样、原匣三点分置，纸签朝外。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "案桌—炉边轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "先回答局部问题，再把下一层疑问交给陆清和：林阿沅记录熟客饭量与赊账变化，顾行舟在停云酒肆记录北来客说白芷涨价；两条生活与客路信息尚不足以升级，只能并列为疑报。"
+    },
+    {
+      "chapter_id": "S1-E01-M06",
+      "scene_id": "SCN-S1-E01-M06",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L2-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "调查获得横向核验的方向；时限从‘以后’变成‘今晚与明早’。",
+          "knowledge_added": "新增可见事实：先回答局部问题，再把下一层疑问交给陆清和：林阿沅记录熟客饭量与赊账变化，顾行舟在停云酒肆记录北来客说白芷涨价；两条生活与客路信息尚不足以升级，只能并列为疑报。；下一步只追问：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "调查获得横向核验的方向；时限从‘以后’变成‘今晚与明早’。",
+          "knowledge_added": "新增可见事实：先回答局部问题，再把下一层疑问交给陆清和：林阿沅记录熟客饭量与赊账变化，顾行舟在停云酒肆记录北来客说白芷涨价；两条生活与客路信息尚不足以升级，只能并列为疑报。；下一步只追问：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L2-02": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "调查获得横向核验的方向；时限从‘以后’变成‘今晚与明早’。",
+          "knowledge_added": "新增可见事实：先回答局部问题，再把下一层疑问交给陆清和：林阿沅记录熟客饭量与赊账变化，顾行舟在停云酒肆记录北来客说白芷涨价；两条生活与客路信息尚不足以升级，只能并列为疑报。；下一步只追问：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L1-05": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "调查获得横向核验的方向；时限从‘以后’变成‘今晚与明早’。",
+          "knowledge_added": "新增可见事实：先回答局部问题，再把下一层疑问交给陆清和：林阿沅记录熟客饭量与赊账变化，顾行舟在停云酒肆记录北来客说白芷涨价；两条生活与客路信息尚不足以升级，只能并列为疑报。；下一步只追问：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "四人把生活观察并列为疑报，不升级为预言或疫讯。",
+        "must_remain": "饭量纸与酒账不重叠，中央留‘疑报’空位。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "账桌—门边轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。"
+    },
+    {
+      "chapter_id": "S1-E01-M07",
+      "scene_id": "SCN-S1-E01-M07",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L2-02": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "阿沅从‘会看见’进入‘会回访’，生活基线不再只是闲话。",
+          "knowledge_added": "新增可见事实：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。；下一步只追问：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-B-007": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "阿沅从‘会看见’进入‘会回访’，生活基线不再只是闲话。",
+          "knowledge_added": "新增可见事实：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。；下一步只追问：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "阿沅记录饭量和赊账变化，并把未确认部分留空。",
+        "must_remain": "油纸折角标记待回访，不写诊断词。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-001"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "案板—街口轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。"
+    },
+    {
+      "chapter_id": "S1-E01-M08",
+      "scene_id": "SCN-S1-E01-M08",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L1-05": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "关系靠近一寸，选择权也被明确写回各自手中。",
+          "knowledge_added": "新增可见事实：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。；下一步只追问：香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "关系靠近一寸，选择权也被明确写回各自手中。",
+          "knowledge_added": "新增可见事实：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。；下一步只追问：香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "顾行舟只提供灯与路线，不替沈蘅决定；沈蘅接受灯但不接受安排。",
+        "must_remain": "防风灯固定后不得在本集再换位置。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-009"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "灯钩—门侧轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。"
+    },
+    {
+      "chapter_id": "S1-E01-M09",
+      "scene_id": "SCN-S1-E01-M09",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "核心问题从‘父亲预言’改为‘谁投递、为何让她发现’。",
+          "knowledge_added": "新增可见事实：香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。；下一步只追问：规则、资源或名声开始反应：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L2-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "核心问题从‘父亲预言’改为‘谁投递、为何让她发现’。",
+          "knowledge_added": "新增可见事实：香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。；下一步只追问：规则、资源或名声开始反应：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "沈蘅把香丸改写为当代疑报，不把亡父当作答案来源。",
+        "must_remain": "旧灰与新胶痕并置，匣盖合上但铜扣保持打开。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "案桌中线轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "规则、资源或名声开始反应：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。"
+    },
+    {
+      "chapter_id": "S1-E01-M10",
+      "scene_id": "SCN-S1-E01-M10",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L2-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "调查获得制度化边界；母女从争论意图转向争论谁承担后果。",
+          "knowledge_added": "新增可见事实：规则、资源或名声开始反应：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。；下一步只追问：让一个具体人支付账单：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "调查获得制度化边界；母女从争论意图转向争论谁承担后果。",
+          "knowledge_added": "新增可见事实：规则、资源或名声开始反应：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。；下一步只追问：让一个具体人支付账单：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "陆清和把后仓钥匙收回，沈蘅接受出入记录而不抢回权限。",
+        "must_remain": "钥匙在陆清和右手；后仓门锁闭。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "钱匣—门闩轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "让一个具体人支付账单：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。"
+    },
+    {
+      "chapter_id": "S1-E01-M11",
+      "scene_id": "SCN-S1-E01-M11",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L2-02": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "失联风险第一次落到一扇具体的门；阿沅获得下一章关系回报的行动依据。",
+          "knowledge_added": "新增可见事实：让一个具体人支付账单：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。；下一步只追问：母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-B-007": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "失联风险第一次落到一扇具体的门；阿沅获得下一章关系回报的行动依据。",
+          "knowledge_added": "新增可见事实：让一个具体人支付账单：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。；下一步只追问：母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "阿沅记录具体生活变化，同时不把未回应的人写成已安全。",
+        "must_remain": "油纸留在门内侧可见位置。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-001"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "门槛—巷口轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。"
+    },
+    {
+      "chapter_id": "S1-E01-M12",
+      "scene_id": "SCN-S1-E01-M12",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L1-05": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "两人的关系从被照顾转向共同制定记录规则；母女裂缝仍未解决。",
+          "knowledge_added": "新增可见事实：母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。；下一步只追问：沈蘅第一次违背母亲，留下香丸做证；陆清和把她的行为理解为重新把父亲带回家。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "两人的关系从被照顾转向共同制定记录规则；母女裂缝仍未解决。",
+          "knowledge_added": "新增可见事实：母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。；下一步只追问：沈蘅第一次违背母亲，留下香丸做证；陆清和把她的行为理解为重新把父亲带回家。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "顾行舟提供可核验原话而不代替判断；沈蘅保留隐私边界。",
+        "must_remain": "纸张折角标记来源保护等级。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-009",
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "门边—案桌轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "沈蘅第一次违背母亲，留下香丸做证；陆清和把她的行为理解为重新把父亲带回家。"
+    },
+    {
+      "chapter_id": "S1-E01-M13",
+      "scene_id": "SCN-S1-E01-M13",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "调查从家事转为公共责任；但母女裂缝正式成立。",
+          "knowledge_added": "新增可见事实：沈蘅第一次违背母亲，留下香丸做证；陆清和把她的行为理解为重新把父亲带回家。；下一步只追问：母女裂缝成立，调查从家事变成公共责任。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L2-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "调查从家事转为公共责任；但母女裂缝正式成立。",
+          "knowledge_added": "新增可见事实：沈蘅第一次违背母亲，留下香丸做证；陆清和把她的行为理解为重新把父亲带回家。；下一步只追问：母女裂缝成立，调查从家事变成公共责任。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "沈蘅保留香丸并公开写下‘未核’，不借亡父名义给城里下结论。",
+        "must_remain": "香丸居中、灰样左、胶痕纸右；空白栏必须可见。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "案桌横向轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "母女裂缝成立，调查从家事变成公共责任。"
+    },
+    {
+      "chapter_id": "S1-E01-M14",
+      "scene_id": "SCN-S1-E01-M14",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L2-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "母女仍有裂缝，但争执从‘查不查’转为‘谁付账’。",
+          "knowledge_added": "新增可见事实：母女裂缝成立，调查从家事变成公共责任。；下一步只追问：保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "母女仍有裂缝，但争执从‘查不查’转为‘谁付账’。",
+          "knowledge_added": "新增可见事实：母女裂缝成立，调查从家事变成公共责任。；下一步只追问：保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "陆清和让沈蘅先看清代价；沈蘅放弃‘只要正确就够了’的轻易判断。",
+        "must_remain": "账单按月份排列，鞋钱最后落下。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "账箱—案桌轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。"
+    },
+    {
+      "chapter_id": "S1-E01-M15",
+      "scene_id": "SCN-S1-E01-M15",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L2-02": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "春信的最小记录格式出现：亲见、转闻、未核；信息可以被后来者纠正。",
+          "knowledge_added": "新增可见事实：保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。；下一步只追问：香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "春信的最小记录格式出现：亲见、转闻、未核；信息可以被后来者纠正。",
+          "knowledge_added": "新增可见事实：保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。；下一步只追问：香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L2-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "春信的最小记录格式出现：亲见、转闻、未核；信息可以被后来者纠正。",
+          "knowledge_added": "新增可见事实：保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。；下一步只追问：香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "阿沅按来源等级记录，沈蘅公开‘未核’规则。",
+        "must_remain": "三栏纸张固定在木夹板上。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-001",
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "纸架—案桌轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。"
+    },
+    {
+      "chapter_id": "S1-E01-M16",
+      "scene_id": "SCN-S1-E01-M16",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L1-05": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "调查对象从‘亡父遗言’转为‘懂得沈蘅方法的人’；关系协作更具体。",
+          "knowledge_added": "新增可见事实：香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。；下一步只追问：保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "调查对象从‘亡父遗言’转为‘懂得沈蘅方法的人’；关系协作更具体。",
+          "knowledge_added": "新增可见事实：香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。；下一步只追问：保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "顾行舟确认投递者利用职业核验习惯，沈蘅记录为疑点而非身份判断。",
+        "must_remain": "纸角由沈蘅压住，顾行舟的手停在纸外。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "案桌横向轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。"
+    },
+    {
+      "chapter_id": "S1-E01-M17",
+      "scene_id": "SCN-S1-E01-M17",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "第一集的价值选择完成：春信先记录事实，再等待合报。",
+          "knowledge_added": "新增可见事实：保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。；下一步只追问：修匣黏合物来自近半年，说明有人刚把香丸放进旧匣，而且知道沈蘅会发现。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L2-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "第一集的价值选择完成：春信先记录事实，再等待合报。",
+          "knowledge_added": "新增可见事实：保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。；下一步只追问：修匣黏合物来自近半年，说明有人刚把香丸放进旧匣，而且知道沈蘅会发现。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "沈蘅公开写下‘未核’，不使用‘无春’替城市下结论。",
+        "must_remain": "墨迹自然晾干，纸不折叠。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "案桌正面轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "修匣黏合物来自近半年，说明有人刚把香丸放进旧匣，而且知道沈蘅会发现。"
+    },
+    {
+      "chapter_id": "S1-E01-M18",
+      "scene_id": "SCN-S1-E01-M18",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L2-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "E01 在生活动作中闭环；下一集由入匣者、香材与粮运异常接续。",
+          "knowledge_added": "新增可见事实：修匣黏合物来自近半年，说明有人刚把香丸放进旧匣，而且知道沈蘅会发现。；下一步只追问：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "E01 在生活动作中闭环；下一集由入匣者、香材与粮运异常接续。",
+          "knowledge_added": "新增可见事实：修匣黏合物来自近半年，说明有人刚把香丸放进旧匣，而且知道沈蘅会发现。；下一步只追问：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "母女共同留下‘近半年入匣者’这一追问，香丸状态与未核记录保持连续。",
+        "must_remain": "铜扣扣上但不加锁；未核纸留在案桌中央。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "案桌—后仓门轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。"
+    }
+  ],
+  "qa_policy": {
+    "dimensions": 10,
+    "threshold": 90,
+    "status": "PENDING-EPISODE-GATE"
+  },
+  "execution_policy": "DESIGN-ONLY; no provider calls, media claims, or final render receipts.",
+  "deferred_boundary": {
+    "aigc_generation": "DEFERRED-UNTIL-EPISODE-GATE-APPROVAL",
+    "u_unique_identity": "DEFERRED-UNTIL-EPISODE-GATE",
+    "bg_bindings": "DEFERRED-UNTIL-EPISODE-GATE"
+  },
+  "next_gate": "Episode Gate preflight audit, then human review of dialogue, blocking, storyboard and ten QA dimensions."
+}

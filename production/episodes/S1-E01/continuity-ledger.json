@@ -1,0 +1,851 @@
+{
+  "schema_version": 1,
+  "status": "P3-03-DRAFT",
+  "episode_id": "S1-E01",
+  "scenes": [
+    {
+      "chapter_id": "S1-E01-M01",
+      "scene_id": "SCN-S1-E01-M01",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "母女从共同开铺转为各自守着一件东西；后仓第一次成为需要记录的空间。",
+          "knowledge_added": "新增可见事实：惊蛰雷雨后鹤鸣巷重新开市；沈蘅清理父亲旧香匣，陆清和要求把香丸毁掉。；下一步只追问：旧匣铜扣内侧与香丸黏合处留下近半年才会出现的胶痕。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L2-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "母女从共同开铺转为各自守着一件东西；后仓第一次成为需要记录的空间。",
+          "knowledge_added": "新增可见事实：惊蛰雷雨后鹤鸣巷重新开市；沈蘅清理父亲旧香匣，陆清和要求把香丸毁掉。；下一步只追问：旧匣铜扣内侧与香丸黏合处留下近半年才会出现的胶痕。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "沈蘅不烧香丸，先把它连同旧匣移到后仓并记下出入。",
+        "must_remain": "旧匣由沈蘅双手托住，香丸不脱离匣底。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-001",
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "柜台—后仓门槛轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "旧匣铜扣内侧与香丸黏合处留下近半年才会出现的胶痕。"
+    },
+    {
+      "chapter_id": "S1-E01-M02",
+      "scene_id": "SCN-S1-E01-M02",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "胶痕成为第一条当代证据；陆清和将后仓门纳入日常锁闭。",
+          "knowledge_added": "新增可见事实：旧匣铜扣内侧与香丸黏合处留下近半年才会出现的胶痕。；下一步只追问：林阿沅主动介入：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L2-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "胶痕成为第一条当代证据；陆清和将后仓门纳入日常锁闭。",
+          "knowledge_added": "新增可见事实：旧匣铜扣内侧与香丸黏合处留下近半年才会出现的胶痕。；下一步只追问：林阿沅主动介入：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-B-006": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "胶痕成为第一条当代证据；陆清和将后仓门纳入日常锁闭。",
+          "knowledge_added": "新增可见事实：旧匣铜扣内侧与香丸黏合处留下近半年才会出现的胶痕。；下一步只追问：林阿沅主动介入：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "沈蘅把胶痕留在纸上，不把孙锁叔的模糊时间写成确定日期。",
+        "must_remain": "胶丝落在白纸中央，竹片与镊子分置两侧。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "案桌—门闩轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "林阿沅主动介入：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。"
+    },
+    {
+      "chapter_id": "S1-E01-M03",
+      "scene_id": "SCN-S1-E01-M03",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L2-02": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "阿沅获得临时记录权；沈蘅的调查开始离开香铺内部。",
+          "knowledge_added": "新增可见事实：林阿沅主动介入：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。；下一步只追问：先切样留灰，再问来源和时刻，最后落笔标证据等级。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "阿沅获得临时记录权；沈蘅的调查开始离开香铺内部。",
+          "knowledge_added": "新增可见事实：林阿沅主动介入：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。；下一步只追问：先切样留灰，再问来源和时刻，最后落笔标证据等级。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L2-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "阿沅获得临时记录权；沈蘅的调查开始离开香铺内部。",
+          "knowledge_added": "新增可见事实：林阿沅主动介入：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。；下一步只追问：先切样留灰，再问来源和时刻，最后落笔标证据等级。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "林阿沅主动回访街坊与修匣者，不把传闻直接递成结论。",
+        "must_remain": "油纸记录夹在碗篮下，不遮住碗数。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-001",
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "碗架—后仓门外轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "先切样留灰，再问来源和时刻，最后落笔标证据等级。"
+    },
+    {
+      "chapter_id": "S1-E01-M04",
+      "scene_id": "SCN-S1-E01-M04",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L1-05": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "两人建立‘提供事实但不代选’的初始边界；白芷价格进入并列疑报。",
+          "knowledge_added": "新增可见事实：先切样留灰，再问来源和时刻，最后落笔标证据等级。；下一步只追问：把异常放进日常账单：香丸灰中的新黏合物、矿粉与刀痕和十三年前不相容；沈蘅切样留灰并标记未核。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "两人建立‘提供事实但不代选’的初始边界；白芷价格进入并列疑报。",
+          "knowledge_added": "新增可见事实：先切样留灰，再问来源和时刻，最后落笔标证据等级。；下一步只追问：把异常放进日常账单：香丸灰中的新黏合物、矿粉与刀痕和十三年前不相容；沈蘅切样留灰并标记未核。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "顾行舟提供北客药价信息，不替沈蘅决定是否继续查。",
+        "must_remain": "酒账与空白纸平行放置，刀尖朝内。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-009"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "柜台—门口轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "把异常放进日常账单：香丸灰中的新黏合物、矿粉与刀痕和十三年前不相容；沈蘅切样留灰并标记未核。"
+    },
+    {
+      "chapter_id": "S1-E01-M05",
+      "scene_id": "SCN-S1-E01-M05",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "香丸从一件遗物变成两份可追踪样本；‘未核’成为本集的工作规则。",
+          "knowledge_added": "新增可见事实：把异常放进日常账单：香丸灰中的新黏合物、矿粉与刀痕和十三年前不相容；沈蘅切样留灰并标记未核。；下一步只追问：先回答局部问题，再把下一层疑问交给陆清和：林阿沅记录熟客饭量与赊账变化，顾行舟在停云酒肆记录北来客说白芷涨价；两条生活与客路信息尚不足以升级，只能并列为疑报。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L2-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "香丸从一件遗物变成两份可追踪样本；‘未核’成为本集的工作规则。",
+          "knowledge_added": "新增可见事实：把异常放进日常账单：香丸灰中的新黏合物、矿粉与刀痕和十三年前不相容；沈蘅切样留灰并标记未核。；下一步只追问：先回答局部问题，再把下一层疑问交给陆清和：林阿沅记录熟客饭量与赊账变化，顾行舟在停云酒肆记录北来客说白芷涨价；两条生活与客路信息尚不足以升级，只能并列为疑报。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "沈蘅保留切样与灰样，并把判断标为‘未核’。",
+        "must_remain": "切样、灰样、原匣三点分置，纸签朝外。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "案桌—炉边轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "先回答局部问题，再把下一层疑问交给陆清和：林阿沅记录熟客饭量与赊账变化，顾行舟在停云酒肆记录北来客说白芷涨价；两条生活与客路信息尚不足以升级，只能并列为疑报。"
+    },
+    {
+      "chapter_id": "S1-E01-M06",
+      "scene_id": "SCN-S1-E01-M06",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L2-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "调查获得横向核验的方向；时限从‘以后’变成‘今晚与明早’。",
+          "knowledge_added": "新增可见事实：先回答局部问题，再把下一层疑问交给陆清和：林阿沅记录熟客饭量与赊账变化，顾行舟在停云酒肆记录北来客说白芷涨价；两条生活与客路信息尚不足以升级，只能并列为疑报。；下一步只追问：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "调查获得横向核验的方向；时限从‘以后’变成‘今晚与明早’。",
+          "knowledge_added": "新增可见事实：先回答局部问题，再把下一层疑问交给陆清和：林阿沅记录熟客饭量与赊账变化，顾行舟在停云酒肆记录北来客说白芷涨价；两条生活与客路信息尚不足以升级，只能并列为疑报。；下一步只追问：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L2-02": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "调查获得横向核验的方向；时限从‘以后’变成‘今晚与明早’。",
+          "knowledge_added": "新增可见事实：先回答局部问题，再把下一层疑问交给陆清和：林阿沅记录熟客饭量与赊账变化，顾行舟在停云酒肆记录北来客说白芷涨价；两条生活与客路信息尚不足以升级，只能并列为疑报。；下一步只追问：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L1-05": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "调查获得横向核验的方向；时限从‘以后’变成‘今晚与明早’。",
+          "knowledge_added": "新增可见事实：先回答局部问题，再把下一层疑问交给陆清和：林阿沅记录熟客饭量与赊账变化，顾行舟在停云酒肆记录北来客说白芷涨价；两条生活与客路信息尚不足以升级，只能并列为疑报。；下一步只追问：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "四人把生活观察并列为疑报，不升级为预言或疫讯。",
+        "must_remain": "饭量纸与酒账不重叠，中央留‘疑报’空位。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "账桌—门边轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。"
+    },
+    {
+      "chapter_id": "S1-E01-M07",
+      "scene_id": "SCN-S1-E01-M07",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L2-02": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "阿沅从‘会看见’进入‘会回访’，生活基线不再只是闲话。",
+          "knowledge_added": "新增可见事实：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。；下一步只追问：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-B-007": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "阿沅从‘会看见’进入‘会回访’，生活基线不再只是闲话。",
+          "knowledge_added": "新增可见事实：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。；下一步只追问：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "阿沅记录饭量和赊账变化，并把未确认部分留空。",
+        "must_remain": "油纸折角标记待回访，不写诊断词。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-001"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "案板—街口轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。"
+    },
+    {
+      "chapter_id": "S1-E01-M08",
+      "scene_id": "SCN-S1-E01-M08",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L1-05": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "关系靠近一寸，选择权也被明确写回各自手中。",
+          "knowledge_added": "新增可见事实：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。；下一步只追问：香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "关系靠近一寸，选择权也被明确写回各自手中。",
+          "knowledge_added": "新增可见事实：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。；下一步只追问：香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "顾行舟只提供灯与路线，不替沈蘅决定；沈蘅接受灯但不接受安排。",
+        "must_remain": "防风灯固定后不得在本集再换位置。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-009"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "灯钩—门侧轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。"
+    },
+    {
+      "chapter_id": "S1-E01-M09",
+      "scene_id": "SCN-S1-E01-M09",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "核心问题从‘父亲预言’改为‘谁投递、为何让她发现’。",
+          "knowledge_added": "新增可见事实：香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。；下一步只追问：规则、资源或名声开始反应：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L2-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "核心问题从‘父亲预言’改为‘谁投递、为何让她发现’。",
+          "knowledge_added": "新增可见事实：香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。；下一步只追问：规则、资源或名声开始反应：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "沈蘅把香丸改写为当代疑报，不把亡父当作答案来源。",
+        "must_remain": "旧灰与新胶痕并置，匣盖合上但铜扣保持打开。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "案桌中线轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "规则、资源或名声开始反应：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。"
+    },
+    {
+      "chapter_id": "S1-E01-M10",
+      "scene_id": "SCN-S1-E01-M10",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L2-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "调查获得制度化边界；母女从争论意图转向争论谁承担后果。",
+          "knowledge_added": "新增可见事实：规则、资源或名声开始反应：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。；下一步只追问：让一个具体人支付账单：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "调查获得制度化边界；母女从争论意图转向争论谁承担后果。",
+          "knowledge_added": "新增可见事实：规则、资源或名声开始反应：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。；下一步只追问：让一个具体人支付账单：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "陆清和把后仓钥匙收回，沈蘅接受出入记录而不抢回权限。",
+        "must_remain": "钥匙在陆清和右手；后仓门锁闭。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "钱匣—门闩轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "让一个具体人支付账单：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。"
+    },
+    {
+      "chapter_id": "S1-E01-M11",
+      "scene_id": "SCN-S1-E01-M11",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L2-02": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "失联风险第一次落到一扇具体的门；阿沅获得下一章关系回报的行动依据。",
+          "knowledge_added": "新增可见事实：让一个具体人支付账单：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。；下一步只追问：母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-B-007": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "失联风险第一次落到一扇具体的门；阿沅获得下一章关系回报的行动依据。",
+          "knowledge_added": "新增可见事实：让一个具体人支付账单：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。；下一步只追问：母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "阿沅记录具体生活变化，同时不把未回应的人写成已安全。",
+        "must_remain": "油纸留在门内侧可见位置。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-001"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "门槛—巷口轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。"
+    },
+    {
+      "chapter_id": "S1-E01-M12",
+      "scene_id": "SCN-S1-E01-M12",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L1-05": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "两人的关系从被照顾转向共同制定记录规则；母女裂缝仍未解决。",
+          "knowledge_added": "新增可见事实：母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。；下一步只追问：沈蘅第一次违背母亲，留下香丸做证；陆清和把她的行为理解为重新把父亲带回家。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "两人的关系从被照顾转向共同制定记录规则；母女裂缝仍未解决。",
+          "knowledge_added": "新增可见事实：母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。；下一步只追问：沈蘅第一次违背母亲，留下香丸做证；陆清和把她的行为理解为重新把父亲带回家。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "顾行舟提供可核验原话而不代替判断；沈蘅保留隐私边界。",
+        "must_remain": "纸张折角标记来源保护等级。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-009",
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "门边—案桌轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "沈蘅第一次违背母亲，留下香丸做证；陆清和把她的行为理解为重新把父亲带回家。"
+    },
+    {
+      "chapter_id": "S1-E01-M13",
+      "scene_id": "SCN-S1-E01-M13",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "调查从家事转为公共责任；但母女裂缝正式成立。",
+          "knowledge_added": "新增可见事实：沈蘅第一次违背母亲，留下香丸做证；陆清和把她的行为理解为重新把父亲带回家。；下一步只追问：母女裂缝成立，调查从家事变成公共责任。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L2-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "调查从家事转为公共责任；但母女裂缝正式成立。",
+          "knowledge_added": "新增可见事实：沈蘅第一次违背母亲，留下香丸做证；陆清和把她的行为理解为重新把父亲带回家。；下一步只追问：母女裂缝成立，调查从家事变成公共责任。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "沈蘅保留香丸并公开写下‘未核’，不借亡父名义给城里下结论。",
+        "must_remain": "香丸居中、灰样左、胶痕纸右；空白栏必须可见。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "案桌横向轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "母女裂缝成立，调查从家事变成公共责任。"
+    },
+    {
+      "chapter_id": "S1-E01-M14",
+      "scene_id": "SCN-S1-E01-M14",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L2-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "母女仍有裂缝，但争执从‘查不查’转为‘谁付账’。",
+          "knowledge_added": "新增可见事实：母女裂缝成立，调查从家事变成公共责任。；下一步只追问：保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "母女仍有裂缝，但争执从‘查不查’转为‘谁付账’。",
+          "knowledge_added": "新增可见事实：母女裂缝成立，调查从家事变成公共责任。；下一步只追问：保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "陆清和让沈蘅先看清代价；沈蘅放弃‘只要正确就够了’的轻易判断。",
+        "must_remain": "账单按月份排列，鞋钱最后落下。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "账箱—案桌轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。"
+    },
+    {
+      "chapter_id": "S1-E01-M15",
+      "scene_id": "SCN-S1-E01-M15",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L2-02": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "春信的最小记录格式出现：亲见、转闻、未核；信息可以被后来者纠正。",
+          "knowledge_added": "新增可见事实：保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。；下一步只追问：香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "春信的最小记录格式出现：亲见、转闻、未核；信息可以被后来者纠正。",
+          "knowledge_added": "新增可见事实：保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。；下一步只追问：香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L2-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "春信的最小记录格式出现：亲见、转闻、未核；信息可以被后来者纠正。",
+          "knowledge_added": "新增可见事实：保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。；下一步只追问：香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "阿沅按来源等级记录，沈蘅公开‘未核’规则。",
+        "must_remain": "三栏纸张固定在木夹板上。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-001",
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "纸架—案桌轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。"
+    },
+    {
+      "chapter_id": "S1-E01-M16",
+      "scene_id": "SCN-S1-E01-M16",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L1-05": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "调查对象从‘亡父遗言’转为‘懂得沈蘅方法的人’；关系协作更具体。",
+          "knowledge_added": "新增可见事实：香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。；下一步只追问：保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "调查对象从‘亡父遗言’转为‘懂得沈蘅方法的人’；关系协作更具体。",
+          "knowledge_added": "新增可见事实：香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。；下一步只追问：保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "顾行舟确认投递者利用职业核验习惯，沈蘅记录为疑点而非身份判断。",
+        "must_remain": "纸角由沈蘅压住，顾行舟的手停在纸外。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "案桌横向轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。"
+    },
+    {
+      "chapter_id": "S1-E01-M17",
+      "scene_id": "SCN-S1-E01-M17",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "第一集的价值选择完成：春信先记录事实，再等待合报。",
+          "knowledge_added": "新增可见事实：保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。；下一步只追问：修匣黏合物来自近半年，说明有人刚把香丸放进旧匣，而且知道沈蘅会发现。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L2-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "第一集的价值选择完成：春信先记录事实，再等待合报。",
+          "knowledge_added": "新增可见事实：保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。；下一步只追问：修匣黏合物来自近半年，说明有人刚把香丸放进旧匣，而且知道沈蘅会发现。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "沈蘅公开写下‘未核’，不使用‘无春’替城市下结论。",
+        "must_remain": "墨迹自然晾干，纸不折叠。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "案桌正面轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "修匣黏合物来自近半年，说明有人刚把香丸放进旧匣，而且知道沈蘅会发现。"
+    },
+    {
+      "chapter_id": "S1-E01-M18",
+      "scene_id": "SCN-S1-E01-M18",
+      "status": "DRAFT-EPISODE-GATE",
+      "characters": {
+        "CHR-L2-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "E01 在生活动作中闭环；下一集由入匣者、香材与粮运异常接续。",
+          "knowledge_added": "新增可见事实：修匣黏合物来自近半年，说明有人刚把香丸放进旧匣，而且知道沈蘅会发现。；下一步只追问：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        },
+        "CHR-L1-01": {
+          "entry": "沿用 v6 Character DNA 与上一章状态",
+          "exit": "E01 在生活动作中闭环；下一集由入匣者、香材与粮运异常接续。",
+          "knowledge_added": "新增可见事实：修匣黏合物来自近半年，说明有人刚把香丸放进旧匣，而且知道沈蘅会发现。；下一步只追问：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。。",
+          "knowledge_forbidden": "不得提前知道后续集的投递者身份、无春结论或未提供的水粮药因果。"
+        }
+      },
+      "appearance": {
+        "wardrobe": "E01 春季工作状态；细节由 v6 Costume Standard 锁定",
+        "hair_and_ornament": "沿用角色资产版本，不在本章新增",
+        "injury": "无新增伤口"
+      },
+      "props": {
+        "continuity_refs": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ],
+        "state_after": "母女共同留下‘近半年入匣者’这一追问，香丸状态与未核记录保持连续。",
+        "must_remain": "铜扣扣上但不加锁；未核纸留在案桌中央。"
+      },
+      "space_and_time": {
+        "location_ids": [
+          "LOC-002"
+        ],
+        "weather": "惊蛰雷雨后",
+        "time": "精确钟点待 Episode Gate 逐场确认",
+        "axis": "案桌—后仓门轴"
+      },
+      "relationship": {
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。"
+      },
+      "handoff": "追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。"
+    }
+  ]
+}
