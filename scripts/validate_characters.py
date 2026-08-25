@@ -332,6 +332,24 @@ def validate_relationship_slots(root: Path) -> list[str]:
 
 def validate_relationships(root: Path) -> list[str]:
     errors = validate_relationship_slots(root)
+    evidence_path = root / "qa/relationship-evidence.json"
+    evidence_data: dict = {}
+    if not evidence_path.exists():
+        errors.append(_error("relationship_evidence_registry_missing", path="qa/relationship-evidence.json"))
+    else:
+        try:
+            evidence_data = json.loads(evidence_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as exc:
+            errors.append(_error("relationship_evidence_registry_unreadable", path="qa/relationship-evidence.json", field=str(exc)))
+        if evidence_data.get("status") != "FOUNDATION-EVIDENCE":
+            errors.append(_error("relationship_evidence_registry_status", path="qa/relationship-evidence.json", field="status"))
+    evidence_records = evidence_data.get("relationships", [])
+    evidence_by_relation = {item.get("relation_id"): item for item in evidence_records}
+    expected_evidence_relations = {f"REL-{number:03d}" for number in range(1, 17)} | {"REL-G01"}
+    if {item.get("relation_id") for item in evidence_records} != expected_evidence_relations:
+        errors.append(_error("relationship_evidence_relation_ids", path="qa/relationship-evidence.json", field="relation_id"))
+    if len(evidence_records) != 17:
+        errors.append(_error("relationship_evidence_relation_count", path="qa/relationship-evidence.json", field=f"{len(evidence_records)} expected=17"))
     relation_dir = root / "characters/relations/core"
     expected = {f"rel-{number:03d}.md" for number in range(1, 17)} | {"rel-g01.md"}
     actual = {path.name for path in relation_dir.glob("rel-*.md")}
@@ -341,6 +359,7 @@ def validate_relationships(root: Path) -> list[str]:
         errors.append(_error("relationship_profile_unexpected", path=f"characters/relations/core/{extra}"))
     for path in sorted(relation_dir.glob("rel-*.md")):
         text = path.read_text(encoding="utf-8")
+        relation_id = path.stem.upper()
         if "## 七维状态" not in text:
             errors.append(_error("relationship_dimension_without_evidence", path=path.relative_to(root).as_posix(), field="七维状态"))
         if "## 八个快照" not in text:
@@ -348,6 +367,17 @@ def validate_relationships(root: Path) -> list[str]:
         for dimension in ("亲近", "信任", "亏欠", "依赖", "敬意", "怨恨", "共同秘密"):
             if dimension not in text:
                 errors.append(_error("relationship_dimension_without_evidence", path=path.relative_to(root).as_posix(), field=dimension))
+        relation_evidence = evidence_by_relation.get(relation_id, {})
+        snapshots = relation_evidence.get("snapshots", [])
+        if len(snapshots) != 8:
+            errors.append(_error("relationship_evidence_snapshot_count", relation_id, field=f"{len(snapshots)} expected=8"))
+        expected_fields = ("evidence_id", "relation_id", "snapshot", "episode_window", "scene_status", "space", "object", "phase", "observable_action", "dialogue_intent", "irreversible_cost", "continuity_delta")
+        for item in snapshots:
+            for field in expected_fields:
+                if item.get(field) in (None, ""):
+                    errors.append(_error("relationship_evidence_missing_field", relation_id, item.get("evidence_id", "-"), field))
+            if item.get("scene_status") != "RESERVED-UNTIL-SEASON-GATE":
+                errors.append(_error("relationship_evidence_scene_status", relation_id, item.get("evidence_id", "-"), "scene_status"))
     return sorted(errors)
 
 

@@ -107,6 +107,10 @@ class CharacterValidatorTests(unittest.TestCase):
         path.write_text("# REL-001\n\n## 七维状态\n\n只有信任证据。\n", encoding="utf-8")
         self.assertTrue(any("relationship_dimension_without_evidence" in item for item in validate_relationships(self.root)))
 
+    def test_relationship_evidence_registry_missing_fails(self):
+        errors = validate_relationships(self.root)
+        self.assertTrue(any("relationship_evidence_registry_missing" in item for item in errors))
+
     def test_unit_slot_count_fails(self):
         data = self.roster(); data["unit_slots"]["ranges"][0]["end"] = 29; self.save_roster(data)
         self.assertTrue(any("unit_slot_count" in item for item in validate_unit_slots(self.root)))

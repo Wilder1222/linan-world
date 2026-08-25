@@ -66,6 +66,21 @@ def audit() -> dict:
             if label not in text:
                 relation_missing_layers.append({"path": path.relative_to(ROOT).as_posix(), "field": label})
 
+    evidence_path = ROOT / "qa/relationship-evidence.json"
+    evidence_snapshot_total = 0
+    evidence_missing_fields = []
+    if evidence_path.exists():
+        evidence_data = json.loads(evidence_path.read_text(encoding="utf-8"))
+        for relation in evidence_data.get("relationships", []):
+            snapshots = relation.get("snapshots", [])
+            evidence_snapshot_total += len(snapshots)
+            for item in snapshots:
+                for field in ("evidence_id", "episode_window", "space", "object", "phase", "observable_action", "dialogue_intent", "irreversible_cost", "continuity_delta"):
+                    if not item.get(field):
+                        evidence_missing_fields.append({"relation_id": relation.get("relation_id"), "evidence_id": item.get("evidence_id", "-"), "field": field})
+    else:
+        evidence_missing_fields.append({"path": "qa/relationship-evidence.json", "field": "missing"})
+
     spines = json.loads((ROOT / "qa/emotional-spines.json").read_text(encoding="utf-8"))["spines"]
     spine_state_count = sum(len(spine.get("arc_states", [])) for spine in spines)
     return {
@@ -77,12 +92,14 @@ def audit() -> dict:
         "unique_arc6_choice_markers": len(unique_choices),
         "relationship_profile_total": len(relation_files),
         "relationship_missing_layers": relation_missing_layers,
+        "relationship_evidence_snapshot_total": evidence_snapshot_total,
+        "relationship_evidence_missing_fields": evidence_missing_fields,
         "emotional_spine_total": len(spines),
         "emotional_spine_state_total": spine_state_count,
         "findings": findings,
         "manual_review_required": [
             "确认年龄推定与职业状态，尤其 B 级人物的年龄与家庭结构",
-            "将关系七维与八快照绑定到具体场次、物件、台词和连续性账本",
+            "人工确认 136 个关系 Foundation 证据锚点是否真正改变人物选择；Season/Episode Gate 再回填最终 scene/dialogue/shot ID",
             "为 U 槽位在 Season Gate 后分配唯一故事身份，不提前写入主线",
             "为 BG 原型在 Episode Gate 后写入具体 microchapter_ids 与 extension_ids",
         ],

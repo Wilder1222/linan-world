@@ -80,6 +80,7 @@
       "qa/unit-slots.json",
       "qa/background-usage.json",
       "qa/relationship-slots.json",
+      "qa/relationship-evidence.json",
       "qa/emotional-spines.json",
       "qa/reviews/character-foundation-review.md",
       "qa/reviews/character-foundation-audit.json"
