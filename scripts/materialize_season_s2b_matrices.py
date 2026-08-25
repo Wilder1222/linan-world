@@ -463,10 +463,10 @@ def make_episode_bindings(entries: list[dict], id_key: str) -> list[dict]:
 def write_review_reports(mysteries: list[dict], activities: list[dict], humor: list[dict]) -> None:
     common = {
         "schema_version": 1,
-        "status": "REVIEWED-SAMPLE-PASS",
+        "status": "REVIEWED-SEASON-PASS",
         "deferred_followup": [
-            "S2-C 将把矩阵映射到 E07–E36 完整因果账本和 648 个 2–3 分钟短章。",
-            "Season Gate 前不绑定最终对白、shot ID、U 唯一身份或 BG 微章 ID。",
+            "Season Gate 审读仍不绑定最终对白、shot ID、U 唯一身份或 BG 微章 ID。",
+            "Episode Gate 将把活动、幽默与关系动作进一步绑定到逐场剧本和连续性账本。",
         ],
     }
     write_json(REVIEW_DIR / "season-mystery-review.json", {
@@ -544,22 +544,22 @@ def main() -> int:
         for row in humor
     ]
     write_json(SEASON_DIR / "mystery-reversal-matrix.json", {
-        "schema_version": 1, "status": "SAMPLE-DRAFT", "scope": "P2 Season mystery and reversal matrix",
+        "schema_version": 1, "status": "SEASON-DRAFT", "scope": "P2 Season mystery and reversal matrix",
         "entries": MYSTERIES, "episode_bindings": mystery_bindings,
         "reversal_types": MYSTERY_TYPES,
-        "next_gate": "S2-C 完成 E07–E36 因果账本与 648 短章钩子后，再升级为 REVIEWED-PASS。",
+        "next_gate": "Season Gate 复核因果、责任与关系翻转后，进入 Episode Gate 绑定具体场次。",
     })
     write_json(SEASON_DIR / "song-life-activity-matrix.json", {
-        "schema_version": 1, "status": "SAMPLE-DRAFT", "scope": "P2 Song-life activity matrix",
+        "schema_version": 1, "status": "SEASON-DRAFT", "scope": "P2 Song-life activity matrix",
         "entries": activities, "episode_bindings": activity_bindings,
         "source": "extensions/00-song-life-and-modern-emotion-entry-library-v1.md",
-        "next_gate": "S2-C 把活动绑定到短章目标、阻力、选择和连续性事件后，再升级为 REVIEWED-PASS。",
+        "next_gate": "Season Gate 复核活动的关系/线索状态转移后，Episode Gate 再绑定具体场次。",
     })
     write_json(SEASON_DIR / "humor-register-matrix.json", {
-        "schema_version": 1, "status": "SAMPLE-DRAFT", "scope": "P2 Humor and register matrix",
+        "schema_version": 1, "status": "SEASON-DRAFT", "scope": "P2 Humor and register matrix",
         "entries": humor, "episode_bindings": humor_bindings,
         "source": "story/03-humor-and-register-standard-v1.md",
-        "next_gate": "S2-C 将笑点绑定到具体短章的情绪恢复与表演顺序后，再升级为 REVIEWED-PASS。",
+        "next_gate": "Season Gate 复核笑点安全与情绪回收后，Episode Gate 再绑定具体表演与对白。",
     })
     update_ledger(activities, humor)
     write_review_reports(MYSTERIES, activities, humor)

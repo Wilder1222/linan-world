@@ -233,12 +233,12 @@ def audit_ledger_bindings() -> list[dict]:
 def update_report(path: Path, result: dict, findings: list[dict]) -> None:
     report = {
         "schema_version": 1,
-        "status": "REVIEWED-SAMPLE-PASS" if not findings else "OPEN",
+        "status": "REVIEWED-SEASON-PASS" if not findings else "OPEN",
         **result,
         "findings": findings,
         "deferred_followup": [
-            "S2-C 将把矩阵映射到 E07–E36 完整因果账本和 648 个 2–3 分钟短章。",
-            "Season Gate 前不绑定最终对白、shot ID、U 唯一身份或 BG 微章 ID。",
+            "Season Gate 审读仍不绑定最终对白、shot ID、U 唯一身份或 BG 微章 ID。",
+            "Episode Gate 将把活动、幽默与关系动作进一步绑定到逐场剧本和连续性账本。",
         ],
     }
     path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -257,7 +257,7 @@ def main() -> int:
     update_report(REVIEW_DIR / "season-activity-review.json", activity_result, activity_findings)
     update_report(REVIEW_DIR / "season-humor-review.json", humor_result, humor_findings)
     all_findings = mystery_findings + activity_findings + humor_findings
-    print(json.dumps({"status": "REVIEWED-SAMPLE-PASS" if not all_findings else "OPEN", "findings": all_findings}, ensure_ascii=False, indent=2))
+    print(json.dumps({"status": "REVIEWED-SEASON-PASS" if not all_findings else "OPEN", "findings": all_findings}, ensure_ascii=False, indent=2))
     return 0 if not all_findings else 1
 
 

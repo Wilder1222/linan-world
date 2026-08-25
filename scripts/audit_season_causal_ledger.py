@@ -52,6 +52,8 @@ def audit() -> dict:
         complete = 0
         for item in episodes:
             episode_id = item.get("episode_id")
+            if item.get("status") != "SEASON-DRAFT":
+                findings.append({"episode_id": episode_id, "code": "season_status_not_season_draft", "actual": item.get("status")})
             for field in ("central_question", "opening_state", "misread", "recheck", "reframe", "irreversible_cost", "next_chase"):
                 if not nonempty(item.get(field)):
                     findings.append({"episode_id": episode_id, "code": f"season_empty_{field}"})

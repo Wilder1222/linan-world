@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "SAMPLE-DRAFT",
+  "status": "SEASON-DRAFT",
   "scope": "P2 Song-life activity matrix",
   "entries": [
     {
@@ -1586,5 +1586,5 @@
     }
   ],
   "source": "extensions/00-song-life-and-modern-emotion-entry-library-v1.md",
-  "next_gate": "S2-C 把活动绑定到短章目标、阻力、选择和连续性事件后，再升级为 REVIEWED-PASS。"
+  "next_gate": "Season Gate 复核活动的关系/线索状态转移后，Episode Gate 再绑定具体场次。"
 }

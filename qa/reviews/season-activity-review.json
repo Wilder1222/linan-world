@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "REVIEWED-SAMPLE-PASS",
+  "status": "REVIEWED-SEASON-PASS",
   "scope": "P2 Song-life activity matrix review",
   "entry_total": 36,
   "episode_binding_total": 36,
@@ -15,7 +15,7 @@
   },
   "findings": [],
   "deferred_followup": [
-    "S2-C 将把矩阵映射到 E07–E36 完整因果账本和 648 个 2–3 分钟短章。",
-    "Season Gate 前不绑定最终对白、shot ID、U 唯一身份或 BG 微章 ID。"
+    "Season Gate 审读仍不绑定最终对白、shot ID、U 唯一身份或 BG 微章 ID。",
+    "Episode Gate 将把活动、幽默与关系动作进一步绑定到逐场剧本和连续性账本。"
   ]
 }

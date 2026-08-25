@@ -13,12 +13,12 @@
 | `story/season/season-causal-ledger.schema.json` | P2 Season Gate 因果账本字段、状态边界与引用结构 | LOCKED-SCHEMA |
 | `story/season/season-causal-ledger.json` | 36 集完整结构化因果账本；每集含目标、阻力、复核、重义、代价、选择与尾钩 | SEASON-DRAFT |
 | `qa/reviews/season-causal-ledger-review.json` | S2-C 全季审阅：36/36 因果字段、引用、职业能力与尾钩 | REVIEWED-SEASON-PASS |
-| `story/season/mystery-reversal-matrix.json` | 18 条季级悬疑，覆盖 36 集，含播种/误读/复核/重义/代价/篇末揭示 | SAMPLE-DRAFT |
-| `story/season/song-life-activity-matrix.json` | 36 个活动绑定，宋代生活、现代情绪入口、关系/线索状态转移 | SAMPLE-DRAFT |
-| `story/season/humor-register-matrix.json` | 36 个角色化笑点，语域转译、反应顺序、情绪回收与禁用目标 | SAMPLE-DRAFT |
-| `qa/reviews/season-mystery-review.json` | S2-B 悬疑/翻转矩阵审阅 | REVIEWED-SAMPLE-PASS |
-| `qa/reviews/season-activity-review.json` | S2-B 宋代生活活动矩阵审阅 | REVIEWED-SAMPLE-PASS |
-| `qa/reviews/season-humor-review.json` | S2-B 幽默/语域矩阵审阅 | REVIEWED-SAMPLE-PASS |
+| `story/season/mystery-reversal-matrix.json` | 18 条季级悬疑，覆盖 36 集，含播种/误读/复核/重义/代价/篇末揭示 | SEASON-DRAFT |
+| `story/season/song-life-activity-matrix.json` | 36 个活动绑定，宋代生活、现代情绪入口、关系/线索状态转移 | SEASON-DRAFT |
+| `story/season/humor-register-matrix.json` | 36 个角色化笑点，语域转译、反应顺序、情绪回收与禁用目标 | SEASON-DRAFT |
+| `qa/reviews/season-mystery-review.json` | S2-B/SG-00 全季悬疑/翻转矩阵审阅 | REVIEWED-SEASON-PASS |
+| `qa/reviews/season-activity-review.json` | S2-B/SG-00 全季宋代生活活动矩阵审阅 | REVIEWED-SEASON-PASS |
+| `qa/reviews/season-humor-review.json` | S2-B/SG-00 全季幽默/语域矩阵审阅 | REVIEWED-SEASON-PASS |
 | `story/season/short-chapter-hook-map.schema.json` | 648 短章钩子、状态变化与时长字段规范 | LOCKED-SCHEMA |
 | `story/season/short-chapter-hook-map.json` | 36×18 短章入口、目标阻力、证据/关系动作、选择代价与尾钩 | SEASON-DRAFT |
 | `qa/reviews/season-s2c-review.json` | S2-C 全季账本与短章钩子审阅 | REVIEWED-SEASON-PASS |
@@ -36,3 +36,7 @@
 ## U 候选边界审核结论
 
 S2-06 从 `qa/unit-slots.json` 的 120 个 RESERVED 槽位中选出 22 个 POV 候选与 40 个自然回访候选；每个 POV 候选都有集/章上下文回溯，每个自然回访候选都有首次出现与回场原因。其余槽位继续保持 RESERVED；候选仅锁定可替换的功能位置，不写入姓名、最终关系、scene/dialogue/shot ID。BG 仍保持 Episode Gate 前不得写入 `microchapter_ids` 与 `extension_ids`。
+
+## SG-00 全季矩阵收口结论
+
+悬疑/翻转、宋代生活活动、幽默/语域三份矩阵已完成 36 集全季覆盖审阅，报告均为 `REVIEWED-SEASON-PASS`；源矩阵状态统一为 `SEASON-DRAFT`。它们现在可以作为 Season Gate 的正式输入，但仍不绑定最终对白、镜头、U 唯一身份或 BG 微章。

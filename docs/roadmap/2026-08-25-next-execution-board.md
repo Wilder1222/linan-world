@@ -126,7 +126,7 @@
 
 `SG-00 全季矩阵收口 → SG-01 因果/悬疑独立审读 → SG-02 关系/活动/幽默/可替换性独立审读 → SG-03 例外合并 → SG-04 Season Gate → P3-01 输入冻结 → P3-02 E01 → P3-03 E02/E03 → P3-04 Episode Gate`。
 
-当前首先处理 SG-00：S2-B 三份报告目前仍保留 `REVIEWED-SAMPLE-PASS` 标签，需要升级为全季 Season Gate 可用的审阅记录；在此之前不关闭 Season Gate。
+SG-00 已完成：S2-B 三份报告已升级为 `REVIEWED-SEASON-PASS`，源矩阵为 `SEASON-DRAFT`，现在进入 SG-01 因果/悬疑独立审读；Season Gate 仍保持 `OPEN`。
 
 ## 本轮立即执行的三项任务
 

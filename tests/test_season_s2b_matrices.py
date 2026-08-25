@@ -34,6 +34,11 @@ class SeasonS2BMatrixTests(unittest.TestCase):
         self.assertEqual(36, humor_result["entry_total"])
         self.assertEqual([], audit_ledger_bindings())
 
+    def test_s2b_reports_are_full_season_inputs(self):
+        for filename in ("season-mystery-review.json", "season-activity-review.json", "season-humor-review.json"):
+            report = json.loads((ROOT / "qa/reviews" / filename).read_text(encoding="utf-8"))
+            self.assertEqual("REVIEWED-SEASON-PASS", report["status"], filename)
+
 
 if __name__ == "__main__":
     unittest.main()

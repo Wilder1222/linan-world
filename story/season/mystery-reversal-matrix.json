@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "SAMPLE-DRAFT",
+  "status": "SEASON-DRAFT",
   "scope": "P2 Season mystery and reversal matrix",
   "entries": [
     {
@@ -830,5 +830,5 @@
     "动机翻转",
     "制度翻转"
   ],
-  "next_gate": "S2-C 完成 E07–E36 因果账本与 648 短章钩子后，再升级为 REVIEWED-PASS。"
+  "next_gate": "Season Gate 复核因果、责任与关系翻转后，进入 Episode Gate 绑定具体场次。"
 }

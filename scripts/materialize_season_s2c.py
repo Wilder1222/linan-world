@@ -330,6 +330,8 @@ def main() -> int:
         data["humor_ids"] = humor_ids
         by_id[episode_id] = data
     ledger["episodes"] = [by_id[f"S1-E{i:02d}"] for i in range(1, 37)]
+    for episode in ledger["episodes"]:
+        episode["status"] = "SEASON-DRAFT"
     ledger["status"] = "SEASON-DRAFT"
     ledger["next_gate"] = "S2-C 完成；下一步进行 E01–E36 逐集正式剧本、表演、分镜与 AIGC 资产绑定前的 Episode Gate。"
     LEDGER_PATH.write_text(json.dumps(ledger, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

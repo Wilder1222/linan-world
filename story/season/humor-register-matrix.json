@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "SAMPLE-DRAFT",
+  "status": "SEASON-DRAFT",
   "scope": "P2 Humor and register matrix",
   "entries": [
     {
@@ -1196,5 +1196,5 @@
     }
   ],
   "source": "story/03-humor-and-register-standard-v1.md",
-  "next_gate": "S2-C 将笑点绑定到具体短章的情绪恢复与表演顺序后，再升级为 REVIEWED-PASS。"
+  "next_gate": "Season Gate 复核笑点安全与情绪回收后，Episode Gate 再绑定具体表演与对白。"
 }
