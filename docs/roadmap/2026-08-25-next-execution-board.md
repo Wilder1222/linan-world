@@ -50,7 +50,15 @@
 - `story/season/u-candidate-selection.json` 已从 120 个 RESERVED 槽位中选择 22 个 POV 候选与 40 个自然回访候选；22/22 POV 均回溯到集/章上下文，40/40 回访候选均有首次出现与回场原因。
 - `scripts/audit_season_u_candidates.py` 已通过，报告为 `REVIEWED-SEASON-PASS`；40 个选中槽位仍可替换，另有 22 个 POV 候选保留为替换池，80 个未选槽位继续保持 RESERVED。
 - S2-06 不写入唯一姓名、最终 scene/dialogue/shot ID，也不修改 `qa/unit-slots.json`；BG 300 个原型仍保持 RESERVED，`microchapter_ids` 与 `extension_ids` 继续为空。
-- Season Gate 仍保持 `OPEN`，下一步是两份独立 Season Gate 审读：因果/悬疑一份，关系/活动/幽默/可替换性一份。
+- Season Gate 仍保持 `OPEN`；SG-01 因果/悬疑独立审读已通过，下一步是 SG-02 关系/活动/幽默/可替换性独立审读。
+
+## SG-01 因果与悬疑独立审读结果（2026-08-26）
+
+- 新增 `scripts/audit_season_gate_causal_mystery.py` 与 `tests/test_season_gate_causal_mystery.py`，报告为 `REVIEWED-SEASON-PASS`。
+- 36/36 集均具备唯一中心问题、城市证据、职业动作、关系选择、不可逆代价和可回接尾钩；选择行动者与 POV/关系角色可追溯。
+- 18/18 条悬疑/翻转链均具备播种、误读、复核、重义、代价与篇末揭示，阶段绑定到对应集；重义会改变关系状态或行动状态。
+- 648/648 章均具备可执行字段，18 章/集，尾钩类型不相邻重复；每集首章开场、尾章尾钩类型与下一追问均回接季级因果账本。
+- 本审读不锁定最终对白、shot ID、U 唯一身份或 BG 微章 ID；SG-02 未通过前 Season Gate 继续保持 `OPEN`。
 
 ## 执行顺序
 

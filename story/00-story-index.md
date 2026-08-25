@@ -1,6 +1,6 @@
 # 《临安春信》故事内容索引
 
-> 当前状态：36 集已进入 P2 `SEASON-DRAFT`；E01–E36 因果账本、648 个 2–3 分钟短章钩子与 S2-06 U 候选边界均通过机器审阅；Season Gate 仍保持 `OPEN`，尚未绑定最终对白、分镜、U 唯一身份或 BG 微章 ID。
+> 当前状态：36 集已进入 P2 `SEASON-DRAFT`；E01–E36 因果账本、18 条悬疑/翻转链、648 个 2–3 分钟短章钩子与 S2-06 U 候选边界均通过机器审阅；SG-01 因果/悬疑独立审读已通过；Season Gate 仍保持 `OPEN`，尚未绑定最终对白、分镜、U 唯一身份或 BG 微章 ID。
 
 ## 已纳入
 
@@ -23,6 +23,7 @@
 | `story/season/short-chapter-hook-map.json` | 36×18 短章入口、目标阻力、证据/关系动作、选择代价与尾钩 | SEASON-DRAFT |
 | `qa/reviews/season-s2c-review.json` | S2-C 全季账本与短章钩子审阅 | REVIEWED-SEASON-PASS |
 | `qa/reviews/season-hook-review.json` | 648 短章逐章字段、18 章/集、尾钩轮换与回接审阅 | REVIEWED-SEASON-PASS |
+| `qa/reviews/season-gate-causal-mystery-review.json` | SG-01 独立审读：36 集因果、18 条悬疑/翻转链、648 章钩子与前置证据回接 | REVIEWED-SEASON-PASS |
 | `story/season/u-candidate-selection.schema.json` | U 槽位候选、POV 映射、自然回访与 Gate 边界字段规范 | LOCKED-SCHEMA |
 | `story/season/u-candidate-selection.json` | 22 个 POV 候选、40 个自然回访候选及 120 槽位保留状态 | SEASON-DRAFT |
 | `qa/reviews/season-u-boundary-review.json` | S2-06 候选可追溯性、可替换性、U/BG 边界审阅 | REVIEWED-SEASON-PASS |
@@ -40,3 +41,7 @@ S2-06 从 `qa/unit-slots.json` 的 120 个 RESERVED 槽位中选出 22 个 POV �
 ## SG-00 全季矩阵收口结论
 
 悬疑/翻转、宋代生活活动、幽默/语域三份矩阵已完成 36 集全季覆盖审阅，报告均为 `REVIEWED-SEASON-PASS`；源矩阵状态统一为 `SEASON-DRAFT`。它们现在可以作为 Season Gate 的正式输入，但仍不绑定最终对白、镜头、U 唯一身份或 BG 微章。
+
+## SG-01 因果与悬疑独立审读结论
+
+`qa/reviews/season-gate-causal-mystery-review.json` 已完成重建并为 `REVIEWED-SEASON-PASS`：36/36 集中心问题、城市证据、职业动作、关系选择、不可逆代价和片尾回接完整；18/18 条悬疑链均可沿“播种 → 误读 → 复核 → 重义 → 代价”追溯；648/648 章具备可执行钩子，且每集尾章与季账本尾钩类型、下一追问一致。SG-02 仍待独立审读，Season Gate 保持 `OPEN`。

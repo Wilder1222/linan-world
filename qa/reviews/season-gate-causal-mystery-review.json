@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "status": "REVIEWED-SEASON-PASS",
+  "scope": "P2 SG-01 independent causal and mystery Season Gate review",
+  "episode_total": 36,
+  "mystery_total": 18,
+  "chapter_total": 648,
+  "checks": {
+    "episode_rows_complete": true,
+    "episode_statuses_season_draft": true,
+    "one_unique_central_question_per_episode": true,
+    "city_profession_relationship_cost_present": true,
+    "mystery_phase_traceable": true,
+    "mystery_reveals_change_state": true,
+    "chapter_rows_complete": true,
+    "chapter_hook_chain_playable": true,
+    "adjacent_hook_types_distinct": true,
+    "episode_tail_hooks_bound": true
+  },
+  "findings": [],
+  "deferred_followup": [
+    "SG-02 继续独立审读关系、宋代活动、幽默与 U/BG 可替换边界；本报告不替代该审读。",
+    "Episode Gate 再把每章目标/阻力/选择与正式逐场剧本、表演、分镜、AIGC 资产和连续性账本绑定。",
+    "本报告不锁定最终对白、shot ID、U 唯一身份或 BG 微章 ID；Season Gate 仍保持 OPEN。"
+  ]
+}
