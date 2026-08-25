@@ -201,6 +201,12 @@ def validate_scope(scope: str, strict: bool, root: Path = ROOT) -> list[str]:
             errors.append("missing_path=qa/canon-fact-registry.json")
     if strict:
         errors.extend(scan_forbidden(scope, root=root))
+    if scope == "character-foundation":
+        from scripts.validate_characters import validate_foundation
+        errors.extend(validate_foundation(root))
+    elif scope == "characters":
+        from scripts.validate_characters import validate_final
+        errors.extend(validate_final(root))
     return sorted(errors)
 
 

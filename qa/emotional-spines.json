@@ -1,0 +1,556 @@
+{
+  "schema_version": "1.0",
+  "status": "FOUNDATION-DRAFT",
+  "dimensions": [
+    "亲近",
+    "信任",
+    "亏欠",
+    "依赖",
+    "敬意",
+    "怨恨",
+    "共同秘密"
+  ],
+  "spines": [
+    {
+      "id": "LOVE",
+      "name": "爱情",
+      "relation_ids": [
+        "REL-001",
+        "REL-002"
+      ],
+      "character_ids": [
+        "CHR-L1-01",
+        "CHR-L1-05",
+        "CHR-L1-02",
+        "CHR-L1-03"
+      ],
+      "arc_states": [
+        {
+          "id": "EM-A01-LOVE",
+          "relation_id": "REL-001",
+          "mixed_emotions": "好奇与防备",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "允许对方靠近但不交出记录",
+          "cost": "留灯后仍把灯往里挪一寸",
+          "aftermath": "承认被照顾，同时保留边界",
+          "observable_evidence": "顾行舟第一次理解保护不等于替她决定",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A02-LOVE",
+          "relation_id": "REL-001",
+          "mixed_emotions": "吸引与隐瞒",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "想知道真相又怕成为负担",
+          "cost": "顾行舟只交半卷旧案",
+          "aftermath": "沈蘅获得线索却失去完整判断",
+          "observable_evidence": "信任出现第一道裂缝",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A03-LOVE",
+          "relation_id": "REL-001",
+          "mixed_emotions": "依赖与恐惧",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "救人和留证无法兼得",
+          "cost": "顾行舟弃证救人，沈蘅记录损失",
+          "aftermath": "共同承担青鹞受损与证据缺口",
+          "observable_evidence": "爱意变成具体债务",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A04-LOVE",
+          "relation_id": "REL-001",
+          "mixed_emotions": "眷恋与自欺",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "普通生活的愿望压过查案冲动",
+          "cost": "两人短暂选择桂夜生活，不追问一夜",
+          "aftermath": "错过一次核验窗口",
+          "observable_evidence": "关系更近但误判更深",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A05-LOVE",
+          "relation_id": "REL-001",
+          "mixed_emotions": "爱与控制",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "告知风险和替人决定相互冲突",
+          "cost": "顾行舟隐瞒疫图用途，沈蘅拒绝跟随",
+          "aftermath": "关系破裂、共同路线断开",
+          "observable_evidence": "双方都承认对方动机不是恶意",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A06-LOVE",
+          "relation_id": "REL-001",
+          "mixed_emotions": "未修复的尊重",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "危机需要协作，旧伤仍存在",
+          "cost": "顾行舟站开只问‘你去哪’",
+          "aftermath": "他放弃控制权，仍承担失去她的可能",
+          "observable_evidence": "关系进入可选择而非自动和解的状态",
+          "status": "SEMANTIC-SKELETON"
+        }
+      ]
+    },
+    {
+      "id": "FRIENDSHIP",
+      "name": "友情",
+      "relation_ids": [
+        "REL-003",
+        "REL-004",
+        "REL-G01"
+      ],
+      "character_ids": [
+        "CHR-L1-01",
+        "CHR-L1-02",
+        "CHR-L1-04",
+        "CHR-L1-05",
+        "CHR-L1-03"
+      ],
+      "arc_states": [
+        {
+          "id": "EM-A01-FRIENDSHIP",
+          "relation_id": "REL-003",
+          "mixed_emotions": "互相试探",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "尊重能力却不愿交出软肋",
+          "cost": "柳十四把流言改成可核验版本",
+          "aftermath": "沈蘅必须承认叙事也能伤人",
+          "observable_evidence": "女性友谊从欣赏转为互相约束",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A02-FRIENDSHIP",
+          "relation_id": "REL-G01",
+          "mixed_emotions": "临时同盟",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "五人需要彼此却不共享全部信息",
+          "cost": "每人只提交自己的职业观察",
+          "aftermath": "速度慢但避免单点误判",
+          "observable_evidence": "小组形成反对权",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A03-FRIENDSHIP",
+          "relation_id": "REL-004",
+          "mixed_emotions": "旧债与默契",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "裴九娘和顾行舟知道彼此不愿说的过去",
+          "cost": "裴九娘在船帮面前替顾行舟担责",
+          "aftermath": "她失去一笔安全合约",
+          "observable_evidence": "旧交不再等于无条件站队",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A04-FRIENDSHIP",
+          "relation_id": "REL-G01",
+          "mixed_emotions": "分歧公开化",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "谁先发布疑报成为权力问题",
+          "cost": "小组保留不同版本并标注来源",
+          "aftermath": "共同声誉暂时受损",
+          "observable_evidence": "纠错规则胜过个人面子",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A05-FRIENDSHIP",
+          "relation_id": "REL-003",
+          "mixed_emotions": "反对而不离开",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "柳十四拒绝沈蘅把人当数据",
+          "cost": "两人当众争执后共同回访一户人家",
+          "aftermath": "错过一场宴席线索",
+          "observable_evidence": "关系以具体照料重新稳住",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A06-FRIENDSHIP",
+          "relation_id": "REL-G01",
+          "mixed_emotions": "敢于互相纠正",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "灾中每个人都可能错",
+          "cost": "普通人和核心组互相撤回错误灯号",
+          "aftermath": "没有人保住全知形象",
+          "observable_evidence": "友情变成可持续的共同工作",
+          "status": "SEMANTIC-SKELETON"
+        }
+      ]
+    },
+    {
+      "id": "FAMILY",
+      "name": "亲情",
+      "relation_ids": [
+        "REL-005",
+        "REL-006",
+        "REL-007",
+        "REL-008",
+        "REL-009"
+      ],
+      "character_ids": [
+        "CHR-L1-01",
+        "CHR-L2-01",
+        "CHR-A2-03",
+        "CHR-A1-01",
+        "CHR-L2-02",
+        "CHR-L3-02",
+        "CHR-A1-07"
+      ],
+      "arc_states": [
+        {
+          "id": "EM-A01-FAMILY",
+          "relation_id": "REL-005",
+          "mixed_emotions": "保护与窒息",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "母亲想护住女儿，女儿想证明自己",
+          "cost": "陆清和把账本推给沈蘅而非替她决定",
+          "aftermath": "家庭安全感短暂崩塌",
+          "observable_evidence": "爱开始允许对方看见代价",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A02-FAMILY",
+          "relation_id": "REL-006",
+          "mixed_emotions": "怀念与求证",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "沈蘅想证明亡父无错",
+          "cost": "她保留父亲旧记录的疑点",
+          "aftermath": "完美父亲形象出现裂缝",
+          "observable_evidence": "亲情不再依赖翻案",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A03-FAMILY",
+          "relation_id": "REL-007",
+          "mixed_emotions": "恩爱与怨恨",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "陆清和爱过沈怀川也怨他留下账",
+          "cost": "公开停业单与药费",
+          "aftermath": "母女必须共同承担邻里目光",
+          "observable_evidence": "夫妻旧案成为可讨论的真实历史",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A04-FAMILY",
+          "relation_id": "REL-008",
+          "mixed_emotions": "养育与放手",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "沈三娘怕阿沅受伤，阿沅怕永远被当孩子",
+          "cost": "阿沅先确认再发出缺席名册",
+          "aftermath": "失去一次被保护的安全位置",
+          "observable_evidence": "养育关系改为互相交代风险",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A05-FAMILY",
+          "relation_id": "REL-009",
+          "mixed_emotions": "恩情与责任",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "黎令仪爱养父却不能替他遮账",
+          "cost": "她交出真账并保留探望资格",
+          "aftermath": "养父女关系无法回到从前",
+          "observable_evidence": "承认好与错可以同时为真",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A06-FAMILY",
+          "relation_id": "REL-005",
+          "mixed_emotions": "带着旧账生活",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "亲情需要新边界而非清零",
+          "cost": "陆清和把香匣放下并收回手",
+          "aftermath": "仍会害怕、仍会争执",
+          "observable_evidence": "家庭在不完美理解中继续",
+          "status": "SEMANTIC-SKELETON"
+        }
+      ]
+    },
+    {
+      "id": "MENTORSHIP",
+      "name": "师徒",
+      "relation_ids": [
+        "REL-010",
+        "REL-011"
+      ],
+      "character_ids": [
+        "CHR-A1-03",
+        "CHR-L2-03",
+        "CHR-A2-07",
+        "CHR-L1-03"
+      ],
+      "arc_states": [
+        {
+          "id": "EM-A01-MENTORSHIP",
+          "relation_id": "REL-010",
+          "mixed_emotions": "仰望与不服",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "余青禾需要经验又讨厌被看轻",
+          "cost": "她把病例原判写进记录",
+          "aftermath": "暂时失去长辈认可",
+          "observable_evidence": "师徒开始谈证据而非资历",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A02-MENTORSHIP",
+          "relation_id": "REL-011",
+          "mixed_emotions": "成全与归属",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "程野老怕周砚之被画院夺走",
+          "cost": "他允许学生公开民用图",
+          "aftermath": "艺术署名与利益受损",
+          "observable_evidence": "师徒把作品交给公共用途",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A03-MENTORSHIP",
+          "relation_id": "REL-010",
+          "mixed_emotions": "嫉妒与敬意",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "余仲仁发现后辈更快看见病势",
+          "cost": "他让出一次诊断权",
+          "aftermath": "自己的权威被旁人质疑",
+          "observable_evidence": "敬意不再靠压制维持",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A04-MENTORSHIP",
+          "relation_id": "REL-011",
+          "mixed_emotions": "决裂与留门",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "公共责任与门派归属冲突",
+          "cost": "师徒公开争执仍留下工具和地址",
+          "aftermath": "关系暂时断裂",
+          "observable_evidence": "离开不是抹除教过的东西",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A05-MENTORSHIP",
+          "relation_id": "REL-010",
+          "mixed_emotions": "错误共同承担",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "误诊不能只由学生背",
+          "cost": "余仲仁在病例旁写下复核意见",
+          "aftermath": "两人共同承担名誉损失",
+          "observable_evidence": "师徒关系转为可互相纠错",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A06-MENTORSHIP",
+          "relation_id": "REL-011",
+          "mixed_emotions": "不占有成就",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "老师放弃把学生写成自己的作品",
+          "cost": "程野老在新版图上保留学生署名",
+          "aftermath": "失去一次官方邀约",
+          "observable_evidence": "成全表现为让对方独立",
+          "status": "SEMANTIC-SKELETON"
+        }
+      ]
+    },
+    {
+      "id": "COMRADES_INSTITUTIONS",
+      "name": "同袍与制度",
+      "relation_ids": [
+        "REL-012",
+        "REL-013",
+        "REL-014",
+        "REL-015"
+      ],
+      "character_ids": [
+        "CHR-L2-04",
+        "CHR-L1-05",
+        "CHR-A1-08",
+        "CHR-A1-06",
+        "CHR-L3-01"
+      ],
+      "arc_states": [
+        {
+          "id": "EM-A01-COMRADES_INSTITUTIONS",
+          "relation_id": "REL-012",
+          "mixed_emotions": "服从与救命恩",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "高问想照章而顾行舟想先救人",
+          "cost": "两人各自留下风险记录",
+          "aftermath": "旧恩无法抵消职责冲突",
+          "observable_evidence": "同袍关系进入公开争执",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A02-COMRADES_INSTITUTIONS",
+          "relation_id": "REL-013",
+          "mixed_emotions": "羞愧与默契",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "曹肃知道顾行舟隐瞒过什么",
+          "cost": "他替顾行舟传回一次更正",
+          "aftermath": "自己承担上级追责",
+          "observable_evidence": "旧同袍仍有互救但不再盲从",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A03-COMRADES_INSTITUTIONS",
+          "relation_id": "REL-014",
+          "mixed_emotions": "上下级与守门",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "高问必须执行封锁，曹肃看见门外的人",
+          "cost": "高问第一次在公文上写明例外条件",
+          "aftermath": "官身安全受损",
+          "observable_evidence": "制度出现可追责的缝隙",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A04-COMRADES_INSTITUTIONS",
+          "relation_id": "REL-015",
+          "mixed_emotions": "程序忠诚",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "张云中敬重宋惟敬又害怕一城一令",
+          "cost": "他保留两份相反签注",
+          "aftermath": "政治前途受损",
+          "observable_evidence": "程序忠诚从服从转为留证",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A05-COMRADES_INSTITUTIONS",
+          "relation_id": "REL-012",
+          "mixed_emotions": "承认曾经做错",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "同袍不能用最后一次救人抹平旧伤",
+          "cost": "高问接受民间质询",
+          "aftermath": "失去官职与信任",
+          "observable_evidence": "制度人物也进入普通人的记忆",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A06-COMRADES_INSTITUTIONS",
+          "relation_id": "REL-015",
+          "mixed_emotions": "亲手撤回",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "宋惟敬承认集中调度有效但不可独占",
+          "cost": "他划掉自己的封锁令并接受审查",
+          "aftermath": "官位与免罪可能性一并失去",
+          "observable_evidence": "责任终于包含允许别人纠正自己",
+          "status": "SEMANTIC-SKELETON"
+        }
+      ]
+    },
+    {
+      "id": "IDEAL_COMMUNITY",
+      "name": "理想共同体",
+      "relation_ids": [
+        "REL-009",
+        "REL-015",
+        "REL-016"
+      ],
+      "character_ids": [
+        "CHR-L3-03",
+        "CHR-A1-05",
+        "CHR-L3-02",
+        "CHR-A1-07",
+        "CHR-L3-01"
+      ],
+      "arc_states": [
+        {
+          "id": "EM-A01-IDEAL_COMMUNITY",
+          "relation_id": "REL-016",
+          "mixed_emotions": "共同理想与路线差异",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "贺兰度与许含章都想护住失乡者",
+          "cost": "先问一个人想留还是想走",
+          "aftermath": "失去一次政治动员机会",
+          "observable_evidence": "共同体不再由领袖替成员命名",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A02-IDEAL_COMMUNITY",
+          "relation_id": "REL-015",
+          "mixed_emotions": "秩序的诱惑",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "集中权力确实能快速稳定城市",
+          "cost": "宋惟敬记录有效与伤害两套结果",
+          "aftermath": "声誉与权力同时被质疑",
+          "observable_evidence": "制度理想出现自我限制",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A03-IDEAL_COMMUNITY",
+          "relation_id": "REL-009",
+          "mixed_emotions": "恩债不能购买判断",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "黎见山的养育与账目罪责并存",
+          "cost": "黎令仪交真账不替他求情",
+          "aftermath": "家庭与商业网络断裂",
+          "observable_evidence": "共同体以可追责而非恩情维系",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A04-IDEAL_COMMUNITY",
+          "relation_id": "REL-016",
+          "mixed_emotions": "被代表者拒绝被代表",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "北方来客说自己想留在临安",
+          "cost": "贺兰度停下准备拍肩的手",
+          "aftermath": "失去一段演说的确定性",
+          "observable_evidence": "理想开始容纳成员自己的去向",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A05-IDEAL_COMMUNITY",
+          "relation_id": "REL-015",
+          "mixed_emotions": "错灯与纠错",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "系统第一次公开承认自己会错",
+          "cost": "普通人撤下错误灯号并重传",
+          "aftermath": "权威形象受损但伤害减少",
+          "observable_evidence": "共同体以更正能力而非纯洁性成立",
+          "status": "SEMANTIC-SKELETON"
+        },
+        {
+          "id": "EM-A06-IDEAL_COMMUNITY",
+          "relation_id": "REL-016",
+          "mixed_emotions": "继续而非圆满",
+          "seven_dimension_before": "七维状态由关系档案初始值承接",
+          "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+          "choice": "危机合作不等于旧账清零",
+          "cost": "众人共同开路后仍保留各自账本",
+          "aftermath": "没有整齐的和解结局",
+          "observable_evidence": "理想共同体允许不同意仍互相救命",
+          "status": "SEMANTIC-SKELETON"
+        }
+      ]
+    }
+  ]
+}

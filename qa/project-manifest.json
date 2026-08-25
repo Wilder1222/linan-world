@@ -67,6 +67,21 @@
       "canon/institutions/04-water-sanitation-health-and-relief.md",
       "canon/institutions/05-y0-crisis-causal-chain.md",
       "canon/institutions/06-postcrisis-public-information-charter.md"
+    ],
+    "character-foundation": [
+      "characters/00-character-schema.md",
+      "characters/00-character-index.md",
+      "characters/central",
+      "characters/important",
+      "characters/recurring",
+      "characters/relations/core",
+      "characters/emotional-spines",
+      "qa/character-roster.json",
+      "qa/unit-slots.json",
+      "qa/background-usage.json",
+      "qa/relationship-slots.json",
+      "qa/emotional-spines.json",
+      "qa/reviews/character-foundation-review.md"
     ]
   }
 }

@@ -1,0 +1,1689 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Unit character slots are reserved production capacity, not named characters.",
+  "pov_slot_count": 22,
+  "pov_candidate_count": 44,
+  "natural_return_candidate_count": 40,
+  "slots": [
+    {
+      "id": "CHR-U-001",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": true,
+      "pov_slot": true,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-001",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-002",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": true,
+      "pov_slot": true,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-002",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-003",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": true,
+      "pov_slot": true,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-003",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-004",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": true,
+      "pov_slot": true,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-004",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-005",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": true,
+      "pov_slot": true,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-005",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-006",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": true,
+      "pov_slot": true,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-006",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-007",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": true,
+      "pov_slot": false,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-007",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-008",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": true,
+      "pov_slot": false,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-008",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-009",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": true,
+      "pov_slot": false,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-009",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-010",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": true,
+      "pov_slot": false,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-010",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-011",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": true,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-011",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-012",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-012",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-013",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-013",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-014",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-014",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-015",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-015",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-016",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-016",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-017",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-G01",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-018",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-001",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-019",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-002",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-020",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-003",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-021",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-004",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-022",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-005",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-023",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-006",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-024",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-007",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-025",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-008",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-026",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-009",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-027",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-010",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-028",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-011",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-029",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-012",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-030",
+      "category": "life-visitors",
+      "window": "ARC1-ARC2",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-013",
+      "eligible_profession_families": [
+        "life-visitors",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-031",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": true,
+      "pov_slot": true,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-014",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-032",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": true,
+      "pov_slot": true,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-015",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-033",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": true,
+      "pov_slot": true,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-016",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-034",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": true,
+      "pov_slot": true,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-G01",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-035",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": true,
+      "pov_slot": true,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-001",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-036",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": true,
+      "pov_slot": true,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-002",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-037",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": true,
+      "pov_slot": false,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-003",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-038",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": true,
+      "pov_slot": false,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-004",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-039",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": true,
+      "pov_slot": false,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-005",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-040",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": true,
+      "pov_slot": false,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-006",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-041",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": true,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-007",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-042",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-008",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-043",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-009",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-044",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-010",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-045",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-011",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-046",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-012",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-047",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-013",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-048",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-014",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-049",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-015",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-050",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-016",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-051",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-G01",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-052",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-001",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-053",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-002",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-054",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-003",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-055",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-004",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-056",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-005",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-057",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-006",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-058",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-007",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-059",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-008",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-060",
+      "category": "professional-problems",
+      "window": "ARC2-ARC3",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-009",
+      "eligible_profession_families": [
+        "professional-problems",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-061",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": true,
+      "pov_slot": true,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-010",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-062",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": true,
+      "pov_slot": true,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-011",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-063",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": true,
+      "pov_slot": true,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-012",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-064",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": true,
+      "pov_slot": true,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-013",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-065",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": true,
+      "pov_slot": true,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-014",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-066",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": true,
+      "pov_slot": false,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-015",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-067",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": true,
+      "pov_slot": false,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-016",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-068",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": true,
+      "pov_slot": false,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-G01",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-069",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": true,
+      "pov_slot": false,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-001",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-070",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": true,
+      "pov_slot": false,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-002",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-071",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": true,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-003",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-072",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-004",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-073",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-005",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-074",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-006",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-075",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-007",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-076",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-008",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-077",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-009",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-078",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-010",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-079",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-011",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-080",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-012",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-081",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-013",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-082",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-014",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-083",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-015",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-084",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-016",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-085",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-G01",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-086",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-001",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-087",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-002",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-088",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-003",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-089",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-004",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-090",
+      "category": "crisis-bearers",
+      "window": "ARC3-ARC5",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-005",
+      "eligible_profession_families": [
+        "crisis-bearers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-091",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": true,
+      "pov_slot": true,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-006",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-092",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": true,
+      "pov_slot": true,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-007",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-093",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": true,
+      "pov_slot": true,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-008",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-094",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": true,
+      "pov_slot": true,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-009",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-095",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": true,
+      "pov_slot": true,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-010",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-096",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": true,
+      "pov_slot": false,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-011",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-097",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": true,
+      "pov_slot": false,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-012",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-098",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": true,
+      "pov_slot": false,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-013",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-099",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": true,
+      "pov_slot": false,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-014",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-100",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": true,
+      "pov_slot": false,
+      "natural_return_candidate": true,
+      "relation_slot": "REL-015",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-101",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": true,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-016",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-102",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-G01",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-103",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-001",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-104",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-002",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-105",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-003",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-106",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-004",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-107",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-005",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-108",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-006",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-109",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-007",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-110",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-008",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-111",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-009",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-112",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-010",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-113",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-011",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-114",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-012",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-115",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-013",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-116",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-014",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-117",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-015",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-118",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-016",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-119",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-G01",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    },
+    {
+      "id": "CHR-U-120",
+      "category": "moral-choice-triggers",
+      "window": "ARC4-ARC6",
+      "pov_candidate": false,
+      "pov_slot": false,
+      "natural_return_candidate": false,
+      "relation_slot": "REL-001",
+      "eligible_profession_families": [
+        "moral-choice-triggers",
+        "neighborhood-support"
+      ],
+      "status": "RESERVED"
+    }
+  ]
+}

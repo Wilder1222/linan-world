@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "status": "FOUNDATION-DRAFT",
+  "dimensions": ["亲近", "信任", "亏欠", "依赖", "敬意", "怨恨", "共同秘密"],
+  "snapshots": ["Y0-OPEN", "ARC1-END", "ARC2-END", "ARC3-END", "ARC4-END", "ARC5-END", "ARC6-END", "Y+1"],
+  "relationships": [
+    {"id":"REL-001","left":"CHR-L1-01","right":"CHR-L1-05","kind":"核心爱情","dimensions":7,"snapshots":8,"status":"SKELETON"},
+    {"id":"REL-002","left":"CHR-L1-02","right":"CHR-L1-03","kind":"爱情与创作","dimensions":7,"snapshots":8,"status":"SKELETON"},
+    {"id":"REL-003","left":"CHR-L1-01","right":"CHR-L1-02","kind":"友情与竞争","dimensions":7,"snapshots":8,"status":"SKELETON"},
+    {"id":"REL-004","left":"CHR-L1-04","right":"CHR-L1-05","kind":"生死旧交","dimensions":7,"snapshots":8,"status":"SKELETON"},
+    {"id":"REL-005","left":"CHR-L1-01","right":"CHR-L2-01","kind":"母女","dimensions":7,"snapshots":8,"status":"SKELETON"},
+    {"id":"REL-006","left":"CHR-L1-01","right":"CHR-A2-03","kind":"父女与遗产","dimensions":7,"snapshots":8,"status":"SKELETON"},
+    {"id":"REL-007","left":"CHR-L2-01","right":"CHR-A2-03","kind":"夫妻与旧案","dimensions":7,"snapshots":8,"status":"SKELETON"},
+    {"id":"REL-008","left":"CHR-A1-01","right":"CHR-L2-02","kind":"养育与放手","dimensions":7,"snapshots":8,"status":"SKELETON"},
+    {"id":"REL-009","left":"CHR-L3-02","right":"CHR-A1-07","kind":"养父女","dimensions":7,"snapshots":8,"status":"SKELETON"},
+    {"id":"REL-010","left":"CHR-A1-03","right":"CHR-L2-03","kind":"师徒与亲情","dimensions":7,"snapshots":8,"status":"SKELETON"},
+    {"id":"REL-011","left":"CHR-A2-07","right":"CHR-L1-03","kind":"师徒与成全","dimensions":7,"snapshots":8,"status":"SKELETON"},
+    {"id":"REL-012","left":"CHR-L2-04","right":"CHR-L1-05","kind":"制度与同袍","dimensions":7,"snapshots":8,"status":"SKELETON"},
+    {"id":"REL-013","left":"CHR-L1-05","right":"CHR-A1-08","kind":"旧同袍","dimensions":7,"snapshots":8,"status":"SKELETON"},
+    {"id":"REL-014","left":"CHR-L2-04","right":"CHR-A1-08","kind":"上下级与守门","dimensions":7,"snapshots":8,"status":"SKELETON"},
+    {"id":"REL-015","left":"CHR-A1-06","right":"CHR-L3-01","kind":"程序忠诚","dimensions":7,"snapshots":8,"status":"SKELETON"},
+    {"id":"REL-016","left":"CHR-L3-03","right":"CHR-A1-05","kind":"理想与相反选择","dimensions":7,"snapshots":8,"status":"SKELETON"},
+    {"id":"REL-G01","left":"CHR-L1-01","right":"CHR-L1-02","kind":"五信协作群","dimensions":7,"snapshots":8,"status":"GROUP-SKELETON","members":["CHR-L1-01","CHR-L1-02","CHR-L1-03","CHR-L1-04","CHR-L1-05"]}
+  ]
+}
