@@ -31,6 +31,11 @@ def audit() -> dict:
     findings = []
     profile_counts = Counter()
     unique_fingerprints = set()
+    unique_professional_processes = set()
+    unique_care_actions = set()
+    fingerprint_records = {}
+    process_records = {}
+    care_records = {}
     unique_choices = set()
     for record in roster["named_characters"]:
         path = ROOT / record["profile_path"]
@@ -47,10 +52,19 @@ def audit() -> dict:
                 if phrase not in text:
                     findings.append({"id": record["id"], "severity": "REVIEW", "code": f"missing_observable_{phrase}"})
             fingerprint = next((line.strip() for line in text.splitlines() if line.strip().startswith("- 行为指纹：")), "")
+            professional_process = next((line.strip() for line in text.splitlines() if line.strip().startswith("- 职业流程：") or line.strip().startswith("- 职业过程：")), "")
+            care_action = next((line.strip() for line in text.splitlines() if line.strip().startswith("- 不依赖台词的关心动作：")), "")
             match = re.search(r"### ARC6-END\n(.*?)(?=\n### |\Z)", text, re.S)
             choice = match.group(1).strip() if match else ""
             if fingerprint:
                 unique_fingerprints.add(fingerprint)
+                fingerprint_records.setdefault(fingerprint, []).append(record["id"])
+            if professional_process:
+                unique_professional_processes.add(professional_process)
+                process_records.setdefault(professional_process, []).append(record["id"])
+            if care_action:
+                unique_care_actions.add(care_action)
+                care_records.setdefault(care_action, []).append(record["id"])
             if choice:
                 unique_choices.add(choice)
         for heading in required:
@@ -81,6 +95,16 @@ def audit() -> dict:
     else:
         evidence_missing_fields.append({"path": "qa/relationship-evidence.json", "field": "missing"})
 
+    for fingerprint, ids in fingerprint_records.items():
+        if len(ids) > 1:
+            findings.append({"ids": ids, "severity": "BLOCK", "code": "duplicate_observable_fingerprint"})
+    for process, ids in process_records.items():
+        if len(ids) > 1:
+            findings.append({"ids": ids, "severity": "BLOCK", "code": "duplicate_professional_process"})
+    for care_action, ids in care_records.items():
+        if len(ids) > 1:
+            findings.append({"ids": ids, "severity": "BLOCK", "code": "duplicate_care_action"})
+
     spines = json.loads((ROOT / "qa/emotional-spines.json").read_text(encoding="utf-8"))["spines"]
     spine_state_count = sum(len(spine.get("arc_states", [])) for spine in spines)
     status = "REVIEWED-PASS" if not findings and len(relation_files) == 17 and evidence_snapshot_total == 136 and spine_state_count == 36 else "OPEN"
@@ -90,6 +114,8 @@ def audit() -> dict:
         "profile_counts": dict(profile_counts),
         "named_profile_total": sum(profile_counts.values()),
         "unique_observable_fingerprints": len(unique_fingerprints),
+        "unique_professional_processes": len(unique_professional_processes),
+        "unique_care_actions": len(unique_care_actions),
         "unique_arc6_choice_markers": len(unique_choices),
         "relationship_profile_total": len(relation_files),
         "relationship_missing_layers": relation_missing_layers,

@@ -13,6 +13,7 @@ CENTRAL_DETAILS: dict[str, dict[str, object]] = {
     "CHR-L1-01": {
         "daily": "天未亮验香、午间调香辨货、夜里把亲见与转闻分两栏",
         "fingerprint": "闻香前短暂停气；压力高时把桌上物件逐一摆正",
+        "care_action": "把对方亲见的原纸边角留出空白，不替对方解释",
         "trigger": "香丸灰烬与五条职业观察互相指向同一条风险",
         "sequence": "先切样留灰，再问来源和时刻，最后才落笔标记证据等级",
         "states": [
@@ -30,6 +31,7 @@ CENTRAL_DETAILS: dict[str, dict[str, object]] = {
     "CHR-L1-02": {
         "daily": "午前排戏、午后改曲和教新人、夜里卸妆后独自记观众反应",
         "fingerprint": "台上笑时右嘴角先起；听到不实传闻会先把扇面合上再回答",
+        "care_action": "把别人不愿公开的称呼从曲牌中删掉，仍替其保留应得分成",
         "trigger": "一条被改编的消息即将变成瓦舍最卖座的新曲",
         "sequence": "先让乐工停半拍，再问亲历者愿意公开的称呼，最后决定曲词是否署名",
         "states": [
@@ -47,6 +49,7 @@ CENTRAL_DETAILS: dict[str, dict[str, object]] = {
     "CHR-L1-03": {
         "daily": "清晨收图、午后测路和装裱、夜里校对普通人的井桥与避难处",
         "fingerprint": "观察空间时微微侧头；遇到删改会先量空白再动笔",
+        "care_action": "在地图边缘留出不画入的私人路径，先问居民是否愿意标记",
         "trigger": "一张漂亮官图与居民实际使用的路发生冲突",
         "sequence": "先走一遍实路，再把缺失点用空白和旧版标出，最后询问居民是否愿意被画入",
         "states": [
@@ -64,6 +67,7 @@ CENTRAL_DETAILS: dict[str, dict[str, object]] = {
     "CHR-L1-04": {
         "daily": "清晨看潮、午后送信和修缆、夜里记船损与承诺回程时刻",
         "fingerprint": "岸上也微屈膝；接信后先摸封泥，再看托信人的眼睛",
+        "care_action": "把回程时刻写给船工，不让对方只等她的消息",
         "trigger": "一封能洗清十三年污名的旧信与一名幸存者的隐私绑在一起",
         "sequence": "先把信封封泥和水痕分开记录，再问谁可能被暴露，最后决定保密范围",
         "states": [
@@ -81,6 +85,7 @@ CENTRAL_DETAILS: dict[str, dict[str, object]] = {
     "CHR-L1-05": {
         "daily": "午前开酒肆、午后听客与护送消息、夜里检查后门和每盏留灯",
         "fingerprint": "倒酒时移开尖锐物；警觉时先看出口再看人",
+        "care_action": "在门边放好灯和退路后站开，不替对方拿行囊",
         "trigger": "沈蘅即将进入一条他知道危险却不能替她封死的路线",
         "sequence": "先确认出口和退路，再把已知、未知与最坏后果说全，最后站开让她选择",
         "states": [
@@ -98,6 +103,7 @@ CENTRAL_DETAILS: dict[str, dict[str, object]] = {
     "CHR-L2-01": {
         "daily": "清晨盘货、午后议价和补香、夜里锁钱匣并给女儿留饭",
         "fingerprint": "越害怕越把货包整理整齐；拨灯芯时不看人",
+        "care_action": "把饭和钥匙留在固定位置，然后退开不追问",
         "trigger": "沈蘅要打开旧香匣而铺子现金流已经见底",
         "sequence": "先把停业单和药钱排开，再说明自己害怕什么，最后把钥匙放到女儿够得到的位置",
         "states": [
@@ -115,6 +121,7 @@ CENTRAL_DETAILS: dict[str, dict[str, object]] = {
     "CHR-L2-02": {
         "daily": "天未亮剁馅、午间收赊账、夜里记录饭量并照看母亲",
         "fingerprint": "端碗时先看客人剩多少；想传播消息会把油纸折两次",
+        "care_action": "给少吃饭的人留半碗热汤，不追问其隐私",
         "trigger": "街坊饭量下降与失联名册同时出现",
         "sequence": "先记数量和时刻，再找本人或邻居核对，最后决定是否把记录交出去",
         "states": [
@@ -132,6 +139,7 @@ CENTRAL_DETAILS: dict[str, dict[str, object]] = {
     "CHR-L2-03": {
         "daily": "清晨拣药、午后抄方问病、夜里整理病例和药柜",
         "fingerprint": "听诊时语速突然变慢；写错时先在原页留空不急着重抄",
+        "care_action": "在病例旁留出可更正的空栏，把自己的判断放在患者之前",
         "trigger": "病例趋势支持她的判断，却与余仲仁和官办医局利益冲突",
         "sequence": "先复核水源、时刻和症状，再把自己的判断写在原病例旁，最后说明置信边界",
         "states": [
@@ -149,6 +157,7 @@ CENTRAL_DETAILS: dict[str, dict[str, object]] = {
     "CHR-L2-04": {
         "daily": "点卯、巡街、调解争执、夜里整理腰牌和例外记录",
         "fingerprint": "遇争执先把双方分开；要违令时先把腰牌摆正",
+        "care_action": "把通行牌和原令编号一并放在桌上，让当事人看见自己承担什么",
         "trigger": "封锁条文的执行目的已经与门外伤员的生存冲突",
         "sequence": "先复述命令和有效范围，再清点具体伤情，最后决定是否留下个人签名",
         "states": [
@@ -166,6 +175,7 @@ CENTRAL_DETAILS: dict[str, dict[str, object]] = {
     "CHR-L3-01": {
         "daily": "清晨收报、按时刻排序、午间调仓、夜里复盘数量和来源",
         "fingerprint": "坏消息先问几点、多少、从哪来；越失控语速越慢",
+        "care_action": "把坏消息列在众人可见的纸上，不先替他们筛掉",
         "trigger": "分布式春信的迟疑与集中调度的即时效果同时出现",
         "sequence": "先列已知与未知，再比较集中命令的收益和盲区，最后决定是否把权力交还节点",
         "states": [
@@ -183,6 +193,7 @@ CENTRAL_DETAILS: dict[str, dict[str, object]] = {
     "CHR-L3-02": {
         "daily": "清晨验仓、午间议价和调船、夜里核借贷与伙计家属名册",
         "fingerprint": "谈判先给对方倒茶；压力越大越慢慢合上账册",
+        "care_action": "把仓门钥匙和账册同时放到审查者手里，不私下邀恩",
         "trigger": "私仓能救眼前人，却会暴露他操纵供应和借贷的真账",
         "sequence": "先算能救多少人，再把官储、私储和债权分开，最后决定是否开仓并留名",
         "states": [
@@ -200,6 +211,7 @@ CENTRAL_DETAILS: dict[str, dict[str, object]] = {
     "CHR-L3-03": {
         "daily": "清晨抄流民姓名、午间演说与募粮、夜里核去留意愿和家属线索",
         "fingerprint": "演说前先记住听众姓名；说‘我们’过多时会握紧旧皮护腕",
+        "care_action": "记住每个人的去留，不把名字合并成一个口号",
         "trigger": "流民明确说自己不想回北方，而他的政治计划需要统一口径",
         "sequence": "先问个人去留，再把名单按自愿与被迫分开，最后决定是否仍以集体名义行动",
         "states": [

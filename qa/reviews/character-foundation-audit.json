@@ -11,7 +11,9 @@
     "B": 48
   },
   "named_profile_total": 84,
-  "unique_observable_fingerprints": 25,
+  "unique_observable_fingerprints": 36,
+  "unique_professional_processes": 36,
+  "unique_care_actions": 36,
   "unique_arc6_choice_markers": 36,
   "relationship_profile_total": 17,
   "relationship_missing_layers": [],

@@ -2,7 +2,7 @@
 
 > 状态：`LOCKED`。Character Foundation Gate 已锁定；后续只允许在 Season/Episode Gate 中写入预留的 U/BG 下游绑定。
 
-当前自动内容审计见 `qa/reviews/character-foundation-audit.json`：84 份人物档案、17 份关系档案与 36 个情感状态锚点均已覆盖，状态为 `REVIEWED-PASS`，自动发现项为 0。关系 Foundation 证据已登记于 `qa/relationship-evidence.json`（17 组 × 8 个快照 = 136 个锚点），但最终 scene/dialogue/shot ID 仍需 Season/Episode Gate 回填；U/BG 的下游绑定仍明确保留给后续 Gate。
+当前自动内容审计见 `qa/reviews/character-foundation-audit.json`：84 份人物档案、17 份关系档案与 36 个情感状态锚点均已覆盖，状态为 `REVIEWED-PASS`，自动发现项为 0；36 名 L/A 人物的行为指纹、职业流程和不依赖台词的关心动作均已逐项去重。关系 Foundation 证据已登记于 `qa/relationship-evidence.json`（17 组 × 8 个快照 = 136 个锚点），但最终 scene/dialogue/shot ID 仍需 Season/Episode Gate 回填；U/BG 的下游绑定仍明确保留给后续 Gate。
 
 B 级年龄与生活圈机器审计见 `qa/reviews/recurring-demographic-audit.json`：状态为 `REVIEWED-PASS`，48/48 具备年龄依据、家庭/关系压力、职业阶段、生活圈、首次日常和结局锚点；职业化生产细节审读见 `qa/reviews/recurring-production-quality.json`：48/48 具备独立日常动作、阻力、盲点、选择、代价、关系余波和结局动作；8 个生活圈各抽 2 人的现场样本审读见 `qa/reviews/recurring-sample-review.json`，16/16 通过。
 
@@ -19,6 +19,7 @@ L/A 状态链机器审计见 `qa/reviews/profile-state-chain-audit.json`：状�
 - 七问中的“放弃什么”是安全、名声、收入、店铺、归宿、爱情、家人理解、政治前途、旧信念或回家机会之一，而不是泛泛“受伤”；
 - 十个状态节点都能写出目标、误判、选择、代价、关系变化和下一状态移交；
 - 情绪能由呼吸、视线、面部张力、手部、重心、距离和行动表现；
+- 每名 L/A 人物的行为指纹、职业流程和不依赖台词的关心动作必须独立，不能由同一套生成模板复制；
 - 至少两条非中央关系会改变人物选择，且关系同时保留爱/怨、感激/嫉妒、依赖/抗拒或责任/逃避等混合情感；
 - 不依赖隐藏血统、突然能力、全知信息、廉价和解或主角光环；
 - 现代观众可识别的边界、照护、职业理想、信息失真、迁徙和选择权，必须通过宋代身份与活动转译，不出现现代网络词。
