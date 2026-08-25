@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "status": "REVIEWED-SAMPLE-PASS",
+  "scope": "P2 Season causal ledger sample review",
+  "episode_total": 36,
+  "sample_window": [
+    "S1-E01",
+    "S1-E02",
+    "S1-E03",
+    "S1-E04",
+    "S1-E05",
+    "S1-E06"
+  ],
+  "sample_complete": 6,
+  "draft_scaffold_total": 30,
+  "required_fields_per_episode": [
+    "episode_id",
+    "arc_id",
+    "title",
+    "status",
+    "duration_minutes",
+    "central_question",
+    "opening_state",
+    "city_evidence",
+    "relationship_choice",
+    "profession_action",
+    "clue_seed",
+    "misread",
+    "recheck",
+    "reframe",
+    "irreversible_cost",
+    "episode_choice",
+    "tail_hook",
+    "next_chase",
+    "causal_chain",
+    "continuity_refs",
+    "pov_ids",
+    "activity_ids",
+    "humor_ids"
+  ],
+  "checks": {
+    "episode_rows": true,
+    "sample_rows_complete": true,
+    "sample_causal_chain": true,
+    "sample_references_traceable": true,
+    "adjacent_sample_hooks_distinct": true
+  },
+  "findings": [],
+  "deferred_followup": [
+    "S2-B 将把悬疑翻转、宋代活动与幽默挂到具体集/章。",
+    "S2-C 将把 36 集账本扩展为 648 个 2–3 分钟短章钩子。",
+    "Season Gate 前不绑定最终对白、shot ID、U 唯一身份或 BG 微章 ID。"
+  ]
+}

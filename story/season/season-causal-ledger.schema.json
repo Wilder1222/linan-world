@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Linan Spring Letter Season Causal Ledger",
+  "type": "object",
+  "required": ["schema_version", "status", "scope", "episode_count", "sample_window", "episodes", "next_gate"],
+  "properties": {
+    "schema_version": {"type": "integer", "const": 1},
+    "status": {"type": "string", "enum": ["SAMPLE-DRAFT", "SEASON-DRAFT", "LOCKED"]},
+    "scope": {"type": "string", "const": "P2 Season causal ledger"},
+    "episode_count": {"type": "integer", "const": 36},
+    "sample_window": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 6,
+      "items": {"type": "string", "pattern": "^S1-E[0-9]{2}$"}
+    },
+    "next_gate": {"type": "string", "minLength": 1},
+    "episodes": {
+      "type": "array",
+      "minItems": 36,
+      "maxItems": 36,
+      "items": {
+        "type": "object",
+        "required": [
+          "episode_id", "arc_id", "title", "status", "duration_minutes",
+          "central_question", "opening_state", "city_evidence",
+          "relationship_choice", "profession_action", "clue_seed", "misread",
+          "recheck", "reframe", "irreversible_cost", "episode_choice",
+          "tail_hook", "next_chase", "causal_chain", "continuity_refs",
+          "pov_ids", "activity_ids", "humor_ids"
+        ],
+        "properties": {
+          "episode_id": {"type": "string", "pattern": "^S1-E[0-9]{2}$"},
+          "arc_id": {"type": "string", "pattern": "^ARC-[0-9]{2}$"},
+          "title": {"type": "string", "minLength": 1},
+          "status": {"type": "string", "enum": ["DRAFT-SCAFFOLD", "SAMPLE-DRAFT", "REVIEWED-SAMPLE-PASS", "LOCKED"]},
+          "duration_minutes": {"type": "integer", "minimum": 1},
+          "central_question": {"type": ["string", "null"]},
+          "opening_state": {"type": ["string", "null"]},
+          "city_evidence": {"type": ["object", "null"]},
+          "relationship_choice": {"type": ["object", "null"]},
+          "profession_action": {"type": ["object", "null"]},
+          "clue_seed": {"type": ["object", "null"]},
+          "misread": {"type": ["string", "null"]},
+          "recheck": {"type": ["string", "null"]},
+          "reframe": {"type": ["string", "null"]},
+          "irreversible_cost": {"type": ["string", "null"]},
+          "episode_choice": {"type": ["object", "null"]},
+          "tail_hook": {"type": ["object", "null"]},
+          "next_chase": {"type": ["string", "null"]},
+          "causal_chain": {"type": ["object", "null"]},
+          "continuity_refs": {"type": "array", "items": {"type": "string"}},
+          "pov_ids": {"type": "array", "items": {"type": "string"}},
+          "activity_ids": {"type": "array", "items": {"type": "string"}},
+          "humor_ids": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    }
+  }
+}

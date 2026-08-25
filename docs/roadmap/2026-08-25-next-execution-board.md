@@ -23,6 +23,13 @@
 - `production/assets/` 与 `raw/` 是本地用户资产，不纳入本轮 Gate、提交或完成度统计；视觉资产生产属于 P3 Episode/AIGC。
 - 当前没有需要回写 P0/P1 的阻断项；下一轮重点从“人物基础锁定”转向“36 集 Season 因果可执行化”。
 
+## S2-A 样本结果（2026-08-25）
+
+- `story/season/season-causal-ledger.json` 已生成 36/36 集记录；E01–E06 为 `SAMPLE-DRAFT`，E07–E36 明确保持 `DRAFT-SCAFFOLD`。
+- E01–E06 已逐集补齐“播种 → 误读 → 复核 → 重义 → 不可逆代价 → 选择 → 尾钩 → 下一追问”，并回指城市证据、地点、人物、关系和职业能力。
+- `scripts/audit_season_causal_ledger.py` 已通过：结构完整、样本引用可追溯、相邻样本尾钩类型不重复；审阅报告为 `REVIEWED-SAMPLE-PASS`。
+- Season Gate 仍保持 `OPEN`。本样本只证明因果账本格式与第一篇局部链条可执行，不代表 E07–E36、活动矩阵、幽默矩阵或 648 短章已完成。
+
 ## 执行顺序
 
 ### S2-01｜36 集因果账本（第一优先级）

@@ -1,0 +1,1361 @@
+{
+  "schema_version": 1,
+  "status": "SAMPLE-DRAFT",
+  "scope": "P2 Season causal ledger",
+  "episode_count": 36,
+  "sample_window": [
+    "S1-E01",
+    "S1-E02",
+    "S1-E03",
+    "S1-E04",
+    "S1-E05",
+    "S1-E06"
+  ],
+  "episodes": [
+    {
+      "episode_id": "S1-E01",
+      "arc_id": "ARC-01",
+      "title": "香灰见字",
+      "status": "SAMPLE-DRAFT",
+      "duration_minutes": 45,
+      "central_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？",
+      "opening_state": "惊蛰雷雨后鹤鸣巷重新开市；沈蘅清理父亲旧香匣，陆清和要求把香丸毁掉。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-001"
+        ],
+        "observation_ids": [],
+        "object_ids": [
+          "OBJ-001"
+        ],
+        "clue_ids": [
+          "CLU-001"
+        ],
+        "location_ids": [
+          "LOC-001",
+          "LOC-002",
+          "LOC-009"
+        ],
+        "description": "香丸灰中的新黏合物、矿粉与刀痕和十三年前不相容；沈蘅切样留灰并标记未核。",
+        "canon_refs": [
+          "canon/00-id-and-terms-registry.md",
+          "canon/03-spring-letter-system.md",
+          "canon/institutions/05-y0-crisis-causal-chain.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-005",
+          "REL-001"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L2-01",
+          "CHR-L1-05"
+        ],
+        "choice": "沈蘅违背陆清和保留香丸；顾行舟只提供消息，不替她决定是否调查。",
+        "delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "evidence_ids": [
+          "REL-005-EV-01",
+          "REL-001-EV-01"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L1-01",
+        "action": "先切样留灰，再问来源和时刻，最后落笔标证据等级。",
+        "capability_ref": "characters/central/chr-l1-01-shen-heng.md"
+      },
+      "clue_seed": {
+        "kind": "物证",
+        "description": "旧匣铜扣内侧与香丸黏合处留下近半年才会出现的胶痕。",
+        "source_ids": [
+          "OBJ-001",
+          "CLU-001"
+        ]
+      },
+      "misread": "街坊把香丸当成亡父预言；陆清和把沈蘅的留证理解为重新把沈怀川带回家；沈蘅则把问题缩成‘证明父亲没有预言’。",
+      "recheck": "林阿沅记录熟客饭量与赊账变化，顾行舟在停云酒肆记录北来客说白芷涨价；两条生活与客路信息尚不足以升级，只能并列为疑报。",
+      "reframe": "香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。",
+      "irreversible_cost": "沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。",
+      "episode_choice": {
+        "actor": "CHR-L1-01",
+        "action": "保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。",
+        "cost": "母女裂缝成立，调查从家事变成公共责任。",
+        "state_change": "从家族遗物争执进入当代疑报核验。"
+      },
+      "tail_hook": {
+        "type": "物证",
+        "text": "修匣黏合物来自近半年，说明有人刚把香丸放进旧匣，而且知道沈蘅会发现。"
+      },
+      "next_chase": "追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。",
+      "causal_chain": {
+        "seed": "香丸灰与刀痕出现，普通解释仍成立。",
+        "misread": "亡父预言与女儿翻案欲望遮住当代线索。",
+        "recheck": "生活饭量与北客药价提供异质但未合并的信道。",
+        "reframe": "新黏合物证明消息是近期投递；下一集追货路而非追鬼神。"
+      },
+      "continuity_refs": [
+        "Y0-OPEN",
+        "OBJ-001",
+        "CLU-001",
+        "REL-005-EV-01"
+      ],
+      "pov_ids": [
+        "CHR-L1-01",
+        "CHR-L2-01",
+        "CHR-L2-02",
+        "CHR-L1-05"
+      ],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E02",
+      "arc_id": "ARC-01",
+      "title": "香箱藏粮",
+      "status": "SAMPLE-DRAFT",
+      "duration_minutes": 45,
+      "central_question": "香箱为何夹带陈粮与压舱石，谁在借合法货路隐藏仓储转移？",
+      "opening_state": "沈蘅带着上一集的未核记录验一批低价香箱；吴巧娘等待发工钱，陆清和准备按退货处理。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-002",
+          "EVT-Y0-003"
+        ],
+        "observation_ids": [],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-002",
+          "LOC-013",
+          "LOC-014"
+        ],
+        "description": "箱底粮尘、压舱石、货签和仓秤不能同时解释为香材运输；问题货路进入汇川行外围仓。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/05-government-economy-and-daily-life.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-005"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L2-01",
+          "CHR-B-001"
+        ],
+        "choice": "沈蘅公开自家货路与客户名单，让吴巧娘和工坊先知道会失去什么。",
+        "delta": "陆清和不再只阻止女儿，而把账本推给她；母女从‘听不听话’转为‘谁承担决定’。",
+        "evidence_ids": [
+          "REL-005-EV-02"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L1-01",
+        "action": "按香材气味、灰尘颗粒与箱底压痕区分香材运输和粮食转运，再用货签追路线。",
+        "capability_ref": "characters/central/chr-l1-01-shen-heng.md"
+      },
+      "clue_seed": {
+        "kind": "供应异常",
+        "description": "低价香箱的成本无法覆盖正常香材，却刚好能掩护一批陈粮穿过查验。",
+        "source_ids": [
+          "EVT-Y0-002",
+          "EVT-Y0-003"
+        ]
+      },
+      "misread": "沈蘅先把问题看成私商盗粮；陆清和认为退货即可止损；工人只看见一纸决定会让今日工钱消失。",
+      "recheck": "吴巧娘核对香箱批次与工钱，沈蘅将箱底粮尘和仓场入库记录并置，发现部分调粮有正式授权，但授权缝隙被用来伪装陈粮。",
+      "reframe": "不是单个商人偷粮，而是集中储备与转运授权被用于隐藏新陈粮差、挪动风险和延后公开。",
+      "irreversible_cost": "沈家失去全年最大货契；吴巧娘的工坊短期停工，陆清和必须重新承担家业与公共选择的双重账单。",
+      "episode_choice": {
+        "actor": "CHR-L1-01",
+        "action": "公开货路、客户名单与异常箱号，允许官署和工坊同时复核。",
+        "cost": "沈家信誉与收入立即受损，问题从私下退货升级为公信案。",
+        "state_change": "香信与仓储证据第一次相互指向。"
+      },
+      "tail_hook": {
+        "type": "制度反应",
+        "text": "问题货签指向汇川行外围仓，签押却显示它曾合法通过查验；下一步必须查授权，而不是只抓搬货的人。"
+      },
+      "next_chase": "沿外围仓签押追查谁同时接触仓账、香箱与春台流言渠道。",
+      "causal_chain": {
+        "seed": "香箱底部出现粮尘和压舱石。",
+        "misread": "把异常缩成私盗与退货。",
+        "recheck": "工坊工钱、仓秤和签押共同证明授权缝隙。",
+        "reframe": "合法转运被用来伪装陈粮，下一集要追信息如何被人传播。"
+      },
+      "continuity_refs": [
+        "ARC1-END",
+        "EVT-Y0-002",
+        "EVT-Y0-003",
+        "REL-005-EV-02"
+      ],
+      "pov_ids": [
+        "CHR-L1-01",
+        "CHR-L2-01",
+        "CHR-B-001",
+        "CHR-A1-03"
+      ],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E03",
+      "arc_id": "ARC-01",
+      "title": "一曲两传",
+      "status": "SAMPLE-DRAFT",
+      "duration_minutes": 45,
+      "central_question": "两场互不相干的宴席为何重复同一句‘春粮将绝’，谁在设计流言的节奏？",
+      "opening_state": "春台瓦舍靠宴席与贵客维持生计；柳十四发现两处曲词的停顿、措辞和赏钱暗示几乎一致。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-004"
+        ],
+        "observation_ids": [],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-005",
+          "LOC-006",
+          "LOC-009"
+        ],
+        "description": "同一句话从不同宴席与不同客路重复出现，且传唱时刻紧贴抢购预期。",
+        "canon_refs": [
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "canon/03-spring-letter-system.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-003",
+          "REL-002"
+        ],
+        "character_ids": [
+          "CHR-L1-02",
+          "CHR-L1-01",
+          "CHR-A1-04"
+        ],
+        "choice": "柳十四临场改曲，把确定语气改成讽刺提问；沈蘅承认重复句式是证据，不再要求先有纸面证明。",
+        "delta": "柳与沈第一次因证据边界争执，柳失去贵客契约；她与顾念娘的生计关系也被迫重谈。",
+        "evidence_ids": [
+          "REL-003-EV-02",
+          "REL-002-EV-02"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L1-02",
+        "action": "记下两场宴席的停顿、赏钱、点曲顺序，并在台上改变句尾，使流言不能按原节奏复制。",
+        "capability_ref": "characters/central/chr-l1-02-liu-shisi-liu-wangshu.md"
+      },
+      "clue_seed": {
+        "kind": "传播异常",
+        "description": "流言的句式、停顿和出现时段过于一致，超出普通口耳相传的自然误差。",
+        "source_ids": [
+          "EVT-Y0-004"
+        ]
+      },
+      "misread": "沈蘅把曲词当成受赏钱和观众情绪影响的软证据；顾念娘把改曲看成砸掉春台生计；柳十四则怀疑所有重复都可能是操控。",
+      "recheck": "另一处瓦舍后台有人拿着未公开的改词版本来核对；柳把客席、曲目和传话路径交给沈蘅，确认流言被不同渠道同步投放。",
+      "reframe": "流言不是自然恐慌的回声，而是有人把市场预期写进不同场合的表演；传播本身成为城市证据。",
+      "irreversible_cost": "柳十四失去大贵客契约，春台的生计压力转化为顾念娘对她行为边界的真实冲突。",
+      "episode_choice": {
+        "actor": "CHR-L1-02",
+        "action": "用柳望舒的现场改曲阻断定向传播，却不公开指认幕后者。",
+        "cost": "她保住了听众的判断空间，却失去当晚最重要的契约与‘只要唱好就能安全’的假象。",
+        "state_change": "春信从物证扩展到传播行为。"
+      },
+      "tail_hook": {
+        "type": "越界",
+        "text": "陌生人进入后台，准确问她为何不照原词唱，并复述了只有后台才听过的改词尾句。"
+      },
+      "next_chase": "追查谁能同时接触宴席曲单、后台改词和仓区地图，判断传播链是否与空间操作相连。",
+      "causal_chain": {
+        "seed": "两个宴席重复同句流言。",
+        "misread": "把曲词当成不能核验的情绪噪声。",
+        "recheck": "后台来人暴露传播者能接触未公开版本。",
+        "reframe": "人为传播成为证据，下一集从话语转向地图与空间。"
+      },
+      "continuity_refs": [
+        "ARC1-END",
+        "EVT-Y0-004",
+        "REL-003-EV-02",
+        "REL-002-EV-02"
+      ],
+      "pov_ids": [
+        "CHR-L1-02",
+        "CHR-A1-04",
+        "CHR-L1-01"
+      ],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E04",
+      "arc_id": "ARC-01",
+      "title": "失画之渠",
+      "status": "SAMPLE-DRAFT",
+      "duration_minutes": 45,
+      "central_question": "谁让一条真实存在的支渠从官图上消失，合法签押为何反而增加了危险？",
+      "opening_state": "周砚之替书坊抄仓区图；旧图、新图与实地步量互相冲突，他先怀疑自己量错。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-005"
+        ],
+        "observation_ids": [
+          "OBS-W-003",
+          "OBS-W-004"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-008",
+          "LOC-013",
+          "LOC-014",
+          "LOC-015"
+        ],
+        "description": "实地支渠仍有水痕与泥线，官图却以合法签押删去；排水工程与仓区利益发生重叠。",
+        "canon_refs": [
+          "canon/city/02-waterways-drainage-and-floodworks.md",
+          "canon/institutions/05-y0-crisis-causal-chain.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-002",
+          "REL-011"
+        ],
+        "character_ids": [
+          "CHR-L1-03",
+          "CHR-L1-02",
+          "CHR-A2-07"
+        ],
+        "choice": "周砚之交出尚未完成的测绘，让柳十四和方书娘在署名前共同复核；柳接受图纸证据但要求周说明谁被地图排除。",
+        "delta": "周第一次让作品被别人改，柳与周的吸引从‘被看见’转为‘是否允许被解释’。",
+        "evidence_ids": [
+          "REL-002-EV-03",
+          "REL-011-EV-02"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L1-03",
+        "action": "重复量步、对桥闸刻痕和泥线，按比例把旧图、新图和实地路径叠在一起。",
+        "capability_ref": "characters/central/chr-l1-03-zhou-yanzhi.md"
+      },
+      "clue_seed": {
+        "kind": "空间异常",
+        "description": "支渠消失不是绘图误差，而是一次改变排水方向的合法改图。",
+        "source_ids": [
+          "EVT-Y0-005",
+          "OBS-W-003",
+          "OBS-W-004"
+        ]
+      },
+      "misread": "周砚之先把冲突归咎于自己的比例错误；程野老提醒他，地图不是证据本身，不能用聪明替代复核。",
+      "recheck": "季素娘和吕篾生从工匠现场指出渠壁新旧接缝，桥闸值守记录又显示有人最近改过开闸时刻。",
+      "reframe": "合法手续被用于让真实水路从公共视野消失；问题不只是有人改图，而是改图后谁有权承担低洼区的代价。",
+      "irreversible_cost": "周砚之放弃一次独署机会，作品从个人前程变成共同核验文件；城外仓区的排水风险被正式写入调查。",
+      "episode_choice": {
+        "actor": "CHR-L1-03",
+        "action": "把未完成图交给复核者，并在图上保留自己的错误线和测量不确定处。",
+        "cost": "失去署名与‘一次画对’的职业自尊，换来地图可被他人修正。",
+        "state_change": "传播异常闭合到城市空间异常。"
+      },
+      "tail_hook": {
+        "type": "生活异常",
+        "text": "支渠在图上不存在，实地却有新鲜泥线；泥线一路指向城外仓区，且有人最近动过排水。"
+      },
+      "next_chase": "沿支渠与仓区排水追查实际货运路线，核对地图被删去的部分是否能解释香箱异常。",
+      "causal_chain": {
+        "seed": "三张地图无法重合。",
+        "misread": "画师把问题归因于自己量错。",
+        "recheck": "工匠接缝、泥线与闸门时刻互证。",
+        "reframe": "合法改图隐藏真实水路，下一集必须把空间证据带到船与货。"
+      },
+      "continuity_refs": [
+        "ARC1-END",
+        "EVT-Y0-005",
+        "OBS-W-003",
+        "OBS-W-004",
+        "REL-002-EV-03"
+      ],
+      "pov_ids": [
+        "CHR-L1-03",
+        "CHR-A2-07",
+        "CHR-A3-03",
+        "CHR-L1-02"
+      ],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E05",
+      "arc_id": "ARC-01",
+      "title": "青鹞入巷",
+      "status": "SAMPLE-DRAFT",
+      "duration_minutes": 45,
+      "central_question": "报表上的粮重为何与船吃水和脚夫数量不符，旧名声是否会吞掉新证据？",
+      "opening_state": "裴九娘追一批船货到鹤鸣巷；青鹞吃水过深，阿七认出她后船帮旧人开始嘲讽十三年前的失信传闻。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-006"
+        ],
+        "observation_ids": [
+          "OBS-W-008"
+        ],
+        "object_ids": [],
+        "clue_ids": [],
+        "location_ids": [
+          "LOC-010",
+          "LOC-011",
+          "LOC-012",
+          "LOC-001"
+        ],
+        "description": "船腹吃水、装卸人数、船期与报表重量不相容；货签和水路记录第一次可以互相闭合。",
+        "canon_refs": [
+          "canon/city/06-qiantang-docks-and-qingyao-routes.md",
+          "canon/institutions/05-y0-crisis-causal-chain.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-004",
+          "REL-001"
+        ],
+        "character_ids": [
+          "CHR-L1-04",
+          "CHR-L1-05",
+          "CHR-L1-01"
+        ],
+        "choice": "裴九娘把水路记录交给沈蘅，拒绝先解释十三年前；顾行舟替她挡开船帮嘲讽时被她制止。",
+        "delta": "裴与顾的旧同袍关系重新出现边界，裴与沈建立以货为先的合作；她选择让证据先说话。",
+        "evidence_ids": [
+          "REL-004-EV-03",
+          "REL-001-EV-03"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L1-04",
+        "action": "按潮时、船腹吃水、脚夫数量和泊位等待反推实际载重，并把异常货签与水路记录交叉。",
+        "capability_ref": "characters/central/chr-l1-04-pei-jiuniang.md"
+      },
+      "clue_seed": {
+        "kind": "水运异常",
+        "description": "同一批货在报表、船腹和装卸身体记忆中出现三个重量。",
+        "source_ids": [
+          "EVT-Y0-006",
+          "OBS-W-008"
+        ]
+      },
+      "misread": "船帮旧人把异常归咎于裴九娘当年失信；顾行舟把冲突当成需要替她挡下的危险；裴拒绝让旧案抢走当前货物的核验。",
+      "recheck": "孟小川记录脚夫换班和搬运节奏，裴把潮向与香箱货签对齐，发现路线和箱底粮尘一致。",
+      "reframe": "水路、重量和香箱不是三件孤立异常，而是同一批物资通过不同系统留下的可复核痕迹；裴的旧名声不能替代新证据。",
+      "irreversible_cost": "裴九娘重新承担十三年前旧案被翻出的名声代价；她和船帮的商业关系恶化，青鹞也被列入后续查验名单。",
+      "episode_choice": {
+        "actor": "CHR-L1-04",
+        "action": "先交水路记录，再决定何时谈旧案；阻止顾行舟替她把争执变成保护。",
+        "cost": "她放弃最快洗清自己的机会，选择让当前证据承担被质疑的风险。",
+        "state_change": "空间异常与货运异常闭合，五信雏形出现。"
+      },
+      "tail_hook": {
+        "type": "责任翻转",
+        "text": "水路记录与香箱货签第一次闭合；旧案中的‘失信者’反而成为能把两条异常接上的人。"
+      },
+      "next_chase": "把香、曲、图、水四条记录放到同一张桌上，确认是否还有一条独立信道能支持升级。",
+      "causal_chain": {
+        "seed": "船吃水与报表重量不符。",
+        "misread": "旧名声把当前证据归为裴九娘个人问题。",
+        "recheck": "脚夫身体记忆、潮时和香箱货签共同复核。",
+        "reframe": "水信与香信闭合，下一集必须处理五条信道如何命名而不误报。"
+      },
+      "continuity_refs": [
+        "ARC1-END",
+        "EVT-Y0-006",
+        "OBS-W-008",
+        "REL-004-EV-03"
+      ],
+      "pov_ids": [
+        "CHR-L1-04",
+        "CHR-L1-05",
+        "CHR-B-019",
+        "CHR-L1-01"
+      ],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E06",
+      "arc_id": "ARC-01",
+      "title": "五信初合",
+      "status": "SAMPLE-DRAFT",
+      "duration_minutes": 45,
+      "central_question": "五条职业信道是否足以命名‘无春’，谁有权决定何时从疑报升级？",
+      "opening_state": "周伯安被找到；陆清和当面追问香丸来源，五条来自香、曲、图、水、客的异常开始被放在同一张桌上。",
+      "city_evidence": {
+        "event_ids": [
+          "EVT-Y0-001",
+          "EVT-Y0-003",
+          "EVT-Y0-004",
+          "EVT-Y0-005",
+          "EVT-Y0-006"
+        ],
+        "observation_ids": [
+          "OBS-W-003",
+          "OBS-W-008"
+        ],
+        "object_ids": [
+          "OBJ-001"
+        ],
+        "clue_ids": [
+          "CLU-001"
+        ],
+        "location_ids": [
+          "LOC-002",
+          "LOC-006",
+          "LOC-008",
+          "LOC-011",
+          "LOC-013"
+        ],
+        "description": "五条不同职业路径指向相互关联的粮、药、传播、空间与水运异常，但反向核验与渠道阻断仍未完成。",
+        "canon_refs": [
+          "canon/03-spring-letter-system.md",
+          "canon/institutions/05-y0-crisis-causal-chain.md",
+          "story/01-causal-mystery-and-pacing-revision-v2.md"
+        ]
+      },
+      "relationship_choice": {
+        "relation_ids": [
+          "REL-G01",
+          "REL-005",
+          "REL-001"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L1-02",
+          "CHR-L1-03",
+          "CHR-L1-04",
+          "CHR-L1-05",
+          "CHR-L2-01"
+        ],
+        "choice": "沈蘅拒绝使用‘无春’，逐条标来源、未知与反例；周伯安承认自己违背旧承诺把新香丸交给她。",
+        "delta": "五信协作从共同兴奋转为对命名权的争执；母女与爱情边界都要求沈蘅慢一点、说明依据。",
+        "evidence_ids": [
+          "REL-G01-EV-01",
+          "REL-005-EV-03",
+          "REL-001-EV-04"
+        ]
+      },
+      "profession_action": {
+        "character_id": "CHR-L1-01",
+        "action": "把五条信道按来源、时间、已知事实、推断和待复核项分栏，只落‘疑报’。",
+        "capability_ref": "characters/central/chr-l1-01-shen-heng.md"
+      },
+      "clue_seed": {
+        "kind": "合报门槛",
+        "description": "周伯安的投递承认解释了香丸如何进入旧匣，却没有解释五条异常为何在当代彼此放大。",
+        "source_ids": [
+          "OBJ-001",
+          "CLU-001",
+          "EVT-Y0-001",
+          "EVT-Y0-003",
+          "EVT-Y0-004",
+          "EVT-Y0-005",
+          "EVT-Y0-006"
+        ]
+      },
+      "misread": "五人都以为把五条信放在一起就能直接命名最高预警；周伯安担心再一次过早定性，柳十四担心等同于让流言先赢。",
+      "recheck": "沈蘅要求逐条补来源、时刻和反例；裴与周指出尚无横向阻断证据，顾行舟补充北方战事与商旅迟滞只能作为客信，不能替代粮水实测。",
+      "reframe": "五信初合证明的是‘需要继续核验的系统性疑报’，不是天意或最终结论；真正的升级还必须经过一次反向核验并说明谁能纠正。",
+      "irreversible_cost": "沈蘅失去快速命名带来的权威与团队一致感；宋惟敬注意到民间汇总，集中调度与横向核验的制度冲突提前进入主线。",
+      "episode_choice": {
+        "actor": "CHR-L1-01",
+        "action": "只写‘疑报’并逐条标来源，不写‘无春’。",
+        "cost": "她接受被认为迟疑、软弱甚至拖延的风险，把解释权交给未来的复核者。",
+        "state_change": "第一篇从单点物证进入季级制度与信息权冲突。"
+      },
+      "tail_hook": {
+        "type": "制度反应",
+        "text": "宋惟敬收到同类汇总，第一次正面关注民间重新汇总异常；下一篇的追问变成‘集中调度是否真的更快且能被纠正’。"
+      },
+      "next_chase": "跟踪宋惟敬如何使用独立数据调度局部粮荒，并验证集中判断是否会改变或截断民间信道。",
+      "causal_chain": {
+        "seed": "五条职业信道首次同桌。",
+        "misread": "把数量堆叠误当成最高预警资格。",
+        "recheck": "来源、时刻、反例和反向核验门槛被补齐。",
+        "reframe": "‘疑报’成为可追踪公共记录；宋惟敬的制度回应开启第二篇。"
+      },
+      "continuity_refs": [
+        "ARC1-END",
+        "OBJ-001",
+        "CLU-001",
+        "REL-G01-EV-01",
+        "EVT-Y0-001",
+        "EVT-Y0-003",
+        "EVT-Y0-004",
+        "EVT-Y0-005",
+        "EVT-Y0-006"
+      ],
+      "pov_ids": [
+        "CHR-L1-01",
+        "CHR-A1-02",
+        "CHR-L1-02",
+        "CHR-L1-03",
+        "CHR-L1-04",
+        "CHR-L1-05"
+      ],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E07",
+      "arc_id": "ARC-02",
+      "title": "春台夜雨",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E08",
+      "arc_id": "ARC-02",
+      "title": "西湖失画",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E09",
+      "arc_id": "ARC-02",
+      "title": "白芷先缺",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E10",
+      "arc_id": "ARC-02",
+      "title": "半卷旧案",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E11",
+      "arc_id": "ARC-02",
+      "title": "一城之脑",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E12",
+      "arc_id": "ARC-02",
+      "title": "雨夜旧信",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E13",
+      "arc_id": "ARC-03",
+      "title": "钱塘错潮",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E14",
+      "arc_id": "ARC-03",
+      "title": "三仓无账",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E15",
+      "arc_id": "ARC-03",
+      "title": "苦井",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E16",
+      "arc_id": "ARC-03",
+      "title": "青鹞沉信",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E17",
+      "arc_id": "ARC-03",
+      "title": "空船满仓",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E18",
+      "arc_id": "ARC-03",
+      "title": "合报",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E19",
+      "arc_id": "ARC-04",
+      "title": "桂子初开",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E20",
+      "arc_id": "ARC-04",
+      "title": "北客",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E21",
+      "arc_id": "ARC-04",
+      "title": "画院帖",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E22",
+      "arc_id": "ARC-04",
+      "title": "本名新曲",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E23",
+      "arc_id": "ARC-04",
+      "title": "香匣旧稿",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E24",
+      "arc_id": "ARC-04",
+      "title": "桂夜别席",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E25",
+      "arc_id": "ARC-05",
+      "title": "冬疫初闻",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E26",
+      "arc_id": "ARC-05",
+      "title": "封水",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E27",
+      "arc_id": "ARC-05",
+      "title": "非常令",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E28",
+      "arc_id": "ARC-05",
+      "title": "粮仓火",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E29",
+      "arc_id": "ARC-05",
+      "title": "闭门",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E30",
+      "arc_id": "ARC-05",
+      "title": "雪夜断信",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E31",
+      "arc_id": "ARC-06",
+      "title": "立春暴雨",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E32",
+      "arc_id": "ARC-06",
+      "title": "第一盏灯",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E33",
+      "arc_id": "ARC-06",
+      "title": "错灯",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E34",
+      "arc_id": "ARC-06",
+      "title": "开城",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E35",
+      "arc_id": "ARC-06",
+      "title": "万家春灯",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    },
+    {
+      "episode_id": "S1-E36",
+      "arc_id": "ARC-06",
+      "title": "今日柳绿",
+      "status": "DRAFT-SCAFFOLD",
+      "duration_minutes": 45,
+      "central_question": null,
+      "opening_state": null,
+      "city_evidence": null,
+      "relationship_choice": null,
+      "profession_action": null,
+      "clue_seed": null,
+      "misread": null,
+      "recheck": null,
+      "reframe": null,
+      "irreversible_cost": null,
+      "episode_choice": null,
+      "tail_hook": null,
+      "next_chase": null,
+      "causal_chain": null,
+      "continuity_refs": [],
+      "pov_ids": [],
+      "activity_ids": [],
+      "humor_ids": []
+    }
+  ],
+  "next_gate": "Season Gate 前仅允许补全因果账本，不写正式对白、最终 U 身份或 BG 微章绑定。"
+}
