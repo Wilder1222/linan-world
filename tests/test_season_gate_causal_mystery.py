@@ -24,6 +24,7 @@ class SeasonGateCausalMysteryTests(unittest.TestCase):
         self.assertEqual("REVIEWED-SEASON-PASS", report["status"])
         self.assertTrue(report["checks"]["mystery_phase_traceable"])
         self.assertTrue(report["checks"]["episode_tail_hooks_bound"])
+        self.assertTrue(report["checks"]["chapter_pov_name_identity_consistent"])
         self.assertTrue(any("Season Gate" in item for item in report["deferred_followup"]))
 
 

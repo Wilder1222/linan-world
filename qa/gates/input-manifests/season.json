@@ -2,7 +2,7 @@
   "schema_version": 1,
   "gate": "season",
   "scope": "season",
-  "created_at": "2026-08-25T16:45:17.561568+00:00",
+  "created_at": "2026-08-25T16:53:23.940310+00:00",
   "items": [
     {
       "id": "SEASON-01",
@@ -62,7 +62,7 @@
       "id": "SEASON-10",
       "path": "story/season/short-chapter-hook-map.json",
       "mode": "whole_file",
-      "projection_sha256": "972b451b5d92e7a07e16daf0fc272c6c693b8bf8fe551aabcb40178596db34be"
+      "projection_sha256": "599a0dce84ffc41ea9f18a0f20cdd6f46009c8a9fe8ad7e190ba84b8f2934882"
     },
     {
       "id": "SEASON-11",
@@ -152,7 +152,7 @@
       "id": "SEASON-25",
       "path": "qa/reviews/season-gate-causal-mystery-review.json",
       "mode": "whole_file",
-      "projection_sha256": "2a6ad151b1cbbbe33652c3053691d1f5b1b45d8fee6c9496dff3626de33e8db5"
+      "projection_sha256": "7f3dba84ced692341020b3079ca1201520737534f56456c0d2ebc52e85d6efce"
     },
     {
       "id": "SEASON-26",

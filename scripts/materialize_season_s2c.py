@@ -25,10 +25,29 @@ CHARACTER_BY_NAME = {
     "贺砚奴": "CHR-B-014", "梁茂生": "CHR-B-015", "季素娘": "CHR-B-016", "魏东篱": "CHR-B-017",
     "韩墨儿": "CHR-B-018", "孟小川": "CHR-B-019", "宋铁锚": "CHR-B-020", "徐三水": "CHR-B-021",
     "许九章": "CHR-B-031", "魏开元": "CHR-B-043", "柏青": "CHR-B-044", "贺小檀": "CHR-B-045",
-    # The beatmap uses these as collective/unit POVs; bind them to the established named anchor
-    # whose profession carries the same evidence, while preserving the display name in the hook row.
+    # The beatmap uses these as collective/unit POVs; bind them to the established named anchor.
+    # The generated hook map must still emit the canonical roster name so identity remains
+    # deterministic for character assets, continuity, and Episode Gate review.
     "旧船帮": "CHR-A2-06", "马氏": "CHR-B-014", "俞晚晴": "CHR-B-046",
 }
+
+CHARACTER_NAME_BY_ID = {
+    item["id"]: item["name"]
+    for item in json.loads((ROOT / "qa/character-roster.json").read_text(encoding="utf-8"))["named_characters"]
+}
+
+# Keep the hand-maintained mapping above for collective/unit anchors, but also
+# import every canonical roster name and declared alias so no beatmap POV falls
+# back silently to 沈蘅.
+for _character in json.loads((ROOT / "qa/character-roster.json").read_text(encoding="utf-8"))["named_characters"]:
+    CHARACTER_BY_NAME.setdefault(_character["name"], _character["id"])
+    for _alias in _character.get("aliases", []):
+        CHARACTER_BY_NAME.setdefault(_alias, _character["id"])
+
+
+def canonical_character_name(name: str) -> str:
+    character_id = CHARACTER_BY_NAME.get(name)
+    return CHARACTER_NAME_BY_ID.get(character_id, name)
 
 CAPABILITY_REF_BY_NAME = {
     "沈蘅": "characters/central/chr-l1-01-shen-heng.md",
@@ -180,7 +199,13 @@ def parse_draft_rows() -> list[dict]:
     rows = []
     pattern = re.compile(r"^\|\s*(S1-E\d{2}-M\d{2})\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|\s*(.*?)\s*\|\s*$", re.M)
     for chapter_id, pov_name, function, task in pattern.findall(text):
-        rows.append({"chapter_id": chapter_id, "pov_name": pov_name.strip(), "function": function.strip(), "task": task.strip()})
+        raw_name = pov_name.strip()
+        rows.append({
+            "chapter_id": chapter_id,
+            "pov_name": canonical_character_name(raw_name),
+            "function": function.strip(),
+            "task": task.strip(),
+        })
     if len(rows) != 648:
         raise SystemExit(f"expected 648 beat rows, found {len(rows)}")
     return rows

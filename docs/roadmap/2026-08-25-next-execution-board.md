@@ -10,8 +10,8 @@
 |---|---|---|---|
 | P0 Canon | `LOCKED` | 使用世界、时间、春信机制、城市系统和 36 集配额 | 改写 Canon 事实而不重开 Gate |
 | P1 Character Foundation | `LOCKED` | 使用 84 名具名人物、17 条关系、6 条情感脊柱和 B 级生活细节 | 在人物卡里写入具体母集、微短章或镜头绑定 |
-| P2 Season | `OPEN` | 使用已完成的 36 集因果、悬疑翻转、活动、幽默与 648 短章钩子，准备 Episode Gate | 直接写正式对白、最终 U 身份或 BG 微章绑定 |
-| P3 Episode/AIGC | `OPEN` | 仅在 Season Gate 后制作 E01–E03 试点 | 在 Season Gate 前批量生产成片资产 |
+| P2 Season | `LOCKED` | 使用已锁定的 36 集因果、悬疑翻转、活动、幽默与 648 短章钩子 | 改写季级输入而不重签 Season Gate |
+| P3 Episode/AIGC | `OPEN` | E01–E03 试点；当前执行 P3-02 E01 生产卡脚手架 | 在 Episode Gate 前宣称成片可执行或批量生产 |
 
 ## 审计后确认（2026-08-25）
 
@@ -90,6 +90,18 @@
 - `production/assets/` 与 `raw/` 明确排除在提交和冻结范围之外；最终对白、镜头、U 唯一身份和 BG 绑定仍延期到 Episode Gate。
 - 下一步进入 P3-02：先完成 E01 的逐章生产与九项 Episode Gate QA。
 
+## 生产前身份一致性修正（2026-08-26）
+
+- SG-01 新增 `chapter_pov_name_identity_consistent` 检查，要求 `short-chapter-hook-map.json` 的 `pov_name` 必须与 `qa/character-roster.json` 的 `pov_id` 一一对应。
+- 发现的 24 条集内别名/集体 POV 已在物化脚本层规范化；未手改派生 JSON，Season Gate 与 P3 输入 manifest 已重新生成并锁定新哈希。
+- 这项修正不改变因果、人物能力或关系事实，只关闭了进入 AI 生产前的身份连续性风险。
+
+## P3-02 E01 生产卡脚手架结果（2026-08-26）
+
+- 新增 `scripts/materialize_p3_e01_production.py`、`scripts/audit_p3_e01_production.py` 与 `tests/test_p3_e01_production.py`。
+- `production/episodes/S1-E01/episode-production-cards.json` 已生成 18/18 张确定性生产卡，统一包含四张核心表、Episode Gate 十项 QA 占位及 CineWeave 的 hard/soft/advisory 控制、证据、版权和能力门槛。
+- `qa/reviews/p3-e01-production-scaffold-review.json` 为 `REVIEWED-P3-SCAFFOLD-PASS`；外部 provider 调用为 0，执行保持阻断，最终对白/shot ID/活动与幽默具体场次/U/BG 绑定继续延期。
+
 ## 执行顺序
 
 ### S2-01｜36 集因果账本（第一优先级）
@@ -142,6 +154,8 @@
 - 输入：S2-01 至 S2-06 的正式产物、两份独立审读、严格校验报告。
 - 通过条件：36 集无因果断裂；每集有城市证据、关系选择、职业动作、代价和尾钩；悬疑翻转可回溯；活动和幽默改变剧情/关系；U 可替换、BG 未绑定。
 
+**状态：已完成并锁定。**
+
 ## Season Gate 之后：P3 试点
 
 先只做 E01–E03。每个 2–3 分钟短章必须同时输出：
@@ -155,6 +169,8 @@
 7. 九项 QA（人物、情绪、动作、行为、关系、服化道、镜头、AIGC、故事）。
 
 单项低于 90 分不进入下一集；E01–E03 通过后才扩展 E04–E36。`U` 的唯一身份和 `BG` 的具体微章绑定仍由对应 Season/Episode Gate 写入。
+
+当前 P3-02 先完成确定性生产卡，不把脚手架审阅误记为 Episode Gate 通过。
 
 ## 下一阶段计划（2026-08-26）
 

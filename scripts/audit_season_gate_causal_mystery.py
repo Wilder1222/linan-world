@@ -25,6 +25,10 @@ CHARACTERS = {
     item["id"]
     for item in json.loads((ROOT / "qa/character-roster.json").read_text(encoding="utf-8"))["named_characters"]
 }
+CHARACTER_NAMES_BY_ID = {
+    item["id"]: item["name"]
+    for item in json.loads((ROOT / "qa/character-roster.json").read_text(encoding="utf-8"))["named_characters"]
+}
 RELATIONSHIPS = {
     item["id"]
     for item in json.loads((ROOT / "qa/relationship-slots.json").read_text(encoding="utf-8"))["relationships"]
@@ -243,6 +247,15 @@ def audit_hooks(hooks: dict, episodes: dict[str, dict], hooks_by_episode: dict[s
             continue
         if item.get("pov_id") not in CHARACTERS:
             findings.append(finding("chapter_pov_unknown", chapter_id=chapter_id))
+        expected_pov_name = CHARACTER_NAMES_BY_ID.get(item.get("pov_id"))
+        if expected_pov_name and item.get("pov_name") != expected_pov_name:
+            findings.append(finding(
+                "chapter_pov_name_mismatch",
+                chapter_id=chapter_id,
+                pov_id=item.get("pov_id"),
+                actual=item.get("pov_name"),
+                expected=expected_pov_name,
+            ))
         if item.get("function") not in FUNCTIONS:
             findings.append(finding("chapter_function_unknown", chapter_id=chapter_id))
         if not 120 <= int(item.get("duration_seconds", 0)) <= 180:
@@ -293,6 +306,7 @@ def audit() -> dict:
             "mystery_phase_traceable": mystery_result["phase_traceable"],
             "mystery_reveals_change_state": not any(item["code"] == "mystery_reframe_does_not_change_relationship_or_action" for item in findings),
             "chapter_rows_complete": hook_result["chapter_total"] == 648 and hook_result["chapters_per_episode"],
+            "chapter_pov_name_identity_consistent": not any(item["code"] == "chapter_pov_name_mismatch" for item in findings),
             "chapter_hook_chain_playable": not any(item["code"] == "chapter_missing_playable_fields" for item in findings),
             "adjacent_hook_types_distinct": hook_result["hook_types_adjacent_distinct"],
             "episode_tail_hooks_bound": not any(item["code"].startswith("final_chapter_") or item["code"].startswith("episode_") and "bound" in item["code"] for item in findings),

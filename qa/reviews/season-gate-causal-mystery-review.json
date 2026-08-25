@@ -13,6 +13,7 @@
     "mystery_phase_traceable": true,
     "mystery_reveals_change_state": true,
     "chapter_rows_complete": true,
+    "chapter_pov_name_identity_consistent": true,
     "chapter_hook_chain_playable": true,
     "adjacent_hook_types_distinct": true,
     "episode_tail_hooks_bound": true

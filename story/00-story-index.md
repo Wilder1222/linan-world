@@ -1,6 +1,6 @@
 # 《临安春信》故事内容索引
 
-> 当前状态：Season Gate 已于 2026-08-26 锁定；36 集仍为 P2 `SEASON-DRAFT`，E01–E36 因果账本、18 条悬疑/翻转链、648 个 2–3 分钟短章钩子、关系/活动/幽默输入与 S2-06 U 候选边界均通过机器审阅。最终对白、分镜、U 唯一身份与 BG 微章 ID 仍等待 Episode Gate。
+> 当前状态：Season Gate 已于 2026-08-26 锁定；P3-01 输入冻结通过，P3-02 已生成 E01 的 18 张确定性生产卡并通过脚手架审阅。36 集仍为 P2 `SEASON-DRAFT`，最终对白、分镜、U 唯一身份与 BG 微章 ID 仍等待 Episode Gate。
 
 ## 已纳入
 
@@ -30,6 +30,9 @@
 | `qa/gates/input-manifests/season.json` | Season Gate 可重建输入 manifest | LOCKED-MANIFEST |
 | `qa/gates/scope-definitions/season.json` | Season Gate 冻结输入范围与前置 Gate | LOCKED-SCOPE |
 | `qa/reviews/p3-pilot-input-freeze-review.json` | P3-01 E01–E03、54 章与 v6 角色资产输入冻结审阅 | REVIEWED-P3-INPUT-PASS |
+| `production/episodes/S1-E01/episode-production-cards.json` | P3-02 E01 18 章确定性生产卡：人物状态、情绪动作、关系、连续性与生产控制 | P3-02-SCAFFOLD-DRAFT |
+| `production/episodes/S1-E01/README.md` | E01 生产卡使用边界与下一 Gate | PRODUCTION-SCAFFOLD |
+| `qa/reviews/p3-e01-production-scaffold-review.json` | P3-02 E01 生产卡脚手架字段、身份、边界与 CineWeave 控制审阅 | REVIEWED-P3-SCAFFOLD-PASS |
 | `qa/gates/input-manifests/p3-pilot-e01-e03.json` | P3-01 试点输入哈希与边界 | P3-PILOT-DRAFT |
 | `story/season/u-candidate-selection.schema.json` | U 槽位候选、POV 映射、自然回访与 Gate 边界字段规范 | LOCKED-SCHEMA |
 | `story/season/u-candidate-selection.json` | 22 个 POV 候选、40 个自然回访候选及 120 槽位保留状态 | SEASON-DRAFT |
@@ -68,3 +71,7 @@ S2-06 从 `qa/unit-slots.json` 的 120 个 RESERVED 槽位中选出 22 个 POV �
 ## P3-01 试点输入冻结结论
 
 `qa/reviews/p3-pilot-input-freeze-review.json` 已通过：E01–E03 共 54 个短章与 21 个输入文件可重建，v6 角色资产规范已纳入，用户本地 `production/assets/` 与 `raw/` 未纳入提交；下一步是 E01 逐章生产，不提前写入最终镜头或 U/BG 绑定。
+
+## P3-02 E01 生产卡脚手架结论
+
+`production/episodes/S1-E01/episode-production-cards.json` 已生成 18/18 张卡；每卡包含 Character State、Emotion/Action、Relationship Delta、Continuity Ledger、证据/版权/能力门槛与十项 QA 占位。身份显示名已由 `qa/character-roster.json` 规范化，避免 AI 角色连续性漂移。脚手架审阅为 `REVIEWED-P3-SCAFFOLD-PASS`，但 Episode Gate 仍 `OPEN`，最终对白、shot ID、活动/幽默具体场次与 U/BG 绑定继续延期。

@@ -1,7 +1,7 @@
 # 《临安春信》Season Gate → P3 试点执行计划
 
 > 版本：2026-08-26
-> 当前阶段：P2 `SEASON-DRAFT`，S2-C 与 S2-06 已通过机器审阅；Season Gate 仍为 `OPEN`。
+> 当前阶段：Season Gate `LOCKED`；P3-01 输入冻结通过，P3-02 正在进行 E01 生产卡脚手架与 Episode Gate 准备。
 > 目标：先以两份独立审读锁定 Season Canon，再以 E01–E03 验证逐章剧本、表演、连续性与 AIGC 生产链。
 
 ## 一、已锁定基线
@@ -122,7 +122,9 @@ Season Gate 关闭时锁定的是 **Season Canon 与短章节拍**，不是最�
 
 **当前结果（2026-08-26）**：SG-04 已完成。`qa/gates/season-gate.json`、`qa/gates/input-manifests/season.json` 与 `qa/gates/scope-definitions/season.json` 已由 `scripts/lock_season_gate.py` 重建并校验；27 个季级输入的哈希一致，`qa/production-status.json` 的 `season_gate` 已锁定为 `LOCKED`。5 条 `DEFERRED-UNTIL-EPISODE-GATE` 边界仍被明确保留，Episode Gate 仍为 `OPEN`。
 
-**P3-01 当前结果（2026-08-26）**：`scripts/prepare_p3_pilot_inputs.py` 已冻结 E01–E03 的 54 个短章与 21 个输入文件，报告 `qa/reviews/p3-pilot-input-freeze-review.json` 为 `REVIEWED-P3-INPUT-PASS`；已纳入 v6 角色资产规范，明确排除用户本地 `production/assets/` 与 `raw/`。最终对白、shot ID、U 唯一身份和 BG 绑定继续延期到 Episode Gate。下一步进入 P3-02 E01 逐章生产。
+**P3-01 当前结果（2026-08-26）**：`scripts/prepare_p3_pilot_inputs.py` 已冻结 E01–E03 的 54 个短章与 21 个输入文件，报告 `qa/reviews/p3-pilot-input-freeze-review.json` 为 `REVIEWED-P3-INPUT-PASS`；已纳入 v6 角色资产规范，明确排除用户本地 `production/assets/` 与 `raw/`。最终对白、shot ID、U 唯一身份和 BG 绑定继续延期到 Episode Gate。另发现并修复 648 章 POV 显示名与角色主表不一致的问题：由 `scripts/materialize_season_s2c.py` 统一从 `qa/character-roster.json` 规范化显示名，并重新签发 Season Gate 与 P3 输入哈希。下一步进入 P3-02 E01 逐章生产。
+
+**P3-02 当前结果（2026-08-26）**：新增 `production/episodes/S1-E01/episode-production-cards.json` 与 `scripts/materialize_p3_e01_production.py`，已将 E01 的 18 个微短章编译为确定性生产卡；每卡包含 Character State、Emotion/Action、Relationship Delta、Continuity Ledger、CineWeave 生产控制、证据/版权/能力门槛和十项 Episode Gate QA 占位。`qa/reviews/p3-e01-production-scaffold-review.json` 为 `REVIEWED-P3-SCAFFOLD-PASS`；未调用外部生成服务，最终对白、镜头、活动/幽默具体场次、U/BG 绑定仍保持 `DEFERRED-UNTIL-EPISODE-GATE`。下一步是正式逐章剧本、Blocking/Storyboard 与资产绑定。
 
 ## 四、Season Gate 之后的 P3 E01–E03 试点
 
@@ -153,6 +155,8 @@ E01 先验证：
 - 沈蘅、陆清和、顾行舟、林阿沅的表情和行为语法不漂移；
 - “香匣/香丸/三色记录/防风灯”等道具跨章一致；
 - 第一集的母女冲突、爱情萌芽和市井入口同时推进，不用旁白解释主题。
+
+当前已完成的是生产卡脚手架，不等同于逐句对白或成片；十项 QA 仍为 `PENDING`，须在 Episode Gate 逐章评分。
 
 ### P3-03｜E02、E03 递进试点
 

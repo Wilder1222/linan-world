@@ -3,7 +3,7 @@
   "gate": "p3-pilot-e01-e03",
   "scope": "p3-pilot-e01-e03",
   "status": "P3-PILOT-DRAFT",
-  "created_at": "2026-08-25T16:48:51.695510+00:00",
+  "created_at": "2026-08-25T16:59:44.132699+00:00",
   "pilot_episodes": [
     "S1-E01",
     "S1-E02",
@@ -15,13 +15,13 @@
       "id": "P3-PILOT-01",
       "path": "qa/gates/season-gate.json",
       "mode": "whole_file",
-      "sha256": "d3dccba8a4eeee0e926204c7341c61ce8d90ace9809a2fd71e90c789e8683d30"
+      "sha256": "069398755ebf43102f0107a66554233ad7aeb67868a3abcf4198f10615bdd380"
     },
     {
       "id": "P3-PILOT-02",
       "path": "qa/gates/input-manifests/season.json",
       "mode": "whole_file",
-      "sha256": "52ef3573e95e342bef3a9bdcf6a0783ce3fdc57d88be46944d951f521ae46341"
+      "sha256": "2089d7208fe9d0d7453e1e61cebc262fb04c12adc027f1c0c3ef6488a8f461b0"
     },
     {
       "id": "P3-PILOT-03",
@@ -51,7 +51,7 @@
       "id": "P3-PILOT-07",
       "path": "story/season/short-chapter-hook-map.json",
       "mode": "whole_file",
-      "sha256": "972b451b5d92e7a07e16daf0fc272c6c693b8bf8fe551aabcb40178596db34be"
+      "sha256": "599a0dce84ffc41ea9f18a0f20cdd6f46009c8a9fe8ad7e190ba84b8f2934882"
     },
     {
       "id": "P3-PILOT-08",

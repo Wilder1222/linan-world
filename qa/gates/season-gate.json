@@ -3,7 +3,7 @@
   "gate": "season",
   "scope": "season",
   "status": "LOCKED",
-  "input_manifest_sha256": "52ef3573e95e342bef3a9bdcf6a0783ce3fdc57d88be46944d951f521ae46341",
+  "input_manifest_sha256": "2089d7208fe9d0d7453e1e61cebc262fb04c12adc027f1c0c3ef6488a8f461b0",
   "reviews": [
     "qa/reviews/season-causal-ledger-review.json",
     "qa/reviews/season-s2c-review.json",
@@ -17,6 +17,6 @@
     "qa/reviews/season-gate-exception-ledger.json"
   ],
   "exception_ledger": "qa/reviews/season-gate-exception-ledger.json",
-  "locked_at": "2026-08-25T16:45:17.607889+00:00",
+  "locked_at": "2026-08-25T16:53:23.980860+00:00",
   "deferred_boundary": "DEFERRED-UNTIL-EPISODE-GATE"
 }

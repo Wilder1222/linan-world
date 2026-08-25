@@ -1,0 +1,4852 @@
+{
+  "schema_version": 1,
+  "status": "P3-02-SCAFFOLD-DRAFT",
+  "scope": "P3-02 S1-E01 deterministic microchapter production cards",
+  "episode_id": "S1-E01",
+  "episode_gate_status": "OPEN",
+  "chapter_total": 18,
+  "duration_seconds_target": [
+    120,
+    180
+  ],
+  "source_manifest": [
+    {
+      "path": "qa/character-roster.json",
+      "sha256": "5adcf74687e8754e4ec3a9b77d99ccf74eda085daf9ad7c2484ea8f603f19407"
+    },
+    {
+      "path": "qa/relationship-evidence.json",
+      "sha256": "0c7df12cd90699bcd54475bc134ef4169a5c10ade5cf80a7ab0c75833b2dcd71"
+    },
+    {
+      "path": "story/season/season-causal-ledger.json",
+      "sha256": "fd22f74e96013f9c36c4c35b1ba406367f104f5f151dba2941616d66595fd919"
+    },
+    {
+      "path": "story/season/short-chapter-hook-map.json",
+      "sha256": "599a0dce84ffc41ea9f18a0f20cdd6f46009c8a9fe8ad7e190ba84b8f2934882"
+    },
+    {
+      "path": "story/season/song-life-activity-matrix.json",
+      "sha256": "108730f1f193435f861fe52f38fbde18404684b4edd6ac0e4aa8c96ee9537a84"
+    },
+    {
+      "path": "story/season/humor-register-matrix.json",
+      "sha256": "dd8fef596e76296b5a4649312900a3c04b820111d2a4add1059766b921c376c9"
+    },
+    {
+      "path": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md",
+      "sha256": "1c1bc11dc00abd14ccd3815ca397b044d3dd2328d31cc861a4c1b334f494d49a"
+    },
+    {
+      "path": "production/ai/v6-character-asset-bible/02-expression/expression-asset-standard.md",
+      "sha256": "732bcc70a8a373f3694fde0f028e6dd16d4caba7afeae832bad12cdc846d6450"
+    },
+    {
+      "path": "production/ai/v6-character-asset-bible/03-pose-motion/pose-motion-asset-standard.md",
+      "sha256": "26cb7af58255d4339f4b893396aeaa6f4be48a481f309be36908f9c0dc74fdf5"
+    },
+    {
+      "path": "production/ai/v6-character-asset-bible/04-costume/costume-system-standard.md",
+      "sha256": "1a9f6978876f3f0c2387a4b77a03887dba2fa8bbe8f25e4ba5e115107791ac49"
+    },
+    {
+      "path": "production/ai/v6-character-asset-bible/06-relationship/relationship-state-standard.md",
+      "sha256": "90da9dfd118d55aa6c38987a03ee71dc9d7a98224f937581f26659ff5009b853"
+    },
+    {
+      "path": "production/ai/v6-character-asset-bible/07-continuity/continuity-ledger-standard.md",
+      "sha256": "92a8b26af2d967d0ee0553a6c5267dc23e14ba874e1dd402c5346bb1b4a29df6"
+    },
+    {
+      "path": "production/ai/v6-character-asset-bible/09-production-workflow/linan-standard-sop.md",
+      "sha256": "f268c6e5388d59974017b217189609b6c260a167528ccc9f4052688f34869953"
+    },
+    {
+      "path": "production/ai/v6-character-asset-bible/10-episode-gate/episode-delivery-gate.md",
+      "sha256": "1222b448c918d48bc10e747b6a4eab720148eebbf200fd504ffa6c11471a14fb"
+    }
+  ],
+  "cards": [
+    {
+      "chapter_id": "S1-E01-M01",
+      "episode_id": "S1-E01",
+      "sequence": 1,
+      "duration_seconds": 150,
+      "pov": {
+        "id": "CHR-L1-01",
+        "name": "沈蘅",
+        "canonical_identity_check": "qa/character-roster.json",
+        "profile_ref": "characters/central/chr-l1-01-shen-heng.md",
+        "asset_bible_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md"
+      },
+      "story_card": {
+        "function": "生活入口",
+        "cold_hook": "惊蛰雷雨后鹤鸣巷重新开市；沈蘅清理父亲旧香匣，陆清和要求把香丸毁掉。",
+        "scene_goal": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+        "obstacle": "日常节奏要求先把事情做完，异常只能从一个小动作露出来。",
+        "evidence_or_relationship_action": "惊蛰雷雨后鹤鸣巷重新开市；沈蘅清理父亲旧香匣，陆清和要求把香丸毁掉。",
+        "choice_cost": "暂不下最终结论；本章承担的即时代价是：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。",
+        "tail_hook": {
+          "type": "生活异样",
+          "text": "惊蛰雷雨后鹤鸣巷重新开市；沈蘅清理父亲旧香匣，陆清和要求把香丸毁掉。；下一章必须回应：旧匣铜扣内侧与香丸黏合处留下近半年才会出现的胶痕。"
+        },
+        "next_chase": "旧匣铜扣内侧与香丸黏合处留下近半年才会出现的胶痕。",
+        "state_delta": "沈蘅完成‘生活入口’：知识位置、关系位置或行动权限发生一项改变；本集状态线为：从家族遗物争执进入当代疑报核验。",
+        "dialogue_status": "DEFERRED-UNTIL-EPISODE-GATE",
+        "shot_id_status": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "character_state_sheet": {
+        "entry_state": "调香铺工作状态；先看物，再看手，最后看人；呼吸稳定。",
+        "exit_state": "完成本章后，沈蘅带着‘旧匣铜扣内侧与香丸黏合处留下近半年才会出现的胶痕。’离场；不得提前获得下一章未提供的信息。",
+        "knowledge_before": "仅承接本章 cold_hook 与 Season Gate 已锁定的公开状态。",
+        "knowledge_after": "新增可见事实：惊蛰雷雨后鹤鸣巷重新开市；沈蘅清理父亲旧香匣，陆清和要求把香丸毁掉。；下一步只追问：旧匣铜扣内侧与香丸黏合处留下近半年才会出现的胶痕。。",
+        "appearance_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md",
+        "costume_ref": "production/ai/v6-character-asset-bible/04-costume/costume-system-standard.md",
+        "props_ref": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ]
+      },
+      "emotion_action_sheet": {
+        "primary_emotion": "日常专注",
+        "suppressed_secondary_emotion": "不愿承认异常",
+        "expression_path": "触发后先移开视线落到物件；呼吸变浅；把物件摆正；再以短句回应。",
+        "breath": "平静中慢；核验时短暂停气；情绪越强越压低而不是加快。",
+        "gaze": "物→手→人；需要判断时在记录、证物和对方之间往返。",
+        "hands": "压纸边、摆正器物、闻香前停镊；记录前留空。",
+        "body_weight": "轻微前倾，脚步稳定；面对压力先收窄动作范围。",
+        "behavior_logic": "观察→核验→分类→判断→表达；不以感觉替代证据。",
+        "voice_and_pace": "中低音、中慢速；结论前停半拍；愤怒时更低、更精确。",
+        "scene_specific_action": "惊蛰雷雨后鹤鸣巷重新开市；沈蘅清理父亲旧香匣，陆清和要求把香丸毁掉。",
+        "forbidden_performance": "冷艳面瘫、突然大哭、无证据宣布结论、把亲情冲突演成胜负。"
+      },
+      "relationship_delta_sheet": {
+        "relation_ids": [
+          "REL-005",
+          "REL-001"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L2-01",
+          "CHR-L1-05"
+        ],
+        "episode_choice": "沈蘅违背陆清和保留香丸；顾行舟只提供消息，不替她决定是否调查。",
+        "episode_delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "chapter_boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。",
+        "trust_boundary_debt": "沿用本集关系选择与证据快照；本章只推进一项可观察变化，不清零旧账。",
+        "unresolved_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？"
+      },
+      "continuity_ledger": {
+        "time_window": "S1-E01 / M01; 精确钟点 DEFERRED-UNTIL-EPISODE-GATE",
+        "weather": "惊蛰雷雨后；若正式分场改变天气，必须回写 Episode Gate。",
+        "location_ids": [
+          "LOC-001",
+          "LOC-002",
+          "LOC-009"
+        ],
+        "wardrobe_state": "E01 春季工作状态；服装连续性以 v6 Costume Standard 为硬约束。",
+        "props_and_marks": "沿用 Season Ledger 已锁定物件；不得在本卡凭空新增关键道具。",
+        "information_state": "禁止角色跨越本章 evidence_or_relationship_action 直接知道后续真相。",
+        "handoff": "旧匣铜扣内侧与香丸黏合处留下近半年才会出现的胶痕。"
+      },
+      "episode_bindings": {
+        "activity": {
+          "binding_id": "ACT-BIND-01",
+          "activity_id": "EVT-018",
+          "activity": "修匣与补伞的旧物修复",
+          "relationship_delta": "沈蘅把修补痕迹从家务细节升级为时间证据",
+          "state_transfer": "沈蘅不再把后仓当纯粹家内空间",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        },
+        "humor": {
+          "humor_id": "HUM-物件-01",
+          "speaker": "CHR-L1-01",
+          "humor_type": "物件笑点",
+          "surface_line": "陆清和把第四只碗也摆进来，说‘这只算谁的证据’",
+          "listener_reaction": "笑意只停在手上，母女冲突更清楚",
+          "recovery": "关系边界更具体，尾钩仍落在新胶痕",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        }
+      },
+      "production_control": {
+        "asset_recipe": {
+          "recipe_id": "recipe.linanspringletter.microchapter-production-card",
+          "version": "1.0.0",
+          "mode": "planning-only",
+          "deterministic_inputs": [
+            "S1-E01-M01",
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json",
+            "qa/relationship-evidence.json"
+          ],
+          "task_graph": [
+            "resolve-canonical-character",
+            "compile-story-card",
+            "compile-character-state",
+            "compile-emotion-action",
+            "compile-relationship-delta",
+            "compile-continuity-ledger",
+            "defer-dialogue-shot-and-provider-execution"
+          ],
+          "assembly_policy": "one deterministic card per microchapter; no provider call and no generated contact sheet"
+        },
+        "control_channels": {
+          "hard": [
+            {
+              "channel": "canonical_identity",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "behavior_logic",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "relationship_boundary",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "continuity_knowledge_state",
+              "fallback": {
+                "action": "block"
+              }
+            }
+          ],
+          "soft": [
+            "expression_path",
+            "gesture_intensity",
+            "voice_pace"
+          ],
+          "advisory": [
+            "era_texture",
+            "modern_emotional_entry",
+            "humor_timing"
+          ]
+        },
+        "evidence_bundle": {
+          "bundle_id": "EVID-S1-E01-M01",
+          "items": [
+            {
+              "evidence_id": "REL-005-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：关门后仍把热水留在桌上。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            },
+            {
+              "evidence_id": "REL-001-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：挂灯后把选择权让回。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            }
+          ],
+          "city_sources": [
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json"
+          ]
+        },
+        "license_profile": {
+          "ref": "license://linan-world/project-canon",
+          "status": "PROJECT-CANON-ONLY",
+          "external_identity_rights": "UNRESOLVED-BY-DESIGN",
+          "action": "block_external_execution_until_explicit_asset_rights"
+        },
+        "capability_gate": {
+          "status": "PLANNING-ONLY",
+          "resolved": [
+            "canonical_roster_lookup",
+            "deterministic_card_assembly",
+            "continuity_field_compilation"
+          ],
+          "unresolved_hard_capabilities": [
+            "provider_adapter",
+            "final_dialogue_render",
+            "shot_execution",
+            "verified_output_receipt"
+          ],
+          "action": "block_external_execution"
+        },
+        "provider_calls": 0,
+        "execution_request": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "qa_gate": {
+        "status": "PENDING-EPISODE-GATE",
+        "threshold": 90,
+        "dimensions": {
+          "character_consistency": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "expression_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "action_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "behavior_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "relationship_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "costume_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "prop_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "camera_performance": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "aigc_stability": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "story_logic": {
+            "score": null,
+            "status": "PENDING"
+          }
+        }
+      }
+    },
+    {
+      "chapter_id": "S1-E01-M02",
+      "episode_id": "S1-E01",
+      "sequence": 2,
+      "duration_seconds": 150,
+      "pov": {
+        "id": "CHR-L2-01",
+        "name": "陆清和",
+        "canonical_identity_check": "qa/character-roster.json",
+        "profile_ref": "characters/central/chr-l2-01-lu-qinghe.md",
+        "asset_bible_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md"
+      },
+      "story_card": {
+        "function": "异常进入",
+        "cold_hook": "上一章留下的动作没有结束：沈蘅的记录、物件或关系余波把问题递给陆清和。",
+        "scene_goal": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+        "obstacle": "普通解释仍然成立，角色不能凭感觉宣布结论。",
+        "evidence_or_relationship_action": "旧匣铜扣内侧与香丸黏合处留下近半年才会出现的胶痕。",
+        "choice_cost": "暂不下最终结论；本章承担的即时代价是：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。",
+        "tail_hook": {
+          "type": "物件",
+          "text": "旧匣铜扣内侧与香丸黏合处留下近半年才会出现的胶痕。；下一章必须回应：林阿沅主动介入：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。"
+        },
+        "next_chase": "林阿沅主动介入：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。",
+        "state_delta": "陆清和完成‘异常进入’：知识位置、关系位置或行动权限发生一项改变；本集状态线为：从家族遗物争执进入当代疑报核验。",
+        "dialogue_status": "DEFERRED-UNTIL-EPISODE-GATE",
+        "shot_id_status": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "character_state_sheet": {
+        "entry_state": "香铺掌柜工作状态；一边做事一边听，手上保持生活动作。",
+        "exit_state": "完成本章后，陆清和带着‘林阿沅主动介入：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。’离场；不得提前获得下一章未提供的信息。",
+        "knowledge_before": "仅承接本章 cold_hook 与 Season Gate 已锁定的公开状态。",
+        "knowledge_after": "新增可见事实：旧匣铜扣内侧与香丸黏合处留下近半年才会出现的胶痕。；下一步只追问：林阿沅主动介入：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。。",
+        "appearance_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md",
+        "costume_ref": "production/ai/v6-character-asset-bible/04-costume/costume-system-standard.md",
+        "props_ref": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ]
+      },
+      "emotion_action_sheet": {
+        "primary_emotion": "警觉",
+        "suppressed_secondary_emotion": "维持生活秩序的焦虑",
+        "expression_path": "先继续整理、翻账或拨灯；眼神短暂停在女儿身上；恐惧转为关门、收钱、确认孩子安全。",
+        "breath": "做事时均匀；恐惧时吸气变短但动作更整齐；怒时不提高音量。",
+        "gaze": "先看账、门、炉火和货架，再看人；不在冲突中长时间凝视。",
+        "hands": "锁钱匣、翻账、整理货架、拨灯芯、盖炉、抚平纸角。",
+        "body_weight": "重心贴近柜台与家务路线；争执时不后退，先把物件归位。",
+        "behavior_logic": "生活秩序→家人安全→生计→道德判断→自己的情感。",
+        "voice_and_pace": "低声、短句；真正愤怒时叫全名；爱意用留饭、留灯和留药表达。",
+        "scene_specific_action": "旧匣铜扣内侧与香丸黏合处留下近半年才会出现的胶痕。",
+        "forbidden_performance": "恶母、歇斯底里、只恨亡夫、用哭喊替代生活账单。"
+      },
+      "relationship_delta_sheet": {
+        "relation_ids": [
+          "REL-005",
+          "REL-001"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L2-01",
+          "CHR-L1-05"
+        ],
+        "episode_choice": "沈蘅违背陆清和保留香丸；顾行舟只提供消息，不替她决定是否调查。",
+        "episode_delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "chapter_boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。",
+        "trust_boundary_debt": "沿用本集关系选择与证据快照；本章只推进一项可观察变化，不清零旧账。",
+        "unresolved_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？"
+      },
+      "continuity_ledger": {
+        "time_window": "S1-E01 / M02; 精确钟点 DEFERRED-UNTIL-EPISODE-GATE",
+        "weather": "惊蛰雷雨后；若正式分场改变天气，必须回写 Episode Gate。",
+        "location_ids": [
+          "LOC-001",
+          "LOC-002",
+          "LOC-009"
+        ],
+        "wardrobe_state": "E01 春季工作状态；服装连续性以 v6 Costume Standard 为硬约束。",
+        "props_and_marks": "沿用 Season Ledger 已锁定物件；不得在本卡凭空新增关键道具。",
+        "information_state": "禁止角色跨越本章 evidence_or_relationship_action 直接知道后续真相。",
+        "handoff": "林阿沅主动介入：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。"
+      },
+      "episode_bindings": {
+        "activity": {
+          "binding_id": "ACT-BIND-01",
+          "activity_id": "EVT-018",
+          "activity": "修匣与补伞的旧物修复",
+          "relationship_delta": "沈蘅把修补痕迹从家务细节升级为时间证据",
+          "state_transfer": "沈蘅不再把后仓当纯粹家内空间",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        },
+        "humor": {
+          "humor_id": "HUM-物件-01",
+          "speaker": "CHR-L1-01",
+          "humor_type": "物件笑点",
+          "surface_line": "陆清和把第四只碗也摆进来，说‘这只算谁的证据’",
+          "listener_reaction": "笑意只停在手上，母女冲突更清楚",
+          "recovery": "关系边界更具体，尾钩仍落在新胶痕",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        }
+      },
+      "production_control": {
+        "asset_recipe": {
+          "recipe_id": "recipe.linanspringletter.microchapter-production-card",
+          "version": "1.0.0",
+          "mode": "planning-only",
+          "deterministic_inputs": [
+            "S1-E01-M02",
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json",
+            "qa/relationship-evidence.json"
+          ],
+          "task_graph": [
+            "resolve-canonical-character",
+            "compile-story-card",
+            "compile-character-state",
+            "compile-emotion-action",
+            "compile-relationship-delta",
+            "compile-continuity-ledger",
+            "defer-dialogue-shot-and-provider-execution"
+          ],
+          "assembly_policy": "one deterministic card per microchapter; no provider call and no generated contact sheet"
+        },
+        "control_channels": {
+          "hard": [
+            {
+              "channel": "canonical_identity",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "behavior_logic",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "relationship_boundary",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "continuity_knowledge_state",
+              "fallback": {
+                "action": "block"
+              }
+            }
+          ],
+          "soft": [
+            "expression_path",
+            "gesture_intensity",
+            "voice_pace"
+          ],
+          "advisory": [
+            "era_texture",
+            "modern_emotional_entry",
+            "humor_timing"
+          ]
+        },
+        "evidence_bundle": {
+          "bundle_id": "EVID-S1-E01-M02",
+          "items": [
+            {
+              "evidence_id": "REL-005-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：关门后仍把热水留在桌上。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            },
+            {
+              "evidence_id": "REL-001-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：挂灯后把选择权让回。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            }
+          ],
+          "city_sources": [
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json"
+          ]
+        },
+        "license_profile": {
+          "ref": "license://linan-world/project-canon",
+          "status": "PROJECT-CANON-ONLY",
+          "external_identity_rights": "UNRESOLVED-BY-DESIGN",
+          "action": "block_external_execution_until_explicit_asset_rights"
+        },
+        "capability_gate": {
+          "status": "PLANNING-ONLY",
+          "resolved": [
+            "canonical_roster_lookup",
+            "deterministic_card_assembly",
+            "continuity_field_compilation"
+          ],
+          "unresolved_hard_capabilities": [
+            "provider_adapter",
+            "final_dialogue_render",
+            "shot_execution",
+            "verified_output_receipt"
+          ],
+          "action": "block_external_execution"
+        },
+        "provider_calls": 0,
+        "execution_request": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "qa_gate": {
+        "status": "PENDING-EPISODE-GATE",
+        "threshold": 90,
+        "dimensions": {
+          "character_consistency": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "expression_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "action_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "behavior_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "relationship_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "costume_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "prop_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "camera_performance": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "aigc_stability": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "story_logic": {
+            "score": null,
+            "status": "PENDING"
+          }
+        }
+      }
+    },
+    {
+      "chapter_id": "S1-E01-M03",
+      "episode_id": "S1-E01",
+      "sequence": 3,
+      "duration_seconds": 150,
+      "pov": {
+        "id": "CHR-L2-02",
+        "name": "林阿沅",
+        "canonical_identity_check": "qa/character-roster.json",
+        "profile_ref": "characters/central/chr-l2-02-lin-ayuan.md",
+        "asset_bible_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md"
+      },
+      "story_card": {
+        "function": "跨过门槛",
+        "cold_hook": "上一章留下的动作没有结束：陆清和的记录、物件或关系余波把问题递给林阿沅。",
+        "scene_goal": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+        "obstacle": "介入会让角色失去时间、收入、名声或安全。",
+        "evidence_or_relationship_action": "林阿沅主动介入：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。",
+        "choice_cost": "暂不下最终结论；本章承担的即时代价是：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。",
+        "tail_hook": {
+          "type": "行动门槛",
+          "text": "林阿沅主动介入：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。；下一章必须回应：先切样留灰，再问来源和时刻，最后落笔标证据等级。"
+        },
+        "next_chase": "先切样留灰，再问来源和时刻，最后落笔标证据等级。",
+        "state_delta": "林阿沅完成‘跨过门槛’：知识位置、关系位置或行动权限发生一项改变；本集状态线为：从家族遗物争执进入当代疑报核验。",
+        "dialogue_status": "DEFERRED-UNTIL-EPISODE-GATE",
+        "shot_id_status": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "character_state_sheet": {
+        "entry_state": "馄饨铺忙碌状态；边做事边说，眼睛追踪客人的饭量和来去。",
+        "exit_state": "完成本章后，林阿沅带着‘先切样留灰，再问来源和时刻，最后落笔标证据等级。’离场；不得提前获得下一章未提供的信息。",
+        "knowledge_before": "仅承接本章 cold_hook 与 Season Gate 已锁定的公开状态。",
+        "knowledge_after": "新增可见事实：林阿沅主动介入：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。；下一步只追问：先切样留灰，再问来源和时刻，最后落笔标证据等级。。",
+        "appearance_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md",
+        "costume_ref": "production/ai/v6-character-asset-bible/04-costume/costume-system-standard.md",
+        "props_ref": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ]
+      },
+      "emotion_action_sheet": {
+        "primary_emotion": "好奇",
+        "suppressed_secondary_emotion": "害怕越界",
+        "expression_path": "好奇先前倾；被认真听见后突然安静；羞耻时笑得更大、视线飘开并马上补救。",
+        "breath": "忙时碎而有节奏；说快前会吸一口气；发现错误后先停一下再重说。",
+        "gaze": "追踪手、碗、门口和饭量变化；先看变化再找能确认的人。",
+        "hands": "记在油纸上、添汤、数碗、擦桌、回头确认空位。",
+        "body_weight": "前倾、轻快；要承担责任时脚步会突然稳住。",
+        "behavior_logic": "看到→确认→帮忙→可能说快→学会纠错。",
+        "voice_and_pace": "生活化、快慢不齐；重要事实前会主动放慢。",
+        "scene_specific_action": "林阿沅主动介入：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。",
+        "forbidden_performance": "幼稚化、一直咋呼、凭闲话直接下诊断、用热闹掩盖受伤。"
+      },
+      "relationship_delta_sheet": {
+        "relation_ids": [
+          "REL-005",
+          "REL-001"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L2-01",
+          "CHR-L1-05"
+        ],
+        "episode_choice": "沈蘅违背陆清和保留香丸；顾行舟只提供消息，不替她决定是否调查。",
+        "episode_delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "chapter_boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。",
+        "trust_boundary_debt": "沿用本集关系选择与证据快照；本章只推进一项可观察变化，不清零旧账。",
+        "unresolved_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？"
+      },
+      "continuity_ledger": {
+        "time_window": "S1-E01 / M03; 精确钟点 DEFERRED-UNTIL-EPISODE-GATE",
+        "weather": "惊蛰雷雨后；若正式分场改变天气，必须回写 Episode Gate。",
+        "location_ids": [
+          "LOC-001",
+          "LOC-002",
+          "LOC-009"
+        ],
+        "wardrobe_state": "E01 春季工作状态；服装连续性以 v6 Costume Standard 为硬约束。",
+        "props_and_marks": "沿用 Season Ledger 已锁定物件；不得在本卡凭空新增关键道具。",
+        "information_state": "禁止角色跨越本章 evidence_or_relationship_action 直接知道后续真相。",
+        "handoff": "先切样留灰，再问来源和时刻，最后落笔标证据等级。"
+      },
+      "episode_bindings": {
+        "activity": {
+          "binding_id": "ACT-BIND-01",
+          "activity_id": "EVT-018",
+          "activity": "修匣与补伞的旧物修复",
+          "relationship_delta": "沈蘅把修补痕迹从家务细节升级为时间证据",
+          "state_transfer": "沈蘅不再把后仓当纯粹家内空间",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        },
+        "humor": {
+          "humor_id": "HUM-物件-01",
+          "speaker": "CHR-L1-01",
+          "humor_type": "物件笑点",
+          "surface_line": "陆清和把第四只碗也摆进来，说‘这只算谁的证据’",
+          "listener_reaction": "笑意只停在手上，母女冲突更清楚",
+          "recovery": "关系边界更具体，尾钩仍落在新胶痕",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        }
+      },
+      "production_control": {
+        "asset_recipe": {
+          "recipe_id": "recipe.linanspringletter.microchapter-production-card",
+          "version": "1.0.0",
+          "mode": "planning-only",
+          "deterministic_inputs": [
+            "S1-E01-M03",
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json",
+            "qa/relationship-evidence.json"
+          ],
+          "task_graph": [
+            "resolve-canonical-character",
+            "compile-story-card",
+            "compile-character-state",
+            "compile-emotion-action",
+            "compile-relationship-delta",
+            "compile-continuity-ledger",
+            "defer-dialogue-shot-and-provider-execution"
+          ],
+          "assembly_policy": "one deterministic card per microchapter; no provider call and no generated contact sheet"
+        },
+        "control_channels": {
+          "hard": [
+            {
+              "channel": "canonical_identity",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "behavior_logic",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "relationship_boundary",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "continuity_knowledge_state",
+              "fallback": {
+                "action": "block"
+              }
+            }
+          ],
+          "soft": [
+            "expression_path",
+            "gesture_intensity",
+            "voice_pace"
+          ],
+          "advisory": [
+            "era_texture",
+            "modern_emotional_entry",
+            "humor_timing"
+          ]
+        },
+        "evidence_bundle": {
+          "bundle_id": "EVID-S1-E01-M03",
+          "items": [
+            {
+              "evidence_id": "REL-005-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：关门后仍把热水留在桌上。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            },
+            {
+              "evidence_id": "REL-001-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：挂灯后把选择权让回。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            }
+          ],
+          "city_sources": [
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json"
+          ]
+        },
+        "license_profile": {
+          "ref": "license://linan-world/project-canon",
+          "status": "PROJECT-CANON-ONLY",
+          "external_identity_rights": "UNRESOLVED-BY-DESIGN",
+          "action": "block_external_execution_until_explicit_asset_rights"
+        },
+        "capability_gate": {
+          "status": "PLANNING-ONLY",
+          "resolved": [
+            "canonical_roster_lookup",
+            "deterministic_card_assembly",
+            "continuity_field_compilation"
+          ],
+          "unresolved_hard_capabilities": [
+            "provider_adapter",
+            "final_dialogue_render",
+            "shot_execution",
+            "verified_output_receipt"
+          ],
+          "action": "block_external_execution"
+        },
+        "provider_calls": 0,
+        "execution_request": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "qa_gate": {
+        "status": "PENDING-EPISODE-GATE",
+        "threshold": 90,
+        "dimensions": {
+          "character_consistency": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "expression_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "action_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "behavior_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "relationship_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "costume_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "prop_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "camera_performance": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "aigc_stability": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "story_logic": {
+            "score": null,
+            "status": "PENDING"
+          }
+        }
+      }
+    },
+    {
+      "chapter_id": "S1-E01-M04",
+      "episode_id": "S1-E01",
+      "sequence": 4,
+      "duration_seconds": 150,
+      "pov": {
+        "id": "CHR-L1-05",
+        "name": "顾行舟",
+        "canonical_identity_check": "qa/character-roster.json",
+        "profile_ref": "characters/central/chr-l1-05-gu-xingzhou.md",
+        "asset_bible_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md"
+      },
+      "story_card": {
+        "function": "职业验证",
+        "cold_hook": "上一章留下的动作没有结束：林阿沅的记录、物件或关系余波把问题递给顾行舟。",
+        "scene_goal": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+        "obstacle": "职业工具能确认一部分，却不能替代其他信道。",
+        "evidence_or_relationship_action": "先切样留灰，再问来源和时刻，最后落笔标证据等级。",
+        "choice_cost": "暂不下最终结论；本章承担的即时代价是：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。",
+        "tail_hook": {
+          "type": "证据",
+          "text": "先切样留灰，再问来源和时刻，最后落笔标证据等级。；下一章必须回应：把异常放进日常账单：香丸灰中的新黏合物、矿粉与刀痕和十三年前不相容；沈蘅切样留灰并标记未核。"
+        },
+        "next_chase": "把异常放进日常账单：香丸灰中的新黏合物、矿粉与刀痕和十三年前不相容；沈蘅切样留灰并标记未核。",
+        "state_delta": "顾行舟完成‘职业验证’：知识位置、关系位置或行动权限发生一项改变；本集状态线为：从家族遗物争执进入当代疑报核验。",
+        "dialogue_status": "DEFERRED-UNTIL-EPISODE-GATE",
+        "shot_id_status": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "character_state_sheet": {
+        "entry_state": "酒肆掌柜与路线熟手；站位能看出口，先观察再动作。",
+        "exit_state": "完成本章后，顾行舟带着‘把异常放进日常账单：香丸灰中的新黏合物、矿粉与刀痕和十三年前不相容；沈蘅切样留灰并标记未核。’离场；不得提前获得下一章未提供的信息。",
+        "knowledge_before": "仅承接本章 cold_hook 与 Season Gate 已锁定的公开状态。",
+        "knowledge_after": "新增可见事实：先切样留灰，再问来源和时刻，最后落笔标证据等级。；下一步只追问：把异常放进日常账单：香丸灰中的新黏合物、矿粉与刀痕和十三年前不相容；沈蘅切样留灰并标记未核。。",
+        "appearance_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md",
+        "costume_ref": "production/ai/v6-character-asset-bible/04-costume/costume-system-standard.md",
+        "props_ref": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ]
+      },
+      "emotion_action_sheet": {
+        "primary_emotion": "谨慎确认",
+        "suppressed_secondary_emotion": "对误判的防备",
+        "expression_path": "先确认门、灯、危险物；关心不直接说而是完成安全检查；羞耻转去做具体任务；恐惧可能缩短他人的选择路径。",
+        "breath": "平静慢；警觉时短而低；接近失控时屏息半拍后才伸手。",
+        "gaze": "出口→危险物→对方脚下→对方眼睛；不长时间凝视表达深情。",
+        "hands": "挪刀、挂灯、看门、画路线、扶椅、收杯。",
+        "body_weight": "低重心、离门近；关系冲突时先站开，若失控抓腕属于重大连续性事件。",
+        "behavior_logic": "危险判断→最短生路→信息控制→情感处理；成长为告知风险→让对方决定。",
+        "voice_and_pace": "低、中速、少字；温柔时更慢；不以命令代替请求。",
+        "scene_specific_action": "先切样留灰，再问来源和时刻，最后落笔标证据等级。",
+        "forbidden_performance": "霸总化、全程深情凝视、把保护直接等同控制、未经铺垫抓人。"
+      },
+      "relationship_delta_sheet": {
+        "relation_ids": [
+          "REL-005",
+          "REL-001"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L2-01",
+          "CHR-L1-05"
+        ],
+        "episode_choice": "沈蘅违背陆清和保留香丸；顾行舟只提供消息，不替她决定是否调查。",
+        "episode_delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "chapter_boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。",
+        "trust_boundary_debt": "沿用本集关系选择与证据快照；本章只推进一项可观察变化，不清零旧账。",
+        "unresolved_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？"
+      },
+      "continuity_ledger": {
+        "time_window": "S1-E01 / M04; 精确钟点 DEFERRED-UNTIL-EPISODE-GATE",
+        "weather": "惊蛰雷雨后；若正式分场改变天气，必须回写 Episode Gate。",
+        "location_ids": [
+          "LOC-001",
+          "LOC-002",
+          "LOC-009"
+        ],
+        "wardrobe_state": "E01 春季工作状态；服装连续性以 v6 Costume Standard 为硬约束。",
+        "props_and_marks": "沿用 Season Ledger 已锁定物件；不得在本卡凭空新增关键道具。",
+        "information_state": "禁止角色跨越本章 evidence_or_relationship_action 直接知道后续真相。",
+        "handoff": "把异常放进日常账单：香丸灰中的新黏合物、矿粉与刀痕和十三年前不相容；沈蘅切样留灰并标记未核。"
+      },
+      "episode_bindings": {
+        "activity": {
+          "binding_id": "ACT-BIND-01",
+          "activity_id": "EVT-018",
+          "activity": "修匣与补伞的旧物修复",
+          "relationship_delta": "沈蘅把修补痕迹从家务细节升级为时间证据",
+          "state_transfer": "沈蘅不再把后仓当纯粹家内空间",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        },
+        "humor": {
+          "humor_id": "HUM-物件-01",
+          "speaker": "CHR-L1-01",
+          "humor_type": "物件笑点",
+          "surface_line": "陆清和把第四只碗也摆进来，说‘这只算谁的证据’",
+          "listener_reaction": "笑意只停在手上，母女冲突更清楚",
+          "recovery": "关系边界更具体，尾钩仍落在新胶痕",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        }
+      },
+      "production_control": {
+        "asset_recipe": {
+          "recipe_id": "recipe.linanspringletter.microchapter-production-card",
+          "version": "1.0.0",
+          "mode": "planning-only",
+          "deterministic_inputs": [
+            "S1-E01-M04",
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json",
+            "qa/relationship-evidence.json"
+          ],
+          "task_graph": [
+            "resolve-canonical-character",
+            "compile-story-card",
+            "compile-character-state",
+            "compile-emotion-action",
+            "compile-relationship-delta",
+            "compile-continuity-ledger",
+            "defer-dialogue-shot-and-provider-execution"
+          ],
+          "assembly_policy": "one deterministic card per microchapter; no provider call and no generated contact sheet"
+        },
+        "control_channels": {
+          "hard": [
+            {
+              "channel": "canonical_identity",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "behavior_logic",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "relationship_boundary",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "continuity_knowledge_state",
+              "fallback": {
+                "action": "block"
+              }
+            }
+          ],
+          "soft": [
+            "expression_path",
+            "gesture_intensity",
+            "voice_pace"
+          ],
+          "advisory": [
+            "era_texture",
+            "modern_emotional_entry",
+            "humor_timing"
+          ]
+        },
+        "evidence_bundle": {
+          "bundle_id": "EVID-S1-E01-M04",
+          "items": [
+            {
+              "evidence_id": "REL-005-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：关门后仍把热水留在桌上。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            },
+            {
+              "evidence_id": "REL-001-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：挂灯后把选择权让回。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            }
+          ],
+          "city_sources": [
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json"
+          ]
+        },
+        "license_profile": {
+          "ref": "license://linan-world/project-canon",
+          "status": "PROJECT-CANON-ONLY",
+          "external_identity_rights": "UNRESOLVED-BY-DESIGN",
+          "action": "block_external_execution_until_explicit_asset_rights"
+        },
+        "capability_gate": {
+          "status": "PLANNING-ONLY",
+          "resolved": [
+            "canonical_roster_lookup",
+            "deterministic_card_assembly",
+            "continuity_field_compilation"
+          ],
+          "unresolved_hard_capabilities": [
+            "provider_adapter",
+            "final_dialogue_render",
+            "shot_execution",
+            "verified_output_receipt"
+          ],
+          "action": "block_external_execution"
+        },
+        "provider_calls": 0,
+        "execution_request": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "qa_gate": {
+        "status": "PENDING-EPISODE-GATE",
+        "threshold": 90,
+        "dimensions": {
+          "character_consistency": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "expression_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "action_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "behavior_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "relationship_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "costume_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "prop_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "camera_performance": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "aigc_stability": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "story_logic": {
+            "score": null,
+            "status": "PENDING"
+          }
+        }
+      }
+    },
+    {
+      "chapter_id": "S1-E01-M05",
+      "episode_id": "S1-E01",
+      "sequence": 5,
+      "duration_seconds": 150,
+      "pov": {
+        "id": "CHR-L1-01",
+        "name": "沈蘅",
+        "canonical_identity_check": "qa/character-roster.json",
+        "profile_ref": "characters/central/chr-l1-01-shen-heng.md",
+        "asset_bible_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md"
+      },
+      "story_card": {
+        "function": "生活承载",
+        "cold_hook": "上一章留下的动作没有结束：顾行舟的记录、物件或关系余波把问题递给沈蘅。",
+        "scene_goal": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+        "obstacle": "宏观问题必须落到一个具体人的生活账单。",
+        "evidence_or_relationship_action": "把异常放进日常账单：香丸灰中的新黏合物、矿粉与刀痕和十三年前不相容；沈蘅切样留灰并标记未核。",
+        "choice_cost": "暂不下最终结论；本章承担的即时代价是：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。",
+        "tail_hook": {
+          "type": "交易",
+          "text": "把异常放进日常账单：香丸灰中的新黏合物、矿粉与刀痕和十三年前不相容；沈蘅切样留灰并标记未核。；下一章必须回应：先回答局部问题，再把下一层疑问交给陆清和：林阿沅记录熟客饭量与赊账变化，顾行舟在停云酒肆记录北来客说白芷涨价；两条生活与客路信息尚不足以升级，只能并列为疑报。"
+        },
+        "next_chase": "先回答局部问题，再把下一层疑问交给陆清和：林阿沅记录熟客饭量与赊账变化，顾行舟在停云酒肆记录北来客说白芷涨价；两条生活与客路信息尚不足以升级，只能并列为疑报。",
+        "state_delta": "沈蘅完成‘生活承载’：知识位置、关系位置或行动权限发生一项改变；本集状态线为：从家族遗物争执进入当代疑报核验。",
+        "dialogue_status": "DEFERRED-UNTIL-EPISODE-GATE",
+        "shot_id_status": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "character_state_sheet": {
+        "entry_state": "调香铺工作状态；先看物，再看手，最后看人；呼吸稳定。",
+        "exit_state": "完成本章后，沈蘅带着‘先回答局部问题，再把下一层疑问交给陆清和：林阿沅记录熟客饭量与赊账变化，顾行舟在停云酒肆记录北来客说白芷涨价；两条生活与客路信息尚不足以升级，只能并列为疑报。’离场；不得提前获得下一章未提供的信息。",
+        "knowledge_before": "仅承接本章 cold_hook 与 Season Gate 已锁定的公开状态。",
+        "knowledge_after": "新增可见事实：把异常放进日常账单：香丸灰中的新黏合物、矿粉与刀痕和十三年前不相容；沈蘅切样留灰并标记未核。；下一步只追问：先回答局部问题，再把下一层疑问交给陆清和：林阿沅记录熟客饭量与赊账变化，顾行舟在停云酒肆记录北来客说白芷涨价；两条生活与客路信息尚不足以升级，只能并列为疑报。。",
+        "appearance_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md",
+        "costume_ref": "production/ai/v6-character-asset-bible/04-costume/costume-system-standard.md",
+        "props_ref": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ]
+      },
+      "emotion_action_sheet": {
+        "primary_emotion": "共情",
+        "suppressed_secondary_emotion": "不想把人变成数字",
+        "expression_path": "触发后先移开视线落到物件；呼吸变浅；把物件摆正；再以短句回应。",
+        "breath": "平静中慢；核验时短暂停气；情绪越强越压低而不是加快。",
+        "gaze": "物→手→人；需要判断时在记录、证物和对方之间往返。",
+        "hands": "压纸边、摆正器物、闻香前停镊；记录前留空。",
+        "body_weight": "轻微前倾，脚步稳定；面对压力先收窄动作范围。",
+        "behavior_logic": "观察→核验→分类→判断→表达；不以感觉替代证据。",
+        "voice_and_pace": "中低音、中慢速；结论前停半拍；愤怒时更低、更精确。",
+        "scene_specific_action": "把异常放进日常账单：香丸灰中的新黏合物、矿粉与刀痕和十三年前不相容；沈蘅切样留灰并标记未核。",
+        "forbidden_performance": "冷艳面瘫、突然大哭、无证据宣布结论、把亲情冲突演成胜负。"
+      },
+      "relationship_delta_sheet": {
+        "relation_ids": [
+          "REL-005",
+          "REL-001"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L2-01",
+          "CHR-L1-05"
+        ],
+        "episode_choice": "沈蘅违背陆清和保留香丸；顾行舟只提供消息，不替她决定是否调查。",
+        "episode_delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "chapter_boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。",
+        "trust_boundary_debt": "沿用本集关系选择与证据快照；本章只推进一项可观察变化，不清零旧账。",
+        "unresolved_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？"
+      },
+      "continuity_ledger": {
+        "time_window": "S1-E01 / M05; 精确钟点 DEFERRED-UNTIL-EPISODE-GATE",
+        "weather": "惊蛰雷雨后；若正式分场改变天气，必须回写 Episode Gate。",
+        "location_ids": [
+          "LOC-001",
+          "LOC-002",
+          "LOC-009"
+        ],
+        "wardrobe_state": "E01 春季工作状态；服装连续性以 v6 Costume Standard 为硬约束。",
+        "props_and_marks": "沿用 Season Ledger 已锁定物件；不得在本卡凭空新增关键道具。",
+        "information_state": "禁止角色跨越本章 evidence_or_relationship_action 直接知道后续真相。",
+        "handoff": "先回答局部问题，再把下一层疑问交给陆清和：林阿沅记录熟客饭量与赊账变化，顾行舟在停云酒肆记录北来客说白芷涨价；两条生活与客路信息尚不足以升级，只能并列为疑报。"
+      },
+      "episode_bindings": {
+        "activity": {
+          "binding_id": "ACT-BIND-01",
+          "activity_id": "EVT-018",
+          "activity": "修匣与补伞的旧物修复",
+          "relationship_delta": "沈蘅把修补痕迹从家务细节升级为时间证据",
+          "state_transfer": "沈蘅不再把后仓当纯粹家内空间",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        },
+        "humor": {
+          "humor_id": "HUM-物件-01",
+          "speaker": "CHR-L1-01",
+          "humor_type": "物件笑点",
+          "surface_line": "陆清和把第四只碗也摆进来，说‘这只算谁的证据’",
+          "listener_reaction": "笑意只停在手上，母女冲突更清楚",
+          "recovery": "关系边界更具体，尾钩仍落在新胶痕",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        }
+      },
+      "production_control": {
+        "asset_recipe": {
+          "recipe_id": "recipe.linanspringletter.microchapter-production-card",
+          "version": "1.0.0",
+          "mode": "planning-only",
+          "deterministic_inputs": [
+            "S1-E01-M05",
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json",
+            "qa/relationship-evidence.json"
+          ],
+          "task_graph": [
+            "resolve-canonical-character",
+            "compile-story-card",
+            "compile-character-state",
+            "compile-emotion-action",
+            "compile-relationship-delta",
+            "compile-continuity-ledger",
+            "defer-dialogue-shot-and-provider-execution"
+          ],
+          "assembly_policy": "one deterministic card per microchapter; no provider call and no generated contact sheet"
+        },
+        "control_channels": {
+          "hard": [
+            {
+              "channel": "canonical_identity",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "behavior_logic",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "relationship_boundary",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "continuity_knowledge_state",
+              "fallback": {
+                "action": "block"
+              }
+            }
+          ],
+          "soft": [
+            "expression_path",
+            "gesture_intensity",
+            "voice_pace"
+          ],
+          "advisory": [
+            "era_texture",
+            "modern_emotional_entry",
+            "humor_timing"
+          ]
+        },
+        "evidence_bundle": {
+          "bundle_id": "EVID-S1-E01-M05",
+          "items": [
+            {
+              "evidence_id": "REL-005-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：关门后仍把热水留在桌上。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            },
+            {
+              "evidence_id": "REL-001-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：挂灯后把选择权让回。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            }
+          ],
+          "city_sources": [
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json"
+          ]
+        },
+        "license_profile": {
+          "ref": "license://linan-world/project-canon",
+          "status": "PROJECT-CANON-ONLY",
+          "external_identity_rights": "UNRESOLVED-BY-DESIGN",
+          "action": "block_external_execution_until_explicit_asset_rights"
+        },
+        "capability_gate": {
+          "status": "PLANNING-ONLY",
+          "resolved": [
+            "canonical_roster_lookup",
+            "deterministic_card_assembly",
+            "continuity_field_compilation"
+          ],
+          "unresolved_hard_capabilities": [
+            "provider_adapter",
+            "final_dialogue_render",
+            "shot_execution",
+            "verified_output_receipt"
+          ],
+          "action": "block_external_execution"
+        },
+        "provider_calls": 0,
+        "execution_request": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "qa_gate": {
+        "status": "PENDING-EPISODE-GATE",
+        "threshold": 90,
+        "dimensions": {
+          "character_consistency": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "expression_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "action_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "behavior_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "relationship_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "costume_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "prop_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "camera_performance": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "aigc_stability": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "story_logic": {
+            "score": null,
+            "status": "PENDING"
+          }
+        }
+      }
+    },
+    {
+      "chapter_id": "S1-E01-M06",
+      "episode_id": "S1-E01",
+      "sequence": 6,
+      "duration_seconds": 150,
+      "pov": {
+        "id": "CHR-L2-01",
+        "name": "陆清和",
+        "canonical_identity_check": "qa/character-roster.json",
+        "profile_ref": "characters/central/chr-l2-01-lu-qinghe.md",
+        "asset_bible_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md"
+      },
+      "story_card": {
+        "function": "第一闭环",
+        "cold_hook": "上一章留下的动作没有结束：沈蘅的记录、物件或关系余波把问题递给陆清和。",
+        "scene_goal": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+        "obstacle": "本章只能解决局部问题，答案会把更大问题推近。",
+        "evidence_or_relationship_action": "先回答局部问题，再把下一层疑问交给陆清和：林阿沅记录熟客饭量与赊账变化，顾行舟在停云酒肆记录北来客说白芷涨价；两条生活与客路信息尚不足以升级，只能并列为疑报。",
+        "choice_cost": "暂不下最终结论；本章承担的即时代价是：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。",
+        "tail_hook": {
+          "type": "局部闭环",
+          "text": "先回答局部问题，再把下一层疑问交给陆清和：林阿沅记录熟客饭量与赊账变化，顾行舟在停云酒肆记录北来客说白芷涨价；两条生活与客路信息尚不足以升级，只能并列为疑报。；下一章必须回应：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。"
+        },
+        "next_chase": "沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。",
+        "state_delta": "陆清和完成‘第一闭环’：知识位置、关系位置或行动权限发生一项改变；本集状态线为：从家族遗物争执进入当代疑报核验。",
+        "dialogue_status": "DEFERRED-UNTIL-EPISODE-GATE",
+        "shot_id_status": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "character_state_sheet": {
+        "entry_state": "香铺掌柜工作状态；一边做事一边听，手上保持生活动作。",
+        "exit_state": "完成本章后，陆清和带着‘沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。’离场；不得提前获得下一章未提供的信息。",
+        "knowledge_before": "仅承接本章 cold_hook 与 Season Gate 已锁定的公开状态。",
+        "knowledge_after": "新增可见事实：先回答局部问题，再把下一层疑问交给陆清和：林阿沅记录熟客饭量与赊账变化，顾行舟在停云酒肆记录北来客说白芷涨价；两条生活与客路信息尚不足以升级，只能并列为疑报。；下一步只追问：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。。",
+        "appearance_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md",
+        "costume_ref": "production/ai/v6-character-asset-bible/04-costume/costume-system-standard.md",
+        "props_ref": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ]
+      },
+      "emotion_action_sheet": {
+        "primary_emotion": "暂时松动",
+        "suppressed_secondary_emotion": "更大问题逼近",
+        "expression_path": "先继续整理、翻账或拨灯；眼神短暂停在女儿身上；恐惧转为关门、收钱、确认孩子安全。",
+        "breath": "做事时均匀；恐惧时吸气变短但动作更整齐；怒时不提高音量。",
+        "gaze": "先看账、门、炉火和货架，再看人；不在冲突中长时间凝视。",
+        "hands": "锁钱匣、翻账、整理货架、拨灯芯、盖炉、抚平纸角。",
+        "body_weight": "重心贴近柜台与家务路线；争执时不后退，先把物件归位。",
+        "behavior_logic": "生活秩序→家人安全→生计→道德判断→自己的情感。",
+        "voice_and_pace": "低声、短句；真正愤怒时叫全名；爱意用留饭、留灯和留药表达。",
+        "scene_specific_action": "先回答局部问题，再把下一层疑问交给陆清和：林阿沅记录熟客饭量与赊账变化，顾行舟在停云酒肆记录北来客说白芷涨价；两条生活与客路信息尚不足以升级，只能并列为疑报。",
+        "forbidden_performance": "恶母、歇斯底里、只恨亡夫、用哭喊替代生活账单。"
+      },
+      "relationship_delta_sheet": {
+        "relation_ids": [
+          "REL-005",
+          "REL-001"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L2-01",
+          "CHR-L1-05"
+        ],
+        "episode_choice": "沈蘅违背陆清和保留香丸；顾行舟只提供消息，不替她决定是否调查。",
+        "episode_delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "chapter_boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。",
+        "trust_boundary_debt": "沿用本集关系选择与证据快照；本章只推进一项可观察变化，不清零旧账。",
+        "unresolved_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？"
+      },
+      "continuity_ledger": {
+        "time_window": "S1-E01 / M06; 精确钟点 DEFERRED-UNTIL-EPISODE-GATE",
+        "weather": "惊蛰雷雨后；若正式分场改变天气，必须回写 Episode Gate。",
+        "location_ids": [
+          "LOC-001",
+          "LOC-002",
+          "LOC-009"
+        ],
+        "wardrobe_state": "E01 春季工作状态；服装连续性以 v6 Costume Standard 为硬约束。",
+        "props_and_marks": "沿用 Season Ledger 已锁定物件；不得在本卡凭空新增关键道具。",
+        "information_state": "禁止角色跨越本章 evidence_or_relationship_action 直接知道后续真相。",
+        "handoff": "沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。"
+      },
+      "episode_bindings": {
+        "activity": {
+          "binding_id": "ACT-BIND-01",
+          "activity_id": "EVT-018",
+          "activity": "修匣与补伞的旧物修复",
+          "relationship_delta": "沈蘅把修补痕迹从家务细节升级为时间证据",
+          "state_transfer": "沈蘅不再把后仓当纯粹家内空间",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        },
+        "humor": {
+          "humor_id": "HUM-物件-01",
+          "speaker": "CHR-L1-01",
+          "humor_type": "物件笑点",
+          "surface_line": "陆清和把第四只碗也摆进来，说‘这只算谁的证据’",
+          "listener_reaction": "笑意只停在手上，母女冲突更清楚",
+          "recovery": "关系边界更具体，尾钩仍落在新胶痕",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        }
+      },
+      "production_control": {
+        "asset_recipe": {
+          "recipe_id": "recipe.linanspringletter.microchapter-production-card",
+          "version": "1.0.0",
+          "mode": "planning-only",
+          "deterministic_inputs": [
+            "S1-E01-M06",
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json",
+            "qa/relationship-evidence.json"
+          ],
+          "task_graph": [
+            "resolve-canonical-character",
+            "compile-story-card",
+            "compile-character-state",
+            "compile-emotion-action",
+            "compile-relationship-delta",
+            "compile-continuity-ledger",
+            "defer-dialogue-shot-and-provider-execution"
+          ],
+          "assembly_policy": "one deterministic card per microchapter; no provider call and no generated contact sheet"
+        },
+        "control_channels": {
+          "hard": [
+            {
+              "channel": "canonical_identity",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "behavior_logic",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "relationship_boundary",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "continuity_knowledge_state",
+              "fallback": {
+                "action": "block"
+              }
+            }
+          ],
+          "soft": [
+            "expression_path",
+            "gesture_intensity",
+            "voice_pace"
+          ],
+          "advisory": [
+            "era_texture",
+            "modern_emotional_entry",
+            "humor_timing"
+          ]
+        },
+        "evidence_bundle": {
+          "bundle_id": "EVID-S1-E01-M06",
+          "items": [
+            {
+              "evidence_id": "REL-005-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：关门后仍把热水留在桌上。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            },
+            {
+              "evidence_id": "REL-001-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：挂灯后把选择权让回。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            }
+          ],
+          "city_sources": [
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json"
+          ]
+        },
+        "license_profile": {
+          "ref": "license://linan-world/project-canon",
+          "status": "PROJECT-CANON-ONLY",
+          "external_identity_rights": "UNRESOLVED-BY-DESIGN",
+          "action": "block_external_execution_until_explicit_asset_rights"
+        },
+        "capability_gate": {
+          "status": "PLANNING-ONLY",
+          "resolved": [
+            "canonical_roster_lookup",
+            "deterministic_card_assembly",
+            "continuity_field_compilation"
+          ],
+          "unresolved_hard_capabilities": [
+            "provider_adapter",
+            "final_dialogue_render",
+            "shot_execution",
+            "verified_output_receipt"
+          ],
+          "action": "block_external_execution"
+        },
+        "provider_calls": 0,
+        "execution_request": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "qa_gate": {
+        "status": "PENDING-EPISODE-GATE",
+        "threshold": 90,
+        "dimensions": {
+          "character_consistency": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "expression_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "action_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "behavior_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "relationship_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "costume_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "prop_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "camera_performance": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "aigc_stability": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "story_logic": {
+            "score": null,
+            "status": "PENDING"
+          }
+        }
+      }
+    },
+    {
+      "chapter_id": "S1-E01-M07",
+      "episode_id": "S1-E01",
+      "sequence": 7,
+      "duration_seconds": 150,
+      "pov": {
+        "id": "CHR-L2-02",
+        "name": "林阿沅",
+        "canonical_identity_check": "qa/character-roster.json",
+        "profile_ref": "characters/central/chr-l2-02-lin-ayuan.md",
+        "asset_bible_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md"
+      },
+      "story_card": {
+        "function": "换生活圈",
+        "cold_hook": "上一章留下的动作没有结束：陆清和的记录、物件或关系余波把问题递给林阿沅。",
+        "scene_goal": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+        "obstacle": "另一阶层的观察会改变原解释，而不是重复它。",
+        "evidence_or_relationship_action": "沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。",
+        "choice_cost": "暂不下最终结论；本章承担的即时代价是：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。",
+        "tail_hook": {
+          "type": "换视角",
+          "text": "沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。；下一章必须回应：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。"
+        },
+        "next_chase": "沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。",
+        "state_delta": "林阿沅完成‘换生活圈’：知识位置、关系位置或行动权限发生一项改变；本集状态线为：从家族遗物争执进入当代疑报核验。",
+        "dialogue_status": "DEFERRED-UNTIL-EPISODE-GATE",
+        "shot_id_status": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "character_state_sheet": {
+        "entry_state": "馄饨铺忙碌状态；边做事边说，眼睛追踪客人的饭量和来去。",
+        "exit_state": "完成本章后，林阿沅带着‘沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。’离场；不得提前获得下一章未提供的信息。",
+        "knowledge_before": "仅承接本章 cold_hook 与 Season Gate 已锁定的公开状态。",
+        "knowledge_after": "新增可见事实：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。；下一步只追问：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。。",
+        "appearance_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md",
+        "costume_ref": "production/ai/v6-character-asset-bible/04-costume/costume-system-standard.md",
+        "props_ref": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ]
+      },
+      "emotion_action_sheet": {
+        "primary_emotion": "被看见",
+        "suppressed_secondary_emotion": "阶层差异带来的不安",
+        "expression_path": "好奇先前倾；被认真听见后突然安静；羞耻时笑得更大、视线飘开并马上补救。",
+        "breath": "忙时碎而有节奏；说快前会吸一口气；发现错误后先停一下再重说。",
+        "gaze": "追踪手、碗、门口和饭量变化；先看变化再找能确认的人。",
+        "hands": "记在油纸上、添汤、数碗、擦桌、回头确认空位。",
+        "body_weight": "前倾、轻快；要承担责任时脚步会突然稳住。",
+        "behavior_logic": "看到→确认→帮忙→可能说快→学会纠错。",
+        "voice_and_pace": "生活化、快慢不齐；重要事实前会主动放慢。",
+        "scene_specific_action": "沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。",
+        "forbidden_performance": "幼稚化、一直咋呼、凭闲话直接下诊断、用热闹掩盖受伤。"
+      },
+      "relationship_delta_sheet": {
+        "relation_ids": [
+          "REL-005",
+          "REL-001"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L2-01",
+          "CHR-L1-05"
+        ],
+        "episode_choice": "沈蘅违背陆清和保留香丸；顾行舟只提供消息，不替她决定是否调查。",
+        "episode_delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "chapter_boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。",
+        "trust_boundary_debt": "沿用本集关系选择与证据快照；本章只推进一项可观察变化，不清零旧账。",
+        "unresolved_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？"
+      },
+      "continuity_ledger": {
+        "time_window": "S1-E01 / M07; 精确钟点 DEFERRED-UNTIL-EPISODE-GATE",
+        "weather": "惊蛰雷雨后；若正式分场改变天气，必须回写 Episode Gate。",
+        "location_ids": [
+          "LOC-001",
+          "LOC-002",
+          "LOC-009"
+        ],
+        "wardrobe_state": "E01 春季工作状态；服装连续性以 v6 Costume Standard 为硬约束。",
+        "props_and_marks": "沿用 Season Ledger 已锁定物件；不得在本卡凭空新增关键道具。",
+        "information_state": "禁止角色跨越本章 evidence_or_relationship_action 直接知道后续真相。",
+        "handoff": "沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。"
+      },
+      "episode_bindings": {
+        "activity": {
+          "binding_id": "ACT-BIND-01",
+          "activity_id": "EVT-018",
+          "activity": "修匣与补伞的旧物修复",
+          "relationship_delta": "沈蘅把修补痕迹从家务细节升级为时间证据",
+          "state_transfer": "沈蘅不再把后仓当纯粹家内空间",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        },
+        "humor": {
+          "humor_id": "HUM-物件-01",
+          "speaker": "CHR-L1-01",
+          "humor_type": "物件笑点",
+          "surface_line": "陆清和把第四只碗也摆进来，说‘这只算谁的证据’",
+          "listener_reaction": "笑意只停在手上，母女冲突更清楚",
+          "recovery": "关系边界更具体，尾钩仍落在新胶痕",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        }
+      },
+      "production_control": {
+        "asset_recipe": {
+          "recipe_id": "recipe.linanspringletter.microchapter-production-card",
+          "version": "1.0.0",
+          "mode": "planning-only",
+          "deterministic_inputs": [
+            "S1-E01-M07",
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json",
+            "qa/relationship-evidence.json"
+          ],
+          "task_graph": [
+            "resolve-canonical-character",
+            "compile-story-card",
+            "compile-character-state",
+            "compile-emotion-action",
+            "compile-relationship-delta",
+            "compile-continuity-ledger",
+            "defer-dialogue-shot-and-provider-execution"
+          ],
+          "assembly_policy": "one deterministic card per microchapter; no provider call and no generated contact sheet"
+        },
+        "control_channels": {
+          "hard": [
+            {
+              "channel": "canonical_identity",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "behavior_logic",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "relationship_boundary",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "continuity_knowledge_state",
+              "fallback": {
+                "action": "block"
+              }
+            }
+          ],
+          "soft": [
+            "expression_path",
+            "gesture_intensity",
+            "voice_pace"
+          ],
+          "advisory": [
+            "era_texture",
+            "modern_emotional_entry",
+            "humor_timing"
+          ]
+        },
+        "evidence_bundle": {
+          "bundle_id": "EVID-S1-E01-M07",
+          "items": [
+            {
+              "evidence_id": "REL-005-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：关门后仍把热水留在桌上。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            },
+            {
+              "evidence_id": "REL-001-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：挂灯后把选择权让回。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            }
+          ],
+          "city_sources": [
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json"
+          ]
+        },
+        "license_profile": {
+          "ref": "license://linan-world/project-canon",
+          "status": "PROJECT-CANON-ONLY",
+          "external_identity_rights": "UNRESOLVED-BY-DESIGN",
+          "action": "block_external_execution_until_explicit_asset_rights"
+        },
+        "capability_gate": {
+          "status": "PLANNING-ONLY",
+          "resolved": [
+            "canonical_roster_lookup",
+            "deterministic_card_assembly",
+            "continuity_field_compilation"
+          ],
+          "unresolved_hard_capabilities": [
+            "provider_adapter",
+            "final_dialogue_render",
+            "shot_execution",
+            "verified_output_receipt"
+          ],
+          "action": "block_external_execution"
+        },
+        "provider_calls": 0,
+        "execution_request": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "qa_gate": {
+        "status": "PENDING-EPISODE-GATE",
+        "threshold": 90,
+        "dimensions": {
+          "character_consistency": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "expression_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "action_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "behavior_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "relationship_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "costume_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "prop_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "camera_performance": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "aigc_stability": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "story_logic": {
+            "score": null,
+            "status": "PENDING"
+          }
+        }
+      }
+    },
+    {
+      "chapter_id": "S1-E01-M08",
+      "episode_id": "S1-E01",
+      "sequence": 8,
+      "duration_seconds": 150,
+      "pov": {
+        "id": "CHR-L1-05",
+        "name": "顾行舟",
+        "canonical_identity_check": "qa/character-roster.json",
+        "profile_ref": "characters/central/chr-l1-05-gu-xingzhou.md",
+        "asset_bible_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md"
+      },
+      "story_card": {
+        "function": "关系碰撞",
+        "cold_hook": "上一章留下的动作没有结束：林阿沅的记录、物件或关系余波把问题递给顾行舟。",
+        "scene_goal": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+        "obstacle": "两个人目标相近但方法不同，任何一句话都会留下关系后果。",
+        "evidence_or_relationship_action": "沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。",
+        "choice_cost": "暂不下最终结论；本章承担的即时代价是：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。",
+        "tail_hook": {
+          "type": "关系裂口",
+          "text": "沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。；下一章必须回应：香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。"
+        },
+        "next_chase": "香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。",
+        "state_delta": "顾行舟完成‘关系碰撞’：知识位置、关系位置或行动权限发生一项改变；本集状态线为：从家族遗物争执进入当代疑报核验。",
+        "dialogue_status": "DEFERRED-UNTIL-EPISODE-GATE",
+        "shot_id_status": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "character_state_sheet": {
+        "entry_state": "酒肆掌柜与路线熟手；站位能看出口，先观察再动作。",
+        "exit_state": "完成本章后，顾行舟带着‘香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。’离场；不得提前获得下一章未提供的信息。",
+        "knowledge_before": "仅承接本章 cold_hook 与 Season Gate 已锁定的公开状态。",
+        "knowledge_after": "新增可见事实：沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。；下一步只追问：香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。。",
+        "appearance_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md",
+        "costume_ref": "production/ai/v6-character-asset-bible/04-costume/costume-system-standard.md",
+        "props_ref": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ]
+      },
+      "emotion_action_sheet": {
+        "primary_emotion": "靠近与摩擦",
+        "suppressed_secondary_emotion": "怕失去选择权",
+        "expression_path": "先确认门、灯、危险物；关心不直接说而是完成安全检查；羞耻转去做具体任务；恐惧可能缩短他人的选择路径。",
+        "breath": "平静慢；警觉时短而低；接近失控时屏息半拍后才伸手。",
+        "gaze": "出口→危险物→对方脚下→对方眼睛；不长时间凝视表达深情。",
+        "hands": "挪刀、挂灯、看门、画路线、扶椅、收杯。",
+        "body_weight": "低重心、离门近；关系冲突时先站开，若失控抓腕属于重大连续性事件。",
+        "behavior_logic": "危险判断→最短生路→信息控制→情感处理；成长为告知风险→让对方决定。",
+        "voice_and_pace": "低、中速、少字；温柔时更慢；不以命令代替请求。",
+        "scene_specific_action": "沈蘅要证明这不是父亲预言；林阿沅注意到近来几户熟客饭量和赊账习惯变化；顾行舟在停云听到北来客谈药价上涨。",
+        "forbidden_performance": "霸总化、全程深情凝视、把保护直接等同控制、未经铺垫抓人。"
+      },
+      "relationship_delta_sheet": {
+        "relation_ids": [
+          "REL-005",
+          "REL-001"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L2-01",
+          "CHR-L1-05"
+        ],
+        "episode_choice": "沈蘅违背陆清和保留香丸；顾行舟只提供消息，不替她决定是否调查。",
+        "episode_delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "chapter_boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。",
+        "trust_boundary_debt": "沿用本集关系选择与证据快照；本章只推进一项可观察变化，不清零旧账。",
+        "unresolved_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？"
+      },
+      "continuity_ledger": {
+        "time_window": "S1-E01 / M08; 精确钟点 DEFERRED-UNTIL-EPISODE-GATE",
+        "weather": "惊蛰雷雨后；若正式分场改变天气，必须回写 Episode Gate。",
+        "location_ids": [
+          "LOC-001",
+          "LOC-002",
+          "LOC-009"
+        ],
+        "wardrobe_state": "E01 春季工作状态；服装连续性以 v6 Costume Standard 为硬约束。",
+        "props_and_marks": "沿用 Season Ledger 已锁定物件；不得在本卡凭空新增关键道具。",
+        "information_state": "禁止角色跨越本章 evidence_or_relationship_action 直接知道后续真相。",
+        "handoff": "香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。"
+      },
+      "episode_bindings": {
+        "activity": {
+          "binding_id": "ACT-BIND-01",
+          "activity_id": "EVT-018",
+          "activity": "修匣与补伞的旧物修复",
+          "relationship_delta": "沈蘅把修补痕迹从家务细节升级为时间证据",
+          "state_transfer": "沈蘅不再把后仓当纯粹家内空间",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        },
+        "humor": {
+          "humor_id": "HUM-物件-01",
+          "speaker": "CHR-L1-01",
+          "humor_type": "物件笑点",
+          "surface_line": "陆清和把第四只碗也摆进来，说‘这只算谁的证据’",
+          "listener_reaction": "笑意只停在手上，母女冲突更清楚",
+          "recovery": "关系边界更具体，尾钩仍落在新胶痕",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        }
+      },
+      "production_control": {
+        "asset_recipe": {
+          "recipe_id": "recipe.linanspringletter.microchapter-production-card",
+          "version": "1.0.0",
+          "mode": "planning-only",
+          "deterministic_inputs": [
+            "S1-E01-M08",
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json",
+            "qa/relationship-evidence.json"
+          ],
+          "task_graph": [
+            "resolve-canonical-character",
+            "compile-story-card",
+            "compile-character-state",
+            "compile-emotion-action",
+            "compile-relationship-delta",
+            "compile-continuity-ledger",
+            "defer-dialogue-shot-and-provider-execution"
+          ],
+          "assembly_policy": "one deterministic card per microchapter; no provider call and no generated contact sheet"
+        },
+        "control_channels": {
+          "hard": [
+            {
+              "channel": "canonical_identity",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "behavior_logic",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "relationship_boundary",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "continuity_knowledge_state",
+              "fallback": {
+                "action": "block"
+              }
+            }
+          ],
+          "soft": [
+            "expression_path",
+            "gesture_intensity",
+            "voice_pace"
+          ],
+          "advisory": [
+            "era_texture",
+            "modern_emotional_entry",
+            "humor_timing"
+          ]
+        },
+        "evidence_bundle": {
+          "bundle_id": "EVID-S1-E01-M08",
+          "items": [
+            {
+              "evidence_id": "REL-005-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：关门后仍把热水留在桌上。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            },
+            {
+              "evidence_id": "REL-001-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：挂灯后把选择权让回。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            }
+          ],
+          "city_sources": [
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json"
+          ]
+        },
+        "license_profile": {
+          "ref": "license://linan-world/project-canon",
+          "status": "PROJECT-CANON-ONLY",
+          "external_identity_rights": "UNRESOLVED-BY-DESIGN",
+          "action": "block_external_execution_until_explicit_asset_rights"
+        },
+        "capability_gate": {
+          "status": "PLANNING-ONLY",
+          "resolved": [
+            "canonical_roster_lookup",
+            "deterministic_card_assembly",
+            "continuity_field_compilation"
+          ],
+          "unresolved_hard_capabilities": [
+            "provider_adapter",
+            "final_dialogue_render",
+            "shot_execution",
+            "verified_output_receipt"
+          ],
+          "action": "block_external_execution"
+        },
+        "provider_calls": 0,
+        "execution_request": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "qa_gate": {
+        "status": "PENDING-EPISODE-GATE",
+        "threshold": 90,
+        "dimensions": {
+          "character_consistency": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "expression_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "action_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "behavior_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "relationship_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "costume_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "prop_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "camera_performance": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "aigc_stability": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "story_logic": {
+            "score": null,
+            "status": "PENDING"
+          }
+        }
+      }
+    },
+    {
+      "chapter_id": "S1-E01-M09",
+      "episode_id": "S1-E01",
+      "sequence": 9,
+      "duration_seconds": 150,
+      "pov": {
+        "id": "CHR-L1-01",
+        "name": "沈蘅",
+        "canonical_identity_check": "qa/character-roster.json",
+        "profile_ref": "characters/central/chr-l1-01-shen-heng.md",
+        "asset_bible_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md"
+      },
+      "story_card": {
+        "function": "中点改义",
+        "cold_hook": "上一章留下的动作没有结束：顾行舟的记录、物件或关系余波把问题递给沈蘅。",
+        "scene_goal": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+        "obstacle": "已有事实被重新解释，新增信息不能凭空跳出。",
+        "evidence_or_relationship_action": "香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。",
+        "choice_cost": "暂不下最终结论；本章承担的即时代价是：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。",
+        "tail_hook": {
+          "type": "重义",
+          "text": "香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。；下一章必须回应：规则、资源或名声开始反应：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。"
+        },
+        "next_chase": "规则、资源或名声开始反应：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。",
+        "state_delta": "沈蘅完成‘中点改义’：知识位置、关系位置或行动权限发生一项改变；本集状态线为：从家族遗物争执进入当代疑报核验。",
+        "dialogue_status": "DEFERRED-UNTIL-EPISODE-GATE",
+        "shot_id_status": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "character_state_sheet": {
+        "entry_state": "调香铺工作状态；先看物，再看手，最后看人；呼吸稳定。",
+        "exit_state": "完成本章后，沈蘅带着‘规则、资源或名声开始反应：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。’离场；不得提前获得下一章未提供的信息。",
+        "knowledge_before": "仅承接本章 cold_hook 与 Season Gate 已锁定的公开状态。",
+        "knowledge_after": "新增可见事实：香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。；下一步只追问：规则、资源或名声开始反应：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。。",
+        "appearance_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md",
+        "costume_ref": "production/ai/v6-character-asset-bible/04-costume/costume-system-standard.md",
+        "props_ref": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ]
+      },
+      "emotion_action_sheet": {
+        "primary_emotion": "重新判断",
+        "suppressed_secondary_emotion": "旧解释被推翻的不适",
+        "expression_path": "触发后先移开视线落到物件；呼吸变浅；把物件摆正；再以短句回应。",
+        "breath": "平静中慢；核验时短暂停气；情绪越强越压低而不是加快。",
+        "gaze": "物→手→人；需要判断时在记录、证物和对方之间往返。",
+        "hands": "压纸边、摆正器物、闻香前停镊；记录前留空。",
+        "body_weight": "轻微前倾，脚步稳定；面对压力先收窄动作范围。",
+        "behavior_logic": "观察→核验→分类→判断→表达；不以感觉替代证据。",
+        "voice_and_pace": "中低音、中慢速；结论前停半拍；愤怒时更低、更精确。",
+        "scene_specific_action": "香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。",
+        "forbidden_performance": "冷艳面瘫、突然大哭、无证据宣布结论、把亲情冲突演成胜负。"
+      },
+      "relationship_delta_sheet": {
+        "relation_ids": [
+          "REL-005",
+          "REL-001"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L2-01",
+          "CHR-L1-05"
+        ],
+        "episode_choice": "沈蘅违背陆清和保留香丸；顾行舟只提供消息，不替她决定是否调查。",
+        "episode_delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "chapter_boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。",
+        "trust_boundary_debt": "沿用本集关系选择与证据快照；本章只推进一项可观察变化，不清零旧账。",
+        "unresolved_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？"
+      },
+      "continuity_ledger": {
+        "time_window": "S1-E01 / M09; 精确钟点 DEFERRED-UNTIL-EPISODE-GATE",
+        "weather": "惊蛰雷雨后；若正式分场改变天气，必须回写 Episode Gate。",
+        "location_ids": [
+          "LOC-001",
+          "LOC-002",
+          "LOC-009"
+        ],
+        "wardrobe_state": "E01 春季工作状态；服装连续性以 v6 Costume Standard 为硬约束。",
+        "props_and_marks": "沿用 Season Ledger 已锁定物件；不得在本卡凭空新增关键道具。",
+        "information_state": "禁止角色跨越本章 evidence_or_relationship_action 直接知道后续真相。",
+        "handoff": "规则、资源或名声开始反应：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。"
+      },
+      "episode_bindings": {
+        "activity": {
+          "binding_id": "ACT-BIND-01",
+          "activity_id": "EVT-018",
+          "activity": "修匣与补伞的旧物修复",
+          "relationship_delta": "沈蘅把修补痕迹从家务细节升级为时间证据",
+          "state_transfer": "沈蘅不再把后仓当纯粹家内空间",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        },
+        "humor": {
+          "humor_id": "HUM-物件-01",
+          "speaker": "CHR-L1-01",
+          "humor_type": "物件笑点",
+          "surface_line": "陆清和把第四只碗也摆进来，说‘这只算谁的证据’",
+          "listener_reaction": "笑意只停在手上，母女冲突更清楚",
+          "recovery": "关系边界更具体，尾钩仍落在新胶痕",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        }
+      },
+      "production_control": {
+        "asset_recipe": {
+          "recipe_id": "recipe.linanspringletter.microchapter-production-card",
+          "version": "1.0.0",
+          "mode": "planning-only",
+          "deterministic_inputs": [
+            "S1-E01-M09",
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json",
+            "qa/relationship-evidence.json"
+          ],
+          "task_graph": [
+            "resolve-canonical-character",
+            "compile-story-card",
+            "compile-character-state",
+            "compile-emotion-action",
+            "compile-relationship-delta",
+            "compile-continuity-ledger",
+            "defer-dialogue-shot-and-provider-execution"
+          ],
+          "assembly_policy": "one deterministic card per microchapter; no provider call and no generated contact sheet"
+        },
+        "control_channels": {
+          "hard": [
+            {
+              "channel": "canonical_identity",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "behavior_logic",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "relationship_boundary",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "continuity_knowledge_state",
+              "fallback": {
+                "action": "block"
+              }
+            }
+          ],
+          "soft": [
+            "expression_path",
+            "gesture_intensity",
+            "voice_pace"
+          ],
+          "advisory": [
+            "era_texture",
+            "modern_emotional_entry",
+            "humor_timing"
+          ]
+        },
+        "evidence_bundle": {
+          "bundle_id": "EVID-S1-E01-M09",
+          "items": [
+            {
+              "evidence_id": "REL-005-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：关门后仍把热水留在桌上。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            },
+            {
+              "evidence_id": "REL-001-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：挂灯后把选择权让回。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            }
+          ],
+          "city_sources": [
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json"
+          ]
+        },
+        "license_profile": {
+          "ref": "license://linan-world/project-canon",
+          "status": "PROJECT-CANON-ONLY",
+          "external_identity_rights": "UNRESOLVED-BY-DESIGN",
+          "action": "block_external_execution_until_explicit_asset_rights"
+        },
+        "capability_gate": {
+          "status": "PLANNING-ONLY",
+          "resolved": [
+            "canonical_roster_lookup",
+            "deterministic_card_assembly",
+            "continuity_field_compilation"
+          ],
+          "unresolved_hard_capabilities": [
+            "provider_adapter",
+            "final_dialogue_render",
+            "shot_execution",
+            "verified_output_receipt"
+          ],
+          "action": "block_external_execution"
+        },
+        "provider_calls": 0,
+        "execution_request": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "qa_gate": {
+        "status": "PENDING-EPISODE-GATE",
+        "threshold": 90,
+        "dimensions": {
+          "character_consistency": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "expression_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "action_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "behavior_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "relationship_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "costume_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "prop_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "camera_performance": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "aigc_stability": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "story_logic": {
+            "score": null,
+            "status": "PENDING"
+          }
+        }
+      }
+    },
+    {
+      "chapter_id": "S1-E01-M10",
+      "episode_id": "S1-E01",
+      "sequence": 10,
+      "duration_seconds": 150,
+      "pov": {
+        "id": "CHR-L2-01",
+        "name": "陆清和",
+        "canonical_identity_check": "qa/character-roster.json",
+        "profile_ref": "characters/central/chr-l2-01-lu-qinghe.md",
+        "asset_bible_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md"
+      },
+      "story_card": {
+        "function": "制度/利益反应",
+        "cold_hook": "上一章留下的动作没有结束：沈蘅的记录、物件或关系余波把问题递给陆清和。",
+        "scene_goal": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+        "obstacle": "规则或资源拥有者会为自己的秩序付出代价，也会制造阻力。",
+        "evidence_or_relationship_action": "规则、资源或名声开始反应：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。",
+        "choice_cost": "暂不下最终结论；本章承担的即时代价是：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。",
+        "tail_hook": {
+          "type": "制度反应",
+          "text": "规则、资源或名声开始反应：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。；下一章必须回应：让一个具体人支付账单：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。"
+        },
+        "next_chase": "让一个具体人支付账单：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。",
+        "state_delta": "陆清和完成‘制度/利益反应’：知识位置、关系位置或行动权限发生一项改变；本集状态线为：从家族遗物争执进入当代疑报核验。",
+        "dialogue_status": "DEFERRED-UNTIL-EPISODE-GATE",
+        "shot_id_status": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "character_state_sheet": {
+        "entry_state": "香铺掌柜工作状态；一边做事一边听，手上保持生活动作。",
+        "exit_state": "完成本章后，陆清和带着‘让一个具体人支付账单：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。’离场；不得提前获得下一章未提供的信息。",
+        "knowledge_before": "仅承接本章 cold_hook 与 Season Gate 已锁定的公开状态。",
+        "knowledge_after": "新增可见事实：规则、资源或名声开始反应：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。；下一步只追问：让一个具体人支付账单：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。。",
+        "appearance_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md",
+        "costume_ref": "production/ai/v6-character-asset-bible/04-costume/costume-system-standard.md",
+        "props_ref": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ]
+      },
+      "emotion_action_sheet": {
+        "primary_emotion": "压力",
+        "suppressed_secondary_emotion": "不愿承认代价落到自己人",
+        "expression_path": "先继续整理、翻账或拨灯；眼神短暂停在女儿身上；恐惧转为关门、收钱、确认孩子安全。",
+        "breath": "做事时均匀；恐惧时吸气变短但动作更整齐；怒时不提高音量。",
+        "gaze": "先看账、门、炉火和货架，再看人；不在冲突中长时间凝视。",
+        "hands": "锁钱匣、翻账、整理货架、拨灯芯、盖炉、抚平纸角。",
+        "body_weight": "重心贴近柜台与家务路线；争执时不后退，先把物件归位。",
+        "behavior_logic": "生活秩序→家人安全→生计→道德判断→自己的情感。",
+        "voice_and_pace": "低声、短句；真正愤怒时叫全名；爱意用留饭、留灯和留药表达。",
+        "scene_specific_action": "规则、资源或名声开始反应：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。",
+        "forbidden_performance": "恶母、歇斯底里、只恨亡夫、用哭喊替代生活账单。"
+      },
+      "relationship_delta_sheet": {
+        "relation_ids": [
+          "REL-005",
+          "REL-001"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L2-01",
+          "CHR-L1-05"
+        ],
+        "episode_choice": "沈蘅违背陆清和保留香丸；顾行舟只提供消息，不替她决定是否调查。",
+        "episode_delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "chapter_boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。",
+        "trust_boundary_debt": "沿用本集关系选择与证据快照；本章只推进一项可观察变化，不清零旧账。",
+        "unresolved_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？"
+      },
+      "continuity_ledger": {
+        "time_window": "S1-E01 / M10; 精确钟点 DEFERRED-UNTIL-EPISODE-GATE",
+        "weather": "惊蛰雷雨后；若正式分场改变天气，必须回写 Episode Gate。",
+        "location_ids": [
+          "LOC-001",
+          "LOC-002",
+          "LOC-009"
+        ],
+        "wardrobe_state": "E01 春季工作状态；服装连续性以 v6 Costume Standard 为硬约束。",
+        "props_and_marks": "沿用 Season Ledger 已锁定物件；不得在本卡凭空新增关键道具。",
+        "information_state": "禁止角色跨越本章 evidence_or_relationship_action 直接知道后续真相。",
+        "handoff": "让一个具体人支付账单：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。"
+      },
+      "episode_bindings": {
+        "activity": {
+          "binding_id": "ACT-BIND-01",
+          "activity_id": "EVT-018",
+          "activity": "修匣与补伞的旧物修复",
+          "relationship_delta": "沈蘅把修补痕迹从家务细节升级为时间证据",
+          "state_transfer": "沈蘅不再把后仓当纯粹家内空间",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        },
+        "humor": {
+          "humor_id": "HUM-物件-01",
+          "speaker": "CHR-L1-01",
+          "humor_type": "物件笑点",
+          "surface_line": "陆清和把第四只碗也摆进来，说‘这只算谁的证据’",
+          "listener_reaction": "笑意只停在手上，母女冲突更清楚",
+          "recovery": "关系边界更具体，尾钩仍落在新胶痕",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        }
+      },
+      "production_control": {
+        "asset_recipe": {
+          "recipe_id": "recipe.linanspringletter.microchapter-production-card",
+          "version": "1.0.0",
+          "mode": "planning-only",
+          "deterministic_inputs": [
+            "S1-E01-M10",
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json",
+            "qa/relationship-evidence.json"
+          ],
+          "task_graph": [
+            "resolve-canonical-character",
+            "compile-story-card",
+            "compile-character-state",
+            "compile-emotion-action",
+            "compile-relationship-delta",
+            "compile-continuity-ledger",
+            "defer-dialogue-shot-and-provider-execution"
+          ],
+          "assembly_policy": "one deterministic card per microchapter; no provider call and no generated contact sheet"
+        },
+        "control_channels": {
+          "hard": [
+            {
+              "channel": "canonical_identity",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "behavior_logic",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "relationship_boundary",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "continuity_knowledge_state",
+              "fallback": {
+                "action": "block"
+              }
+            }
+          ],
+          "soft": [
+            "expression_path",
+            "gesture_intensity",
+            "voice_pace"
+          ],
+          "advisory": [
+            "era_texture",
+            "modern_emotional_entry",
+            "humor_timing"
+          ]
+        },
+        "evidence_bundle": {
+          "bundle_id": "EVID-S1-E01-M10",
+          "items": [
+            {
+              "evidence_id": "REL-005-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：关门后仍把热水留在桌上。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            },
+            {
+              "evidence_id": "REL-001-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：挂灯后把选择权让回。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            }
+          ],
+          "city_sources": [
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json"
+          ]
+        },
+        "license_profile": {
+          "ref": "license://linan-world/project-canon",
+          "status": "PROJECT-CANON-ONLY",
+          "external_identity_rights": "UNRESOLVED-BY-DESIGN",
+          "action": "block_external_execution_until_explicit_asset_rights"
+        },
+        "capability_gate": {
+          "status": "PLANNING-ONLY",
+          "resolved": [
+            "canonical_roster_lookup",
+            "deterministic_card_assembly",
+            "continuity_field_compilation"
+          ],
+          "unresolved_hard_capabilities": [
+            "provider_adapter",
+            "final_dialogue_render",
+            "shot_execution",
+            "verified_output_receipt"
+          ],
+          "action": "block_external_execution"
+        },
+        "provider_calls": 0,
+        "execution_request": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "qa_gate": {
+        "status": "PENDING-EPISODE-GATE",
+        "threshold": 90,
+        "dimensions": {
+          "character_consistency": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "expression_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "action_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "behavior_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "relationship_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "costume_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "prop_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "camera_performance": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "aigc_stability": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "story_logic": {
+            "score": null,
+            "status": "PENDING"
+          }
+        }
+      }
+    },
+    {
+      "chapter_id": "S1-E01-M11",
+      "episode_id": "S1-E01",
+      "sequence": 11,
+      "duration_seconds": 150,
+      "pov": {
+        "id": "CHR-L2-02",
+        "name": "林阿沅",
+        "canonical_identity_check": "qa/character-roster.json",
+        "profile_ref": "characters/central/chr-l2-02-lin-ayuan.md",
+        "asset_bible_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md"
+      },
+      "story_card": {
+        "function": "落到具体人",
+        "cold_hook": "上一章留下的动作没有结束：陆清和的记录、物件或关系余波把问题递给林阿沅。",
+        "scene_goal": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+        "obstacle": "一个具体人的损失不能被‘大局’抹平。",
+        "evidence_or_relationship_action": "让一个具体人支付账单：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。",
+        "choice_cost": "暂不下最终结论；本章承担的即时代价是：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。",
+        "tail_hook": {
+          "type": "具体代价",
+          "text": "让一个具体人支付账单：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。；下一章必须回应：母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。"
+        },
+        "next_chase": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "state_delta": "林阿沅完成‘落到具体人’：知识位置、关系位置或行动权限发生一项改变；本集状态线为：从家族遗物争执进入当代疑报核验。",
+        "dialogue_status": "DEFERRED-UNTIL-EPISODE-GATE",
+        "shot_id_status": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "character_state_sheet": {
+        "entry_state": "馄饨铺忙碌状态；边做事边说，眼睛追踪客人的饭量和来去。",
+        "exit_state": "完成本章后，林阿沅带着‘母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。’离场；不得提前获得下一章未提供的信息。",
+        "knowledge_before": "仅承接本章 cold_hook 与 Season Gate 已锁定的公开状态。",
+        "knowledge_after": "新增可见事实：让一个具体人支付账单：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。；下一步只追问：母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。。",
+        "appearance_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md",
+        "costume_ref": "production/ai/v6-character-asset-bible/04-costume/costume-system-standard.md",
+        "props_ref": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ]
+      },
+      "emotion_action_sheet": {
+        "primary_emotion": "心疼",
+        "suppressed_secondary_emotion": "无力感",
+        "expression_path": "好奇先前倾；被认真听见后突然安静；羞耻时笑得更大、视线飘开并马上补救。",
+        "breath": "忙时碎而有节奏；说快前会吸一口气；发现错误后先停一下再重说。",
+        "gaze": "追踪手、碗、门口和饭量变化；先看变化再找能确认的人。",
+        "hands": "记在油纸上、添汤、数碗、擦桌、回头确认空位。",
+        "body_weight": "前倾、轻快；要承担责任时脚步会突然稳住。",
+        "behavior_logic": "看到→确认→帮忙→可能说快→学会纠错。",
+        "voice_and_pace": "生活化、快慢不齐；重要事实前会主动放慢。",
+        "scene_specific_action": "让一个具体人支付账单：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。",
+        "forbidden_performance": "幼稚化、一直咋呼、凭闲话直接下诊断、用热闹掩盖受伤。"
+      },
+      "relationship_delta_sheet": {
+        "relation_ids": [
+          "REL-005",
+          "REL-001"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L2-01",
+          "CHR-L1-05"
+        ],
+        "episode_choice": "沈蘅违背陆清和保留香丸；顾行舟只提供消息，不替她决定是否调查。",
+        "episode_delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "chapter_boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。",
+        "trust_boundary_debt": "沿用本集关系选择与证据快照；本章只推进一项可观察变化，不清零旧账。",
+        "unresolved_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？"
+      },
+      "continuity_ledger": {
+        "time_window": "S1-E01 / M11; 精确钟点 DEFERRED-UNTIL-EPISODE-GATE",
+        "weather": "惊蛰雷雨后；若正式分场改变天气，必须回写 Episode Gate。",
+        "location_ids": [
+          "LOC-001",
+          "LOC-002",
+          "LOC-009"
+        ],
+        "wardrobe_state": "E01 春季工作状态；服装连续性以 v6 Costume Standard 为硬约束。",
+        "props_and_marks": "沿用 Season Ledger 已锁定物件；不得在本卡凭空新增关键道具。",
+        "information_state": "禁止角色跨越本章 evidence_or_relationship_action 直接知道后续真相。",
+        "handoff": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。"
+      },
+      "episode_bindings": {
+        "activity": {
+          "binding_id": "ACT-BIND-01",
+          "activity_id": "EVT-018",
+          "activity": "修匣与补伞的旧物修复",
+          "relationship_delta": "沈蘅把修补痕迹从家务细节升级为时间证据",
+          "state_transfer": "沈蘅不再把后仓当纯粹家内空间",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        },
+        "humor": {
+          "humor_id": "HUM-物件-01",
+          "speaker": "CHR-L1-01",
+          "humor_type": "物件笑点",
+          "surface_line": "陆清和把第四只碗也摆进来，说‘这只算谁的证据’",
+          "listener_reaction": "笑意只停在手上，母女冲突更清楚",
+          "recovery": "关系边界更具体，尾钩仍落在新胶痕",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        }
+      },
+      "production_control": {
+        "asset_recipe": {
+          "recipe_id": "recipe.linanspringletter.microchapter-production-card",
+          "version": "1.0.0",
+          "mode": "planning-only",
+          "deterministic_inputs": [
+            "S1-E01-M11",
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json",
+            "qa/relationship-evidence.json"
+          ],
+          "task_graph": [
+            "resolve-canonical-character",
+            "compile-story-card",
+            "compile-character-state",
+            "compile-emotion-action",
+            "compile-relationship-delta",
+            "compile-continuity-ledger",
+            "defer-dialogue-shot-and-provider-execution"
+          ],
+          "assembly_policy": "one deterministic card per microchapter; no provider call and no generated contact sheet"
+        },
+        "control_channels": {
+          "hard": [
+            {
+              "channel": "canonical_identity",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "behavior_logic",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "relationship_boundary",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "continuity_knowledge_state",
+              "fallback": {
+                "action": "block"
+              }
+            }
+          ],
+          "soft": [
+            "expression_path",
+            "gesture_intensity",
+            "voice_pace"
+          ],
+          "advisory": [
+            "era_texture",
+            "modern_emotional_entry",
+            "humor_timing"
+          ]
+        },
+        "evidence_bundle": {
+          "bundle_id": "EVID-S1-E01-M11",
+          "items": [
+            {
+              "evidence_id": "REL-005-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：关门后仍把热水留在桌上。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            },
+            {
+              "evidence_id": "REL-001-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：挂灯后把选择权让回。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            }
+          ],
+          "city_sources": [
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json"
+          ]
+        },
+        "license_profile": {
+          "ref": "license://linan-world/project-canon",
+          "status": "PROJECT-CANON-ONLY",
+          "external_identity_rights": "UNRESOLVED-BY-DESIGN",
+          "action": "block_external_execution_until_explicit_asset_rights"
+        },
+        "capability_gate": {
+          "status": "PLANNING-ONLY",
+          "resolved": [
+            "canonical_roster_lookup",
+            "deterministic_card_assembly",
+            "continuity_field_compilation"
+          ],
+          "unresolved_hard_capabilities": [
+            "provider_adapter",
+            "final_dialogue_render",
+            "shot_execution",
+            "verified_output_receipt"
+          ],
+          "action": "block_external_execution"
+        },
+        "provider_calls": 0,
+        "execution_request": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "qa_gate": {
+        "status": "PENDING-EPISODE-GATE",
+        "threshold": 90,
+        "dimensions": {
+          "character_consistency": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "expression_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "action_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "behavior_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "relationship_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "costume_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "prop_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "camera_performance": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "aigc_stability": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "story_logic": {
+            "score": null,
+            "status": "PENDING"
+          }
+        }
+      }
+    },
+    {
+      "chapter_id": "S1-E01-M12",
+      "episode_id": "S1-E01",
+      "sequence": 12,
+      "duration_seconds": 150,
+      "pov": {
+        "id": "CHR-L1-05",
+        "name": "顾行舟",
+        "canonical_identity_check": "qa/character-roster.json",
+        "profile_ref": "characters/central/chr-l1-05-gu-xingzhou.md",
+        "asset_bible_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md"
+      },
+      "story_card": {
+        "function": "关系状态变化",
+        "cold_hook": "上一章留下的动作没有结束：林阿沅的记录、物件或关系余波把问题递给顾行舟。",
+        "scene_goal": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+        "obstacle": "亲近上升的同时，信任、依赖或边界至少一项下降。",
+        "evidence_or_relationship_action": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "choice_cost": "暂不下最终结论；本章承担的即时代价是：沈蘅失去母亲对她调查的默认信任，沈家后仓从生活空间变成需要记录出入的证据空间。",
+        "tail_hook": {
+          "type": "关系状态",
+          "text": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。；下一章必须回应：沈蘅第一次违背母亲，留下香丸做证；陆清和把她的行为理解为重新把父亲带回家。"
+        },
+        "next_chase": "沈蘅第一次违背母亲，留下香丸做证；陆清和把她的行为理解为重新把父亲带回家。",
+        "state_delta": "顾行舟完成‘关系状态变化’：知识位置、关系位置或行动权限发生一项改变；本集状态线为：从家族遗物争执进入当代疑报核验。",
+        "dialogue_status": "DEFERRED-UNTIL-EPISODE-GATE",
+        "shot_id_status": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "character_state_sheet": {
+        "entry_state": "酒肆掌柜与路线熟手；站位能看出口，先观察再动作。",
+        "exit_state": "完成本章后，顾行舟带着‘沈蘅第一次违背母亲，留下香丸做证；陆清和把她的行为理解为重新把父亲带回家。’离场；不得提前获得下一章未提供的信息。",
+        "knowledge_before": "仅承接本章 cold_hook 与 Season Gate 已锁定的公开状态。",
+        "knowledge_after": "新增可见事实：母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。；下一步只追问：沈蘅第一次违背母亲，留下香丸做证；陆清和把她的行为理解为重新把父亲带回家。。",
+        "appearance_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md",
+        "costume_ref": "production/ai/v6-character-asset-bible/04-costume/costume-system-standard.md",
+        "props_ref": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ]
+      },
+      "emotion_action_sheet": {
+        "primary_emotion": "亲近或疏离",
+        "suppressed_secondary_emotion": "亏欠",
+        "expression_path": "先确认门、灯、危险物；关心不直接说而是完成安全检查；羞耻转去做具体任务；恐惧可能缩短他人的选择路径。",
+        "breath": "平静慢；警觉时短而低；接近失控时屏息半拍后才伸手。",
+        "gaze": "出口→危险物→对方脚下→对方眼睛；不长时间凝视表达深情。",
+        "hands": "挪刀、挂灯、看门、画路线、扶椅、收杯。",
+        "body_weight": "低重心、离门近；关系冲突时先站开，若失控抓腕属于重大连续性事件。",
+        "behavior_logic": "危险判断→最短生路→信息控制→情感处理；成长为告知风险→让对方决定。",
+        "voice_and_pace": "低、中速、少字；温柔时更慢；不以命令代替请求。",
+        "scene_specific_action": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "forbidden_performance": "霸总化、全程深情凝视、把保护直接等同控制、未经铺垫抓人。"
+      },
+      "relationship_delta_sheet": {
+        "relation_ids": [
+          "REL-005",
+          "REL-001"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L2-01",
+          "CHR-L1-05"
+        ],
+        "episode_choice": "沈蘅违背陆清和保留香丸；顾行舟只提供消息，不替她决定是否调查。",
+        "episode_delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "chapter_boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。",
+        "trust_boundary_debt": "沿用本集关系选择与证据快照；本章只推进一项可观察变化，不清零旧账。",
+        "unresolved_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？"
+      },
+      "continuity_ledger": {
+        "time_window": "S1-E01 / M12; 精确钟点 DEFERRED-UNTIL-EPISODE-GATE",
+        "weather": "惊蛰雷雨后；若正式分场改变天气，必须回写 Episode Gate。",
+        "location_ids": [
+          "LOC-001",
+          "LOC-002",
+          "LOC-009"
+        ],
+        "wardrobe_state": "E01 春季工作状态；服装连续性以 v6 Costume Standard 为硬约束。",
+        "props_and_marks": "沿用 Season Ledger 已锁定物件；不得在本卡凭空新增关键道具。",
+        "information_state": "禁止角色跨越本章 evidence_or_relationship_action 直接知道后续真相。",
+        "handoff": "沈蘅第一次违背母亲，留下香丸做证；陆清和把她的行为理解为重新把父亲带回家。"
+      },
+      "episode_bindings": {
+        "activity": {
+          "binding_id": "ACT-BIND-01",
+          "activity_id": "EVT-018",
+          "activity": "修匣与补伞的旧物修复",
+          "relationship_delta": "沈蘅把修补痕迹从家务细节升级为时间证据",
+          "state_transfer": "沈蘅不再把后仓当纯粹家内空间",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        },
+        "humor": {
+          "humor_id": "HUM-物件-01",
+          "speaker": "CHR-L1-01",
+          "humor_type": "物件笑点",
+          "surface_line": "陆清和把第四只碗也摆进来，说‘这只算谁的证据’",
+          "listener_reaction": "笑意只停在手上，母女冲突更清楚",
+          "recovery": "关系边界更具体，尾钩仍落在新胶痕",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        }
+      },
+      "production_control": {
+        "asset_recipe": {
+          "recipe_id": "recipe.linanspringletter.microchapter-production-card",
+          "version": "1.0.0",
+          "mode": "planning-only",
+          "deterministic_inputs": [
+            "S1-E01-M12",
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json",
+            "qa/relationship-evidence.json"
+          ],
+          "task_graph": [
+            "resolve-canonical-character",
+            "compile-story-card",
+            "compile-character-state",
+            "compile-emotion-action",
+            "compile-relationship-delta",
+            "compile-continuity-ledger",
+            "defer-dialogue-shot-and-provider-execution"
+          ],
+          "assembly_policy": "one deterministic card per microchapter; no provider call and no generated contact sheet"
+        },
+        "control_channels": {
+          "hard": [
+            {
+              "channel": "canonical_identity",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "behavior_logic",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "relationship_boundary",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "continuity_knowledge_state",
+              "fallback": {
+                "action": "block"
+              }
+            }
+          ],
+          "soft": [
+            "expression_path",
+            "gesture_intensity",
+            "voice_pace"
+          ],
+          "advisory": [
+            "era_texture",
+            "modern_emotional_entry",
+            "humor_timing"
+          ]
+        },
+        "evidence_bundle": {
+          "bundle_id": "EVID-S1-E01-M12",
+          "items": [
+            {
+              "evidence_id": "REL-005-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：关门后仍把热水留在桌上。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            },
+            {
+              "evidence_id": "REL-001-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：挂灯后把选择权让回。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            }
+          ],
+          "city_sources": [
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json"
+          ]
+        },
+        "license_profile": {
+          "ref": "license://linan-world/project-canon",
+          "status": "PROJECT-CANON-ONLY",
+          "external_identity_rights": "UNRESOLVED-BY-DESIGN",
+          "action": "block_external_execution_until_explicit_asset_rights"
+        },
+        "capability_gate": {
+          "status": "PLANNING-ONLY",
+          "resolved": [
+            "canonical_roster_lookup",
+            "deterministic_card_assembly",
+            "continuity_field_compilation"
+          ],
+          "unresolved_hard_capabilities": [
+            "provider_adapter",
+            "final_dialogue_render",
+            "shot_execution",
+            "verified_output_receipt"
+          ],
+          "action": "block_external_execution"
+        },
+        "provider_calls": 0,
+        "execution_request": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "qa_gate": {
+        "status": "PENDING-EPISODE-GATE",
+        "threshold": 90,
+        "dimensions": {
+          "character_consistency": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "expression_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "action_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "behavior_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "relationship_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "costume_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "prop_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "camera_performance": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "aigc_stability": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "story_logic": {
+            "score": null,
+            "status": "PENDING"
+          }
+        }
+      }
+    },
+    {
+      "chapter_id": "S1-E01-M13",
+      "episode_id": "S1-E01",
+      "sequence": 13,
+      "duration_seconds": 150,
+      "pov": {
+        "id": "CHR-L1-01",
+        "name": "沈蘅",
+        "canonical_identity_check": "qa/character-roster.json",
+        "profile_ref": "characters/central/chr-l1-01-shen-heng.md",
+        "asset_bible_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md"
+      },
+      "story_card": {
+        "function": "提出方案",
+        "cold_hook": "上一章留下的动作没有结束：顾行舟的记录、物件或关系余波把问题递给沈蘅。",
+        "scene_goal": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+        "obstacle": "方案必须可执行，并直接通向本集已锁定选择。",
+        "evidence_or_relationship_action": "沈蘅第一次违背母亲，留下香丸做证；陆清和把她的行为理解为重新把父亲带回家。",
+        "choice_cost": "母女裂缝成立，调查从家事变成公共责任。",
+        "tail_hook": {
+          "type": "选择",
+          "text": "沈蘅第一次违背母亲，留下香丸做证；陆清和把她的行为理解为重新把父亲带回家。；下一章必须回应：母女裂缝成立，调查从家事变成公共责任。"
+        },
+        "next_chase": "母女裂缝成立，调查从家事变成公共责任。",
+        "state_delta": "沈蘅完成‘提出方案’：知识位置、关系位置或行动权限发生一项改变；本集状态线为：从家族遗物争执进入当代疑报核验。",
+        "dialogue_status": "DEFERRED-UNTIL-EPISODE-GATE",
+        "shot_id_status": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "character_state_sheet": {
+        "entry_state": "调香铺工作状态；先看物，再看手，最后看人；呼吸稳定。",
+        "exit_state": "完成本章后，沈蘅带着‘母女裂缝成立，调查从家事变成公共责任。’离场；不得提前获得下一章未提供的信息。",
+        "knowledge_before": "仅承接本章 cold_hook 与 Season Gate 已锁定的公开状态。",
+        "knowledge_after": "新增可见事实：沈蘅第一次违背母亲，留下香丸做证；陆清和把她的行为理解为重新把父亲带回家。；下一步只追问：母女裂缝成立，调查从家事变成公共责任。。",
+        "appearance_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md",
+        "costume_ref": "production/ai/v6-character-asset-bible/04-costume/costume-system-standard.md",
+        "props_ref": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ]
+      },
+      "emotion_action_sheet": {
+        "primary_emotion": "决意",
+        "suppressed_secondary_emotion": "害怕方案伤人",
+        "expression_path": "触发后先移开视线落到物件；呼吸变浅；把物件摆正；再以短句回应。",
+        "breath": "平静中慢；核验时短暂停气；情绪越强越压低而不是加快。",
+        "gaze": "物→手→人；需要判断时在记录、证物和对方之间往返。",
+        "hands": "压纸边、摆正器物、闻香前停镊；记录前留空。",
+        "body_weight": "轻微前倾，脚步稳定；面对压力先收窄动作范围。",
+        "behavior_logic": "观察→核验→分类→判断→表达；不以感觉替代证据。",
+        "voice_and_pace": "中低音、中慢速；结论前停半拍；愤怒时更低、更精确。",
+        "scene_specific_action": "沈蘅第一次违背母亲，留下香丸做证；陆清和把她的行为理解为重新把父亲带回家。",
+        "forbidden_performance": "冷艳面瘫、突然大哭、无证据宣布结论、把亲情冲突演成胜负。"
+      },
+      "relationship_delta_sheet": {
+        "relation_ids": [
+          "REL-005",
+          "REL-001"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L2-01",
+          "CHR-L1-05"
+        ],
+        "episode_choice": "沈蘅违背陆清和保留香丸；顾行舟只提供消息，不替她决定是否调查。",
+        "episode_delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "chapter_boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。",
+        "trust_boundary_debt": "沿用本集关系选择与证据快照；本章只推进一项可观察变化，不清零旧账。",
+        "unresolved_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？"
+      },
+      "continuity_ledger": {
+        "time_window": "S1-E01 / M13; 精确钟点 DEFERRED-UNTIL-EPISODE-GATE",
+        "weather": "惊蛰雷雨后；若正式分场改变天气，必须回写 Episode Gate。",
+        "location_ids": [
+          "LOC-001",
+          "LOC-002",
+          "LOC-009"
+        ],
+        "wardrobe_state": "E01 春季工作状态；服装连续性以 v6 Costume Standard 为硬约束。",
+        "props_and_marks": "沿用 Season Ledger 已锁定物件；不得在本卡凭空新增关键道具。",
+        "information_state": "禁止角色跨越本章 evidence_or_relationship_action 直接知道后续真相。",
+        "handoff": "母女裂缝成立，调查从家事变成公共责任。"
+      },
+      "episode_bindings": {
+        "activity": {
+          "binding_id": "ACT-BIND-01",
+          "activity_id": "EVT-018",
+          "activity": "修匣与补伞的旧物修复",
+          "relationship_delta": "沈蘅把修补痕迹从家务细节升级为时间证据",
+          "state_transfer": "沈蘅不再把后仓当纯粹家内空间",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        },
+        "humor": {
+          "humor_id": "HUM-物件-01",
+          "speaker": "CHR-L1-01",
+          "humor_type": "物件笑点",
+          "surface_line": "陆清和把第四只碗也摆进来，说‘这只算谁的证据’",
+          "listener_reaction": "笑意只停在手上，母女冲突更清楚",
+          "recovery": "关系边界更具体，尾钩仍落在新胶痕",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        }
+      },
+      "production_control": {
+        "asset_recipe": {
+          "recipe_id": "recipe.linanspringletter.microchapter-production-card",
+          "version": "1.0.0",
+          "mode": "planning-only",
+          "deterministic_inputs": [
+            "S1-E01-M13",
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json",
+            "qa/relationship-evidence.json"
+          ],
+          "task_graph": [
+            "resolve-canonical-character",
+            "compile-story-card",
+            "compile-character-state",
+            "compile-emotion-action",
+            "compile-relationship-delta",
+            "compile-continuity-ledger",
+            "defer-dialogue-shot-and-provider-execution"
+          ],
+          "assembly_policy": "one deterministic card per microchapter; no provider call and no generated contact sheet"
+        },
+        "control_channels": {
+          "hard": [
+            {
+              "channel": "canonical_identity",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "behavior_logic",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "relationship_boundary",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "continuity_knowledge_state",
+              "fallback": {
+                "action": "block"
+              }
+            }
+          ],
+          "soft": [
+            "expression_path",
+            "gesture_intensity",
+            "voice_pace"
+          ],
+          "advisory": [
+            "era_texture",
+            "modern_emotional_entry",
+            "humor_timing"
+          ]
+        },
+        "evidence_bundle": {
+          "bundle_id": "EVID-S1-E01-M13",
+          "items": [
+            {
+              "evidence_id": "REL-005-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：关门后仍把热水留在桌上。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            },
+            {
+              "evidence_id": "REL-001-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：挂灯后把选择权让回。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            }
+          ],
+          "city_sources": [
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json"
+          ]
+        },
+        "license_profile": {
+          "ref": "license://linan-world/project-canon",
+          "status": "PROJECT-CANON-ONLY",
+          "external_identity_rights": "UNRESOLVED-BY-DESIGN",
+          "action": "block_external_execution_until_explicit_asset_rights"
+        },
+        "capability_gate": {
+          "status": "PLANNING-ONLY",
+          "resolved": [
+            "canonical_roster_lookup",
+            "deterministic_card_assembly",
+            "continuity_field_compilation"
+          ],
+          "unresolved_hard_capabilities": [
+            "provider_adapter",
+            "final_dialogue_render",
+            "shot_execution",
+            "verified_output_receipt"
+          ],
+          "action": "block_external_execution"
+        },
+        "provider_calls": 0,
+        "execution_request": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "qa_gate": {
+        "status": "PENDING-EPISODE-GATE",
+        "threshold": 90,
+        "dimensions": {
+          "character_consistency": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "expression_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "action_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "behavior_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "relationship_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "costume_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "prop_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "camera_performance": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "aigc_stability": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "story_logic": {
+            "score": null,
+            "status": "PENDING"
+          }
+        }
+      }
+    },
+    {
+      "chapter_id": "S1-E01-M14",
+      "episode_id": "S1-E01",
+      "sequence": 14,
+      "duration_seconds": 150,
+      "pov": {
+        "id": "CHR-L2-01",
+        "name": "陆清和",
+        "canonical_identity_check": "qa/character-roster.json",
+        "profile_ref": "characters/central/chr-l2-01-lu-qinghe.md",
+        "asset_bible_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md"
+      },
+      "story_card": {
+        "function": "看见代价",
+        "cold_hook": "上一章留下的动作没有结束：沈蘅的记录、物件或关系余波把问题递给陆清和。",
+        "scene_goal": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+        "obstacle": "角色必须看见谁替这个方案支付生活账单。",
+        "evidence_or_relationship_action": "母女裂缝成立，调查从家事变成公共责任。",
+        "choice_cost": "母女裂缝成立，调查从家事变成公共责任。",
+        "tail_hook": {
+          "type": "舍弃",
+          "text": "母女裂缝成立，调查从家事变成公共责任。；下一章必须回应：保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。"
+        },
+        "next_chase": "保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。",
+        "state_delta": "陆清和完成‘看见代价’：知识位置、关系位置或行动权限发生一项改变；本集状态线为：从家族遗物争执进入当代疑报核验。",
+        "dialogue_status": "DEFERRED-UNTIL-EPISODE-GATE",
+        "shot_id_status": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "character_state_sheet": {
+        "entry_state": "香铺掌柜工作状态；一边做事一边听，手上保持生活动作。",
+        "exit_state": "完成本章后，陆清和带着‘保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。’离场；不得提前获得下一章未提供的信息。",
+        "knowledge_before": "仅承接本章 cold_hook 与 Season Gate 已锁定的公开状态。",
+        "knowledge_after": "新增可见事实：母女裂缝成立，调查从家事变成公共责任。；下一步只追问：保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。。",
+        "appearance_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md",
+        "costume_ref": "production/ai/v6-character-asset-bible/04-costume/costume-system-standard.md",
+        "props_ref": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ]
+      },
+      "emotion_action_sheet": {
+        "primary_emotion": "羞愧",
+        "suppressed_secondary_emotion": "仍想坚持正确",
+        "expression_path": "先继续整理、翻账或拨灯；眼神短暂停在女儿身上；恐惧转为关门、收钱、确认孩子安全。",
+        "breath": "做事时均匀；恐惧时吸气变短但动作更整齐；怒时不提高音量。",
+        "gaze": "先看账、门、炉火和货架，再看人；不在冲突中长时间凝视。",
+        "hands": "锁钱匣、翻账、整理货架、拨灯芯、盖炉、抚平纸角。",
+        "body_weight": "重心贴近柜台与家务路线；争执时不后退，先把物件归位。",
+        "behavior_logic": "生活秩序→家人安全→生计→道德判断→自己的情感。",
+        "voice_and_pace": "低声、短句；真正愤怒时叫全名；爱意用留饭、留灯和留药表达。",
+        "scene_specific_action": "母女裂缝成立，调查从家事变成公共责任。",
+        "forbidden_performance": "恶母、歇斯底里、只恨亡夫、用哭喊替代生活账单。"
+      },
+      "relationship_delta_sheet": {
+        "relation_ids": [
+          "REL-005",
+          "REL-001"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L2-01",
+          "CHR-L1-05"
+        ],
+        "episode_choice": "沈蘅违背陆清和保留香丸；顾行舟只提供消息，不替她决定是否调查。",
+        "episode_delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "chapter_boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。",
+        "trust_boundary_debt": "沿用本集关系选择与证据快照；本章只推进一项可观察变化，不清零旧账。",
+        "unresolved_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？"
+      },
+      "continuity_ledger": {
+        "time_window": "S1-E01 / M14; 精确钟点 DEFERRED-UNTIL-EPISODE-GATE",
+        "weather": "惊蛰雷雨后；若正式分场改变天气，必须回写 Episode Gate。",
+        "location_ids": [
+          "LOC-001",
+          "LOC-002",
+          "LOC-009"
+        ],
+        "wardrobe_state": "E01 春季工作状态；服装连续性以 v6 Costume Standard 为硬约束。",
+        "props_and_marks": "沿用 Season Ledger 已锁定物件；不得在本卡凭空新增关键道具。",
+        "information_state": "禁止角色跨越本章 evidence_or_relationship_action 直接知道后续真相。",
+        "handoff": "保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。"
+      },
+      "episode_bindings": {
+        "activity": {
+          "binding_id": "ACT-BIND-01",
+          "activity_id": "EVT-018",
+          "activity": "修匣与补伞的旧物修复",
+          "relationship_delta": "沈蘅把修补痕迹从家务细节升级为时间证据",
+          "state_transfer": "沈蘅不再把后仓当纯粹家内空间",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        },
+        "humor": {
+          "humor_id": "HUM-物件-01",
+          "speaker": "CHR-L1-01",
+          "humor_type": "物件笑点",
+          "surface_line": "陆清和把第四只碗也摆进来，说‘这只算谁的证据’",
+          "listener_reaction": "笑意只停在手上，母女冲突更清楚",
+          "recovery": "关系边界更具体，尾钩仍落在新胶痕",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        }
+      },
+      "production_control": {
+        "asset_recipe": {
+          "recipe_id": "recipe.linanspringletter.microchapter-production-card",
+          "version": "1.0.0",
+          "mode": "planning-only",
+          "deterministic_inputs": [
+            "S1-E01-M14",
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json",
+            "qa/relationship-evidence.json"
+          ],
+          "task_graph": [
+            "resolve-canonical-character",
+            "compile-story-card",
+            "compile-character-state",
+            "compile-emotion-action",
+            "compile-relationship-delta",
+            "compile-continuity-ledger",
+            "defer-dialogue-shot-and-provider-execution"
+          ],
+          "assembly_policy": "one deterministic card per microchapter; no provider call and no generated contact sheet"
+        },
+        "control_channels": {
+          "hard": [
+            {
+              "channel": "canonical_identity",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "behavior_logic",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "relationship_boundary",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "continuity_knowledge_state",
+              "fallback": {
+                "action": "block"
+              }
+            }
+          ],
+          "soft": [
+            "expression_path",
+            "gesture_intensity",
+            "voice_pace"
+          ],
+          "advisory": [
+            "era_texture",
+            "modern_emotional_entry",
+            "humor_timing"
+          ]
+        },
+        "evidence_bundle": {
+          "bundle_id": "EVID-S1-E01-M14",
+          "items": [
+            {
+              "evidence_id": "REL-005-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：关门后仍把热水留在桌上。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            },
+            {
+              "evidence_id": "REL-001-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：挂灯后把选择权让回。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            }
+          ],
+          "city_sources": [
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json"
+          ]
+        },
+        "license_profile": {
+          "ref": "license://linan-world/project-canon",
+          "status": "PROJECT-CANON-ONLY",
+          "external_identity_rights": "UNRESOLVED-BY-DESIGN",
+          "action": "block_external_execution_until_explicit_asset_rights"
+        },
+        "capability_gate": {
+          "status": "PLANNING-ONLY",
+          "resolved": [
+            "canonical_roster_lookup",
+            "deterministic_card_assembly",
+            "continuity_field_compilation"
+          ],
+          "unresolved_hard_capabilities": [
+            "provider_adapter",
+            "final_dialogue_render",
+            "shot_execution",
+            "verified_output_receipt"
+          ],
+          "action": "block_external_execution"
+        },
+        "provider_calls": 0,
+        "execution_request": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "qa_gate": {
+        "status": "PENDING-EPISODE-GATE",
+        "threshold": 90,
+        "dimensions": {
+          "character_consistency": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "expression_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "action_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "behavior_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "relationship_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "costume_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "prop_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "camera_performance": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "aigc_stability": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "story_logic": {
+            "score": null,
+            "status": "PENDING"
+          }
+        }
+      }
+    },
+    {
+      "chapter_id": "S1-E01-M15",
+      "episode_id": "S1-E01",
+      "sequence": 15,
+      "duration_seconds": 150,
+      "pov": {
+        "id": "CHR-L2-02",
+        "name": "林阿沅",
+        "canonical_identity_check": "qa/character-roster.json",
+        "profile_ref": "characters/central/chr-l2-02-lin-ayuan.md",
+        "asset_bible_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md"
+      },
+      "story_card": {
+        "function": "执行",
+        "cold_hook": "上一章留下的动作没有结束：陆清和的记录、物件或关系余波把问题递给林阿沅。",
+        "scene_goal": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+        "obstacle": "动作只能使用前文建立的职业能力、地形与关系权限。",
+        "evidence_or_relationship_action": "保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。",
+        "choice_cost": "母女裂缝成立，调查从家事变成公共责任。",
+        "tail_hook": {
+          "type": "动作",
+          "text": "保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。；下一章必须回应：香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。"
+        },
+        "next_chase": "香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。",
+        "state_delta": "林阿沅完成‘执行’：知识位置、关系位置或行动权限发生一项改变；本集状态线为：从家族遗物争执进入当代疑报核验。",
+        "dialogue_status": "DEFERRED-UNTIL-EPISODE-GATE",
+        "shot_id_status": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "character_state_sheet": {
+        "entry_state": "馄饨铺忙碌状态；边做事边说，眼睛追踪客人的饭量和来去。",
+        "exit_state": "完成本章后，林阿沅带着‘香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。’离场；不得提前获得下一章未提供的信息。",
+        "knowledge_before": "仅承接本章 cold_hook 与 Season Gate 已锁定的公开状态。",
+        "knowledge_after": "新增可见事实：保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。；下一步只追问：香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。。",
+        "appearance_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md",
+        "costume_ref": "production/ai/v6-character-asset-bible/04-costume/costume-system-standard.md",
+        "props_ref": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ]
+      },
+      "emotion_action_sheet": {
+        "primary_emotion": "集中",
+        "suppressed_secondary_emotion": "失败恐惧",
+        "expression_path": "好奇先前倾；被认真听见后突然安静；羞耻时笑得更大、视线飘开并马上补救。",
+        "breath": "忙时碎而有节奏；说快前会吸一口气；发现错误后先停一下再重说。",
+        "gaze": "追踪手、碗、门口和饭量变化；先看变化再找能确认的人。",
+        "hands": "记在油纸上、添汤、数碗、擦桌、回头确认空位。",
+        "body_weight": "前倾、轻快；要承担责任时脚步会突然稳住。",
+        "behavior_logic": "看到→确认→帮忙→可能说快→学会纠错。",
+        "voice_and_pace": "生活化、快慢不齐；重要事实前会主动放慢。",
+        "scene_specific_action": "保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。",
+        "forbidden_performance": "幼稚化、一直咋呼、凭闲话直接下诊断、用热闹掩盖受伤。"
+      },
+      "relationship_delta_sheet": {
+        "relation_ids": [
+          "REL-005",
+          "REL-001"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L2-01",
+          "CHR-L1-05"
+        ],
+        "episode_choice": "沈蘅违背陆清和保留香丸；顾行舟只提供消息，不替她决定是否调查。",
+        "episode_delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "chapter_boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。",
+        "trust_boundary_debt": "沿用本集关系选择与证据快照；本章只推进一项可观察变化，不清零旧账。",
+        "unresolved_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？"
+      },
+      "continuity_ledger": {
+        "time_window": "S1-E01 / M15; 精确钟点 DEFERRED-UNTIL-EPISODE-GATE",
+        "weather": "惊蛰雷雨后；若正式分场改变天气，必须回写 Episode Gate。",
+        "location_ids": [
+          "LOC-001",
+          "LOC-002",
+          "LOC-009"
+        ],
+        "wardrobe_state": "E01 春季工作状态；服装连续性以 v6 Costume Standard 为硬约束。",
+        "props_and_marks": "沿用 Season Ledger 已锁定物件；不得在本卡凭空新增关键道具。",
+        "information_state": "禁止角色跨越本章 evidence_or_relationship_action 直接知道后续真相。",
+        "handoff": "香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。"
+      },
+      "episode_bindings": {
+        "activity": {
+          "binding_id": "ACT-BIND-01",
+          "activity_id": "EVT-018",
+          "activity": "修匣与补伞的旧物修复",
+          "relationship_delta": "沈蘅把修补痕迹从家务细节升级为时间证据",
+          "state_transfer": "沈蘅不再把后仓当纯粹家内空间",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        },
+        "humor": {
+          "humor_id": "HUM-物件-01",
+          "speaker": "CHR-L1-01",
+          "humor_type": "物件笑点",
+          "surface_line": "陆清和把第四只碗也摆进来，说‘这只算谁的证据’",
+          "listener_reaction": "笑意只停在手上，母女冲突更清楚",
+          "recovery": "关系边界更具体，尾钩仍落在新胶痕",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        }
+      },
+      "production_control": {
+        "asset_recipe": {
+          "recipe_id": "recipe.linanspringletter.microchapter-production-card",
+          "version": "1.0.0",
+          "mode": "planning-only",
+          "deterministic_inputs": [
+            "S1-E01-M15",
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json",
+            "qa/relationship-evidence.json"
+          ],
+          "task_graph": [
+            "resolve-canonical-character",
+            "compile-story-card",
+            "compile-character-state",
+            "compile-emotion-action",
+            "compile-relationship-delta",
+            "compile-continuity-ledger",
+            "defer-dialogue-shot-and-provider-execution"
+          ],
+          "assembly_policy": "one deterministic card per microchapter; no provider call and no generated contact sheet"
+        },
+        "control_channels": {
+          "hard": [
+            {
+              "channel": "canonical_identity",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "behavior_logic",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "relationship_boundary",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "continuity_knowledge_state",
+              "fallback": {
+                "action": "block"
+              }
+            }
+          ],
+          "soft": [
+            "expression_path",
+            "gesture_intensity",
+            "voice_pace"
+          ],
+          "advisory": [
+            "era_texture",
+            "modern_emotional_entry",
+            "humor_timing"
+          ]
+        },
+        "evidence_bundle": {
+          "bundle_id": "EVID-S1-E01-M15",
+          "items": [
+            {
+              "evidence_id": "REL-005-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：关门后仍把热水留在桌上。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            },
+            {
+              "evidence_id": "REL-001-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：挂灯后把选择权让回。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            }
+          ],
+          "city_sources": [
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json"
+          ]
+        },
+        "license_profile": {
+          "ref": "license://linan-world/project-canon",
+          "status": "PROJECT-CANON-ONLY",
+          "external_identity_rights": "UNRESOLVED-BY-DESIGN",
+          "action": "block_external_execution_until_explicit_asset_rights"
+        },
+        "capability_gate": {
+          "status": "PLANNING-ONLY",
+          "resolved": [
+            "canonical_roster_lookup",
+            "deterministic_card_assembly",
+            "continuity_field_compilation"
+          ],
+          "unresolved_hard_capabilities": [
+            "provider_adapter",
+            "final_dialogue_render",
+            "shot_execution",
+            "verified_output_receipt"
+          ],
+          "action": "block_external_execution"
+        },
+        "provider_calls": 0,
+        "execution_request": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "qa_gate": {
+        "status": "PENDING-EPISODE-GATE",
+        "threshold": 90,
+        "dimensions": {
+          "character_consistency": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "expression_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "action_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "behavior_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "relationship_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "costume_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "prop_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "camera_performance": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "aigc_stability": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "story_logic": {
+            "score": null,
+            "status": "PENDING"
+          }
+        }
+      }
+    },
+    {
+      "chapter_id": "S1-E01-M16",
+      "episode_id": "S1-E01",
+      "sequence": 16,
+      "duration_seconds": 150,
+      "pov": {
+        "id": "CHR-L1-05",
+        "name": "顾行舟",
+        "canonical_identity_check": "qa/character-roster.json",
+        "profile_ref": "characters/central/chr-l1-05-gu-xingzhou.md",
+        "asset_bible_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md"
+      },
+      "story_card": {
+        "function": "真相兑现",
+        "cold_hook": "上一章留下的动作没有结束：林阿沅的记录、物件或关系余波把问题递给顾行舟。",
+        "scene_goal": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+        "obstacle": "真相不能撤销已经发生的伤害，只能重新分配责任。",
+        "evidence_or_relationship_action": "香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。",
+        "choice_cost": "母女裂缝成立，调查从家事变成公共责任。",
+        "tail_hook": {
+          "type": "真相",
+          "text": "香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。；下一章必须回应：保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。"
+        },
+        "next_chase": "保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。",
+        "state_delta": "顾行舟完成‘真相兑现’：知识位置、关系位置或行动权限发生一项改变；本集状态线为：从家族遗物争执进入当代疑报核验。",
+        "dialogue_status": "DEFERRED-UNTIL-EPISODE-GATE",
+        "shot_id_status": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "character_state_sheet": {
+        "entry_state": "酒肆掌柜与路线熟手；站位能看出口，先观察再动作。",
+        "exit_state": "完成本章后，顾行舟带着‘保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。’离场；不得提前获得下一章未提供的信息。",
+        "knowledge_before": "仅承接本章 cold_hook 与 Season Gate 已锁定的公开状态。",
+        "knowledge_after": "新增可见事实：香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。；下一步只追问：保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。。",
+        "appearance_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md",
+        "costume_ref": "production/ai/v6-character-asset-bible/04-costume/costume-system-standard.md",
+        "props_ref": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ]
+      },
+      "emotion_action_sheet": {
+        "primary_emotion": "克制的震动",
+        "suppressed_secondary_emotion": "无法补回的损失",
+        "expression_path": "先确认门、灯、危险物；关心不直接说而是完成安全检查；羞耻转去做具体任务；恐惧可能缩短他人的选择路径。",
+        "breath": "平静慢；警觉时短而低；接近失控时屏息半拍后才伸手。",
+        "gaze": "出口→危险物→对方脚下→对方眼睛；不长时间凝视表达深情。",
+        "hands": "挪刀、挂灯、看门、画路线、扶椅、收杯。",
+        "body_weight": "低重心、离门近；关系冲突时先站开，若失控抓腕属于重大连续性事件。",
+        "behavior_logic": "危险判断→最短生路→信息控制→情感处理；成长为告知风险→让对方决定。",
+        "voice_and_pace": "低、中速、少字；温柔时更慢；不以命令代替请求。",
+        "scene_specific_action": "香丸不是十三年前保存的预言，而是有人利用旧匣投递的一条当代疑报；投递者预判沈蘅会用职业方法拆穿时间伪装。",
+        "forbidden_performance": "霸总化、全程深情凝视、把保护直接等同控制、未经铺垫抓人。"
+      },
+      "relationship_delta_sheet": {
+        "relation_ids": [
+          "REL-005",
+          "REL-001"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L2-01",
+          "CHR-L1-05"
+        ],
+        "episode_choice": "沈蘅违背陆清和保留香丸；顾行舟只提供消息，不替她决定是否调查。",
+        "episode_delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "chapter_boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。",
+        "trust_boundary_debt": "沿用本集关系选择与证据快照；本章只推进一项可观察变化，不清零旧账。",
+        "unresolved_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？"
+      },
+      "continuity_ledger": {
+        "time_window": "S1-E01 / M16; 精确钟点 DEFERRED-UNTIL-EPISODE-GATE",
+        "weather": "惊蛰雷雨后；若正式分场改变天气，必须回写 Episode Gate。",
+        "location_ids": [
+          "LOC-001",
+          "LOC-002",
+          "LOC-009"
+        ],
+        "wardrobe_state": "E01 春季工作状态；服装连续性以 v6 Costume Standard 为硬约束。",
+        "props_and_marks": "沿用 Season Ledger 已锁定物件；不得在本卡凭空新增关键道具。",
+        "information_state": "禁止角色跨越本章 evidence_or_relationship_action 直接知道后续真相。",
+        "handoff": "保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。"
+      },
+      "episode_bindings": {
+        "activity": {
+          "binding_id": "ACT-BIND-01",
+          "activity_id": "EVT-018",
+          "activity": "修匣与补伞的旧物修复",
+          "relationship_delta": "沈蘅把修补痕迹从家务细节升级为时间证据",
+          "state_transfer": "沈蘅不再把后仓当纯粹家内空间",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        },
+        "humor": {
+          "humor_id": "HUM-物件-01",
+          "speaker": "CHR-L1-01",
+          "humor_type": "物件笑点",
+          "surface_line": "陆清和把第四只碗也摆进来，说‘这只算谁的证据’",
+          "listener_reaction": "笑意只停在手上，母女冲突更清楚",
+          "recovery": "关系边界更具体，尾钩仍落在新胶痕",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        }
+      },
+      "production_control": {
+        "asset_recipe": {
+          "recipe_id": "recipe.linanspringletter.microchapter-production-card",
+          "version": "1.0.0",
+          "mode": "planning-only",
+          "deterministic_inputs": [
+            "S1-E01-M16",
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json",
+            "qa/relationship-evidence.json"
+          ],
+          "task_graph": [
+            "resolve-canonical-character",
+            "compile-story-card",
+            "compile-character-state",
+            "compile-emotion-action",
+            "compile-relationship-delta",
+            "compile-continuity-ledger",
+            "defer-dialogue-shot-and-provider-execution"
+          ],
+          "assembly_policy": "one deterministic card per microchapter; no provider call and no generated contact sheet"
+        },
+        "control_channels": {
+          "hard": [
+            {
+              "channel": "canonical_identity",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "behavior_logic",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "relationship_boundary",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "continuity_knowledge_state",
+              "fallback": {
+                "action": "block"
+              }
+            }
+          ],
+          "soft": [
+            "expression_path",
+            "gesture_intensity",
+            "voice_pace"
+          ],
+          "advisory": [
+            "era_texture",
+            "modern_emotional_entry",
+            "humor_timing"
+          ]
+        },
+        "evidence_bundle": {
+          "bundle_id": "EVID-S1-E01-M16",
+          "items": [
+            {
+              "evidence_id": "REL-005-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：关门后仍把热水留在桌上。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            },
+            {
+              "evidence_id": "REL-001-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：挂灯后把选择权让回。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            }
+          ],
+          "city_sources": [
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json"
+          ]
+        },
+        "license_profile": {
+          "ref": "license://linan-world/project-canon",
+          "status": "PROJECT-CANON-ONLY",
+          "external_identity_rights": "UNRESOLVED-BY-DESIGN",
+          "action": "block_external_execution_until_explicit_asset_rights"
+        },
+        "capability_gate": {
+          "status": "PLANNING-ONLY",
+          "resolved": [
+            "canonical_roster_lookup",
+            "deterministic_card_assembly",
+            "continuity_field_compilation"
+          ],
+          "unresolved_hard_capabilities": [
+            "provider_adapter",
+            "final_dialogue_render",
+            "shot_execution",
+            "verified_output_receipt"
+          ],
+          "action": "block_external_execution"
+        },
+        "provider_calls": 0,
+        "execution_request": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "qa_gate": {
+        "status": "PENDING-EPISODE-GATE",
+        "threshold": 90,
+        "dimensions": {
+          "character_consistency": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "expression_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "action_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "behavior_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "relationship_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "costume_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "prop_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "camera_performance": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "aigc_stability": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "story_logic": {
+            "score": null,
+            "status": "PENDING"
+          }
+        }
+      }
+    },
+    {
+      "chapter_id": "S1-E01-M17",
+      "episode_id": "S1-E01",
+      "sequence": 17,
+      "duration_seconds": 150,
+      "pov": {
+        "id": "CHR-L1-01",
+        "name": "沈蘅",
+        "canonical_identity_check": "qa/character-roster.json",
+        "profile_ref": "characters/central/chr-l1-01-shen-heng.md",
+        "asset_bible_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md"
+      },
+      "story_card": {
+        "function": "伦理决定",
+        "cold_hook": "上一章留下的动作没有结束：顾行舟的记录、物件或关系余波把问题递给沈蘅。",
+        "scene_goal": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+        "obstacle": "角色要选择愿意成为什么样的人，而不是选择无代价的正确。",
+        "evidence_or_relationship_action": "保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。",
+        "choice_cost": "母女裂缝成立，调查从家事变成公共责任。",
+        "tail_hook": {
+          "type": "伦理",
+          "text": "保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。；下一章必须回应：修匣黏合物来自近半年，说明有人刚把香丸放进旧匣，而且知道沈蘅会发现。"
+        },
+        "next_chase": "修匣黏合物来自近半年，说明有人刚把香丸放进旧匣，而且知道沈蘅会发现。",
+        "state_delta": "沈蘅完成‘伦理决定’：知识位置、关系位置或行动权限发生一项改变；本集状态线为：从家族遗物争执进入当代疑报核验。",
+        "dialogue_status": "DEFERRED-UNTIL-EPISODE-GATE",
+        "shot_id_status": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "character_state_sheet": {
+        "entry_state": "调香铺工作状态；先看物，再看手，最后看人；呼吸稳定。",
+        "exit_state": "完成本章后，沈蘅带着‘修匣黏合物来自近半年，说明有人刚把香丸放进旧匣，而且知道沈蘅会发现。’离场；不得提前获得下一章未提供的信息。",
+        "knowledge_before": "仅承接本章 cold_hook 与 Season Gate 已锁定的公开状态。",
+        "knowledge_after": "新增可见事实：保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。；下一步只追问：修匣黏合物来自近半年，说明有人刚把香丸放进旧匣，而且知道沈蘅会发现。。",
+        "appearance_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md",
+        "costume_ref": "production/ai/v6-character-asset-bible/04-costume/costume-system-standard.md",
+        "props_ref": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ]
+      },
+      "emotion_action_sheet": {
+        "primary_emotion": "承担",
+        "suppressed_secondary_emotion": "不被理解",
+        "expression_path": "触发后先移开视线落到物件；呼吸变浅；把物件摆正；再以短句回应。",
+        "breath": "平静中慢；核验时短暂停气；情绪越强越压低而不是加快。",
+        "gaze": "物→手→人；需要判断时在记录、证物和对方之间往返。",
+        "hands": "压纸边、摆正器物、闻香前停镊；记录前留空。",
+        "body_weight": "轻微前倾，脚步稳定；面对压力先收窄动作范围。",
+        "behavior_logic": "观察→核验→分类→判断→表达；不以感觉替代证据。",
+        "voice_and_pace": "中低音、中慢速；结论前停半拍；愤怒时更低、更精确。",
+        "scene_specific_action": "保留香丸，公开写下‘未核’，不借亡父名义给城市下结论。",
+        "forbidden_performance": "冷艳面瘫、突然大哭、无证据宣布结论、把亲情冲突演成胜负。"
+      },
+      "relationship_delta_sheet": {
+        "relation_ids": [
+          "REL-005",
+          "REL-001"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L2-01",
+          "CHR-L1-05"
+        ],
+        "episode_choice": "沈蘅违背陆清和保留香丸；顾行舟只提供消息，不替她决定是否调查。",
+        "episode_delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "chapter_boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。",
+        "trust_boundary_debt": "沿用本集关系选择与证据快照；本章只推进一项可观察变化，不清零旧账。",
+        "unresolved_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？"
+      },
+      "continuity_ledger": {
+        "time_window": "S1-E01 / M17; 精确钟点 DEFERRED-UNTIL-EPISODE-GATE",
+        "weather": "惊蛰雷雨后；若正式分场改变天气，必须回写 Episode Gate。",
+        "location_ids": [
+          "LOC-001",
+          "LOC-002",
+          "LOC-009"
+        ],
+        "wardrobe_state": "E01 春季工作状态；服装连续性以 v6 Costume Standard 为硬约束。",
+        "props_and_marks": "沿用 Season Ledger 已锁定物件；不得在本卡凭空新增关键道具。",
+        "information_state": "禁止角色跨越本章 evidence_or_relationship_action 直接知道后续真相。",
+        "handoff": "修匣黏合物来自近半年，说明有人刚把香丸放进旧匣，而且知道沈蘅会发现。"
+      },
+      "episode_bindings": {
+        "activity": {
+          "binding_id": "ACT-BIND-01",
+          "activity_id": "EVT-018",
+          "activity": "修匣与补伞的旧物修复",
+          "relationship_delta": "沈蘅把修补痕迹从家务细节升级为时间证据",
+          "state_transfer": "沈蘅不再把后仓当纯粹家内空间",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        },
+        "humor": {
+          "humor_id": "HUM-物件-01",
+          "speaker": "CHR-L1-01",
+          "humor_type": "物件笑点",
+          "surface_line": "陆清和把第四只碗也摆进来，说‘这只算谁的证据’",
+          "listener_reaction": "笑意只停在手上，母女冲突更清楚",
+          "recovery": "关系边界更具体，尾钩仍落在新胶痕",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        }
+      },
+      "production_control": {
+        "asset_recipe": {
+          "recipe_id": "recipe.linanspringletter.microchapter-production-card",
+          "version": "1.0.0",
+          "mode": "planning-only",
+          "deterministic_inputs": [
+            "S1-E01-M17",
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json",
+            "qa/relationship-evidence.json"
+          ],
+          "task_graph": [
+            "resolve-canonical-character",
+            "compile-story-card",
+            "compile-character-state",
+            "compile-emotion-action",
+            "compile-relationship-delta",
+            "compile-continuity-ledger",
+            "defer-dialogue-shot-and-provider-execution"
+          ],
+          "assembly_policy": "one deterministic card per microchapter; no provider call and no generated contact sheet"
+        },
+        "control_channels": {
+          "hard": [
+            {
+              "channel": "canonical_identity",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "behavior_logic",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "relationship_boundary",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "continuity_knowledge_state",
+              "fallback": {
+                "action": "block"
+              }
+            }
+          ],
+          "soft": [
+            "expression_path",
+            "gesture_intensity",
+            "voice_pace"
+          ],
+          "advisory": [
+            "era_texture",
+            "modern_emotional_entry",
+            "humor_timing"
+          ]
+        },
+        "evidence_bundle": {
+          "bundle_id": "EVID-S1-E01-M17",
+          "items": [
+            {
+              "evidence_id": "REL-005-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：关门后仍把热水留在桌上。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            },
+            {
+              "evidence_id": "REL-001-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：挂灯后把选择权让回。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            }
+          ],
+          "city_sources": [
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json"
+          ]
+        },
+        "license_profile": {
+          "ref": "license://linan-world/project-canon",
+          "status": "PROJECT-CANON-ONLY",
+          "external_identity_rights": "UNRESOLVED-BY-DESIGN",
+          "action": "block_external_execution_until_explicit_asset_rights"
+        },
+        "capability_gate": {
+          "status": "PLANNING-ONLY",
+          "resolved": [
+            "canonical_roster_lookup",
+            "deterministic_card_assembly",
+            "continuity_field_compilation"
+          ],
+          "unresolved_hard_capabilities": [
+            "provider_adapter",
+            "final_dialogue_render",
+            "shot_execution",
+            "verified_output_receipt"
+          ],
+          "action": "block_external_execution"
+        },
+        "provider_calls": 0,
+        "execution_request": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "qa_gate": {
+        "status": "PENDING-EPISODE-GATE",
+        "threshold": 90,
+        "dimensions": {
+          "character_consistency": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "expression_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "action_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "behavior_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "relationship_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "costume_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "prop_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "camera_performance": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "aigc_stability": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "story_logic": {
+            "score": null,
+            "status": "PENDING"
+          }
+        }
+      }
+    },
+    {
+      "chapter_id": "S1-E01-M18",
+      "episode_id": "S1-E01",
+      "sequence": 18,
+      "duration_seconds": 150,
+      "pov": {
+        "id": "CHR-L2-01",
+        "name": "陆清和",
+        "canonical_identity_check": "qa/character-roster.json",
+        "profile_ref": "characters/central/chr-l2-01-lu-qinghe.md",
+        "asset_bible_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md"
+      },
+      "story_card": {
+        "function": "母集闭环",
+        "cold_hook": "上一章留下的动作没有结束：沈蘅的记录、物件或关系余波把问题递给陆清和。",
+        "scene_goal": "推进‘‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？’",
+        "obstacle": "局部问题收束，但片尾只能打开相邻的下一层追问。",
+        "evidence_or_relationship_action": "修匣黏合物来自近半年，说明有人刚把香丸放进旧匣，而且知道沈蘅会发现。",
+        "choice_cost": "母女裂缝成立，调查从家事变成公共责任。",
+        "tail_hook": {
+          "type": "物证",
+          "text": "修匣黏合物来自近半年，说明有人刚把香丸放进旧匣，而且知道沈蘅会发现。"
+        },
+        "next_chase": "追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。",
+        "state_delta": "陆清和完成‘母集闭环’：知识位置、关系位置或行动权限发生一项改变；本集状态线为：从家族遗物争执进入当代疑报核验。",
+        "dialogue_status": "DEFERRED-UNTIL-EPISODE-GATE",
+        "shot_id_status": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "character_state_sheet": {
+        "entry_state": "香铺掌柜工作状态；一边做事一边听，手上保持生活动作。",
+        "exit_state": "完成本章后，陆清和带着‘追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。’离场；不得提前获得下一章未提供的信息。",
+        "knowledge_before": "仅承接本章 cold_hook 与 Season Gate 已锁定的公开状态。",
+        "knowledge_after": "新增可见事实：修匣黏合物来自近半年，说明有人刚把香丸放进旧匣，而且知道沈蘅会发现。；下一步只追问：追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。。",
+        "appearance_ref": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md",
+        "costume_ref": "production/ai/v6-character-asset-bible/04-costume/costume-system-standard.md",
+        "props_ref": [
+          "story/season/season-causal-ledger.json",
+          "story/season/short-chapter-hook-map.json"
+        ]
+      },
+      "emotion_action_sheet": {
+        "primary_emotion": "短暂喘息",
+        "suppressed_secondary_emotion": "下一层问题已打开",
+        "expression_path": "先继续整理、翻账或拨灯；眼神短暂停在女儿身上；恐惧转为关门、收钱、确认孩子安全。",
+        "breath": "做事时均匀；恐惧时吸气变短但动作更整齐；怒时不提高音量。",
+        "gaze": "先看账、门、炉火和货架，再看人；不在冲突中长时间凝视。",
+        "hands": "锁钱匣、翻账、整理货架、拨灯芯、盖炉、抚平纸角。",
+        "body_weight": "重心贴近柜台与家务路线；争执时不后退，先把物件归位。",
+        "behavior_logic": "生活秩序→家人安全→生计→道德判断→自己的情感。",
+        "voice_and_pace": "低声、短句；真正愤怒时叫全名；爱意用留饭、留灯和留药表达。",
+        "scene_specific_action": "修匣黏合物来自近半年，说明有人刚把香丸放进旧匣，而且知道沈蘅会发现。",
+        "forbidden_performance": "恶母、歇斯底里、只恨亡夫、用哭喊替代生活账单。"
+      },
+      "relationship_delta_sheet": {
+        "relation_ids": [
+          "REL-005",
+          "REL-001"
+        ],
+        "character_ids": [
+          "CHR-L1-01",
+          "CHR-L2-01",
+          "CHR-L1-05"
+        ],
+        "episode_choice": "沈蘅违背陆清和保留香丸；顾行舟只提供消息，不替她决定是否调查。",
+        "episode_delta": "母女第一次因父亲遗产裂开；沈蘅与顾行舟建立‘提供事实但不代选’的初始边界。",
+        "chapter_boundary": "本章不新增身体接触权限；任何靠近、退开或替人做决定都必须在正式 Blocking 中记录。",
+        "trust_boundary_debt": "沿用本集关系选择与证据快照；本章只推进一项可观察变化，不清零旧账。",
+        "unresolved_question": "‘今岁无春’是沈怀川留下的遗言，还是有人刚放进旧匣的当代消息？"
+      },
+      "continuity_ledger": {
+        "time_window": "S1-E01 / M18; 精确钟点 DEFERRED-UNTIL-EPISODE-GATE",
+        "weather": "惊蛰雷雨后；若正式分场改变天气，必须回写 Episode Gate。",
+        "location_ids": [
+          "LOC-001",
+          "LOC-002",
+          "LOC-009"
+        ],
+        "wardrobe_state": "E01 春季工作状态；服装连续性以 v6 Costume Standard 为硬约束。",
+        "props_and_marks": "沿用 Season Ledger 已锁定物件；不得在本卡凭空新增关键道具。",
+        "information_state": "禁止角色跨越本章 evidence_or_relationship_action 直接知道后续真相。",
+        "handoff": "追查近半年谁修过旧匣、谁能进入沈家后仓，以及同一时段是否出现粮药货路异常。"
+      },
+      "episode_bindings": {
+        "activity": {
+          "binding_id": "ACT-BIND-01",
+          "activity_id": "EVT-018",
+          "activity": "修匣与补伞的旧物修复",
+          "relationship_delta": "沈蘅把修补痕迹从家务细节升级为时间证据",
+          "state_transfer": "沈蘅不再把后仓当纯粹家内空间",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        },
+        "humor": {
+          "humor_id": "HUM-物件-01",
+          "speaker": "CHR-L1-01",
+          "humor_type": "物件笑点",
+          "surface_line": "陆清和把第四只碗也摆进来，说‘这只算谁的证据’",
+          "listener_reaction": "笑意只停在手上，母女冲突更清楚",
+          "recovery": "关系边界更具体，尾钩仍落在新胶痕",
+          "placement_status": "DEFERRED-UNTIL-EPISODE-GATE"
+        }
+      },
+      "production_control": {
+        "asset_recipe": {
+          "recipe_id": "recipe.linanspringletter.microchapter-production-card",
+          "version": "1.0.0",
+          "mode": "planning-only",
+          "deterministic_inputs": [
+            "S1-E01-M18",
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json",
+            "qa/relationship-evidence.json"
+          ],
+          "task_graph": [
+            "resolve-canonical-character",
+            "compile-story-card",
+            "compile-character-state",
+            "compile-emotion-action",
+            "compile-relationship-delta",
+            "compile-continuity-ledger",
+            "defer-dialogue-shot-and-provider-execution"
+          ],
+          "assembly_policy": "one deterministic card per microchapter; no provider call and no generated contact sheet"
+        },
+        "control_channels": {
+          "hard": [
+            {
+              "channel": "canonical_identity",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "behavior_logic",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "relationship_boundary",
+              "fallback": {
+                "action": "block"
+              }
+            },
+            {
+              "channel": "continuity_knowledge_state",
+              "fallback": {
+                "action": "block"
+              }
+            }
+          ],
+          "soft": [
+            "expression_path",
+            "gesture_intensity",
+            "voice_pace"
+          ],
+          "advisory": [
+            "era_texture",
+            "modern_emotional_entry",
+            "humor_timing"
+          ]
+        },
+        "evidence_bundle": {
+          "bundle_id": "EVID-S1-E01-M18",
+          "items": [
+            {
+              "evidence_id": "REL-005-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：关门后仍把热水留在桌上。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            },
+            {
+              "evidence_id": "REL-001-EV-01",
+              "semantic_role": "relationship-observation",
+              "source_refs": [
+                "qa/relationship-evidence.json"
+              ],
+              "observation": "建立关系基线：挂灯后把选择权让回。",
+              "rights": {
+                "license_profile_ref": "license://linan-world/project-canon",
+                "status": "PROJECT-CANON-ONLY"
+              }
+            }
+          ],
+          "city_sources": [
+            "story/season/season-causal-ledger.json",
+            "story/season/short-chapter-hook-map.json"
+          ]
+        },
+        "license_profile": {
+          "ref": "license://linan-world/project-canon",
+          "status": "PROJECT-CANON-ONLY",
+          "external_identity_rights": "UNRESOLVED-BY-DESIGN",
+          "action": "block_external_execution_until_explicit_asset_rights"
+        },
+        "capability_gate": {
+          "status": "PLANNING-ONLY",
+          "resolved": [
+            "canonical_roster_lookup",
+            "deterministic_card_assembly",
+            "continuity_field_compilation"
+          ],
+          "unresolved_hard_capabilities": [
+            "provider_adapter",
+            "final_dialogue_render",
+            "shot_execution",
+            "verified_output_receipt"
+          ],
+          "action": "block_external_execution"
+        },
+        "provider_calls": 0,
+        "execution_request": "DEFERRED-UNTIL-EPISODE-GATE"
+      },
+      "qa_gate": {
+        "status": "PENDING-EPISODE-GATE",
+        "threshold": 90,
+        "dimensions": {
+          "character_consistency": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "expression_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "action_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "behavior_logic": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "relationship_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "costume_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "prop_continuity": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "camera_performance": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "aigc_stability": {
+            "score": null,
+            "status": "PENDING"
+          },
+          "story_logic": {
+            "score": null,
+            "status": "PENDING"
+          }
+        }
+      }
+    }
+  ],
+  "deferred_boundary": {
+    "final_dialogue": "DEFERRED-UNTIL-EPISODE-GATE",
+    "shot_ids": "DEFERRED-UNTIL-EPISODE-GATE",
+    "activity_scene_placement": "DEFERRED-UNTIL-EPISODE-GATE",
+    "humor_scene_placement": "DEFERRED-UNTIL-EPISODE-GATE",
+    "u_unique_identity": "DEFERRED-UNTIL-EPISODE-GATE",
+    "bg_microchapter_and_extension_bindings": "DEFERRED-UNTIL-EPISODE-GATE"
+  },
+  "execution_policy": "NO_PROVIDER_CALLS; external execution remains blocked until immutable Episode Gate approval and rights/capability resolution.",
+  "next_gate": "Episode Gate: formal scene/dialogue, blocking, storyboard, AIGC asset binding and ten-dimension QA."
+}
