@@ -1,10 +1,9 @@
 {
   "baseline": "APPROVED",
   "canon_gate": "LOCKED",
-  "character_foundation_gate": "OPEN",
+  "character_foundation_gate": "LOCKED",
   "season_gate": "OPEN",
   "episode_gate": "OPEN",
   "character_final_gate": "OPEN",
-  "delivery_gate": "OPEN",
-  "character_foundation_gate": "LOCKED"
+  "delivery_gate": "OPEN"
 }
