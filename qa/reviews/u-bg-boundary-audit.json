@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "scope": "P1 U/BG boundary audit",
+  "U": {
+    "status": "PASS",
+    "slot_count": 120,
+    "pov_slot_count": 22,
+    "pov_candidate_count": 44,
+    "natural_return_candidate_count": 40,
+    "all_reserved": true,
+    "no_named_identity": true,
+    "no_downstream_bindings": true,
+    "findings": [],
+    "gate_note": "U 仅通过 Foundation 边界审计；Season Gate 前仍保持可替换候选，不分配唯一主线身份。"
+  },
+  "BG": {
+    "status": "PASS",
+    "archetype_count": 300,
+    "minimum_count": 300,
+    "all_reserved": true,
+    "static_decoration_records": 0,
+    "all_downstream_arrays_empty": true,
+    "all_usage_bindings_traceable": true,
+    "findings": [],
+    "gate_note": "BG 仅通过 Foundation 边界审计；Episode Gate 前不写入具体 microchapter_ids 或 extension_ids。"
+  },
+  "downstream_binding_policy": {
+    "U": "RESERVED-UNTIL-SEASON-GATE",
+    "BG": "RESERVED-UNTIL-EPISODE-GATE",
+    "no_early_identity_assignment": true,
+    "no_early_microchapter_binding": true
+  },
+  "findings": []
+}

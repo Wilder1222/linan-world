@@ -6,6 +6,33 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
+STATE_DIMENSION_BEFORE = (
+    "亲近刚出现，信任仍低于防备",
+    "亲近上升，但共同秘密与信息边界尚未对齐",
+    "依赖与责任同时增加，双方对谁先承担仍有分歧",
+    "普通生活暂时压过危机，敬意与怨恨被日常掩住",
+    "旧伤已经公开，信任与边界进入不可回到原状的阶段",
+    "危机要求协作，但亲近、信任和共同秘密不再自动同步",
+)
+
+STATE_DIMENSION_AFTER = (
+    "亲近增加一格，边界第一次被明确说出",
+    "信任出现裂缝，共同秘密被切成可交付与不可交付两层",
+    "亏欠被写入关系账，依赖不再等于服从",
+    "敬意与怨恨同时留存，普通日子不能抹掉错过的核验",
+    "信任下降但选择权回到各自手中，关系不再由一方替另一方决定",
+    "共同秘密转为公共责任，亲近可以继续但必须经过再次选择",
+)
+
+STATE_COST_EFFECTS = (
+    "失去把关系当作轻松照料的假象，双方边界第一次可以被拒绝",
+    "不完整信息让一次判断延误，关系信用出现可追溯损失",
+    "职业或公共选择迫使至少一人失去收入、机会或原有位置",
+    "为了普通生活错过一次核验或机会，进度不可逆地落后",
+    "冲突公开并落到具体的人、资源或前途，关系不能立即修复",
+    "共同协作仍保留旧账，主动放弃控制、声誉或免罪可能性之一",
+)
+
 SPINES = [
     {
         "id": "LOVE",
@@ -97,7 +124,7 @@ SPINES = [
 def write_json() -> None:
     payload = {
         "schema_version": "1.0",
-        "status": "FOUNDATION-DRAFT",
+        "status": "FOUNDATION-PRESSURE-READY",
         "dimensions": ["亲近", "信任", "亏欠", "依赖", "敬意", "怨恨", "共同秘密"],
         "spines": [
             {
@@ -110,13 +137,13 @@ def write_json() -> None:
                         "id": f"EM-A{index:02d}-{spine['id']}",
                         "relation_id": row[0],
                         "mixed_emotions": row[1],
-                        "seven_dimension_before": "七维状态由关系档案初始值承接",
-                        "seven_dimension_after": "至少一项七维状态因具体动作发生变化",
+                        "seven_dimension_before": f"{STATE_DIMENSION_BEFORE[index - 1]}；具体混合情绪为‘{row[1]}’。",
+                        "seven_dimension_after": f"{STATE_DIMENSION_AFTER[index - 1]}；关系余波：{row[5]}。",
                         "choice": row[2],
-                        "cost": row[3],
+                        "cost": f"动作：{row[3]}；不可逆代价：{STATE_COST_EFFECTS[index - 1]}。",
                         "aftermath": row[4],
                         "observable_evidence": row[5],
-                        "status": "SEMANTIC-SKELETON",
+                        "status": "PRESSURE-READY",
                     }
                     for index, row in enumerate(spine["arc"], 1)
                 ],

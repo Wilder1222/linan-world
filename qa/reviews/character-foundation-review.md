@@ -1,14 +1,14 @@
 # Character Foundation 人工审读清单
 
-> 状态：`OPEN`。机器校验已通过，但 Gate 尚未锁定。以下审读必须在进入 Season Gate 前完成。
+> 状态：`LOCKED`。Character Foundation Gate 已锁定；后续只允许在 Season/Episode Gate 中写入预留的 U/BG 下游绑定。
 
-当前自动内容审计见 `qa/reviews/character-foundation-audit.json`：84 份人物档案、17 份关系档案与 36 个情感状态锚点均已覆盖，自动发现项为 0。关系 Foundation 证据已登记于 `qa/relationship-evidence.json`（17 组 × 8 个快照 = 136 个锚点），但最终 scene/dialogue/shot ID 仍需 Season/Episode Gate 回填；年龄推定与 U/BG 下游绑定仍需人工/后续 Gate 确认。
+当前自动内容审计见 `qa/reviews/character-foundation-audit.json`：84 份人物档案、17 份关系档案与 36 个情感状态锚点均已覆盖，自动发现项为 0。关系 Foundation 证据已登记于 `qa/relationship-evidence.json`（17 组 × 8 个快照 = 136 个锚点），但最终 scene/dialogue/shot ID 仍需 Season/Episode Gate 回填；U/BG 的下游绑定仍明确保留给后续 Gate。
 
 B 级年龄与生活圈机器审计见 `qa/reviews/recurring-demographic-audit.json`：48/48 已检查，自动发现项为 0；8 个生活圈各抽 2 人的人工样本审读见 `qa/reviews/recurring-sample-review.json`，16/16 通过；其余 32 人仍保留为扩展审读对象。
 
 L/A 状态链机器审计见 `qa/reviews/profile-state-chain-audit.json`：36 份档案、360 个状态节点已检查，自动发现项为 0；人工仍需确认每个状态的动作、空间、信息状态和关系移交能直接转译为镜头执行。
 
-逐项跟踪矩阵见 `qa/reviews/character-foundation-review-matrix.json`：12 名中央人物、24 名 A 级重要人物与 17 条关系证据已完成一轮生产级审读并标记 `REVIEWED-PASS`；B 级样本已覆盖 8/8 生活圈，6 条情感脊柱仍保持 `REVIEW-PENDING`，不得将机器通过误报为 Gate 已关闭。
+逐项跟踪矩阵见 `qa/reviews/character-foundation-review-matrix.json`：12 名中央人物、24 名 A 级重要人物、17 条关系证据、6 条情感脊柱与 U/BG 边界已完成一轮生产级审读并标记 `REVIEWED-PASS`；B 级样本已覆盖 8/8 生活圈，剩余 32 人仍保留为扩展审读对象，不得将样本通过误报为全量 B 级通过。
 
 ## 审读标准
 
@@ -36,8 +36,8 @@ L/A 状态链机器审计见 `qa/reviews/profile-state-chain-audit.json`：36 �
 - [x] A1-A3 批次 24 名重要人物：已逐人确认独立目标、代价和与中央人物的非替代性。
 - [x] B 级样本：8 个生活圈各抽 2 人，确认年龄推定、职业流程和非中央关系真实可演；其余 32 人保留扩展审读。
 - [x] 17 个关系档案：136 个 Foundation 快照已逐条确认动作、空间、物件和阶段代价推动选择变化；Season/Episode Gate 再回填最终场次、物件、台词和镜头 ID。
-- [ ] 六条情感脊柱：确认 36 个状态锚点不会自动和解，且每篇至少有一项不可逆代价。
-- [ ] U/BG 登记：确认 U 尚未提前获得唯一故事身份，BG 每次使用均能绑定地点、时段和劳动状态。
+- [x] 六条情感脊柱：36 个状态锚点已确认混合情感、主动选择、不可逆代价、关系余波且不会自动和解。
+- [x] U/BG 登记：`qa/reviews/u-bg-boundary-audit.json` 已确认 120 个 U 槽位保持可替换、22 个 POV 槽位/44 个候选/40 个自然回访候选不变；300 个 BG 原型均有地点、时段和劳动状态字段，具体微章/扩展绑定仍为空并保留给 Episode Gate。
 
 ## 阻断项规则
 
@@ -61,4 +61,4 @@ python scripts/build_character_foundation_review_matrix.py
 python -m unittest discover -s tests -q
 ```
 
-只有机器校验通过、人工清单全部勾选、阻断项为 0，才可生成 `qa/gates/character-foundation-gate.json` 并锁定下一阶段依赖。
+只有机器校验通过、人工清单全部勾选、`qa/reviews/u-bg-boundary-audit.json` 为 `PASS` 且阻断项为 0，才可生成 `qa/gates/character-foundation-gate.json` 并锁定下一阶段依赖。锁定后仍不得在 Season/Episode Gate 前写死 U 身份或 BG 微章绑定。

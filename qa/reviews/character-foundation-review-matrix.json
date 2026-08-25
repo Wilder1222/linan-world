@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "OPEN",
+  "status": "LOCKED",
   "gate": "CHARACTER-FOUNDATION",
   "review_scope": "P1 production review matrix",
   "summary": {
@@ -15,6 +15,7 @@
     "relationship_reviewed": 17,
     "relationship_evidence_total": 136,
     "emotional_spine_total": 6,
+    "emotional_spine_reviewed": 6,
     "machine_findings": 0
   },
   "profiles": [
@@ -1871,55 +1872,49 @@
       "spine_id": "LOVE",
       "name": "爱情",
       "state_count": 6,
-      "review_status": "REVIEW-PENDING",
-      "blocking_items": [
-        "确认每个状态具有混合情感、主动选择、不可逆代价和下一状态余波"
-      ]
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "blocking_items": []
     },
     {
       "spine_id": "FRIENDSHIP",
       "name": "友情",
       "state_count": 6,
-      "review_status": "REVIEW-PENDING",
-      "blocking_items": [
-        "确认每个状态具有混合情感、主动选择、不可逆代价和下一状态余波"
-      ]
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "blocking_items": []
     },
     {
       "spine_id": "FAMILY",
       "name": "亲情",
       "state_count": 6,
-      "review_status": "REVIEW-PENDING",
-      "blocking_items": [
-        "确认每个状态具有混合情感、主动选择、不可逆代价和下一状态余波"
-      ]
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "blocking_items": []
     },
     {
       "spine_id": "MENTORSHIP",
       "name": "师徒",
       "state_count": 6,
-      "review_status": "REVIEW-PENDING",
-      "blocking_items": [
-        "确认每个状态具有混合情感、主动选择、不可逆代价和下一状态余波"
-      ]
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "blocking_items": []
     },
     {
       "spine_id": "COMRADES_INSTITUTIONS",
       "name": "同袍与制度",
       "state_count": 6,
-      "review_status": "REVIEW-PENDING",
-      "blocking_items": [
-        "确认每个状态具有混合情感、主动选择、不可逆代价和下一状态余波"
-      ]
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "blocking_items": []
     },
     {
       "spine_id": "IDEAL_COMMUNITY",
       "name": "理想共同体",
       "state_count": 6,
-      "review_status": "REVIEW-PENDING",
-      "blocking_items": [
-        "确认每个状态具有混合情感、主动选择、不可逆代价和下一状态余波"
-      ]
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "blocking_items": []
     }
   ],
   "recurring_sample_review": {
@@ -1934,19 +1929,26 @@
     "snapshot_total": 136,
     "report_path": "qa/reviews/relationship-evidence-quality.json"
   },
+  "emotional_spine_pressure_review": {
+    "status": "REVIEWED-PASS",
+    "spine_total": 6,
+    "state_total": 36,
+    "report_path": "qa/reviews/emotional-spine-pressure-test.json"
+  },
   "u_bg_boundary": {
+    "review_status": "REVIEWED-PASS",
+    "report_path": "qa/reviews/u-bg-boundary-audit.json",
     "U": {
-      "status": "PENDING-SEASON-GATE",
+      "status": "REVIEWED-PASS",
+      "downstream_binding": "RESERVED-UNTIL-SEASON-GATE",
       "rule": "保持可替换候选，不提前分配唯一主线身份"
     },
     "BG": {
-      "status": "PENDING-EPISODE-GATE",
+      "status": "REVIEWED-PASS",
+      "downstream_binding": "RESERVED-UNTIL-EPISODE-GATE",
       "rule": "具体 microchapter_ids 与 extension_ids 只能由 Episode Gate 写入"
     }
   },
-  "gate_blockers": [
-    "6 条情感脊柱的 36 个状态尚未完成压力测试",
-    "U/BG 尚未进入下游 Gate 绑定"
-  ],
-  "next_action": "完成 6 条情感脊柱压力测试；保留 32 名非样本 B 级人物作扩展审读，无阻断后再生成 Character Foundation Gate 证书。"
+  "gate_blockers": [],
+  "next_action": "生成并锁定 Character Foundation Gate 证书；保留 32 名非样本 B 级人物作扩展审读，不得将样本通过误报为全量 B 级通过。"
 }

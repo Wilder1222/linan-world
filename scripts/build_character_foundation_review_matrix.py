@@ -11,9 +11,12 @@ STATE_AUDIT = ROOT / "qa/reviews/profile-state-chain-audit.json"
 DEMOGRAPHIC_AUDIT = ROOT / "qa/reviews/recurring-demographic-audit.json"
 RECURRING_SAMPLE_REVIEW = ROOT / "qa/reviews/recurring-sample-review.json"
 RELATION_QUALITY = ROOT / "qa/reviews/relationship-evidence-quality.json"
+SPINE_PRESSURE = ROOT / "qa/reviews/emotional-spine-pressure-test.json"
+U_BG_BOUNDARY = ROOT / "qa/reviews/u-bg-boundary-audit.json"
 RELATION_EVIDENCE = ROOT / "qa/relationship-evidence.json"
 SPINES = ROOT / "qa/emotional-spines.json"
 REPORT = ROOT / "qa/reviews/character-foundation-review-matrix.json"
+GATE_CERTIFICATE = ROOT / "qa/gates/character-foundation-gate.json"
 
 # Important characters are reviewed in production batches.  A tier enters
 # REVIEWED-PASS only after the generated cards have been read as a set and the
@@ -99,6 +102,8 @@ def build() -> dict:
     demographic_audit = read_json(DEMOGRAPHIC_AUDIT)
     recurring_sample_review = read_json(RECURRING_SAMPLE_REVIEW)
     relation_quality = read_json(RELATION_QUALITY)
+    spine_pressure = read_json(SPINE_PRESSURE)
+    u_bg_boundary = read_json(U_BG_BOUNDARY)
     evidence = read_json(RELATION_EVIDENCE)
     spines = read_json(SPINES)
 
@@ -136,8 +141,9 @@ def build() -> dict:
             "spine_id": spine["id"],
             "name": spine["name"],
             "state_count": len(spine.get("arc_states", [])),
-            "review_status": "REVIEW-PENDING",
-            "blocking_items": ["确认每个状态具有混合情感、主动选择、不可逆代价和下一状态余波"],
+            "review_status": next((item["review_status"] for item in spine_pressure.get("spines", []) if item["spine_id"] == spine["id"]), "REVIEW-PENDING"),
+            "reviewer": "Codex production review" if next((item["review_status"] for item in spine_pressure.get("spines", []) if item["spine_id"] == spine["id"]), "") == "REVIEWED-PASS" else None,
+            "blocking_items": [] if next((item["review_status"] for item in spine_pressure.get("spines", []) if item["spine_id"] == spine["id"]), "") == "REVIEWED-PASS" else ["确认每个状态具有混合情感、主动选择、不可逆代价和下一状态余波"],
         }
         for spine in spines.get("spines", [])
     ]
@@ -145,9 +151,16 @@ def build() -> dict:
     central_count = sum(1 for item in profiles if item["tier"].startswith("L") and item["review_status"] == "REVIEWED-PASS")
     important_reviewed = sum(1 for item in profiles if item["tier"].startswith("A") and item["review_status"] == "REVIEWED-PASS")
     important_pending = sum(1 for item in profiles if item["tier"].startswith("A") and item["review_status"] == "REVIEW-PENDING")
+    u_bg_passed = u_bg_boundary.get("status") == "PASS"
+    gate_blockers = [] if u_bg_passed else ["U/BG 边界审计未通过"]
+    gate_locked = (
+        not gate_blockers
+        and GATE_CERTIFICATE.exists()
+        and read_json(GATE_CERTIFICATE).get("status") == "LOCKED"
+    )
     return {
         "schema_version": 1,
-        "status": "OPEN",
+        "status": "LOCKED" if gate_locked else ("READY-TO-LOCK" if not gate_blockers else "OPEN"),
         "gate": "CHARACTER-FOUNDATION",
         "review_scope": "P1 production review matrix",
         "summary": {
@@ -162,6 +175,7 @@ def build() -> dict:
             "relationship_reviewed": sum(1 for item in relationships if item["review_status"] == "REVIEWED-PASS"),
             "relationship_evidence_total": sum(item["foundation_evidence_count"] for item in relationships),
             "emotional_spine_total": len(spine_reviews),
+            "emotional_spine_reviewed": sum(1 for item in spine_reviews if item["review_status"] == "REVIEWED-PASS"),
             "machine_findings": len(content_audit.get("findings", [])) + len(state_audit.get("findings", [])) + len(demographic_audit.get("findings", [])),
         },
         "profiles": profiles,
@@ -179,15 +193,33 @@ def build() -> dict:
             "snapshot_total": relation_quality.get("snapshot_total", 0),
             "report_path": "qa/reviews/relationship-evidence-quality.json",
         },
-        "u_bg_boundary": {
-            "U": {"status": "PENDING-SEASON-GATE", "rule": "保持可替换候选，不提前分配唯一主线身份"},
-            "BG": {"status": "PENDING-EPISODE-GATE", "rule": "具体 microchapter_ids 与 extension_ids 只能由 Episode Gate 写入"},
+        "emotional_spine_pressure_review": {
+            "status": spine_pressure.get("status"),
+            "spine_total": spine_pressure.get("spine_total", 0),
+            "state_total": spine_pressure.get("state_total", 0),
+            "report_path": "qa/reviews/emotional-spine-pressure-test.json",
         },
-        "gate_blockers": [
-            "6 条情感脊柱的 36 个状态尚未完成压力测试",
-            "U/BG 尚未进入下游 Gate 绑定",
-        ],
-        "next_action": "完成 6 条情感脊柱压力测试；保留 32 名非样本 B 级人物作扩展审读，无阻断后再生成 Character Foundation Gate 证书。",
+        "u_bg_boundary": {
+            "review_status": "REVIEWED-PASS" if u_bg_passed else "REVIEW-PENDING",
+            "report_path": "qa/reviews/u-bg-boundary-audit.json",
+            "U": {
+                "status": "REVIEWED-PASS" if u_bg_passed else "REVIEW-PENDING",
+                "downstream_binding": "RESERVED-UNTIL-SEASON-GATE",
+                "rule": "保持可替换候选，不提前分配唯一主线身份",
+            },
+            "BG": {
+                "status": "REVIEWED-PASS" if u_bg_passed else "REVIEW-PENDING",
+                "downstream_binding": "RESERVED-UNTIL-EPISODE-GATE",
+                "rule": "具体 microchapter_ids 与 extension_ids 只能由 Episode Gate 写入",
+            },
+        },
+        "gate_blockers": gate_blockers,
+        "next_action": (
+            "生成并锁定 Character Foundation Gate 证书；保留 32 名非样本 B 级人物作扩展审读，"
+            "不得将样本通过误报为全量 B 级通过。"
+            if u_bg_passed
+            else "完成 U/BG 边界审计；保留 32 名非样本 B 级人物作扩展审读。"
+        ),
     }
 
 

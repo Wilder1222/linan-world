@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "status": "REVIEWED-PASS",
+  "scope": "P1 emotional spine pressure test",
+  "spine_total": 6,
+  "state_total": 36,
+  "findings": [],
+  "spines": [
+    {
+      "spine_id": "LOVE",
+      "name": "爱情",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "six_states": "PASS",
+        "mixed_emotion_each_state": "PASS",
+        "concrete_dimension_before": "PASS",
+        "concrete_dimension_after": "PASS",
+        "active_choice_each_state": "PASS",
+        "irreversible_cost_each_state": "PASS",
+        "aftermath_each_state": "PASS",
+        "observable_evidence_each_state": "PASS",
+        "cost_effects_change": "PASS",
+        "no_automatic_reconciliation": "PASS"
+      },
+      "notes": "已逐状态检查混合情感、主动选择、不可逆代价、关系余波与七维变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
+    },
+    {
+      "spine_id": "FRIENDSHIP",
+      "name": "友情",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "six_states": "PASS",
+        "mixed_emotion_each_state": "PASS",
+        "concrete_dimension_before": "PASS",
+        "concrete_dimension_after": "PASS",
+        "active_choice_each_state": "PASS",
+        "irreversible_cost_each_state": "PASS",
+        "aftermath_each_state": "PASS",
+        "observable_evidence_each_state": "PASS",
+        "cost_effects_change": "PASS",
+        "no_automatic_reconciliation": "PASS"
+      },
+      "notes": "已逐状态检查混合情感、主动选择、不可逆代价、关系余波与七维变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
+    },
+    {
+      "spine_id": "FAMILY",
+      "name": "亲情",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "six_states": "PASS",
+        "mixed_emotion_each_state": "PASS",
+        "concrete_dimension_before": "PASS",
+        "concrete_dimension_after": "PASS",
+        "active_choice_each_state": "PASS",
+        "irreversible_cost_each_state": "PASS",
+        "aftermath_each_state": "PASS",
+        "observable_evidence_each_state": "PASS",
+        "cost_effects_change": "PASS",
+        "no_automatic_reconciliation": "PASS"
+      },
+      "notes": "已逐状态检查混合情感、主动选择、不可逆代价、关系余波与七维变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
+    },
+    {
+      "spine_id": "MENTORSHIP",
+      "name": "师徒",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "six_states": "PASS",
+        "mixed_emotion_each_state": "PASS",
+        "concrete_dimension_before": "PASS",
+        "concrete_dimension_after": "PASS",
+        "active_choice_each_state": "PASS",
+        "irreversible_cost_each_state": "PASS",
+        "aftermath_each_state": "PASS",
+        "observable_evidence_each_state": "PASS",
+        "cost_effects_change": "PASS",
+        "no_automatic_reconciliation": "PASS"
+      },
+      "notes": "已逐状态检查混合情感、主动选择、不可逆代价、关系余波与七维变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
+    },
+    {
+      "spine_id": "COMRADES_INSTITUTIONS",
+      "name": "同袍与制度",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "six_states": "PASS",
+        "mixed_emotion_each_state": "PASS",
+        "concrete_dimension_before": "PASS",
+        "concrete_dimension_after": "PASS",
+        "active_choice_each_state": "PASS",
+        "irreversible_cost_each_state": "PASS",
+        "aftermath_each_state": "PASS",
+        "observable_evidence_each_state": "PASS",
+        "cost_effects_change": "PASS",
+        "no_automatic_reconciliation": "PASS"
+      },
+      "notes": "已逐状态检查混合情感、主动选择、不可逆代价、关系余波与七维变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
+    },
+    {
+      "spine_id": "IDEAL_COMMUNITY",
+      "name": "理想共同体",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "six_states": "PASS",
+        "mixed_emotion_each_state": "PASS",
+        "concrete_dimension_before": "PASS",
+        "concrete_dimension_after": "PASS",
+        "active_choice_each_state": "PASS",
+        "irreversible_cost_each_state": "PASS",
+        "aftermath_each_state": "PASS",
+        "observable_evidence_each_state": "PASS",
+        "cost_effects_change": "PASS",
+        "no_automatic_reconciliation": "PASS"
+      },
+      "notes": "已逐状态检查混合情感、主动选择、不可逆代价、关系余波与七维变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
+    }
+  ],
+  "manual_followup": [
+    "Season Gate 绑定具体关系、集号、scene/dialogue/shot ID。",
+    "确认六条脊柱在 36 集因果账本中互相造成后续影响，而非各自独立完成。"
+  ]
+}

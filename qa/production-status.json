@@ -5,5 +5,6 @@
   "season_gate": "OPEN",
   "episode_gate": "OPEN",
   "character_final_gate": "OPEN",
-  "delivery_gate": "OPEN"
+  "delivery_gate": "OPEN",
+  "character_foundation_gate": "LOCKED"
 }

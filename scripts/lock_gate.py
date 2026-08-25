@@ -37,7 +37,9 @@ def _write_json(path: Path, value: object) -> None:
 
 
 def _gate_key(gate: str) -> str:
-    return f"{gate}_gate"
+    # Gate IDs may use hyphens for file names (character-foundation), while
+    # production-status uses stable JSON keys with underscores.
+    return f"{gate.replace('-', '_')}_gate"
 
 
 def _certificate_path(root: Path, gate: str) -> Path:
@@ -60,8 +62,14 @@ def validate_status_integrity(root: Path) -> list[str]:
     for key, value in data.items():
         if not key.endswith("_gate") or value != "LOCKED":
             continue
-        gate = key[:-5]
+        gate_key = key[:-5]
+        gate = gate_key.replace("_", "-")
         cert = _certificate_path(root, gate)
+        if not cert.exists():
+            # Preserve compatibility with gate IDs that never contained a
+            # hyphen (for example canon).
+            gate = gate_key
+            cert = _certificate_path(root, gate)
         if not cert.exists():
             errors.append(f"locked_without_valid_certificate={gate}")
             continue

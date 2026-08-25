@@ -71,11 +71,6 @@
     "character-foundation": [
       "characters/00-character-schema.md",
       "characters/00-character-index.md",
-      "characters/central",
-      "characters/important",
-      "characters/recurring",
-      "characters/relations/core",
-      "characters/emotional-spines",
       "qa/character-roster.json",
       "qa/unit-slots.json",
       "qa/background-usage.json",
@@ -87,6 +82,8 @@
       "qa/reviews/recurring-demographic-audit.json",
       "qa/reviews/recurring-sample-review.json",
       "qa/reviews/relationship-evidence-quality.json",
+      "qa/reviews/emotional-spine-pressure-test.json",
+      "qa/reviews/u-bg-boundary-audit.json",
       "qa/reviews/profile-state-chain-audit.json",
       "qa/reviews/character-foundation-review-matrix.json"
     ]

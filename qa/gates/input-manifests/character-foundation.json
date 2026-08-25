@@ -1,0 +1,758 @@
+{
+  "schema_version": 1,
+  "gate": "character-foundation",
+  "scope": "character-foundation",
+  "created_at": "2026-08-25T11:14:51.676339+00:00",
+  "items": [
+    {
+      "id": "CHARFOUND-001",
+      "path": "characters/00-character-schema.md",
+      "mode": "whole_file",
+      "projection_sha256": "20cd21e99b52eed3be0e14f168a39d77c91778379914802aa9d43ea813e3b633"
+    },
+    {
+      "id": "CHARFOUND-002",
+      "path": "characters/00-character-index.md",
+      "mode": "whole_file",
+      "projection_sha256": "fec7c7d0f18afbfa4320b8a6a950b2b01c055e9801b4be3de83d59cc8bd9e969"
+    },
+    {
+      "id": "CHARFOUND-003",
+      "path": "qa/character-roster.json",
+      "mode": "whole_file",
+      "projection_sha256": "4b0a7843a6244a8db0a426250927749634a5f4d5431643dfed30009c8f8f0f44"
+    },
+    {
+      "id": "CHARFOUND-004",
+      "path": "qa/unit-slots.json",
+      "mode": "whole_file",
+      "projection_sha256": "428191c6fcf3c0fa3d3bde53a6039f27b92a7701d64fe262bcc55ed3cd852a53"
+    },
+    {
+      "id": "CHARFOUND-005",
+      "path": "qa/background-usage.json",
+      "mode": "whole_file",
+      "projection_sha256": "5c208e13d21f5b3eac71b4c6f43a31b280b7f5aaff2d3f046e0b2e3b8c767da4"
+    },
+    {
+      "id": "CHARFOUND-006",
+      "path": "qa/relationship-slots.json",
+      "mode": "whole_file",
+      "projection_sha256": "b16ead194869c083e2cb3cb2a9b07dabdfb9985dc6b3335d31c0adcf0dbe6ae8"
+    },
+    {
+      "id": "CHARFOUND-007",
+      "path": "qa/relationship-evidence.json",
+      "mode": "whole_file",
+      "projection_sha256": "0c7df12cd90699bcd54475bc134ef4169a5c10ade5cf80a7ab0c75833b2dcd71"
+    },
+    {
+      "id": "CHARFOUND-008",
+      "path": "qa/emotional-spines.json",
+      "mode": "whole_file",
+      "projection_sha256": "38077fc9355329d4e2d42c80873f47deffdc66eac3a79751ff4fa5eab0e63330"
+    },
+    {
+      "id": "CHARFOUND-009",
+      "path": "qa/reviews/character-foundation-review.md",
+      "mode": "whole_file",
+      "projection_sha256": "7e84aae5553abff9c6f9337c331f5dd7eef332046bb8dbfdf364890cc0ca8770"
+    },
+    {
+      "id": "CHARFOUND-010",
+      "path": "qa/reviews/character-foundation-audit.json",
+      "mode": "whole_file",
+      "projection_sha256": "66edbe7a3b3023e79558c90e6f82d4c8c76016e6c64b4344d87f4162b4d143eb"
+    },
+    {
+      "id": "CHARFOUND-011",
+      "path": "qa/reviews/recurring-demographic-audit.json",
+      "mode": "whole_file",
+      "projection_sha256": "f2c9c50c83e3da8d4eca45165f62587bfa7ab092f4d56f200950c146f0f66d30"
+    },
+    {
+      "id": "CHARFOUND-012",
+      "path": "qa/reviews/recurring-sample-review.json",
+      "mode": "whole_file",
+      "projection_sha256": "3ec67a796256a20cc1d54b7d2a2efa6d6d84c135e186afd277359e74928a182b"
+    },
+    {
+      "id": "CHARFOUND-013",
+      "path": "qa/reviews/relationship-evidence-quality.json",
+      "mode": "whole_file",
+      "projection_sha256": "9837546c8b33971a480bfd046d10f080f3aacf5709e1556224f985c03c4cd913"
+    },
+    {
+      "id": "CHARFOUND-014",
+      "path": "qa/reviews/emotional-spine-pressure-test.json",
+      "mode": "whole_file",
+      "projection_sha256": "d019162b1899f5c82e79b52a25b3dfc88a8f084d5fe8ce692debf6c2f1db05db"
+    },
+    {
+      "id": "CHARFOUND-015",
+      "path": "qa/reviews/u-bg-boundary-audit.json",
+      "mode": "whole_file",
+      "projection_sha256": "54cb5e7c8f8aa786e89fb9e1c6282af7b099310302c7f34f13af68a970eb190d"
+    },
+    {
+      "id": "CHARFOUND-016",
+      "path": "qa/reviews/profile-state-chain-audit.json",
+      "mode": "whole_file",
+      "projection_sha256": "592e74a2d9fbc541482c2788ffee3db135f29f3170df3194be8398a5f1236d18"
+    },
+    {
+      "id": "CHARFOUND-017",
+      "path": "qa/reviews/character-foundation-review-matrix.json",
+      "mode": "whole_file",
+      "projection_sha256": "63a1d3cc6f06cc8f298d742ce4ddc6ac43a2ad915a76a1bc9dfa79bd5265a0d0"
+    },
+    {
+      "id": "CHARFOUND-018",
+      "path": "characters/central/chr-l1-01-shen-heng.md",
+      "mode": "whole_file",
+      "projection_sha256": "4086bcbf5b0a64fc90eeebe6a293b8baab48868a6672a235a7e84c559009154a"
+    },
+    {
+      "id": "CHARFOUND-019",
+      "path": "characters/central/chr-l1-02-liu-shisi-liu-wangshu.md",
+      "mode": "whole_file",
+      "projection_sha256": "13cd88216021d3e0ab4d6d13e702b0b1e4d58b101c7d40b0d493aaac7e693bfd"
+    },
+    {
+      "id": "CHARFOUND-020",
+      "path": "characters/central/chr-l1-03-zhou-yanzhi.md",
+      "mode": "whole_file",
+      "projection_sha256": "c9e81effb8cad6fcb5d24be292b93634c74b9b1fb9da334cc0ca44724a562228"
+    },
+    {
+      "id": "CHARFOUND-021",
+      "path": "characters/central/chr-l1-04-pei-jiuniang.md",
+      "mode": "whole_file",
+      "projection_sha256": "b58ed22abb74b9ad57f15ae944f8a985faef136391e00172ece01d19cd0c9ada"
+    },
+    {
+      "id": "CHARFOUND-022",
+      "path": "characters/central/chr-l1-05-gu-xingzhou.md",
+      "mode": "whole_file",
+      "projection_sha256": "19e63f548d26bccc9db5a9f821b33756565da522eca92fa69347a953ee91811c"
+    },
+    {
+      "id": "CHARFOUND-023",
+      "path": "characters/central/chr-l2-01-lu-qinghe.md",
+      "mode": "whole_file",
+      "projection_sha256": "2e09c12d0080460c56822e79662af37008b9658f7783287a04695e9b4118ef00"
+    },
+    {
+      "id": "CHARFOUND-024",
+      "path": "characters/central/chr-l2-02-lin-ayuan.md",
+      "mode": "whole_file",
+      "projection_sha256": "7170274f898fd4b56e35951de6ecb67a6ef15a16e430f1205353f90dfac0541d"
+    },
+    {
+      "id": "CHARFOUND-025",
+      "path": "characters/central/chr-l2-03-yu-qinghe.md",
+      "mode": "whole_file",
+      "projection_sha256": "96cdcb4f40bca95eda613d202b1523af8c2f6d6da837c927479d868805625ccd"
+    },
+    {
+      "id": "CHARFOUND-026",
+      "path": "characters/central/chr-l2-04-gao-wen.md",
+      "mode": "whole_file",
+      "projection_sha256": "87405519dba2ac3e5b1084c1c1e57fa611b15563c078584ae8b5642a83766849"
+    },
+    {
+      "id": "CHARFOUND-027",
+      "path": "characters/central/chr-l3-01-song-weijing.md",
+      "mode": "whole_file",
+      "projection_sha256": "76794315ccc3be32b62fedf8f763160e6cd6bbfc5c545f042a7288f1f33c5555"
+    },
+    {
+      "id": "CHARFOUND-028",
+      "path": "characters/central/chr-l3-02-li-jianshan.md",
+      "mode": "whole_file",
+      "projection_sha256": "fd7f31139f67ce6734dfea2ebe5d5b9dc3e39e0522cf24e66e7dd0de2cbf989e"
+    },
+    {
+      "id": "CHARFOUND-029",
+      "path": "characters/central/chr-l3-03-helan-du.md",
+      "mode": "whole_file",
+      "projection_sha256": "2314c00da1e550190c0556567b93966f5f34a0ca96567dbae3d0f14c47406253"
+    },
+    {
+      "id": "CHARFOUND-030",
+      "path": "characters/important/chr-a1-01-shen-sanniang.md",
+      "mode": "whole_file",
+      "projection_sha256": "ca24272d7f4629d8548447ea1a32bd67bcd67d9261257915d6377dcb300b0bd3"
+    },
+    {
+      "id": "CHARFOUND-031",
+      "path": "characters/important/chr-a1-02-zhou-boan.md",
+      "mode": "whole_file",
+      "projection_sha256": "15234ce8bd266eea7c5a732fc99c3f090e643c8fd7a0837cfb5993333bba363f"
+    },
+    {
+      "id": "CHARFOUND-032",
+      "path": "characters/important/chr-a1-03-yu-zhongren.md",
+      "mode": "whole_file",
+      "projection_sha256": "799a3e27c77d2bdf112b1ebad128927ec7670f4f20671f33557e30d9a8ffdc0f"
+    },
+    {
+      "id": "CHARFOUND-033",
+      "path": "characters/important/chr-a1-04-gu-nianniang.md",
+      "mode": "whole_file",
+      "projection_sha256": "130f02c38641437e1445689a6efdb2ad3fde4787ad7b8dae62fd6a8986f5d9a7"
+    },
+    {
+      "id": "CHARFOUND-034",
+      "path": "characters/important/chr-a1-05-xu-hanzhang.md",
+      "mode": "whole_file",
+      "projection_sha256": "ee1132a307bfb6ca7d919e0b51b4c2b746fc0eb98b7832597efc32bd2e31af82"
+    },
+    {
+      "id": "CHARFOUND-035",
+      "path": "characters/important/chr-a1-06-zhang-yunzhong.md",
+      "mode": "whole_file",
+      "projection_sha256": "1273c6a56d7e15a8d5a1d00fe048a5f63fc27e0906cb3362750e7bbb997ee8b7"
+    },
+    {
+      "id": "CHARFOUND-036",
+      "path": "characters/important/chr-a1-07-li-lingyi.md",
+      "mode": "whole_file",
+      "projection_sha256": "8f06b675944bde7071f0036bd240b3dcfe7689892b53fe0ad24ae76460468b7a"
+    },
+    {
+      "id": "CHARFOUND-037",
+      "path": "characters/important/chr-a1-08-cao-su.md",
+      "mode": "whole_file",
+      "projection_sha256": "42530cdd36a9d961da1e66fd6ae7fcabff9d6fcd03feabbfcf87dcbabc7e6aef"
+    },
+    {
+      "id": "CHARFOUND-038",
+      "path": "characters/important/chr-a2-01-chen-guipo.md",
+      "mode": "whole_file",
+      "projection_sha256": "57bfebeaa58ec2f23a29c1266df97813554ba18522880edcf3ab974af6bb0c5b"
+    },
+    {
+      "id": "CHARFOUND-039",
+      "path": "characters/important/chr-a2-02-song-shijiu.md",
+      "mode": "whole_file",
+      "projection_sha256": "04cb8644075094c2d2969f89bcd1ee74017d61d5b4085854e84324850f8555ca"
+    },
+    {
+      "id": "CHARFOUND-040",
+      "path": "characters/important/chr-a2-03-shen-huaichuan.md",
+      "mode": "whole_file",
+      "projection_sha256": "fabb44192572504ea2a7fed2891c5251f978180cce29458a413b60f206e2ac1b"
+    },
+    {
+      "id": "CHARFOUND-041",
+      "path": "characters/important/chr-a2-04-he-jiu.md",
+      "mode": "whole_file",
+      "projection_sha256": "131423c9fe033a9357c40eb7ec4b58240bdd4c6146a44a5e1e4f76277567939a"
+    },
+    {
+      "id": "CHARFOUND-042",
+      "path": "characters/important/chr-a2-05-shi-liu.md",
+      "mode": "whole_file",
+      "projection_sha256": "c1736b92e2ad533189c353cbd37d271d9c5a42b87be05f6a6c5e1ed802fb0b7a"
+    },
+    {
+      "id": "CHARFOUND-043",
+      "path": "characters/important/chr-a2-06-luo-jianchao.md",
+      "mode": "whole_file",
+      "projection_sha256": "13491ac45132c06de0e0549583ff1f94d1d0b1c1c3ab83b50baee017b8b82ea8"
+    },
+    {
+      "id": "CHARFOUND-044",
+      "path": "characters/important/chr-a2-07-cheng-yelao.md",
+      "mode": "whole_file",
+      "projection_sha256": "920832eca7e6be7bbaa148de3b522ff832a3e034ea7e0dc1a22821eb101bdf22"
+    },
+    {
+      "id": "CHARFOUND-045",
+      "path": "characters/important/chr-a2-08-fang-shuniang.md",
+      "mode": "whole_file",
+      "projection_sha256": "ec2904ab84b3ee2bba39ee2b4215c604b1af9f521014c21196b1658d5c5b7f49"
+    },
+    {
+      "id": "CHARFOUND-046",
+      "path": "characters/important/chr-a3-01-zhu-xiaoman.md",
+      "mode": "whole_file",
+      "projection_sha256": "bac75b2f5f5e9991c2e76aed76e7913d07bbc93a26b4ec02023d231af41d1934"
+    },
+    {
+      "id": "CHARFOUND-047",
+      "path": "characters/important/chr-a3-02-li-guanlan.md",
+      "mode": "whole_file",
+      "projection_sha256": "73b97b9440ba547112a3be7d84ceb1fa16c60ba284f1fe1004e7b22d09527ab8"
+    },
+    {
+      "id": "CHARFOUND-048",
+      "path": "characters/important/chr-a3-03-jiang-zhuoyue.md",
+      "mode": "whole_file",
+      "projection_sha256": "a0ae94a30003d131c86faa5c176170a66fd4e66e34f5cf30d0112ac10568ae34"
+    },
+    {
+      "id": "CHARFOUND-049",
+      "path": "characters/important/chr-a3-04-tang-qi.md",
+      "mode": "whole_file",
+      "projection_sha256": "ddc7835131d0935b74f926d3d176fc76caa45a07e6a6810b783fcf8578329799"
+    },
+    {
+      "id": "CHARFOUND-050",
+      "path": "characters/important/chr-a3-05-duan-xinghe.md",
+      "mode": "whole_file",
+      "projection_sha256": "9f2df3cebb03d2b5fcf4f9532a0f21877498ce1f27631703f0c3d6211350de48"
+    },
+    {
+      "id": "CHARFOUND-051",
+      "path": "characters/important/chr-a3-06-ding-xiaoqi.md",
+      "mode": "whole_file",
+      "projection_sha256": "8005c012d91cf7133834e1f638aed952a397b67724451eebed09bcff51e19234"
+    },
+    {
+      "id": "CHARFOUND-052",
+      "path": "characters/important/chr-a3-07-zhao-shiyiniang.md",
+      "mode": "whole_file",
+      "projection_sha256": "338133d1cf14902ac2fdfd209d8c6ce2c216c675f5b61fd73ac684a7c2e91789"
+    },
+    {
+      "id": "CHARFOUND-053",
+      "path": "characters/important/chr-a3-08-huiming.md",
+      "mode": "whole_file",
+      "projection_sha256": "84f429041b0880e1450f5b103061a91cdf62b8c96625dbda544dbbb596eadadb"
+    },
+    {
+      "id": "CHARFOUND-054",
+      "path": "characters/recurring/chr-b-001-wu-qiaoniang.md",
+      "mode": "whole_file",
+      "projection_sha256": "ae1fbcd3a30b60600ca7c61602266ff43bebf276ec0ad0e74592a4373f33ab93"
+    },
+    {
+      "id": "CHARFOUND-055",
+      "path": "characters/recurring/chr-b-002-lv-miesheng.md",
+      "mode": "whole_file",
+      "projection_sha256": "dc1cb08c170e06a0d835f6d251903903ea5b77a6ab490fc8b6a65b8a2c02a2c2"
+    },
+    {
+      "id": "CHARFOUND-056",
+      "path": "characters/recurring/chr-b-003-wei-xiuniang.md",
+      "mode": "whole_file",
+      "projection_sha256": "b53108a11dabf708393f4184c739dbebc233275f7587826a071fcc24b56cba06"
+    },
+    {
+      "id": "CHARFOUND-057",
+      "path": "characters/recurring/chr-b-004-he-douer.md",
+      "mode": "whole_file",
+      "projection_sha256": "e8a47ef38a81fc99ac9177b14e39a71a20c5479425e2add134007ad152397d39"
+    },
+    {
+      "id": "CHARFOUND-058",
+      "path": "characters/recurring/chr-b-005-qiao-ermai.md",
+      "mode": "whole_file",
+      "projection_sha256": "47d112f53adc6f57134daebde47d921bc479dd6f9bfb5c77bf6d4ec6ec25da13"
+    },
+    {
+      "id": "CHARFOUND-059",
+      "path": "characters/recurring/chr-b-006-sun-suozhu.md",
+      "mode": "whole_file",
+      "projection_sha256": "5cf2c441d05e756ca9517d3be7834217fb84a2407e1bff9bb5e0f0bea2a71413"
+    },
+    {
+      "id": "CHARFOUND-060",
+      "path": "characters/recurring/chr-b-007-hu-liupo.md",
+      "mode": "whole_file",
+      "projection_sha256": "230cf5859331247691282f021fb706233019979f915c1d5490fa2e7053034c2d"
+    },
+    {
+      "id": "CHARFOUND-061",
+      "path": "characters/recurring/chr-b-008-cui-mantang.md",
+      "mode": "whole_file",
+      "projection_sha256": "a01db019df2c05d192302cf045d7821bed3a6e9bb72428bbeeccb536797d1107"
+    },
+    {
+      "id": "CHARFOUND-062",
+      "path": "characters/recurring/chr-b-009-huo-xiaoqing.md",
+      "mode": "whole_file",
+      "projection_sha256": "bb6fe86ef406f9d3e21010fb455a09660d73732a47dcac2676d8932752b4bd27"
+    },
+    {
+      "id": "CHARFOUND-063",
+      "path": "characters/recurring/chr-b-010-ge-sanniang.md",
+      "mode": "whole_file",
+      "projection_sha256": "d3cb215fd59ea84967366faa0c3c6f732218e27860d16c305f72453d60c06ddb"
+    },
+    {
+      "id": "CHARFOUND-064",
+      "path": "characters/recurring/chr-b-011-fan-yulang.md",
+      "mode": "whole_file",
+      "projection_sha256": "cd7b62062559e0b372cfd605f1b712cb13b10bfed4d91e0a2ffc7bf99619ff5e"
+    },
+    {
+      "id": "CHARFOUND-065",
+      "path": "characters/recurring/chr-b-012-luo-qiusheng.md",
+      "mode": "whole_file",
+      "projection_sha256": "eecef6af3f0f5908d90a911b02c06da1af74e3925b0cf9df259dabcfe340a82c"
+    },
+    {
+      "id": "CHARFOUND-066",
+      "path": "characters/recurring/chr-b-013-wu-musheng.md",
+      "mode": "whole_file",
+      "projection_sha256": "979dd367e9c975cb33c0d9ee707122792958814309a04a1a089e5a719a1470c9"
+    },
+    {
+      "id": "CHARFOUND-067",
+      "path": "characters/recurring/chr-b-014-he-yannu.md",
+      "mode": "whole_file",
+      "projection_sha256": "a59a852266483384276d195c306482b0e2531c4ebeef12ef76002373493bc466"
+    },
+    {
+      "id": "CHARFOUND-068",
+      "path": "characters/recurring/chr-b-015-liang-maosheng.md",
+      "mode": "whole_file",
+      "projection_sha256": "2597d144a22f20badb85ab20610abb1984dc241cab29c73e2cf2102636e50b92"
+    },
+    {
+      "id": "CHARFOUND-069",
+      "path": "characters/recurring/chr-b-016-ji-suniang.md",
+      "mode": "whole_file",
+      "projection_sha256": "014d38dedbf6f407128fa188a32dc7f28111142f6e75cda881796a3297feb6b3"
+    },
+    {
+      "id": "CHARFOUND-070",
+      "path": "characters/recurring/chr-b-017-wei-dongli.md",
+      "mode": "whole_file",
+      "projection_sha256": "890844d44156618bd1ea9556c30d673bccba16c4fb91f5f826011c53ec918eba"
+    },
+    {
+      "id": "CHARFOUND-071",
+      "path": "characters/recurring/chr-b-018-han-moer.md",
+      "mode": "whole_file",
+      "projection_sha256": "5acb4c695c22101b71e7eb68a3a73ee82244939b2160e8987bba784602f1af42"
+    },
+    {
+      "id": "CHARFOUND-072",
+      "path": "characters/recurring/chr-b-019-meng-xiaochuan.md",
+      "mode": "whole_file",
+      "projection_sha256": "76217d52df928a5a0701af10009488471bec6d1293f04c4feaff3da2182a2909"
+    },
+    {
+      "id": "CHARFOUND-073",
+      "path": "characters/recurring/chr-b-020-song-tiemao.md",
+      "mode": "whole_file",
+      "projection_sha256": "db8b726a226f10da7d7d05708c645cf143af37d1076c0d924547dc2740a3a3cd"
+    },
+    {
+      "id": "CHARFOUND-074",
+      "path": "characters/recurring/chr-b-021-xu-sanshui.md",
+      "mode": "whole_file",
+      "projection_sha256": "4eaf88878eeab332154aa9fc8320755282427e35220fc5c072953fd5d858f10d"
+    },
+    {
+      "id": "CHARFOUND-075",
+      "path": "characters/recurring/chr-b-022-hao-dasao.md",
+      "mode": "whole_file",
+      "projection_sha256": "8e7a0dc33e16bc92b56f8bf9d38a330974166da758eca4e12d9152614fbc3c12"
+    },
+    {
+      "id": "CHARFOUND-076",
+      "path": "characters/recurring/chr-b-023-bao-ersheng.md",
+      "mode": "whole_file",
+      "projection_sha256": "9db8f0ef410106666af93783360306707261171c64a5f953353028ec068fac36"
+    },
+    {
+      "id": "CHARFOUND-077",
+      "path": "characters/recurring/chr-b-024-zou-yanniang.md",
+      "mode": "whole_file",
+      "projection_sha256": "05b31fd42814a2ad3a0e70fab5e44960ed9d40f70739a6f8cd41d69c1f9fa0a5"
+    },
+    {
+      "id": "CHARFOUND-078",
+      "path": "characters/recurring/chr-b-025-yu-xiaojing.md",
+      "mode": "whole_file",
+      "projection_sha256": "129817ce1083146ab7f31a751dfafe87502bfc5aa4cb72fe28bf7e103be96b19"
+    },
+    {
+      "id": "CHARFOUND-079",
+      "path": "characters/recurring/chr-b-026-qiao-tingyu.md",
+      "mode": "whole_file",
+      "projection_sha256": "9331a4f3f5c5eb1cbfeedc95988e871e7d4a606fb0ca04dc20343769c3a9084d"
+    },
+    {
+      "id": "CHARFOUND-080",
+      "path": "characters/recurring/chr-b-027-ma-changgeng.md",
+      "mode": "whole_file",
+      "projection_sha256": "f51945bcb41f50e42faf2d2f383613fc592bc2f617c639b36874d46be7d04a73"
+    },
+    {
+      "id": "CHARFOUND-081",
+      "path": "characters/recurring/chr-b-028-lu-ansheng.md",
+      "mode": "whole_file",
+      "projection_sha256": "59aa98b0a66308f01d32bc2b53441c54ec4e5cd4453cf844070e09752c9621b0"
+    },
+    {
+      "id": "CHARFOUND-082",
+      "path": "characters/recurring/chr-b-029-zhu-xingniang.md",
+      "mode": "whole_file",
+      "projection_sha256": "cf9d24c82bee0d03e89b446fa92b7d29d021a15774645268219de17f9d2e31e1"
+    },
+    {
+      "id": "CHARFOUND-083",
+      "path": "characters/recurring/chr-b-030-pu-wanli.md",
+      "mode": "whole_file",
+      "projection_sha256": "653938e33cb7b69720e8dc448b23a710a38d242ceee4961fefba3e9654574360"
+    },
+    {
+      "id": "CHARFOUND-084",
+      "path": "characters/recurring/chr-b-031-xu-jiuzhang.md",
+      "mode": "whole_file",
+      "projection_sha256": "47d146f2bf206f4dd9c70fdfb7e292593a15066d54a6f147e110cdc736285328"
+    },
+    {
+      "id": "CHARFOUND-085",
+      "path": "characters/recurring/chr-b-032-du-yannian.md",
+      "mode": "whole_file",
+      "projection_sha256": "75540230036dc93d2b7d8254b17b7c78168adcd5c08121f630bcb3517019cefa"
+    },
+    {
+      "id": "CHARFOUND-086",
+      "path": "characters/recurring/chr-b-033-jin-shi.md",
+      "mode": "whole_file",
+      "projection_sha256": "aa1eeb30595df5bc3ad450ff60207a8b6605baaf8fc37686cc65a40ad8947ebe"
+    },
+    {
+      "id": "CHARFOUND-087",
+      "path": "characters/recurring/chr-b-034-pang-xiaochun.md",
+      "mode": "whole_file",
+      "projection_sha256": "8865b1fc2609ae3f7257e5b278c82063a15b0c6548d355360853dbbece3ccbbe"
+    },
+    {
+      "id": "CHARFOUND-088",
+      "path": "characters/recurring/chr-b-035-liang-chengwu.md",
+      "mode": "whole_file",
+      "projection_sha256": "82c9e6adefc98ace3da9a53578787aef5d21424ddbff9504827957b68bcbb95e"
+    },
+    {
+      "id": "CHARFOUND-089",
+      "path": "characters/recurring/chr-b-036-shi-yueniang.md",
+      "mode": "whole_file",
+      "projection_sha256": "fb79567da261aaba2cf88f25c3cb2501b6f68a9e03f8e2f4d366b61a6bd5d836"
+    },
+    {
+      "id": "CHARFOUND-090",
+      "path": "characters/recurring/chr-b-037-feng-yaoer.md",
+      "mode": "whole_file",
+      "projection_sha256": "db21439baf7c199382d5757c2c03724c65f014cef761ed7b7013f64dca086036"
+    },
+    {
+      "id": "CHARFOUND-091",
+      "path": "characters/recurring/chr-b-038-he-qianzhen.md",
+      "mode": "whole_file",
+      "projection_sha256": "2e55e4d4e526e33a1d8eb6bbb2f16869743981d3283fb5e994497fc7f9b3f266"
+    },
+    {
+      "id": "CHARFOUND-092",
+      "path": "characters/recurring/chr-b-039-jingyuan.md",
+      "mode": "whole_file",
+      "projection_sha256": "15c3bf8f6a35ecd38699b122faad7cc1b693a908345bea055cdf4f1fc14eafb7"
+    },
+    {
+      "id": "CHARFOUND-093",
+      "path": "characters/recurring/chr-b-040-su-he.md",
+      "mode": "whole_file",
+      "projection_sha256": "485477f65d28054721240fd80751c674a52c8e4e4404c575a66fc79c1b8d8d9e"
+    },
+    {
+      "id": "CHARFOUND-094",
+      "path": "characters/recurring/chr-b-041-jiang-apo.md",
+      "mode": "whole_file",
+      "projection_sha256": "3e8df29433e2ea6bb2f71fd202698e05637138287e111a4ebca35f09affbbb46"
+    },
+    {
+      "id": "CHARFOUND-095",
+      "path": "characters/recurring/chr-b-042-qin-xiaohe.md",
+      "mode": "whole_file",
+      "projection_sha256": "3fa8684a64bff6331fe6249d2a53bfee45ec2beab670c3fd6c479dbed822b58f"
+    },
+    {
+      "id": "CHARFOUND-096",
+      "path": "characters/recurring/chr-b-043-wei-kaiyuan.md",
+      "mode": "whole_file",
+      "projection_sha256": "f97f2a19ed3e3720ec8e98cf5042ed6b28412568460421d9b12e6b70422c4021"
+    },
+    {
+      "id": "CHARFOUND-097",
+      "path": "characters/recurring/chr-b-044-bai-qing.md",
+      "mode": "whole_file",
+      "projection_sha256": "5886d75d55a3faa3638e76c7f54011d385a3a1b68464cb89141c9575bcc273e1"
+    },
+    {
+      "id": "CHARFOUND-098",
+      "path": "characters/recurring/chr-b-045-niu-degui.md",
+      "mode": "whole_file",
+      "projection_sha256": "f68692580b4a6b5e2fb6717c9f644062d9d2951ed6bfcdb42a8432668870fb5c"
+    },
+    {
+      "id": "CHARFOUND-099",
+      "path": "characters/recurring/chr-b-046-an-niangzi.md",
+      "mode": "whole_file",
+      "projection_sha256": "1ddcde5aa2377c9853362d91b24a3c330d4106a5f883775602be978c1a454f69"
+    },
+    {
+      "id": "CHARFOUND-100",
+      "path": "characters/recurring/chr-b-047-zheng-beihong.md",
+      "mode": "whole_file",
+      "projection_sha256": "54db8c24626e503fbebb24daee6f83ca9efbc09731cb0a5f0990a7aa7abc0597"
+    },
+    {
+      "id": "CHARFOUND-101",
+      "path": "characters/recurring/chr-b-048-chang-bo.md",
+      "mode": "whole_file",
+      "projection_sha256": "ba475485b7a4eb882bf8fcdc3b932e25f81a84dc51ec06d04b9757ee00ce83c4"
+    },
+    {
+      "id": "CHARFOUND-102",
+      "path": "characters/relations/core/rel-001.md",
+      "mode": "whole_file",
+      "projection_sha256": "8ea13c1d1e6dee7fe888f9a2e7973df5d6aac95757a79f5e07fc36011bc1b02f"
+    },
+    {
+      "id": "CHARFOUND-103",
+      "path": "characters/relations/core/rel-002.md",
+      "mode": "whole_file",
+      "projection_sha256": "4f9fdea452b41ae98a3589094e1b6330a9e3b089d98f359ea35f51e3555c58c6"
+    },
+    {
+      "id": "CHARFOUND-104",
+      "path": "characters/relations/core/rel-003.md",
+      "mode": "whole_file",
+      "projection_sha256": "054c627d1f548b34a015e6f308421650238645793be679911006502defad6423"
+    },
+    {
+      "id": "CHARFOUND-105",
+      "path": "characters/relations/core/rel-004.md",
+      "mode": "whole_file",
+      "projection_sha256": "07d15c1c68126df3214bdf0d676db224ef4e22fdf5ea55b7d67653b0324fa680"
+    },
+    {
+      "id": "CHARFOUND-106",
+      "path": "characters/relations/core/rel-005.md",
+      "mode": "whole_file",
+      "projection_sha256": "0110e33053cba70fc5a6b40fc995cafb3272d1305881da68f1ebfb8a27237199"
+    },
+    {
+      "id": "CHARFOUND-107",
+      "path": "characters/relations/core/rel-006.md",
+      "mode": "whole_file",
+      "projection_sha256": "debdeaadd2e9df5c8d2318dd6f36f9bb211561a06ca7591cd419a8cc5ad71cdb"
+    },
+    {
+      "id": "CHARFOUND-108",
+      "path": "characters/relations/core/rel-007.md",
+      "mode": "whole_file",
+      "projection_sha256": "6b7d301ee6bb2ce31954cfa22a95f3cab7370fb3458476b124e4417efb90d2f6"
+    },
+    {
+      "id": "CHARFOUND-109",
+      "path": "characters/relations/core/rel-008.md",
+      "mode": "whole_file",
+      "projection_sha256": "20d1063f6da08431d425b3e6631e2b830b99f9bc51afaf495fb4703b6ecfd21e"
+    },
+    {
+      "id": "CHARFOUND-110",
+      "path": "characters/relations/core/rel-009.md",
+      "mode": "whole_file",
+      "projection_sha256": "def536dd01abfce49d230d55dbc0ae8e4af80f34f691376eae57411a0e22f2d4"
+    },
+    {
+      "id": "CHARFOUND-111",
+      "path": "characters/relations/core/rel-010.md",
+      "mode": "whole_file",
+      "projection_sha256": "09669f811a1d5f7975e8bcf9b0d8bae8781980ca21c17aae07226afdd3608a4a"
+    },
+    {
+      "id": "CHARFOUND-112",
+      "path": "characters/relations/core/rel-011.md",
+      "mode": "whole_file",
+      "projection_sha256": "f4f41719bbc5d7d9b9400c61ac1981c4550e67c0e8c3ba56afbaca3d8f6226e0"
+    },
+    {
+      "id": "CHARFOUND-113",
+      "path": "characters/relations/core/rel-012.md",
+      "mode": "whole_file",
+      "projection_sha256": "a75aa3768a7b8cf71787837ed51fc0dab26258e08f4ad89d5ef5361801e07126"
+    },
+    {
+      "id": "CHARFOUND-114",
+      "path": "characters/relations/core/rel-013.md",
+      "mode": "whole_file",
+      "projection_sha256": "d41f04de3e292b8f0e2c0ef0f26f09760762e7c10d78e291ee509aa141030cdb"
+    },
+    {
+      "id": "CHARFOUND-115",
+      "path": "characters/relations/core/rel-014.md",
+      "mode": "whole_file",
+      "projection_sha256": "1f6bf4b8d905c1689d6319fb95762c3f5cf3f71fe3325ae9a7d0618b7dd70378"
+    },
+    {
+      "id": "CHARFOUND-116",
+      "path": "characters/relations/core/rel-015.md",
+      "mode": "whole_file",
+      "projection_sha256": "03a147f410082e8e901c101bc2f8999c5877f18f01601f935b3486d08b1e5073"
+    },
+    {
+      "id": "CHARFOUND-117",
+      "path": "characters/relations/core/rel-016.md",
+      "mode": "whole_file",
+      "projection_sha256": "bf868b9ff380aad49dbd252e03793969dcf376e596404eeee154999a0fadf700"
+    },
+    {
+      "id": "CHARFOUND-118",
+      "path": "characters/relations/core/rel-g01.md",
+      "mode": "whole_file",
+      "projection_sha256": "ed8c503985f03193e225342395ce952ba7f50d4bc320335a40757792862e4711"
+    },
+    {
+      "id": "CHARFOUND-119",
+      "path": "characters/emotional-spines/00-emotional-spines-index.md",
+      "mode": "whole_file",
+      "projection_sha256": "2a6ba0f39d9b68573d99b631f970d1f1da6e4f909f2323d066a0b6eab0e027d5"
+    },
+    {
+      "id": "CHARFOUND-120",
+      "path": "characters/emotional-spines/01-love.md",
+      "mode": "whole_file",
+      "projection_sha256": "6196bf741cf8a7fec67f9407b93e632dd62b1526b801681aad9fc11cc5188c5a"
+    },
+    {
+      "id": "CHARFOUND-121",
+      "path": "characters/emotional-spines/02-friendship.md",
+      "mode": "whole_file",
+      "projection_sha256": "a2c71fd379897178b64296ed8b466df559a70d2166536b008144a2685dc89e56"
+    },
+    {
+      "id": "CHARFOUND-122",
+      "path": "characters/emotional-spines/03-family.md",
+      "mode": "whole_file",
+      "projection_sha256": "43489cc39e24346b5acabcb87891cfde84d23b6c065d9221712af8a5db87741a"
+    },
+    {
+      "id": "CHARFOUND-123",
+      "path": "characters/emotional-spines/04-mentorship.md",
+      "mode": "whole_file",
+      "projection_sha256": "05b12b039e80ef5c5227a3d34946035727823f5a69da03fcc2e47ce4c04a6da8"
+    },
+    {
+      "id": "CHARFOUND-124",
+      "path": "characters/emotional-spines/05-comrades-and-institutions.md",
+      "mode": "whole_file",
+      "projection_sha256": "43ddb266010b5668164e4465b8cc6c223b9410d7ff559a8bef9d53fa4f53905e"
+    },
+    {
+      "id": "CHARFOUND-125",
+      "path": "characters/emotional-spines/06-ideal-community.md",
+      "mode": "whole_file",
+      "projection_sha256": "334357594c2dffee93fe94f19764a18a1f0063690d2cdf7ca10a4870d2fe5e0b"
+    }
+  ]
+}
