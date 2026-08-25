@@ -32,6 +32,17 @@ SNAPSHOT_PHASES = {
     "Y+1": "带着旧账回访新边界",
 }
 
+SNAPSHOT_COST_EFFECTS = {
+    "Y0-OPEN": "双方第一次把边界说出来，失去继续假装轻松相处的余地",
+    "ARC1-END": "日常选择被关系改变，至少一人承担一次可见的时间、收入或名声损失",
+    "ARC2-END": "误读使一项信息、身体或署名边界受损，不能靠一句解释撤回",
+    "ARC3-END": "职业复核迫使双方承认对方有独立判断，旧有的照料、服从或占有位置失效",
+    "ARC4-END": "短暂普通生活让双方延迟一次核验或救援，亲近与进度不能同时保全",
+    "ARC5-END": "代价落到具体的人、资源或前途，关系无法靠道歉恢复原状",
+    "ARC6-END": "公共协作要求共同署名、公开或受审，任何一方都不能替另一方洗白",
+    "Y+1": "灾后回访只确认新的边界，继续来往不等于旧伤自动消失",
+}
+
 # Concrete Foundation evidence anchors. Exact scene IDs remain RESERVED until
 # Season/Episode Gate, but each relation already has a space, object, observable
 # action, dialogue intent, cost and continuity handle that can be staged.
@@ -207,6 +218,7 @@ def build_evidence(relation: dict) -> list[dict]:
     context = RELATION_CONTEXT.get(relation_id)
     if not context:
         raise KeyError(f"missing relationship evidence context: {relation_id}")
+    base_cost = context["cost"].rstrip("。；")
     records: list[dict] = []
     for index, snapshot in enumerate(SNAPSHOTS):
         records.append(
@@ -222,7 +234,7 @@ def build_evidence(relation: dict) -> list[dict]:
                 "phase": SNAPSHOT_PHASES[snapshot],
                 "observable_action": f"{SNAPSHOT_PHASES[snapshot]}：{context['actions'][index % len(context['actions'])]}。",
                 "dialogue_intent": context["dialogues"][index % len(context["dialogues"])],
-                "irreversible_cost": f"{SNAPSHOT_PHASES[snapshot]}的代价：{context['cost']}",
+                "irreversible_cost": f"{base_cost}；阶段落点：{SNAPSHOT_COST_EFFECTS[snapshot]}。",
                 "continuity_delta": f"{SNAPSHOT_PHASES[snapshot]}需保持：{context['continuity']}",
             }
         )

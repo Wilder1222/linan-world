@@ -12,6 +12,7 @@
     "recurring_sample_reviewed": 16,
     "recurring_sample_circles": 8,
     "relationship_total": 17,
+    "relationship_reviewed": 17,
     "relationship_evidence_total": 136,
     "emotional_spine_total": 6,
     "machine_findings": 0
@@ -1715,154 +1716,154 @@
       "relation_id": "REL-001",
       "foundation_evidence_count": 8,
       "scene_binding_status": "RESERVED-UNTIL-SEASON-GATE",
-      "review_status": "REVIEW-PENDING",
-      "blocking_items": [
-        "确认每个快照的具体动作是否真正改变选择，而非只改变情绪标签"
-      ]
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "blocking_items": [],
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
     },
     {
       "relation_id": "REL-002",
       "foundation_evidence_count": 8,
       "scene_binding_status": "RESERVED-UNTIL-SEASON-GATE",
-      "review_status": "REVIEW-PENDING",
-      "blocking_items": [
-        "确认每个快照的具体动作是否真正改变选择，而非只改变情绪标签"
-      ]
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "blocking_items": [],
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
     },
     {
       "relation_id": "REL-003",
       "foundation_evidence_count": 8,
       "scene_binding_status": "RESERVED-UNTIL-SEASON-GATE",
-      "review_status": "REVIEW-PENDING",
-      "blocking_items": [
-        "确认每个快照的具体动作是否真正改变选择，而非只改变情绪标签"
-      ]
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "blocking_items": [],
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
     },
     {
       "relation_id": "REL-004",
       "foundation_evidence_count": 8,
       "scene_binding_status": "RESERVED-UNTIL-SEASON-GATE",
-      "review_status": "REVIEW-PENDING",
-      "blocking_items": [
-        "确认每个快照的具体动作是否真正改变选择，而非只改变情绪标签"
-      ]
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "blocking_items": [],
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
     },
     {
       "relation_id": "REL-005",
       "foundation_evidence_count": 8,
       "scene_binding_status": "RESERVED-UNTIL-SEASON-GATE",
-      "review_status": "REVIEW-PENDING",
-      "blocking_items": [
-        "确认每个快照的具体动作是否真正改变选择，而非只改变情绪标签"
-      ]
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "blocking_items": [],
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
     },
     {
       "relation_id": "REL-006",
       "foundation_evidence_count": 8,
       "scene_binding_status": "RESERVED-UNTIL-SEASON-GATE",
-      "review_status": "REVIEW-PENDING",
-      "blocking_items": [
-        "确认每个快照的具体动作是否真正改变选择，而非只改变情绪标签"
-      ]
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "blocking_items": [],
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
     },
     {
       "relation_id": "REL-007",
       "foundation_evidence_count": 8,
       "scene_binding_status": "RESERVED-UNTIL-SEASON-GATE",
-      "review_status": "REVIEW-PENDING",
-      "blocking_items": [
-        "确认每个快照的具体动作是否真正改变选择，而非只改变情绪标签"
-      ]
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "blocking_items": [],
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
     },
     {
       "relation_id": "REL-008",
       "foundation_evidence_count": 8,
       "scene_binding_status": "RESERVED-UNTIL-SEASON-GATE",
-      "review_status": "REVIEW-PENDING",
-      "blocking_items": [
-        "确认每个快照的具体动作是否真正改变选择，而非只改变情绪标签"
-      ]
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "blocking_items": [],
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
     },
     {
       "relation_id": "REL-009",
       "foundation_evidence_count": 8,
       "scene_binding_status": "RESERVED-UNTIL-SEASON-GATE",
-      "review_status": "REVIEW-PENDING",
-      "blocking_items": [
-        "确认每个快照的具体动作是否真正改变选择，而非只改变情绪标签"
-      ]
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "blocking_items": [],
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
     },
     {
       "relation_id": "REL-010",
       "foundation_evidence_count": 8,
       "scene_binding_status": "RESERVED-UNTIL-SEASON-GATE",
-      "review_status": "REVIEW-PENDING",
-      "blocking_items": [
-        "确认每个快照的具体动作是否真正改变选择，而非只改变情绪标签"
-      ]
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "blocking_items": [],
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
     },
     {
       "relation_id": "REL-011",
       "foundation_evidence_count": 8,
       "scene_binding_status": "RESERVED-UNTIL-SEASON-GATE",
-      "review_status": "REVIEW-PENDING",
-      "blocking_items": [
-        "确认每个快照的具体动作是否真正改变选择，而非只改变情绪标签"
-      ]
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "blocking_items": [],
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
     },
     {
       "relation_id": "REL-012",
       "foundation_evidence_count": 8,
       "scene_binding_status": "RESERVED-UNTIL-SEASON-GATE",
-      "review_status": "REVIEW-PENDING",
-      "blocking_items": [
-        "确认每个快照的具体动作是否真正改变选择，而非只改变情绪标签"
-      ]
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "blocking_items": [],
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
     },
     {
       "relation_id": "REL-013",
       "foundation_evidence_count": 8,
       "scene_binding_status": "RESERVED-UNTIL-SEASON-GATE",
-      "review_status": "REVIEW-PENDING",
-      "blocking_items": [
-        "确认每个快照的具体动作是否真正改变选择，而非只改变情绪标签"
-      ]
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "blocking_items": [],
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
     },
     {
       "relation_id": "REL-014",
       "foundation_evidence_count": 8,
       "scene_binding_status": "RESERVED-UNTIL-SEASON-GATE",
-      "review_status": "REVIEW-PENDING",
-      "blocking_items": [
-        "确认每个快照的具体动作是否真正改变选择，而非只改变情绪标签"
-      ]
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "blocking_items": [],
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
     },
     {
       "relation_id": "REL-015",
       "foundation_evidence_count": 8,
       "scene_binding_status": "RESERVED-UNTIL-SEASON-GATE",
-      "review_status": "REVIEW-PENDING",
-      "blocking_items": [
-        "确认每个快照的具体动作是否真正改变选择，而非只改变情绪标签"
-      ]
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "blocking_items": [],
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
     },
     {
       "relation_id": "REL-016",
       "foundation_evidence_count": 8,
       "scene_binding_status": "RESERVED-UNTIL-SEASON-GATE",
-      "review_status": "REVIEW-PENDING",
-      "blocking_items": [
-        "确认每个快照的具体动作是否真正改变选择，而非只改变情绪标签"
-      ]
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "blocking_items": [],
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
     },
     {
       "relation_id": "REL-G01",
       "foundation_evidence_count": 8,
       "scene_binding_status": "RESERVED-UNTIL-SEASON-GATE",
-      "review_status": "REVIEW-PENDING",
-      "blocking_items": [
-        "确认每个快照的具体动作是否真正改变选择，而非只改变情绪标签"
-      ]
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "blocking_items": [],
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
     }
   ],
   "emotional_spines": [
@@ -1927,6 +1928,12 @@
     "circle_count": 8,
     "report_path": "qa/reviews/recurring-sample-review.json"
   },
+  "relationship_quality_review": {
+    "status": "REVIEWED-PASS",
+    "relationship_total": 17,
+    "snapshot_total": 136,
+    "report_path": "qa/reviews/relationship-evidence-quality.json"
+  },
   "u_bg_boundary": {
     "U": {
       "status": "PENDING-SEASON-GATE",
@@ -1938,9 +1945,8 @@
     }
   },
   "gate_blockers": [
-    "17 条关系的 Foundation 证据尚未完成选择改变性复核",
     "6 条情感脊柱的 36 个状态尚未完成压力测试",
     "U/BG 尚未进入下游 Gate 绑定"
   ],
-  "next_action": "完成 17 条关系证据与 6 条情感脊柱压力测试；保留 32 名非样本 B 级人物作扩展审读，无阻断后再生成 Character Foundation Gate 证书。"
+  "next_action": "完成 6 条情感脊柱压力测试；保留 32 名非样本 B 级人物作扩展审读，无阻断后再生成 Character Foundation Gate 证书。"
 }

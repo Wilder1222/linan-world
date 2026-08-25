@@ -1,0 +1,439 @@
+{
+  "schema_version": 1,
+  "status": "REVIEWED-PASS",
+  "scope": "P1 relationship Foundation evidence quality",
+  "relationship_total": 17,
+  "snapshot_total": 136,
+  "findings": [],
+  "relationships": [
+    {
+      "relation_id": "REL-001",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "eight_snapshots": "PASS",
+        "phase_changes": "PASS",
+        "space_changes": "PASS",
+        "object_changes": "PASS",
+        "action_set_is_not_static": "PASS",
+        "stage_costs_are_explicit": "PASS",
+        "continuity_is_trackable": "PASS"
+      },
+      "metrics": {
+        "snapshot_count": 8,
+        "phase_count": 8,
+        "space_count": 4,
+        "object_count": 4,
+        "observable_action_count": 8,
+        "underlying_action_count": 4,
+        "stage_cost_count": 8,
+        "continuity_delta_count": 8
+      },
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
+    },
+    {
+      "relation_id": "REL-002",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "eight_snapshots": "PASS",
+        "phase_changes": "PASS",
+        "space_changes": "PASS",
+        "object_changes": "PASS",
+        "action_set_is_not_static": "PASS",
+        "stage_costs_are_explicit": "PASS",
+        "continuity_is_trackable": "PASS"
+      },
+      "metrics": {
+        "snapshot_count": 8,
+        "phase_count": 8,
+        "space_count": 4,
+        "object_count": 4,
+        "observable_action_count": 8,
+        "underlying_action_count": 4,
+        "stage_cost_count": 8,
+        "continuity_delta_count": 8
+      },
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
+    },
+    {
+      "relation_id": "REL-003",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "eight_snapshots": "PASS",
+        "phase_changes": "PASS",
+        "space_changes": "PASS",
+        "object_changes": "PASS",
+        "action_set_is_not_static": "PASS",
+        "stage_costs_are_explicit": "PASS",
+        "continuity_is_trackable": "PASS"
+      },
+      "metrics": {
+        "snapshot_count": 8,
+        "phase_count": 8,
+        "space_count": 3,
+        "object_count": 3,
+        "observable_action_count": 8,
+        "underlying_action_count": 4,
+        "stage_cost_count": 8,
+        "continuity_delta_count": 8
+      },
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
+    },
+    {
+      "relation_id": "REL-004",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "eight_snapshots": "PASS",
+        "phase_changes": "PASS",
+        "space_changes": "PASS",
+        "object_changes": "PASS",
+        "action_set_is_not_static": "PASS",
+        "stage_costs_are_explicit": "PASS",
+        "continuity_is_trackable": "PASS"
+      },
+      "metrics": {
+        "snapshot_count": 8,
+        "phase_count": 8,
+        "space_count": 3,
+        "object_count": 3,
+        "observable_action_count": 8,
+        "underlying_action_count": 4,
+        "stage_cost_count": 8,
+        "continuity_delta_count": 8
+      },
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
+    },
+    {
+      "relation_id": "REL-005",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "eight_snapshots": "PASS",
+        "phase_changes": "PASS",
+        "space_changes": "PASS",
+        "object_changes": "PASS",
+        "action_set_is_not_static": "PASS",
+        "stage_costs_are_explicit": "PASS",
+        "continuity_is_trackable": "PASS"
+      },
+      "metrics": {
+        "snapshot_count": 8,
+        "phase_count": 8,
+        "space_count": 3,
+        "object_count": 3,
+        "observable_action_count": 8,
+        "underlying_action_count": 4,
+        "stage_cost_count": 8,
+        "continuity_delta_count": 8
+      },
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
+    },
+    {
+      "relation_id": "REL-006",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "eight_snapshots": "PASS",
+        "phase_changes": "PASS",
+        "space_changes": "PASS",
+        "object_changes": "PASS",
+        "action_set_is_not_static": "PASS",
+        "stage_costs_are_explicit": "PASS",
+        "continuity_is_trackable": "PASS"
+      },
+      "metrics": {
+        "snapshot_count": 8,
+        "phase_count": 8,
+        "space_count": 3,
+        "object_count": 3,
+        "observable_action_count": 8,
+        "underlying_action_count": 4,
+        "stage_cost_count": 8,
+        "continuity_delta_count": 8
+      },
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
+    },
+    {
+      "relation_id": "REL-007",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "eight_snapshots": "PASS",
+        "phase_changes": "PASS",
+        "space_changes": "PASS",
+        "object_changes": "PASS",
+        "action_set_is_not_static": "PASS",
+        "stage_costs_are_explicit": "PASS",
+        "continuity_is_trackable": "PASS"
+      },
+      "metrics": {
+        "snapshot_count": 8,
+        "phase_count": 8,
+        "space_count": 3,
+        "object_count": 3,
+        "observable_action_count": 8,
+        "underlying_action_count": 4,
+        "stage_cost_count": 8,
+        "continuity_delta_count": 8
+      },
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
+    },
+    {
+      "relation_id": "REL-008",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "eight_snapshots": "PASS",
+        "phase_changes": "PASS",
+        "space_changes": "PASS",
+        "object_changes": "PASS",
+        "action_set_is_not_static": "PASS",
+        "stage_costs_are_explicit": "PASS",
+        "continuity_is_trackable": "PASS"
+      },
+      "metrics": {
+        "snapshot_count": 8,
+        "phase_count": 8,
+        "space_count": 3,
+        "object_count": 3,
+        "observable_action_count": 8,
+        "underlying_action_count": 4,
+        "stage_cost_count": 8,
+        "continuity_delta_count": 8
+      },
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
+    },
+    {
+      "relation_id": "REL-009",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "eight_snapshots": "PASS",
+        "phase_changes": "PASS",
+        "space_changes": "PASS",
+        "object_changes": "PASS",
+        "action_set_is_not_static": "PASS",
+        "stage_costs_are_explicit": "PASS",
+        "continuity_is_trackable": "PASS"
+      },
+      "metrics": {
+        "snapshot_count": 8,
+        "phase_count": 8,
+        "space_count": 3,
+        "object_count": 3,
+        "observable_action_count": 8,
+        "underlying_action_count": 4,
+        "stage_cost_count": 8,
+        "continuity_delta_count": 8
+      },
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
+    },
+    {
+      "relation_id": "REL-010",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "eight_snapshots": "PASS",
+        "phase_changes": "PASS",
+        "space_changes": "PASS",
+        "object_changes": "PASS",
+        "action_set_is_not_static": "PASS",
+        "stage_costs_are_explicit": "PASS",
+        "continuity_is_trackable": "PASS"
+      },
+      "metrics": {
+        "snapshot_count": 8,
+        "phase_count": 8,
+        "space_count": 3,
+        "object_count": 3,
+        "observable_action_count": 8,
+        "underlying_action_count": 4,
+        "stage_cost_count": 8,
+        "continuity_delta_count": 8
+      },
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
+    },
+    {
+      "relation_id": "REL-011",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "eight_snapshots": "PASS",
+        "phase_changes": "PASS",
+        "space_changes": "PASS",
+        "object_changes": "PASS",
+        "action_set_is_not_static": "PASS",
+        "stage_costs_are_explicit": "PASS",
+        "continuity_is_trackable": "PASS"
+      },
+      "metrics": {
+        "snapshot_count": 8,
+        "phase_count": 8,
+        "space_count": 3,
+        "object_count": 3,
+        "observable_action_count": 8,
+        "underlying_action_count": 4,
+        "stage_cost_count": 8,
+        "continuity_delta_count": 8
+      },
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
+    },
+    {
+      "relation_id": "REL-012",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "eight_snapshots": "PASS",
+        "phase_changes": "PASS",
+        "space_changes": "PASS",
+        "object_changes": "PASS",
+        "action_set_is_not_static": "PASS",
+        "stage_costs_are_explicit": "PASS",
+        "continuity_is_trackable": "PASS"
+      },
+      "metrics": {
+        "snapshot_count": 8,
+        "phase_count": 8,
+        "space_count": 3,
+        "object_count": 3,
+        "observable_action_count": 8,
+        "underlying_action_count": 4,
+        "stage_cost_count": 8,
+        "continuity_delta_count": 8
+      },
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
+    },
+    {
+      "relation_id": "REL-013",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "eight_snapshots": "PASS",
+        "phase_changes": "PASS",
+        "space_changes": "PASS",
+        "object_changes": "PASS",
+        "action_set_is_not_static": "PASS",
+        "stage_costs_are_explicit": "PASS",
+        "continuity_is_trackable": "PASS"
+      },
+      "metrics": {
+        "snapshot_count": 8,
+        "phase_count": 8,
+        "space_count": 3,
+        "object_count": 3,
+        "observable_action_count": 8,
+        "underlying_action_count": 4,
+        "stage_cost_count": 8,
+        "continuity_delta_count": 8
+      },
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
+    },
+    {
+      "relation_id": "REL-014",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "eight_snapshots": "PASS",
+        "phase_changes": "PASS",
+        "space_changes": "PASS",
+        "object_changes": "PASS",
+        "action_set_is_not_static": "PASS",
+        "stage_costs_are_explicit": "PASS",
+        "continuity_is_trackable": "PASS"
+      },
+      "metrics": {
+        "snapshot_count": 8,
+        "phase_count": 8,
+        "space_count": 3,
+        "object_count": 3,
+        "observable_action_count": 8,
+        "underlying_action_count": 4,
+        "stage_cost_count": 8,
+        "continuity_delta_count": 8
+      },
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
+    },
+    {
+      "relation_id": "REL-015",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "eight_snapshots": "PASS",
+        "phase_changes": "PASS",
+        "space_changes": "PASS",
+        "object_changes": "PASS",
+        "action_set_is_not_static": "PASS",
+        "stage_costs_are_explicit": "PASS",
+        "continuity_is_trackable": "PASS"
+      },
+      "metrics": {
+        "snapshot_count": 8,
+        "phase_count": 8,
+        "space_count": 3,
+        "object_count": 3,
+        "observable_action_count": 8,
+        "underlying_action_count": 4,
+        "stage_cost_count": 8,
+        "continuity_delta_count": 8
+      },
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
+    },
+    {
+      "relation_id": "REL-016",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "eight_snapshots": "PASS",
+        "phase_changes": "PASS",
+        "space_changes": "PASS",
+        "object_changes": "PASS",
+        "action_set_is_not_static": "PASS",
+        "stage_costs_are_explicit": "PASS",
+        "continuity_is_trackable": "PASS"
+      },
+      "metrics": {
+        "snapshot_count": 8,
+        "phase_count": 8,
+        "space_count": 3,
+        "object_count": 3,
+        "observable_action_count": 8,
+        "underlying_action_count": 4,
+        "stage_cost_count": 8,
+        "continuity_delta_count": 8
+      },
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
+    },
+    {
+      "relation_id": "REL-G01",
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
+      "checks": {
+        "eight_snapshots": "PASS",
+        "phase_changes": "PASS",
+        "space_changes": "PASS",
+        "object_changes": "PASS",
+        "action_set_is_not_static": "PASS",
+        "stage_costs_are_explicit": "PASS",
+        "continuity_is_trackable": "PASS"
+      },
+      "metrics": {
+        "snapshot_count": 8,
+        "phase_count": 8,
+        "space_count": 3,
+        "object_count": 3,
+        "observable_action_count": 8,
+        "underlying_action_count": 4,
+        "stage_cost_count": 8,
+        "continuity_delta_count": 8
+      },
+      "notes": "已逐条阅读八个 Foundation 快照：动作、空间、物件和阶段代价均推动关系选择变化；最终 scene/dialogue/shot ID 仍由 Season/Episode Gate 绑定。"
+    }
+  ],
+  "manual_followup": [
+    "Season Gate 再将 Foundation evidence 绑定到最终 scene/dialogue/shot ID。",
+    "继续检查关系在六条情感脊柱中的混合情绪与不可逆代价是否互相支撑。"
+  ]
+}

@@ -10,6 +10,7 @@ CONTENT_AUDIT = ROOT / "qa/reviews/character-foundation-audit.json"
 STATE_AUDIT = ROOT / "qa/reviews/profile-state-chain-audit.json"
 DEMOGRAPHIC_AUDIT = ROOT / "qa/reviews/recurring-demographic-audit.json"
 RECURRING_SAMPLE_REVIEW = ROOT / "qa/reviews/recurring-sample-review.json"
+RELATION_QUALITY = ROOT / "qa/reviews/relationship-evidence-quality.json"
 RELATION_EVIDENCE = ROOT / "qa/relationship-evidence.json"
 SPINES = ROOT / "qa/emotional-spines.json"
 REPORT = ROOT / "qa/reviews/character-foundation-review-matrix.json"
@@ -97,6 +98,7 @@ def build() -> dict:
     state_audit = read_json(STATE_AUDIT)
     demographic_audit = read_json(DEMOGRAPHIC_AUDIT)
     recurring_sample_review = read_json(RECURRING_SAMPLE_REVIEW)
+    relation_quality = read_json(RELATION_QUALITY)
     evidence = read_json(RELATION_EVIDENCE)
     spines = read_json(SPINES)
 
@@ -113,16 +115,22 @@ def build() -> dict:
         else:
             profiles.append(pending_review(record, "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"))
 
-    relationships = [
-        {
-            "relation_id": relation["relation_id"],
-            "foundation_evidence_count": len(relation.get("snapshots", [])),
-            "scene_binding_status": "RESERVED-UNTIL-SEASON-GATE",
-            "review_status": "REVIEW-PENDING",
-            "blocking_items": ["确认每个快照的具体动作是否真正改变选择，而非只改变情绪标签"],
-        }
-        for relation in evidence.get("relationships", [])
-    ]
+    relation_quality_by_id = {item["relation_id"]: item for item in relation_quality.get("relationships", [])}
+    relationships = []
+    for relation in evidence.get("relationships", []):
+        quality = relation_quality_by_id.get(relation["relation_id"], {})
+        passed = quality.get("review_status") == "REVIEWED-PASS"
+        relationships.append(
+            {
+                "relation_id": relation["relation_id"],
+                "foundation_evidence_count": len(relation.get("snapshots", [])),
+                "scene_binding_status": "RESERVED-UNTIL-SEASON-GATE",
+                "review_status": "REVIEWED-PASS" if passed else "REVIEW-PENDING",
+                "reviewer": "Codex production review" if passed else None,
+                "blocking_items": [] if passed else ["确认每个快照的具体动作是否真正改变选择，而非只改变情绪标签"],
+                "notes": quality.get("notes") if passed else "不得将机器通过误报为人工审读完成；补审后由质量报告回写。",
+            }
+        )
     spine_reviews = [
         {
             "spine_id": spine["id"],
@@ -151,6 +159,7 @@ def build() -> dict:
             "recurring_sample_reviewed": recurring_sample_review.get("sample_count", 0),
             "recurring_sample_circles": recurring_sample_review.get("circle_count", 0),
             "relationship_total": len(relationships),
+            "relationship_reviewed": sum(1 for item in relationships if item["review_status"] == "REVIEWED-PASS"),
             "relationship_evidence_total": sum(item["foundation_evidence_count"] for item in relationships),
             "emotional_spine_total": len(spine_reviews),
             "machine_findings": len(content_audit.get("findings", [])) + len(state_audit.get("findings", [])) + len(demographic_audit.get("findings", [])),
@@ -164,16 +173,21 @@ def build() -> dict:
             "circle_count": recurring_sample_review.get("circle_count", 0),
             "report_path": "qa/reviews/recurring-sample-review.json",
         },
+        "relationship_quality_review": {
+            "status": relation_quality.get("status"),
+            "relationship_total": relation_quality.get("relationship_total", 0),
+            "snapshot_total": relation_quality.get("snapshot_total", 0),
+            "report_path": "qa/reviews/relationship-evidence-quality.json",
+        },
         "u_bg_boundary": {
             "U": {"status": "PENDING-SEASON-GATE", "rule": "保持可替换候选，不提前分配唯一主线身份"},
             "BG": {"status": "PENDING-EPISODE-GATE", "rule": "具体 microchapter_ids 与 extension_ids 只能由 Episode Gate 写入"},
         },
         "gate_blockers": [
-            "17 条关系的 Foundation 证据尚未完成选择改变性复核",
             "6 条情感脊柱的 36 个状态尚未完成压力测试",
             "U/BG 尚未进入下游 Gate 绑定",
         ],
-        "next_action": "完成 17 条关系证据与 6 条情感脊柱压力测试；保留 32 名非样本 B 级人物作扩展审读，无阻断后再生成 Character Foundation Gate 证书。",
+        "next_action": "完成 6 条情感脊柱压力测试；保留 32 名非样本 B 级人物作扩展审读，无阻断后再生成 Character Foundation Gate 证书。",
     }
 
 

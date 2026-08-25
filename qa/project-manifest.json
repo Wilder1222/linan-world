@@ -86,6 +86,7 @@
       "qa/reviews/character-foundation-audit.json",
       "qa/reviews/recurring-demographic-audit.json",
       "qa/reviews/recurring-sample-review.json",
+      "qa/reviews/relationship-evidence-quality.json",
       "qa/reviews/profile-state-chain-audit.json",
       "qa/reviews/character-foundation-review-matrix.json"
     ]
