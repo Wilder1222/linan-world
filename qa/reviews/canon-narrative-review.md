@@ -3,7 +3,7 @@ reviewer_id = "narrative-continuity-audit"
 reviewer_role = "character-mystery-emotion"
 review_mode = "separate-role-audit"
 status = "PASS"
-reviewed_input_manifest_sha256 = "1adbf9458db80781fdfed34c06a1b0028f11ce1b8824df121f38bd8fe328e245"
+reviewed_input_manifest_sha256 = "e22e7df55115a86c50172466092d1c1ffac7f5f59454d8627e7cd57dab93fb62"
 signed_at = "2026-08-25T10:15:00+08:00"
 +++
 
@@ -23,6 +23,7 @@ PASS。该审读只检查 Canon 对人物限知、悬疑公平性、情感选择
 - 幽默只改变关系、线索或人物状态，不消解死亡、创伤和制度代价；顾行舟不霸总化，沈蘅不面瘫化，宋惟敬不反派邪笑化。
 - 万家春灯的终局能力已在地点、职业动作、灯号和公共灶/医棚/刻版/船只/客舍/城门前置；普通人可以纠正春信屋，不需要突然崇拜主角。
 - 灾后章程保留旧账、错误版本和受害者异议，因此危机合作不等于关系清零，爱情和亲情可在共同救援后仍有未解伤口。
+- Canon 生产结构审计已通过；它只证明跨文件锚点、地点/事件/时间/术语登记可供下游生成读取，不替 Season Gate 完成逐集悬疑与关系节奏绑定。
 
 ## 结论限制
 

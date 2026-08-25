@@ -1,0 +1,781 @@
+{
+  "schema_version": 1,
+  "status": "REVIEWED-PASS",
+  "scope": "P1 recurring production-detail review",
+  "reviewed": 48,
+  "unique_daily_actions": 48,
+  "unique_choices": 48,
+  "unique_ending_actions": 48,
+  "profiles": [
+    {
+      "id": "CHR-B-001",
+      "name": "吴巧娘",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-002",
+      "name": "吕篾生",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-003",
+      "name": "魏绣娘",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-004",
+      "name": "何豆儿",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-005",
+      "name": "乔二麦",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-006",
+      "name": "孙锁叔",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-007",
+      "name": "胡六婆",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-008",
+      "name": "崔满堂",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-009",
+      "name": "霍小青",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-010",
+      "name": "葛三娘",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-011",
+      "name": "范玉郎",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-012",
+      "name": "罗秋声",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-013",
+      "name": "邬木生",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-014",
+      "name": "贺砚奴",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-015",
+      "name": "梁茂生",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-016",
+      "name": "季素娘",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-017",
+      "name": "魏东篱",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-018",
+      "name": "韩墨儿",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-019",
+      "name": "孟小川",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-020",
+      "name": "宋铁锚",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-021",
+      "name": "徐三水",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-022",
+      "name": "郝大嫂",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-023",
+      "name": "包二胜",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-024",
+      "name": "邹盐娘",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-025",
+      "name": "俞小鲸",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-026",
+      "name": "乔听雨",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-027",
+      "name": "马长庚",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-028",
+      "name": "卢安生",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-029",
+      "name": "朱杏娘",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-030",
+      "name": "蒲万里",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-031",
+      "name": "许九章",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-032",
+      "name": "杜延年",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-033",
+      "name": "金十",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-034",
+      "name": "庞小春",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-035",
+      "name": "梁成武",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-036",
+      "name": "施月娘",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-037",
+      "name": "冯药儿",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-038",
+      "name": "何千针",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-039",
+      "name": "净圆",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-040",
+      "name": "苏禾",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-041",
+      "name": "蒋阿婆",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-042",
+      "name": "秦小禾",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-043",
+      "name": "魏开元",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-044",
+      "name": "柏青",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-045",
+      "name": "牛得贵",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-046",
+      "name": "安娘子",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-047",
+      "name": "郑北鸿",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    },
+    {
+      "id": "CHR-B-048",
+      "name": "常伯",
+      "checks": {
+        "front_matter": true,
+        "daily_action": true,
+        "daily_obstacle": true,
+        "observable_choice": true,
+        "irreversible_cost": true,
+        "ending_action": true,
+        "two_relationships": true,
+        "career_echo": true,
+        "life_circle": true,
+        "no_generic_scaffold": true
+      }
+    }
+  ],
+  "findings": [],
+  "notes": "全量 B 级人物均已从源表回写职业化日常动作、角色盲点、主动选择、不可逆代价、关系余波和结局动作；Season/Episode Gate 仍负责母集、微章与实际回访绑定。"
+}

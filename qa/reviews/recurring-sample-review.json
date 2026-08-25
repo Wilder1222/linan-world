@@ -265,7 +265,7 @@
     }
   ],
   "manual_followup": [
-    "样本通过不等于 48 名 B 级人物全部通过；其余 32 名保留为扩展审读对象。",
+    "样本用于验证 8 个生活圈的现场可执行性，不替代 48 名 B 级人物的全量生产细节审读；全量结果见 recurring-production-quality.json。",
     "Season Gate 绑定前不写入具体集号、母集或 microchapter ID。"
   ]
 }

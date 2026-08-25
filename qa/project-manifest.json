@@ -66,7 +66,8 @@
       "canon/institutions/03-food-medicine-trade-and-storage.md",
       "canon/institutions/04-water-sanitation-health-and-relief.md",
       "canon/institutions/05-y0-crisis-causal-chain.md",
-      "canon/institutions/06-postcrisis-public-information-charter.md"
+      "canon/institutions/06-postcrisis-public-information-charter.md",
+      "qa/reviews/canon-production-quality.json"
     ],
     "character-foundation": [
       "characters/00-character-schema.md",
@@ -81,6 +82,7 @@
       "qa/reviews/character-foundation-audit.json",
       "qa/reviews/recurring-demographic-audit.json",
       "qa/reviews/recurring-sample-review.json",
+      "qa/reviews/recurring-production-quality.json",
       "qa/reviews/relationship-evidence-quality.json",
       "qa/reviews/emotional-spine-pressure-test.json",
       "qa/reviews/u-bg-boundary-audit.json",

@@ -6,7 +6,7 @@
   "declared_frozen_items": [
     "CANON-001", "CANON-002", "CANON-003", "CANON-004", "CANON-005", "CANON-006", "CANON-007", "CANON-008", "CANON-009", "CANON-010",
     "CANON-011", "CANON-012", "CANON-013", "CANON-014", "CANON-015", "CANON-016", "CANON-017", "CANON-018", "CANON-019", "CANON-020",
-    "CANON-021", "CANON-022", "CANON-023", "CANON-024", "CANON-025", "CANON-026", "CANON-027", "CANON-028", "CANON-029", "CANON-030", "CANON-031"
+    "CANON-021", "CANON-022", "CANON-023", "CANON-024", "CANON-025", "CANON-026", "CANON-027", "CANON-028", "CANON-029", "CANON-030", "CANON-031", "CANON-032"
   ],
   "items": [
     {"id": "CANON-001", "path": "canon/00-canon-index.md", "mode": "whole_file"},
@@ -39,6 +39,7 @@
     {"id": "CANON-028", "path": "canon/institutions/03-food-medicine-trade-and-storage.md", "mode": "whole_file"},
     {"id": "CANON-029", "path": "canon/institutions/04-water-sanitation-health-and-relief.md", "mode": "whole_file"},
     {"id": "CANON-030", "path": "canon/institutions/05-y0-crisis-causal-chain.md", "mode": "whole_file"},
-    {"id": "CANON-031", "path": "canon/institutions/06-postcrisis-public-information-charter.md", "mode": "whole_file"}
+    {"id": "CANON-031", "path": "canon/institutions/06-postcrisis-public-information-charter.md", "mode": "whole_file"},
+    {"id": "CANON-032", "path": "qa/reviews/canon-production-quality.json", "mode": "whole_file"}
   ]
 }

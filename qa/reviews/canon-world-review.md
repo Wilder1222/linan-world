@@ -3,7 +3,7 @@ reviewer_id = "world-systems-audit"
 reviewer_role = "world-geography-institutions"
 review_mode = "separate-role-audit"
 status = "PASS"
-reviewed_input_manifest_sha256 = "1adbf9458db80781fdfed34c06a1b0028f11ce1b8824df121f38bd8fe328e245"
+reviewed_input_manifest_sha256 = "e22e7df55115a86c50172466092d1c1ffac7f5f59454d8627e7cd57dab93fb62"
 signed_at = "2026-08-25T10:00:00+08:00"
 +++
 
@@ -23,6 +23,7 @@ PASS。该审读只检查世界边界、城市可达性、水系、制度权限�
 - 非常令包含临安府副署、殿前司军令条件、二十四小时自动失效、续签依据和事后审查；选择性呈报被定义为合法形式下的实质偏斜。
 - 粮药供应链包含时间、成本、损耗、价格变化和控制点；水污、病例、药缺、拥挤和救济的升级阈值可执行。
 - `EVT-Y0-001` 至 `EVT-Y0-010` 各自有时段、地点、行动人、目的、预期/非预期结果、放大机制和责任；自然暴雨没有替人为延迟免责。
+- `qa/reviews/canon-production-quality.json` 已通过生产结构审计：31 份 Canon 输入、18 个地点/旅行矩阵覆盖、10 条水系观测、10 个 Y0 因果事件、11 个时间锚点、5 个观察通道与 10 个注册术语均有稳定绑定，且无占位符。
 - 语言物质文化列出职业工具、常见错误、身体痕迹和能力上限，未引入超出平行南宋边界的技术。
 
 ## 结论限制

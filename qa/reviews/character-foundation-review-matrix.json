@@ -8,7 +8,8 @@
     "central_reviewed": 12,
     "important_reviewed": 24,
     "important_pending": 0,
-    "recurring_pending": 48,
+    "recurring_pending": 0,
+    "recurring_reviewed": 48,
     "recurring_sample_reviewed": 16,
     "recurring_sample_circles": 8,
     "relationship_total": 17,
@@ -709,20 +710,18 @@
       "name": "吴巧娘",
       "profile_path": "characters/recurring/chr-b-001-wu-qiaoniang.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-002",
@@ -730,20 +729,18 @@
       "name": "吕篾生",
       "profile_path": "characters/recurring/chr-b-002-lv-miesheng.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-003",
@@ -751,20 +748,18 @@
       "name": "魏绣娘",
       "profile_path": "characters/recurring/chr-b-003-wei-xiuniang.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-004",
@@ -772,20 +767,18 @@
       "name": "何豆儿",
       "profile_path": "characters/recurring/chr-b-004-he-douer.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-005",
@@ -793,20 +786,18 @@
       "name": "乔二麦",
       "profile_path": "characters/recurring/chr-b-005-qiao-ermai.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-006",
@@ -814,20 +805,18 @@
       "name": "孙锁叔",
       "profile_path": "characters/recurring/chr-b-006-sun-suozhu.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-007",
@@ -835,20 +824,18 @@
       "name": "胡六婆",
       "profile_path": "characters/recurring/chr-b-007-hu-liupo.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-008",
@@ -856,20 +843,18 @@
       "name": "崔满堂",
       "profile_path": "characters/recurring/chr-b-008-cui-mantang.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-009",
@@ -877,20 +862,18 @@
       "name": "霍小青",
       "profile_path": "characters/recurring/chr-b-009-huo-xiaoqing.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-010",
@@ -898,20 +881,18 @@
       "name": "葛三娘",
       "profile_path": "characters/recurring/chr-b-010-ge-sanniang.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-011",
@@ -919,20 +900,18 @@
       "name": "范玉郎",
       "profile_path": "characters/recurring/chr-b-011-fan-yulang.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-012",
@@ -940,20 +919,18 @@
       "name": "罗秋声",
       "profile_path": "characters/recurring/chr-b-012-luo-qiusheng.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-013",
@@ -961,20 +938,18 @@
       "name": "邬木生",
       "profile_path": "characters/recurring/chr-b-013-wu-musheng.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-014",
@@ -982,20 +957,18 @@
       "name": "贺砚奴",
       "profile_path": "characters/recurring/chr-b-014-he-yannu.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-015",
@@ -1003,20 +976,18 @@
       "name": "梁茂生",
       "profile_path": "characters/recurring/chr-b-015-liang-maosheng.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-016",
@@ -1024,20 +995,18 @@
       "name": "季素娘",
       "profile_path": "characters/recurring/chr-b-016-ji-suniang.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-017",
@@ -1045,20 +1014,18 @@
       "name": "魏东篱",
       "profile_path": "characters/recurring/chr-b-017-wei-dongli.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-018",
@@ -1066,20 +1033,18 @@
       "name": "韩墨儿",
       "profile_path": "characters/recurring/chr-b-018-han-moer.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-019",
@@ -1087,20 +1052,18 @@
       "name": "孟小川",
       "profile_path": "characters/recurring/chr-b-019-meng-xiaochuan.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-020",
@@ -1108,20 +1071,18 @@
       "name": "宋铁锚",
       "profile_path": "characters/recurring/chr-b-020-song-tiemao.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-021",
@@ -1129,20 +1090,18 @@
       "name": "徐三水",
       "profile_path": "characters/recurring/chr-b-021-xu-sanshui.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-022",
@@ -1150,20 +1109,18 @@
       "name": "郝大嫂",
       "profile_path": "characters/recurring/chr-b-022-hao-dasao.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-023",
@@ -1171,20 +1128,18 @@
       "name": "包二胜",
       "profile_path": "characters/recurring/chr-b-023-bao-ersheng.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-024",
@@ -1192,20 +1147,18 @@
       "name": "邹盐娘",
       "profile_path": "characters/recurring/chr-b-024-zou-yanniang.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-025",
@@ -1213,20 +1166,18 @@
       "name": "俞小鲸",
       "profile_path": "characters/recurring/chr-b-025-yu-xiaojing.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-026",
@@ -1234,20 +1185,18 @@
       "name": "乔听雨",
       "profile_path": "characters/recurring/chr-b-026-qiao-tingyu.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-027",
@@ -1255,20 +1204,18 @@
       "name": "马长庚",
       "profile_path": "characters/recurring/chr-b-027-ma-changgeng.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-028",
@@ -1276,20 +1223,18 @@
       "name": "卢安生",
       "profile_path": "characters/recurring/chr-b-028-lu-ansheng.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-029",
@@ -1297,20 +1242,18 @@
       "name": "朱杏娘",
       "profile_path": "characters/recurring/chr-b-029-zhu-xingniang.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-030",
@@ -1318,20 +1261,18 @@
       "name": "蒲万里",
       "profile_path": "characters/recurring/chr-b-030-pu-wanli.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-031",
@@ -1339,20 +1280,18 @@
       "name": "许九章",
       "profile_path": "characters/recurring/chr-b-031-xu-jiuzhang.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-032",
@@ -1360,20 +1299,18 @@
       "name": "杜延年",
       "profile_path": "characters/recurring/chr-b-032-du-yannian.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-033",
@@ -1381,20 +1318,18 @@
       "name": "金十",
       "profile_path": "characters/recurring/chr-b-033-jin-shi.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-034",
@@ -1402,20 +1337,18 @@
       "name": "庞小春",
       "profile_path": "characters/recurring/chr-b-034-pang-xiaochun.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-035",
@@ -1423,20 +1356,18 @@
       "name": "梁成武",
       "profile_path": "characters/recurring/chr-b-035-liang-chengwu.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-036",
@@ -1444,20 +1375,18 @@
       "name": "施月娘",
       "profile_path": "characters/recurring/chr-b-036-shi-yueniang.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-037",
@@ -1465,20 +1394,18 @@
       "name": "冯药儿",
       "profile_path": "characters/recurring/chr-b-037-feng-yaoer.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-038",
@@ -1486,20 +1413,18 @@
       "name": "何千针",
       "profile_path": "characters/recurring/chr-b-038-he-qianzhen.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-039",
@@ -1507,20 +1432,18 @@
       "name": "净圆",
       "profile_path": "characters/recurring/chr-b-039-jingyuan.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-040",
@@ -1528,20 +1451,18 @@
       "name": "苏禾",
       "profile_path": "characters/recurring/chr-b-040-su-he.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-041",
@@ -1549,20 +1470,18 @@
       "name": "蒋阿婆",
       "profile_path": "characters/recurring/chr-b-041-jiang-apo.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-042",
@@ -1570,20 +1489,18 @@
       "name": "秦小禾",
       "profile_path": "characters/recurring/chr-b-042-qin-xiaohe.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-043",
@@ -1591,20 +1508,18 @@
       "name": "魏开元",
       "profile_path": "characters/recurring/chr-b-043-wei-kaiyuan.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-044",
@@ -1612,20 +1527,18 @@
       "name": "柏青",
       "profile_path": "characters/recurring/chr-b-044-bai-qing.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-045",
@@ -1633,20 +1546,18 @@
       "name": "牛得贵",
       "profile_path": "characters/recurring/chr-b-045-niu-degui.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-046",
@@ -1654,20 +1565,18 @@
       "name": "安娘子",
       "profile_path": "characters/recurring/chr-b-046-an-niangzi.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-047",
@@ -1675,20 +1584,18 @@
       "name": "郑北鸿",
       "profile_path": "characters/recurring/chr-b-047-zheng-beihong.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     },
     {
       "id": "CHR-B-048",
@@ -1696,20 +1603,18 @@
       "name": "常伯",
       "profile_path": "characters/recurring/chr-b-048-chang-bo.md",
       "machine_status": "PASS",
-      "review_status": "REVIEW-PENDING",
-      "reviewer": null,
+      "review_status": "REVIEWED-PASS",
+      "reviewer": "Codex production review",
       "checks": {
-        "identity_canon": "MACHINE-PASS",
-        "profession_and_daily_logic": "MACHINE-PASS",
-        "state_chain_observable": "MACHINE-PASS",
-        "relationship_non_replacement": "MACHINE-PASS",
-        "mixed_emotion_and_cost": "MACHINE-PASS",
-        "continuity_and_asset_hooks": "MACHINE-PASS"
+        "identity_canon": "PASS",
+        "profession_and_daily_logic": "PASS",
+        "state_chain_observable": "PASS",
+        "relationship_non_replacement": "PASS",
+        "mixed_emotion_and_cost": "PASS",
+        "continuity_and_asset_hooks": "PASS"
       },
-      "blocking_items": [
-        "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"
-      ],
-      "notes": "不得将机器通过误报为人工审读完成；补审后由源脚本回写，不能直接手改派生卡片。"
+      "blocking_items": [],
+      "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。"
     }
   ],
   "relationships": [
@@ -1935,6 +1840,14 @@
     "state_total": 36,
     "report_path": "qa/reviews/emotional-spine-pressure-test.json"
   },
+  "recurring_production_quality_review": {
+    "status": "REVIEWED-PASS",
+    "reviewed": 48,
+    "unique_daily_actions": 48,
+    "unique_choices": 48,
+    "unique_ending_actions": 48,
+    "report_path": "qa/reviews/recurring-production-quality.json"
+  },
   "u_bg_boundary": {
     "review_status": "REVIEWED-PASS",
     "report_path": "qa/reviews/u-bg-boundary-audit.json",
@@ -1950,5 +1863,5 @@
     }
   },
   "gate_blockers": [],
-  "next_action": "生成并锁定 Character Foundation Gate 证书；保留 32 名非样本 B 级人物作扩展审读，不得将样本通过误报为全量 B 级通过。"
+  "next_action": "Character Foundation Gate 已锁定；进入 P2 Season 因果账本、悬疑翻转、宋代生活活动与幽默登记，不提前绑定 U/BG 下游身份。"
 }

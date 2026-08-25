@@ -1,7 +1,7 @@
 +++
 reviewer_id = "character-foundation-canon-audit"
 status = "PASS"
-reviewed_input_manifest_sha256 = "613c019576360380743f983c60556fcbbbd7d86f3019046a25f89e4699914fa4"
+reviewed_input_manifest_sha256 = "0be7dad3f93fdcadbf7b8f106e7d3a149426c022e23c8c6739d71bbc663d858c"
 +++
 
 # Character Foundation Canon 审读

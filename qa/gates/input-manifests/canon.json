@@ -2,7 +2,7 @@
   "schema_version": 1,
   "gate": "canon",
   "scope": "canon",
-  "created_at": "2026-08-25T09:24:32.925481+00:00",
+  "created_at": "2026-08-25T11:34:40.458081+00:00",
   "items": [
     {
       "id": "CANON-001",
@@ -189,6 +189,12 @@
       "path": "canon/institutions/06-postcrisis-public-information-charter.md",
       "mode": "whole_file",
       "projection_sha256": "2de7f1495e0467b9cc9ed423b7b5aa101b784dbdc367357c270bb879b1c46006"
+    },
+    {
+      "id": "CANON-032",
+      "path": "qa/reviews/canon-production-quality.json",
+      "mode": "whole_file",
+      "projection_sha256": "ee1c13510d2dab3d74c279a07a4c003ef52524909a4a191a61efa2b6a39d2976"
     }
   ]
 }

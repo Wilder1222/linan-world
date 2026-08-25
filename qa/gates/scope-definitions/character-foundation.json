@@ -130,7 +130,8 @@
     "CHARFOUND-122",
     "CHARFOUND-123",
     "CHARFOUND-124",
-    "CHARFOUND-125"
+    "CHARFOUND-125",
+    "CHARFOUND-126"
   ],
   "items": [
     {
@@ -195,566 +196,571 @@
     },
     {
       "id": "CHARFOUND-013",
-      "path": "qa/reviews/relationship-evidence-quality.json",
+      "path": "qa/reviews/recurring-production-quality.json",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-014",
-      "path": "qa/reviews/emotional-spine-pressure-test.json",
+      "path": "qa/reviews/relationship-evidence-quality.json",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-015",
-      "path": "qa/reviews/u-bg-boundary-audit.json",
+      "path": "qa/reviews/emotional-spine-pressure-test.json",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-016",
-      "path": "qa/reviews/profile-state-chain-audit.json",
+      "path": "qa/reviews/u-bg-boundary-audit.json",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-017",
-      "path": "qa/reviews/character-foundation-review-matrix.json",
+      "path": "qa/reviews/profile-state-chain-audit.json",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-018",
-      "path": "characters/central/chr-l1-01-shen-heng.md",
+      "path": "qa/reviews/character-foundation-review-matrix.json",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-019",
-      "path": "characters/central/chr-l1-02-liu-shisi-liu-wangshu.md",
+      "path": "characters/central/chr-l1-01-shen-heng.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-020",
-      "path": "characters/central/chr-l1-03-zhou-yanzhi.md",
+      "path": "characters/central/chr-l1-02-liu-shisi-liu-wangshu.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-021",
-      "path": "characters/central/chr-l1-04-pei-jiuniang.md",
+      "path": "characters/central/chr-l1-03-zhou-yanzhi.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-022",
-      "path": "characters/central/chr-l1-05-gu-xingzhou.md",
+      "path": "characters/central/chr-l1-04-pei-jiuniang.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-023",
-      "path": "characters/central/chr-l2-01-lu-qinghe.md",
+      "path": "characters/central/chr-l1-05-gu-xingzhou.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-024",
-      "path": "characters/central/chr-l2-02-lin-ayuan.md",
+      "path": "characters/central/chr-l2-01-lu-qinghe.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-025",
-      "path": "characters/central/chr-l2-03-yu-qinghe.md",
+      "path": "characters/central/chr-l2-02-lin-ayuan.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-026",
-      "path": "characters/central/chr-l2-04-gao-wen.md",
+      "path": "characters/central/chr-l2-03-yu-qinghe.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-027",
-      "path": "characters/central/chr-l3-01-song-weijing.md",
+      "path": "characters/central/chr-l2-04-gao-wen.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-028",
-      "path": "characters/central/chr-l3-02-li-jianshan.md",
+      "path": "characters/central/chr-l3-01-song-weijing.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-029",
-      "path": "characters/central/chr-l3-03-helan-du.md",
+      "path": "characters/central/chr-l3-02-li-jianshan.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-030",
-      "path": "characters/important/chr-a1-01-shen-sanniang.md",
+      "path": "characters/central/chr-l3-03-helan-du.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-031",
-      "path": "characters/important/chr-a1-02-zhou-boan.md",
+      "path": "characters/important/chr-a1-01-shen-sanniang.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-032",
-      "path": "characters/important/chr-a1-03-yu-zhongren.md",
+      "path": "characters/important/chr-a1-02-zhou-boan.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-033",
-      "path": "characters/important/chr-a1-04-gu-nianniang.md",
+      "path": "characters/important/chr-a1-03-yu-zhongren.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-034",
-      "path": "characters/important/chr-a1-05-xu-hanzhang.md",
+      "path": "characters/important/chr-a1-04-gu-nianniang.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-035",
-      "path": "characters/important/chr-a1-06-zhang-yunzhong.md",
+      "path": "characters/important/chr-a1-05-xu-hanzhang.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-036",
-      "path": "characters/important/chr-a1-07-li-lingyi.md",
+      "path": "characters/important/chr-a1-06-zhang-yunzhong.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-037",
-      "path": "characters/important/chr-a1-08-cao-su.md",
+      "path": "characters/important/chr-a1-07-li-lingyi.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-038",
-      "path": "characters/important/chr-a2-01-chen-guipo.md",
+      "path": "characters/important/chr-a1-08-cao-su.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-039",
-      "path": "characters/important/chr-a2-02-song-shijiu.md",
+      "path": "characters/important/chr-a2-01-chen-guipo.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-040",
-      "path": "characters/important/chr-a2-03-shen-huaichuan.md",
+      "path": "characters/important/chr-a2-02-song-shijiu.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-041",
-      "path": "characters/important/chr-a2-04-he-jiu.md",
+      "path": "characters/important/chr-a2-03-shen-huaichuan.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-042",
-      "path": "characters/important/chr-a2-05-shi-liu.md",
+      "path": "characters/important/chr-a2-04-he-jiu.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-043",
-      "path": "characters/important/chr-a2-06-luo-jianchao.md",
+      "path": "characters/important/chr-a2-05-shi-liu.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-044",
-      "path": "characters/important/chr-a2-07-cheng-yelao.md",
+      "path": "characters/important/chr-a2-06-luo-jianchao.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-045",
-      "path": "characters/important/chr-a2-08-fang-shuniang.md",
+      "path": "characters/important/chr-a2-07-cheng-yelao.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-046",
-      "path": "characters/important/chr-a3-01-zhu-xiaoman.md",
+      "path": "characters/important/chr-a2-08-fang-shuniang.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-047",
-      "path": "characters/important/chr-a3-02-li-guanlan.md",
+      "path": "characters/important/chr-a3-01-zhu-xiaoman.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-048",
-      "path": "characters/important/chr-a3-03-jiang-zhuoyue.md",
+      "path": "characters/important/chr-a3-02-li-guanlan.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-049",
-      "path": "characters/important/chr-a3-04-tang-qi.md",
+      "path": "characters/important/chr-a3-03-jiang-zhuoyue.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-050",
-      "path": "characters/important/chr-a3-05-duan-xinghe.md",
+      "path": "characters/important/chr-a3-04-tang-qi.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-051",
-      "path": "characters/important/chr-a3-06-ding-xiaoqi.md",
+      "path": "characters/important/chr-a3-05-duan-xinghe.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-052",
-      "path": "characters/important/chr-a3-07-zhao-shiyiniang.md",
+      "path": "characters/important/chr-a3-06-ding-xiaoqi.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-053",
-      "path": "characters/important/chr-a3-08-huiming.md",
+      "path": "characters/important/chr-a3-07-zhao-shiyiniang.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-054",
-      "path": "characters/recurring/chr-b-001-wu-qiaoniang.md",
+      "path": "characters/important/chr-a3-08-huiming.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-055",
-      "path": "characters/recurring/chr-b-002-lv-miesheng.md",
+      "path": "characters/recurring/chr-b-001-wu-qiaoniang.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-056",
-      "path": "characters/recurring/chr-b-003-wei-xiuniang.md",
+      "path": "characters/recurring/chr-b-002-lv-miesheng.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-057",
-      "path": "characters/recurring/chr-b-004-he-douer.md",
+      "path": "characters/recurring/chr-b-003-wei-xiuniang.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-058",
-      "path": "characters/recurring/chr-b-005-qiao-ermai.md",
+      "path": "characters/recurring/chr-b-004-he-douer.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-059",
-      "path": "characters/recurring/chr-b-006-sun-suozhu.md",
+      "path": "characters/recurring/chr-b-005-qiao-ermai.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-060",
-      "path": "characters/recurring/chr-b-007-hu-liupo.md",
+      "path": "characters/recurring/chr-b-006-sun-suozhu.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-061",
-      "path": "characters/recurring/chr-b-008-cui-mantang.md",
+      "path": "characters/recurring/chr-b-007-hu-liupo.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-062",
-      "path": "characters/recurring/chr-b-009-huo-xiaoqing.md",
+      "path": "characters/recurring/chr-b-008-cui-mantang.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-063",
-      "path": "characters/recurring/chr-b-010-ge-sanniang.md",
+      "path": "characters/recurring/chr-b-009-huo-xiaoqing.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-064",
-      "path": "characters/recurring/chr-b-011-fan-yulang.md",
+      "path": "characters/recurring/chr-b-010-ge-sanniang.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-065",
-      "path": "characters/recurring/chr-b-012-luo-qiusheng.md",
+      "path": "characters/recurring/chr-b-011-fan-yulang.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-066",
-      "path": "characters/recurring/chr-b-013-wu-musheng.md",
+      "path": "characters/recurring/chr-b-012-luo-qiusheng.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-067",
-      "path": "characters/recurring/chr-b-014-he-yannu.md",
+      "path": "characters/recurring/chr-b-013-wu-musheng.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-068",
-      "path": "characters/recurring/chr-b-015-liang-maosheng.md",
+      "path": "characters/recurring/chr-b-014-he-yannu.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-069",
-      "path": "characters/recurring/chr-b-016-ji-suniang.md",
+      "path": "characters/recurring/chr-b-015-liang-maosheng.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-070",
-      "path": "characters/recurring/chr-b-017-wei-dongli.md",
+      "path": "characters/recurring/chr-b-016-ji-suniang.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-071",
-      "path": "characters/recurring/chr-b-018-han-moer.md",
+      "path": "characters/recurring/chr-b-017-wei-dongli.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-072",
-      "path": "characters/recurring/chr-b-019-meng-xiaochuan.md",
+      "path": "characters/recurring/chr-b-018-han-moer.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-073",
-      "path": "characters/recurring/chr-b-020-song-tiemao.md",
+      "path": "characters/recurring/chr-b-019-meng-xiaochuan.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-074",
-      "path": "characters/recurring/chr-b-021-xu-sanshui.md",
+      "path": "characters/recurring/chr-b-020-song-tiemao.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-075",
-      "path": "characters/recurring/chr-b-022-hao-dasao.md",
+      "path": "characters/recurring/chr-b-021-xu-sanshui.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-076",
-      "path": "characters/recurring/chr-b-023-bao-ersheng.md",
+      "path": "characters/recurring/chr-b-022-hao-dasao.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-077",
-      "path": "characters/recurring/chr-b-024-zou-yanniang.md",
+      "path": "characters/recurring/chr-b-023-bao-ersheng.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-078",
-      "path": "characters/recurring/chr-b-025-yu-xiaojing.md",
+      "path": "characters/recurring/chr-b-024-zou-yanniang.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-079",
-      "path": "characters/recurring/chr-b-026-qiao-tingyu.md",
+      "path": "characters/recurring/chr-b-025-yu-xiaojing.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-080",
-      "path": "characters/recurring/chr-b-027-ma-changgeng.md",
+      "path": "characters/recurring/chr-b-026-qiao-tingyu.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-081",
-      "path": "characters/recurring/chr-b-028-lu-ansheng.md",
+      "path": "characters/recurring/chr-b-027-ma-changgeng.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-082",
-      "path": "characters/recurring/chr-b-029-zhu-xingniang.md",
+      "path": "characters/recurring/chr-b-028-lu-ansheng.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-083",
-      "path": "characters/recurring/chr-b-030-pu-wanli.md",
+      "path": "characters/recurring/chr-b-029-zhu-xingniang.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-084",
-      "path": "characters/recurring/chr-b-031-xu-jiuzhang.md",
+      "path": "characters/recurring/chr-b-030-pu-wanli.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-085",
-      "path": "characters/recurring/chr-b-032-du-yannian.md",
+      "path": "characters/recurring/chr-b-031-xu-jiuzhang.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-086",
-      "path": "characters/recurring/chr-b-033-jin-shi.md",
+      "path": "characters/recurring/chr-b-032-du-yannian.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-087",
-      "path": "characters/recurring/chr-b-034-pang-xiaochun.md",
+      "path": "characters/recurring/chr-b-033-jin-shi.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-088",
-      "path": "characters/recurring/chr-b-035-liang-chengwu.md",
+      "path": "characters/recurring/chr-b-034-pang-xiaochun.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-089",
-      "path": "characters/recurring/chr-b-036-shi-yueniang.md",
+      "path": "characters/recurring/chr-b-035-liang-chengwu.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-090",
-      "path": "characters/recurring/chr-b-037-feng-yaoer.md",
+      "path": "characters/recurring/chr-b-036-shi-yueniang.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-091",
-      "path": "characters/recurring/chr-b-038-he-qianzhen.md",
+      "path": "characters/recurring/chr-b-037-feng-yaoer.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-092",
-      "path": "characters/recurring/chr-b-039-jingyuan.md",
+      "path": "characters/recurring/chr-b-038-he-qianzhen.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-093",
-      "path": "characters/recurring/chr-b-040-su-he.md",
+      "path": "characters/recurring/chr-b-039-jingyuan.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-094",
-      "path": "characters/recurring/chr-b-041-jiang-apo.md",
+      "path": "characters/recurring/chr-b-040-su-he.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-095",
-      "path": "characters/recurring/chr-b-042-qin-xiaohe.md",
+      "path": "characters/recurring/chr-b-041-jiang-apo.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-096",
-      "path": "characters/recurring/chr-b-043-wei-kaiyuan.md",
+      "path": "characters/recurring/chr-b-042-qin-xiaohe.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-097",
-      "path": "characters/recurring/chr-b-044-bai-qing.md",
+      "path": "characters/recurring/chr-b-043-wei-kaiyuan.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-098",
-      "path": "characters/recurring/chr-b-045-niu-degui.md",
+      "path": "characters/recurring/chr-b-044-bai-qing.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-099",
-      "path": "characters/recurring/chr-b-046-an-niangzi.md",
+      "path": "characters/recurring/chr-b-045-niu-degui.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-100",
-      "path": "characters/recurring/chr-b-047-zheng-beihong.md",
+      "path": "characters/recurring/chr-b-046-an-niangzi.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-101",
-      "path": "characters/recurring/chr-b-048-chang-bo.md",
+      "path": "characters/recurring/chr-b-047-zheng-beihong.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-102",
-      "path": "characters/relations/core/rel-001.md",
+      "path": "characters/recurring/chr-b-048-chang-bo.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-103",
-      "path": "characters/relations/core/rel-002.md",
+      "path": "characters/relations/core/rel-001.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-104",
-      "path": "characters/relations/core/rel-003.md",
+      "path": "characters/relations/core/rel-002.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-105",
-      "path": "characters/relations/core/rel-004.md",
+      "path": "characters/relations/core/rel-003.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-106",
-      "path": "characters/relations/core/rel-005.md",
+      "path": "characters/relations/core/rel-004.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-107",
-      "path": "characters/relations/core/rel-006.md",
+      "path": "characters/relations/core/rel-005.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-108",
-      "path": "characters/relations/core/rel-007.md",
+      "path": "characters/relations/core/rel-006.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-109",
-      "path": "characters/relations/core/rel-008.md",
+      "path": "characters/relations/core/rel-007.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-110",
-      "path": "characters/relations/core/rel-009.md",
+      "path": "characters/relations/core/rel-008.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-111",
-      "path": "characters/relations/core/rel-010.md",
+      "path": "characters/relations/core/rel-009.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-112",
-      "path": "characters/relations/core/rel-011.md",
+      "path": "characters/relations/core/rel-010.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-113",
-      "path": "characters/relations/core/rel-012.md",
+      "path": "characters/relations/core/rel-011.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-114",
-      "path": "characters/relations/core/rel-013.md",
+      "path": "characters/relations/core/rel-012.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-115",
-      "path": "characters/relations/core/rel-014.md",
+      "path": "characters/relations/core/rel-013.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-116",
-      "path": "characters/relations/core/rel-015.md",
+      "path": "characters/relations/core/rel-014.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-117",
-      "path": "characters/relations/core/rel-016.md",
+      "path": "characters/relations/core/rel-015.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-118",
-      "path": "characters/relations/core/rel-g01.md",
+      "path": "characters/relations/core/rel-016.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-119",
-      "path": "characters/emotional-spines/00-emotional-spines-index.md",
+      "path": "characters/relations/core/rel-g01.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-120",
-      "path": "characters/emotional-spines/01-love.md",
+      "path": "characters/emotional-spines/00-emotional-spines-index.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-121",
-      "path": "characters/emotional-spines/02-friendship.md",
+      "path": "characters/emotional-spines/01-love.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-122",
-      "path": "characters/emotional-spines/03-family.md",
+      "path": "characters/emotional-spines/02-friendship.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-123",
-      "path": "characters/emotional-spines/04-mentorship.md",
+      "path": "characters/emotional-spines/03-family.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-124",
-      "path": "characters/emotional-spines/05-comrades-and-institutions.md",
+      "path": "characters/emotional-spines/04-mentorship.md",
       "mode": "whole_file"
     },
     {
       "id": "CHARFOUND-125",
+      "path": "characters/emotional-spines/05-comrades-and-institutions.md",
+      "mode": "whole_file"
+    },
+    {
+      "id": "CHARFOUND-126",
       "path": "characters/emotional-spines/06-ideal-community.md",
       "mode": "whole_file"
     }

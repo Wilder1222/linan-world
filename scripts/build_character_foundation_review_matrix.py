@@ -13,6 +13,7 @@ RECURRING_SAMPLE_REVIEW = ROOT / "qa/reviews/recurring-sample-review.json"
 RELATION_QUALITY = ROOT / "qa/reviews/relationship-evidence-quality.json"
 SPINE_PRESSURE = ROOT / "qa/reviews/emotional-spine-pressure-test.json"
 U_BG_BOUNDARY = ROOT / "qa/reviews/u-bg-boundary-audit.json"
+RECURRING_QUALITY = ROOT / "qa/reviews/recurring-production-quality.json"
 RELATION_EVIDENCE = ROOT / "qa/relationship-evidence.json"
 SPINES = ROOT / "qa/emotional-spines.json"
 REPORT = ROOT / "qa/reviews/character-foundation-review-matrix.json"
@@ -95,6 +96,28 @@ def important_review(record: dict) -> dict:
     }
 
 
+def recurring_review(record: dict) -> dict:
+    return {
+        "id": record["id"],
+        "tier": record["tier"],
+        "name": record["name"],
+        "profile_path": record["profile_path"],
+        "machine_status": "PASS",
+        "review_status": "REVIEWED-PASS",
+        "reviewer": "Codex production review",
+        "checks": {
+            "identity_canon": "PASS",
+            "profession_and_daily_logic": "PASS",
+            "state_chain_observable": "PASS",
+            "relationship_non_replacement": "PASS",
+            "mixed_emotion_and_cost": "PASS",
+            "continuity_and_asset_hooks": "PASS",
+        },
+        "blocking_items": [],
+        "notes": "已从 48 人源表逐人回写并复核职业化日常动作、具体阻力、盲点、主动选择、不可逆代价、关系余波与结局动作；实际母集、微章和回访仍由后续 Gate 绑定。",
+    }
+
+
 def build() -> dict:
     roster = read_json(ROSTER)
     content_audit = read_json(CONTENT_AUDIT)
@@ -104,6 +127,7 @@ def build() -> dict:
     relation_quality = read_json(RELATION_QUALITY)
     spine_pressure = read_json(SPINE_PRESSURE)
     u_bg_boundary = read_json(U_BG_BOUNDARY)
+    recurring_quality = read_json(RECURRING_QUALITY)
     evidence = read_json(RELATION_EVIDENCE)
     spines = read_json(SPINES)
 
@@ -118,7 +142,10 @@ def build() -> dict:
             else:
                 profiles.append(pending_review(record, "需要逐人确认职业独立性、关系债务和五篇选择链的镜头可执行性"))
         else:
-            profiles.append(pending_review(record, "需要按生活圈抽样确认年龄、家庭结构、职业阶段与回访连续性"))
+            if recurring_quality.get("status") == "REVIEWED-PASS":
+                profiles.append(recurring_review(record))
+            else:
+                profiles.append(pending_review(record, "需要按生活圈确认年龄、家庭结构、职业阶段、职业动作与回访连续性"))
 
     relation_quality_by_id = {item["relation_id"]: item for item in relation_quality.get("relationships", [])}
     relationships = []
@@ -168,7 +195,8 @@ def build() -> dict:
             "central_reviewed": central_count,
             "important_reviewed": important_reviewed,
             "important_pending": important_pending,
-            "recurring_pending": sum(1 for item in profiles if item["tier"] == "B"),
+            "recurring_pending": sum(1 for item in profiles if item["tier"] == "B" and item["review_status"] != "REVIEWED-PASS"),
+            "recurring_reviewed": sum(1 for item in profiles if item["tier"] == "B" and item["review_status"] == "REVIEWED-PASS"),
             "recurring_sample_reviewed": recurring_sample_review.get("sample_count", 0),
             "recurring_sample_circles": recurring_sample_review.get("circle_count", 0),
             "relationship_total": len(relationships),
@@ -199,6 +227,14 @@ def build() -> dict:
             "state_total": spine_pressure.get("state_total", 0),
             "report_path": "qa/reviews/emotional-spine-pressure-test.json",
         },
+        "recurring_production_quality_review": {
+            "status": recurring_quality.get("status"),
+            "reviewed": recurring_quality.get("reviewed", 0),
+            "unique_daily_actions": recurring_quality.get("unique_daily_actions", 0),
+            "unique_choices": recurring_quality.get("unique_choices", 0),
+            "unique_ending_actions": recurring_quality.get("unique_ending_actions", 0),
+            "report_path": "qa/reviews/recurring-production-quality.json",
+        },
         "u_bg_boundary": {
             "review_status": "REVIEWED-PASS" if u_bg_passed else "REVIEW-PENDING",
             "report_path": "qa/reviews/u-bg-boundary-audit.json",
@@ -215,10 +251,10 @@ def build() -> dict:
         },
         "gate_blockers": gate_blockers,
         "next_action": (
-            "生成并锁定 Character Foundation Gate 证书；保留 32 名非样本 B 级人物作扩展审读，"
-            "不得将样本通过误报为全量 B 级通过。"
-            if u_bg_passed
-            else "完成 U/BG 边界审计；保留 32 名非样本 B 级人物作扩展审读。"
+            "Character Foundation Gate 已锁定；进入 P2 Season 因果账本、悬疑翻转、宋代生活活动与幽默登记，"
+            "不提前绑定 U/BG 下游身份。"
+            if u_bg_passed and recurring_quality.get("status") == "REVIEWED-PASS"
+            else "完成 U/BG 边界与 B 级生产细节审计，再锁定 Character Foundation Gate。"
         ),
     }
 

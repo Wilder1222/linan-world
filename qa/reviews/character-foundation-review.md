@@ -4,11 +4,11 @@
 
 当前自动内容审计见 `qa/reviews/character-foundation-audit.json`：84 份人物档案、17 份关系档案与 36 个情感状态锚点均已覆盖，自动发现项为 0。关系 Foundation 证据已登记于 `qa/relationship-evidence.json`（17 组 × 8 个快照 = 136 个锚点），但最终 scene/dialogue/shot ID 仍需 Season/Episode Gate 回填；U/BG 的下游绑定仍明确保留给后续 Gate。
 
-B 级年龄与生活圈机器审计见 `qa/reviews/recurring-demographic-audit.json`：48/48 已检查，自动发现项为 0；8 个生活圈各抽 2 人的人工样本审读见 `qa/reviews/recurring-sample-review.json`，16/16 通过；其余 32 人仍保留为扩展审读对象。
+B 级年龄与生活圈机器审计见 `qa/reviews/recurring-demographic-audit.json`：48/48 已检查，自动发现项为 0；职业化生产细节审读见 `qa/reviews/recurring-production-quality.json`：48/48 具备独立日常动作、阻力、盲点、选择、代价、关系余波和结局动作；8 个生活圈各抽 2 人的现场样本审读见 `qa/reviews/recurring-sample-review.json`，16/16 通过。
 
 L/A 状态链机器审计见 `qa/reviews/profile-state-chain-audit.json`：36 份档案、360 个状态节点已检查，自动发现项为 0；人工仍需确认每个状态的动作、空间、信息状态和关系移交能直接转译为镜头执行。
 
-逐项跟踪矩阵见 `qa/reviews/character-foundation-review-matrix.json`：12 名中央人物、24 名 A 级重要人物、17 条关系证据、6 条情感脊柱与 U/BG 边界已完成一轮生产级审读并标记 `REVIEWED-PASS`；B 级样本已覆盖 8/8 生活圈，剩余 32 人仍保留为扩展审读对象，不得将样本通过误报为全量 B 级通过。
+逐项跟踪矩阵见 `qa/reviews/character-foundation-review-matrix.json`：12 名中央人物、24 名 A 级重要人物、48 名 B 级常驻、17 条关系证据、6 条情感脊柱与 U/BG 边界均已完成一轮生产级审读并标记 `REVIEWED-PASS`；B 级样本继续作为 8/8 生活圈的现场抽查，而不是全量审读的替代。
 
 ## 审读标准
 
@@ -34,7 +34,7 @@ L/A 状态链机器审计见 `qa/reviews/profile-state-chain-audit.json`：36 �
 
 - [x] 12 名中央人物：已逐人完成动作/情绪/选择链审读。
 - [x] A1-A3 批次 24 名重要人物：已逐人确认独立目标、代价和与中央人物的非替代性。
-- [x] B 级样本：8 个生活圈各抽 2 人，确认年龄推定、职业流程和非中央关系真实可演；其余 32 人保留扩展审读。
+- [x] B 级全量职业细节与样本：48 人均已确认年龄/生活圈字段、职业动作、现实阻力、角色盲点、主动选择、具体代价、关系余波和结局动作；8 个生活圈各抽 2 人做现场样本复核。
 - [x] 17 个关系档案：136 个 Foundation 快照已逐条确认动作、空间、物件和阶段代价推动选择变化；Season/Episode Gate 再回填最终场次、物件、台词和镜头 ID。
 - [x] 六条情感脊柱：36 个状态锚点已确认混合情感、主动选择、不可逆代价、关系余波且不会自动和解。
 - [x] U/BG 登记：`qa/reviews/u-bg-boundary-audit.json` 已确认 120 个 U 槽位保持可替换、22 个 POV 槽位/44 个候选/40 个自然回访候选不变；300 个 BG 原型均有地点、时段和劳动状态字段，具体微章/扩展绑定仍为空并保留给 Episode Gate。
