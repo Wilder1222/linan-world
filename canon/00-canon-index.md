@@ -2,17 +2,20 @@
 
 > 顶层权威：`docs/superpowers/specs/2026-08-22-linan-spring-letter-master-design.md`
 >
-> 当前状态：`FOUNDATION-REVIEW-READY`。本目录内容已通过确定性校验并生成 Canon Gate 输入清单，正式锁定仍需两位独立审读者签署；不得反向覆盖顶层规格。
+> 当前状态：`LOCKED`。31 个 Canon 冻结文件已通过确定性校验、双角色分域审读和 Canon Gate 证书锁定；不得反向覆盖顶层规格。
 
 ## 已纳入的基础源
 
-| 文件 | 内容 | 状态 |
+世界、时间、城市、水系、春信、制度、经济、公共卫生、语言与物质文化已经拆成 31 个稳定输入文件，完整清单与冻结顺序见 `qa/gates/scope-definitions/canon.json`。本索引只做入口，不复制专项文件的第二套规则。
+
+| 稳定范围 | 状态 | 机器校验 |
 |---|---|---|
-| `canon/01-world-bible.md` | 临安八个生活系统、危机放大回路、武侠边界、生活优先原则、后续地域扩展 | FOUNDATION-DRAFT |
-
-## 仍需补齐的 Canon 文件
-
-时间轴、城市图谱、水系与旅行时间、春信协议、官署权限、经济与公共卫生、语言及物质文化，按 Canon 计划继续拆分；本次扩展包没有足够结构化字段替代这些机器可验证文件。
+| 世界与主题 | LOCKED | `canon/01-world-bible.md` |
+| 城市、水系与地点 | LOCKED | `canon/02-linan-city-atlas.md`、`canon/city/` |
+| 春信与灯号 | LOCKED | `canon/03-spring-letter-system.md`、`canon/system/` |
+| 历史与时间 | LOCKED | `canon/04-history-and-timeline.md` |
+| 制度、经济与健康 | LOCKED | `canon/05-government-economy-and-daily-life.md`、`canon/institutions/` |
+| 语言与物质文化 | LOCKED | `canon/06-language-and-material-culture.md` |
 
 ## 来源
 

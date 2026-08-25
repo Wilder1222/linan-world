@@ -70,6 +70,39 @@
       "effective_until": null,
       "status": "ACTIVE",
       "change_id": "CR-002"
+    },
+    {
+      "fact_id": "CITY.LOCATION_COUNT",
+      "value": 18,
+      "authority_path": "canon/city/00-city-index.md",
+      "authority_anchor": "Y0-OPEN",
+      "priority": 1,
+      "effective_from": "PRE-Y13",
+      "effective_until": null,
+      "status": "ACTIVE",
+      "change_id": "CR-003"
+    },
+    {
+      "fact_id": "SPRING_LETTER.CHANNEL_COUNT",
+      "value": 5,
+      "authority_path": "canon/03-spring-letter-system.md",
+      "authority_anchor": "Y0-OPEN",
+      "priority": 1,
+      "effective_from": "PRE-Y13",
+      "effective_until": null,
+      "status": "ACTIVE",
+      "change_id": "CR-003"
+    },
+    {
+      "fact_id": "CRISIS.CAUSAL_EVENT_COUNT",
+      "value": 10,
+      "authority_path": "canon/institutions/05-y0-crisis-causal-chain.md",
+      "authority_anchor": "Y0-OPEN",
+      "priority": 1,
+      "effective_from": "Y0-OPEN",
+      "effective_until": "ENDING",
+      "status": "ACTIVE",
+      "change_id": "CR-003"
     }
   ]
 }

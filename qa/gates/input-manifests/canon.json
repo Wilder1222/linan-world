@@ -2,19 +2,19 @@
   "schema_version": 1,
   "gate": "canon",
   "scope": "canon",
-  "created_at": "2026-08-24T04:53:59.522570+00:00",
+  "created_at": "2026-08-25T09:24:32.925481+00:00",
   "items": [
     {
       "id": "CANON-001",
       "path": "canon/00-canon-index.md",
       "mode": "whole_file",
-      "projection_sha256": "5a0f616bc536aafb012feecb13fbea55f065de5dd27ef115ea03a8591e68945a"
+      "projection_sha256": "52fdbe3409a0fff261c8e74376b8166ef021caaf44e116298d4e4237d2e154fa"
     },
     {
       "id": "CANON-002",
       "path": "canon/00-id-and-terms-registry.md",
       "mode": "whole_file",
-      "projection_sha256": "52ef06effcdab68586581af3c3cd86386c00ca62f98a8b3e2c7ca8bdd3fb65b3"
+      "projection_sha256": "422b0707cf452702c61fa3cccf32e3ebe47f42ba12c62316b52147d2985f7908"
     },
     {
       "id": "CANON-003",
@@ -32,7 +32,7 @@
       "id": "CANON-005",
       "path": "canon/03-spring-letter-system.md",
       "mode": "whole_file",
-      "projection_sha256": "c8069f972497a6980bdafb3b8749c7f4469c1d0cd2855794353d44efab0bd7e3"
+      "projection_sha256": "b4cd72b713a4fa69f7d07b7e953c61987db622cb144eb3a847d0425cbb4322ba"
     },
     {
       "id": "CANON-006",
@@ -50,7 +50,7 @@
       "id": "CANON-008",
       "path": "canon/06-language-and-material-culture.md",
       "mode": "whole_file",
-      "projection_sha256": "bdab2679d02662d54c90286eb3eaca69bbf75d7bdfb4d3e1e4ff8bb651ef1006"
+      "projection_sha256": "01ed54b6b23c23733a8ca56e9b92337f291032af999aad53b9c0cc1908d12a33"
     },
     {
       "id": "CANON-009",
@@ -68,127 +68,127 @@
       "id": "CANON-011",
       "path": "canon/city/02-waterways-drainage-and-floodworks.md",
       "mode": "whole_file",
-      "projection_sha256": "ae3738d4bdd0bc849c237eb7013ba22e944c8cd43ae5650f7718b0d3528efd6b"
+      "projection_sha256": "7b95a475000fd5738b21425c44bfe2f1f10966e99ea940690e00cc8282e5baa0"
     },
     {
       "id": "CANON-012",
       "path": "canon/city/03-he-ming-lane-and-shen-shop.md",
       "mode": "whole_file",
-      "projection_sha256": "7768d48af7bd673dd46e458596d4c173adca5dc69e868ca4df7fd59f4b4e9f06"
+      "projection_sha256": "226911438e79d198b55e980aeee2fbba5ca9b4b2e3f4567069822157de209ac9"
     },
     {
       "id": "CANON-013",
       "path": "canon/city/04-imperial-street-night-market-and-spring-stage.md",
       "mode": "whole_file",
-      "projection_sha256": "719d55b3b0223090828ca1733dd7bb3daeacfdd3acb67e1ce8b4ec17af1c4199"
+      "projection_sha256": "27c5e4f74f657a3442b54525b7914a7bfd5c9369c4057432bed909247cafae07"
     },
     {
       "id": "CANON-014",
       "path": "canon/city/05-west-lake-and-xiling-circle.md",
       "mode": "whole_file",
-      "projection_sha256": "ae7ad138ce1a36d1c40c327cca3ecf997c0bf6db7db02345ab557a9f711adcb2"
+      "projection_sha256": "04a69274acb1b923bec21e23b4742cc9d16bc7f237d47d3899a15d5a5a2c1a42"
     },
     {
       "id": "CANON-015",
       "path": "canon/city/06-qiantang-docks-and-qingyao-routes.md",
       "mode": "whole_file",
-      "projection_sha256": "63dd8068e8fe97dbca8da856d10dc4de346ef99423beea318328d77b28379460"
+      "projection_sha256": "086e0e330215686c6e4b8f15324c3fa7e780d6af29a3699ef7cdaf85206d56ab"
     },
     {
       "id": "CANON-016",
       "path": "canon/city/07-government-granaries-gates-and-three-warehouses.md",
       "mode": "whole_file",
-      "projection_sha256": "69bed77eab34deb1be3f0702390f8b19b594783b5e42022768c0fde0f6b75660"
+      "projection_sha256": "98d8aaf8b37a25784a1fa03a0ed3385f49d5432072181baef3cbeb48ca98fd63"
     },
     {
       "id": "CANON-017",
       "path": "canon/city/08-clinic-temple-guesthouse-and-refugee-camp.md",
       "mode": "whole_file",
-      "projection_sha256": "1ef49b2ee698ede3821715b76722ba10ff486eb0c21a214d33ce514fc12beadb"
+      "projection_sha256": "a937737c2c43a9fce7e5ec80d8ba4f35ec254e60aa4e99af47c3be6ad540d4a3"
     },
     {
       "id": "CANON-018",
       "path": "canon/city/09-travel-time-matrix.md",
       "mode": "whole_file",
-      "projection_sha256": "5dcb600495433c8e2bf69669335726f38cdcdffccdc0b2f609691f96a5b798ce"
+      "projection_sha256": "f9bed3adbe6f431997fe0508a6ab6d02899905ca92d5392062f8e90161286708"
     },
     {
       "id": "CANON-019",
       "path": "canon/city/10-seasonal-location-state.md",
       "mode": "whole_file",
-      "projection_sha256": "c40006737ab788dda5e974ea8b801caf342e653bf9361cbd221e52e1fabce2b9"
+      "projection_sha256": "1024791e4fb47e50073e92c7bce318b01de6814a4d99ea4c9f04cc4141f0e319"
     },
     {
       "id": "CANON-020",
       "path": "canon/city/11-reusable-location-cards.md",
       "mode": "whole_file",
-      "projection_sha256": "2415a4614dda7f6c0156fc0b1658e0c082b4b77d455046dd9cca32f7ebc44aac"
+      "projection_sha256": "8fb782205071a9a2f90f8d69661670be48eedfd53636b1b415319f1de0c33fce"
     },
     {
       "id": "CANON-021",
       "path": "canon/system/01-five-channel-observation.md",
       "mode": "whole_file",
-      "projection_sha256": "d129837ea524f997cf02fbe52a24b41acc22a1ed7602d94a0f3cbb8d2a4761f8"
+      "projection_sha256": "25940d330f2433bc2ef22f2f490138eee6d376ce7abdd44789cf982644ae4724"
     },
     {
       "id": "CANON-022",
       "path": "canon/system/02-evidence-levels-no-spring-and-correction.md",
       "mode": "whole_file",
-      "projection_sha256": "fcea8f25343b54134cb710e35c4075276e4f8153fa59d2ccb04843e0786e9f5d"
+      "projection_sha256": "0078330a50c6ce1b6e182720ceb7d70a05a93c2a247101d12f8c34db62a0ff3f"
     },
     {
       "id": "CANON-023",
       "path": "canon/system/03-transmission-privacy-and-access.md",
       "mode": "whole_file",
-      "projection_sha256": "8fb62b082ea8ebcc5bf94c615483b159bbecc7c5234a4f23b2ffa7c458fece80"
+      "projection_sha256": "3f989d1291a83d3a19ad524d18f6298de2f9a5e3d3cc93ba58a54ca5a5e1e3c6"
     },
     {
       "id": "CANON-024",
       "path": "canon/system/04-lantern-signals-and-emergency-protocol.md",
       "mode": "whole_file",
-      "projection_sha256": "370fb0a53f403965b249e506a19abba50006c2f222770eb167d0ec53c7d54a6a"
+      "projection_sha256": "b331e5b3cee2d38401494d2051f19b2e355b2d39155c0c5271b449e3325cd1d2"
     },
     {
       "id": "CANON-025",
       "path": "canon/system/05-y13-failure-and-y0-redesign.md",
       "mode": "whole_file",
-      "projection_sha256": "dd9caedb2d04fcaad3ad440f73c26c6893cf51c8ebd2e553f63b992a3d57587a"
+      "projection_sha256": "272173b0ac12225cd658aac5ed49363dba602acb2a175b82d6b98eb08ad4a36f"
     },
     {
       "id": "CANON-026",
       "path": "canon/institutions/01-government-authority-matrix.md",
       "mode": "whole_file",
-      "projection_sha256": "c09f21807d28b6186efe3253822b1cf641fd5b247ceb74f7b4870184a807581b"
+      "projection_sha256": "a4da07ad23f616993f915ee178394028905e0a54d59f0203c81064b816e94467"
     },
     {
       "id": "CANON-027",
       "path": "canon/institutions/02-extraordinary-order-and-signatures.md",
       "mode": "whole_file",
-      "projection_sha256": "2feafe1a8d93ae570e530b9f9dd79243da98d130d9fbb90181f30430328a70e6"
+      "projection_sha256": "42ca3a6d5a58db39c1d2da87c6c2f8e98125d26cae8208cb73992329a3fb91e7"
     },
     {
       "id": "CANON-028",
       "path": "canon/institutions/03-food-medicine-trade-and-storage.md",
       "mode": "whole_file",
-      "projection_sha256": "7081ccf2b81ec6cc2f748ca9f491830db9b4437857057fbff8b12e9871bf0e4d"
+      "projection_sha256": "10796c25160c0d47e9c2b636e9f32b2bc061842c7e0532a7a1ab80e650358c59"
     },
     {
       "id": "CANON-029",
       "path": "canon/institutions/04-water-sanitation-health-and-relief.md",
       "mode": "whole_file",
-      "projection_sha256": "078d99d794379f27fb5dd3489ee51d329c2bdcab9b68f87569c6a42c60edde00"
+      "projection_sha256": "0f68eaf3fde5e48ad690a4b02b2a2b1bcd9c5bf44611f2c62e72c3ed133bc76b"
     },
     {
       "id": "CANON-030",
       "path": "canon/institutions/05-y0-crisis-causal-chain.md",
       "mode": "whole_file",
-      "projection_sha256": "939b25f7f3d4d9bd959666511e98ac93129611ea754e73bc5b826f8c7e6f9214"
+      "projection_sha256": "117b385277c9444617f196f6e5893fbef634a462efc1c213dd08e408a0f94767"
     },
     {
       "id": "CANON-031",
       "path": "canon/institutions/06-postcrisis-public-information-charter.md",
       "mode": "whole_file",
-      "projection_sha256": "5e6f8da5dcbf6e5cfd0c99664a6a0dc3c8b227d7aea6a81966230fddf0120787"
+      "projection_sha256": "2de7f1495e0467b9cc9ed423b7b5aa101b784dbdc367357c270bb879b1c46006"
     }
   ]
 }

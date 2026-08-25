@@ -96,6 +96,20 @@ class GateLockTests(unittest.TestCase):
         self.assertEqual("LOCKED", status["canon_gate"])
         self.assertEqual("LOCKED", json.loads(certificate.read_text()) ["status"])
 
+    def test_relative_review_paths_are_resolved_from_repository_root(self):
+        make_scope(self.root); manifest = self.prepare(); manifest_hash = sha256_file(manifest)
+        first = self.root / "qa/reviews/first.md"; second = self.root / "qa/reviews/second.md"
+        write_review(first, "reviewer-a", manifest_hash); write_review(second, "reviewer-b", manifest_hash)
+        certificate = lock_gate(
+            self.root,
+            "canon",
+            "canon",
+            [Path("qa/reviews/first.md"), Path("qa/reviews/second.md")],
+            validation_runner=self.runner,
+        )
+        data = json.loads(certificate.read_text(encoding="utf-8"))
+        self.assertEqual(["qa/reviews/first.md", "qa/reviews/second.md"], data["reviews"])
+
     def test_scope_definition_must_cover_every_declared_item(self):
         make_scope(self.root); path = self.root / "qa/gates/scope-definitions/canon.json"
         data = json.loads(path.read_text(encoding="utf-8")); data["declared_frozen_items"].append("MISSING"); write_json(path, data)

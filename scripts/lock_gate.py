@@ -168,6 +168,9 @@ def lock_gate(
     reviews: list[Path],
     validation_runner: Callable[[str, str], None] | None = None,
 ) -> Path:
+    # CLI callers commonly pass review paths relative to the repository root;
+    # normalize them before reading or recording them in the certificate.
+    reviews = [path if path.is_absolute() else root / path for path in reviews]
     manifest_path = root / f"qa/gates/input-manifests/{gate}.json"
     if not manifest_path.exists():
         raise GateError("input manifest missing; run prepare first")
@@ -201,7 +204,7 @@ def lock_gate(
         "scope": scope,
         "status": "LOCKED",
         "input_manifest_sha256": manifest_hash,
-        "reviews": [str(path.relative_to(root)) for path in reviews],
+        "reviews": [path.relative_to(root).as_posix() for path in reviews],
         "locked_at": datetime.now(timezone.utc).isoformat(),
     }
     cert_path = _certificate_path(root, gate)

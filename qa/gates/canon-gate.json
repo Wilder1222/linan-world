@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "gate": "canon",
+  "scope": "canon",
+  "status": "LOCKED",
+  "input_manifest_sha256": "1adbf9458db80781fdfed34c06a1b0028f11ce1b8824df121f38bd8fe328e245",
+  "reviews": [
+    "qa/reviews/canon-world-review.md",
+    "qa/reviews/canon-narrative-review.md"
+  ],
+  "locked_at": "2026-08-25T09:24:48.099153+00:00"
+}

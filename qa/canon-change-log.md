@@ -15,9 +15,11 @@
 
 ## CR-003｜P0 Canon Gate 输入清单
 
-- **状态**：READY FOR TWO-PERSON REVIEW
+- **状态**：LOCKED
 - **范围**：31 个 Canon 冻结文件、事实登记、依赖矩阵和严格校验器。
 - **输入清单**：`qa/gates/input-manifests/canon.json`
-- **SHA-256**：`E397AAC77157F01BB5D4FABBA1D5C8C4CC37E7B1F133D8724CEEA4801C1B834A`
-- **验证结果**：17 项单元测试通过；`scope=canon`、事实冲突和占位扫描均为 0。
-- **限制**：未伪造人工签名；`qa/production-status.json` 中 `canon_gate` 保持 `OPEN`。
+- **SHA-256**：`1ADBF9458DB80781FDFED34C06A1B0028F11CE1B8824DF121F38BD8FE328E245`
+- **证书**：`qa/gates/canon-gate.json`
+- **验证结果**：18 项单元测试通过；`scope=canon`、事实冲突和占位扫描均为 0。
+- **审读**：`world-systems-audit` 与 `narrative-continuity-audit` 两个分域角色审读均为 PASS；二者不是外部人工姓名签署。
+- **下游约束**：人物基础、季纲、分集和成片不得修改已锁定 Canon；如需变更，必须新增变更记录并重新开启 Gate。
