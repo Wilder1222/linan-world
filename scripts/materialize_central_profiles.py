@@ -3,6 +3,8 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
+from central_state_details import CENTRAL_DETAILS, state_detail
+
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "characters/01-central-cast-12.md"
@@ -60,16 +62,19 @@ def render(person: tuple, source: str) -> str:
         for index, other in enumerate(relation_people, start=1)
     )
     arcs = arc_texts(source, name)
+    focus = section_text(source, "所守之物") or spine[0]
+    detail = dict(CENTRAL_DETAILS[stable_id])
+    detail["shadow"] = section_text(source, "未承认的自己") or f"{name}害怕失去对自己选择的解释权"
     states = [
-        ("Y-13", f"{section_text(source, '为什么形成这种坚守') or f'{name}在十三年前形成当前职业与债务。'}"),
-        ("Y0-OPEN", f"当季目标与所守之物：{section_text(source, '所守之物') or spine[0]}"),
-        ("ARC1-END", f"目标—误判—选择—代价—状态移交：{arcs[0]}"),
-        ("ARC2-END", f"目标—误判—选择—代价—状态移交：{arcs[1]}"),
-        ("ARC3-END", f"目标—误判—选择—代价—状态移交：{arcs[2]}"),
-        ("ARC4-END", f"目标—误判—选择—代价—状态移交：{arcs[3]}"),
-        ("ARC5-END", f"目标—误判—选择—代价—状态移交：{arcs[4]}"),
-        ("ARC6-END", f"目标—误判—选择—代价—状态移交：{arcs[5]}；终局职业回响为：{spine[1]}。"),
-        ("ENDING", f"{section_text(source, '结局') or f'{name}回到自己的工作场所，用一个日常动作承认损失仍在。'}"),
+        ("Y-13", state_detail(name, focus, spine[1], residence, relation_people, "形成条件", detail, "Y-13")),
+        ("Y0-OPEN", state_detail(name, focus, spine[1], residence, relation_people, "当季起点", detail, "Y0-OPEN")),
+        ("ARC1-END", state_detail(name, focus, spine[1], residence, relation_people, arcs[0], detail, "ARC1-END")),
+        ("ARC2-END", state_detail(name, focus, spine[1], residence, relation_people, arcs[1], detail, "ARC2-END")),
+        ("ARC3-END", state_detail(name, focus, spine[1], residence, relation_people, arcs[2], detail, "ARC3-END")),
+        ("ARC4-END", state_detail(name, focus, spine[1], residence, relation_people, arcs[3], detail, "ARC4-END")),
+        ("ARC5-END", state_detail(name, focus, spine[1], residence, relation_people, arcs[4], detail, "ARC5-END")),
+        ("ARC6-END", state_detail(name, focus, spine[1], residence, relation_people, arcs[5], detail, "ARC6-END")),
+        ("ENDING", f"{section_text(source, '结局') or state_detail(name, spine[0], spine[1], residence, relation_people, '结局', detail, 'ENDING')}"),
         ("Y+1", f"一年后，{name}仍保留终局选择带来的新边界；关系改善必须有行为证据，不自动和解。"),
     ]
     state_text = "\n\n".join(f"### {state}\n{detail}" for state, detail in states)

@@ -8,6 +8,8 @@ B 级年龄与生活圈机器审计见 `qa/reviews/recurring-demographic-audit.j
 
 L/A 状态链机器审计见 `qa/reviews/profile-state-chain-audit.json`：36 份档案、360 个状态节点已检查，自动发现项为 0；人工仍需确认每个状态的动作、空间、信息状态和关系移交能直接转译为镜头执行。
 
+逐项跟踪矩阵见 `qa/reviews/character-foundation-review-matrix.json`：12 名中央人物已完成一轮生产级审读并标记 `REVIEWED-PASS`；24 名 A 级、48 名 B 级、17 条关系和 6 条情感脊柱仍保持 `REVIEW-PENDING`，不得将机器通过误报为 Gate 已关闭。
+
 ## 审读标准
 
 每名 L/A 人物逐项确认：
@@ -55,6 +57,7 @@ python scripts/validate_project.py --scope character-foundation --strict
 python scripts/audit_character_content.py
 python scripts/audit_recurring_demographics.py
 python scripts/audit_profile_state_chains.py
+python scripts/build_character_foundation_review_matrix.py
 python -m unittest discover -s tests -q
 ```
 
