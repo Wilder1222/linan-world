@@ -1,6 +1,6 @@
 # 《临安春信》故事内容索引
 
-> 当前状态：Season Gate 已于 2026-08-26 锁定；P3-01 输入冻结通过，P3-02 已生成 E01 的 18 张确定性生产卡并通过脚手架审阅。36 集仍为 P2 `SEASON-DRAFT`，最终对白、分镜、U 唯一身份与 BG 微章 ID 仍等待 Episode Gate。
+> 当前状态：Season Gate 已于 2026-08-26 锁定；P3-01 输入冻结、P3-02 生产卡、P3-03 正式交付预审与 P3-04 设计评分均已完成。E01 Episode Gate 仍 `OPEN`（AIGC 证据与人工签字延期），36 集仍为 P2 `SEASON-DRAFT`，U 唯一身份与 BG 微章 ID 继续冻结。
 
 ## 已纳入
 
@@ -38,6 +38,8 @@
 | `production/episodes/S1-E01/storyboard.json` | E01 18 场×3 镜草案 Blocking/Storyboard | P3-03-DRAFT |
 | `production/episodes/S1-E01/continuity-ledger.json` | E01 18 条人物知识、道具、空间与关系连续性记录 | P3-03-DRAFT |
 | `qa/reviews/p3-e01-formal-preflight-review.json` | P3-03 正式交付预审：脚本可演、镜头绑定、连续性与执行边界 | REVIEWED-P3-PREFLIGHT-PASS |
+| `qa/reviews/p3-e01-episode-gate-review.json` | P3-04 E01 Episode Gate 设计评分；九项 QA≥90，AIGC 与人工签字延期 | REVIEWED-P3-DESIGN-GATE-PASS / HOLD-OPEN |
+| `qa/reviews/p3-e01-episode-gate-audit.json` | P3-04 评分结构、场景汇总与执行边界审计 | REVIEWED-P3-DESIGN-GATE-PASS |
 | `qa/gates/input-manifests/p3-pilot-e01-e03.json` | P3-01 试点输入哈希与边界 | P3-PILOT-DRAFT |
 | `story/season/u-candidate-selection.schema.json` | U 槽位候选、POV 映射、自然回访与 Gate 边界字段规范 | LOCKED-SCHEMA |
 | `story/season/u-candidate-selection.json` | 22 个 POV 候选、40 个自然回访候选及 120 槽位保留状态 | SEASON-DRAFT |

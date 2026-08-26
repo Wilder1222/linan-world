@@ -1413,6 +1413,13 @@
           },
           "camera": {
             "scale": "wide-to-medium",
+            "position": "前堂柜台边缘，朝向后仓门槛",
+            "height": "人物胸口至视线高度",
+            "angle": "水平，略带空间侧向",
+            "focal_length": "28mm 等效",
+            "perspective_intent": "先让观众读懂生活空间、入口出口与关键物件的相对位置",
+            "focus_target": "人物工作路径与未解决物件",
+            "depth": "深景深，保留前中后景关系",
             "anchor": "前堂柜台",
             "movement": "slow observational drift",
             "axis_side": "preserve"
@@ -1453,6 +1460,13 @@
           },
           "camera": {
             "scale": "medium two-shot or medium single",
+            "position": "前堂柜台与后仓门槛之间的安全线外",
+            "height": "人物胸口高度",
+            "angle": "平视三分之四角度",
+            "focal_length": "50mm 等效",
+            "perspective_intent": "压缩但不抹平人物之间的关系距离，让阻力在同一空间内可见",
+            "focus_target": "主行动者、对抗动作与被处理的物件",
+            "depth": "中景深，保持对方反应可读",
             "anchor": "前堂柜台",
             "movement": "locked with one motivated pan",
             "axis_side": "preserve"
@@ -1493,6 +1507,13 @@
           },
           "camera": {
             "scale": "close detail to restrained reaction",
+            "position": "后仓门槛侧的可见边界，不越过人物安全距离",
+            "height": "手部或桌面略高处，随后回到眼线高度",
+            "angle": "轻微斜侧，不改变既有轴线",
+            "focal_length": "85mm 等效",
+            "perspective_intent": "把证据、关系反应与尾钩压进同一注意顺序，不制造风格化惊吓",
+            "focus_target": "evidence_or_relationship_delta 与克制反应",
+            "depth": "浅至中景深，尾钩对象清晰且保留必要环境线索",
             "anchor": "后仓门槛",
             "movement": "no decorative move; end on observable hold",
             "axis_side": "preserve"
@@ -1557,6 +1578,13 @@
           },
           "camera": {
             "scale": "wide-to-medium",
+            "position": "后仓案桌边缘，朝向门闩",
+            "height": "人物胸口至视线高度",
+            "angle": "水平，略带空间侧向",
+            "focal_length": "28mm 等效",
+            "perspective_intent": "先让观众读懂生活空间、入口出口与关键物件的相对位置",
+            "focus_target": "人物工作路径与未解决物件",
+            "depth": "深景深，保留前中后景关系",
             "anchor": "后仓案桌",
             "movement": "slow observational drift",
             "axis_side": "preserve"
@@ -1597,6 +1625,13 @@
           },
           "camera": {
             "scale": "medium two-shot or medium single",
+            "position": "后仓案桌与门闩之间的安全线外",
+            "height": "人物胸口高度",
+            "angle": "平视三分之四角度",
+            "focal_length": "50mm 等效",
+            "perspective_intent": "压缩但不抹平人物之间的关系距离，让阻力在同一空间内可见",
+            "focus_target": "主行动者、对抗动作与被处理的物件",
+            "depth": "中景深，保持对方反应可读",
             "anchor": "后仓案桌",
             "movement": "locked with one motivated pan",
             "axis_side": "preserve"
@@ -1637,6 +1672,13 @@
           },
           "camera": {
             "scale": "close detail to restrained reaction",
+            "position": "门闩侧的可见边界，不越过人物安全距离",
+            "height": "手部或桌面略高处，随后回到眼线高度",
+            "angle": "轻微斜侧，不改变既有轴线",
+            "focal_length": "85mm 等效",
+            "perspective_intent": "把证据、关系反应与尾钩压进同一注意顺序，不制造风格化惊吓",
+            "focus_target": "evidence_or_relationship_delta 与克制反应",
+            "depth": "浅至中景深，尾钩对象清晰且保留必要环境线索",
             "anchor": "门闩",
             "movement": "no decorative move; end on observable hold",
             "axis_side": "preserve"
@@ -1702,6 +1744,13 @@
           },
           "camera": {
             "scale": "wide-to-medium",
+            "position": "前堂碗架边缘，朝向后仓门外",
+            "height": "人物胸口至视线高度",
+            "angle": "水平，略带空间侧向",
+            "focal_length": "28mm 等效",
+            "perspective_intent": "先让观众读懂生活空间、入口出口与关键物件的相对位置",
+            "focus_target": "人物工作路径与未解决物件",
+            "depth": "深景深，保留前中后景关系",
             "anchor": "前堂碗架",
             "movement": "slow observational drift",
             "axis_side": "preserve"
@@ -1742,6 +1791,13 @@
           },
           "camera": {
             "scale": "medium two-shot or medium single",
+            "position": "前堂碗架与后仓门外之间的安全线外",
+            "height": "人物胸口高度",
+            "angle": "平视三分之四角度",
+            "focal_length": "50mm 等效",
+            "perspective_intent": "压缩但不抹平人物之间的关系距离，让阻力在同一空间内可见",
+            "focus_target": "主行动者、对抗动作与被处理的物件",
+            "depth": "中景深，保持对方反应可读",
             "anchor": "前堂碗架",
             "movement": "locked with one motivated pan",
             "axis_side": "preserve"
@@ -1782,6 +1838,13 @@
           },
           "camera": {
             "scale": "close detail to restrained reaction",
+            "position": "后仓门外侧的可见边界，不越过人物安全距离",
+            "height": "手部或桌面略高处，随后回到眼线高度",
+            "angle": "轻微斜侧，不改变既有轴线",
+            "focal_length": "85mm 等效",
+            "perspective_intent": "把证据、关系反应与尾钩压进同一注意顺序，不制造风格化惊吓",
+            "focus_target": "evidence_or_relationship_delta 与克制反应",
+            "depth": "浅至中景深，尾钩对象清晰且保留必要环境线索",
             "anchor": "后仓门外",
             "movement": "no decorative move; end on observable hold",
             "axis_side": "preserve"
@@ -1846,6 +1909,13 @@
           },
           "camera": {
             "scale": "wide-to-medium",
+            "position": "酒肆柜台边缘，朝向临窗桌",
+            "height": "人物胸口至视线高度",
+            "angle": "水平，略带空间侧向",
+            "focal_length": "28mm 等效",
+            "perspective_intent": "先让观众读懂生活空间、入口出口与关键物件的相对位置",
+            "focus_target": "人物工作路径与未解决物件",
+            "depth": "深景深，保留前中后景关系",
             "anchor": "酒肆柜台",
             "movement": "slow observational drift",
             "axis_side": "preserve"
@@ -1886,6 +1956,13 @@
           },
           "camera": {
             "scale": "medium two-shot or medium single",
+            "position": "酒肆柜台与临窗桌之间的安全线外",
+            "height": "人物胸口高度",
+            "angle": "平视三分之四角度",
+            "focal_length": "50mm 等效",
+            "perspective_intent": "压缩但不抹平人物之间的关系距离，让阻力在同一空间内可见",
+            "focus_target": "主行动者、对抗动作与被处理的物件",
+            "depth": "中景深，保持对方反应可读",
             "anchor": "酒肆柜台",
             "movement": "locked with one motivated pan",
             "axis_side": "preserve"
@@ -1926,6 +2003,13 @@
           },
           "camera": {
             "scale": "close detail to restrained reaction",
+            "position": "临窗桌侧的可见边界，不越过人物安全距离",
+            "height": "手部或桌面略高处，随后回到眼线高度",
+            "angle": "轻微斜侧，不改变既有轴线",
+            "focal_length": "85mm 等效",
+            "perspective_intent": "把证据、关系反应与尾钩压进同一注意顺序，不制造风格化惊吓",
+            "focus_target": "evidence_or_relationship_delta 与克制反应",
+            "depth": "浅至中景深，尾钩对象清晰且保留必要环境线索",
             "anchor": "临窗桌",
             "movement": "no decorative move; end on observable hold",
             "axis_side": "preserve"
@@ -1990,6 +2074,13 @@
           },
           "camera": {
             "scale": "wide-to-medium",
+            "position": "案桌边缘，朝向炉边",
+            "height": "人物胸口至视线高度",
+            "angle": "水平，略带空间侧向",
+            "focal_length": "28mm 等效",
+            "perspective_intent": "先让观众读懂生活空间、入口出口与关键物件的相对位置",
+            "focus_target": "人物工作路径与未解决物件",
+            "depth": "深景深，保留前中后景关系",
             "anchor": "案桌",
             "movement": "slow observational drift",
             "axis_side": "preserve"
@@ -2030,6 +2121,13 @@
           },
           "camera": {
             "scale": "medium two-shot or medium single",
+            "position": "案桌与炉边之间的安全线外",
+            "height": "人物胸口高度",
+            "angle": "平视三分之四角度",
+            "focal_length": "50mm 等效",
+            "perspective_intent": "压缩但不抹平人物之间的关系距离，让阻力在同一空间内可见",
+            "focus_target": "主行动者、对抗动作与被处理的物件",
+            "depth": "中景深，保持对方反应可读",
             "anchor": "案桌",
             "movement": "locked with one motivated pan",
             "axis_side": "preserve"
@@ -2070,6 +2168,13 @@
           },
           "camera": {
             "scale": "close detail to restrained reaction",
+            "position": "炉边侧的可见边界，不越过人物安全距离",
+            "height": "手部或桌面略高处，随后回到眼线高度",
+            "angle": "轻微斜侧，不改变既有轴线",
+            "focal_length": "85mm 等效",
+            "perspective_intent": "把证据、关系反应与尾钩压进同一注意顺序，不制造风格化惊吓",
+            "focus_target": "evidence_or_relationship_delta 与克制反应",
+            "depth": "浅至中景深，尾钩对象清晰且保留必要环境线索",
             "anchor": "炉边",
             "movement": "no decorative move; end on observable hold",
             "axis_side": "preserve"
@@ -2136,6 +2241,13 @@
           },
           "camera": {
             "scale": "wide-to-medium",
+            "position": "账桌边缘，朝向炉边",
+            "height": "人物胸口至视线高度",
+            "angle": "水平，略带空间侧向",
+            "focal_length": "28mm 等效",
+            "perspective_intent": "先让观众读懂生活空间、入口出口与关键物件的相对位置",
+            "focus_target": "人物工作路径与未解决物件",
+            "depth": "深景深，保留前中后景关系",
             "anchor": "账桌",
             "movement": "slow observational drift",
             "axis_side": "preserve"
@@ -2176,6 +2288,13 @@
           },
           "camera": {
             "scale": "medium two-shot or medium single",
+            "position": "账桌与炉边之间的安全线外",
+            "height": "人物胸口高度",
+            "angle": "平视三分之四角度",
+            "focal_length": "50mm 等效",
+            "perspective_intent": "压缩但不抹平人物之间的关系距离，让阻力在同一空间内可见",
+            "focus_target": "主行动者、对抗动作与被处理的物件",
+            "depth": "中景深，保持对方反应可读",
             "anchor": "账桌",
             "movement": "locked with one motivated pan",
             "axis_side": "preserve"
@@ -2216,6 +2335,13 @@
           },
           "camera": {
             "scale": "close detail to restrained reaction",
+            "position": "炉边侧的可见边界，不越过人物安全距离",
+            "height": "手部或桌面略高处，随后回到眼线高度",
+            "angle": "轻微斜侧，不改变既有轴线",
+            "focal_length": "85mm 等效",
+            "perspective_intent": "把证据、关系反应与尾钩压进同一注意顺序，不制造风格化惊吓",
+            "focus_target": "evidence_or_relationship_delta 与克制反应",
+            "depth": "浅至中景深，尾钩对象清晰且保留必要环境线索",
             "anchor": "炉边",
             "movement": "no decorative move; end on observable hold",
             "axis_side": "preserve"
@@ -2280,6 +2406,13 @@
           },
           "camera": {
             "scale": "wide-to-medium",
+            "position": "馄饨摊案板边缘，朝向街口座位",
+            "height": "人物胸口至视线高度",
+            "angle": "水平，略带空间侧向",
+            "focal_length": "28mm 等效",
+            "perspective_intent": "先让观众读懂生活空间、入口出口与关键物件的相对位置",
+            "focus_target": "人物工作路径与未解决物件",
+            "depth": "深景深，保留前中后景关系",
             "anchor": "馄饨摊案板",
             "movement": "slow observational drift",
             "axis_side": "preserve"
@@ -2320,6 +2453,13 @@
           },
           "camera": {
             "scale": "medium two-shot or medium single",
+            "position": "馄饨摊案板与街口座位之间的安全线外",
+            "height": "人物胸口高度",
+            "angle": "平视三分之四角度",
+            "focal_length": "50mm 等效",
+            "perspective_intent": "压缩但不抹平人物之间的关系距离，让阻力在同一空间内可见",
+            "focus_target": "主行动者、对抗动作与被处理的物件",
+            "depth": "中景深，保持对方反应可读",
             "anchor": "馄饨摊案板",
             "movement": "locked with one motivated pan",
             "axis_side": "preserve"
@@ -2360,6 +2500,13 @@
           },
           "camera": {
             "scale": "close detail to restrained reaction",
+            "position": "街口座位侧的可见边界，不越过人物安全距离",
+            "height": "手部或桌面略高处，随后回到眼线高度",
+            "angle": "轻微斜侧，不改变既有轴线",
+            "focal_length": "85mm 等效",
+            "perspective_intent": "把证据、关系反应与尾钩压进同一注意顺序，不制造风格化惊吓",
+            "focus_target": "evidence_or_relationship_delta 与克制反应",
+            "depth": "浅至中景深，尾钩对象清晰且保留必要环境线索",
             "anchor": "街口座位",
             "movement": "no decorative move; end on observable hold",
             "axis_side": "preserve"
@@ -2426,6 +2573,13 @@
           },
           "camera": {
             "scale": "wide-to-medium",
+            "position": "酒肆后门边缘，朝向门侧阴影",
+            "height": "人物胸口至视线高度",
+            "angle": "水平，略带空间侧向",
+            "focal_length": "28mm 等效",
+            "perspective_intent": "先让观众读懂生活空间、入口出口与关键物件的相对位置",
+            "focus_target": "人物工作路径与未解决物件",
+            "depth": "深景深，保留前中后景关系",
             "anchor": "酒肆后门",
             "movement": "slow observational drift",
             "axis_side": "preserve"
@@ -2466,6 +2620,13 @@
           },
           "camera": {
             "scale": "medium two-shot or medium single",
+            "position": "酒肆后门与门侧阴影之间的安全线外",
+            "height": "人物胸口高度",
+            "angle": "平视三分之四角度",
+            "focal_length": "50mm 等效",
+            "perspective_intent": "压缩但不抹平人物之间的关系距离，让阻力在同一空间内可见",
+            "focus_target": "主行动者、对抗动作与被处理的物件",
+            "depth": "中景深，保持对方反应可读",
             "anchor": "酒肆后门",
             "movement": "locked with one motivated pan",
             "axis_side": "preserve"
@@ -2506,6 +2667,13 @@
           },
           "camera": {
             "scale": "close detail to restrained reaction",
+            "position": "门侧阴影侧的可见边界，不越过人物安全距离",
+            "height": "手部或桌面略高处，随后回到眼线高度",
+            "angle": "轻微斜侧，不改变既有轴线",
+            "focal_length": "85mm 等效",
+            "perspective_intent": "把证据、关系反应与尾钩压进同一注意顺序，不制造风格化惊吓",
+            "focus_target": "evidence_or_relationship_delta 与克制反应",
+            "depth": "浅至中景深，尾钩对象清晰且保留必要环境线索",
             "anchor": "门侧阴影",
             "movement": "no decorative move; end on observable hold",
             "axis_side": "preserve"
@@ -2568,6 +2736,13 @@
           },
           "camera": {
             "scale": "wide-to-medium",
+            "position": "案桌两侧边缘，朝向案桌两侧",
+            "height": "人物胸口至视线高度",
+            "angle": "水平，略带空间侧向",
+            "focal_length": "28mm 等效",
+            "perspective_intent": "先让观众读懂生活空间、入口出口与关键物件的相对位置",
+            "focus_target": "人物工作路径与未解决物件",
+            "depth": "深景深，保留前中后景关系",
             "anchor": "案桌两侧",
             "movement": "slow observational drift",
             "axis_side": "preserve"
@@ -2608,6 +2783,13 @@
           },
           "camera": {
             "scale": "medium two-shot or medium single",
+            "position": "案桌两侧与案桌两侧之间的安全线外",
+            "height": "人物胸口高度",
+            "angle": "平视三分之四角度",
+            "focal_length": "50mm 等效",
+            "perspective_intent": "压缩但不抹平人物之间的关系距离，让阻力在同一空间内可见",
+            "focus_target": "主行动者、对抗动作与被处理的物件",
+            "depth": "中景深，保持对方反应可读",
             "anchor": "案桌两侧",
             "movement": "locked with one motivated pan",
             "axis_side": "preserve"
@@ -2648,6 +2830,13 @@
           },
           "camera": {
             "scale": "close detail to restrained reaction",
+            "position": "案桌两侧侧的可见边界，不越过人物安全距离",
+            "height": "手部或桌面略高处，随后回到眼线高度",
+            "angle": "轻微斜侧，不改变既有轴线",
+            "focal_length": "85mm 等效",
+            "perspective_intent": "把证据、关系反应与尾钩压进同一注意顺序，不制造风格化惊吓",
+            "focus_target": "evidence_or_relationship_delta 与克制反应",
+            "depth": "浅至中景深，尾钩对象清晰且保留必要环境线索",
             "anchor": "案桌两侧",
             "movement": "no decorative move; end on observable hold",
             "axis_side": "preserve"
@@ -2712,6 +2901,13 @@
           },
           "camera": {
             "scale": "wide-to-medium",
+            "position": "钱匣边缘，朝向后仓门",
+            "height": "人物胸口至视线高度",
+            "angle": "水平，略带空间侧向",
+            "focal_length": "28mm 等效",
+            "perspective_intent": "先让观众读懂生活空间、入口出口与关键物件的相对位置",
+            "focus_target": "人物工作路径与未解决物件",
+            "depth": "深景深，保留前中后景关系",
             "anchor": "钱匣",
             "movement": "slow observational drift",
             "axis_side": "preserve"
@@ -2752,6 +2948,13 @@
           },
           "camera": {
             "scale": "medium two-shot or medium single",
+            "position": "钱匣与后仓门之间的安全线外",
+            "height": "人物胸口高度",
+            "angle": "平视三分之四角度",
+            "focal_length": "50mm 等效",
+            "perspective_intent": "压缩但不抹平人物之间的关系距离，让阻力在同一空间内可见",
+            "focus_target": "主行动者、对抗动作与被处理的物件",
+            "depth": "中景深，保持对方反应可读",
             "anchor": "钱匣",
             "movement": "locked with one motivated pan",
             "axis_side": "preserve"
@@ -2792,6 +2995,13 @@
           },
           "camera": {
             "scale": "close detail to restrained reaction",
+            "position": "后仓门侧的可见边界，不越过人物安全距离",
+            "height": "手部或桌面略高处，随后回到眼线高度",
+            "angle": "轻微斜侧，不改变既有轴线",
+            "focal_length": "85mm 等效",
+            "perspective_intent": "把证据、关系反应与尾钩压进同一注意顺序，不制造风格化惊吓",
+            "focus_target": "evidence_or_relationship_delta 与克制反应",
+            "depth": "浅至中景深，尾钩对象清晰且保留必要环境线索",
             "anchor": "后仓门",
             "movement": "no decorative move; end on observable hold",
             "axis_side": "preserve"
@@ -2856,6 +3066,13 @@
           },
           "camera": {
             "scale": "wide-to-medium",
+            "position": "门槛边缘，朝向巷口",
+            "height": "人物胸口至视线高度",
+            "angle": "水平，略带空间侧向",
+            "focal_length": "28mm 等效",
+            "perspective_intent": "先让观众读懂生活空间、入口出口与关键物件的相对位置",
+            "focus_target": "人物工作路径与未解决物件",
+            "depth": "深景深，保留前中后景关系",
             "anchor": "门槛",
             "movement": "slow observational drift",
             "axis_side": "preserve"
@@ -2896,6 +3113,13 @@
           },
           "camera": {
             "scale": "medium two-shot or medium single",
+            "position": "门槛与巷口之间的安全线外",
+            "height": "人物胸口高度",
+            "angle": "平视三分之四角度",
+            "focal_length": "50mm 等效",
+            "perspective_intent": "压缩但不抹平人物之间的关系距离，让阻力在同一空间内可见",
+            "focus_target": "主行动者、对抗动作与被处理的物件",
+            "depth": "中景深，保持对方反应可读",
             "anchor": "门槛",
             "movement": "locked with one motivated pan",
             "axis_side": "preserve"
@@ -2936,6 +3160,13 @@
           },
           "camera": {
             "scale": "close detail to restrained reaction",
+            "position": "巷口侧的可见边界，不越过人物安全距离",
+            "height": "手部或桌面略高处，随后回到眼线高度",
+            "angle": "轻微斜侧，不改变既有轴线",
+            "focal_length": "85mm 等效",
+            "perspective_intent": "把证据、关系反应与尾钩压进同一注意顺序，不制造风格化惊吓",
+            "focus_target": "evidence_or_relationship_delta 与克制反应",
+            "depth": "浅至中景深，尾钩对象清晰且保留必要环境线索",
             "anchor": "巷口",
             "movement": "no decorative move; end on observable hold",
             "axis_side": "preserve"
@@ -3001,6 +3232,13 @@
           },
           "camera": {
             "scale": "wide-to-medium",
+            "position": "酒肆后门边缘，朝向香铺案桌",
+            "height": "人物胸口至视线高度",
+            "angle": "水平，略带空间侧向",
+            "focal_length": "28mm 等效",
+            "perspective_intent": "先让观众读懂生活空间、入口出口与关键物件的相对位置",
+            "focus_target": "人物工作路径与未解决物件",
+            "depth": "深景深，保留前中后景关系",
             "anchor": "酒肆后门",
             "movement": "slow observational drift",
             "axis_side": "preserve"
@@ -3041,6 +3279,13 @@
           },
           "camera": {
             "scale": "medium two-shot or medium single",
+            "position": "酒肆后门与香铺案桌之间的安全线外",
+            "height": "人物胸口高度",
+            "angle": "平视三分之四角度",
+            "focal_length": "50mm 等效",
+            "perspective_intent": "压缩但不抹平人物之间的关系距离，让阻力在同一空间内可见",
+            "focus_target": "主行动者、对抗动作与被处理的物件",
+            "depth": "中景深，保持对方反应可读",
             "anchor": "酒肆后门",
             "movement": "locked with one motivated pan",
             "axis_side": "preserve"
@@ -3081,6 +3326,13 @@
           },
           "camera": {
             "scale": "close detail to restrained reaction",
+            "position": "香铺案桌侧的可见边界，不越过人物安全距离",
+            "height": "手部或桌面略高处，随后回到眼线高度",
+            "angle": "轻微斜侧，不改变既有轴线",
+            "focal_length": "85mm 等效",
+            "perspective_intent": "把证据、关系反应与尾钩压进同一注意顺序，不制造风格化惊吓",
+            "focus_target": "evidence_or_relationship_delta 与克制反应",
+            "depth": "浅至中景深，尾钩对象清晰且保留必要环境线索",
             "anchor": "香铺案桌",
             "movement": "no decorative move; end on observable hold",
             "axis_side": "preserve"
@@ -3143,6 +3395,13 @@
           },
           "camera": {
             "scale": "wide-to-medium",
+            "position": "案桌三列边缘，朝向案桌三列",
+            "height": "人物胸口至视线高度",
+            "angle": "水平，略带空间侧向",
+            "focal_length": "28mm 等效",
+            "perspective_intent": "先让观众读懂生活空间、入口出口与关键物件的相对位置",
+            "focus_target": "人物工作路径与未解决物件",
+            "depth": "深景深，保留前中后景关系",
             "anchor": "案桌三列",
             "movement": "slow observational drift",
             "axis_side": "preserve"
@@ -3183,6 +3442,13 @@
           },
           "camera": {
             "scale": "medium two-shot or medium single",
+            "position": "案桌三列与案桌三列之间的安全线外",
+            "height": "人物胸口高度",
+            "angle": "平视三分之四角度",
+            "focal_length": "50mm 等效",
+            "perspective_intent": "压缩但不抹平人物之间的关系距离，让阻力在同一空间内可见",
+            "focus_target": "主行动者、对抗动作与被处理的物件",
+            "depth": "中景深，保持对方反应可读",
             "anchor": "案桌三列",
             "movement": "locked with one motivated pan",
             "axis_side": "preserve"
@@ -3223,6 +3489,13 @@
           },
           "camera": {
             "scale": "close detail to restrained reaction",
+            "position": "案桌三列侧的可见边界，不越过人物安全距离",
+            "height": "手部或桌面略高处，随后回到眼线高度",
+            "angle": "轻微斜侧，不改变既有轴线",
+            "focal_length": "85mm 等效",
+            "perspective_intent": "把证据、关系反应与尾钩压进同一注意顺序，不制造风格化惊吓",
+            "focus_target": "evidence_or_relationship_delta 与克制反应",
+            "depth": "浅至中景深，尾钩对象清晰且保留必要环境线索",
             "anchor": "案桌三列",
             "movement": "no decorative move; end on observable hold",
             "axis_side": "preserve"
@@ -3287,6 +3560,13 @@
           },
           "camera": {
             "scale": "wide-to-medium",
+            "position": "旧账箱边缘，朝向案桌三列",
+            "height": "人物胸口至视线高度",
+            "angle": "水平，略带空间侧向",
+            "focal_length": "28mm 等效",
+            "perspective_intent": "先让观众读懂生活空间、入口出口与关键物件的相对位置",
+            "focus_target": "人物工作路径与未解决物件",
+            "depth": "深景深，保留前中后景关系",
             "anchor": "旧账箱",
             "movement": "slow observational drift",
             "axis_side": "preserve"
@@ -3327,6 +3607,13 @@
           },
           "camera": {
             "scale": "medium two-shot or medium single",
+            "position": "旧账箱与案桌三列之间的安全线外",
+            "height": "人物胸口高度",
+            "angle": "平视三分之四角度",
+            "focal_length": "50mm 等效",
+            "perspective_intent": "压缩但不抹平人物之间的关系距离，让阻力在同一空间内可见",
+            "focus_target": "主行动者、对抗动作与被处理的物件",
+            "depth": "中景深，保持对方反应可读",
             "anchor": "旧账箱",
             "movement": "locked with one motivated pan",
             "axis_side": "preserve"
@@ -3367,6 +3654,13 @@
           },
           "camera": {
             "scale": "close detail to restrained reaction",
+            "position": "案桌三列侧的可见边界，不越过人物安全距离",
+            "height": "手部或桌面略高处，随后回到眼线高度",
+            "angle": "轻微斜侧，不改变既有轴线",
+            "focal_length": "85mm 等效",
+            "perspective_intent": "把证据、关系反应与尾钩压进同一注意顺序，不制造风格化惊吓",
+            "focus_target": "evidence_or_relationship_delta 与克制反应",
+            "depth": "浅至中景深，尾钩对象清晰且保留必要环境线索",
             "anchor": "案桌三列",
             "movement": "no decorative move; end on observable hold",
             "axis_side": "preserve"
@@ -3432,6 +3726,13 @@
           },
           "camera": {
             "scale": "wide-to-medium",
+            "position": "案桌边缘，朝向门边纸架",
+            "height": "人物胸口至视线高度",
+            "angle": "水平，略带空间侧向",
+            "focal_length": "28mm 等效",
+            "perspective_intent": "先让观众读懂生活空间、入口出口与关键物件的相对位置",
+            "focus_target": "人物工作路径与未解决物件",
+            "depth": "深景深，保留前中后景关系",
             "anchor": "案桌",
             "movement": "slow observational drift",
             "axis_side": "preserve"
@@ -3472,6 +3773,13 @@
           },
           "camera": {
             "scale": "medium two-shot or medium single",
+            "position": "案桌与门边纸架之间的安全线外",
+            "height": "人物胸口高度",
+            "angle": "平视三分之四角度",
+            "focal_length": "50mm 等效",
+            "perspective_intent": "压缩但不抹平人物之间的关系距离，让阻力在同一空间内可见",
+            "focus_target": "主行动者、对抗动作与被处理的物件",
+            "depth": "中景深，保持对方反应可读",
             "anchor": "案桌",
             "movement": "locked with one motivated pan",
             "axis_side": "preserve"
@@ -3512,6 +3820,13 @@
           },
           "camera": {
             "scale": "close detail to restrained reaction",
+            "position": "门边纸架侧的可见边界，不越过人物安全距离",
+            "height": "手部或桌面略高处，随后回到眼线高度",
+            "angle": "轻微斜侧，不改变既有轴线",
+            "focal_length": "85mm 等效",
+            "perspective_intent": "把证据、关系反应与尾钩压进同一注意顺序，不制造风格化惊吓",
+            "focus_target": "evidence_or_relationship_delta 与克制反应",
+            "depth": "浅至中景深，尾钩对象清晰且保留必要环境线索",
             "anchor": "门边纸架",
             "movement": "no decorative move; end on observable hold",
             "axis_side": "preserve"
@@ -3574,6 +3889,13 @@
           },
           "camera": {
             "scale": "wide-to-medium",
+            "position": "案桌两侧边缘，朝向案桌两侧",
+            "height": "人物胸口至视线高度",
+            "angle": "水平，略带空间侧向",
+            "focal_length": "28mm 等效",
+            "perspective_intent": "先让观众读懂生活空间、入口出口与关键物件的相对位置",
+            "focus_target": "人物工作路径与未解决物件",
+            "depth": "深景深，保留前中后景关系",
             "anchor": "案桌两侧",
             "movement": "slow observational drift",
             "axis_side": "preserve"
@@ -3614,6 +3936,13 @@
           },
           "camera": {
             "scale": "medium two-shot or medium single",
+            "position": "案桌两侧与案桌两侧之间的安全线外",
+            "height": "人物胸口高度",
+            "angle": "平视三分之四角度",
+            "focal_length": "50mm 等效",
+            "perspective_intent": "压缩但不抹平人物之间的关系距离，让阻力在同一空间内可见",
+            "focus_target": "主行动者、对抗动作与被处理的物件",
+            "depth": "中景深，保持对方反应可读",
             "anchor": "案桌两侧",
             "movement": "locked with one motivated pan",
             "axis_side": "preserve"
@@ -3654,6 +3983,13 @@
           },
           "camera": {
             "scale": "close detail to restrained reaction",
+            "position": "案桌两侧侧的可见边界，不越过人物安全距离",
+            "height": "手部或桌面略高处，随后回到眼线高度",
+            "angle": "轻微斜侧，不改变既有轴线",
+            "focal_length": "85mm 等效",
+            "perspective_intent": "把证据、关系反应与尾钩压进同一注意顺序，不制造风格化惊吓",
+            "focus_target": "evidence_or_relationship_delta 与克制反应",
+            "depth": "浅至中景深，尾钩对象清晰且保留必要环境线索",
             "anchor": "案桌两侧",
             "movement": "no decorative move; end on observable hold",
             "axis_side": "preserve"
@@ -3718,6 +4054,13 @@
           },
           "camera": {
             "scale": "wide-to-medium",
+            "position": "案桌正面边缘，朝向陆清和身后",
+            "height": "人物胸口至视线高度",
+            "angle": "水平，略带空间侧向",
+            "focal_length": "28mm 等效",
+            "perspective_intent": "先让观众读懂生活空间、入口出口与关键物件的相对位置",
+            "focus_target": "人物工作路径与未解决物件",
+            "depth": "深景深，保留前中后景关系",
             "anchor": "案桌正面",
             "movement": "slow observational drift",
             "axis_side": "preserve"
@@ -3757,6 +4100,13 @@
           },
           "camera": {
             "scale": "medium two-shot or medium single",
+            "position": "案桌正面与陆清和身后之间的安全线外",
+            "height": "人物胸口高度",
+            "angle": "平视三分之四角度",
+            "focal_length": "50mm 等效",
+            "perspective_intent": "压缩但不抹平人物之间的关系距离，让阻力在同一空间内可见",
+            "focus_target": "主行动者、对抗动作与被处理的物件",
+            "depth": "中景深，保持对方反应可读",
             "anchor": "案桌正面",
             "movement": "locked with one motivated pan",
             "axis_side": "preserve"
@@ -3796,6 +4146,13 @@
           },
           "camera": {
             "scale": "close detail to restrained reaction",
+            "position": "陆清和身后侧的可见边界，不越过人物安全距离",
+            "height": "手部或桌面略高处，随后回到眼线高度",
+            "angle": "轻微斜侧，不改变既有轴线",
+            "focal_length": "85mm 等效",
+            "perspective_intent": "把证据、关系反应与尾钩压进同一注意顺序，不制造风格化惊吓",
+            "focus_target": "evidence_or_relationship_delta 与克制反应",
+            "depth": "浅至中景深，尾钩对象清晰且保留必要环境线索",
             "anchor": "陆清和身后",
             "movement": "no decorative move; end on observable hold",
             "axis_side": "preserve"
@@ -3859,6 +4216,13 @@
           },
           "camera": {
             "scale": "wide-to-medium",
+            "position": "案桌边缘，朝向后仓门",
+            "height": "人物胸口至视线高度",
+            "angle": "水平，略带空间侧向",
+            "focal_length": "28mm 等效",
+            "perspective_intent": "先让观众读懂生活空间、入口出口与关键物件的相对位置",
+            "focus_target": "人物工作路径与未解决物件",
+            "depth": "深景深，保留前中后景关系",
             "anchor": "案桌",
             "movement": "slow observational drift",
             "axis_side": "preserve"
@@ -3899,6 +4263,13 @@
           },
           "camera": {
             "scale": "medium two-shot or medium single",
+            "position": "案桌与后仓门之间的安全线外",
+            "height": "人物胸口高度",
+            "angle": "平视三分之四角度",
+            "focal_length": "50mm 等效",
+            "perspective_intent": "压缩但不抹平人物之间的关系距离，让阻力在同一空间内可见",
+            "focus_target": "主行动者、对抗动作与被处理的物件",
+            "depth": "中景深，保持对方反应可读",
             "anchor": "案桌",
             "movement": "locked with one motivated pan",
             "axis_side": "preserve"
@@ -3939,6 +4310,13 @@
           },
           "camera": {
             "scale": "close detail to restrained reaction",
+            "position": "后仓门侧的可见边界，不越过人物安全距离",
+            "height": "手部或桌面略高处，随后回到眼线高度",
+            "angle": "轻微斜侧，不改变既有轴线",
+            "focal_length": "85mm 等效",
+            "perspective_intent": "把证据、关系反应与尾钩压进同一注意顺序，不制造风格化惊吓",
+            "focus_target": "evidence_or_relationship_delta 与克制反应",
+            "depth": "浅至中景深，尾钩对象清晰且保留必要环境线索",
             "anchor": "后仓门",
             "movement": "no decorative move; end on observable hold",
             "axis_side": "preserve"

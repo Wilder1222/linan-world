@@ -11,4 +11,6 @@
 
 预审：`qa/reviews/p3-e01-formal-preflight-review.json` 为 `REVIEWED-P3-PREFLIGHT-PASS`。
 
+Episode Gate 设计评分：`qa/reviews/p3-e01-episode-gate-review.json`；审计：`qa/reviews/p3-e01-episode-gate-audit.json`。九项设计 QA 均≥90，AIGC 稳定性仍待媒体证据，人工签字仍为 `REQUIRED`，最终决议保持 `HOLD-OPEN-DEFERRED`。
+
 下一步：进入人工 Episode Gate，逐章评分十项 QA；未通过前不生成 U/BG、不调用外部 provider、不推进 E02/E03。

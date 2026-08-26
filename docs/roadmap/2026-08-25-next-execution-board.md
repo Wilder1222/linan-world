@@ -109,6 +109,13 @@
 - `qa/reviews/p3-e01-formal-preflight-review.json` 为 `REVIEWED-P3-PREFLIGHT-PASS`；无 provider 调用、无最终 U/BG 绑定，Episode Gate 仍为 `OPEN`。
 - 十项 QA 仍为 `PENDING-EPISODE-GATE`，阈值 90；下一任务是 E01 人工 Episode Gate 评分与修订，之后才推进 E02/E03 递进试点。
 
+## P3-04 E01 Episode Gate 设计评分结果（2026-08-26）
+
+- 新增 `scripts/materialize_p3_e01_episode_gate.py`、`scripts/audit_p3_e01_episode_gate.py` 与 `tests/test_p3_e01_episode_gate.py`。
+- 九项设计层 QA 得分均为 90 以上（最低 91）；镜头字段已补齐机位、高度、角度、焦段、透视意图、焦点与景深。
+- `aigc_stability` 保持 `DEFERRED-EVIDENCE-REQUIRED`，人工逐章签字状态为 `REQUIRED`；`qa/reviews/p3-e01-episode-gate-review.json` 的决议为 `HOLD-OPEN-DEFERRED`。
+- Episode Gate 仍 `OPEN`，当前不推进 E02/E03 的正式资产生成；下一步是取得用户授权后的 fixture/dry-run 或验证媒体证据，并完成人工 Gate 决议。
+
 ## 执行顺序
 
 ### S2-01｜36 集因果账本（第一优先级）

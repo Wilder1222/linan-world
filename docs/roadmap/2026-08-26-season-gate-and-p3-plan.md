@@ -128,6 +128,8 @@ Season Gate 关闭时锁定的是 **Season Canon 与短章节拍**，不是最�
 
 **P3-03 当前结果（2026-08-26）**：新增 `scripts/materialize_p3_e01_formal_delivery.py`、`scripts/audit_p3_e01_formal_delivery.py` 与 `tests/test_p3_e01_formal_delivery.py`，已将 E01 18 个微短章推进为正式剧本第一版、逐章 Blocking/Storyboard 草案与连续性账本：18 个场景、54 个草案镜头、18 条连续性记录。`qa/reviews/p3-e01-formal-preflight-review.json` 为 `REVIEWED-P3-PREFLIGHT-PASS`；脚本无镜头指令泄漏，镜头轴/物理光源/时间事件/稳定结束态均有绑定，来源哈希一致，provider calls 为 0。Episode Gate 仍为 `OPEN`，十项 QA（阈值 90）保持 `PENDING`，U/BG 与最终生成继续延期。
 
+**P3-04 当前结果（2026-08-26）**：补齐 54 个草案镜头的机位位置、高度、角度、焦段、透视意图、焦点与景深字段后，新增 `scripts/materialize_p3_e01_episode_gate.py`、`scripts/audit_p3_e01_episode_gate.py` 与 `tests/test_p3_e01_episode_gate.py`。九项设计层 QA 均达到 90 以上（最低 91），`aigc_stability` 明确标为 `DEFERRED-EVIDENCE-REQUIRED`；`qa/reviews/p3-e01-episode-gate-review.json` 与 `qa/reviews/p3-e01-episode-gate-audit.json` 均为 `REVIEWED-P3-DESIGN-GATE-PASS`。这不是最终 Episode Gate 通过：人工逐章签字、fixture/dry-run 或可验证媒体证据仍缺失，Episode Gate 保持 `OPEN`，E02/E03 不提前启动。
+
 ## 四、Season Gate 之后的 P3 E01–E03 试点
 
 ### P3-01｜试点输入冻结
@@ -172,6 +174,8 @@ E01 先验证：
 ### P3-04｜Episode Gate 试点决议
 
 每集九项 QA 均须达到 90/100 以上；任一项低于 90，必须回到对应层修复，不得用剪辑或 Prompt 掩盖。
+
+当前 E01 已完成结构化设计评分，但 `aigc_stability` 尚无媒体证据，人工签字也未完成，因此当前决议为 `HOLD-OPEN-DEFERRED`；不得将设计审读报告当作成片连续性证明。
 
 试点 Gate 还要检查：
 

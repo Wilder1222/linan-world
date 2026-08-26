@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "status": "REVIEWED-P3-DESIGN-GATE-PASS",
+  "scope": "P3-04 S1-E01 Episode Gate design review audit",
+  "episode_id": "S1-E01",
+  "checks": {
+    "ten_dimensions_present": true,
+    "nine_design_dimensions_above_threshold": true,
+    "aigc_evidence_explicitly_deferred": true,
+    "human_signoff_required": true,
+    "execution_blocked_and_receipt_free": true,
+    "scene_rollup_complete": true
+  },
+  "findings": [],
+  "deferred_followup": [
+    "AIGC 稳定性不是设计分数；必须在明确授权后取得 fixture/dry-run 或验证输出证据。",
+    "Episode Gate 的最终通过需要人工逐章签字，不得由本结构化报告代替。",
+    "在上述两项完成前，不推进 E02/E03 的正式资产生成。"
+  ]
+}
