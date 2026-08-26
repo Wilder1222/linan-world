@@ -52,3 +52,4 @@ MJ-CHR-L1-05-ID-001-v1 | <STYLE_REF_URL> | <CHAR_REF_URL> | --ar 3:4 --raw --s 6
 - [沈蘅第一季关键叙事提示词](05-season-narrative-prompts.md)
 - [第一季提示词覆盖矩阵](06-season-1-mj-coverage.md)
 - [核心关系视觉提示词](07-relationship-prompt-templates.md)
+- [U 槽位与生态群像提示词](08-unit-background-prompt-templates.md)
