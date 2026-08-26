@@ -1,0 +1,1508 @@
+{
+  "schemaVersion": 2,
+  "character": "沈蘅",
+  "packageVersion": "V2-season-gate-locked",
+  "generatedAt": "2026-08-26T00:30:23.720Z",
+  "generator": "Codex built-in ImageGen",
+  "resolutionContract": "PNG; long edge 7680 px; 300 ppi metadata; original aspect ratio preserved",
+  "identityAuthority": "references/ref-identity-primary-front.png",
+  "assetCount": 68,
+  "assets": [
+    {
+      "id": "AC-001-occupational-action-sheet-v2",
+      "category": "03-pose-motion",
+      "source": {
+        "path": "source/03-pose-motion/AC-001-occupational-action-sheet-v2.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 2168090,
+        "sha256": "c3bf4cca116a28601c7a6864073d1b62cce57b4d59e8e6bc2fd6abaa6d782758"
+      },
+      "output8k": {
+        "path": "8k/03-pose-motion/AC-001-occupational-action-sheet-v2-8k.png",
+        "width": 7680,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 28021358,
+        "sha256": "ed5e17170d6fabacfb17143f44832036fb7ec38db7e8eddcb79ac88a4fab7cfe"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "AC-002-general-motion-sheet",
+      "category": "03-pose-motion",
+      "source": {
+        "path": "source/03-pose-motion/AC-002-general-motion-sheet.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1851966,
+        "sha256": "625c74c5667ccc84f253272c6114656f981ab1addb37f0c11e57e1870767598d"
+      },
+      "output8k": {
+        "path": "8k/03-pose-motion/AC-002-general-motion-sheet-8k.png",
+        "width": 7680,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 18718769,
+        "sha256": "e5917c6b74deae80a639b91bd8922808724bc0eaf23f4bf079896a356d3a2596"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "C01-daily-costume",
+      "category": "02-costume",
+      "source": {
+        "path": "source/02-costume/C01-daily-costume.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2381373,
+        "sha256": "527e9e25ecac819693544fea556d3e2a2edf498fe87b7d49c82e376169b69772"
+      },
+      "output8k": {
+        "path": "8k/02-costume/C01-daily-costume-8k.png",
+        "width": 5120,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 22223608,
+        "sha256": "16a4ae6aef6f9c86fd807475f9af54c25d3493fbd05ec21758d363de63bba758"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "C02-work-costume",
+      "category": "02-costume",
+      "source": {
+        "path": "source/02-costume/C02-work-costume.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2272249,
+        "sha256": "0dbc70d820baeeab7214517c4235ba233085cd7d3fceb1008337c755601a3ff3"
+      },
+      "output8k": {
+        "path": "8k/02-costume/C02-work-costume-8k.png",
+        "width": 5120,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 20577882,
+        "sha256": "2e818c59c5bbc437014e46c7e76d2d491ace3919bf97109d71ddef448ef55ae2"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "C03-social-costume",
+      "category": "02-costume",
+      "source": {
+        "path": "source/02-costume/C03-social-costume.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2302537,
+        "sha256": "ffcb28edfb3475c5583c7cee65c6edb3bfd932962f1e14c215c93fbde5b81bee"
+      },
+      "output8k": {
+        "path": "8k/02-costume/C03-social-costume-8k.png",
+        "width": 5120,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 21316366,
+        "sha256": "b61e19da6deb10e1056e5857ceb7ff3496bb13aff7dc217bafbceb60f2519f56"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "C04-formal-costume",
+      "category": "02-costume",
+      "source": {
+        "path": "source/02-costume/C04-formal-costume.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2133542,
+        "sha256": "d7e75123f9e3b299620a3adab36b73592562f51191fb146f595c94bbe1e76832"
+      },
+      "output8k": {
+        "path": "8k/02-costume/C04-formal-costume-8k.png",
+        "width": 5120,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 18819983,
+        "sha256": "c73e5425af7f977e41517b596de8bcc6e55996215006cf5795790b34dde89ccd"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "C05-night-costume",
+      "category": "02-costume",
+      "source": {
+        "path": "source/02-costume/C05-night-costume.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2168281,
+        "sha256": "4830f062a02ef0a0c807064542b39a1ae79ef390d9c6da5023f970b0ca2c5a08"
+      },
+      "output8k": {
+        "path": "8k/02-costume/C05-night-costume-8k.png",
+        "width": 5120,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 18312912,
+        "sha256": "581c9bd474d3edcf7e09d240243e712f5dac6df558f38e505c667766c0fc1e4c"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "C06-rain-costume",
+      "category": "02-costume",
+      "source": {
+        "path": "source/02-costume/C06-rain-costume.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2802138,
+        "sha256": "e164d1f0125c36cf1b911b7b8dea0840bbb542b83d6e555768eccef5cf3f2611"
+      },
+      "output8k": {
+        "path": "8k/02-costume/C06-rain-costume-8k.png",
+        "width": 5120,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 27995502,
+        "sha256": "314bd1d26c572c9876801dc22d9b3a3108d5692a128317c0083ba9fdab1c9315"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "C07-winter-costume",
+      "category": "02-costume",
+      "source": {
+        "path": "source/02-costume/C07-winter-costume.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2321913,
+        "sha256": "d56072ae743aaef747a7669987d0749e144a9727ea03c28ea378c55207d34d19"
+      },
+      "output8k": {
+        "path": "8k/02-costume/C07-winter-costume-8k.png",
+        "width": 5120,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 21295814,
+        "sha256": "60529b62e698860efc2c6b634be09f3d0f2853205d03b6123f1457d9f90dfe04"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "C08-injured-costume",
+      "category": "02-costume",
+      "source": {
+        "path": "source/02-costume/C08-injured-costume.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2244075,
+        "sha256": "40c80508b77af6d1ddaf55debe1a107090c9235697fd53e16a0c8367369585be"
+      },
+      "output8k": {
+        "path": "8k/02-costume/C08-injured-costume-8k.png",
+        "width": 5120,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 20139188,
+        "sha256": "1b9dfdffbbfbc703a7af09b2b6bcbd2bade632bbe05af4c65ff8890578f9eed4"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "C09-long-labor-costume",
+      "category": "02-costume",
+      "source": {
+        "path": "source/02-costume/C09-long-labor-costume.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2313285,
+        "sha256": "4881607cd2c808947b8687c3e3dae1f6edc463a940359a237a75da519e98fa5c"
+      },
+      "output8k": {
+        "path": "8k/02-costume/C09-long-labor-costume-8k.png",
+        "width": 5120,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 21018987,
+        "sha256": "2b8f5f3f59fb4d749f9611a9f46e6cf87169206db4c8cf0a16e7510db7b82489"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "C10-story-special-costume",
+      "category": "02-costume",
+      "source": {
+        "path": "source/02-costume/C10-story-special-costume.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2232356,
+        "sha256": "f73000a9d92eda0922bb237a4096c2bf1384889a110a98850882ad0ba57528cb"
+      },
+      "output8k": {
+        "path": "8k/02-costume/C10-story-special-costume-8k.png",
+        "width": 5120,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 20325149,
+        "sha256": "dd756d5938d590a4a3048a4cf5795699a04e55dd5e36498c174028f66cd22ed3"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "CAM-001-camera-framing-sheet",
+      "category": "05-narrative",
+      "source": {
+        "path": "source/05-narrative/CAM-001-camera-framing-sheet.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 2066682,
+        "sha256": "822656c46be28bad447aad96980ebd264ff22d8d86f11f803c11cbef7be07ecc"
+      },
+      "output8k": {
+        "path": "8k/05-narrative/CAM-001-camera-framing-sheet-8k.png",
+        "width": 7680,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 23791576,
+        "sha256": "70e52b3ba59fc76fe651324ee9968fe7ff22cb9ee6a53435abdd045b9ce2b41f"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "EX-001-expression-sheet-a",
+      "category": "01-expression-makeup-hair",
+      "source": {
+        "path": "source/01-expression-makeup-hair/EX-001-expression-sheet-a.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 2112788,
+        "sha256": "84741c26faf4ad64181c1ac4469278d9371b5410c330a3466bec3f6d2c4324b3"
+      },
+      "output8k": {
+        "path": "8k/01-expression-makeup-hair/EX-001-expression-sheet-a-8k.png",
+        "width": 7680,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 24847444,
+        "sha256": "0c1b8bac5a824613054bc2577f16249df8e900f1a7387d167d2c09bed4e4190a"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "EX-002-expression-sheet-b",
+      "category": "01-expression-makeup-hair",
+      "source": {
+        "path": "source/01-expression-makeup-hair/EX-002-expression-sheet-b.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 2087830,
+        "sha256": "1803d4139d43a0f2d75db96a6c7aaa68f7629fffe0712eb583c9d5d1011fbb75"
+      },
+      "output8k": {
+        "path": "8k/01-expression-makeup-hair/EX-002-expression-sheet-b-8k.png",
+        "width": 7680,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 24328060,
+        "sha256": "189425cc87c97e742760b8852c8d76f9afbb0a0c4550ef34ccf14ad64d2e572e"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "HR-001-hairstyle-ornament-nine-grid-v2",
+      "category": "01-expression-makeup-hair",
+      "source": {
+        "path": "source/01-expression-makeup-hair/HR-001-hairstyle-ornament-nine-grid-v2.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1980046,
+        "sha256": "913da9b519c13f0f7abcdec4f631cd527eb660721d885f464129e8c4e3f3d975"
+      },
+      "output8k": {
+        "path": "8k/01-expression-makeup-hair/HR-001-hairstyle-ornament-nine-grid-v2-8k.png",
+        "width": 7680,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 22052729,
+        "sha256": "f826173d20eeefe97fb6c9f1b5153a5e0b6a17d89fd9afb257057c5fa4b49004"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "ID-001-neutral-identity-master-v2",
+      "category": "00-identity",
+      "source": {
+        "path": "source/00-identity/ID-001-neutral-identity-master-v2.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2190656,
+        "sha256": "5c16ff41bff26b388e847999e064f4337566a5bd714dd7618045a7d2d27ec3c3"
+      },
+      "output8k": {
+        "path": "8k/00-identity/ID-001-neutral-identity-master-v2-8k.png",
+        "width": 5120,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 72,
+        "bytes": 15947296,
+        "sha256": "4a49a856eaf89a4ffcd1ddfdaea90d65bde8ea2ad049222d4d9c21277fef75b8"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "ID-002-five-angle-head-sheet",
+      "category": "00-identity",
+      "source": {
+        "path": "source/00-identity/ID-002-five-angle-head-sheet.png",
+        "width": 1983,
+        "height": 793,
+        "bytes": 2165327,
+        "sha256": "393b70d8ca2e4258dff78016b69941f26269630c4caae20de042f604c42f6b1d"
+      },
+      "output8k": {
+        "path": "8k/00-identity/ID-002-five-angle-head-sheet-8k.png",
+        "width": 7680,
+        "height": 3071,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 14495308,
+        "sha256": "5ea8d76d5ccc8e0600406b5411048de8ffe03965ed9b6c4ad0ff445ce2aeb6c2"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "ID-003-fullbody-turnaround",
+      "category": "00-identity",
+      "source": {
+        "path": "source/00-identity/ID-003-fullbody-turnaround.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1805490,
+        "sha256": "56f0a77d8d90defa45e1e4c55995fa02b0784c2c308ffb929c5ff03c0aa58ee3"
+      },
+      "output8k": {
+        "path": "8k/00-identity/ID-003-fullbody-turnaround-8k.png",
+        "width": 7680,
+        "height": 5120,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 11425019,
+        "sha256": "baf45cd391f06d4e638a71ab6b7c2bb0173fa96dd7af37340d2c23d3e4f0fb24"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "ID-004-physical-detail-board",
+      "category": "00-identity",
+      "source": {
+        "path": "source/00-identity/ID-004-physical-detail-board.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 2433544,
+        "sha256": "511af2e65cc6f8bbede69752cb03636314f4a6cd1b0948ce9e943cced66f3154"
+      },
+      "output8k": {
+        "path": "8k/00-identity/ID-004-physical-detail-board-8k.png",
+        "width": 7680,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 31967734,
+        "sha256": "908abcecd219dd2587da0edbe2c4775999db0298bfd721fdec268e7ef9721a4a"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "MK-001-makeup-nine-grid",
+      "category": "01-expression-makeup-hair",
+      "source": {
+        "path": "source/01-expression-makeup-hair/MK-001-makeup-nine-grid.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 2375458,
+        "sha256": "ad80cb707a8a32e137b74370a01a53266755f59d37ab58a3debd252f7fe063b1"
+      },
+      "output8k": {
+        "path": "8k/01-expression-makeup-hair/MK-001-makeup-nine-grid-8k.png",
+        "width": 7680,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 31545134,
+        "sha256": "e237a474834bed2fffd58b755e312fee58579412e2db7fd1708a862f89246428"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "NV-001-official-character-poster",
+      "category": "05-narrative",
+      "source": {
+        "path": "source/05-narrative/NV-001-official-character-poster.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2098558,
+        "sha256": "4e1f3ca0c8dee7fd2a241f642ed7b2737d788bdbc8950f1d73110f9738a86299"
+      },
+      "output8k": {
+        "path": "8k/05-narrative/NV-001-official-character-poster-8k.png",
+        "width": 5120,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 18095000,
+        "sha256": "9b2d1fb2f3f1af70659db417ad024f1699f037b38d7fa479e36a4097bcd9e722"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "NV-002-fragrance-shop-story-still",
+      "category": "05-narrative",
+      "source": {
+        "path": "source/05-narrative/NV-002-fragrance-shop-story-still.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2020649,
+        "sha256": "557ff6b30593d5c33725fb75e9ffcd24906d6ba6024fdbd6a65496dd70f19ea0"
+      },
+      "output8k": {
+        "path": "8k/05-narrative/NV-002-fragrance-shop-story-still-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 16237486,
+        "sha256": "fd29f612d44f2a592e1b8c02a03af08b95f04a26d255841c501ff322209f4691"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "NV-003-canal-daylight-story-still",
+      "category": "05-narrative",
+      "source": {
+        "path": "source/05-narrative/NV-003-canal-daylight-story-still.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 1889996,
+        "sha256": "3b2f4bccddac8097518223d2ddb52b50767927541f60339ee6118d8c9d5e0ce5"
+      },
+      "output8k": {
+        "path": "8k/05-narrative/NV-003-canal-daylight-story-still-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 14282771,
+        "sha256": "41e156e949092445e25046f554b29fb61762fffba012a2268630890e79e979f9"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "NV-004-rain-night-story-still",
+      "category": "05-narrative",
+      "source": {
+        "path": "source/05-narrative/NV-004-rain-night-story-still.png",
+        "width": 1023,
+        "height": 1537,
+        "bytes": 2149541,
+        "sha256": "4ac27d8c216ea4864a81f1909e0a711ae396a796814a24ef6954930b292a726e"
+      },
+      "output8k": {
+        "path": "8k/05-narrative/NV-004-rain-night-story-still-8k.png",
+        "width": 5112,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 19375657,
+        "sha256": "005ff6d45a908cd5af36913220e219bfa2c5f04b4bf77954d88afda614b2df0e"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "NV-005-lamplight-evidence-story-still",
+      "category": "05-narrative",
+      "source": {
+        "path": "source/05-narrative/NV-005-lamplight-evidence-story-still.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 1826883,
+        "sha256": "75f61b975d9b918407d05d05690a03bac3b0d752ac1aa31cf53bd78d15e0bead"
+      },
+      "output8k": {
+        "path": "8k/05-narrative/NV-005-lamplight-evidence-story-still-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 12564753,
+        "sha256": "f873ad182f5efa8b7e6bbbc6672dd1fc84f7be158609073800ba9613dd23f9ac"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "PR-001-personal-accessory-inventory",
+      "category": "04-props",
+      "source": {
+        "path": "source/04-props/PR-001-personal-accessory-inventory.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 3168480,
+        "sha256": "b2fec29ac121503a217a2d51bbbc892b9a3d5c06dc00697e2295e4e85b2e1765"
+      },
+      "output8k": {
+        "path": "8k/04-props/PR-001-personal-accessory-inventory-8k.png",
+        "width": 7680,
+        "height": 5120,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 32028842,
+        "sha256": "e5dcaf3c5dc25ada578484cc4ff7f585d24151b60b33fca3cad485d598a021ec"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "PR-002-fragrance-tool-inventory",
+      "category": "04-props",
+      "source": {
+        "path": "source/04-props/PR-002-fragrance-tool-inventory.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2917088,
+        "sha256": "88446c1c06b97170758dbb44e36ce4404a9e57da9c60714fde33aa10415e256b"
+      },
+      "output8k": {
+        "path": "8k/04-props/PR-002-fragrance-tool-inventory-8k.png",
+        "width": 7680,
+        "height": 5120,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 29345786,
+        "sha256": "e7fa8142084da8ac126a95629b890ee460c1c88376ab74511850d9fae29890e8"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "PS-001-foundational-pose-sheet",
+      "category": "03-pose-motion",
+      "source": {
+        "path": "source/03-pose-motion/PS-001-foundational-pose-sheet.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1707837,
+        "sha256": "b8d7baca2593b2fefdb4bcd8e395a5c308532f4e80b952ac1d4162643571917d"
+      },
+      "output8k": {
+        "path": "8k/03-pose-motion/PS-001-foundational-pose-sheet-8k.png",
+        "width": 7680,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 15243490,
+        "sha256": "2eae8ae4b09116fc4934e7a7692a5d830ff4140a8b1fd4beff576698c1f7e723"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "PS-002-emotional-pose-sheet",
+      "category": "03-pose-motion",
+      "source": {
+        "path": "source/03-pose-motion/PS-002-emotional-pose-sheet.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1576650,
+        "sha256": "7ccf010562a38726cac878e37efd6924e9235897e28b3cd0b6f24551b4480e49"
+      },
+      "output8k": {
+        "path": "8k/03-pose-motion/PS-002-emotional-pose-sheet-8k.png",
+        "width": 7680,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 12702014,
+        "sha256": "7204d83b9e6e37477e37216544a9f9259a058df002067210a66641ef4233c009"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-AP-A01-spring-investigation",
+      "category": "06-season-1-appearance",
+      "source": {
+        "path": "source/06-season-1-appearance/S1-AP-A01-spring-investigation.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2180109,
+        "sha256": "4d71107a5d098eba6e3badee9903b2ab841bc7c1606b7df9f91dce9188fbdb62"
+      },
+      "output8k": {
+        "path": "8k/06-season-1-appearance/S1-AP-A01-spring-investigation-8k.png",
+        "width": 5120,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 19160414,
+        "sha256": "7dc84a81bbce0309126ce92408f765a6d91500b532e9ffb5c1fcc565dea8dd7b"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-AP-A02-rain-investigation",
+      "category": "06-season-1-appearance",
+      "source": {
+        "path": "source/06-season-1-appearance/S1-AP-A02-rain-investigation.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2365258,
+        "sha256": "3b062d939c1f893724485b76347233b3e6f93a8b3187c0f32015b32d4be96443"
+      },
+      "output8k": {
+        "path": "8k/06-season-1-appearance/S1-AP-A02-rain-investigation-8k.png",
+        "width": 5120,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 21550056,
+        "sha256": "5d9b1a7acfabb686a4a043dbd3bc9d613a9f7a2c2a9e3f6c2cdee46649c7cc03"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-AP-A03-summer-field-verification",
+      "category": "06-season-1-appearance",
+      "source": {
+        "path": "source/06-season-1-appearance/S1-AP-A03-summer-field-verification.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2409388,
+        "sha256": "b620a9bc6a221119c33637c347627cb2a7599e3954d07dfe6867bd50fd12e51a"
+      },
+      "output8k": {
+        "path": "8k/06-season-1-appearance/S1-AP-A03-summer-field-verification-8k.png",
+        "width": 5120,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 22579121,
+        "sha256": "0974fd86a0117d7629359b524982e43c950509e46db9609126e7f1e9017ae3c6"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-AP-A04-autumn-ordinary-life",
+      "category": "06-season-1-appearance",
+      "source": {
+        "path": "source/06-season-1-appearance/S1-AP-A04-autumn-ordinary-life.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2312026,
+        "sha256": "c73261d207bdfefbd705acdbd4b603e7e5b65e6ea2f39b3c2ccc773e41bf7759"
+      },
+      "output8k": {
+        "path": "8k/06-season-1-appearance/S1-AP-A04-autumn-ordinary-life-8k.png",
+        "width": 5120,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 21348353,
+        "sha256": "9817371a347f5b8ebfd35fe6eb98ae969b83ce2ce7d8838398e5bcb87215c66f"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-AP-A05-winter-lockdown",
+      "category": "06-season-1-appearance",
+      "source": {
+        "path": "source/06-season-1-appearance/S1-AP-A05-winter-lockdown.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2177382,
+        "sha256": "0da0271f5fa49e772e22808d2d74a45658af58034058dac2078667376320ab49"
+      },
+      "output8k": {
+        "path": "8k/06-season-1-appearance/S1-AP-A05-winter-lockdown-8k.png",
+        "width": 5120,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 18825276,
+        "sha256": "8358bd9c87d02c6bf3178e70b57f9cf972f82c1687a22f281a0c63df0b2b39b8"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-AP-A06-ending-spring-letter-house",
+      "category": "06-season-1-appearance",
+      "source": {
+        "path": "source/06-season-1-appearance/S1-AP-A06-ending-spring-letter-house.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2010754,
+        "sha256": "b299c8a5bbe0d779786a3f9a4747d3c63d9dce5166e5f68c9ea0fe035d4cc25e"
+      },
+      "output8k": {
+        "path": "8k/06-season-1-appearance/S1-AP-A06-ending-spring-letter-house-8k.png",
+        "width": 5120,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 16743561,
+        "sha256": "38ce14b34282f48286c138bbd2d89db055528d39473af9eef7ddf45596ade4de"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-AP-A06-flood-relief",
+      "category": "06-season-1-appearance",
+      "source": {
+        "path": "source/06-season-1-appearance/S1-AP-A06-flood-relief.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2753968,
+        "sha256": "2b4034362b0f01fb0170f16fee492c43c90f26ec70f6d4fc8516b0ebd81ec1c8"
+      },
+      "output8k": {
+        "path": "8k/06-season-1-appearance/S1-AP-A06-flood-relief-8k.png",
+        "width": 5120,
+        "height": 7680,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 27208179,
+        "sha256": "359374291ba72983347b261eb1415c29b9064fef95d89e06aa863e5e34d12377"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-NV-E01-ash-letters",
+      "category": "08-season-1-narrative",
+      "source": {
+        "path": "source/08-season-1-narrative/S1-NV-E01-ash-letters.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2076128,
+        "sha256": "fb02e6b57064268640e884852006dbba245526992f285239a2c508bc3beb7bfa"
+      },
+      "output8k": {
+        "path": "8k/08-season-1-narrative/S1-NV-E01-ash-letters-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 17267002,
+        "sha256": "803a529b45c8846f1f14d0af82789fae692e0125ff70603b761055e352ad59dd"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-NV-E02-grain-dust-crate",
+      "category": "08-season-1-narrative",
+      "source": {
+        "path": "source/08-season-1-narrative/S1-NV-E02-grain-dust-crate.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2259160,
+        "sha256": "b3adcae75007cc87a3f8a078c627e279a6aa94a5edc626863532aa26a61e5933"
+      },
+      "output8k": {
+        "path": "8k/08-season-1-narrative/S1-NV-E02-grain-dust-crate-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 20082482,
+        "sha256": "83afa14d8d42a5f35f66cec7314e071f9b9d7b51e9ed91e7ba17ff8c68d74615"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-NV-E03-repeated-phrase-dispute",
+      "category": "08-season-1-narrative",
+      "source": {
+        "path": "source/08-season-1-narrative/S1-NV-E03-repeated-phrase-dispute.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 1848610,
+        "sha256": "da41722dbe99cc89179f18d8f8ce1b5b5108105ba0eb5b953af85c14e07032ee"
+      },
+      "output8k": {
+        "path": "8k/08-season-1-narrative/S1-NV-E03-repeated-phrase-dispute-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 13798750,
+        "sha256": "ef5ffc2f2d134d8c8ef8d560de639abbfcecb6b6f691f9f087d30275f122542e"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-NV-E04-missing-canal-map",
+      "category": "08-season-1-narrative",
+      "source": {
+        "path": "source/08-season-1-narrative/S1-NV-E04-missing-canal-map.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2097529,
+        "sha256": "32f4c80ebd88bbb6adcc0cd994793bacd1c939691bcc8cae88ea3e5d00df623e"
+      },
+      "output8k": {
+        "path": "8k/08-season-1-narrative/S1-NV-E04-missing-canal-map-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 17573036,
+        "sha256": "28bd059ae5c3b61f10c655c9563a6a6b2fa9de3adfb1dd6ab603de315974d19c"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-NV-E05-water-route-record",
+      "category": "08-season-1-narrative",
+      "source": {
+        "path": "source/08-season-1-narrative/S1-NV-E05-water-route-record.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 1975259,
+        "sha256": "4bf1e73429711d6d73c8e9f0df337805cf1b88712b7f47cae60847b1c8839adc"
+      },
+      "output8k": {
+        "path": "8k/08-season-1-narrative/S1-NV-E05-water-route-record-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 16197340,
+        "sha256": "598a35932900c24dc09e246316a9640b7d3b07bc0165282939c5ae36a99da62d"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-NV-E06-five-signal-suspect-report",
+      "category": "08-season-1-narrative",
+      "source": {
+        "path": "source/08-season-1-narrative/S1-NV-E06-five-signal-suspect-report.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2212838,
+        "sha256": "c2cb421bd03c7d731b8ea7ee4852351c46011de533f10f780fa667cfe1b0b8a6"
+      },
+      "output8k": {
+        "path": "8k/08-season-1-narrative/S1-NV-E06-five-signal-suspect-report-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 19241295,
+        "sha256": "20a5b5c82a69484b8d767b6d651cf1850347e18dae6c55e193a1f5095a6be02f"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-NV-E07-central-relief-reconsideration",
+      "category": "08-season-1-narrative",
+      "source": {
+        "path": "source/08-season-1-narrative/S1-NV-E07-central-relief-reconsideration.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2298695,
+        "sha256": "eb2a42d0a7057019e49afb1961a3dd0e37190fc81d3ec0dd83f9081c0df3f838"
+      },
+      "output8k": {
+        "path": "8k/08-season-1-narrative/S1-NV-E07-central-relief-reconsideration-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 20773773,
+        "sha256": "8933b9dc9bd8e7c0263d623d36b1b5f6543c383feb03eaa9a31447921649b999"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-NV-E10-half-old-case",
+      "category": "08-season-1-narrative",
+      "source": {
+        "path": "source/08-season-1-narrative/S1-NV-E10-half-old-case.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2147226,
+        "sha256": "7e8f919d2c8f5c329171da08ff0c696a2fb1fb3e4475b3f3ffdda45b8a2d197f"
+      },
+      "output8k": {
+        "path": "8k/08-season-1-narrative/S1-NV-E10-half-old-case-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 17287705,
+        "sha256": "f9a27b58bb577f606a225145936565d3abd845562d766ef0998b45a4b9db0f7c"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-NV-E11-one-city-one-mind-question",
+      "category": "08-season-1-narrative",
+      "source": {
+        "path": "source/08-season-1-narrative/S1-NV-E11-one-city-one-mind-question.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2034557,
+        "sha256": "78c4d72e1460406655e29bcdb1c9b0db36ad9f3df3a92395e094b70c70c92280"
+      },
+      "output8k": {
+        "path": "8k/08-season-1-narrative/S1-NV-E11-one-city-one-mind-question-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 16280517,
+        "sha256": "68515118a7194e9f2700dcfcb5e3250e9cc0cd162d7d900d975b394ccc43304f"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-NV-E12-protected-water-letter",
+      "category": "08-season-1-narrative",
+      "source": {
+        "path": "source/08-season-1-narrative/S1-NV-E12-protected-water-letter.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2014745,
+        "sha256": "96950874645b4e552b482124e1c8877204934e3155f73854d65a01947d8ea534"
+      },
+      "output8k": {
+        "path": "8k/08-season-1-narrative/S1-NV-E12-protected-water-letter-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 16059610,
+        "sha256": "3be89d3d87ac93b6d7d66eda3ca67043f957c30ca95d8050122307b470f90ef8"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-NV-E13-wrong-tide-observation",
+      "category": "08-season-1-narrative",
+      "source": {
+        "path": "source/08-season-1-narrative/S1-NV-E13-wrong-tide-observation.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2241469,
+        "sha256": "bc1860c12408e565437c51f605005d3ab36e52bf04dd9347d62922ec5ebae562"
+      },
+      "output8k": {
+        "path": "8k/08-season-1-narrative/S1-NV-E13-wrong-tide-observation-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 19498506,
+        "sha256": "328e6d2d8fc88574f8e27b74de2c9919654c71f6b58d88f1b1c94ab963ffd663"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-NV-E15-bitter-well-correction",
+      "category": "08-season-1-narrative",
+      "source": {
+        "path": "source/08-season-1-narrative/S1-NV-E15-bitter-well-correction.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2390086,
+        "sha256": "46e50d2695f0b1f6f040d9424b16205ff38e8016f512a22149d37eaec69fe093"
+      },
+      "output8k": {
+        "path": "8k/08-season-1-narrative/S1-NV-E15-bitter-well-correction-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 21583536,
+        "sha256": "b41f5e2b733abdd6c1c4a938ac82c198cc78be8af690829876a9b2c597acd75b"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-NV-E18-combined-report-split",
+      "category": "08-season-1-narrative",
+      "source": {
+        "path": "source/08-season-1-narrative/S1-NV-E18-combined-report-split.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2031730,
+        "sha256": "c6f4ba375325e0cc279100215e540c0154ae9fb5d77994c1eeb4cca78974ee14"
+      },
+      "output8k": {
+        "path": "8k/08-season-1-narrative/S1-NV-E18-combined-report-split-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 17328607,
+        "sha256": "0ab1e3e5c3333dca6032d9a24e1aa343132a07fa9b78d7d58184162608108bb0"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-NV-E19-osmanthus-ordinary-life",
+      "category": "08-season-1-narrative",
+      "source": {
+        "path": "source/08-season-1-narrative/S1-NV-E19-osmanthus-ordinary-life.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2254679,
+        "sha256": "41f0e5100a7f9eeeeba1940b17d71cb94fc491da23cd63633792f68d2e25ecb9"
+      },
+      "output8k": {
+        "path": "8k/08-season-1-narrative/S1-NV-E19-osmanthus-ordinary-life-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 19925795,
+        "sha256": "657613ccc001f28e6e1386626d885127bb4ad69f4dfd1b9561297bf963708e2e"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-NV-E23-fathers-manuscript",
+      "category": "08-season-1-narrative",
+      "source": {
+        "path": "source/08-season-1-narrative/S1-NV-E23-fathers-manuscript.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 1937123,
+        "sha256": "382ce8b04c2d55513b3d07e397e926e3d3614546b2631ad4424bcda2228b74fc"
+      },
+      "output8k": {
+        "path": "8k/08-season-1-narrative/S1-NV-E23-fathers-manuscript-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 14768178,
+        "sha256": "d7cd6ae605914ed6afa5eafd2cec179a45b296b9df05ee563567fcdc7f45485b"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-NV-E24-osmanthus-farewell-tracker",
+      "category": "08-season-1-narrative",
+      "source": {
+        "path": "source/08-season-1-narrative/S1-NV-E24-osmanthus-farewell-tracker.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2135404,
+        "sha256": "b46ca9f67f2fce38271afa64d214157d9c12db6c1f2818a7c3d62e14947b3e10"
+      },
+      "output8k": {
+        "path": "8k/08-season-1-narrative/S1-NV-E24-osmanthus-farewell-tracker-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 18155322,
+        "sha256": "51b8e8f8286b8033ccf88d4fb9dd2a294274a5268d40eb1ef10010b924cdcb6e"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-NV-E25-case-map-overlap",
+      "category": "08-season-1-narrative",
+      "source": {
+        "path": "source/08-season-1-narrative/S1-NV-E25-case-map-overlap.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2264100,
+        "sha256": "18fbe20dac8756cd960ac8d9f985d4a9151783fcf33035f17414a7871d9d351d"
+      },
+      "output8k": {
+        "path": "8k/08-season-1-narrative/S1-NV-E25-case-map-overlap-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 19430559,
+        "sha256": "8acfc67ca84a7952a8b7a13fcc4b609f2c396e7fd287d9b57c2b6e7526b51e53"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-NV-E29-epidemic-map-breakup",
+      "category": "08-season-1-narrative",
+      "source": {
+        "path": "source/08-season-1-narrative/S1-NV-E29-epidemic-map-breakup.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2066656,
+        "sha256": "91b1c7c4998debc0d1f7f92f07b22c9d14c48dfa1d7902969ae51ab60a749892"
+      },
+      "output8k": {
+        "path": "8k/08-season-1-narrative/S1-NV-E29-epidemic-map-breakup-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 16804719,
+        "sha256": "8b1c391cb18e3753fb51f5fc0da0ecd44b07b3c5a65585c49b12eb54e4024cbf"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-NV-E30-snow-night-broken-network",
+      "category": "08-season-1-narrative",
+      "source": {
+        "path": "source/08-season-1-narrative/S1-NV-E30-snow-night-broken-network.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2222111,
+        "sha256": "b6b94d76316150b684a69b479d80af057fccc6346e18bbf9887c0a2e9d91ac4f"
+      },
+      "output8k": {
+        "path": "8k/08-season-1-narrative/S1-NV-E30-snow-night-broken-network-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 18740292,
+        "sha256": "4952e7d8acfb028c4995e4c4f6ce061fac1880b7d36ff5113250f064f5e2ee4c"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-NV-E31-missing-ledger-route-correction",
+      "category": "08-season-1-narrative",
+      "source": {
+        "path": "source/08-season-1-narrative/S1-NV-E31-missing-ledger-route-correction.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2525497,
+        "sha256": "4ae5d58dcdfe58c4644265f8d665b91c71651f5039dcdd1b833b1918c7511140"
+      },
+      "output8k": {
+        "path": "8k/08-season-1-narrative/S1-NV-E31-missing-ledger-route-correction-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 23762966,
+        "sha256": "ffc1ee4620d4c328335b417d38fb9079ba753652da4b03477376cb0a226ca474"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-NV-E32-first-lantern-protocol",
+      "category": "08-season-1-narrative",
+      "source": {
+        "path": "source/08-season-1-narrative/S1-NV-E32-first-lantern-protocol.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2391511,
+        "sha256": "6ea9d992469ebed49c2f471e6c2008e72efc7d9f98e2ed07faa82c40cfc3032d"
+      },
+      "output8k": {
+        "path": "8k/08-season-1-narrative/S1-NV-E32-first-lantern-protocol-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 21854774,
+        "sha256": "07a4656cf6ac234f914a0b0ca6a5a77a2abfd0410f4f1415763de630d9430764"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-NV-E33-wrong-lantern-correction",
+      "category": "08-season-1-narrative",
+      "source": {
+        "path": "source/08-season-1-narrative/S1-NV-E33-wrong-lantern-correction.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2496701,
+        "sha256": "c4099f17a3b12b6906450f2735954c0af1f127ed4ff8cd75580fcba2c73da0a5"
+      },
+      "output8k": {
+        "path": "8k/08-season-1-narrative/S1-NV-E33-wrong-lantern-correction-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 23168476,
+        "sha256": "40b3838ff6af0b6bad2ac4b9d649a22e1c0add89d9be8aa2ff2cb315c719b4dc"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-NV-E35-flood-coordination",
+      "category": "08-season-1-narrative",
+      "source": {
+        "path": "source/08-season-1-narrative/S1-NV-E35-flood-coordination.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2393828,
+        "sha256": "355a9c9d82015a2c1735959d2c9092e0942bfdf34fc96c98717ed271bfab5cd6"
+      },
+      "output8k": {
+        "path": "8k/08-season-1-narrative/S1-NV-E35-flood-coordination-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 21848972,
+        "sha256": "95f1d1259498d13175eb0d05f2b415006912aa84f9d47732f4c9ccac223c610e"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-NV-E36A-public-correction-ledger",
+      "category": "08-season-1-narrative",
+      "source": {
+        "path": "source/08-season-1-narrative/S1-NV-E36A-public-correction-ledger.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2207829,
+        "sha256": "d6a76af1766f3a514604c12077968fd4c461a4ca6cc5d8a81b5ab5e021f45030"
+      },
+      "output8k": {
+        "path": "8k/08-season-1-narrative/S1-NV-E36A-public-correction-ledger-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 19515038,
+        "sha256": "74a3b21f7128dc98f5c99935c4a31788cd7c8c18facc1642558ff2d77e500e80"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-NV-E36B-today-willow",
+      "category": "08-season-1-narrative",
+      "source": {
+        "path": "source/08-season-1-narrative/S1-NV-E36B-today-willow.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 1989458,
+        "sha256": "85cf3a18879352e19f9c0110b0cb01491bde157a640a1fcc0bb79ec722cc375f"
+      },
+      "output8k": {
+        "path": "8k/08-season-1-narrative/S1-NV-E36B-today-willow-8k.png",
+        "width": 7680,
+        "height": 4322,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 15848904,
+        "sha256": "08d84a8180c0351ba9102812d15e8e551d4fb112d7693e3b1ed2fca421036236"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-PR-A01-material-clue-board",
+      "category": "07-season-1-evidence",
+      "source": {
+        "path": "source/07-season-1-evidence/S1-PR-A01-material-clue-board.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2795838,
+        "sha256": "4cbe52e20f2729bf96ad73f63e24be4cf00753c45e3c5db46afb775cf59e4631"
+      },
+      "output8k": {
+        "path": "8k/07-season-1-evidence/S1-PR-A01-material-clue-board-8k.png",
+        "width": 7680,
+        "height": 5120,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 28337927,
+        "sha256": "ee01cb9bcb3b4fd9facdf6dee11000cd4a515d5a5a49e1cdc43e1c75d38a16dc"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-PR-A02-old-case-privacy-board",
+      "category": "07-season-1-evidence",
+      "source": {
+        "path": "source/07-season-1-evidence/S1-PR-A02-old-case-privacy-board.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2961126,
+        "sha256": "854de574b6ef8586aef45a415f994d07430e00c487fc2a4740e84ac8936a5ab6"
+      },
+      "output8k": {
+        "path": "8k/07-season-1-evidence/S1-PR-A02-old-case-privacy-board-8k.png",
+        "width": 7680,
+        "height": 5120,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 29079936,
+        "sha256": "8a529aff539c2b6a7adbf8a33e80e88cf5cddd51a322f5e3e600998e8f80e33e"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-PR-A03-supply-water-combined-report-board",
+      "category": "07-season-1-evidence",
+      "source": {
+        "path": "source/07-season-1-evidence/S1-PR-A03-supply-water-combined-report-board.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 3229684,
+        "sha256": "9a22498e9acf76526c431620d045344a1c417f6960ee726d0ad73b18fdeea976"
+      },
+      "output8k": {
+        "path": "8k/07-season-1-evidence/S1-PR-A03-supply-water-combined-report-board-8k.png",
+        "width": 7680,
+        "height": 5120,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 33532348,
+        "sha256": "ed5d716c2b50b8380ec3c52903120d50803b4eaac5dbc7b905ecdea28104a4a4"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-PR-A04-osmanthus-manuscript-board",
+      "category": "07-season-1-evidence",
+      "source": {
+        "path": "source/07-season-1-evidence/S1-PR-A04-osmanthus-manuscript-board.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 3029611,
+        "sha256": "5a616ad4b5c23b00821ecb0bc8e660e99eeb1aa44e13c6e1af742ebdcf4a699e"
+      },
+      "output8k": {
+        "path": "8k/07-season-1-evidence/S1-PR-A04-osmanthus-manuscript-board-8k.png",
+        "width": 7680,
+        "height": 5120,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 31228918,
+        "sha256": "7f4ff5478188360af01f7be8e0fc84d04d16e5f7701f4070b05c9cb5dc6d354a"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-PR-A05-lockdown-epidemic-map-board",
+      "category": "07-season-1-evidence",
+      "source": {
+        "path": "source/07-season-1-evidence/S1-PR-A05-lockdown-epidemic-map-board.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 3341103,
+        "sha256": "fdc8cd19c25ff4f176fc1fbf7205393de2ee4d1b14a0f02de2a4e13663f2be82"
+      },
+      "output8k": {
+        "path": "8k/07-season-1-evidence/S1-PR-A05-lockdown-epidemic-map-board-8k.png",
+        "width": 7680,
+        "height": 5120,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 34420359,
+        "sha256": "b06cb42d4a35eaa175bd54545cfbb7668d9f606456490c63282ffd77b8dfff4c"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    },
+    {
+      "id": "S1-PR-A06-spring-lantern-correction-board",
+      "category": "07-season-1-evidence",
+      "source": {
+        "path": "source/07-season-1-evidence/S1-PR-A06-spring-lantern-correction-board.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2911996,
+        "sha256": "d3b48bad2de39166e4fe2579130856756053981c597bf81c82e45bacebc90766"
+      },
+      "output8k": {
+        "path": "8k/07-season-1-evidence/S1-PR-A06-spring-lantern-correction-board-8k.png",
+        "width": 7680,
+        "height": 5120,
+        "longEdge": 7680,
+        "density": 300,
+        "bytes": 29610593,
+        "sha256": "0d0ec89c5f493b999e681cab11fb0de58d28b7c77731f14f7b59d6a104786474"
+      },
+      "technicalStatus": "pass",
+      "visualStatus": "reviewed"
+    }
+  ]
+}

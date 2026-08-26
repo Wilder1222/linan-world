@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-26T00:30:23.720Z",
+  "passed": true,
+  "checks": {
+    "sourceAssetCount": {
+      "expected": 68,
+      "actual": 68,
+      "pass": true
+    },
+    "categoryCounts": {
+      "expected": {
+        "00-identity": 4,
+        "01-expression-makeup-hair": 4,
+        "02-costume": 10,
+        "03-pose-motion": 4,
+        "04-props": 2,
+        "05-narrative": 6,
+        "06-season-1-appearance": 7,
+        "07-season-1-evidence": 6,
+        "08-season-1-narrative": 25
+      },
+      "actual": {
+        "03-pose-motion": 4,
+        "02-costume": 10,
+        "05-narrative": 6,
+        "01-expression-makeup-hair": 4,
+        "00-identity": 4,
+        "04-props": 2,
+        "06-season-1-appearance": 7,
+        "08-season-1-narrative": 25,
+        "07-season-1-evidence": 6
+      },
+      "pass": true
+    },
+    "allOutputsLongEdge7680": {
+      "pass": true
+    },
+    "allOutputsNonEmpty": {
+      "pass": true
+    },
+    "sourceClassification": {
+      "pass": true
+    },
+    "noPartialFiles": {
+      "actual": [],
+      "pass": true
+    },
+    "identityReferencesPresent": {
+      "expected": [
+        "references/ref-identity-primary-front.png",
+        "references/ref-identity-softlight-portrait.jpeg",
+        "references/ref-identity-neutral-side-light.jpeg"
+      ],
+      "pass": true
+    },
+    "season1Coverage": {
+      "expectedPlannedAssets": 38,
+      "actualPlannedAssets": 38,
+      "expectedEpisodes": 36,
+      "actualEpisodes": 36,
+      "missingPlannedAssets": [],
+      "unknownEpisodeReferences": [],
+      "pass": true
+    },
+    "authoritativeSourceHashesCurrent": {
+      "checked": [
+        {
+          "path": "characters/central/chr-l1-01-shen-heng.md",
+          "status": "FOUNDATION-LOCKED",
+          "expectedSha256": "d97fec672fb1a4ea6fb0494140abf21f28cdec3c85c3ca268c2bc5f7b68f0f73",
+          "actualSha256": "d97fec672fb1a4ea6fb0494140abf21f28cdec3c85c3ca268c2bc5f7b68f0f73",
+          "pass": true
+        },
+        {
+          "path": "story/00-series-outline.md",
+          "status": "FOUNDATION-DRAFT",
+          "expectedSha256": "c53362f7568bb4848b722620ad69ea73d1ca38686285f58dc64084f604731397",
+          "actualSha256": "c53362f7568bb4848b722620ad69ea73d1ca38686285f58dc64084f604731397",
+          "pass": true
+        },
+        {
+          "path": "story/01-causal-mystery-and-pacing-revision-v2.md",
+          "status": "FOUNDATION-DRAFT",
+          "expectedSha256": "ad96a0daae42ea2e060fa3ac3e0da8934e0d5dd8766c517e7c2b9e8aac51b5fa",
+          "actualSha256": "ad96a0daae42ea2e060fa3ac3e0da8934e0d5dd8766c517e7c2b9e8aac51b5fa",
+          "pass": true
+        },
+        {
+          "path": "story/season/season-causal-ledger.json",
+          "status": "SEASON-DRAFT-LOCKED-INPUT",
+          "expectedSha256": "fd22f74e96013f9c36c4c35b1ba406367f104f5f151dba2941616d66595fd919",
+          "actualSha256": "fd22f74e96013f9c36c4c35b1ba406367f104f5f151dba2941616d66595fd919",
+          "pass": true
+        },
+        {
+          "path": "story/season/mystery-reversal-matrix.json",
+          "status": "SEASON-DRAFT-LOCKED-INPUT",
+          "expectedSha256": "8fa2d9e6b89ebec335d8184858de44f7963392f02100b6c33da44b863027a856",
+          "actualSha256": "8fa2d9e6b89ebec335d8184858de44f7963392f02100b6c33da44b863027a856",
+          "pass": true
+        },
+        {
+          "path": "story/season/song-life-activity-matrix.json",
+          "status": "SEASON-DRAFT-LOCKED-INPUT",
+          "expectedSha256": "108730f1f193435f861fe52f38fbde18404684b4edd6ac0e4aa8c96ee9537a84",
+          "actualSha256": "108730f1f193435f861fe52f38fbde18404684b4edd6ac0e4aa8c96ee9537a84",
+          "pass": true
+        },
+        {
+          "path": "story/season/humor-register-matrix.json",
+          "status": "SEASON-DRAFT-LOCKED-INPUT",
+          "expectedSha256": "dd8fef596e76296b5a4649312900a3c04b820111d2a4add1059766b921c376c9",
+          "actualSha256": "dd8fef596e76296b5a4649312900a3c04b820111d2a4add1059766b921c376c9",
+          "pass": true
+        },
+        {
+          "path": "story/season/short-chapter-hook-map.json",
+          "status": "SEASON-DRAFT-LOCKED-INPUT",
+          "expectedSha256": "599a0dce84ffc41ea9f18a0f20cdd6f46009c8a9fe8ad7e190ba84b8f2934882",
+          "actualSha256": "599a0dce84ffc41ea9f18a0f20cdd6f46009c8a9fe8ad7e190ba84b8f2934882",
+          "pass": true
+        },
+        {
+          "path": "story/season/u-candidate-selection.json",
+          "status": "SEASON-DRAFT-LOCKED-INPUT",
+          "expectedSha256": "66ee95297ec117a04e4d5727e45872cece84e55dc0274247643cc129c8c8f753",
+          "actualSha256": "66ee95297ec117a04e4d5727e45872cece84e55dc0274247643cc129c8c8f753",
+          "pass": true
+        },
+        {
+          "path": "raw/image-gen-7(1).png",
+          "status": "absolute-identity-authority",
+          "expectedSha256": "472682534dddd1b2f9ca1f55e4af74c92bc9bb34c63f99661259b4a289dd5053",
+          "actualSha256": "472682534dddd1b2f9ca1f55e4af74c92bc9bb34c63f99661259b4a289dd5053",
+          "pass": true
+        },
+        {
+          "path": "raw/F499F6A6-B2A4-4873-AA68-11CE534FEDC1.jpeg",
+          "status": "softlight-angle-support",
+          "expectedSha256": "fdfccd78adb9acb96a0b1ec010061c63d6eb3178e52ef1e976150bceeab4cfed",
+          "actualSha256": "fdfccd78adb9acb96a0b1ec010061c63d6eb3178e52ef1e976150bceeab4cfed",
+          "pass": true
+        },
+        {
+          "path": "raw/ADA61D17-ED1D-4192-82D7-D43BFA08133D.jpeg",
+          "status": "neutral-volume-support",
+          "expectedSha256": "4ca7dec7bafd8c8541eed41ff7ffbdabd3b19eed3bb1e6a79679fcebde2cf1da",
+          "actualSha256": "4ca7dec7bafd8c8541eed41ff7ffbdabd3b19eed3bb1e6a79679fcebde2cf1da",
+          "pass": true
+        },
+        {
+          "path": "qa/gates/season-gate.json",
+          "status": "LOCKED",
+          "expectedSha256": "069398755ebf43102f0107a66554233ad7aeb67868a3abcf4198f10615bdd380",
+          "actualSha256": "069398755ebf43102f0107a66554233ad7aeb67868a3abcf4198f10615bdd380",
+          "pass": true
+        },
+        {
+          "path": "qa/gates/input-manifests/season.json",
+          "status": "LOCKED-MANIFEST",
+          "expectedSha256": "2089d7208fe9d0d7453e1e61cebc262fb04c12adc027f1c0c3ef6488a8f461b0",
+          "actualSha256": "2089d7208fe9d0d7453e1e61cebc262fb04c12adc027f1c0c3ef6488a8f461b0",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    "identityReferenceHashParity": {
+      "checked": [
+        {
+          "rawPath": "raw/image-gen-7(1).png",
+          "packagePath": "references/ref-identity-primary-front.png",
+          "expectedSha256": "472682534dddd1b2f9ca1f55e4af74c92bc9bb34c63f99661259b4a289dd5053",
+          "packageSha256": "472682534dddd1b2f9ca1f55e4af74c92bc9bb34c63f99661259b4a289dd5053",
+          "pass": true
+        },
+        {
+          "rawPath": "raw/F499F6A6-B2A4-4873-AA68-11CE534FEDC1.jpeg",
+          "packagePath": "references/ref-identity-softlight-portrait.jpeg",
+          "expectedSha256": "fdfccd78adb9acb96a0b1ec010061c63d6eb3178e52ef1e976150bceeab4cfed",
+          "packageSha256": "fdfccd78adb9acb96a0b1ec010061c63d6eb3178e52ef1e976150bceeab4cfed",
+          "pass": true
+        },
+        {
+          "rawPath": "raw/ADA61D17-ED1D-4192-82D7-D43BFA08133D.jpeg",
+          "packagePath": "references/ref-identity-neutral-side-light.jpeg",
+          "expectedSha256": "4ca7dec7bafd8c8541eed41ff7ffbdabd3b19eed3bb1e6a79679fcebde2cf1da",
+          "packageSha256": "4ca7dec7bafd8c8541eed41ff7ffbdabd3b19eed3bb1e6a79679fcebde2cf1da",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    "gateState": {
+      "expected": {
+        "season_gate": "LOCKED",
+        "episode_gate": "OPEN"
+      },
+      "actual": {
+        "season_gate": "LOCKED",
+        "episode_gate": "OPEN"
+      },
+      "pass": true
+    },
+    "lockedSeasonNarrativeCoverage": {
+      "characterId": "CHR-L1-01",
+      "requiredEpisodes": [
+        "S1-E01",
+        "S1-E02",
+        "S1-E03",
+        "S1-E05",
+        "S1-E06",
+        "S1-E07",
+        "S1-E10",
+        "S1-E11",
+        "S1-E12",
+        "S1-E13",
+        "S1-E15",
+        "S1-E18",
+        "S1-E19",
+        "S1-E23",
+        "S1-E24",
+        "S1-E25",
+        "S1-E29",
+        "S1-E30",
+        "S1-E31",
+        "S1-E32",
+        "S1-E33",
+        "S1-E35",
+        "S1-E36"
+      ],
+      "missingNarrativeEpisodes": [],
+      "pass": true
+    }
+  }
+}
