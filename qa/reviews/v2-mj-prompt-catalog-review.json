@@ -1,0 +1,9 @@
+{
+  "validator": "validate_mj_v8_2_catalog.cjs",
+  "catalog_id": "LINAN-VIS-LW-V2-MJ8.2",
+  "record_count": 1039,
+  "error_count": 0,
+  "warning_count": 0,
+  "errors": [],
+  "warnings": []
+}

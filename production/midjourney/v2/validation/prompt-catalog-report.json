@@ -1,0 +1,49 @@
+{
+  "catalog_id": "LINAN-VIS-LW-V2-MJ8.2",
+  "generated_on": "2026-08-27",
+  "record_count": 1039,
+  "family_counts": {
+    "background-archetype": 300,
+    "character": 84,
+    "episode-shot": 54,
+    "location": 126,
+    "prop-evidence": 12,
+    "relationship": 136,
+    "season-episode": 36,
+    "shen-heng-package": 163,
+    "style-calibration": 8,
+    "unit-slot": 120
+  },
+  "coverage_contract": {
+    "named_character_identity_anchors": 84,
+    "canonical_location_masters": 18,
+    "canonical_location_season_states": 108,
+    "prop_and_evidence_states": 12,
+    "relationship_snapshots": 136,
+    "unit_slot_explorations": 120,
+    "background_archetype_explorations": 300,
+    "shen_manifest_assets": 68,
+    "shen_independent_render_tasks": 163,
+    "season_episode_premises": 36,
+    "e01_draft_storyboard_shots": 54,
+    "style_calibrations": 8
+  },
+  "status_breakdown": {
+    "BLOCKED_UNTIL_CASTING_AND_EPISODE_GATE": 120,
+    "BLOCKED_UNTIL_EPISODE_GATE": 90,
+    "BLOCKED_UNTIL_IDENTITY_SELECTION_AND_EPISODE_GATE": 136,
+    "BLOCKED_UNTIL_MICROCHAPTER_BINDING": 300,
+    "READY_FOR_V2_IDENTITY_SELECTION": 84,
+    "READY_FOR_V2_LOCATION_CALIBRATION": 126,
+    "READY_FOR_V2_PROP_CALIBRATION": 12,
+    "READY_FOR_V2_STYLE_CALIBRATION": 8,
+    "REBUILD_AFTER_V2_STYLE_AND_IDENTITY_SIGNOFF": 163
+  },
+  "notes": [
+    "All direct mj_text values are fully resolved Midjourney V8.2 prompts with no unresolved style-reference placeholders.",
+    "No direct prompt uses Omni Reference, Character Reference, --oref, --q, --draft, --hd or multi-prompt syntax.",
+    "No prompt claims native 8K output. The 7680-pixel delivery target is an approved-source post-generation pipeline.",
+    "Composite source assets are represented by independently generated tasks and must be locally assembled after human review.",
+    "Reserved production targets remain explicit BLOCKED records; this preserves scope without fabricating locked casting or Episode Gate facts."
+  ]
+}

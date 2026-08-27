@@ -36,7 +36,7 @@
     },
     {
       "path": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md",
-      "sha256": "1c1bc11dc00abd14ccd3815ca397b044d3dd2328d31cc861a4c1b334f494d49a"
+      "sha256": "a9fed3d81bf441dd0030ed4ed2153b23582892e830145a415a12e8d097b4e938"
     },
     {
       "path": "production/ai/v6-character-asset-bible/02-expression/expression-asset-standard.md",
@@ -48,7 +48,7 @@
     },
     {
       "path": "production/ai/v6-character-asset-bible/04-costume/costume-system-standard.md",
-      "sha256": "1a9f6978876f3f0c2387a4b77a03887dba2fa8bbe8f25e4ba5e115107791ac49"
+      "sha256": "80861ac708d71df2c62a27d1f6e2780a6864018fbaa72ba3109ee34f6014ef43"
     },
     {
       "path": "production/ai/v6-character-asset-bible/06-relationship/relationship-state-standard.md",
@@ -56,15 +56,15 @@
     },
     {
       "path": "production/ai/v6-character-asset-bible/07-continuity/continuity-ledger-standard.md",
-      "sha256": "92a8b26af2d967d0ee0553a6c5267dc23e14ba874e1dd402c5346bb1b4a29df6"
+      "sha256": "64d57ff989237fd8a91cbb3eb3ef18c114bdd745a0cb3273533e2a13a35ff36c"
     },
     {
       "path": "production/ai/v6-character-asset-bible/09-production-workflow/linan-standard-sop.md",
-      "sha256": "f268c6e5388d59974017b217189609b6c260a167528ccc9f4052688f34869953"
+      "sha256": "e0a4b1cc068cd76dd96dca5f4976ccd9487d16597953b9cfcacbbb43d9a04f10"
     },
     {
       "path": "production/ai/v6-character-asset-bible/10-episode-gate/episode-delivery-gate.md",
-      "sha256": "1222b448c918d48bc10e747b6a4eab720148eebbf200fd504ffa6c11471a14fb"
+      "sha256": "aa630d16e2e036c7c7e8a298bc43caabb9231fb92877dc1b7d78d040b36235f4"
     }
   ],
   "cards": [

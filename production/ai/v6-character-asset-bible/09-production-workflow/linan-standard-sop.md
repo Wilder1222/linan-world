@@ -1,6 +1,7 @@
 # 《临安春信》标准生产SOP
 
 00 World Lock：世界、时间、社会环境、主线冲突。
+00.5 Visual System Lock：读取 V2 风格包、参考图政策和校准状态；未锁定 V2 三个项目生成 Style Reference 时，只允许校准与受控探索。
 01 Character Lock：身份、外观、情绪、行为、关系、成长。
 02 Asset Lock：定妆、表情、姿态、动作、服装、道具、声音参考。
 03 Episode Character State：读取上一集结尾状态。
@@ -10,8 +11,8 @@
 07 AIGC Assets：先角色，再场景，再道具，再组合。
 08 Video：start pose→action→transition→end pose。
 09 Voice：按Voice DNA生成。
-10 Continuity QA：脸、衣、饰品、伤口、情绪、知识、道具、关系。
+10 Continuity QA：脸、衣、饰品、伤口、情绪、知识、道具、关系，以及 V2 华丽度/光线/材质状态。
 11 Story QA：人物是否做了“不符合他”的选择；如符合，必须能被剧情解释。
 12 Final：通过后进入下一集。
 
-Gate：G1人物一致性、G2情绪、G3行为逻辑、G4关系、G5服装道具、G6表演、G7画面、G8声音、G9故事。每项≥90/100才进入下一阶段。
+Gate：G1人物一致性、G2情绪、G3行为逻辑、G4关系、G5服装道具、G6表演、G7画面（含 V2 城市、光源、材质、华丽度和禁区 QA）、G8声音、G9故事。每项≥90/100才进入下一阶段。

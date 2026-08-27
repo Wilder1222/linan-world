@@ -2,6 +2,15 @@
   "schemaVersion": 2,
   "character": "沈蘅",
   "packageVersion": "V2-season-gate-locked",
+  "v2_prompt_catalog": {
+    "catalog_path": "production/midjourney/v2-asset-prompt-catalog.json",
+    "catalog_id": "LINAN-VIS-LW-V2-MJ8.2",
+    "style_contract": "VIS-LW-V2",
+    "model_contract": "Midjourney 8.2",
+    "canonical_age_y0": 20,
+    "migration_status": "REBUILD_AFTER_V2_STYLE_AND_IDENTITY_SIGNOFF",
+    "migration_note": "Existing source and 7680-pixel files are historical candidates. They must be re-reviewed against the 20-year-old Canon and V2 visual contract; no file is automatically promoted as a V2 delivery asset."
+  },
   "generatedAt": "2026-08-26T00:30:23.720Z",
   "generator": "Codex built-in ImageGen",
   "resolutionContract": "PNG; long edge 7680 px; 300 ppi metadata; original aspect ratio preserved",

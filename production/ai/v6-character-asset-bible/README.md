@@ -7,6 +7,8 @@
 
 已建立：12层角色资产模型、12名中央人物Master Cards、表情标准、姿态动作标准、服装系统、声音对白标准、关系状态标准、连续性账本、AIGC Prompt系统、全流程SOP、每集Gate机制。
 
+跨角色的 V2 表现层规则位于 [`../../style/README.md`](../../style/README.md)。它为角色资产补充材质、华丽度、光线表现和 QA，但不取代 Character Foundation 或已锁定身份资产。
+
 后续默认执行：先完成角色资产圣经，再做逐场剧本；每新增人物、服装、关系、情绪、重大动作、道具、场景，都必须进入对应资产库与连续性账本。
 
 下一阶段：S1-E01全33场 Character State + Emotion/Action + Relationship Delta + Continuity Ledger。

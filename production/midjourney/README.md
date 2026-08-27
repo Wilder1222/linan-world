@@ -1,55 +1,48 @@
-# 《临安春信》MidJourney 资产提示词库
+# 《临安春信》V2 Midjourney 8.2 资产提示词库
 
-> 版本：MJ-S1-PROMPT-V1 · 2026-08-26
-> 范围：第一季人物、地点、道具、证据板与资产生成流程。
-> 上游：`qa/character-roster.json`、`story/season/season-causal-ledger.json`、`canon/city/`、`production/ai/v6-character-asset-bible/`。
+> 活跃视觉合同：`VIS-LW-V2` · 固定模型：Midjourney `8.2` · 本目录只保留 V2 的生产入口。
 
-## 使用顺序
+## 唯一生产入口
 
-1. 先执行 `00-style-master-exploration.md` 的独立探索任务，人工选定一张风格母版并上传 MidJourney；记录为 `<STYLE_REF_URL>`。
-2. 使用 `01-central-character-prompts.md` 生成每个中央人物的独立身份母版。每次只生成一个人物、一个角度或一个状态；选定后记录为该角色的 `<CHAR_REF_URL>`。
-3. 使用 `02-supporting-character-prompts.md` 进行配角的身份探索。配角未被 Canon 锁定的脸部几何必须在人工选图后才写入资产卡。
-4. 使用 `03-canon-location-prompts.md` 生成无人物的地点母版和状态版；人物进入场景前先锁定地点的空间关系、主光和材质。
-5. 使用 `04-prop-evidence-prompts.md` 生成单件道具和证据组。关键道具要分别保留完好、使用/标记、受损/封存状态。
-6. 只有在人物、地点和道具母版已经通过人工核验后，才生成双人、群像或剧照；其精确镜头仍须等待 Episode Gate。
+- [全量 V2 提示词目录](v2/README.md)：逐资产、可复制的完整提示词。
+- [机器可读资产目录](v2-asset-prompt-catalog.json)：每条资产的 Canon 快照、V2 路线、状态、参数与验收条件。
+- [资产盘点合同](v2-asset-prompt-inventory.json)：每一个目标恰有一条活跃提示词记录。
+- [V2 风格包](../style/README.md)：都市华美宋韵的语义、华丽度预算和参考图政策。
 
-## MidJourney 参数约定
+迁移前材料只在 `../archive/pre-v2/midjourney/` 保存为历史审计证据，绝不能作为当前生成命令、参考图槽位或视觉基线。
 
-- 本库默认使用当前 MidJourney 默认模型；提示词不把模型版本写死。视觉测试可加 `--raw`，以降低默认风格对事实细节的改写。
-- `--ar` 是交付画幅：身份近中景 `3:4`，全身 `2:3`，地点/叙事 `16:9`，道具/证据 `3:2`。
-- 母版探索可用 `--c 12–20`；选中方向后，资产正式生成降为 `--c 0–5`。`--s 40–100` 用于事实优先的人物、道具和空间；不以高 stylize 代替设计判断。
-- `<STYLE_REF_URL>` 是人工选定的风格参考。网站端放进 Style Reference 栏；Discord 端以 `--sref <STYLE_REF_URL> --sw 100` 绑定。
-- `<CHAR_REF_URL>` 是人工选定的单人身份母版。网站端放进当前模型提供的 Omni/Character Reference 栏；使用支持 Omni Reference 的 Discord 工作流时，以 `--oref <CHAR_REF_URL>` 绑定。不要把服装状态、场景图片当成永久身份参考。
-- `<IMAGE_REF_URL>` 仅用于需要保留构图或物件几何的 Image Prompt，放在文本最前；它不是风格或人物身份的替代品。
+## Midjourney 8.2 合同
 
-MidJourney 的 Style Reference、Image Prompt 与人物/Omni Reference 都是“引导”而非逐像素复制；所以每个正式资产仍需做身份、地理、道具和文字 QA。参数与引用槽的当前用法以 [MidJourney 官方 Style Reference 文档](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference)、[Image Prompts 文档](https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts) 和 [Omni Reference 文档](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference)为准。
-
-## 固定约束
-
-**必须保留**：南宋临安的生活尺度；职业动作来源；人物年龄、身份和关系边界；地点的通行逻辑；纸、木、织物、陶、铜、绳与湿表面的材质差异；自然且有来源的光。
-
-**可探索**：未锁定人物的面部几何、五官组合、局部服装纹样与非关键陈设；这些必须经过人工选图后才能成为母版。
-
-**必须避免**：仙侠/玄幻符号、悬浮特效、现代建筑和电子设备、网红滤镜、塑料皮肤、泛化武侠姿势、无来源的可读大段文字、水印与商标。文本是关键剧情信息时，先出无字版，再在后期排版正确文字。
-
-## 命名与记录
-
-每次任务在资产清单中记录：`prompt_id`、版本、输入参考图 URL、MJ 参数、生成日期、候选格、人工选择、输出文件、SHA-256、QA 结论。示例：
+每一条直接可复制命令都使用以下已验证参数集合，并且把参数置于提示词正文末尾：
 
 ```text
-MJ-CHR-L1-05-ID-001-v1 | <STYLE_REF_URL> | <CHAR_REF_URL> | --ar 3:4 --raw --s 60 --c 3
+--v 8.2 --raw --ar [approved ratio] --s [0-1000] --c [0-100] --no [targeted exclusions]
 ```
 
-不要依赖 seed 作为身份一致性证明；使用参考图、可见结构锚点和人工 QA 记录连续性。
+- 使用 `--ar`：人物身份 `3:4`，全身 `2:3`，地点/叙事 `16:9`，物件 `3:2`。
+- 使用 `--raw` 让人物骨相、服装构造、城市尺度和材质优先于默认风格化。
+- 使用中低 `--s` 与低 `--c` 锁定连续性；校准任务可适度提高探索幅度，但不能以高风格化替代设计判断。
+- 直接提示词不包含伪造的风格链接、未选定的身份图或不支持的身份参数。
 
-## 提示词库索引
+## 参考图与连续性
 
-- [风格母版探索](00-style-master-exploration.md)
-- [中央人物提示词](01-central-character-prompts.md)
-- [季纲配角提示词](02-supporting-character-prompts.md)
-- [18 个 Canon 地点提示词](03-canon-location-prompts.md)
-- [关键道具与证据提示词](04-prop-evidence-prompts.md)
-- [沈蘅第一季关键叙事提示词](05-season-narrative-prompts.md)
-- [第一季提示词覆盖矩阵](06-season-1-mj-coverage.md)
-- [核心关系视觉提示词](07-relationship-prompt-templates.md)
-- [U 槽位与生态群像提示词](08-unit-background-prompt-templates.md)
+V2 的文本本身已经写入人物、服装、光线、城市密度和材质约束。只有在以下两项均成立后，才可以在 Midjourney 8.2 网站端添加参考：
+
+1. 已有通过 V2 QA 的项目生成风格候选，且人工明确选择；
+2. 参考图的权利、用途和角色连续性授权已记录。
+
+身份连续性使用已批准的项目生成身份图作为 V8.2 Image Prompt；若采用经验证的 URL 工作流，图片 URL 位于正文前，并将 Image Weight 控制在 `1.0–1.5`。Style Reference 仅在实际批准的 Style Code 或 URL 已存在时追加，不能把占位符复制进命令。用户上传、`raw/` 文件和外部样图均不会被自动提交到任何生成服务。
+
+## V2 视觉不变量
+
+- 所有叙事性资产共享“电影化新宋韵”镜头语法：真实前景框景、有人在运作的中景、沿路径/建筑/灯火后退的远景；只由日光、纸灯、油灯、烛火、炉火与实际反射产生柔和晕光和材质反光。
+- 城市是高密度、可居住、劳动与贸易持续可见的南宋临安，不是空旷古镇或宫城。
+- 白日按任务选择“金色人情时刻”或“手工半透材料”母题；夜景使用灯火与克制蓝灰外界平衡，不能把所有资产做成同一条夜宴长廊。
+- 华丽来自染色、层叠、织纹、维护痕迹与受控真实反光；人物的职业、经济能力与场合决定华丽度。
+- 人物要足够漂亮、彼此可辨、真实自然：保留自然眼睑、细微不对称、毛孔、绒毛、唇纹和受真实光源约束的肤面反光。
+- 禁止仙侠化、额前垂饰、皇冠堆饰、露腰露肩舞娘结构、链甲胸衣、霓虹、塑料皮、可读错误文字、水印与现代物件。
+- 技术性身份、角度、三视图、表情、妆发和服装结构资产必须逐项独立生成并在本地组装；不要求模型生成拼板。
+
+## 交付分层
+
+Midjourney 候选是源图阶段；通过 V2 风格、身份、连续性和无文字检查后，才进入项目的 7680 像素交付/放大流程。目录从不将 Midjourney 输出虚报为原生 8K。
