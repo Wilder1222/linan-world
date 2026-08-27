@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "inventory_id": "LINAN-VIS-LW-V2-MJ8.2-ALL-ASSET-INVENTORY",
-  "generated_on": "2026-08-27",
+  "generated_on": "2026-08-28",
   "style_contract": "VIS-LW-V2",
   "model_contract": "Midjourney V8.2",
   "scope_note": "Every current declared asset target is represented by one resolved V2 prompt record. Reserved units, backgrounds, relation snapshots and episode shots are represented as explicit blocked specs rather than falsely claimed as ready-to-generate delivery assets.",
@@ -2166,505 +2166,512 @@
       "target_key": "CHARACTER:CHR-A1-01:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-A1-01-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-A1-02:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-A1-02-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-A1-03:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-A1-03-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-A1-04:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-A1-04-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-A1-05:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-A1-05-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-A1-06:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-A1-06-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-A1-07:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-A1-07-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-A1-08:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-A1-08-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-A2-01:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-A2-01-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-A2-02:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-A2-02-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-A2-03:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-A2-03-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-A2-04:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-A2-04-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-A2-05:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-A2-05-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-A2-06:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-A2-06-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-A2-07:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-A2-07-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-A2-08:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-A2-08-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-A3-01:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-A3-01-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-A3-02:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-A3-02-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-A3-03:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-A3-03-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-A3-04:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-A3-04-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-A3-05:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-A3-05-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-A3-06:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-A3-06-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-A3-07:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-A3-07-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-A3-08:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-A3-08-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-001:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-001-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-002:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-002-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-003:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-003-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-004:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-004-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-005:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-005-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-006:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-006-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-007:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-007-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-008:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-008-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-009:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-009-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-010:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-010-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-011:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-011-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-012:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-012-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-013:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-013-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-014:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-014-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-015:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-015-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-016:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-016-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-017:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-017-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-018:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-018-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-019:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-019-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-020:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-020-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-021:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-021-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-022:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-022-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-023:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-023-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-024:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-024-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-025:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-025-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-026:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-026-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-027:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-027-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-028:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-028-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-029:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-029-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-030:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-030-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-031:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-031-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-032:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-032-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-033:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-033-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-034:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-034-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-035:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-035-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-036:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-036-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-037:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-037-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-038:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-038-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-039:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-039-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-040:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-040-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-041:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-041-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-042:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-042-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-043:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-043-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-044:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-044-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-045:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-045-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-046:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-046-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-047:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-047-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
     },
     {
       "target_key": "CHARACTER:CHR-B-048:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-B-048-ID-001",
       "family": "character",
-      "asset_lane": "identity-anchor",
-      "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+      "asset_lane": "character-visual-anchor-exploration",
+      "execution_status": "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR"
+    },
+    {
+      "target_key": "CHARACTER:CHR-L1-01:HERO-001",
+      "prompt_id": "MJ-V2-CHR-CHR-L1-01-HERO-001",
+      "family": "character",
+      "asset_lane": "identity-hero",
+      "execution_status": "READY_FOR_V2_HERO_SELECTION"
     },
     {
       "target_key": "CHARACTER:CHR-L1-01:IDENTITY-001",
@@ -2674,11 +2681,25 @@
       "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
     },
     {
+      "target_key": "CHARACTER:CHR-L1-02:HERO-001",
+      "prompt_id": "MJ-V2-CHR-CHR-L1-02-HERO-001",
+      "family": "character",
+      "asset_lane": "identity-hero",
+      "execution_status": "READY_FOR_V2_HERO_SELECTION"
+    },
+    {
       "target_key": "CHARACTER:CHR-L1-02:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-L1-02-ID-001",
       "family": "character",
       "asset_lane": "identity-anchor",
       "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+    },
+    {
+      "target_key": "CHARACTER:CHR-L1-03:HERO-001",
+      "prompt_id": "MJ-V2-CHR-CHR-L1-03-HERO-001",
+      "family": "character",
+      "asset_lane": "identity-hero",
+      "execution_status": "READY_FOR_V2_HERO_SELECTION"
     },
     {
       "target_key": "CHARACTER:CHR-L1-03:IDENTITY-001",
@@ -2688,11 +2709,25 @@
       "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
     },
     {
+      "target_key": "CHARACTER:CHR-L1-04:HERO-001",
+      "prompt_id": "MJ-V2-CHR-CHR-L1-04-HERO-001",
+      "family": "character",
+      "asset_lane": "identity-hero",
+      "execution_status": "READY_FOR_V2_HERO_SELECTION"
+    },
+    {
       "target_key": "CHARACTER:CHR-L1-04:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-L1-04-ID-001",
       "family": "character",
       "asset_lane": "identity-anchor",
       "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+    },
+    {
+      "target_key": "CHARACTER:CHR-L1-05:HERO-001",
+      "prompt_id": "MJ-V2-CHR-CHR-L1-05-HERO-001",
+      "family": "character",
+      "asset_lane": "identity-hero",
+      "execution_status": "READY_FOR_V2_HERO_SELECTION"
     },
     {
       "target_key": "CHARACTER:CHR-L1-05:IDENTITY-001",
@@ -2702,11 +2737,25 @@
       "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
     },
     {
+      "target_key": "CHARACTER:CHR-L2-01:HERO-001",
+      "prompt_id": "MJ-V2-CHR-CHR-L2-01-HERO-001",
+      "family": "character",
+      "asset_lane": "identity-hero",
+      "execution_status": "READY_FOR_V2_HERO_SELECTION"
+    },
+    {
       "target_key": "CHARACTER:CHR-L2-01:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-L2-01-ID-001",
       "family": "character",
       "asset_lane": "identity-anchor",
       "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+    },
+    {
+      "target_key": "CHARACTER:CHR-L2-02:HERO-001",
+      "prompt_id": "MJ-V2-CHR-CHR-L2-02-HERO-001",
+      "family": "character",
+      "asset_lane": "identity-hero",
+      "execution_status": "READY_FOR_V2_HERO_SELECTION"
     },
     {
       "target_key": "CHARACTER:CHR-L2-02:IDENTITY-001",
@@ -2716,11 +2765,25 @@
       "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
     },
     {
+      "target_key": "CHARACTER:CHR-L2-03:HERO-001",
+      "prompt_id": "MJ-V2-CHR-CHR-L2-03-HERO-001",
+      "family": "character",
+      "asset_lane": "identity-hero",
+      "execution_status": "READY_FOR_V2_HERO_SELECTION"
+    },
+    {
       "target_key": "CHARACTER:CHR-L2-03:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-L2-03-ID-001",
       "family": "character",
       "asset_lane": "identity-anchor",
       "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+    },
+    {
+      "target_key": "CHARACTER:CHR-L2-04:HERO-001",
+      "prompt_id": "MJ-V2-CHR-CHR-L2-04-HERO-001",
+      "family": "character",
+      "asset_lane": "identity-hero",
+      "execution_status": "READY_FOR_V2_HERO_SELECTION"
     },
     {
       "target_key": "CHARACTER:CHR-L2-04:IDENTITY-001",
@@ -2730,6 +2793,13 @@
       "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
     },
     {
+      "target_key": "CHARACTER:CHR-L3-01:HERO-001",
+      "prompt_id": "MJ-V2-CHR-CHR-L3-01-HERO-001",
+      "family": "character",
+      "asset_lane": "identity-hero",
+      "execution_status": "READY_FOR_V2_HERO_SELECTION"
+    },
+    {
       "target_key": "CHARACTER:CHR-L3-01:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-L3-01-ID-001",
       "family": "character",
@@ -2737,11 +2807,25 @@
       "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
     },
     {
+      "target_key": "CHARACTER:CHR-L3-02:HERO-001",
+      "prompt_id": "MJ-V2-CHR-CHR-L3-02-HERO-001",
+      "family": "character",
+      "asset_lane": "identity-hero",
+      "execution_status": "READY_FOR_V2_HERO_SELECTION"
+    },
+    {
       "target_key": "CHARACTER:CHR-L3-02:IDENTITY-001",
       "prompt_id": "MJ-V2-CHR-CHR-L3-02-ID-001",
       "family": "character",
       "asset_lane": "identity-anchor",
       "execution_status": "READY_FOR_V2_IDENTITY_SELECTION"
+    },
+    {
+      "target_key": "CHARACTER:CHR-L3-03:HERO-001",
+      "prompt_id": "MJ-V2-CHR-CHR-L3-03-HERO-001",
+      "family": "character",
+      "asset_lane": "identity-hero",
+      "execution_status": "READY_FOR_V2_HERO_SELECTION"
     },
     {
       "target_key": "CHARACTER:CHR-L3-03:IDENTITY-001",

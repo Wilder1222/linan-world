@@ -28,13 +28,15 @@ if (!Array.isArray(records) || records.length === 0) error('catalog_empty', 'Cat
 
 const targetKeys = new Set();
 const promptIds = new Set();
-const directForbidden = /(?:<[^>]+>|\bV1\b|<STYLE_REF_URL>|--oref|--ow|--cref|--cw|--q\b|--draft|--hd|--sv|::)/i;
+const directForbidden = /(?:<[^>]+>|\bV1\b|<STYLE_REF_URL>|--oref|--ow|--cref|--cw|--q\b|--quality\b|--draft|--sv\b|::)/i;
 const acceptableRatios = new Set(['1:1', '2:3', '3:2', '3:4', '16:9']);
 const allowedRoutes = new Set(['V2-Day', 'V2-Night-Wet', 'V2-Stage-Festival']);
+const allowedNoAtoms = new Set(['text', 'watermark', 'logo']);
 const requiredV2AuthorityPaths = new Set([
   'production/style/v2-urban-splendor-song-style-package.md',
   'production/style/v2-visual-qa.md',
   'production/style/v2-reference-policy.md',
+  'production/style/v2-world-reference-atoms.md',
   'production/style/v2-world-asset-visual-registry.json'
 ]);
 
@@ -48,15 +50,15 @@ for (const record of records) {
   if (directForbidden.test(prompt)) error('v8_2_forbidden_token', record.prompt_id);
   if (!/VIS-LW-V2/.test(prompt)) error('v2_visual_grammar_missing', record.prompt_id);
   if (!/--v\s+8\.2\b/.test(prompt)) error('model_version_missing', record.prompt_id);
-  if (!/--raw\b/.test(prompt)) error('raw_missing', record.prompt_id);
   if (!/--ar\s+\d+:\d+/.test(prompt)) error('aspect_ratio_missing', record.prompt_id);
   if (!/--s\s+\d+\b/.test(prompt)) error('stylize_missing', record.prompt_id);
   if (!/--c\s+\d+\b/.test(prompt)) error('chaos_missing', record.prompt_id);
-  if (!/--no\s+/.test(prompt)) error('negative_missing', record.prompt_id);
   if (prompt.length > 6000) error('prompt_length_exceeded', `${record.prompt_id}: ${prompt.length}`);
   if (!allowedRoutes.has(record.state?.style_slot)) error('invalid_style_route', record.prompt_id);
   if (!acceptableRatios.has(record.parameters?.ar)) error('invalid_aspect_ratio', `${record.prompt_id}: ${record.parameters?.ar}`);
-  if (record.parameters?.model !== '8.2' || record.parameters?.raw !== true) error('parameter_contract', record.prompt_id);
+  const rawInPrompt = /(?:^|\s)--raw\b/.test(prompt);
+  if (record.parameters?.model !== '8.2' || typeof record.parameters?.raw !== 'boolean' || record.parameters.raw !== rawInPrompt) error('raw_metadata_mismatch', record.prompt_id);
+  if (record.state?.technical_lane && !rawInPrompt) error('technical_raw_missing', record.prompt_id);
   if (!(Number.isInteger(record.parameters?.stylize) && record.parameters.stylize >= 0 && record.parameters.stylize <= 1000)) error('invalid_stylize', record.prompt_id);
   if (!(Number.isInteger(record.parameters?.chaos) && record.parameters.chaos >= 0 && record.parameters.chaos <= 100)) error('invalid_chaos', record.prompt_id);
   if (record.execution_status?.startsWith('READY') && /[<>]/.test(prompt)) error('unresolved_ready_prompt', record.prompt_id);
@@ -67,8 +69,14 @@ for (const record of records) {
   }
   if (record.family === 'prop-evidence' && record.parameters?.ar !== '3:2') error('aspect_ratio_lane_mismatch', record.prompt_id);
   if (record.family === 'character' && record.parameters?.ar !== '3:4') error('aspect_ratio_lane_mismatch', record.prompt_id);
-  if (!record.prompt?.negative?.includes('readable text') || !record.prompt?.negative?.includes('watermark') || !record.prompt?.negative?.includes('plastic skin') || !record.prompt?.negative?.includes('xianxia')) {
-    error('required_negative_missing', record.prompt_id);
+  const declaredNo = record.prompt?.negative || [];
+  const noMatch = prompt.match(/(?:^|\s)--no\s+(.+)$/i);
+  const actualNo = noMatch ? noMatch[1].split(',').map((item) => item.trim().toLowerCase()).filter(Boolean) : [];
+  if (!Array.isArray(declaredNo) || actualNo.join('|') !== declaredNo.join('|')) {
+    error('negative_metadata_mismatch', record.prompt_id);
+  }
+  for (const atom of actualNo) {
+    if (!/^[a-z][a-z0-9-]*$/.test(atom) || !allowedNoAtoms.has(atom)) error('unsafe_no_atom', `${record.prompt_id}: ${atom}`);
   }
 }
 
@@ -106,7 +114,15 @@ for (const character of roster.named_characters) {
     if (record.facts_snapshot?.name !== character.name || record.facts_snapshot?.age_y0 !== age || record.facts_snapshot?.occupation !== occupation) error('profile_fact_drift', character.id);
   }
 }
-if (count(records, (record) => record.family === 'character') !== expectedCharacterIds.size) error('character_coverage_count', String(count(records, (record) => record.family === 'character')));
+const identityAnchorRecords = records.filter((record) => record.family === 'character' && record.target_key.endsWith(':IDENTITY-001'));
+if (identityAnchorRecords.length !== expectedCharacterIds.size) error('character_identity_coverage_count', String(identityAnchorRecords.length));
+const expectedCentralHeroes = roster.named_characters.filter((character) => /^L[123]$/.test(character.tier));
+for (const character of expectedCentralHeroes) {
+  if (!records.some((record) => record.target_key === `CHARACTER:${character.id}:HERO-001`)) error('required_target_missing', `CHARACTER:${character.id}:HERO-001`);
+}
+if (count(records, (record) => record.family === 'character' && record.asset_lane === 'identity-hero') !== expectedCentralHeroes.length) {
+  error('central_hero_coverage_count', String(count(records, (record) => record.family === 'character' && record.asset_lane === 'identity-hero')));
+}
 
 const cityIndex = read('canon/city/00-city-index.md');
 const canonicalLocationIds = [...cityIndex.matchAll(/\b(LOC-\d{3})\b/g)].map((match) => match[1]);
@@ -171,6 +187,7 @@ const activeTextPaths = [
   'production/style/v2-urban-splendor-song-style-package.md',
   'production/style/v2-visual-qa.md',
   'production/style/v2-reference-policy.md',
+  'production/style/v2-world-reference-atoms.md',
   'production/style/v2-world-asset-visual-registry.json'
 ];
 for (const relativePath of activeTextPaths) {
@@ -179,7 +196,7 @@ for (const relativePath of activeTextPaths) {
     continue;
   }
   const text = read(relativePath);
-  if (/\bV1\b|<STYLE_REF_URL>|--oref|--ow|--cref|--cw|--q\b|--draft|--hd|\bOmni Reference\b|\bCharacter Reference\b/i.test(text)) error('v1_or_v8_2_incompatible_active_doc', relativePath);
+  if (/\bV1\b|<STYLE_REF_URL>/i.test(text)) error('legacy_or_placeholder_active_doc', relativePath);
 }
 
 const assetManifest = json('production/assets/characters/shen-heng/asset-manifest.json');

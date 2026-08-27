@@ -1,6 +1,6 @@
 # 《临安春信》V2 Midjourney 8.2 全量资产提示词
 
-> Catalog: `LINAN-VIS-LW-V2-MJ8.2` · 1039 resolved prompt records · generated 2026-08-27.
+> Catalog: `LINAN-VIS-LW-V2-MJ8.2` · 1051 resolved prompt records · generated 2026-08-28.
 
 This is the V2-only source of active Midjourney prompts. It contains complete V8.2 parameter strings for every declared target in the coverage contract; it does not treat an unbound reference image or a range template as a production prompt.
 
@@ -9,7 +9,7 @@ Every narrative prompt uses the VIS-LW-V2 cinematic New Song visual grammar: mot
 ## Family counts
 
 - background-archetype: 300
-- character: 84
+- character: 96
 - episode-shot: 54
 - location: 126
 - prop-evidence: 12

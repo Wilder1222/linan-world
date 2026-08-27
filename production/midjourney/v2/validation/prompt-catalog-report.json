@@ -1,10 +1,10 @@
 {
   "catalog_id": "LINAN-VIS-LW-V2-MJ8.2",
-  "generated_on": "2026-08-27",
-  "record_count": 1039,
+  "generated_on": "2026-08-28",
+  "record_count": 1051,
   "family_counts": {
     "background-archetype": 300,
-    "character": 84,
+    "character": 96,
     "episode-shot": 54,
     "location": 126,
     "prop-evidence": 12,
@@ -15,7 +15,9 @@
     "unit-slot": 120
   },
   "coverage_contract": {
-    "named_character_identity_anchors": 84,
+    "named_character_visual_anchor_tasks": 84,
+    "central_character_identity_anchors": 12,
+    "central_character_hero_key_art": 12,
     "canonical_location_masters": 18,
     "canonical_location_season_states": 108,
     "prop_and_evidence_states": 12,
@@ -30,10 +32,12 @@
   },
   "status_breakdown": {
     "BLOCKED_UNTIL_CASTING_AND_EPISODE_GATE": 120,
+    "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR": 72,
     "BLOCKED_UNTIL_EPISODE_GATE": 90,
     "BLOCKED_UNTIL_IDENTITY_SELECTION_AND_EPISODE_GATE": 136,
     "BLOCKED_UNTIL_MICROCHAPTER_BINDING": 300,
-    "READY_FOR_V2_IDENTITY_SELECTION": 84,
+    "READY_FOR_V2_HERO_SELECTION": 12,
+    "READY_FOR_V2_IDENTITY_SELECTION": 12,
     "READY_FOR_V2_LOCATION_CALIBRATION": 126,
     "READY_FOR_V2_PROP_CALIBRATION": 12,
     "READY_FOR_V2_STYLE_CALIBRATION": 8,
@@ -41,7 +45,7 @@
   },
   "notes": [
     "All direct mj_text values are fully resolved Midjourney V8.2 prompts with no unresolved style-reference placeholders.",
-    "No direct prompt uses Omni Reference, Character Reference, --oref, --q, --draft, --hd or multi-prompt syntax.",
+    "No direct prompt uses Omni Reference, Character Reference, --oref, --q, --quality, --draft or multi-prompt syntax; Raw and --no are lane-specific rather than global requirements.",
     "No prompt claims native 8K output. The 7680-pixel delivery target is an approved-source post-generation pipeline.",
     "Composite source assets are represented by independently generated tasks and must be locally assembled after human review.",
     "Reserved production targets remain explicit BLOCKED records; this preserves scope without fabricating locked casting or Episode Gate facts."

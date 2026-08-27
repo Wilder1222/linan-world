@@ -2,7 +2,7 @@
   "schema_version": 1,
   "registry_id": "VIS-LW-V2-WORLD-ASSET-VISUAL-REGISTRY",
   "style_contract": "VIS-LW-V2",
-  "purpose": "The V2-only visual binding for location and evidence assets. It is derived from Canon and current production planning; no pre-V2 prompt archive is an authority source.",
+  "purpose": "The V2-only visual binding for location and evidence assets. It is derived from Canon and current production planning; no legacy prompt material is an authority source.",
   "locations": {
     "LOC-001": {
       "canonical_sources": ["canon/city/03-he-ming-lane-and-shen-shop.md"],

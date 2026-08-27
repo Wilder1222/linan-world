@@ -14,7 +14,7 @@ const crypto = require('crypto');
 
 const ROOT = path.resolve(__dirname, '..');
 const OUT = path.join(ROOT, 'production', 'midjourney', 'v2');
-const GENERATED_ON = '2026-08-27';
+const GENERATED_ON = '2026-08-28';
 
 function read(relativePath) {
   return fs.readFileSync(path.join(ROOT, relativePath), 'utf8');
@@ -75,39 +75,33 @@ function parseTomlFrontMatter(markdown) {
   return values;
 }
 
-const BASE_NEGATIVE = [
-  'fantasy',
-  'xianxia',
-  'magic aura',
-  'floating particles',
-  'halo',
-  'forehead pendant',
-  'crown',
-  'exposed midriff',
-  'exposed shoulders',
-  'belly dancer costume',
-  'chainmail bodice',
-  'modern objects',
-  'neon',
-  'generic influencer face',
-  'plastic skin',
-  'porcelain skin',
-  'beauty filter smoothing',
-  'readable text',
-  'watermark',
-  'signature',
-  'logo'
-];
+// Midjourney's --no terms are each interpreted independently.  They must never
+// be a generic negative dictionary and must never contain anatomy, beauty, or
+// wardrobe nouns.  Most production prompts deliberately have no --no tail.
+const ALLOWED_NO_ATOMS = new Set(['text', 'watermark', 'logo']);
 
-const GLOBAL_SCREEN_GRAMMAR = 'VIS-LW-V2 cinematic New Song historical-romance screen grammar: premium live-action Chinese period drama, a softly readable near foreground, an active middle ground and receding architecture, people or light along a real route; physically motivated light, restrained optical diffusion and gentle filmic highlight roll-off only around actual bright sources, controlled cinematic microcontrast, visible material response and no fantasy atmosphere.';
+function normalizeNoAtoms(items, promptId) {
+  const atoms = unique(items || []).map((item) => compact(item).toLowerCase());
+  for (const atom of atoms) {
+    if (!/^[a-z][a-z0-9-]*$/.test(atom)) {
+      throw new Error(`${promptId} uses a non-atomic --no term: ${atom}`);
+    }
+    if (!ALLOWED_NO_ATOMS.has(atom)) {
+      throw new Error(`${promptId} uses a non-approved --no term: ${atom}`);
+    }
+  }
+  return atoms;
+}
+
+const GLOBAL_SCREEN_GRAMMAR = 'VIS-LW-V2 cinematic New Song historical-romance screen grammar: a lavish premium live-action Chinese period drama, a gently readable foreground, an active middle ground and receding inhabited architecture, with people, goods or light following a real route. Practical sources shape the light; silk, lacquered timber, paper, ceramic, water and skin respond distinctly; restrained optical diffusion and smooth filmic highlight roll-off appear around actual bright sources.';
 
 const STYLE = {
-  V2_DAY: `${GLOBAL_SCREEN_GRAMMAR} Daylight urban-splendor route in a prosperous yet lived-in Southern Song Linan water-city: layered indigo, tea brown, celadon, aged ivory and restrained pomegranate accents; dense trade, labor and household use; physically distinct silk, woven cloth, paper, timber, ceramic, dull brass and water. Use either humid clear daylight or source-appropriate low warm afternoon sunlight; sunlight may pass through thin silk, cloth, paper or lattice to reveal fibers and working hands, while faces remain naturally exposed and never blow out to white. No tourist-town emptiness or studio flatness.`,
-  V2_NIGHT_WET: `${GLOBAL_SCREEN_GRAMMAR} Night, blue-hour and wet-weather route in a dense Southern Song Linan street, worksite or covered corridor: warm paper lanterns, oil lamps, candles or stove light create local amber pools while restrained blue-grey exterior ambience balances the distance. Use dark cinnabar timber, ivory curtain or practical eave framing only where the documented location supports it; wet stone, oilcloth, lacquered wood, rope and water show restrained real reflections. Occupied paths and practical work continue; no neon, no smoky fantasy haze or unmotivated glow.`,
-  V2_STAGE_FESTIVAL: `${GLOBAL_SCREEN_GRAMMAR} Performance or festival route, historically grounded Southern Song urban splendor: additional woven silk layers, hand-finished embroidery, pomegranate, ink-blue and aged-ivory accents, one coherent ornamental focus and warm practical lantern or candle light. Fine gauze, curtains and a near foreground may frame genuine backstage labor, performance circulation or public-market activity. The luxury comes from dye, weave, maintenance, movement and motivated reflection, never palace excess or fantasy regalia.`
+  V2_DAY: `${GLOBAL_SCREEN_GRAMMAR} Daylight urban-splendor route in a prosperous Southern Song Linan water-city: layered indigo, tea brown, celadon, aged ivory and restrained pomegranate accents; dense trade, labor and household use; physically distinct silk, woven cloth, paper, timber, ceramic, dull brass and water. Humid clear daylight or low warm afternoon sunlight passes through thin silk, cloth, paper or lattice, revealing fibers and working hands while faces retain natural exposure, sculpted volume and a clear catchlight.`,
+  V2_NIGHT_WET: `${GLOBAL_SCREEN_GRAMMAR} Night, blue-hour and wet-weather route in a dense Southern Song Linan street, worksite or covered corridor: warm paper lanterns, oil lamps, candles or stove light create local amber pools while restrained blue-grey exterior ambience shapes the distance. Dark cinnabar timber, ivory curtains and practical eave framing establish depth where the documented location supports them; wet stone, oilcloth, lacquered wood, rope and water carry small-scale real reflections.`,
+  V2_STAGE_FESTIVAL: `${GLOBAL_SCREEN_GRAMMAR} Performance or festival route, historically grounded Southern Song urban splendor: coordinated woven silk layers, hand-finished embroidery, pomegranate, ink-blue and aged-ivory accents, refined hair ornaments and warm practical lantern or candle light. Fine gauze, curtains and a near foreground frame genuine backstage labor, performance circulation or public-market activity. Luxury is visible in dye depth, weave, maintenance, movement and motivated reflection.`
 };
 
-const TECHNICAL_STYLE = 'VIS-LW-V2 technical continuity lane, using the same premium New Song historical-drama color and material response without theatrical staging: soft neutral frontal daylight, a clean warm-ivory or plain plaster background, level camera, visible true skin texture and individually readable hair and textile fibers. Preserve facial geometry and garment construction; do not use atmospheric haze, decorative bokeh, lens bloom or glamour poses.';
+const TECHNICAL_STYLE = 'VIS-LW-V2 cast-continuity portrait lane: a premium New Song historical-romance official character still, with a clean warm-ivory plaster background, soft large-window daylight, gentle reflected fill, calm direct presence, true facial geometry, individually readable hair strands and fine woven textile fibers. The face has luminous dimensional exposure, controlled cheek and lip highlights, visible natural surface detail and refined historical-drama polish. The collar, hairstyle and one personal ornament remain legible as a complete, elegant period look.';
 
 const ROUTE_KEY = {
   Day: 'V2-Day',
@@ -119,6 +113,7 @@ const V2_AUTHORITY_SPECS = [
   ['production/style/v2-urban-splendor-song-style-package.md', 'v2-style-authority'],
   ['production/style/v2-visual-qa.md', 'v2-qa'],
   ['production/style/v2-reference-policy.md', 'v2-reference-policy'],
+  ['production/style/v2-world-reference-atoms.md', 'v2-reference-atoms'],
   ['production/style/v2-world-asset-visual-registry.json', 'v2-world-asset-visual-registry']
 ];
 
@@ -143,17 +138,19 @@ function addRecord(input) {
   const route = input.route || 'Day';
   const params = {
     model: '8.2',
-    raw: true,
+    raw: input.raw ?? Boolean(input.technical),
     ar: input.ar || '3:4',
     stylize: input.stylize ?? 55,
     chaos: input.chaos ?? 3
   };
   const positive = compact(input.positive);
-  const negative = unique([...(input.negative || []), ...BASE_NEGATIVE]);
-  const mjText = `${positive} --v 8.2 --raw --ar ${params.ar} --s ${params.stylize} --c ${params.chaos} --no ${negative.join(', ')}`;
+  const negative = normalizeNoAtoms(input.negative, input.prompt_id);
+  const rawParameter = params.raw ? ' --raw' : '';
+  const noParameter = negative.length ? ` --no ${negative.join(', ')}` : '';
+  const mjText = `${positive} --v 8.2${rawParameter} --ar ${params.ar} --s ${params.stylize} --c ${params.chaos}${noParameter}`;
   if (/[<>]/.test(mjText)) throw new Error(`${input.prompt_id} contains an unresolved placeholder`);
-  if (/(?:--oref|--ow|--cref|--cw|--q\b|--draft|--hd|--sv|::)/i.test(mjText)) {
-    throw new Error(`${input.prompt_id} contains a forbidden Midjourney 8.2 parameter`);
+  if (/(?:--oref|--ow|--cref|--cw|--q\b|--quality\b|--draft|--sv\b|::)/i.test(mjText)) {
+    throw new Error(`${input.prompt_id} contains a project-disallowed parameter`);
   }
   catalog.push({
     prompt_id: input.prompt_id,
@@ -195,12 +192,14 @@ function addRecord(input) {
   });
 }
 
-function inferPresentation(name, occupation) {
+function inferPresentation(name, occupation, profileMarkdown = '') {
   const feminine = /娘|婆|姐|姨|女|绣|巧|绮|月|素|慧|蔓|小青|阿沅|九娘|十四/.test(name + occupation);
   const masculine = /伯|叔|公|郎|生|匠|官|师|长庚|北鸿|成武|开元|怀川|行舟|砚之|惟敬|见山|兰度/.test(name + occupation);
   if (feminine && !masculine) return 'woman';
   if (masculine && !feminine) return 'man';
-  return 'person';
+  if ((profileMarkdown.match(/她/g) || []).length > (profileMarkdown.match(/他/g) || []).length) return 'woman';
+  if ((profileMarkdown.match(/他/g) || []).length > (profileMarkdown.match(/她/g) || []).length) return 'man';
+  return 'adult';
 }
 
 function occupationEnglish(occupation) {
@@ -228,25 +227,114 @@ function extractIdentityAnchor(profileMarkdown) {
 }
 
 const CENTRAL_IDENTITY = {
-  'CHR-L1-01': 'a beautiful but believable 20-year-old Chinese woman, Shen Heng, a fragrance artisan and goods verifier. She has a quiet oval-heart face with a softly lifted outer eye line, warm brown almond eyes, natural straight brows, a refined natural nose and soft peach-coral lips; the right thumb and index finger carry subtle dry fragrance-powder traces. Her attraction is calm, observant and intelligent rather than doll-like.',
-  'CHR-L1-02': 'a strikingly beautiful 25-year-old Chinese woman, Liu Shisi also known as Liu Wangshu, a Chun Tai performance-house singer and songwriter. She has a graceful slender oval face with a softly tapered jaw, long luminous almond eyes that are horizontally extended rather than enlarged, warm dark-brown irises, natural brows, a refined straight nose and beautiful muted rose lips. The right corner of her mouth rests a fraction higher than the left before she smiles. Her expressive gaze reads a room quickly: warm, intelligent, socially perceptive and lightly guarded; her beauty is exceptional yet distinctly human, never generic or doll-like.',
+  'CHR-L1-01': 'a beautiful and believable 20-year-old Chinese woman, Shen Heng, a fragrance artisan and goods verifier. She has a quiet oval-heart face with a softly lifted outer eye line, warm brown almond eyes, natural straight brows, a refined natural nose and soft peach-coral lips; the right thumb and index finger carry subtle dry fragrance-powder traces. Her attraction is calm, observant, intelligent and individually human.',
+  'CHR-L1-02': 'a strikingly beautiful 25-year-old Chinese woman, Liu Shisi also known as Liu Wangshu, a Chun Tai performance-house singer and songwriter. She has a graceful slender oval face with a softly tapered jaw, long luminous almond eyes that are horizontally extended and elegantly proportioned, warm dark-brown irises, natural brows, a refined straight nose and beautiful muted rose lips. The right corner of her mouth rests a fraction higher than the left before she smiles. Her expressive gaze reads a room quickly: warm, intelligent, socially perceptive and lightly guarded; her beauty is exceptional, distinctly human and immediately recognizable.',
   'CHR-L1-03': 'a handsome 24-year-old Chinese man, Zhou Yanzhi, a map artist and spatial recorder. He is lean with slightly narrow shoulders, thoughtful eyes, fine ink marks on the right thumb and middle finger, and a subtle forward-leaning work posture; a rolled paper tube and measuring-cord habit are readable without becoming costume props.',
   'CHR-L1-04': 'a beautiful 31-year-old Chinese woman, Pei Jiuniang, a river-route worker and boat owner. Her shoulders and forearms show practical strength from poles and ropes, her skin holds a believable outdoor tonal difference, a healed mark rests at the left tiger-mouth, and her stable stance retains the balance of a moving deck.',
-  'CHR-L1-05': 'a handsome 29-year-old Chinese man, Gu Xingzhou, a tavern keeper familiar with water-and-road escort work. He has an efficient, grounded silhouette, a faint old scar through the right brow, old rope marks at the backs of the hands, and an alert but restrained gaze that naturally checks exits before settling.',
+  'CHR-L1-05': 'a handsome 29-year-old Chinese man, Gu Xingzhou, a tavern keeper familiar with water-and-road escort work. He has an efficient, grounded silhouette, a faint old scar through the right brow, old rope marks at the backs of the hands, and an alert, restrained gaze that naturally checks exits before settling.',
   'CHR-L2-01': 'a graceful 45-year-old Chinese woman, Lu Qinghe, the practical keeper of a fragrance shop. Her warm eyes are resilient rather than fragile, a few early silver strands appear at the temples, and her hands are exceptionally steady from weighing goods and folding parcels.',
   'CHR-L2-02': 'a lively 18-year-old Chinese woman, Lin Ayuan, a street-life observer who helps at a wonton shop. She has a rounded, energetic face, quick scanning eyes, loose practical sleeves worn unevenly from work, and hands accustomed to bowls, coins and damp oil paper.',
   'CHR-L2-03': 'a distinct 18-year-old Chinese medical apprentice, Yu Qinghe, with sharp attentive brows and eyes, a few damp forelock strands from herbal steam, and subtle herbal stains at the hands. The expression becomes slow and precise when listening or asking a clinical question.',
   'CHR-L2-04': 'a weathered 38-year-old Chinese city clerk, Gao Wen, with realistic under-eye fatigue, a precisely aligned belt and duty token, visibly worn boots, and a calm practical manner that creates space between arguing people.',
   'CHR-L3-01': 'a dignified 48-year-old Chinese city administrator, Song Weijing, always impeccably ordered in clothing and posture. His face is controlled rather than villainous; he organizes papers into a fixed sequence and his gaze asks for time, number and source before judgment.',
   'CHR-L3-02': 'a composed 53-year-old Chinese merchant-system figure, Li Jianshan, with a cultured but lived-in face, restrained smile lines and a hospitable manner that pours tea before negotiation. His refinement is quiet and commercial, never courtly excess.',
-  'CHR-L3-03': 'a compelling 34-year-old Chinese man, Helan Du, carrying northern weather in his features and a steady direct gaze. A worn leather wrist guard, deliberate posture and exact attention to listeners distinguish him without turning him into a martial fantasy hero.'
+  'CHR-L3-03': 'a compelling 34-year-old Chinese man, Helan Du, carrying northern weather in his features and a steady direct gaze. A worn leather wrist guard, deliberate posture and exact attention to listeners distinguish him as a grounded traveler-merchant.'
 };
 
+const CENTRAL_LOOKS = {
+  'CHR-L1-01': {
+    route: 'Day',
+    identity: 'a tailored milk-ivory crossed-collar inner robe, a pale mist-blue long beizi-like outer layer, a muted sage sash, fine silver-blue jacquard at the collar, a celadon hairpin and a small fragrance pouch; fresh sheer peach-rose historical makeup and naturally polished hair',
+    hero: 'in a sun-warmed fragrance-shop threshold, beside pale ceramic jars and a lattice-filtered window, her mist-blue and aged-ivory silk layers hold fine floral jacquard and narrow silver thread; a soft reflected glow touches the hairpin, tea-toned wood and her hands'
+  },
+  'CHR-L1-02': {
+    route: 'StageFestival',
+    identity: 'a refined old-rose, soft celadon and aged-ivory performer look: layered crossed-collar silk, a translucent beizi-like outer layer with floral jacquard, narrow low-saturation gilt edging, a sculpted urban-performer updo with a gilt filigree hairpin, pearl sprigs and delicate tassel earrings',
+    hero: 'at the spring performance-house balcony before an evening set, in old-rose, celadon and ivory layers with a flowing full skirt, floral woven silk, narrow antique-gold thread and a coordinated hairpin, pearl and tassel system; warm lanterns catch the material, while working balconies, curtains and audience circulation recede into the city below'
+  },
+  'CHR-L1-03': {
+    route: 'Day',
+    identity: 'a composed ink-blue, stone-grey and aged-ivory layered scholar-artisan look, refined woven trim at the crossed collar, a well-kept topknot with a dark wood pin, a paper tube and measuring cord placed as quiet work details',
+    hero: 'at an upper-floor map workshop overlooking a working canal, in elegantly tailored ink-blue and ivory layers, with paper, measurement cord, a carved railing and warm late-afternoon city depth behind him'
+  },
+  'CHR-L1-04': {
+    route: 'Day',
+    identity: 'a river-ready but elegant deep-indigo, river-teal and aged-ivory layered silhouette, a finely woven belt, narrow brass hardware, full sleeves shaped for rope work, restrained jade-green accents and a polished practical half-up coiffure',
+    hero: 'at a busy river landing in tailored indigo and teal silk-wool layers, beside ropes, boats and wet lacquered timber, with late sunlight reflecting from water into her strong face and complete working silhouette'
+  },
+  'CHR-L1-05': {
+    route: 'NightWet',
+    identity: 'a sharply tailored tea-brown, deep-navy and ink layered tavern-host silhouette, fine woven edging at the collar, a dark wood hair ornament and a restrained brass clasp; the mature period-drama look remains elegant and mobile',
+    hero: 'at the edge of a lantern-lit riverside tavern, deep tea and navy textiles, warm oil-lamp pools and wet wood reflections define him while occupied balconies and a water route fall away behind'
+  },
+  'CHR-L2-01': {
+    route: 'Day',
+    identity: 'a dignified aged-ivory, tea-brown and soft-celadon shopkeeper ensemble with careful layered silk, visible woven texture, a small jade-and-wood hairpin and a neat fragrance-goods pouch',
+    hero: 'inside a richly maintained fragrance shop, among pale ceramic vessels, paper packets and a sunlit lattice, her soft-celadon and ivory fabrics show quiet fine tailoring and an established urban grace'
+  },
+  'CHR-L2-02': {
+    route: 'Day',
+    identity: 'a youthful peach, soft-celadon and ivory market look with a complete crossed-collar silhouette, lively woven trim, a small flower hairpin and a neatly bound half-up hairstyle suitable for quick work',
+    hero: 'at a bustling wonton-stall lane in warm afternoon light, peach and celadon layers, a small pearl earring and a basket of bowls make her quick, bright urban presence readable against an active market depth'
+  },
+  'CHR-L2-03': {
+    route: 'Day',
+    identity: 'a clean sage, pale blue and aged-ivory medical-apprentice ensemble with fine ramie and silk layering, a narrow embroidered edge, a secure half-up hairstyle and one small polished jade hairpin',
+    hero: 'at a bright herbal worktable under translucent cloth and window light, sage and ivory layers, herbal steam and sorted medicine packets give her precise concentration a softly luminous, high-end period-drama setting'
+  },
+  'CHR-L2-04': {
+    route: 'Day',
+    identity: 'a carefully ordered ink-blue, blue-grey and tea-brown city-clerk ensemble, complete crossed collar, precise woven belt, subtly patterned sleeve edge and a tidy dark wood hairpiece',
+    hero: 'on a busy city-office passage in measured blue-grey layers, with ledgers, bamboo slips, a light-filled doorway and active civic traffic giving his practical authority an elegant urban context'
+  },
+  'CHR-L3-01': {
+    route: 'NightWet',
+    identity: 'a dignified ink, muted blue-grey and deep-tea administrator ensemble, precise layered robe structure, restrained patterned silk, a fine dark belt fitting and a composed topknot with an aged-metal pin',
+    hero: 'inside a lantern-lit civic corridor, his quietly luxurious ink and blue-grey fabrics read against dark timber, ordered papers and receding pools of practical amber light'
+  },
+  'CHR-L3-02': {
+    route: 'NightWet',
+    identity: 'a prosperous but restrained tea-brown, bronze, deep-green and aged-ivory merchant ensemble with fine woven silk, a narrow metallic-thread edge, polished jade detail and a formal dark hairpiece',
+    hero: 'at a refined waterside tea negotiation, deep-green and tea-brown textiles, lacquered tables, porcelain and warm lantern reflections establish wealth through material and social ease rather than court excess'
+  },
+  'CHR-L3-03': {
+    route: 'Day',
+    identity: 'a compelling deep-wine, ink and river-teal traveler-merchant silhouette, layered high-collared woven cloth, a weathered leather wrist guard, a small bronze clasp and carefully maintained hair',
+    hero: 'on a sunlit bridge above a working canal, deep-wine and teal layers, travel textiles and a light breeze create a full, elegant figure against boats, market roofs and humid city distance'
+  }
+};
+
+function roleWardrobe(occupation) {
+  if (/歌伎|曲作者/.test(occupation)) return 'layered old-rose, celadon and aged-ivory crossed-collar silk, floral jacquard, a translucent outer layer, narrow low-saturation gilt edging and a coordinated pearl-and-tassel ornament system';
+  if (/香|调香/.test(occupation)) return 'tailored aged-ivory and mist-blue crossed-collar silk, fine woven floral texture, a restrained celadon hairpin and a small fragrance-work pouch';
+  if (/水路|船主|镖师|船/.test(occupation)) return 'elegant river-indigo and teal working layers, complete full sleeves, a finely woven sash and restrained brass or jade fittings';
+  if (/官|城务/.test(occupation)) return 'precisely tailored ink-blue, stone-grey and aged-ivory official-city layers with a clear woven collar edge and a polished restraint in hair and belt';
+  if (/酒肆|商|货|仓/.test(occupation)) return 'well-tailored tea-brown, deep-green and aged-ivory layered silk with a narrow woven or metallic-thread finish and one measured jade or brass personal detail';
+  if (/医|药/.test(occupation)) return 'clean sage, pale-blue and aged-ivory layered ramie and silk, a narrow embroidered edge, a secured hairstyle and one small refined personal ornament';
+  if (/书坊|画师|测绘|抄图|印/.test(occupation)) return 'ink-blue, stone-grey and ivory crossed-collar layers, fine woven textile texture, a dark wood hair ornament and quiet paper-work detail';
+  if (/浆洗|绣|篾|厨|馄饨|食/.test(occupation)) return 'high-quality but usable ivory, soft-celadon and tea-brown layered workwear with complete sleeves, visible woven fibers, a tidy hairstyle and one small profession-linked ornament';
+  return 'a carefully tailored crossed-collar Southern Song Linan outfit in aged ivory, soft celadon and tea-brown, layered woven silk and ramie, a fine collar edge, a complete sleeve line and one restrained personal ornament';
+}
+
+function heroRoute(characterId) {
+  return CENTRAL_LOOKS[characterId]?.route || 'Day';
+}
+
 function characterPrompt(character, facts, profileMarkdown) {
-  const core = CENTRAL_IDENTITY[character.id] || `a distinct, exceptionally attractive yet believable ${facts.age_y0}-year-old Chinese ${inferPresentation(facts.name, facts.occupation)}, ${occupationEnglish(facts.occupation)}. The face has individual human asymmetry, real eyelid anatomy, natural lip texture and a recognizable personal presence rather than a generic beauty template.`;
-  const anchor = extractIdentityAnchor(profileMarkdown);
-  const positive = `Front-facing official identity portrait of ${core} ${anchor ? `Canon identity anchors: ${anchor}.` : ''} Centered head-and-upper-torso framing, direct eye-level lens, level shoulders, clean historical Southern Song Linan working attire visible at the collar and shoulders, restrained cloth layering and small occupation-appropriate detail. Beautiful facial harmony with real translucent skin: fine pores around the nose and inner cheeks, delicate microtexture, faint peach fuzz, subtle tonal variation, realistic under-eye structure and natural lip lines. Very light breathable historical makeup where appropriate, no heavy contour. ${routeText('Day', true)}`;
-  return positive;
+  const central = Boolean(CENTRAL_IDENTITY[character.id]);
+  const core = CENTRAL_IDENTITY[character.id] || `an exceptionally attractive and believable ${facts.age_y0}-year-old Chinese ${inferPresentation(facts.name, facts.occupation, profileMarkdown)}, ${facts.name}, a ${occupationEnglish(facts.occupation)}. This is a casting exploration awaiting a human-authored facial anchor; retain natural eyelid anatomy, individual facial asymmetry, natural lip texture and a specific personal presence.`;
+  const wardrobe = CENTRAL_LOOKS[character.id]?.identity || roleWardrobe(facts.occupation);
+  const lane = central ? 'Front-facing official identity-lock portrait' : 'Front-facing character visual-anchor exploration';
+  return `${lane} of ${core} Centered head-and-upper-torso framing, direct eye-level lens, level shoulders, complete Southern Song Linan collar and shoulder silhouette: ${wardrobe}. Beautiful facial harmony with satin-translucent healthy skin, fine pores around the nose and inner cheeks, delicate microtexture, faint peach fuzz, subtle tonal variation, realistic under-eye structure, natural lip lines and controlled moisture highlights. Refined light historical makeup where appropriate: clean breathable base, softly shaped brows, peach-rose eye tone, separated lashes and muted rose lips. ${routeText('Day', true)}`;
+}
+
+function characterHeroPrompt(character, facts, profileMarkdown) {
+  const core = CENTRAL_IDENTITY[character.id] || `the distinct ${facts.age_y0}-year-old Chinese ${inferPresentation(facts.name, facts.occupation, profileMarkdown)}, ${facts.name}, a ${occupationEnglish(facts.occupation)}`;
+  const look = CENTRAL_LOOKS[character.id];
+  if (!look) throw new Error(`No central hero look for ${character.id}`);
+  const cleanCore = core.replace(/\.+$/, '');
+  const heroLook = `${look.hero.charAt(0).toUpperCase()}${look.hero.slice(1)}`;
+  return `Official New Song historical-romance hero key art of ${cleanCore}. Three-quarter environmental portrait, waist to mid-thigh framing, poised natural gesture and a high-end period-drama leading-cast presence. ${heroLook}. The appearance keeps a refined, breathable historical makeup and grooming finish, individually readable hair strands, luminous dimensional skin with subtle close-range texture, and a complete elegant silhouette. ${routeText(look.route)}`;
 }
 
 const roster = readJson('qa/character-roster.json');
@@ -254,12 +342,13 @@ const profileById = new Map();
 for (const character of roster.named_characters) {
   const profileMarkdown = read(character.profile_path);
   const facts = parseTomlFrontMatter(profileMarkdown);
+  const central = Boolean(CENTRAL_IDENTITY[character.id]);
   profileById.set(character.id, { character, facts, profileMarkdown });
   addRecord({
     prompt_id: `MJ-V2-CHR-${character.id}-ID-001`,
     target_key: `CHARACTER:${character.id}:IDENTITY-001`,
     family: 'character',
-    asset_lane: 'identity-anchor',
+    asset_lane: central ? 'identity-anchor' : 'character-visual-anchor-exploration',
     target: { stable_id: character.id, name: character.name, asset_id: 'ID-001' },
     authority_refs: [sourceRef(character.profile_path, 'character-foundation-authority'), sourceRef('production/style/v2-urban-splendor-song-style-package.md', 'v2-style-authority')],
     facts_snapshot: { name: facts.name, aliases: facts.aliases, age_y0: facts.age_y0, occupation: facts.occupation, residence: facts.residence, identity_anchor_cn: extractIdentityAnchor(profileMarkdown) },
@@ -267,17 +356,47 @@ for (const character of roster.named_characters) {
     technical: true,
     glamour_level: character.id === 'CHR-L1-02' ? 3 : 2,
     ar: '3:4',
-    stylize: 45,
+    stylize: 100,
     chaos: 2,
     positive: characterPrompt(character, facts, profileMarkdown),
-    execution_status: 'READY_FOR_V2_IDENTITY_SELECTION',
-    acceptance_checks: [
+    execution_status: central ? 'READY_FOR_V2_IDENTITY_SELECTION' : 'BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR',
+    acceptance_checks: central ? [
       'Age, occupation and stable visual anchors exactly match the character profile.',
-      'Face remains individually recognizable, beautiful and natural with no generic influencer geometry.',
+      'Face remains individually recognizable, beautiful and natural with a high-end historical-drama cast presence.',
       'The technical continuity lane is clear, front-facing and free of atmospheric styling.',
       'Use as the candidate identity record only after human selection; do not treat a generated face as Canon until selected.'
+    ] : [
+      'Confirms the stated age, occupation, wardrobe family and presentation as a casting exploration only.',
+      'Must receive a human-authored face, body and behavior anchor set before a selected image can become a named identity asset.',
+      'Cannot be used as Canon identity, an Image Prompt or a final delivery before the character visual-anchor brief is approved.'
     ]
   });
+  if (/^CHR-L[123]-/.test(character.id)) {
+    const route = heroRoute(character.id);
+    addRecord({
+      prompt_id: `MJ-V2-CHR-${character.id}-HERO-001`,
+      target_key: `CHARACTER:${character.id}:HERO-001`,
+      family: 'character',
+      asset_lane: 'identity-hero',
+      target: { stable_id: character.id, name: character.name, asset_id: 'HERO-001' },
+      authority_refs: [sourceRef(character.profile_path, 'character-foundation-authority')],
+      facts_snapshot: { name: facts.name, aliases: facts.aliases, age_y0: facts.age_y0, occupation: facts.occupation, residence: facts.residence, identity_anchor_cn: extractIdentityAnchor(profileMarkdown) },
+      route,
+      technical: false,
+      raw: true,
+      glamour_level: character.id === 'CHR-L1-02' ? 5 : character.tier === 'L1' ? 4 : 3,
+      ar: '3:4',
+      stylize: character.tier === 'L1' ? 175 : 155,
+      chaos: 3,
+      positive: characterHeroPrompt(character, facts, profileMarkdown),
+      execution_status: 'READY_FOR_V2_HERO_SELECTION',
+      acceptance_checks: [
+        'Matches the locked age, occupation and facial identity anchors for the named central character.',
+        'Reads as a premium New Song historical-romance key art with a complete, character-specific wardrobe system.',
+        'Uses a real light source and a legible Linan environment; selected source remains subject to identity and rights review before continuity use.'
+      ]
+    });
+  }
 }
 
 const LOCATIONS = [
@@ -389,7 +508,7 @@ const LOCATION_ROUTES = {
 
 for (const location of LOCATIONS) {
   const design = locationDesign(location.id);
-  const masterBase = `A human-height medium-wide environmental portrait of ${location.name} in Southern Song Linan. ${design.master_description} Its architecture, work surfaces, entrances, circulation paths, local storage and occupation-related tools are spatially clear. No named character is foregrounded.`;
+  const masterBase = `A human-height medium-wide environmental portrait of ${location.name} in Southern Song Linan. ${design.master_description} Its architecture, work surfaces, entrances, circulation paths, local storage and occupation-related tools are spatially clear. Anonymous residents and workers carry the everyday activity.`;
   const masterPositive = `${masterBase} ${routeText(LOCATION_ROUTES[location.id][0])}`;
   addRecord({
     prompt_id: `MJ-V2-${location.id}-MASTER`,
@@ -402,7 +521,7 @@ for (const location of LOCATIONS) {
     route: LOCATION_ROUTES[location.id][0],
     glamour_level: location.id === 'LOC-006' ? 4 : 2,
     ar: '16:9',
-    stylize: 60,
+    stylize: LOCATION_ROUTES[location.id][0] === 'StageFestival' ? 210 : 155,
     chaos: 3,
     positive: masterPositive,
     execution_status: 'READY_FOR_V2_LOCATION_CALIBRATION'
@@ -421,7 +540,7 @@ for (const location of LOCATIONS) {
       route,
       glamour_level: route === 'StageFestival' ? 4 : 2,
       ar: '16:9',
-      stylize: route === 'StageFestival' ? 70 : 60,
+      stylize: route === 'StageFestival' ? 220 : 155,
       chaos: 3,
       positive: `${masterBase} Canon seasonal state: ${LOCATION_GROUP_STATES[location.group][stateIndex]} Keep the established architecture, work surfaces, entry and exit logic, and material hierarchy unchanged. ${routeText(route)}`,
       execution_status: 'READY_FOR_V2_LOCATION_CALIBRATION'
@@ -444,11 +563,12 @@ for (const [code, route, states] of PROP_SPECS) {
       authority_refs: [sourceRef('canon/00-id-and-terms-registry.md', 'canon-object-registry'), ...design.canonical_sources.map((relativePath) => sourceRef(relativePath, 'prop-binding-authority'))],
       facts_snapshot: { prop_code: code, object_state: state, binding_status: design.binding_status },
       route,
+      raw: true,
       glamour_level: 1,
       ar: '3:2',
-      stylize: 42,
+      stylize: 95,
       chaos: 2,
-      positive: `A single historically grounded Southern Song Linan evidence object or tightly bounded evidence grouping on a clean work surface, viewed at a natural product-study angle. ${design.description} State: ${stateText} ${routeText(route)} Documentary material-evidence framing, no person or hand, all paper marks abstract and unreadable.`,
+      positive: `A single historically grounded Southern Song Linan evidence object or tightly bounded evidence grouping on a clean work surface, viewed at a natural product-study angle. ${design.description} State: ${stateText} ${routeText(route)} Documentary material-evidence framing with object-only composition and blank abstract paper markings.`,
       execution_status: 'READY_FOR_V2_PROP_CALIBRATION',
       acceptance_checks: [
         'Shows only the declared evidence or kit and the declared state.',
@@ -490,10 +610,10 @@ for (const relation of relationshipSlots.relationships) {
       authority_refs: [sourceRef('qa/relationship-slots.json', 'relationship-registry'), sourceRef('qa/relationship-evidence.json', 'relationship-evidence')],
       facts_snapshot: { relation_id: relation.id, kind: relation.kind, snapshot: snapshot.snapshot, episode_window: snapshot.episode_window, space: snapshot.space, object: snapshot.object, observable_action: snapshot.observable_action, continuity_delta: snapshot.continuity_delta },
       route,
-      glamour_level: route === 'StageFestival' ? 3 : 2,
+      glamour_level: route === 'StageFestival' ? 4 : 3,
       ar: '16:9',
-      stylize: 58,
-      chaos: 2,
+      stylize: route === 'StageFestival' ? 220 : 175,
+      chaos: 3,
       positive: `A bounded relationship continuity study for ${people}, set at ${snapshot.space}. The visual action is: ${snapshot.observable_action} The shared object is ${snapshot.object}. The staging must preserve this continuity condition: ${snapshot.continuity_delta} ${groupInstruction} This is a state study, not an unapproved final episode shot; do not add dialogue, unrecorded knowledge or a new dramatic event. ${routeText(route)}`,
       execution_status: 'BLOCKED_UNTIL_IDENTITY_SELECTION_AND_EPISODE_GATE',
       depends_on: memberIds.map((id) => `CHARACTER:${id}:IDENTITY-001`),
@@ -521,8 +641,8 @@ for (const slot of unitSlots.slots) {
     technical: true,
     glamour_level: 2,
     ar: '3:4',
-    stylize: 42,
-    chaos: 8,
+    stylize: 100,
+    chaos: 5,
     positive: `An uncast, individual Chinese resident of Southern Song Linan designed only as an exploration for the ${slot.category} unit slot. Show one plausible ${profession} work context and a practical occupation gesture, with a distinct but not-yet-Canon face. Front-facing three-quarter identity-study composition, historically grounded clothing, real skin and material texture. ${routeText('Day', true)}`,
     execution_status: 'BLOCKED_UNTIL_CASTING_AND_EPISODE_GATE',
     depends_on: [`${slot.id}: cast age, gender presentation, named identity, exact location and action are not yet bound`],
@@ -552,10 +672,10 @@ for (const archetype of backgroundUsage.archetypes) {
     authority_refs: [sourceRef('qa/background-usage.json', 'background-usage-registry')],
     facts_snapshot: { ...archetype, normalized_location_id: locationId },
     route,
-    glamour_level: 1,
+    glamour_level: 2,
     ar: '2:3',
-    stylize: 45,
-    chaos: 7,
+    stylize: 125,
+    chaos: 5,
     positive: `One individually readable but uncast ${archetype.age_band} Chinese ${archetype.occupation_family} background resident in a representative ${locationId} work context, active at ${archetype.active_time}. Their class context is ${archetype.class_band}; usable materials are ${archetype.materials.join(', ')}. Show one specific working posture and space for a later scene composition, never a posed crowd or a named character. ${routeText(route)}`,
     execution_status: 'BLOCKED_UNTIL_MICROCHAPTER_BINDING',
     depends_on: [`${archetype.id}: exact microchapter, final location, work state and crowd composition remain RESERVED`],
@@ -570,19 +690,19 @@ for (const archetype of backgroundUsage.archetypes) {
 const shen = profileById.get('CHR-L1-01');
 const shenManifest = readJson('production/assets/characters/shen-heng/asset-manifest.json');
 const seasonLedger = readJson('story/season/season-causal-ledger.json');
-const shenBase = 'Shen Heng, a beautiful but believable 20-year-old adult Chinese woman and fragrance artisan. Preserve her quiet oval-heart face, slightly lifted warm-brown almond eyes, natural straight brows, refined natural nose, soft peach-coral lips, soft dark brown-black hair and the subtle dry fragrance-powder traces on her right thumb and index finger. Her skin is naturally luminous with fine pores, delicate microtexture, faint peach fuzz, subtle tonal variation and real lip lines; she has no plastic smoothing or childlike proportions.';
+const shenBase = 'Shen Heng, a beautiful, believable 20-year-old adult Chinese woman and fragrance artisan. Preserve her quiet oval-heart face, slightly lifted warm-brown almond eyes, natural straight brows, refined natural nose, soft peach-coral lips, soft dark brown-black hair and the subtle dry fragrance-powder traces on her right thumb and index finger. Her skin is satin-translucent and healthy with fine pores, delicate microtexture, faint peach fuzz, subtle tonal variation, real lip lines and controlled moisture highlights; her adult facial geometry remains clear and naturally polished.';
 
 const SHEN_COSTUMES = {
-  C01: 'daily attire: milk-white layered robe, pale mist-blue embroidered collar, muted sage waist sash, practical clean city layers; glamour level 2.',
-  C02: 'work attire: narrow sleeves, protective apron layer and tool pouch, the right hand free for fragrance work; glamour level 1.',
-  C03: 'social visit attire: slightly finer woven pattern, small gift case and restrained jade accent; glamour level 3.',
-  C04: 'formal civic attire: dignified layered Song silhouette, restrained silver-blue embroidery and no phoenix crown; glamour level 4.',
-  C05: 'night attire: deep blue-gray outer layer with low reflectivity and practical movement; not an assassin costume; glamour level 2.',
-  C06: 'rain attire: blue-gray oilcloth or woven rain layer, wet sleeve edges and protected hair; the face remains naturally matte; glamour level 2.',
-  C07: 'winter attire: aged ivory and blue-gray insulating layers with credible woven warmth and restrained fur edging; glamour level 2.',
-  C08: 'injury attire: clean left-forearm bandage, undisturbed right-hand work ability, no blood or glamorized injury; glamour level 1.',
-  C09: 'long-labor attire: small real folds, fragrance powder and paper dust from extended work, never degraded poverty costume; glamour level 1.',
-  C10: 'story-special attire: deeper blue and silver-gray structural layers within her fixed palette, refined but still a working fragrance artisan; glamour level 4.'
+  C01: 'daily attire: milk-white layered crossed-collar robe, pale mist-blue embroidered collar, muted sage sash, fine woven floral texture and clean, city-ready layering; glamour level 2.',
+  C02: 'work attire: fitted inner sleeves under a graceful pale outer layer, a protective apron panel and tool pouch, with the right hand free for fragrance work; glamour level 2.',
+  C03: 'social visit attire: finer woven floral pattern, a translucent beizi-like outer layer, a small gift case, restrained jade accent and a polished half-up coiffure; glamour level 3.',
+  C04: 'formal civic attire: dignified layered Song silhouette, silver-blue jacquard, narrow metallic-thread edging, a sculpted formal updo and a coordinated jade-and-pearl hairpin system; glamour level 4.',
+  C05: 'night attire: deep blue-grey and mist-blue silk layers with a subtle satin response, a clear complete collar, protected movement and a dark wood hairpin; glamour level 2.',
+  C06: 'rain attire: blue-grey woven rain layer over pale inner silk, physically wet sleeve edges, protected hair and a compact polished silhouette; glamour level 2.',
+  C07: 'winter attire: aged ivory and blue-grey insulating layers, credible woven warmth, a soft fur-edged collar and a refined textured sash; glamour level 2.',
+  C08: 'injury attire: a clean left-forearm bandage integrated into intact layered clothing, right-hand fragrance-work ability readable, calm dignified care-state styling; glamour level 1.',
+  C09: 'long-labor attire: fine natural folds, fragrance powder and paper dust from extended work, layered fabric and hair kept tidy through a long day; glamour level 1.',
+  C10: 'story-special attire: deeper blue and silver-grey structural layers within her fixed palette, floral jacquard, narrow silver thread, a more sculpted coiffure and refined fragrance-artisan authority; glamour level 4.'
 };
 
 const SHEN_SHEETS = {
@@ -610,10 +730,39 @@ const SHEN_APPEARANCE = {
   'S1-AP-A02': ['rain investigation look', 'blue-gray rain layer with protected papers and restrained wet textile edges', 'NightWet'],
   'S1-AP-A03': ['summer field-verification look', 'breathable pale layers, work sash and sun-softened natural skin while checking river or field evidence', 'Day'],
   'S1-AP-A04': ['autumn ordinary-life look', 'aged ivory, celadon and restrained osmanthus-toned woven detail for ordinary life', 'Day'],
-  'S1-AP-A05': ['winter restriction look', 'ivory and blue-gray insulated work layers, no glamour excess, useful for clinic and supply work', 'NightWet'],
+  'S1-AP-A05': ['winter restriction look', 'ivory and blue-gray insulated work layers with good tailoring, woven warmth and a modest silver-blue finishing detail, useful for clinic and supply work', 'NightWet'],
   'S1-AP-A06-flood-relief': ['flood-relief look', 'rain-ready dark blue-gray outer layer with compact practical layers, visibly wet only at appropriate edges', 'NightWet'],
-  'S1-AP-A06-ending-spring-letter-house': ['spring-letter-house ending look', 'renewed but practical soft celadon and aged ivory layers, small repairable ornaments and no official honor costume', 'Day']
+  'S1-AP-A06-ending-spring-letter-house': ['spring-letter-house ending look', 'renewed but practical soft celadon and aged ivory layers, small repairable ornaments, fine floral woven texture and a calm private-city silhouette', 'Day']
 };
+
+const SHEN_GLAMOUR_FINISH = {
+  1: 'A well-kept professional finish: complete crossed collar, clean layered fabric, a tidy hairstyle and one small useful personal detail.',
+  2: 'A refined daily finish: tailored layered silk and ramie, visible woven pattern, a narrow embroidered edge, a polished hairpin and gentle light catching the cloth.',
+  3: 'A social finish: richer dye depth, subtle floral jacquard, a translucent outer layer, a coordinated jade or pearl detail and softly luminous material response.',
+  4: 'A formal New Song finish: sculpted layered silhouette, hand-finished embroidery, narrow silver thread, a coordinated hairpin-and-earring system and real light articulating silk, metal and skin.'
+};
+
+function shenGlamourLevel(task, assetId) {
+  if (task.kind === 'costume' && /C04|C10/.test(assetId)) return 4;
+  if (task.kind === 'costume' && /C03/.test(assetId)) return 3;
+  if (task.kind === 'seasonal-appearance') return 3;
+  if (task.kind === 'narrative-still' || task.kind === 'seasonal-narrative') return 3;
+  if (task.kind === 'identity') return 2;
+  return 2;
+}
+
+function shenPromptSettings(task, assetId) {
+  if (task.technical) {
+    return { raw: true, stylize: task.kind === 'identity' ? 100 : 88, chaos: 2 };
+  }
+  if (task.kind === 'costume') {
+    return { raw: true, stylize: /C04|C10/.test(assetId) ? 175 : 150, chaos: 2 };
+  }
+  if (task.kind === 'seasonal-appearance') return { raw: false, stylize: 175, chaos: 3 };
+  if (task.kind === 'seasonal-evidence') return { raw: true, stylize: 105, chaos: 2 };
+  if (task.kind === 'narrative-still' || task.kind === 'seasonal-narrative') return { raw: false, stylize: 195, chaos: 3 };
+  return { raw: false, stylize: 150, chaos: 3 };
+}
 
 const SHEN_EVIDENCE = {
   'S1-PR-A01-material-clue-board': ['separated old incense chest, ash, grain dust, canal fragment and water-route tag, no red string and no readable paper', 'Day'],
@@ -648,7 +797,7 @@ function shenNarrativeV2Spec(assetId) {
 }
 
 function shenTaskSpecs(assetId) {
-  if (assetId.startsWith('ID-001')) return [{ tile: 'front-neutral', kind: 'identity', ar: '3:4', detail: 'front-facing neutral head-and-upper-torso identity render, level head, all facial features visible, no hand near face.', technical: true }];
+  if (assetId.startsWith('ID-001')) return [{ tile: 'front-neutral', kind: 'identity', ar: '3:4', detail: 'front-facing neutral head-and-upper-torso identity render, level head, all facial features unobstructed and hands resting below the crop.', technical: true }];
   if (assetId.startsWith('ID-002')) return ['front', 'left-three-quarter', 'left-profile', 'right-three-quarter', 'right-profile'].map((tile) => ({ tile, kind: 'identity-angle', ar: '3:4', detail: `${tile} head view, same neutral expression, same makeup and same clean collar, individual task only.`, technical: true }));
   if (assetId.startsWith('ID-003')) return ['front-full-body', 'left-profile-full-body', 'back-full-body'].map((tile) => ({ tile, kind: 'turnaround', ar: '2:3', detail: `${tile} full body from head to footwear, neutral stance, consistent garment construction, individual task only.`, technical: true }));
   if (assetId.startsWith('ID-004')) return ['face-skin', 'hairline-and-strands', 'right-hand-professional-trace', 'collar-and-textile'].map((tile) => ({ tile, kind: 'detail', ar: '1:1', detail: `macro continuity detail of ${tile}; no collage, no labels.`, technical: true }));
@@ -659,10 +808,10 @@ function shenTaskSpecs(assetId) {
     if (assetId.startsWith(prefix)) return tiles.map((tile) => ({ tile, kind: prefix === 'CAM-001' ? 'camera-framing' : 'pose-or-motion', ar: prefix === 'CAM-001' ? '3:4' : '2:3', detail: `${prefix === 'CAM-001' ? 'single camera-framing continuity view' : 'single natural body action or pose'}: ${tile}. Individual render, no grid.`, technical: true }));
   }
   for (const [prefix, tiles] of Object.entries(SHEN_PROP_TILES)) {
-    if (assetId.startsWith(prefix)) return tiles.map((tile) => ({ tile, kind: 'personal-prop', ar: '3:2', detail: `single object material study of Shen Heng's ${tile}; no person, hand or label.`, technical: true }));
+    if (assetId.startsWith(prefix)) return tiles.map((tile) => ({ tile, kind: 'personal-prop', ar: '3:2', detail: `single object material study of Shen Heng's ${tile}; object-only frame on a clean work surface with blank, unmarked supporting paper where needed.`, technical: true }));
   }
   const costume = Object.entries(SHEN_COSTUMES).find(([prefix]) => assetId.startsWith(prefix));
-  if (costume) return [{ tile: 'full-look', kind: 'costume', ar: '2:3', detail: `front-facing full-body costume continuity render. ${costume[1]} Neutral stance and clean construction visibility.`, technical: true }];
+  if (costume) return [{ tile: 'full-look', kind: 'costume', ar: '2:3', detail: `front-facing full-body New Song wardrobe presentation. ${costume[1]} Natural poised stance, complete silhouette and clean construction visibility.`, technical: false, raw: true }];
   const appearanceKey = Object.keys(SHEN_APPEARANCE).find((key) => assetId.startsWith(key));
   const appearance = appearanceKey ? SHEN_APPEARANCE[appearanceKey] : null;
   if (appearance) return [{ tile: 'appearance', kind: 'seasonal-appearance', ar: '2:3', detail: `${appearance[0]}; ${appearance[1]}. Front three-quarter full-body continuity render.`, route: appearance[2], technical: false }];
@@ -691,6 +840,8 @@ for (const asset of shenManifest.assets) {
     shenCrosswalk[asset.id].push(targetKey);
     const route = task.route || 'Day';
     const technical = task.technical;
+    const glamourLevel = shenGlamourLevel(task, asset.id);
+    const settings = shenPromptSettings(task, asset.id);
     addRecord({
       prompt_id: promptId,
       target_key: targetKey,
@@ -701,11 +852,12 @@ for (const asset of shenManifest.assets) {
       facts_snapshot: { name: shen.facts.name, age_y0: shen.facts.age_y0, occupation: shen.facts.occupation, source_asset_id: asset.id, source_category: asset.category, task_tile: task.tile },
       route,
       technical,
-      glamour_level: task.kind === 'costume' && /C04|C10/.test(asset.id) ? 4 : task.kind === 'seasonal-appearance' ? 2 : 1,
+      raw: task.raw ?? settings.raw,
+      glamour_level: glamourLevel,
       ar: task.ar,
-      stylize: technical ? 38 : 58,
-      chaos: technical ? 2 : 3,
-      positive: `${shenBase} ${task.detail} ${routeText(route, technical)}`,
+      stylize: settings.stylize,
+      chaos: settings.chaos,
+      positive: `${shenBase} ${SHEN_GLAMOUR_FINISH[glamourLevel]} ${task.detail} ${routeText(route, technical)}`,
       execution_status: 'REBUILD_AFTER_V2_STYLE_AND_IDENTITY_SIGNOFF',
       assembly: tasks.length > 1 ? { assembly_group: asset.id, tile: task.tile, strategy: 'Generate this task independently; select and assemble locally after review. Do not ask Midjourney to create a composite board or grid.' } : null,
       acceptance_checks: [
@@ -731,9 +883,9 @@ for (const episode of seasonLedger.episodes) {
     authority_refs: [sourceRef('story/season/season-causal-ledger.json', 'season-causal-ledger')],
     facts_snapshot: { episode_id: episode.episode_id, title: episode.title, opening_state: episode.opening_state, city_evidence: episode.city_evidence?.description, profession_action: episode.profession_action?.action, episode_choice: episode.episode_choice?.action, location_ids: episode.city_evidence?.location_ids || [] },
     route,
-    glamour_level: route === 'StageFestival' ? 3 : 2,
+    glamour_level: route === 'StageFestival' ? 4 : 3,
     ar: '16:9',
-    stylize: 58,
+    stylize: route === 'StageFestival' ? 230 : 180,
     chaos: 3,
     positive: `A bounded visual premise study for ${episode.episode_id}, ${episode.title}. Show the documented opening state: ${episode.opening_state} Center the known professional action of ${primaryName}: ${episode.profession_action?.action || 'the registered episode action'}. The evidence in view is limited to: ${episode.city_evidence?.description || 'the registered city evidence'}. This is not a final shot and must not add dialogue, a solution, an unregistered person or later-episode knowledge. ${routeText(route)}`,
     execution_status: 'BLOCKED_UNTIL_EPISODE_GATE',
@@ -759,10 +911,10 @@ for (const scene of storyboard.scenes) {
       authority_refs: [sourceRef('production/episodes/S1-E01/storyboard.json', 'episode-storyboard')],
       facts_snapshot: { scene_id: scene.scene_id, shot_id: shot.shot_id, scene_status: scene.status, purpose: shot.purpose, primary_actor: shot.blocking?.primary_actor || null, action_path: shot.blocking?.action_path || shot.blocking?.movement || '', prop_handling: shot.blocking?.prop_handling || '', camera: shot.camera, light: shot.light, temporal: shot.temporal },
       route,
-      glamour_level: 1,
+      glamour_level: route === 'StageFestival' ? 3 : 2,
       ar: '16:9',
-      stylize: 45,
-      chaos: 2,
+      stylize: route === 'StageFestival' ? 190 : 140,
+      chaos: 3,
       positive: `A precise draft-shot visualization for ${shot.shot_id} in ${scene.scene_id}. Purpose: ${shot.purpose}. ${primary ? `Primary performer: ${primary}.` : ''} Blocking: ${shot.blocking?.action_path || shot.blocking?.movement || 'follow the registered action zones.'} Prop handling: ${shot.blocking?.prop_handling || 'preserve registered object placement.'} Camera: ${shot.camera?.scale || 'registered scale'}, ${shot.camera?.angle || 'registered angle'}, ${shot.camera?.focal_length || 'natural lens'}, maintaining ${shot.camera?.axis_side || 'the registered axis'}. Physical light sources: ${(shot.light?.physical_sources || []).join(', ')}. Do not add dialogue, action, knowledge, people, lens effect or geographic detail outside this DRAFT-EPISODE-GATE record. ${routeText(route)}`,
       execution_status: 'BLOCKED_UNTIL_EPISODE_GATE',
       depends_on: [`${scene.scene_id}: Episode Gate is ${scene.status}`],
@@ -796,9 +948,9 @@ for (const [id, route, ar, subject] of CALIBRATIONS) {
     authority_refs: [sourceRef('production/style/v2-urban-splendor-song-style-package.md', 'v2-style-authority'), sourceRef('production/style/v2-visual-qa.md', 'v2-qa')],
     facts_snapshot: { calibration_id: id, route: ROUTE_KEY[route] },
     route,
-    glamour_level: route === 'StageFestival' ? 4 : 2,
+    glamour_level: route === 'StageFestival' ? 5 : 3,
     ar,
-    stylize: route === 'StageFestival' ? 75 : 60,
+    stylize: route === 'StageFestival' ? 250 : 180,
     chaos: 5,
     positive: `${subject} ${routeText(route)}`,
     execution_status: 'READY_FOR_V2_STYLE_CALIBRATION',
@@ -828,14 +980,17 @@ const mainCatalog = {
   style_contract: 'VIS-LW-V2',
   model_contract: {
     model: 'Midjourney V8.2',
-    required_parameters: ['--v 8.2', '--raw', '--ar', '--s', '--c', '--no'],
+    required_parameters: ['--v 8.2', '--ar', '--s', '--c'],
+    lane_specific_parameters: ['--raw for identity, structure and prop-continuity lanes', '--no only after verified one-fault calibration; catalog allows text, watermark or logo as one-word targets'],
     optional_after_approval_only: ['V8.2 Image Prompt in the web UI; verified image URL plus --iw 1.0 to 1.5 only when rights and identity authorization are documented', 'Style Reference plus --sref and --sw only after a project-generated V2 candidate is selected'],
-    prohibited_parameters: ['--oref', '--ow', '--cref', '--cw', '--q', '--draft', '--hd', '--sv', 'multi-prompt ::']
+    not_emitted_without_target_session_verification: ['--sv'],
+    prohibited_parameters: ['--oref', '--ow', '--cref', '--cw', '--q', '--quality', '--draft', 'multi-prompt ::']
   },
   source_manifest: [
     sourceRef('production/style/v2-urban-splendor-song-style-package.md', 'v2-style-authority'),
     sourceRef('production/style/v2-visual-qa.md', 'v2-qa'),
     sourceRef('production/style/v2-reference-policy.md', 'v2-reference-policy'),
+    sourceRef('production/style/v2-world-reference-atoms.md', 'v2-reference-atoms'),
     sourceRef('production/style/v2-world-asset-visual-registry.json', 'v2-world-asset-visual-registry'),
     sourceRef('qa/character-roster.json', 'named-character-registry'),
     sourceRef('qa/unit-slots.json', 'unit-slot-registry'),
@@ -849,7 +1004,9 @@ const mainCatalog = {
     sourceRef('production/assets/characters/shen-heng/asset-manifest.json', 'shen-package-manifest')
   ],
   coverage_contract: {
-    named_character_identity_anchors: roster.named_characters.length,
+    named_character_visual_anchor_tasks: roster.named_characters.length,
+    central_character_identity_anchors: roster.named_characters.filter((character) => /^L[123]$/.test(character.tier)).length,
+    central_character_hero_key_art: roster.named_characters.filter((character) => /^L[123]$/.test(character.tier)).length,
     canonical_location_masters: LOCATIONS.length,
     canonical_location_season_states: LOCATIONS.length * 6,
     prop_and_evidence_states: PROP_SPECS.reduce((sum, [, , states]) => sum + states.length, 0),
@@ -878,7 +1035,7 @@ const report = {
   status_breakdown: Object.fromEntries([...new Set(catalog.map((record) => record.execution_status))].sort().map((status) => [status, catalog.filter((record) => record.execution_status === status).length])),
   notes: [
     'All direct mj_text values are fully resolved Midjourney V8.2 prompts with no unresolved style-reference placeholders.',
-    'No direct prompt uses Omni Reference, Character Reference, --oref, --q, --draft, --hd or multi-prompt syntax.',
+    'No direct prompt uses Omni Reference, Character Reference, --oref, --q, --quality, --draft or multi-prompt syntax; Raw and --no are lane-specific rather than global requirements.',
     'No prompt claims native 8K output. The 7680-pixel delivery target is an approved-source post-generation pipeline.',
     'Composite source assets are represented by independently generated tasks and must be locally assembled after human review.',
     'Reserved production targets remain explicit BLOCKED records; this preserves scope without fabricating locked casting or Episode Gate facts.'
