@@ -9,7 +9,9 @@
 | `story/00-series-outline.md` | 六篇、36 集城市事件、人物选择、代价和片尾变化 | FOUNDATION-DRAFT |
 | `story/08-ensemble-finale-echo-matrix.md` | 普通职业能力在终局的回响与旧账规则 | FOUNDATION-DRAFT |
 | `story/01-causal-mystery-and-pacing-revision-v2.md` | 欧美式因果推进、韩剧式关系回报、六层悬疑梯与 36 集翻转矩阵 | FOUNDATION-DRAFT |
+| `story/02-action-choreography-and-comrade-arc-v1.md` | 全季动作锚场、顾行舟边军退役前史与同袍关系补充 | FOUNDATION-DRAFT |
 | `story/03-humor-and-register-standard-v1.md` | 角色幽默指纹、热梗时代转译、轻微出戏感边界与 AI 表演字段 | FOUNDATION-DRAFT |
+| `story/04-romance-leisure-festivals-and-hidden-network-v1.md` | “今日无事，勾栏听曲”情感段、酸橘子微动作、顾行舟隐线靠山与节日仪式织入 | FOUNDATION-DRAFT |
 | `story/season/season-causal-ledger.schema.json` | P2 Season Gate 因果账本字段、状态边界与引用结构 | LOCKED-SCHEMA |
 | `story/season/season-causal-ledger.json` | 36 集完整结构化因果账本；每集含目标、阻力、复核、重义、代价、选择与尾钩 | SEASON-DRAFT |
 | `qa/reviews/season-causal-ledger-review.json` | S2-C 全季审阅：36/36 因果字段、引用、职业能力与尾钩 | REVIEWED-SEASON-PASS |
