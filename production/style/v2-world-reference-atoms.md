@@ -13,7 +13,7 @@
 ### 可复制的全局语义骨架
 
 ```text
-VIS-LW-V2 premium New Song live-action historical romance drama, a prosperous and inhabited Southern Song Linan water-city, beautiful distinctive Chinese period-drama cast, refined layered crossed-collar silk and gauze, visible woven pattern and hand-finished embroidery, motivated warm sunlight or practical lantern light, differentiated response of silk, lacquered timber, paper, ceramic, water and skin, cinematic foreground-middle-background depth, restrained optical diffusion around real bright sources
+premium New Song live-action historical romance drama, a prosperous and inhabited Southern Song Linan water-city, beautiful distinctive Chinese period-drama cast, refined layered crossed-collar silk and gauze, visible woven pattern and hand-finished embroidery, motivated warm sunlight or practical lantern light, differentiated response of silk, lacquered timber, paper, ceramic, water and skin, cinematic foreground-middle-background depth, restrained optical diffusion around real bright sources
 ```
 
 这是一段“方向骨架”，不是每张图都必须逐字重复。实际资产须再加人物身份、地点、动作、时段和镜头任务。
@@ -141,13 +141,25 @@ physically weighted translucent silk responding to a light corridor breeze, a fe
 
 | 资产线 | 目的 | 参数方向 | 视觉要点 |
 |---|---|---|---|
-| `ID-LOCK` | 锁脸、年龄、骨相、基础妆发 | `--v 8.2 --raw --ar 3:4 --s 90–120 --c 2` | 干净但不是白棚丑照；完整领口、好面料、一个可读饰物、真实肤面 |
-| `ID-HERO` | 主角官方华丽定妆 | `--v 8.2 --raw --ar 3:4 --s 145–190 --c 2–3` | 角色专属色彩、叠穿、成体系妆发、真实光源与小环境纵深 |
+| `ID-LOCK` | 首轮母版：锁脸、年龄、骨相、基础妆发 | `--v 8.2 --raw --ar 3:4 --s 70–100 --c 0–2` | 干净但不是白棚丑照；完整领口、好面料、一个可读饰物、真实肤面。先由用户生成并选定项目母版。 |
+| `ID-HERO` | 已锁脸后的主角官方华丽定妆 | `--v 8.2 --raw --ar 2:3 --s 130–170 --c 2` | 角色专属色彩、叠穿、成体系妆发、真实光源与小环境纵深；仅在接入已选项目母版后执行。 |
 | `COSTUME-FULL` | 单套全身服装/轮廓 | `--v 8.2 --raw --ar 2:3 --s 135–190 --c 2–3` | 交领、全袖、完整裙装、织物重量、发饰/腰饰关系清楚 |
 | `NARRATIVE-HERO` | 白日/夜景剧照 | `--v 8.2 --ar 16:9 --s 180–260 --c 3–5` | 城市、人物、动作、近中远景一起叙事；允许不使用 `--raw` |
 | `STAGE/FESTIVAL` | 春台/夜市/节庆高潮 | `--v 8.2 --ar 2:3 or 16:9 --s 220–320 --c 3–5` | 灯火、纱幕、精工饰物、流动人群；华丽而不幻想 |
 
-`--no` **不是默认参数**。出现经复核的文字或水印故障时，才可以加一到两个安全、单词级的目标，例如 `--no text, watermark`；不要把短语、面部、皮肤、服装、身体或物件名塞入 `--no`。服装完整度、无裸露、历史感和真实皮肤均应靠正向描述控制。
+`--no` **不是默认参数**。出现经复核的单一文字故障时，才可以加一个安全、单词级目标，例如 `--no text`；不要把短语、面部、皮肤、服装、身体或物件名塞入 `--no`。服装完整度、无裸露、历史感和真实皮肤均应靠正向描述控制。
+
+### 8.1 核心母版的执行顺序
+
+当前先只运行 12 位中央人物的 `ID-001`：正面头肩、完整交领、清透淡妆、真实肤面、职业小饰物与干净暖象牙背景。每位角色选出一张项目生成候选后，由用户提供该图；后续 `ID-HERO`、三视图、表情、妆发、服装、动作、道具与剧情资产均以这张获批图为身份锚点再写入/执行。不得用未锁脸的文本提示词批量生产下游角色资产。
+
+## 8.2 编译实施规则
+
+- 每条资产提示词都必须在正文中写出可见主体、动作、地点、真实光源、材质和镜头任务；关系、剧集、分镜与群众资产不得只引用 `LOC-xxx` 或角色编号。
+- 水、船、雨和灯本身不决定夜景路线。`Day / NightWet / StageFestival` 分别由明确时段、实际光源和春台/节庆事件决定。
+- 建立镜头采用独立的 `water-city-establishing` 资产线；城市主视图必须同时呈现河道、桥、建筑、人流或货物路线中的多个尺度。
+- 风与轻纱属于角色动作资产线，必须有回廊气流、湖面风、行走或转身等可见来源，并保留衣料重量与城市背景。
+- 提示词正文采用正向可见描述。限制、审批、未绑定身份和文字处理要求存入 `execution_status`、`acceptance_checks` 与本地后期流程，不堆入自然语言负面词。
 
 ## 9. 生成前的四项检查
 

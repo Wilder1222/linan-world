@@ -1,4 +1,5 @@
 import json
+import re
 import subprocess
 import unittest
 from pathlib import Path
@@ -39,10 +40,11 @@ class V2MidjourneyPromptCatalogTests(unittest.TestCase):
             "::",
         )
         allowed_no_atoms = {"text", "watermark", "logo"}
+        negative_prose = re.compile(r"\b(?:no|not|never|without)\b|do not", re.IGNORECASE)
         for record in catalog["records"]:
             prompt = record["prompt"]["mj_text"]
             self.assertIn("--v 8.2", prompt)
-            self.assertIn("VIS-LW-V2", prompt)
+            self.assertNotIn("VIS-LW-V2", prompt)
             self.assertIn("--ar ", prompt)
             self.assertIn("--s ", prompt)
             self.assertIn("--c ", prompt)
@@ -63,6 +65,15 @@ class V2MidjourneyPromptCatalogTests(unittest.TestCase):
             else:
                 self.assertNotIn("--no ", prompt)
             self.assertTrue(set(declared_no).issubset(allowed_no_atoms))
+            self.assertLessEqual(len(declared_no), 2)
+            self.assertIsNone(
+                negative_prose.search(record["prompt"]["positive"]),
+                record["prompt_id"],
+            )
+            self.assertIsNone(
+                re.search(r"[\u3400-\u9fff]", prompt),
+                record["prompt_id"],
+            )
 
         model_contract = catalog["model_contract"]
         optional = " ".join(model_contract["optional_after_approval_only"])
@@ -102,7 +113,41 @@ class V2MidjourneyPromptCatalogTests(unittest.TestCase):
         self.assertEqual(len(hero_records), len(expected))
         for character in expected:
             target = f"CHARACTER:{character['id']}:HERO-001"
-            self.assertTrue(any(record["target_key"] == target for record in hero_records), target)
+            hero = next((record for record in hero_records if record["target_key"] == target), None)
+            self.assertIsNotNone(hero, target)
+            self.assertEqual(hero["parameters"]["ar"], "2:3")
+            self.assertEqual(
+                hero["execution_status"],
+                "BLOCKED_UNTIL_APPROVED_MASTER_REFERENCE",
+            )
+            self.assertEqual(
+                hero["reference_binding"]["status"],
+                "AWAITING_USER_APPROVED_MASTER_REFERENCE",
+            )
+            self.assertTrue(hero["depends_on"])
+
+    def test_central_master_references_are_the_only_first_pass_character_tasks(self) -> None:
+        catalog = json.loads(
+            (ROOT / "production/midjourney/v2-asset-prompt-catalog.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        roster = json.loads((ROOT / "qa/character-roster.json").read_text(encoding="utf-8"))
+        central = [character for character in roster["named_characters"] if character["tier"] in {"L1", "L2", "L3"}]
+        for character in central:
+            record = next(
+                item
+                for item in catalog["records"]
+                if item["target_key"] == f"CHARACTER:{character['id']}:IDENTITY-001"
+            )
+            self.assertEqual(
+                record["execution_status"],
+                "READY_FOR_V2_MASTER_REFERENCE_SELECTION",
+            )
+            self.assertEqual(record["parameters"]["ar"], "3:4")
+            self.assertTrue(record["parameters"]["raw"])
+            self.assertLessEqual(record["parameters"]["stylize"], 100)
+            self.assertLessEqual(record["parameters"]["chaos"], 2)
 
     def test_noncentral_character_explorations_do_not_claim_canonical_identity(self) -> None:
         catalog = json.loads(
@@ -124,6 +169,16 @@ class V2MidjourneyPromptCatalogTests(unittest.TestCase):
         self.assertEqual(
             coverage["central_character_identity_anchors"], len(central_ids)
         )
+        self.assertEqual(
+            coverage["noncentral_character_visual_anchor_candidates"],
+            len(roster["named_characters"]) - len(central_ids),
+        )
+        self.assertEqual(
+            coverage["noncentral_character_occupation_states"],
+            len(roster["named_characters"]) - len(central_ids),
+        )
+        self.assertEqual(coverage["water_city_establishing_views"], 3)
+        self.assertEqual(coverage["central_character_motion_studies"], 3)
         self.assertNotIn("named_character_identity_anchors", coverage)
         identity_records = [
             record
@@ -143,10 +198,19 @@ class V2MidjourneyPromptCatalogTests(unittest.TestCase):
             self.assertEqual(record["asset_lane"], "character-visual-anchor-exploration")
             self.assertEqual(
                 record["execution_status"],
-                "BLOCKED_UNTIL_CHARACTER_VISUAL_ANCHOR",
+                "READY_FOR_V2_VISUAL_ANCHOR_SELECTION",
             )
-            checks = " ".join(record["acceptance_checks"])
-            self.assertIn("Cannot be used as Canon identity", checks)
+            anchor = record["facts_snapshot"]["visual_anchor"]
+            for key in ("portrait", "wardrobe", "gesture", "setting", "presentation"):
+                self.assertTrue(anchor[key], f"{record['prompt_id']}: {key}")
+            state_target = record["target_key"].replace("IDENTITY-001", "STATE-001")
+            state = next(
+                item for item in catalog["records"] if item["target_key"] == state_target
+            )
+            self.assertIn(
+                state["asset_lane"],
+                {"supporting-hero-state", "supporting-occupation-state"},
+            )
 
     def test_shen_heng_age_is_twenty_everywhere_active(self) -> None:
         profile = (ROOT / "characters/central/chr-l1-01-shen-heng.md").read_text(

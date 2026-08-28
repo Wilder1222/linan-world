@@ -32,6 +32,8 @@ const directForbidden = /(?:<[^>]+>|\bV1\b|<STYLE_REF_URL>|--oref|--ow|--cref|--
 const acceptableRatios = new Set(['1:1', '2:3', '3:2', '3:4', '16:9']);
 const allowedRoutes = new Set(['V2-Day', 'V2-Night-Wet', 'V2-Stage-Festival']);
 const allowedNoAtoms = new Set(['text', 'watermark', 'logo']);
+const positiveProseNegativePattern = /\b(?:no|not|never|without)\b|do not/i;
+const directCjkPattern = /[\u3400-\u9fff]/;
 const requiredV2AuthorityPaths = new Set([
   'production/style/v2-urban-splendor-song-style-package.md',
   'production/style/v2-visual-qa.md',
@@ -48,12 +50,14 @@ for (const record of records) {
   const prompt = record.prompt?.mj_text || '';
   if (!prompt) error('prompt_missing', record.prompt_id);
   if (directForbidden.test(prompt)) error('v8_2_forbidden_token', record.prompt_id);
-  if (!/VIS-LW-V2/.test(prompt)) error('v2_visual_grammar_missing', record.prompt_id);
+  if (/VIS-LW-V2/.test(prompt)) error('internal_style_token_leaked_to_prompt', record.prompt_id);
+  if (directCjkPattern.test(prompt)) error('untranslated_cjk_in_direct_prompt', record.prompt_id);
   if (!/--v\s+8\.2\b/.test(prompt)) error('model_version_missing', record.prompt_id);
   if (!/--ar\s+\d+:\d+/.test(prompt)) error('aspect_ratio_missing', record.prompt_id);
   if (!/--s\s+\d+\b/.test(prompt)) error('stylize_missing', record.prompt_id);
   if (!/--c\s+\d+\b/.test(prompt)) error('chaos_missing', record.prompt_id);
   if (prompt.length > 6000) error('prompt_length_exceeded', `${record.prompt_id}: ${prompt.length}`);
+  if (positiveProseNegativePattern.test(record.prompt?.positive || '')) error('negative_prose_in_positive_prompt', record.prompt_id);
   if (!allowedRoutes.has(record.state?.style_slot)) error('invalid_style_route', record.prompt_id);
   if (!acceptableRatios.has(record.parameters?.ar)) error('invalid_aspect_ratio', `${record.prompt_id}: ${record.parameters?.ar}`);
   const rawInPrompt = /(?:^|\s)--raw\b/.test(prompt);
@@ -64,17 +68,29 @@ for (const record of records) {
   if (record.execution_status?.startsWith('READY') && /[<>]/.test(prompt)) error('unresolved_ready_prompt', record.prompt_id);
   if (record.delivery?.native_8k_claim !== false) error('native_8k_claim', record.prompt_id);
   if (record.state?.technical_lane && record.state?.style_slot !== 'V2-Day') error('technical_route_violation', record.prompt_id);
-  if (record.family === 'location' || record.family === 'relationship' || record.family === 'season-episode' || record.family === 'episode-shot') {
+  if (record.family === 'location' || record.family === 'city-establishing' || record.family === 'relationship' || record.family === 'season-episode' || record.family === 'episode-shot') {
     if (record.parameters?.ar !== '16:9') error('aspect_ratio_lane_mismatch', record.prompt_id);
   }
   if (record.family === 'prop-evidence' && record.parameters?.ar !== '3:2') error('aspect_ratio_lane_mismatch', record.prompt_id);
-  if (record.family === 'character' && record.parameters?.ar !== '3:4') error('aspect_ratio_lane_mismatch', record.prompt_id);
+  if (record.family === 'character') {
+    const expectedCharacterRatios = {
+      'identity-anchor': '3:4',
+      'character-visual-anchor-exploration': '3:4',
+      'identity-hero': '2:3',
+      'supporting-occupation-state': '3:4',
+      'supporting-hero-state': '2:3',
+      'narrative-motion-study': '2:3'
+    };
+    const expectedRatio = expectedCharacterRatios[record.asset_lane];
+    if (!expectedRatio || record.parameters?.ar !== expectedRatio) error('aspect_ratio_lane_mismatch', record.prompt_id);
+  }
   const declaredNo = record.prompt?.negative || [];
   const noMatch = prompt.match(/(?:^|\s)--no\s+(.+)$/i);
   const actualNo = noMatch ? noMatch[1].split(',').map((item) => item.trim().toLowerCase()).filter(Boolean) : [];
   if (!Array.isArray(declaredNo) || actualNo.join('|') !== declaredNo.join('|')) {
     error('negative_metadata_mismatch', record.prompt_id);
   }
+  if (actualNo.length > 2) error('no_atom_count_exceeded', record.prompt_id);
   for (const atom of actualNo) {
     if (!/^[a-z][a-z0-9-]*$/.test(atom) || !allowedNoAtoms.has(atom)) error('unsafe_no_atom', `${record.prompt_id}: ${atom}`);
   }
@@ -118,10 +134,46 @@ const identityAnchorRecords = records.filter((record) => record.family === 'char
 if (identityAnchorRecords.length !== expectedCharacterIds.size) error('character_identity_coverage_count', String(identityAnchorRecords.length));
 const expectedCentralHeroes = roster.named_characters.filter((character) => /^L[123]$/.test(character.tier));
 for (const character of expectedCentralHeroes) {
-  if (!records.some((record) => record.target_key === `CHARACTER:${character.id}:HERO-001`)) error('required_target_missing', `CHARACTER:${character.id}:HERO-001`);
+  const identity = records.find((record) => record.target_key === `CHARACTER:${character.id}:IDENTITY-001`);
+  const hero = records.find((record) => record.target_key === `CHARACTER:${character.id}:HERO-001`);
+  if (!identity) error('central_master_identity_missing', character.id);
+  else {
+    if (identity.execution_status !== 'READY_FOR_V2_MASTER_REFERENCE_SELECTION') error('central_master_identity_status', character.id);
+    const profile = read(character.profile_path);
+    const age = Number((profile.match(/^age_y0\s*=\s*(\d+)$/m) || [])[1]);
+    if (!new RegExp(`\\b${age}-year-old\\b`).test(identity.prompt?.positive || '')) error('central_master_age_text_drift', character.id);
+    if (identity.parameters?.raw !== true || identity.parameters?.ar !== '3:4' || identity.parameters?.stylize < 70 || identity.parameters?.stylize > 100 || identity.parameters?.chaos < 0 || identity.parameters?.chaos > 2) error('central_master_parameter_profile', character.id);
+  }
+  if (!hero) error('required_target_missing', `CHARACTER:${character.id}:HERO-001`);
+  else {
+    if (hero.execution_status !== 'BLOCKED_UNTIL_APPROVED_MASTER_REFERENCE') error('central_hero_master_gate_missing', character.id);
+    if (hero.reference_binding?.status !== 'AWAITING_USER_APPROVED_MASTER_REFERENCE') error('central_hero_reference_status', character.id);
+    if (!Array.isArray(hero.depends_on) || hero.depends_on.length === 0) error('central_hero_master_dependency_missing', character.id);
+  }
 }
 if (count(records, (record) => record.family === 'character' && record.asset_lane === 'identity-hero') !== expectedCentralHeroes.length) {
   error('central_hero_coverage_count', String(count(records, (record) => record.family === 'character' && record.asset_lane === 'identity-hero')));
+}
+const noncentralCharacters = roster.named_characters.filter((character) => !/^L[123]$/.test(character.tier));
+for (const character of noncentralCharacters) {
+  const identity = records.find((record) => record.target_key === `CHARACTER:${character.id}:IDENTITY-001`);
+  const state = records.find((record) => record.target_key === `CHARACTER:${character.id}:STATE-001`);
+  if (!identity) error('noncentral_identity_missing', character.id);
+  else {
+    if (identity.execution_status !== 'READY_FOR_V2_VISUAL_ANCHOR_SELECTION') error('noncentral_identity_status', character.id);
+    const anchor = identity.facts_snapshot?.visual_anchor || {};
+    for (const key of ['portrait', 'wardrobe', 'gesture', 'setting', 'presentation']) {
+      if (!anchor[key]) error('noncentral_visual_anchor_missing', `${character.id}: ${key}`);
+    }
+  }
+  if (!state) error('noncentral_occupation_state_missing', character.id);
+  else if (!['supporting-hero-state', 'supporting-occupation-state'].includes(state.asset_lane)) error('noncentral_state_lane', character.id);
+}
+if (count(records, (record) => record.family === 'character' && /supporting-(hero|occupation)-state/.test(record.asset_lane)) !== noncentralCharacters.length) {
+  error('noncentral_state_coverage_count', String(count(records, (record) => record.family === 'character' && /supporting-(hero|occupation)-state/.test(record.asset_lane))));
+}
+if (count(records, (record) => record.family === 'character' && record.asset_lane === 'narrative-motion-study') !== 3) {
+  error('motion_study_coverage_count', String(count(records, (record) => record.family === 'character' && record.asset_lane === 'narrative-motion-study')));
 }
 
 const cityIndex = read('canon/city/00-city-index.md');
@@ -133,6 +185,10 @@ for (const id of locationIds) {
   for (let i = 1; i <= 6; i += 1) if (!records.some((record) => record.target_key === `LOCATION:${id}:S${i}`)) error('required_target_missing', `LOCATION:${id}:S${i}`);
 }
 if (count(records, (record) => record.family === 'location') !== 126) error('location_coverage_count', String(count(records, (record) => record.family === 'location')));
+if (count(records, (record) => record.family === 'city-establishing') !== 3) error('city_establishing_coverage_count', String(count(records, (record) => record.family === 'city-establishing')));
+for (const cityAsset of ['GOLDEN-WATER-CAPITAL', 'BLUE-HOUR-LANTERN-CITY', 'MORNING-LAKE-AND-MARKET']) {
+  if (!records.some((record) => record.target_key === `CITY:LINAN:${cityAsset}`)) error('city_establishing_target_missing', cityAsset);
+}
 
 const relationSlots = json('qa/relationship-slots.json');
 const relationEvidence = json('qa/relationship-evidence.json');
@@ -178,7 +234,7 @@ if (count(records, (record) => record.family === 'episode-shot') !== expectedSho
 
 const expectedPropTasks = 12;
 if (count(records, (record) => record.family === 'prop-evidence') !== expectedPropTasks) error('prop_coverage_count', String(count(records, (record) => record.family === 'prop-evidence')));
-if (count(records, (record) => record.family === 'style-calibration') !== 8) error('calibration_count', String(count(records, (record) => record.family === 'style-calibration')));
+if (count(records, (record) => record.family === 'style-calibration') !== 10) error('calibration_count', String(count(records, (record) => record.family === 'style-calibration')));
 
 const activeTextPaths = [
   'production/midjourney/README.md',

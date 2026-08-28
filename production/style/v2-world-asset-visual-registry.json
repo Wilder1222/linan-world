@@ -10,7 +10,7 @@
     },
     "LOC-002": {
       "canonical_sources": ["canon/city/03-he-ming-lane-and-shen-shop.md"],
-      "master_description": "A street-facing family fragrance shop with a deep timber counter, nested incense and herb drawers, small brass scale, ceramic jars, paper wrapping station, scent work surface and a readable threshold to the lane. It is a working household business, not a palace boutique."
+      "master_description": "A street-facing family fragrance shop with a deep timber counter, nested incense and herb drawers, small brass scale, ceramic jars, paper wrapping station, scent work surface and a readable threshold to the lane. It has the intimate scale and lived-in refinement of a working household business."
     },
     "LOC-003": {
       "canonical_sources": ["canon/city/03-he-ming-lane-and-shen-shop.md"],
@@ -22,7 +22,7 @@
     },
     "LOC-005": {
       "canonical_sources": ["canon/city/04-imperial-street-night-market-and-spring-stage.md"],
-      "master_description": "An occupied imperial-street night market under practical awnings: food steam, tea stalls, low tables, local paper lanterns, carts, shop thresholds, customers and workers use a tight but passable path. Warm lamp pools reveal real service and circulation, never a fantasy festival set."
+      "master_description": "An occupied imperial-street night market under practical awnings: food steam, tea stalls, low tables, local paper lanterns, carts, shop thresholds, customers and workers use a tight but passable path. Warm lamp pools reveal real service, circulation and a grounded urban festival atmosphere."
     },
     "LOC-006": {
       "canonical_sources": ["canon/city/04-imperial-street-night-market-and-spring-stage.md"],
@@ -30,23 +30,23 @@
     },
     "LOC-007": {
       "canonical_sources": ["canon/city/05-west-lake-and-xiling-circle.md"],
-      "master_description": "A useful West Lake painted boat moored among active berths, with a timber cabin, controlled painted panels, tea table, practical canopy, ropes, pole handling and water-side access. Refined hospitality and route observation coexist; it is not an isolated floating palace."
+      "master_description": "A useful West Lake painted boat moored among active berths, with a timber cabin, controlled painted panels, tea table, practical canopy, ropes, pole handling and water-side access. Refined hospitality and route observation coexist in a mobile working waterfront setting."
     },
     "LOC-008": {
       "canonical_sources": ["canon/city/05-west-lake-and-xiling-circle.md"],
-      "master_description": "A connected Xiling bookshop and painting workshop with paper racks, printing or copying surfaces, map tubes, brushes, wood blocks, drying sheets, framed work and an active street-facing threshold. The interior needs layered work depth and paper-safe light, not a generic scholar studio."
+      "master_description": "A connected Xiling bookshop and painting workshop with paper racks, printing or copying surfaces, map tubes, brushes, wood blocks, drying sheets, framed work and an active street-facing threshold. Layered work depth and paper-safe light give the interior a working print-and-painting character."
     },
     "LOC-009": {
       "canonical_sources": ["canon/city/05-west-lake-and-xiling-circle.md"],
-      "master_description": "Tingyun tavern, a compact lake-and-city meeting place with timber dining tables, warm ceramic cups, service corridor, rice-wine jars, door lattice, discreet private seating and ordinary workers moving through it. It reads as hospitality work and negotiation space, not luxury palace dining."
+      "master_description": "Tingyun tavern, a compact lake-and-city meeting place with timber dining tables, warm ceramic cups, service corridor, rice-wine jars, door lattice, discreet private seating and ordinary workers moving through it. It reads as refined hospitality work and a layered negotiation space."
     },
     "LOC-010": {
       "canonical_sources": ["canon/city/06-qiantang-docks-and-qingyao-routes.md"],
-      "master_description": "A dense Qiantang dock with moored cargo boats, tide-marked pilings, wooden wharves, rope coils, weighed sacks, crane poles, repair tools, boat crews and a legible load-to-water route. Materials carry water wear and freight weight; no empty scenic riverfront."
+      "master_description": "A dense Qiantang dock with moored cargo boats, tide-marked pilings, wooden wharves, rope coils, weighed sacks, crane poles, repair tools, boat crews and a legible load-to-water route. Materials carry water wear and freight weight across a busy working riverfront."
     },
     "LOC-011": {
       "canonical_sources": ["canon/city/06-qiantang-docks-and-qingyao-routes.md"],
-      "master_description": "Qingyao, a working river vessel with weathered timber deck, low cabin, cargo bay, mooring rope, pole or oar handling, sealed bundles and a safe movement path for crew. Its age, repair and water exposure are visible without turning it into a heroic warship."
+      "master_description": "Qingyao, a working river vessel with weathered timber deck, low cabin, cargo bay, mooring rope, pole or oar handling, sealed bundles and a safe movement path for crew. Its age, repair and water exposure create a practical civic vessel character."
     },
     "LOC-012": {
       "canonical_sources": ["canon/city/06-qiantang-docks-and-qingyao-routes.md"],
@@ -54,19 +54,19 @@
     },
     "LOC-013": {
       "canonical_sources": ["canon/city/07-government-granaries-gates-and-three-warehouses.md"],
-      "master_description": "A Linan city-administration work hall with bounded public duty tables, shift plaques, seal and count surfaces, queues, storage shelves, rain or fire tools and controlled but usable entrances. Show bureaucratic work as finite human procedure, never a fortress or imperial throne room."
+      "master_description": "A Linan city-administration work hall with bounded public duty tables, shift plaques, seal and count surfaces, queues, storage shelves, rain or fire tools and controlled but usable entrances. Bureaucratic work appears as finite human procedure across a civic duty hall."
     },
     "LOC-014": {
       "canonical_sources": ["canon/city/07-government-granaries-gates-and-three-warehouses.md"],
-      "master_description": "Three connected grain warehouses with deep timber bays, raised sacks, measured storage lanes, tally and inspection tables, fire-and-water equipment, handlers and a functional cargo route. Warehouse scale stays civic and practical, without fortress spectacle."
+      "master_description": "Three connected grain warehouses with deep timber bays, raised sacks, measured storage lanes, tally and inspection tables, fire-and-water equipment, handlers and a functional cargo route. Warehouse scale stays civic, practical and materially grounded."
     },
     "LOC-015": {
       "canonical_sources": ["canon/city/07-government-granaries-gates-and-three-warehouses.md"],
-      "master_description": "A city gate, bridge-lock and inspection point where wooden barriers, bridge rail, water-control hardware, covered checking desk, carriers and waiting travelers create several clear lawful routes. It is a busy civic threshold, not a militarized fantasy checkpoint."
+      "master_description": "A city gate, bridge-lock and inspection point where wooden barriers, bridge rail, water-control hardware, covered checking desk, carriers and waiting travelers create several clear lawful routes. It is a busy civic threshold with grounded administration and travel flow."
     },
     "LOC-016": {
       "canonical_sources": ["canon/city/08-clinic-temple-guesthouse-and-refugee-camp.md"],
-      "master_description": "Xiaoji Hall and temple service area with a diagnosis bench, medicine shelves, wash point, porridge distribution, privacy curtain, bedding route and people receiving or giving care. Human circulation, dignity and material hygiene are visible without catastrophe spectacle."
+      "master_description": "Xiaoji Hall and temple service area with a diagnosis bench, medicine shelves, wash point, porridge distribution, privacy curtain, bedding route and people receiving or giving care. Human circulation, dignity and material hygiene remain visible through active care work."
     },
     "LOC-017": {
       "canonical_sources": ["canon/city/08-clinic-temple-guesthouse-and-refugee-camp.md"],
@@ -83,7 +83,7 @@
       "binding_status": "CANON_BOUND",
       "route": "NightWet",
       "states": ["INTACT", "USED", "SEALED"],
-      "description": "Shen Huaichuan's old incense chest: a palm-sized dark lacquered timber scent box with an aged brass clasp, soft worn edges, interior fragrance compartments and no readable inscription. Its history is carried by material wear, not a solved-detective display."
+      "description": "Shen Huaichuan's old incense chest: a palm-sized dark lacquered timber scent box with an aged brass clasp, soft worn edges, interior fragrance compartments and an unmarked surface. Its history is carried by material wear and a quietly unresolved evidence relationship."
     },
     "CLU-001": {
       "canonical_sources": ["canon/00-id-and-terms-registry.md", "story/season/season-causal-ledger.json"],
@@ -97,7 +97,7 @@
       "binding_status": "V2_PRODUCTION_BOUND",
       "route": "Day",
       "states": ["PRIMARY"],
-      "description": "Season-one material-clue evidence grouping: old incense chest, fragrance pellet, fine ash, grain dust, a short canal fragment and a water-route tag arranged as separated tactile objects on a work table. No red string, no readable document and no final conclusion."
+      "description": "Season-one material-clue evidence grouping: old incense chest, fragrance pellet, fine ash, grain dust, a short canal fragment and a water-route tag arranged as separated tactile objects on a work table with unmarked dividers and an unresolved material relationship."
     },
     "A02": {
       "canonical_sources": ["docs/roadmap/2026-08-26-season-1-asset-generation-backlog.md", "production/assets/characters/shen-heng/asset-manifest.json"],
@@ -111,28 +111,28 @@
       "binding_status": "V2_PRODUCTION_BOUND",
       "route": "Day",
       "states": ["PRIMARY"],
-      "description": "Season-one supply-and-water report grouping: false-bottom grain-crate trace, warehouse account bundle, tide record and separately held source materials. Wood grain, sack fiber, paper edge and water mark differ materially; no readable accounts or solved conspiracy board."
+      "description": "Season-one supply-and-water report grouping: false-bottom grain-crate trace, warehouse account bundle, tide record and separately held source materials. Wood grain, sack fiber, paper edge and water mark differ materially across unmarked account surfaces and separate evidence groups."
     },
     "A04": {
       "canonical_sources": ["docs/roadmap/2026-08-26-season-1-asset-generation-backlog.md", "production/assets/characters/shen-heng/asset-manifest.json"],
       "binding_status": "V2_PRODUCTION_BOUND",
       "route": "Day",
       "states": ["PRIMARY"],
-      "description": "Season-one osmanthus-and-father's-manuscript grouping: fresh osmanthus, a weathered personal manuscript, fragrance pouch and discreet tracking material separated by plain paper dividers. Ordinary domestic beauty sits beside incomplete evidence; no readable text."
+      "description": "Season-one osmanthus-and-father's-manuscript grouping: fresh osmanthus, a weathered personal manuscript, fragrance pouch and discreet tracking material separated by plain paper dividers. Ordinary domestic beauty sits beside incomplete evidence and unmarked paper surfaces."
     },
     "A05": {
       "canonical_sources": ["docs/roadmap/2026-08-26-season-1-asset-generation-backlog.md", "production/assets/characters/shen-heng/asset-manifest.json"],
       "binding_status": "V2_PRODUCTION_BOUND",
       "route": "NightWet",
       "states": ["PRIMARY"],
-      "description": "Season-one restriction-and-illness grouping: an abstract case-and-water-route map, medicine record, reed sample, small care tools and a protected paper packet. It signals community care and water pressure without modern medicine, readable labels or disaster spectacle."
+      "description": "Season-one restriction-and-illness grouping: an abstract case-and-water-route map, medicine record, reed sample, small historically grounded care tools and a protected paper packet. It signals community care and water pressure through blank label fields and a practical care workflow."
     },
     "A06": {
       "canonical_sources": ["docs/roadmap/2026-08-26-season-1-asset-generation-backlog.md", "production/assets/characters/shen-heng/asset-manifest.json"],
       "binding_status": "V2_PRODUCTION_BOUND",
       "route": "NightWet",
       "states": ["PRIMARY"],
-      "description": "Season-one spring-lantern correction grouping: a practical paper lantern, tactile rope markers, small copper sound pieces, route tags and weather cover arranged as a public-coordination kit. It is functional and auditable; no legible ledger or magical signal device."
+      "description": "Season-one spring-lantern correction grouping: a practical paper lantern, tactile rope markers, small copper sound pieces, route tags and weather cover arranged as a public-coordination kit. It is functional and auditable, with an unmarked ledger surface and tactile signal components."
     }
   }
 }
