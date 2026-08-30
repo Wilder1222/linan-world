@@ -1,79 +1,204 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "registry_id": "VIS-LW-V2-WORLD-ASSET-VISUAL-REGISTRY",
   "style_contract": "VIS-LW-V2",
-  "purpose": "The V2-only visual binding for location and evidence assets. It is derived from Canon and current production planning; no legacy prompt material is an authority source.",
+  "purpose": "The V2-only visual binding for location and evidence assets. It is derived from Canon and current production planning; no legacy prompt material is an authority source. Scene composition profiles own readable foreground, working middle-ground circulation and depth hierarchy while preserving Canon geography.",
+  "scene_composition_profiles": {
+    "SCN-LANE-COMMERCE": {
+      "prompt_block": "At human height, a close grouped cluster of household or trade objects frames one active exchange. A threshold, awning line or turning lane gives the middle-ground route a clear gateway, while connected eaves and working doorways recede along a passable shared path. Visual clutter is grouped by service, storage and passage.",
+      "acceptance_checks": [
+        "Shows grouped market or domestic props and a passable pedestrian route.",
+        "Uses the declared lane and threshold logic as the depth structure."
+      ]
+    },
+    "SCN-WORKSHOP-THRESHOLD": {
+      "prompt_block": "At human height, a foreground tool or material cluster frames one visible hand task at the public work surface. A clear threshold or service passage separates the working zones, with shelves, racks, or a second work surface receding beyond it. The camera keeps the access route and material hierarchy legible.",
+      "acceptance_checks": [
+        "Shows a tool or material foreground linked to a visible working task.",
+        "Keeps public work, access and deeper storage or work zones spatially legible."
+      ]
+    },
+    "SCN-CIVIC-AVENUE": {
+      "prompt_block": "A foreground service stall, cart, or crossing pedestrian establishes human scale. The middle ground carries a usable civic and commercial crossing, while connected rooflines and public structures recede along the avenue. Goods, officials, and residents occupy distinct movement lanes.",
+      "acceptance_checks": [
+        "Shows civic and commercial traffic using separate but connected movement lanes.",
+        "Uses the avenue and roofline sequence as a stable depth anchor."
+      ]
+    },
+    "SCN-LANTERN-MARKET": {
+      "prompt_block": "At human height, a near food vessel, table edge, lantern, or awning line frames live service. A clear central passage carries pedestrians and workers through sequential local light pools, while occupied shop thresholds recede behind the market. Props collect around preparation, serving, and eating zones.",
+      "acceptance_checks": [
+        "Shows live service, a passable central market path and sequential practical light pools.",
+        "Groups food and table props by preparation, serving and eating functions."
+      ]
+    },
+    "SCN-PERFORMANCE-SERVICE": {
+      "prompt_block": "A curtain edge, instrument case, or mending station creates a light foreground frame. Performers, crew, and audience or service routes occupy a readable middle ground; stage, benches, backstage entries, or circulation passages extend into depth. The camera favors working transition points over isolated display.",
+      "acceptance_checks": [
+        "Shows performance, repair and audience or service circulation in the same usable space.",
+        "Uses a stage or backstage transition point to organize depth."
+      ]
+    },
+    "SCN-WATERFRONT-HOSPITALITY": {
+      "prompt_block": "From a human-height berth or deck edge, a rope rail, canopy edge, or tea object frames the foreground. The middle ground shows secure boarding, service, or pole-handling, with water, moored traffic, and shore access continuing into depth. Deck, canopy, rope, timber, and water hold distinct material responses.",
+      "acceptance_checks": [
+        "Shows a grounded boarding, service or handling action at a working berth or deck edge.",
+        "Keeps boat, water and shore access in one coherent depth relation."
+      ]
+    },
+    "SCN-HOSPITALITY-PASSAGE": {
+      "prompt_block": "A near tea bowl, table corner, door lattice, or service tray frames a compact foreground. A service passage and seating route keep the middle ground active, with courtyard, lakeside, or street access receding beyond. Hospitality, conversation, and ordinary work share one usable circulation pattern.",
+      "acceptance_checks": [
+        "Shows service, seating and access as one readable hospitality pattern.",
+        "Uses a compact foreground object and a receding public or private access route."
+      ]
+    },
+    "SCN-WATERFRONT-LOGISTICS": {
+      "prompt_block": "At human height near a measured load, rope coil, repair tool, or tea counter, the foreground carries physical scale. A legible land-to-water route runs through the middle ground, with vessels, repair frames, berths, or working shore layers receding into depth. Cargo, tool, and pedestrian zones remain visibly separated by function.",
+      "acceptance_checks": [
+        "Shows a legible load, repair or service route between land and water.",
+        "Separates cargo, tool and pedestrian zones through function and circulation."
+      ]
+    },
+    "SCN-VESSEL-DECK": {
+      "prompt_block": "From a stable deck-level position, a rail, rope, cargo bundle, or cabin edge frames a close foreground. The middle ground shows a secure crew movement path and a visible handling task; deck, cabin, cargo bay, and water relation remain readable beyond it. Wear, repairs, and weight guide the material story.",
+      "acceptance_checks": [
+        "Shows a secure crew movement path and an explicit deck handling task.",
+        "Keeps deck, cabin, cargo and water in a stable spatial relation."
+      ]
+    },
+    "SCN-CIVIC-OPERATIONS": {
+      "prompt_block": "A foreground record, measured load, seal surface, or fire-and-water tool establishes the active work point. A clear queue, storage lane, or duty table anchors the middle ground, while bays, shelves, or controlled entries continue into depth. The camera preserves the work sequence and civic scale.",
+      "acceptance_checks": [
+        "Shows a finite civic work sequence through records, loads, queues or storage lanes.",
+        "Keeps duty areas, storage and controlled access spatially distinct."
+      ]
+    },
+    "SCN-BRIDGE-LOCK-GATEWAY": {
+      "prompt_block": "At human height, a bridge rail, barrier, checking desk, or water-control mechanism forms a foreground anchor. A middle-ground crossing separates pedestrians, carriers, and inspection work into readable routes; gate structure, bridge span, and water access establish the depth and scale anchors. The threshold operates as a civic bottleneck.",
+      "acceptance_checks": [
+        "Shows bridge, inspection and water-control work as connected civic routes.",
+        "Keeps the gate or bridge threshold readable as a scale and circulation anchor."
+      ]
+    },
+    "SCN-CARE-ROUTE": {
+      "prompt_block": "A foreground care, water, meal, or bedding object frames a dignified working task. The middle ground holds a clear care or supply route, with sheltered entries, wash points, or service areas receding beyond it. Privacy edges and shared circulation remain visibly organized.",
+      "acceptance_checks": [
+        "Shows a dignified care or supply task with visible service circulation.",
+        "Keeps privacy edges and shared access organized in the same space."
+      ]
+    },
+    "SCN-GUESTHOUSE-COURTYARD": {
+      "prompt_block": "A near travel bundle, registration surface, wash basin, or curtain edge frames the foreground. Room thresholds, courtyard passage, and host service form a clear middle-ground route, with private and shared zones receding into depth. Movable textiles mark personal boundaries while access remains workable.",
+      "acceptance_checks": [
+        "Shows room, courtyard and host-service circulation with clear personal boundaries.",
+        "Uses travel, registration or wash objects as a practical foreground scale anchor."
+      ]
+    },
+    "SCN-STREET-LEVEL-WATER-MARKET": {
+      "prompt_block": "At human height, a stone-paved market route follows a narrow working waterway. A close cluster of baskets, jars, cloth awnings, or trade bundles frames one sale or carrying action; a functional bridge, covered crossing, or waterside threshold creates a middle-ground gateway; layered roofs and a civic rise recede toward a busy city depth. Controlled visual clutter is grouped by service, storage and passage.",
+      "acceptance_checks": [
+        "Shows a human-height working water-market route with a usable crossing and layered city depth.",
+        "Uses props as grouped evidence of sale, carrying, service, storage and passage."
+      ]
+    },
+    "SCN-WATER-CAPITAL-ESTABLISHING": {
+      "prompt_block": "At a wide establishing scale, a near roof edge, water surface, or wharf gives the foreground a scale anchor. Bridges, market movement, and water-land crossings organize the middle distance, while layered roofs, civic rise, and hills form the far-depth hierarchy. The view communicates a working network with usable routes and multiple scales.",
+      "acceptance_checks": [
+        "Shows water, bridge, market and civic scales in one connected working city view.",
+        "Uses foreground, middle distance and far-depth hierarchy to communicate urban scale."
+      ]
+    }
+  },
   "locations": {
     "LOC-001": {
       "canonical_sources": ["canon/city/03-he-ming-lane-and-shen-shop.md"],
+      "composition_profile_id": "SCN-LANE-COMMERCE",
       "master_description": "A narrow inhabited fragrance-and-neighbor lane with lime-plaster facades, dark timber thresholds, small awnings, drying household textiles, herb baskets, shop spillover and clear pedestrian passage. The lane feels intimate but dense, with practical domestic work visible behind open doors."
     },
     "LOC-002": {
       "canonical_sources": ["canon/city/03-he-ming-lane-and-shen-shop.md"],
+      "composition_profile_id": "SCN-WORKSHOP-THRESHOLD",
       "master_description": "A street-facing family fragrance shop with a deep timber counter, nested incense and herb drawers, small brass scale, ceramic jars, paper wrapping station, scent work surface and a readable threshold to the lane. It has the intimate scale and lived-in refinement of a working household business."
     },
     "LOC-003": {
       "canonical_sources": ["canon/city/03-he-ming-lane-and-shen-shop.md"],
+      "composition_profile_id": "SCN-LANE-COMMERCE",
       "master_description": "A dense Linan fragrance-and-medicine trade street with narrow connected storefronts, shade awnings, bundled aromatics, baskets, scales, porters and customers moving through a clear shared lane. Display scent, paper, wood, ceramic and cloth as distinct working materials."
     },
     "LOC-004": {
       "canonical_sources": ["canon/city/04-imperial-street-night-market-and-spring-stage.md"],
+      "composition_profile_id": "SCN-CIVIC-AVENUE",
       "master_description": "A broad but crowded Southern Song imperial street with worn paving, connected shopfronts, official notice zone left visually unreadable, service stalls, crossing pedestrians, sedan or handcart traffic and deep roofline perspective. The civic avenue remains commercially active rather than ceremonial and empty."
     },
     "LOC-005": {
       "canonical_sources": ["canon/city/04-imperial-street-night-market-and-spring-stage.md"],
+      "composition_profile_id": "SCN-LANTERN-MARKET",
       "master_description": "An occupied imperial-street night market under practical awnings: food steam, tea stalls, low tables, local paper lanterns, carts, shop thresholds, customers and workers use a tight but passable path. Warm lamp pools reveal real service, circulation and a grounded urban festival atmosphere."
     },
     "LOC-006": {
       "canonical_sources": ["canon/city/04-imperial-street-night-market-and-spring-stage.md"],
+      "composition_profile_id": "SCN-PERFORMANCE-SERVICE",
       "master_description": "Chun Tai performance house with a wooden stage, worn audience benches, side service routes, curtain edges, instrument cases, dressing and mending work visible near the backstage threshold. Warm lanterns and restrained woven color make it culturally rich while labor, ticketing and movement keep it urban and real."
     },
     "LOC-007": {
       "canonical_sources": ["canon/city/05-west-lake-and-xiling-circle.md"],
+      "composition_profile_id": "SCN-WATERFRONT-HOSPITALITY",
       "master_description": "A useful West Lake painted boat moored among active berths, with a timber cabin, controlled painted panels, tea table, practical canopy, ropes, pole handling and water-side access. Refined hospitality and route observation coexist in a mobile working waterfront setting."
     },
     "LOC-008": {
       "canonical_sources": ["canon/city/05-west-lake-and-xiling-circle.md"],
+      "composition_profile_id": "SCN-WORKSHOP-THRESHOLD",
       "master_description": "A connected Xiling bookshop and painting workshop with paper racks, printing or copying surfaces, map tubes, brushes, wood blocks, drying sheets, framed work and an active street-facing threshold. Layered work depth and paper-safe light give the interior a working print-and-painting character."
     },
     "LOC-009": {
       "canonical_sources": ["canon/city/05-west-lake-and-xiling-circle.md"],
+      "composition_profile_id": "SCN-HOSPITALITY-PASSAGE",
       "master_description": "Tingyun tavern, a compact lake-and-city meeting place with timber dining tables, warm ceramic cups, service corridor, rice-wine jars, door lattice, discreet private seating and ordinary workers moving through it. It reads as refined hospitality work and a layered negotiation space."
     },
     "LOC-010": {
       "canonical_sources": ["canon/city/06-qiantang-docks-and-qingyao-routes.md"],
+      "composition_profile_id": "SCN-WATERFRONT-LOGISTICS",
       "master_description": "A dense Qiantang dock with moored cargo boats, tide-marked pilings, wooden wharves, rope coils, weighed sacks, crane poles, repair tools, boat crews and a legible load-to-water route. Materials carry water wear and freight weight across a busy working riverfront."
     },
     "LOC-011": {
       "canonical_sources": ["canon/city/06-qiantang-docks-and-qingyao-routes.md"],
+      "composition_profile_id": "SCN-VESSEL-DECK",
       "master_description": "Qingyao, a working river vessel with weathered timber deck, low cabin, cargo bay, mooring rope, pole or oar handling, sealed bundles and a safe movement path for crew. Its age, repair and water exposure create a practical civic vessel character."
     },
     "LOC-012": {
       "canonical_sources": ["canon/city/06-qiantang-docks-and-qingyao-routes.md"],
+      "composition_profile_id": "SCN-WATERFRONT-LOGISTICS",
       "master_description": "A shipyard and waterside tea-stall cluster: hull repair frames, timber offcuts, tools, pitch or rope work, tea counter, waiting boat workers, weather cover and narrow access between land and water. The scene combines repair labor and social exchange."
     },
     "LOC-013": {
       "canonical_sources": ["canon/city/07-government-granaries-gates-and-three-warehouses.md"],
+      "composition_profile_id": "SCN-CIVIC-OPERATIONS",
       "master_description": "A Linan city-administration work hall with bounded public duty tables, shift plaques, seal and count surfaces, queues, storage shelves, rain or fire tools and controlled but usable entrances. Bureaucratic work appears as finite human procedure across a civic duty hall."
     },
     "LOC-014": {
       "canonical_sources": ["canon/city/07-government-granaries-gates-and-three-warehouses.md"],
+      "composition_profile_id": "SCN-CIVIC-OPERATIONS",
       "master_description": "Three connected grain warehouses with deep timber bays, raised sacks, measured storage lanes, tally and inspection tables, fire-and-water equipment, handlers and a functional cargo route. Warehouse scale stays civic, practical and materially grounded."
     },
     "LOC-015": {
       "canonical_sources": ["canon/city/07-government-granaries-gates-and-three-warehouses.md"],
+      "composition_profile_id": "SCN-BRIDGE-LOCK-GATEWAY",
       "master_description": "A city gate, bridge-lock and inspection point where wooden barriers, bridge rail, water-control hardware, covered checking desk, carriers and waiting travelers create several clear lawful routes. It is a busy civic threshold with grounded administration and travel flow."
     },
     "LOC-016": {
       "canonical_sources": ["canon/city/08-clinic-temple-guesthouse-and-refugee-camp.md"],
+      "composition_profile_id": "SCN-CARE-ROUTE",
       "master_description": "Xiaoji Hall and temple service area with a diagnosis bench, medicine shelves, wash point, porridge distribution, privacy curtain, bedding route and people receiving or giving care. Human circulation, dignity and material hygiene remain visible through active care work."
     },
     "LOC-017": {
       "canonical_sources": ["canon/city/08-clinic-temple-guesthouse-and-refugee-camp.md"],
+      "composition_profile_id": "SCN-GUESTHOUSE-COURTYARD",
       "master_description": "Songfeng guesthouse with a modest courtyard, room thresholds, travel bundles, bedding, wash water, registration or host desk and movable privacy curtains. It carries temporary residence, personal boundaries and ordinary service rather than stylized inn fantasy."
     },
     "LOC-018": {
       "canonical_sources": ["canon/city/08-clinic-temple-guesthouse-and-refugee-camp.md"],
+      "composition_profile_id": "SCN-CARE-ROUTE",
       "master_description": "A south-city resettlement area organized around water point, shelter lanes, bedding, public kitchen, repair materials, information handoff and active residents. Its density and hardship remain dignified, useful and navigable rather than a despair tableau."
     }
   },

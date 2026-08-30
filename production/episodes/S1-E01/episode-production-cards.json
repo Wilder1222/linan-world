@@ -36,7 +36,7 @@
     },
     {
       "path": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md",
-      "sha256": "a9fed3d81bf441dd0030ed4ed2153b23582892e830145a415a12e8d097b4e938"
+      "sha256": "39c5358c5a8df70bbef71e47d44d9ae2a52ec131d9dde3fb53b08b306a9f071d"
     },
     {
       "path": "production/ai/v6-character-asset-bible/02-expression/expression-asset-standard.md",
@@ -48,7 +48,7 @@
     },
     {
       "path": "production/ai/v6-character-asset-bible/04-costume/costume-system-standard.md",
-      "sha256": "80861ac708d71df2c62a27d1f6e2780a6864018fbaa72ba3109ee34f6014ef43"
+      "sha256": "318dd3dbf8bcdca1cf318b0ddb376a743e375fe4d64b79004f62dffd1c8d7130"
     },
     {
       "path": "production/ai/v6-character-asset-bible/06-relationship/relationship-state-standard.md",

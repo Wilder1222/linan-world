@@ -1,11 +1,12 @@
 {
   "catalog_id": "LINAN-VIS-LW-V2-MJ8.2",
-  "generated_on": "2026-08-28",
-  "record_count": 1131,
+  "generated_on": "2026-08-30",
+  "record_count": 1134,
   "family_counts": {
     "background-archetype": 300,
     "character": 171,
     "city-establishing": 3,
+    "costume-validation": 3,
     "episode-shot": 54,
     "location": 126,
     "prop-evidence": 12,
@@ -41,6 +42,7 @@
     "BLOCKED_UNTIL_EPISODE_GATE": 90,
     "BLOCKED_UNTIL_IDENTITY_SELECTION_AND_EPISODE_GATE": 136,
     "BLOCKED_UNTIL_MICROCHAPTER_BINDING": 300,
+    "READY_FOR_USER_COSTUME_VALIDATION": 3,
     "READY_FOR_V2_CITY_ESTABLISHING_CALIBRATION": 3,
     "READY_FOR_V2_LOCATION_CALIBRATION": 126,
     "READY_FOR_V2_MASTER_REFERENCE_SELECTION": 12,

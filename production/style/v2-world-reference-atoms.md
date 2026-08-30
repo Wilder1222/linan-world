@@ -63,8 +63,12 @@ warm late-afternoon sunlight through a lattice, a soft reflected glow from pale 
 **MJ 方向短语**
 
 ```text
-a cinematic New Song historical romance still, a beautiful actor integrated into a dense lantern-lit Linan street, ivory silk curtains and dark cinnabar timber framing the near foreground, warm paper-lantern pools against muted blue-hour distance, hand-finished embroidered silk catching real candle reflections, occupied bridges, balconies and market circulation receding into depth
+a cinematic Chinese historical romance still, a beautiful actor integrated into a dense lantern-lit Linan street, ivory silk curtains and dark cinnabar timber framing the near foreground, warm paper-lantern pools against muted blue-hour distance, hand-finished embroidered silk catching real candle reflections, occupied bridges, balconies and market circulation receding into depth
 ```
+
+### 3.3 服装参考的项目化转译
+
+人物参考中的浅色轻纱、灰蓝内层、局部深色织锦、窄金线和细密花枝工艺，应按 [V2 服装构造标准](v2-costume-construction-standard.md) 编译为“内层结构 → 中层主色 → 场景允许的外层薄纱 → 一处集中精工 → 小面积受光饰物”。这是一套可分配给香铺、春台、码头、官署和日常社交的构造语法，不是一件全员复用的象牙白礼服。
 
 ## 4. 城市类：水城要“大、密、活”，而不是古镇背景板
 
@@ -89,6 +93,18 @@ wide cinematic establishing view of a prosperous Southern Song Linan water-capit
 
 ```text
 an environmental character portrait above a dense working night market, the performer at the right third beside a silk curtain and carved railing, full layered costume readable, a real lantern city and moving market activity below, city light reflecting softly on silk and hair
+```
+
+### 4.3 街级水岸市集：密度、关口与纵深
+
+水城总览之外，还需要人走进城市后的街级观察。有效的结构不是单纯增加“古镇”“市集”名词，而是：近景一组正在使用的货物、器具或篷布建立尺度；中景以门槛、转角、桥、登船口或服务台形成可通行的视觉关口；远景以连续屋檐、工作岸线、公共建筑或水陆路线说明这座城仍向外延伸。
+
+- 道具必须按准备、服务、储存、搬运或通行分组，形成有组织的生活密度。
+- 关口只在地点真实存在时出现；桥、水道、船只和远处高台不能被当作所有临安地点的默认装饰。
+- 清晰日光、树影、篷布过滤光和水面/浅墙反射可共同塑造白日层次；空气透视只服务远近关系，不能遮盖路径和劳动。
+
+```text
+at human height, a dense working Linan market route with a close functional prop cluster, one visible service or carrying action, a usable middle-ground gateway, connected roofs and civic scale receding through a passable water-and-land circulation system
 ```
 
 ## 5. 劳动与材料类：漂亮不等于脱离生活

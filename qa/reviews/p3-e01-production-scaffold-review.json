@@ -1,25 +1,19 @@
 {
   "schema_version": 1,
-  "status": "OPEN",
+  "status": "REVIEWED-P3-SCAFFOLD-PASS",
   "scope": "P3-02 S1-E01 deterministic production-card scaffold review",
   "episode_id": "S1-E01",
   "chapter_total": 18,
   "checks": {
     "cards_complete_and_ordered": true,
     "canonical_pov_identity": true,
-    "source_manifest_current": false,
+    "source_manifest_current": true,
     "cineweave_hard_controls_block": true,
     "external_execution_blocked": true,
     "ten_dimension_qa_pending": true,
     "deferred_episode_boundary_preserved": true
   },
-  "findings": [
-    {
-      "code": "source_manifest_stale_or_missing",
-      "severity": "BLOCKING",
-      "path": "production/ai/v6-character-asset-bible/01-character-bible/12-central-character-master-cards.md"
-    }
-  ],
+  "findings": [],
   "deferred_followup": [
     "逐章正式对白、场景切分与 Blocking/Storyboard 仍需在 Episode Gate 完成。",
     "活动与幽默只绑定到 E01 级输入，具体场次与反应顺序仍需 Episode Gate 决定。",

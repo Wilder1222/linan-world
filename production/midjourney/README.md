@@ -9,6 +9,7 @@
 - [机器可读资产目录](v2-asset-prompt-catalog.json)：每条资产的 Canon 快照、V2 路线、状态、参数与验收条件。
 - [资产盘点合同](v2-asset-prompt-inventory.json)：每一个目标恰有一条活跃提示词记录。
 - [V2 风格包](../style/README.md)：都市华美宋韵的语义、华丽度预算和参考图政策。
+- [女性人像 MJ 提示词编译器](v2/female-portrait-prompt-builder.md)：参考锁定、变量卡、单变量测试与可复制的女性肖像探索模板。
 
 迁移前的提示词正文已从工作树移除；如需审计旧版本，请查阅 Git 历史，绝不能将其作为当前生成命令、参考图槽位或视觉基线。
 

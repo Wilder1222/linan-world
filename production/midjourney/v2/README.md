@@ -1,10 +1,10 @@
 # 《临安春信》V2 Midjourney 8.2 全量资产提示词
 
-> Catalog: `LINAN-VIS-LW-V2-MJ8.2` · 1131 resolved prompt records · generated 2026-08-28.
+> Catalog: `LINAN-VIS-LW-V2-MJ8.2` · 1134 resolved prompt records · generated 2026-08-30.
 
 This is the V2-only source of active Midjourney prompts. It contains complete V8.2 parameter strings for every declared target in the coverage contract; it does not treat an unbound reference image or a range template as a production prompt.
 
-Every narrative prompt uses the active cinematic New Song visual grammar: motivated daylight or practical lantern light, physical silk/paper/wood/water response, readable working depth and controlled optical softness. Technical continuity tasks deliberately retain clean neutral presentation.
+Every narrative prompt uses the active cinematic historical-romance visual grammar: motivated daylight or practical lantern light, physical silk/paper/wood/water response, readable working depth and controlled optical softness. Location, city-establishing and relevant calibration records also carry a resolved scene-composition profile that preserves Canon geography. Technical continuity tasks deliberately retain clean neutral presentation.
 
 ## Start here: central master-reference selection
 
@@ -15,6 +15,7 @@ Run only the twelve `ID-001` prompts in [core-master-reference](core-master-refe
 - background-archetype: 300
 - character: 171
 - city-establishing: 3
+- costume-validation: 3
 - episode-shot: 54
 - location: 126
 - prop-evidence: 12
@@ -30,6 +31,7 @@ Run only the twelve `ID-001` prompts in [core-master-reference](core-master-refe
 - [background-archetype](prompts/background-archetype.md)
 - [character](prompts/character.md)
 - [city-establishing](prompts/city-establishing.md)
+- [costume-validation](prompts/costume-validation.md)
 - [episode-shot](prompts/episode-shot.md)
 - [location](prompts/location.md)
 - [prop-evidence](prompts/prop-evidence.md)

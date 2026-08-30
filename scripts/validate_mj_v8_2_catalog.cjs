@@ -21,6 +21,8 @@ function count(records, predicate) { return records.filter(predicate).length; }
 const catalog = json(CATALOG_PATH);
 const inventory = json(INVENTORY_PATH);
 const records = catalog.records || [];
+const worldVisualRegistry = json('production/style/v2-world-asset-visual-registry.json');
+const sceneCompositionProfiles = worldVisualRegistry.scene_composition_profiles || {};
 
 if (catalog.catalog_id !== 'LINAN-VIS-LW-V2-MJ8.2') error('catalog_id', `Unexpected catalog id ${catalog.catalog_id}`);
 if (catalog.style_contract !== 'VIS-LW-V2') error('style_contract', 'Catalog is not bound to VIS-LW-V2.');
@@ -36,11 +38,37 @@ const positiveProseNegativePattern = /\b(?:no|not|never|without)\b|do not/i;
 const directCjkPattern = /[\u3400-\u9fff]/;
 const requiredV2AuthorityPaths = new Set([
   'production/style/v2-urban-splendor-song-style-package.md',
+  'production/style/v2-scene-composition-standard.md',
+  'production/style/v2-costume-construction-standard.md',
   'production/style/v2-visual-qa.md',
   'production/style/v2-reference-policy.md',
   'production/style/v2-world-reference-atoms.md',
   'production/style/v2-world-asset-visual-registry.json'
 ]);
+const requiredSceneCompositionProfiles = new Set([
+  'SCN-LANE-COMMERCE',
+  'SCN-WORKSHOP-THRESHOLD',
+  'SCN-CIVIC-AVENUE',
+  'SCN-LANTERN-MARKET',
+  'SCN-PERFORMANCE-SERVICE',
+  'SCN-WATERFRONT-HOSPITALITY',
+  'SCN-HOSPITALITY-PASSAGE',
+  'SCN-WATERFRONT-LOGISTICS',
+  'SCN-VESSEL-DECK',
+  'SCN-CIVIC-OPERATIONS',
+  'SCN-BRIDGE-LOCK-GATEWAY',
+  'SCN-CARE-ROUTE',
+  'SCN-GUESTHOUSE-COURTYARD',
+  'SCN-STREET-LEVEL-WATER-MARKET',
+  'SCN-WATER-CAPITAL-ESTABLISHING'
+]);
+
+for (const profileId of requiredSceneCompositionProfiles) {
+  const profile = sceneCompositionProfiles[profileId];
+  if (!profile?.prompt_block || !Array.isArray(profile.acceptance_checks) || profile.acceptance_checks.length === 0) {
+    error('scene_composition_profile_missing', profileId);
+  }
+}
 
 for (const record of records) {
   if (promptIds.has(record.prompt_id)) error('duplicate_prompt_id', record.prompt_id);
@@ -183,11 +211,29 @@ if (locationIds.length !== 18) error('location_registry_count', String(locationI
 for (const id of locationIds) {
   if (!records.some((record) => record.target_key === `LOCATION:${id}:MASTER`)) error('required_target_missing', `LOCATION:${id}:MASTER`);
   for (let i = 1; i <= 6; i += 1) if (!records.some((record) => record.target_key === `LOCATION:${id}:S${i}`)) error('required_target_missing', `LOCATION:${id}:S${i}`);
+  const design = worldVisualRegistry.locations?.[id];
+  const profileId = design?.composition_profile_id;
+  if (!profileId || !sceneCompositionProfiles[profileId]) error('location_scene_composition_binding_missing', id);
+  for (const record of records.filter((entry) => entry.family === 'location' && entry.target?.stable_id === id)) {
+    if (record.facts_snapshot?.composition_profile_id !== profileId) {
+      error('location_scene_composition_snapshot_mismatch', record.prompt_id);
+    }
+  }
 }
 if (count(records, (record) => record.family === 'location') !== 126) error('location_coverage_count', String(count(records, (record) => record.family === 'location')));
 if (count(records, (record) => record.family === 'city-establishing') !== 3) error('city_establishing_coverage_count', String(count(records, (record) => record.family === 'city-establishing')));
 for (const cityAsset of ['GOLDEN-WATER-CAPITAL', 'BLUE-HOUR-LANTERN-CITY', 'MORNING-LAKE-AND-MARKET']) {
   if (!records.some((record) => record.target_key === `CITY:LINAN:${cityAsset}`)) error('city_establishing_target_missing', cityAsset);
+}
+for (const record of records.filter((entry) => entry.family === 'city-establishing')) {
+  if (record.facts_snapshot?.composition_profile_id !== 'SCN-WATER-CAPITAL-ESTABLISHING') {
+    error('city_scene_composition_snapshot_mismatch', record.prompt_id);
+  }
+}
+const dayCanal = records.find((record) => record.target_key === 'CALIBRATION:DAY-CANAL');
+if (!dayCanal) error('day_canal_calibration_missing', 'CALIBRATION:DAY-CANAL');
+else if (dayCanal.facts_snapshot?.composition_profile_id !== 'SCN-STREET-LEVEL-WATER-MARKET') {
+  error('day_canal_scene_composition_snapshot_mismatch', dayCanal.prompt_id);
 }
 
 const relationSlots = json('qa/relationship-slots.json');
@@ -223,6 +269,25 @@ for (const asset of shenManifest.assets) {
 }
 if (Object.keys(crosswalk).length !== shenManifest.assets.length) error('shen_manifest_category_count_mismatch', String(Object.keys(crosswalk).length));
 
+const costumeValidationCharacters = ['CHR-L1-01', 'CHR-L1-02', 'CHR-L1-04'];
+for (const characterId of costumeValidationCharacters) {
+  const record = records.find((entry) => entry.target_key === `COSTUME-VALIDATION:${characterId}:001`);
+  if (!record) {
+    error('costume_validation_prompt_missing', characterId);
+    continue;
+  }
+  if (record.family !== 'costume-validation' || record.asset_lane !== 'costume-validation-fullbody') error('costume_validation_lane', record.prompt_id);
+  if (record.execution_status !== 'READY_FOR_USER_COSTUME_VALIDATION') error('costume_validation_status', record.prompt_id);
+  if (record.parameters?.raw !== true || record.parameters?.ar !== '2:3') error('costume_validation_parameters', record.prompt_id);
+  const body = record.prompt?.positive || '';
+  for (const phrase of ['crossed-collar', 'fine pores', 'visible', 'studio']) {
+    if (!body.toLowerCase().includes(phrase)) error('costume_validation_visual_detail_missing', `${record.prompt_id}: ${phrase}`);
+  }
+}
+if (count(records, (record) => record.family === 'costume-validation') !== costumeValidationCharacters.length) {
+  error('costume_validation_coverage_count', String(count(records, (record) => record.family === 'costume-validation')));
+}
+
 const ledger = json('story/season/season-causal-ledger.json');
 for (const episode of ledger.episodes) if (!records.some((record) => record.target_key === `EPISODE:${episode.episode_id}:PREMISE-001`)) error('episode_coverage_missing', episode.episode_id);
 if (count(records, (record) => record.family === 'season-episode') !== ledger.episodes.length) error('episode_premise_count', String(count(records, (record) => record.family === 'season-episode')));
@@ -241,6 +306,8 @@ const activeTextPaths = [
   'production/midjourney/v2/README.md',
   'production/style/README.md',
   'production/style/v2-urban-splendor-song-style-package.md',
+  'production/style/v2-scene-composition-standard.md',
+  'production/style/v2-costume-construction-standard.md',
   'production/style/v2-visual-qa.md',
   'production/style/v2-reference-policy.md',
   'production/style/v2-world-reference-atoms.md',

@@ -5,8 +5,12 @@
 ## 活跃文件
 
 - [V2 风格包](v2-urban-splendor-song-style-package.md)：城市、人物、服装、材质、光线与三条视觉路线。
+- [V2 服装构造标准](v2-costume-construction-standard.md)：所有人物的层次、材质、精工预算、职业适配与 C01–C10 服装升级规则。
 - [参考图政策](v2-reference-policy.md)：用户参考仅作设计期证据，禁止自动外传或未授权复用。
 - [世界参考图视觉原子库](v2-world-reference-atoms.md)：按人物、夜城、水城、劳动材料、春台和情绪镜头拆解可迁移的提示词方向。
+- [女性人像参考锁定与编译规范](v2-female-portrait-reference-lock.md)：把女性人像参考的可迁移 DNA、角色变量、CineWeave 分工与 MJ 单变量探索收束为可审计工作流。
+- [女性人像参考图原子观察账本](v2-female-portrait-reference-observations.md)：九张实际参考图的匿名哈希、逐图可见证据、R01–R04 档案及 V2 转译/排除边界。
+- [场景构图与世界空间标准](v2-scene-composition-standard.md)：把地点固定事实、状态、前中后景、可读动线与道具密度分层编译为可选构图档案。
 - [视觉 QA](v2-visual-qa.md)：风格校准、人物连续性和交付前检查。
 - [地点与物证 V2 视觉绑定](v2-world-asset-visual-registry.json)：只由 Canon 和当前 V2 生产资料驱动的地点/道具描述，不使用历史提示词正文。
 - [全量 Midjourney 8.2 资产库](../midjourney/v2/README.md)：把本风格包编译成逐资产的完整提示词。

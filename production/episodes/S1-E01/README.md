@@ -1,16 +1,10 @@
-# S1-E01 生产包（P3-02 → P3-03）
+# S1-E01 生产卡（P3-02）
 
-本目录是 Episode Gate 前的确定性生产卡与正式交付预审稿，不是最终成片。
+本目录是 Episode Gate 前的确定性生产卡，不是最终剧本或成片。
 
 - `episode-production-cards.json`：18 个微短章的机器可读生产卡。
 - 每卡包含 Character State、Emotion & Action、Relationship Delta、Continuity Ledger、CineWeave Production 控制与十项 QA 占位。
-- `episode-formal-delivery.json`：P3-03 汇总包，包含 18 个正式剧本场景、54 个草案镜头和 18 条连续性记录。
-- `script-scenes.json`：逐章对白与动作第一版；`storyboard.json`：Blocking/Storyboard 草案；`continuity-ledger.json`：人物知识、道具、空间与关系连续性。
-- U/BG 绑定与最终生成仍保持 `DEFERRED-UNTIL-EPISODE-GATE`；十项 QA 仍为 `PENDING`（阈值 90）。
+- 最终对白、镜头 ID、活动/幽默的具体场次、U/BG 绑定均保持 `DEFERRED-UNTIL-EPISODE-GATE`。
 - 未调用任何外部生成服务；能力、版权和输出回执未解析前，外部执行保持阻断。
 
-预审：`qa/reviews/p3-e01-formal-preflight-review.json` 为 `REVIEWED-P3-PREFLIGHT-PASS`。
-
-Episode Gate 设计评分：`qa/reviews/p3-e01-episode-gate-review.json`；审计：`qa/reviews/p3-e01-episode-gate-audit.json`。九项设计 QA 均≥90，AIGC 稳定性仍待媒体证据，人工签字仍为 `REQUIRED`，最终决议保持 `HOLD-OPEN-DEFERRED`。
-
-下一步：进入人工 Episode Gate，逐章评分十项 QA；未通过前不生成 U/BG、不调用外部 provider、不推进 E02/E03。
+下一步：逐章补正式场景与对白，完成 blocking/storyboard/AIGC 资产绑定，再运行 Episode Gate。

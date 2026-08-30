@@ -91,6 +91,8 @@ class V2MidjourneyPromptCatalogTests(unittest.TestCase):
         )
         required = {
             "production/style/v2-urban-splendor-song-style-package.md",
+            "production/style/v2-scene-composition-standard.md",
+            "production/style/v2-costume-construction-standard.md",
             "production/style/v2-visual-qa.md",
             "production/style/v2-reference-policy.md",
             "production/style/v2-world-reference-atoms.md",
@@ -100,6 +102,109 @@ class V2MidjourneyPromptCatalogTests(unittest.TestCase):
             authority_paths = {entry["path"] for entry in record["authority_refs"]}
             self.assertTrue(required.issubset(authority_paths), record["prompt_id"])
             self.assertFalse(any("/archive/" in path for path in authority_paths))
+
+    def test_scene_composition_profiles_bind_location_city_and_calibration_records(self) -> None:
+        registry = json.loads(
+            (ROOT / "production/style/v2-world-asset-visual-registry.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        profiles = registry["scene_composition_profiles"]
+        self.assertIn("SCN-STREET-LEVEL-WATER-MARKET", profiles)
+        self.assertIn("SCN-WATER-CAPITAL-ESTABLISHING", profiles)
+        for profile_id, profile in profiles.items():
+            self.assertTrue(profile["prompt_block"], profile_id)
+            self.assertTrue(profile["acceptance_checks"], profile_id)
+
+        catalog = json.loads(
+            (ROOT / "production/midjourney/v2-asset-prompt-catalog.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        records = catalog["records"]
+        for location_id, design in registry["locations"].items():
+            profile_id = design["composition_profile_id"]
+            self.assertIn(profile_id, profiles, location_id)
+            location_records = [
+                record
+                for record in records
+                if record["family"] == "location"
+                and record["target"]["stable_id"] == location_id
+            ]
+            self.assertEqual(len(location_records), 7, location_id)
+            self.assertTrue(
+                all(
+                    record["facts_snapshot"].get("composition_profile_id")
+                    == profile_id
+                    for record in location_records
+                ),
+                location_id,
+            )
+
+        day_canal = next(
+            record
+            for record in records
+            if record["target_key"] == "CALIBRATION:DAY-CANAL"
+        )
+        self.assertEqual(
+            day_canal["facts_snapshot"]["composition_profile_id"],
+            "SCN-STREET-LEVEL-WATER-MARKET",
+        )
+        city_records = [
+            record for record in records if record["family"] == "city-establishing"
+        ]
+        self.assertTrue(city_records)
+        self.assertTrue(
+            all(
+                record["facts_snapshot"].get("composition_profile_id")
+                == "SCN-WATER-CAPITAL-ESTABLISHING"
+                for record in city_records
+            )
+        )
+
+    def test_three_costume_validation_prompts_are_ready_and_visually_specific(self) -> None:
+        catalog = json.loads(
+            (ROOT / "production/midjourney/v2-asset-prompt-catalog.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        expected = {
+            "CHR-L1-01": "fragrance-powder traces",
+            "CHR-L1-02": "peacock-ink",
+            "CHR-L1-04": "deck-balance",
+        }
+        records = [
+            record
+            for record in catalog["records"]
+            if record["family"] == "costume-validation"
+        ]
+        self.assertEqual(len(records), len(expected))
+        for character_id, identity_detail in expected.items():
+            record = next(
+                item
+                for item in records
+                if item["target_key"] == f"COSTUME-VALIDATION:{character_id}:001"
+            )
+            self.assertEqual(record["asset_lane"], "costume-validation-fullbody")
+            self.assertEqual(
+                record["execution_status"], "READY_FOR_USER_COSTUME_VALIDATION"
+            )
+            self.assertTrue(record["parameters"]["raw"])
+            self.assertEqual(record["parameters"]["ar"], "2:3")
+            positive = record["prompt"]["positive"]
+            for phrase in (
+                "crossed-collar",
+                "fine pores",
+                "plain",
+                "studio",
+                identity_detail,
+            ):
+                self.assertIn(phrase, positive, record["prompt_id"])
+            self.assertNotRegex(
+                positive,
+                r"\b(?:Shen Heng|Liu Shisi|Pei Jiuniang)\b",
+                record["prompt_id"],
+            )
 
     def test_all_central_characters_have_a_hero_key_art_lane(self) -> None:
         catalog = json.loads(

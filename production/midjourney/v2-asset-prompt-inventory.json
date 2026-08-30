@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "inventory_id": "LINAN-VIS-LW-V2-MJ8.2-ALL-ASSET-INVENTORY",
-  "generated_on": "2026-08-28",
+  "generated_on": "2026-08-30",
   "style_contract": "VIS-LW-V2",
   "model_contract": "Midjourney V8.2",
   "scope_note": "Every current declared asset target is represented by one resolved V2 prompt record. Reserved units, backgrounds, relation snapshots and episode shots are represented as explicit blocked specs rather than falsely claimed as ready-to-generate delivery assets.",
@@ -4233,6 +4233,27 @@
       "family": "city-establishing",
       "asset_lane": "water-city-establishing",
       "execution_status": "READY_FOR_V2_CITY_ESTABLISHING_CALIBRATION"
+    },
+    {
+      "target_key": "COSTUME-VALIDATION:CHR-L1-02:001",
+      "prompt_id": "MJ-V2-COSTUME-VALIDATION-LIU-SHISI-001",
+      "family": "costume-validation",
+      "asset_lane": "costume-validation-fullbody",
+      "execution_status": "READY_FOR_USER_COSTUME_VALIDATION"
+    },
+    {
+      "target_key": "COSTUME-VALIDATION:CHR-L1-04:001",
+      "prompt_id": "MJ-V2-COSTUME-VALIDATION-PEI-JIUNIANG-001",
+      "family": "costume-validation",
+      "asset_lane": "costume-validation-fullbody",
+      "execution_status": "READY_FOR_USER_COSTUME_VALIDATION"
+    },
+    {
+      "target_key": "COSTUME-VALIDATION:CHR-L1-01:001",
+      "prompt_id": "MJ-V2-COSTUME-VALIDATION-SHEN-HENG-001",
+      "family": "costume-validation",
+      "asset_lane": "costume-validation-fullbody",
+      "execution_status": "READY_FOR_USER_COSTUME_VALIDATION"
     },
     {
       "target_key": "LOCATION:LOC-001:MASTER",
