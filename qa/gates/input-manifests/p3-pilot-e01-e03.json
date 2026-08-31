@@ -15,13 +15,13 @@
       "id": "P3-PILOT-01",
       "path": "qa/gates/season-gate.json",
       "mode": "whole_file",
-      "sha256": "069398755ebf43102f0107a66554233ad7aeb67868a3abcf4198f10615bdd380"
+      "sha256": "d0cd0d49c7f39153f588df0b2566e43dd2390a6811ee67508af7d8adfa8cc710"
     },
     {
       "id": "P3-PILOT-02",
       "path": "qa/gates/input-manifests/season.json",
       "mode": "whole_file",
-      "sha256": "2089d7208fe9d0d7453e1e61cebc262fb04c12adc027f1c0c3ef6488a8f461b0"
+      "sha256": "92e9c8fb2da48d1c85f8bc87f1ead94beef2b03108eb6f301c21c239fbf22371"
     },
     {
       "id": "P3-PILOT-03",

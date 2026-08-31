@@ -23,8 +23,8 @@
   },
   "findings": [],
   "deferred_followup": [
-    "SG-03 建立跨层例外账本，处理两份独立审读之间的冲突或明确延期项。",
+    "SG-03 例外账本已建立；后续以 Gate 证书中的延期边界为准。",
     "Episode Gate 再把关系动作、活动状态转移和幽默反应顺序绑定到正式逐场剧本、表演、分镜与 AIGC 资产。",
-    "本报告不锁定最终对白、shot ID、U 唯一身份或 BG 微章 ID；Season Gate 仍保持 OPEN。"
+    "本报告不锁定最终对白、shot ID、U 唯一身份或 BG 微章 ID；Season Gate 决议由独立 Gate 证书维护。"
   ]
 }

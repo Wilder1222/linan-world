@@ -2,7 +2,7 @@
   "schema_version": 1,
   "gate": "season",
   "scope": "season",
-  "created_at": "2026-08-25T16:53:23.940310+00:00",
+  "created_at": "2026-08-31T11:56:49.249693+00:00",
   "items": [
     {
       "id": "SEASON-01",
@@ -120,48 +120,42 @@
     },
     {
       "id": "SEASON-20",
-      "path": "qa/reviews/season-hook-review.json",
-      "mode": "whole_file",
-      "projection_sha256": "f78de90b966d065b683e6bda31adfeb4e8c0c01b5db3bd05bfb2a7f1b68929f7"
-    },
-    {
-      "id": "SEASON-21",
       "path": "qa/reviews/season-u-boundary-review.json",
       "mode": "whole_file",
       "projection_sha256": "1953ef39d2e1822dec480438ee9abd32eba84c063d748919bd9afdb39f111c79"
     },
     {
-      "id": "SEASON-22",
+      "id": "SEASON-21",
       "path": "qa/reviews/season-mystery-review.json",
       "mode": "whole_file",
       "projection_sha256": "834d55a9ec5194c6149e9975618ed2d22cc9324a4c4e14e89812d345008b5553"
     },
     {
-      "id": "SEASON-23",
+      "id": "SEASON-22",
       "path": "qa/reviews/season-activity-review.json",
       "mode": "whole_file",
       "projection_sha256": "f4c2c16f00fe59f8abb3e7eebf917d0a387aeb4274d4bd39225a71c2ad089670"
     },
     {
-      "id": "SEASON-24",
+      "id": "SEASON-23",
       "path": "qa/reviews/season-humor-review.json",
       "mode": "whole_file",
       "projection_sha256": "4472de6f11630f219b9d759493fd4fc4f6686f601c542f09ddd1602f22b808da"
     },
     {
-      "id": "SEASON-25",
+      "id": "SEASON-24",
       "path": "qa/reviews/season-gate-causal-mystery-review.json",
       "mode": "whole_file",
-      "projection_sha256": "7f3dba84ced692341020b3079ca1201520737534f56456c0d2ebc52e85d6efce"
+      "projection_sha256": "9bd59901acc070d54c0a549846896c552a4fd24a4a8cba3075402da7905dc5b8"
+    },
+    {
+      "id": "SEASON-25",
+      "path": "qa/reviews/season-gate-relationship-life-humor-review.json",
+      "mode": "whole_file",
+      "projection_sha256": "5c17f041dadbf1d0397a0bbd3b5b753a6c16aa02dfe3de07cce89dc89b2d8b7d"
     },
     {
       "id": "SEASON-26",
-      "path": "qa/reviews/season-gate-relationship-life-humor-review.json",
-      "mode": "whole_file",
-      "projection_sha256": "48c0f6c86b5bebd471d26b4fdc867a473a9cd95761548c13f51f67ee2e94c88b"
-    },
-    {
-      "id": "SEASON-27",
       "path": "qa/reviews/season-gate-exception-ledger.json",
       "mode": "whole_file",
       "projection_sha256": "cdf2875c1b039453f13954f57ff03de3e720f5d47366c0c662521b8fe4c2698c"

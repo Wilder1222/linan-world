@@ -14,7 +14,6 @@ ROOT = Path(__file__).resolve().parents[1]
 HOOK_PATH = ROOT / "story/season/short-chapter-hook-map.json"
 HOOK_SCHEMA = ROOT / "story/season/short-chapter-hook-map.schema.json"
 REPORT = ROOT / "qa/reviews/season-s2c-review.json"
-HOOK_REPORT = ROOT / "qa/reviews/season-hook-review.json"
 ALL_EPISODES = [f"S1-E{i:02d}" for i in range(1, 37)]
 FUNCTIONS = {"生活入口", "异常进入", "跨过门槛", "职业验证", "生活承载", "第一闭环", "换生活圈", "关系碰撞", "中点改义", "制度/利益反应", "落到具体人", "关系状态变化", "提出方案", "看见代价", "执行", "真相兑现", "伦理决定", "母集闭环"}
 CHAR_IDS = {item["id"] for item in json.loads((ROOT / "qa/character-roster.json").read_text(encoding="utf-8"))["named_characters"]}
@@ -34,7 +33,6 @@ def audit() -> dict:
         report = {"schema_version": 1, "status": "OPEN", "scope": "P2 S2-C review", "findings": findings}
         serialized = json.dumps(report, ensure_ascii=False, indent=2) + "\n"
         REPORT.write_text(serialized, encoding="utf-8")
-        HOOK_REPORT.write_text(serialized, encoding="utf-8")
         return report
     data = json.loads(HOOK_PATH.read_text(encoding="utf-8"))
     entries = data.get("entries", [])
@@ -96,7 +94,6 @@ def audit() -> dict:
     }
     serialized = json.dumps(report, ensure_ascii=False, indent=2) + "\n"
     REPORT.write_text(serialized, encoding="utf-8")
-    HOOK_REPORT.write_text(serialized, encoding="utf-8")
     return report
 
 

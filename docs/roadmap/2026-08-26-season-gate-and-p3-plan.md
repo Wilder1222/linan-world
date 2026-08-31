@@ -1,7 +1,7 @@
 # 《临安春信》Season Gate → P3 试点执行计划
 
-> 版本：2026-08-26
-> 当前阶段：Season Gate `LOCKED`；P3-01 输入冻结通过，P3-02 正在进行 E01 生产卡脚手架与 Episode Gate 准备。
+> 版本：2026-08-31
+> 当前阶段：Season Gate `LOCKED`；P3-01 输入冻结、P3-02 生产卡、P3-03 正式交付预审与 P3-04 设计评分均已完成，E01 Episode Gate 仍 `OPEN`。
 > 目标：先以两份独立审读锁定 Season Canon，再以 E01–E03 验证逐章剧本、表演、连续性与 AIGC 生产链。
 
 ## 一、已锁定基线
@@ -10,7 +10,7 @@
 |---|---|---|
 | P0 Canon | `LOCKED` | 只读使用；不回写世界、时间、机制与历史事实 |
 | P1 Character Foundation | `LOCKED` | 只读使用；不改人物身份、能力与关系事实 |
-| P2 Season | `OPEN` | 完成 Season Gate 双审读；保留 U/BG 的下游边界 |
+| P2 Season | `LOCKED` | Season Gate 已锁定；保留 U/BG 的下游边界 |
 | P3 Episode/AIGC | `OPEN` | Season Gate 关闭后只做 E01–E03 试点，暂不批量扩展 |
 
 现有有效输入：
@@ -50,7 +50,7 @@
 - 无现代词、禁用笑点、活动静态展示或重复状态转移；
 - 不改写 P0/P1 事实，不绑定最终对白、镜头或 BG 微章。
 
-**当前结果（2026-08-26）**：三份全季报告均为 `REVIEWED-SEASON-PASS`，源矩阵已升级为 `SEASON-DRAFT`；36 集因果账本的 36 行状态也统一为 `SEASON-DRAFT`。SG-00 完成，下一步进入 SG-01。
+**当前结果（2026-08-26）**：三份全季报告均为 `REVIEWED-SEASON-PASS`，源矩阵已升级为 `SEASON-DRAFT`；36 集因果账本的 36 行状态也统一为 `SEASON-DRAFT`。SG-00 完成。
 
 ## 三、Season Gate 双重独立审读
 
@@ -73,7 +73,7 @@
 **产物**：`qa/reviews/season-gate-causal-mystery-review.json`。
 **通过线**：阻断项为 0；36/36 集与 648/648 章结构完整；所有发现均已分类为修复、接受或延期。
 
-**当前结果（2026-08-26）**：SG-01 已通过独立机器审读，报告为 `REVIEWED-SEASON-PASS`。36/36 集的中心问题、城市证据、职业动作、关系选择、不可逆代价和尾钩均完整；18/18 条悬疑链均可沿“播种 → 误读 → 复核 → 重义 → 代价”回溯；648/648 章的尾钩、下一追问与每集季账本尾钩已绑定。未发现 BLOCKING 或 MAJOR 项。该报告只关闭 SG-01，不关闭 Season Gate；下一步进入 SG-02。
+**当前结果（2026-08-26）**：SG-01 已通过独立机器审读，报告为 `REVIEWED-SEASON-PASS`。36/36 集的中心问题、城市证据、职业动作、关系选择、不可逆代价和尾钩均完整；18/18 条悬疑链均可沿“播种 → 误读 → 复核 → 重义 → 代价”回溯；648/648 章的尾钩、下一追问与每集季账本尾钩已绑定。未发现 BLOCKING 或 MAJOR 项。该报告覆盖 SG-01，不单独改变 Season Gate 状态。
 
 ### SG-02｜关系、活动、幽默与可替换性审读
 
@@ -92,7 +92,7 @@
 **产物**：`qa/reviews/season-gate-relationship-life-humor-review.json`。
 **通过线**：阻断项为 0；关系/活动/幽默/可替换性均有可追溯证据；BG 边界保持通过。
 
-**当前结果（2026-08-26）**：SG-02 已通过独立机器审读，报告为 `REVIEWED-SEASON-PASS`。17 条关系均有 8 个快照（136 条证据），36 个活动均改变关系或线索并覆盖 36 集，36 个幽默绑定均有角色意图、听者反应、情绪回收与时代转译；120 个 U 槽位仍可替换，300 个 BG 原型仍为 `RESERVED` 且未写入微章/扩展绑定。未发现 BLOCKING 或 MAJOR 项。下一步进入 SG-03 例外合并。
+**当前结果（2026-08-26）**：SG-02 已通过独立机器审读，报告为 `REVIEWED-SEASON-PASS`。17 条关系均有 8 个快照（136 条证据），36 个活动均改变关系或线索并覆盖 36 集，36 个幽默绑定均有角色意图、听者反应、情绪回收与时代转译；120 个 U 槽位仍可替换，300 个 BG 原型仍为 `RESERVED` 且未写入微章/扩展绑定。未发现 BLOCKING 或 MAJOR 项。SG-02 完成。
 
 ### SG-03｜差异合并与例外处理
 
@@ -108,7 +108,7 @@
 **产物**：`qa/reviews/season-gate-exception-ledger.json`。
 **规则**：不得静默覆盖冲突；每条发现必须有来源、责任人、处理结论和下一个 Gate。
 
-**当前结果（2026-08-26）**：SG-03 已完成，例外账本为 `REVIEWED-SEASON-PASS`。两份独立报告均为 `REVIEWED-SEASON-PASS`，没有 BLOCKING/MAJOR/MINOR 未决项；5 条边界项全部明确标记为 `DEFERRED-UNTIL-EPISODE-GATE`，并保留 U 可替换、BG 未绑定和 Season/ Episode 层级边界。下一步进入 SG-04 Season Gate 决议。
+**当前结果（2026-08-26）**：SG-03 已完成，例外账本为 `REVIEWED-SEASON-PASS`。两份独立报告均为 `REVIEWED-SEASON-PASS`，没有 BLOCKING/MAJOR/MINOR 未决项；5 条边界项全部明确标记为 `DEFERRED-UNTIL-EPISODE-GATE`，并保留 U 可替换、BG 未绑定和 Season/ Episode 层级边界。
 
 ### SG-04｜Season Gate 决议
 
@@ -120,13 +120,13 @@
 
 Season Gate 关闭时锁定的是 **Season Canon 与短章节拍**，不是最终对白、分镜或成片；U 只允许进入经审读的候选/替换边界，BG 继续等待 Episode Gate。
 
-**当前结果（2026-08-26）**：SG-04 已完成。`qa/gates/season-gate.json`、`qa/gates/input-manifests/season.json` 与 `qa/gates/scope-definitions/season.json` 已由 `scripts/lock_season_gate.py` 重建并校验；27 个季级输入的哈希一致，`qa/production-status.json` 的 `season_gate` 已锁定为 `LOCKED`。5 条 `DEFERRED-UNTIL-EPISODE-GATE` 边界仍被明确保留，Episode Gate 仍为 `OPEN`。
+**当前结果（2026-08-31）**：SG-04 已完成。`qa/gates/season-gate.json`、`qa/gates/input-manifests/season.json` 与 `qa/gates/scope-definitions/season.json` 已由 `scripts/lock_season_gate.py` 重建并校验；26 个季级输入的哈希一致，`qa/production-status.json` 的 `season_gate` 已锁定为 `LOCKED`。5 条 `DEFERRED-UNTIL-EPISODE-GATE` 边界仍被明确保留，Episode Gate 仍为 `OPEN`。
 
-**P3-01 当前结果（2026-08-26）**：`scripts/prepare_p3_pilot_inputs.py` 已冻结 E01–E03 的 54 个短章与 21 个输入文件，报告 `qa/reviews/p3-pilot-input-freeze-review.json` 为 `REVIEWED-P3-INPUT-PASS`；已纳入 v6 角色资产规范，明确排除用户本地 `production/assets/` 与 `raw/`。最终对白、shot ID、U 唯一身份和 BG 绑定继续延期到 Episode Gate。另发现并修复 648 章 POV 显示名与角色主表不一致的问题：由 `scripts/materialize_season_s2c.py` 统一从 `qa/character-roster.json` 规范化显示名，并重新签发 Season Gate 与 P3 输入哈希。下一步进入 P3-02 E01 逐章生产。
+**P3-01 当前结果（2026-08-26）**：`scripts/prepare_p3_pilot_inputs.py` 已冻结 E01–E03 的 54 个短章与 21 个输入文件，报告 `qa/reviews/p3-pilot-input-freeze-review.json` 为 `REVIEWED-P3-INPUT-PASS`；已纳入 v6 角色资产规范，明确排除用户本地 `production/assets/` 与 `raw/`。最终对白、shot ID、U 唯一身份和 BG 绑定继续延期到 Episode Gate。另发现并修复 648 章 POV 显示名与角色主表不一致的问题：由 `scripts/materialize_season_s2c.py` 统一从 `qa/character-roster.json` 规范化显示名，并重新签发 Season Gate 与 P3 输入哈希。P3-01 完成。
 
-**P3-02 当前结果（2026-08-26）**：新增 `production/episodes/S1-E01/episode-production-cards.json` 与 `scripts/materialize_p3_e01_production.py`，已将 E01 的 18 个微短章编译为确定性生产卡；每卡包含 Character State、Emotion/Action、Relationship Delta、Continuity Ledger、CineWeave 生产控制、证据/版权/能力门槛和十项 Episode Gate QA 占位。`qa/reviews/p3-e01-production-scaffold-review.json` 为 `REVIEWED-P3-SCAFFOLD-PASS`；未调用外部生成服务，最终对白、镜头、活动/幽默具体场次、U/BG 绑定仍保持 `DEFERRED-UNTIL-EPISODE-GATE`。下一步是正式逐章剧本、Blocking/Storyboard 与资产绑定。
+**P3-02 当前结果（2026-08-26）**：新增 `production/episodes/S1-E01/episode-production-cards.json` 与 `scripts/materialize_p3_e01_production.py`，已将 E01 的 18 个微短章编译为确定性生产卡；每卡包含 Character State、Emotion/Action、Relationship Delta、Continuity Ledger、CineWeave 生产控制、证据/版权/能力门槛和十项 Episode Gate QA 占位。`qa/reviews/p3-e01-production-scaffold-review.json` 为 `REVIEWED-P3-SCAFFOLD-PASS`；未调用外部生成服务，最终对白、镜头、活动/幽默具体场次、U/BG 绑定仍保持 `DEFERRED-UNTIL-EPISODE-GATE`。P3-02 完成，正式逐章剧本、Blocking/Storyboard 与连续性账本已由 P3-03 产出。
 
-**P3-03 当前结果（2026-08-26）**：新增 `scripts/materialize_p3_e01_formal_delivery.py`、`scripts/audit_p3_e01_formal_delivery.py` 与 `tests/test_p3_e01_formal_delivery.py`，已将 E01 18 个微短章推进为正式剧本第一版、逐章 Blocking/Storyboard 草案与连续性账本：18 个场景、54 个草案镜头、18 条连续性记录。`qa/reviews/p3-e01-formal-preflight-review.json` 为 `REVIEWED-P3-PREFLIGHT-PASS`；脚本无镜头指令泄漏，镜头轴/物理光源/时间事件/稳定结束态均有绑定，来源哈希一致，provider calls 为 0。Episode Gate 仍为 `OPEN`，十项 QA（阈值 90）保持 `PENDING`，U/BG 与最终生成继续延期。
+**P3-03 当前结果（2026-08-26）**：新增 `scripts/materialize_p3_e01_formal_delivery.py`、`scripts/audit_p3_e01_formal_delivery.py` 与 `tests/test_p3_e01_formal_delivery.py`，已将 E01 18 个微短章推进为正式剧本第一版、逐章 Blocking/Storyboard 草案与连续性账本：18 个场景、54 个草案镜头、18 条连续性记录。`qa/reviews/p3-e01-formal-preflight-review.json` 为 `REVIEWED-P3-PREFLIGHT-PASS`；脚本无镜头指令泄漏，镜头轴/物理光源/时间事件/稳定结束态均有绑定，来源哈希一致，provider calls 为 0。Episode Gate 仍为 `OPEN`，十项 QA（阈值 90）保持 `PENDING`，U/BG 与最终生成继续延期；P3-03 完成。
 
 **P3-04 当前结果（2026-08-26）**：补齐 54 个草案镜头的机位位置、高度、角度、焦段、透视意图、焦点与景深字段后，新增 `scripts/materialize_p3_e01_episode_gate.py`、`scripts/audit_p3_e01_episode_gate.py` 与 `tests/test_p3_e01_episode_gate.py`。九项设计层 QA 均达到 90 以上（最低 91），`aigc_stability` 明确标为 `DEFERRED-EVIDENCE-REQUIRED`；`qa/reviews/p3-e01-episode-gate-review.json` 与 `qa/reviews/p3-e01-episode-gate-audit.json` 均为 `REVIEWED-P3-DESIGN-GATE-PASS`。这不是最终 Episode Gate 通过：人工逐章签字、fixture/dry-run 或可验证媒体证据仍缺失，Episode Gate 保持 `OPEN`，E02/E03 不提前启动。
 

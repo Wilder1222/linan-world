@@ -313,9 +313,9 @@ def audit() -> dict:
         },
         "findings": findings,
         "deferred_followup": [
-            "SG-02 继续独立审读关系、宋代活动、幽默与 U/BG 可替换边界；本报告不替代该审读。",
+            "SG-02 已独立完成；本报告不替代其关系、宋代活动、幽默与 U/BG 可替换边界结论。",
             "Episode Gate 再把每章目标/阻力/选择与正式逐场剧本、表演、分镜、AIGC 资产和连续性账本绑定。",
-            "本报告不锁定最终对白、shot ID、U 唯一身份或 BG 微章 ID；Season Gate 仍保持 OPEN。",
+            "本报告不锁定最终对白、shot ID、U 唯一身份或 BG 微章 ID；Season Gate 决议由独立 Gate 证书维护。",
         ],
     }
     REVIEW.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

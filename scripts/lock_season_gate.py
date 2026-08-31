@@ -15,7 +15,6 @@ STATUS_PATH = ROOT / "qa/production-status.json"
 REQUIRED_REPORTS = [
     "qa/reviews/season-causal-ledger-review.json",
     "qa/reviews/season-s2c-review.json",
-    "qa/reviews/season-hook-review.json",
     "qa/reviews/season-u-boundary-review.json",
     "qa/reviews/season-mystery-review.json",
     "qa/reviews/season-activity-review.json",

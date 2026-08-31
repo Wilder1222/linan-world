@@ -32,8 +32,7 @@
     "SEASON-23",
     "SEASON-24",
     "SEASON-25",
-    "SEASON-26",
-    "SEASON-27"
+    "SEASON-26"
   ],
   "items": [
     {
@@ -133,41 +132,36 @@
     },
     {
       "id": "SEASON-20",
-      "path": "qa/reviews/season-hook-review.json",
-      "mode": "whole_file"
-    },
-    {
-      "id": "SEASON-21",
       "path": "qa/reviews/season-u-boundary-review.json",
       "mode": "whole_file"
     },
     {
-      "id": "SEASON-22",
+      "id": "SEASON-21",
       "path": "qa/reviews/season-mystery-review.json",
       "mode": "whole_file"
     },
     {
-      "id": "SEASON-23",
+      "id": "SEASON-22",
       "path": "qa/reviews/season-activity-review.json",
       "mode": "whole_file"
     },
     {
-      "id": "SEASON-24",
+      "id": "SEASON-23",
       "path": "qa/reviews/season-humor-review.json",
       "mode": "whole_file"
     },
     {
-      "id": "SEASON-25",
+      "id": "SEASON-24",
       "path": "qa/reviews/season-gate-causal-mystery-review.json",
       "mode": "whole_file"
     },
     {
-      "id": "SEASON-26",
+      "id": "SEASON-25",
       "path": "qa/reviews/season-gate-relationship-life-humor-review.json",
       "mode": "whole_file"
     },
     {
-      "id": "SEASON-27",
+      "id": "SEASON-26",
       "path": "qa/reviews/season-gate-exception-ledger.json",
       "mode": "whole_file"
     }
